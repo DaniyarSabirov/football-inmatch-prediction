@@ -1,0 +1,2 @@
+# Install the package and its research and test dependencies from pyproject.toml.
+-e .[research,test]
