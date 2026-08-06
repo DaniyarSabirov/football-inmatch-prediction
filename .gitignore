@@ -50,3 +50,8 @@ results/metrics/*
 !results/figures/.gitkeep
 !results/tables/.gitkeep
 !results/metrics/.gitkeep
+
+# Visualization outputs generated directly in results/
+results/*.gif
+results/*.png
+results/*.csv
