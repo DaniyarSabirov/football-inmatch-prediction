@@ -25,6 +25,57 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Circle, Patch, Polygon, Rectangle
 from PIL import Image
 
+try:
+    # Flat sibling import: how this module sees it when run directly as a
+    # script (e.g. `python src/animate_statsbomb_360_match.py`), which puts
+    # this file's own directory (src/) at sys.path[0].
+    from orientation_correction import (
+        ORIENTATION_NORMAL,
+        ORIENTATION_ROTATED_180,
+        ORIENTATION_UNCERTAIN,
+        OrientationResult,
+        apply_correction,
+        classify_orientations_for_match,
+    )
+    from team_normalization import (
+        TEAM_NORMALIZATION_MIRRORED,
+        TEAM_NORMALIZATION_REFERENCE,
+        apply_team_normalization_to_event,
+        apply_team_normalization_to_frame,
+        resolve_reference_team_id,
+    )
+    from team_identity import (
+        TEAM_IDENTITY_AMBIGUOUS,
+        SharedGroupInfo,
+        detect_shared_cross_team_snapshots,
+        resolve_absolute_team_for_point,
+    )
+except ImportError:
+    # Package-style import: how this module sees it when run as
+    # `python -m src.animate_statsbomb_360_match` from the project root,
+    # which puts the project root (not src/) at sys.path[0].
+    from src.orientation_correction import (
+        ORIENTATION_NORMAL,
+        ORIENTATION_ROTATED_180,
+        ORIENTATION_UNCERTAIN,
+        OrientationResult,
+        apply_correction,
+        classify_orientations_for_match,
+    )
+    from src.team_normalization import (
+        TEAM_NORMALIZATION_MIRRORED,
+        TEAM_NORMALIZATION_REFERENCE,
+        apply_team_normalization_to_event,
+        apply_team_normalization_to_frame,
+        resolve_reference_team_id,
+    )
+    from src.team_identity import (
+        TEAM_IDENTITY_AMBIGUOUS,
+        SharedGroupInfo,
+        detect_shared_cross_team_snapshots,
+        resolve_absolute_team_for_point,
+    )
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 STATSBOMB_DATA_DIR = PROJECT_ROOT / "data" / "raw" / "statsbomb" / "data"
 DEFAULT_MATCH_ID = 3902240
@@ -149,6 +200,7 @@ class VisualTheme:
     camera_alpha: float
     default_team_one: str
     default_team_two: str
+    ambiguous_fill: str
 
 
 THEMES = {
@@ -171,6 +223,7 @@ THEMES = {
         camera_alpha=0.13,
         default_team_one="#27A7E8",
         default_team_two="#FF5A5F",
+        ambiguous_fill="#8A8F94",
     ),
     "light": VisualTheme(
         name="light",
@@ -191,6 +244,7 @@ THEMES = {
         camera_alpha=0.20,
         default_team_one="#2474B5",
         default_team_two="#D64545",
+        ambiguous_fill="#9AA0A6",
     ),
 }
 
@@ -494,6 +548,167 @@ def load_and_join_match(match_id: int) -> MatchFrames:
         usable_count=len(usable),
         usable_frames=usable,
     )
+
+
+def compute_orientation_results(match: MatchFrames) -> list[OrientationResult]:
+    """Classify every usable 360 snapshot's orientation, in chronological order.
+
+    Uses src/orientation_correction.py -- the single source of truth shared
+    with the dataset builder -- so visualization and dataset generation apply
+    identical logic.
+    """
+    frames = match.usable_frames
+    events = [joined.event for joined in frames]
+    frames_360 = [joined.frame_360 for joined in frames]
+    timestamps = [timestamp_seconds(event.get("timestamp")) for event in events]
+    periods = [integer_event_field(event, "period") for event in events]
+    return classify_orientations_for_match(events, frames_360, timestamps, periods)
+
+
+def apply_orientation_correction_to_match(
+    match: MatchFrames, orientation_results: list[OrientationResult]
+) -> MatchFrames:
+    """Correct every usable 360 snapshot using its precomputed classification.
+
+    NORMAL and UNCERTAIN frames pass through unchanged; for a ROTATED_180
+    frame, the ENTIRE snapshot (every freeze_frame player, including
+    actor/goalkeeper points, plus the visible_area polygon) is rotated
+    together, never a single point in isolation.
+    """
+    corrected_frames = [
+        JoinedFrame(
+            event=joined.event,
+            frame_360=apply_correction(joined.frame_360, result.orientation),
+        )
+        for joined, result in zip(match.usable_frames, orientation_results)
+    ]
+    return MatchFrames(
+        event_path=match.event_path,
+        three_sixty_path=match.three_sixty_path,
+        event_count=match.event_count,
+        three_sixty_count=match.three_sixty_count,
+        matched_count=match.matched_count,
+        usable_count=match.usable_count,
+        usable_frames=corrected_frames,
+    )
+
+
+def summarize_orientation_results(orientation_results: list[OrientationResult]) -> dict[str, int]:
+    """Count how many frames fell into each orientation category."""
+    counts = {ORIENTATION_NORMAL: 0, ORIENTATION_ROTATED_180: 0, ORIENTATION_UNCERTAIN: 0}
+    for result in orientation_results:
+        counts[result.orientation] += 1
+    return counts
+
+
+def apply_team_normalization_to_match(match: MatchFrames, reference_team_id: int) -> MatchFrames:
+    """Place both teams' events onto one shared pitch coordinate system (Problem B).
+
+    Independent of, and applied AFTER, apply_orientation_correction_to_match
+    (Problem A) -- see src/team_normalization.py for the forensic evidence.
+    Problem A asks whether one event's own freeze_frame agrees with its own
+    event.location; this asks a different question -- whether two different
+    teams' events sit on the same coordinate scale. Every event belonging to
+    the non-reference team has its event.location (and end_location), every
+    freeze_frame player, and visible_area mirrored together; the reference
+    team's events are returned unchanged.
+    """
+    normalized_frames = [
+        JoinedFrame(
+            event=apply_team_normalization_to_event(joined.event, reference_team_id),
+            frame_360=apply_team_normalization_to_frame(
+                joined.frame_360, joined.event, reference_team_id
+            ),
+        )
+        for joined in match.usable_frames
+    ]
+    return MatchFrames(
+        event_path=match.event_path,
+        three_sixty_path=match.three_sixty_path,
+        event_count=match.event_count,
+        three_sixty_count=match.three_sixty_count,
+        matched_count=match.matched_count,
+        usable_count=match.usable_count,
+        usable_frames=normalized_frames,
+    )
+
+
+def summarize_team_normalization(match: MatchFrames, reference_team_id: int) -> dict[str, int]:
+    """Count how many usable frames belong to the reference vs. mirrored team."""
+    counts = {TEAM_NORMALIZATION_REFERENCE: 0, TEAM_NORMALIZATION_MIRRORED: 0}
+    for joined in match.usable_frames:
+        team = joined.event.get("team")
+        team_id = team.get("id") if isinstance(team, dict) else None
+        key = TEAM_NORMALIZATION_REFERENCE if team_id == reference_team_id else TEAM_NORMALIZATION_MIRRORED
+        counts[key] += 1
+    return counts
+
+
+def compute_shared_group_info(match: MatchFrames) -> dict[str, SharedGroupInfo]:
+    """Detect shared cross-team 360 snapshots (Problem C) on the RAW match.
+
+    Must run on `match` BEFORE Problem A or Problem B correction is applied
+    -- see src/team_identity.py. Returns a mapping from event_id to
+    SharedGroupInfo for every event whose raw snapshot is shared with at
+    least one other team's event; events not part of such a group are
+    simply absent from the result (callers should treat a missing key as
+    "not shared").
+    """
+    events = [joined.event for joined in match.usable_frames]
+    frames_by_event_id = {joined.event["id"]: joined.frame_360 for joined in match.usable_frames}
+    return detect_shared_cross_team_snapshots(events, frames_by_event_id)
+
+
+def summarize_team_identity_points(
+    frames: list[JoinedFrame],
+    shared_group_by_event_id: dict[str, SharedGroupInfo],
+    raw_events_by_id: dict[str, dict[str, Any]],
+    team_style: TeamStyle,
+) -> dict[str, int]:
+    """Count every freeze_frame point across `frames` by resolved absolute
+    team (team_one/team_two) or AMBIGUOUS, using the same resolution the
+    renderer uses when --apply-team-identity-resolution is set.
+    """
+    team_names = (team_style.team_one, team_style.team_two)
+    counts = {team_style.team_one: 0, team_style.team_two: 0, TEAM_IDENTITY_AMBIGUOUS: 0}
+    for joined in frames:
+        shared_group_info = shared_group_by_event_id.get(joined.event["id"])
+        for player in joined.frame_360.get("freeze_frame", []):
+            if not isinstance(player, dict):
+                continue
+            player_team = resolve_absolute_team_for_point(
+                player, joined.event, shared_group_info, raw_events_by_id, team_names
+            )
+            counts[player_team] = counts.get(player_team, 0) + 1
+    return counts
+
+
+def summarize_team_identity(
+    match: MatchFrames, shared_group_by_event_id: dict[str, SharedGroupInfo]
+) -> dict[str, int]:
+    """Report Problem C coverage: how many usable frames are shared, and of
+    those, how many have a confidently-identified source vs. remain
+    ambiguous.
+    """
+    total_frames = len(match.usable_frames)
+    shared_frames = 0
+    recoverable_frames = 0
+    ambiguous_frames = 0
+    for joined in match.usable_frames:
+        info = shared_group_by_event_id.get(joined.event["id"])
+        if info is None:
+            continue
+        shared_frames += 1
+        if info.source_event_id is not None:
+            recoverable_frames += 1
+        else:
+            ambiguous_frames += 1
+    return {
+        "total_frames": total_frames,
+        "shared_frames": shared_frames,
+        "recoverable_frames": recoverable_frames,
+        "ambiguous_frames": ambiguous_frames,
+    }
 
 
 def integer_event_field(event: dict[str, Any], field: str) -> int:
@@ -1030,8 +1245,19 @@ def render_event_frame(
     theme: VisualTheme,
     show_timing_debug: bool = False,
     highlight_goalkeepers: bool = False,
+    shared_group_by_event_id: dict[str, SharedGroupInfo] | None = None,
+    raw_events_by_id: dict[str, dict[str, Any]] | None = None,
 ) -> None:
-    """Render one actual StatsBomb 360 event freeze frame."""
+    """Render one actual StatsBomb 360 event freeze frame.
+
+    `shared_group_by_event_id`/`raw_events_by_id` are Problem C's inputs
+    (see src/team_identity.py): when provided, each non-actor point's
+    absolute team is resolved via `resolve_absolute_team_for_point` instead
+    of the plain teammate-relative-to-this-event logic, which is only
+    reliable when the frame's raw 360 snapshot isn't shared with a
+    different team's event. Coordinates are never touched by this; it only
+    changes which color a point is drawn with.
+    """
     ax.clear()
     draw_pitch(ax, theme)
     frame = joined.frame_360
@@ -1051,9 +1277,12 @@ def render_event_frame(
             )
         )
 
-    event_team = nested_name(joined.event, "team")
-    opponent_team = team_style.opponent_of(event_team)
+    team_names = (team_style.team_one, team_style.team_two)
+    shared_group_info = (
+        shared_group_by_event_id.get(joined.event["id"]) if shared_group_by_event_id is not None else None
+    )
     player_groups: dict[tuple[str, bool, bool], list[tuple[float, float]]] = {}
+    has_ambiguous_point = False
 
     # Freeze-frame points lack reliable IDs for non-actors, so no identities,
     # labels, trails, nearest-neighbour matching, or tracking are invented.
@@ -1063,13 +1292,21 @@ def render_event_frame(
         location = coordinate_pair(player.get("location"))
         if location is None:
             continue
-        player_team = event_team if player.get("teammate") is True else opponent_team
+        if raw_events_by_id is not None:
+            player_team = resolve_absolute_team_for_point(
+                player, joined.event, shared_group_info, raw_events_by_id, team_names
+            )
+        else:
+            event_team = nested_name(joined.event, "team")
+            player_team = event_team if player.get("teammate") is True else team_style.opponent_of(event_team)
+        if player_team == TEAM_IDENTITY_AMBIGUOUS:
+            has_ambiguous_point = True
         key = (player_team, player.get("keeper") is True, player.get("actor") is True)
         player_groups.setdefault(key, []).append(location)
 
     for (player_team, is_keeper, is_actor), locations in player_groups.items():
         x, y = zip(*locations)
-        color = team_style.color_for(player_team)
+        color = theme.ambiguous_fill if player_team == TEAM_IDENTITY_AMBIGUOUS else team_style.color_for(player_team)
         ax.scatter(
             x,
             y,
@@ -1217,6 +1454,15 @@ def render_event_frame(
                 label="Visible camera area",
             )
         )
+    if has_ambiguous_point:
+        legend_handles.append(
+            Line2D(
+                [0], [0], marker="o", color="none",
+                markerfacecolor=theme.ambiguous_fill,
+                markeredgecolor=theme.marker_edge, markeredgewidth=1.2,
+                markersize=8.5, label="Team unclear (shared 360 snapshot)",
+            )
+        )
     visible_x = [
         location[0]
         for locations in player_groups.values()
@@ -1253,6 +1499,9 @@ def default_output_path(
     selection: EventSelection,
     theme: str,
     timing_mode: str,
+    orientation_corrected: bool = False,
+    team_normalized: bool = False,
+    team_identity_resolved: bool = False,
 ) -> Path:
     """Return a generic selection-aware GIF path under results."""
     if selection.mode == "all-events":
@@ -1263,11 +1512,16 @@ def default_output_path(
         start = f"{selection.interval_start:g}".replace(".", "p")
         end = f"{selection.interval_end:g}".replace(".", "p")
         selection_slug = f"period_{selection.period}_seconds_{start}_{end}"
+    suffix = (
+        ("_oriented" if orientation_corrected else "")
+        + ("_teamnorm" if team_normalized else "")
+        + ("_teamid" if team_identity_resolved else "")
+    )
     return (
         PROJECT_ROOT
         / "results"
         / f"statsbomb_360_match_{match_id}_{selection_slug}_{theme}_"
-        f"{timing_mode_slug(timing_mode)}.gif"
+        f"{timing_mode_slug(timing_mode)}{suffix}.gif"
     )
 
 
@@ -1296,6 +1550,8 @@ def save_static_test_frame(
     theme: VisualTheme | None = None,
     show_timing_debug: bool = False,
     highlight_goalkeepers: bool = False,
+    shared_group_by_event_id: dict[str, SharedGroupInfo] | None = None,
+    raw_events_by_id: dict[str, dict[str, Any]] | None = None,
 ) -> Path:
     """Render and save the first selected event as a structural test image."""
     test_frame_path = static_test_frame_path(output_path)
@@ -1319,6 +1575,8 @@ def save_static_test_frame(
             theme,
             show_timing_debug,
             highlight_goalkeepers,
+            shared_group_by_event_id,
+            raw_events_by_id,
         )
         figure.savefig(
             test_frame_path, dpi=150, facecolor=theme.figure_background
@@ -1796,6 +2054,8 @@ def save_animation(
     theme: VisualTheme | None = None,
     show_timing_debug: bool = False,
     highlight_goalkeepers: bool = False,
+    shared_group_by_event_id: dict[str, SharedGroupInfo] | None = None,
+    raw_events_by_id: dict[str, dict[str, Any]] | None = None,
 ) -> Path:
     """Save one animation frame per actual event, without interpolation."""
     if frame_duration_ms <= 0:
@@ -1833,6 +2093,8 @@ def save_animation(
             theme,
             show_timing_debug,
             highlight_goalkeepers,
+            shared_group_by_event_id,
+            raw_events_by_id,
         )
         return ()
 
@@ -1991,7 +2253,7 @@ def build_argument_parser() -> argparse.ArgumentParser:
         "--frame-duration-ms", type=int, default=DEFAULT_FRAME_DURATION_MS
     )
     parser.add_argument(
-        "--timing-mode", choices=("fixed", "real-time"), default="fixed"
+        "--timing-mode", choices=("fixed", "real-time"), default="real-time"
     )
     parser.add_argument(
         "--show-timing-debug",
@@ -2035,6 +2297,49 @@ def build_argument_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Add a contrasting ring around rendered goalkeeper diamonds.",
     )
+    parser.add_argument(
+        "--apply-orientation-correction",
+        action="store_true",
+        help=(
+            "Correct StatsBomb 360 snapshots recorded 180 degrees rotated "
+            "relative to their own event location (see "
+            "src/orientation_correction.py for the detection method and "
+            "forensic evidence). Off by default so existing and corrected "
+            "output can be compared side by side."
+        ),
+    )
+    parser.add_argument(
+        "--apply-team-normalization",
+        action="store_true",
+        help=(
+            "Place both teams' events onto one shared pitch coordinate "
+            "system: raw StatsBomb coordinates encode each team's own "
+            "attack direction as increasing x, so two teams' events are "
+            "never on the same scale without this (see "
+            "src/team_normalization.py for the forensic evidence). "
+            "Independent of --apply-orientation-correction. Off by default "
+            "so existing and normalized output can be compared side by "
+            "side."
+        ),
+    )
+    parser.add_argument(
+        "--apply-team-identity-resolution",
+        action="store_true",
+        help=(
+            "Resolve each non-actor freeze_frame player's ABSOLUTE team "
+            "(fixed color for the whole match) instead of the raw "
+            "teammate-relative-to-this-event reading, which is unreliable "
+            "when StatsBomb reuses one 360 snapshot across events owned by "
+            "different teams (see src/team_identity.py for the forensic "
+            "evidence). Never changes coordinates, never touches the "
+            "actor (always colored by its own event.team). Points whose "
+            "absolute team cannot be determined are drawn in a distinct "
+            "neutral color rather than guessed. Independent of "
+            "--apply-orientation-correction and --apply-team-normalization. "
+            "Off by default so existing and resolved output can be "
+            "compared side by side."
+        ),
+    )
     parser.add_argument("--event-frame-manifest", type=Path)
     parser.add_argument("--timing-csv", type=Path)
     parser.add_argument("--timing-plot", type=Path)
@@ -2077,6 +2382,29 @@ def main() -> int:
             args.match_date,
         )
         match = load_and_join_match(match_id)
+        # Step 1 (Problem A): is each event's own freeze_frame internally
+        # consistent with its own event.location? Unchanged from before.
+        orientation_results = compute_orientation_results(match)
+        orientation_summary = summarize_orientation_results(orientation_results)
+        # Problem C (rendering-only; a third, independent question -- "which
+        # ABSOLUTE team does this point belong to?" -- answered on the RAW,
+        # pre-Problem-A match, since Problem A's own correction can make two
+        # originally shared/identical snapshots diverge). See
+        # src/team_identity.py. Never touches coordinates.
+        shared_group_by_event_id = compute_shared_group_info(match)
+        raw_events_by_id = {joined.event["id"]: joined.event for joined in match.usable_frames}
+        team_identity_summary = summarize_team_identity(match, shared_group_by_event_id)
+        if args.apply_orientation_correction:
+            match = apply_orientation_correction_to_match(match, orientation_results)
+        # Step 2 (Problem B, independent question, applied after Step 1):
+        # which of the two teams' coordinate conventions do we standardize
+        # on? See src/team_normalization.py.
+        reference_team_id = resolve_reference_team_id(
+            [joined.event for joined in match.usable_frames]
+        )
+        team_normalization_summary = summarize_team_normalization(match, reference_team_id)
+        if args.apply_team_normalization:
+            match = apply_team_normalization_to_match(match, reference_team_id)
         if (args.all_events or args.all_period_events) and (
             args.start_minute is not None or args.end_minute is not None
         ):
@@ -2156,7 +2484,13 @@ def main() -> int:
     print(f"Last selected event timestamp: {selected[-1].event.get('timestamp')}")
 
     output_path = args.output or default_output_path(
-        match_id, selection, theme.name, args.timing_mode
+        match_id,
+        selection,
+        theme.name,
+        args.timing_mode,
+        args.apply_orientation_correction,
+        args.apply_team_normalization,
+        args.apply_team_identity_resolution,
     )
     if not output_path.is_absolute():
         output_path = PROJECT_ROOT / output_path
@@ -2169,6 +2503,10 @@ def main() -> int:
     timing_csv_path = resolve_optional_path(args.timing_csv)
     timing_plot_path = resolve_optional_path(args.timing_plot)
     manifest_path = resolve_optional_path(args.event_frame_manifest)
+    render_shared_group_by_event_id = (
+        shared_group_by_event_id if args.apply_team_identity_resolution else None
+    )
+    render_raw_events_by_id = raw_events_by_id if args.apply_team_identity_resolution else None
     try:
         if timing_csv_path is not None:
             export_timing_csv(
@@ -2202,6 +2540,8 @@ def main() -> int:
             theme,
             args.show_timing_debug,
             args.highlight_goalkeepers,
+            render_shared_group_by_event_id,
+            render_raw_events_by_id,
         )
         summary = summarize_segment(selected)
         animation_path = save_animation(
@@ -2217,6 +2557,8 @@ def main() -> int:
             theme,
             args.show_timing_debug,
             args.highlight_goalkeepers,
+            render_shared_group_by_event_id,
+            render_raw_events_by_id,
         )
     except VisualizationError as error:
         print(f"Error: {error}", file=sys.stderr)
@@ -2233,6 +2575,49 @@ def main() -> int:
     print(f"Three-sixty records: {match.three_sixty_count}")
     print(f"Successfully matched records: {match.matched_count}")
     print(f"Usable freeze frames: {match.usable_count}")
+    print(
+        "Orientation classification (all usable freeze frames; see "
+        "src/orientation_correction.py): "
+        f"NORMAL={orientation_summary[ORIENTATION_NORMAL]} "
+        f"ROTATED_180={orientation_summary[ORIENTATION_ROTATED_180]} "
+        f"UNCERTAIN={orientation_summary[ORIENTATION_UNCERTAIN]}"
+    )
+    print(
+        "Orientation correction applied to rendering: "
+        f"{'yes' if args.apply_orientation_correction else 'no (use --apply-orientation-correction)'}"
+    )
+    print(
+        "Team normalization (all usable freeze frames; see "
+        "src/team_normalization.py): "
+        f"reference_team_id={reference_team_id} "
+        f"REFERENCE={team_normalization_summary[TEAM_NORMALIZATION_REFERENCE]} "
+        f"MIRRORED={team_normalization_summary[TEAM_NORMALIZATION_MIRRORED]}"
+    )
+    print(
+        "Team normalization applied to rendering: "
+        f"{'yes' if args.apply_team_normalization else 'no (use --apply-team-normalization)'}"
+    )
+    print(
+        "Team identity resolution (all usable freeze frames; see "
+        "src/team_identity.py): "
+        f"total={team_identity_summary['total_frames']} "
+        f"shared={team_identity_summary['shared_frames']} "
+        f"recoverable={team_identity_summary['recoverable_frames']} "
+        f"ambiguous={team_identity_summary['ambiguous_frames']}"
+    )
+    selection_point_counts = summarize_team_identity_points(
+        selected, shared_group_by_event_id, raw_events_by_id, team_style
+    )
+    print(
+        "Team identity point counts for the selected/rendered frames: "
+        f"{team_style.team_one}={selection_point_counts[team_style.team_one]} "
+        f"{team_style.team_two}={selection_point_counts[team_style.team_two]} "
+        f"AMBIGUOUS={selection_point_counts[TEAM_IDENTITY_AMBIGUOUS]}"
+    )
+    print(
+        "Team identity resolution applied to rendering: "
+        f"{'yes' if args.apply_team_identity_resolution else 'no (use --apply-team-identity-resolution)'}"
+    )
     print(f"Timing mode: {args.timing_mode}")
     print("Temporal density (actual event-based freeze frames):")
     print(f"  Reporting span: {density.requested_seconds:.3f} match seconds")

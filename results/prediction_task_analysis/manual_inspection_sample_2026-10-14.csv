@@ -1,0 +1,29 @@
+match_id,current_event_id,current_event_type,current_team,period,timestamp,next_event_id,next_event_type,next_team,time_to_next_event_seconds,same_team,same_possession,next_has_360,actor_ambiguous,visible_ambiguous,orientation
+3764440,12b18927-521f-4150-a91c-a62c19c0e5bc,Shot,Elche,2,00:04:24.651,a9d980c9-05e4-4a1d-bdc4-d759fd81204f,Pass,Barcelona,12.941,False,False,False,False,0,NORMAL
+3764440,03a98f79-2b57-492e-8bbc-ef03494d0871,Dribble,Barcelona,1,00:03:38.679,f2e108a6-37ae-41e8-b87a-17b62b566a77,Carry,Barcelona,0.0,True,True,True,False,0,NORMAL
+3764661,337828fd-2afd-4453-ae1a-f3b207041281,Miscontrol,Athletic Club,2,00:28:54.427,f145824c-89f3-487a-88ab-1a2139a9ed43,Pass,Barcelona,45.916,False,False,True,False,0,NORMAL
+3773372,5781d0a2-ecad-49c9-aec9-19bbc06c6648,Ball Recovery,Barcelona,1,00:45:29.403,c65bca9d-73bb-4b12-9d47-cf47c02e4cf1,Carry,Barcelona,0.0,True,True,False,False,0,NORMAL
+3773372,f491764d-dba5-4b9e-a9a1-aaa3879cd38f,Clearance,Atlético Madrid,2,00:00:13.842,83a38bb3-d430-44ef-bb02-010cff4bb9de,Pass,Atlético Madrid,1.402,True,True,False,False,0,NORMAL
+3764440,0b7b2d94-9c97-4dab-8073-3d39f5cb5199,Clearance,Elche,1,00:06:22.651,686a4f48-9a0b-4a8c-96df-938f5adbc5cc,Pass,Barcelona,10.599,False,False,True,False,0,NORMAL
+3773387,3b59e2a8-6a9b-4e45-95ce-15855a8a1bb4,Ball Recovery,Barcelona,2,00:13:35.620,ef34738e-c1df-415f-8106-797eefb73e86,Pass,Barcelona,18.043,True,True,False,False,0,NORMAL
+3773372,28ffb41a-6163-492a-be1c-60d396795362,Miscontrol,Atlético Madrid,1,00:04:51.519,6f276636-35ce-449f-9557-0ecacf1348a3,Ball Recovery,Barcelona,1.294,False,False,False,False,0,NORMAL
+3764440,212b7233-6376-4ed1-bd69-5b83e9ed5a45,Carry,Elche,2,00:18:35.773,c7ecffc3-287a-4757-8881-296e4b749e55,Pass,Elche,46.933,True,False,True,False,0,NORMAL
+3764440,ad9c28cf-cf87-46ed-9ab4-dba4d334bb5d,Miscontrol,Barcelona,2,00:43:53.710,aa32445b-07d6-4e83-8811-c739ec2a3483,Pass,Elche,16.721,False,False,False,False,0,NORMAL
+3773523,dd38e8d0-9b16-4fab-813f-c14183a7b4d4,Miscontrol,Real Sociedad,2,00:42:05.630,00ce53bb-5ae7-4a0f-9470-ecbd05727b9b,Pass,Real Sociedad,34.145,True,False,True,False,0,NORMAL
+3764440,3398090d-adf6-425b-9791-69a4590b9862,Ball Recovery,Barcelona,2,00:33:20.625,54b66949-f80b-4665-a7da-d5386391e2ce,Ball Recovery,Elche,1.481,False,True,True,False,0,NORMAL
+3773403,76c3e19c-55e4-4366-8a11-56f5795c1ea1,Dribble,Barcelona,1,00:09:30.417,c3cef083-c832-4ef4-87aa-5ea0bce688f2,Clearance,Athletic Club,2.059,False,True,False,False,0,NORMAL
+3764440,0b91d4bd-c6a4-449f-9a55-a60154b0e778,Pass,Elche,1,00:08:09.068,c19b9ddc-176f-423a-9841-7da9188aac11,Pass,Barcelona,12.0,False,False,True,False,0,NORMAL
+3764440,c222d8d7-69d2-4fb7-b4f4-8a0792471af4,Dribble,Barcelona,1,00:03:16.218,d656f675-5cca-4839-bb8f-f57e0061a09e,Pass,Barcelona,11.731,True,False,True,False,0,ROTATED_180
+3773386,e8bf334b-5fec-46e5-b422-1c8528d81a47,Shot,Barcelona,2,00:19:34.950,2542ce6b-4077-4b45-b74e-b146ff7fcabc,Pass,Barcelona,9.55,True,False,False,False,0,NORMAL
+3764440,df294a3e-38cd-4056-bc0e-14c026f99374,Dribble,Elche,1,00:12:14.379,6a0632ec-9ed1-4035-98a4-c50b892e516d,Pass,Elche,27.178,True,False,False,False,0,ROTATED_180
+3773372,aee36dc9-bf52-44eb-ac9a-0f13324f6388,Dispossessed,Barcelona,2,00:46:14.891,ad135f6d-6f40-4a9d-aba2-ceb8ccaea832,Pass,Barcelona,4.363,True,False,False,False,0,ROTATED_180
+3788773,fbaa3467-fccb-4646-9c2c-b5f562e84834,Miscontrol,Portugal,1,00:03:03.242,f2c7fcc2-78c7-4352-8594-ee2d945df548,Ball Recovery,Portugal,2.899,True,True,False,False,0,NORMAL
+3764440,0608bf6a-0910-44b8-b1e0-47bd5732ad1c,Clearance,Elche,1,00:37:28.998,ee986a68-dfa2-4b47-bcdd-74372ae92d57,Clearance,Barcelona,3.561,False,True,True,False,0,NORMAL
+3773377,1cea3389-9162-4c93-8628-6df151a798ad,Dribble,Barcelona,2,00:26:56.705,62bba38c-de69-42c0-9fc2-0271f5d0df25,Pass,Barcelona,6.017,True,False,True,False,0,ROTATED_180
+3764440,105802ea-9b51-4555-b42a-269d49b67981,Pass,Elche,2,00:20:01.367,893f9d85-1681-4622-aac9-e612cc863aa7,Pass,Barcelona,12.825,False,False,False,False,0,NORMAL
+3773369,27973a40-4fb8-4838-81f2-198a669c3e57,Dispossessed,Huesca,2,00:32:48.516,42af1f6a-2c1d-49ee-bef7-f76a0c61792c,Clearance,Huesca,1.212,True,True,False,False,0,ROTATED_180
+3773386,c60e395a-a13f-4ece-b384-ffe686118665,Clearance,Barcelona,1,00:37:24.117,efdc399b-6c33-4c5e-8279-c8b7e09ddfed,Ball Recovery,Deportivo Alavés,1.728,False,True,False,False,0,NORMAL
+3773369,cd9e6aa7-86c4-4699-8508-9b279c069b9d,Pass,Barcelona,2,00:13:15.755,58de48a7-955a-4eea-81d8-61d5352231f3,Carry,Huesca,0.243,False,False,False,False,0,NORMAL
+3764440,acec67c5-30bf-479c-989a-10e643f537f0,Miscontrol,Elche,1,00:12:42.823,51baab2c-33d9-47eb-a747-2dd513a8f320,Pass,Elche,3.029,True,True,True,False,0,NORMAL
+3773369,05e8d78a-28f4-48c6-b80c-89913ceb521a,Shot,Barcelona,1,00:32:29.785,c16a90af-cf53-493e-86ae-33e2c5d03cb7,Ball Recovery,Barcelona,3.787,True,True,True,False,0,NORMAL
+3764440,9607b68b-a0b0-41a4-99e8-e5be5ffd58ae,Ball Recovery,Elche,2,00:36:47.744,43f3f633-2a9f-403c-8534-88a2723f250a,Ball Recovery,Barcelona,0.535,False,True,False,False,0,NORMAL

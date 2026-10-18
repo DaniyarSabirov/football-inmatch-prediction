@@ -1,0 +1,77 @@
+{
+  "_comment": "Single source of truth for StatsBomb matches explicitly excluded from processing. Read by src/match_exclusions.py; consumed by src/build_statsbomb_360_dataset.py and scripts/audit_dataset.py. Each entry must document match_id, reason, file, evidence, date_investigated, and report so the exclusion is independently verifiable, not just asserted.",
+  "excluded_matches": [
+    {
+      "match_id": 3845506,
+      "reason": "corrupted_three_sixty_json",
+      "file": "data/raw/statsbomb/data/three-sixty/3845506.json",
+      "evidence": "json.JSONDecodeError: Expecting ',' delimiter: line 92794 column 3 (char 2637824). Root cause confirmed via byte-level scan: a single, isolated 16,384-byte (exactly one storage block) run of NUL (0x00) bytes overwrites real JSON content inside one freeze_frame record, splitting the token \"false\" into \"fa\"+NULs+\"lse\". Scanned all 4,661 raw JSON files in the project (4,235 events.json + 426 three-sixty.json); this is the only file containing any NUL byte. The sibling events.json for this match (2,700,919 bytes) parses successfully (3,095 records) -- only the three-sixty file is affected. No safe recovery is possible without inventing the lost content; a string-literal-aware top-level-record extraction recovers 2,761/2,762 other records independently, but the record overlapping the corruption is permanently lost.",
+      "date_investigated": "2026-10-13",
+      "report": "docs/data_quality_investigation_2026-10-13.md"
+    },
+    {
+      "match_id": 3923880,
+      "reason": "insufficient_three_sixty_coverage_for_team_reference_resolution",
+      "file": "data/raw/statsbomb/data/three-sixty/3923880.json",
+      "evidence": "File is valid, well-formed JSON (1,962 bytes, exactly 1 record) -- NOT corrupted. The single record correctly joins to a real event (event_uuid 7cc66fb5-4f8f-448a-8e70-e863dd24217f, a Pass by Congo DR) in the match's otherwise-normal 3,374-event events.json (period 1/2/5, i.e. this match went to penalties). However, this is 1/3,374 events (0.03%) of 360 coverage, versus a typical match's ~85%, and the ONE covered event belongs to only one of the two teams (team_id 4881). src/team_normalization.py::resolve_reference_team_id requires at least one 360-matched event from EACH team to pick a reference team; with only one team represented, it raises ValueError('Expected exactly two team ids in events, found [4881].'). Reproduced directly via build_match_dataset(match_id=3923880, maximum_time_difference=10.0) (unconditional failure -- this function always calls resolve_reference_team_id) and via src/animate_statsbomb_360_match.py's main() with --apply-team-normalization (same underlying function, same error). This is a genuine, reproducible processing failure caused by sparse source data, not a judgment call based on file size alone.",
+      "date_investigated": "2026-10-13",
+      "report": "docs/supervisor_data_quality_summary_2026-10-13.md"
+    },
+    {
+      "match_id": 3837706,
+      "reason": "three_sixty_event_uuid_mismatch",
+      "file": "data/raw/statsbomb/data/three-sixty/3837706.json",
+      "evidence": "Both events.json (4,026 records) and three-sixty.json (3,548 records) are normal-sized, well-formed JSON -- NOT corrupted or sparse. However, the two files share ZERO event ids in common: {e['id'] for e in events} & {fr['event_uuid'] for fr in frames} has 0 elements. The three-sixty file's event_uuids (e.g. 988ae44f-1ad4-44b6-8ae7-f58a29787e4e) do not appear in ANY events.json file across the entire project (scanned all 4,235 files) -- this three-sixty file's content does not describe this match's (or any other locally-available match's) events at all. Reproduced directly via build_match_dataset(match_id=3837706, maximum_time_difference=10.0): ordered_events (the 360-matched subset) is empty, so resolve_reference_team_id raises ValueError('Expected exactly two team ids in events, found [].'). Discovered 2026-10-14 while building the full next-event dataset across all previously-'successfully-processed' matches for the prediction-task feasibility study -- invisible to the prior audit (scripts/audit_dataset.py), which only aggregates matched_pairs as a dataset-wide sum and never checks per-match whether that count is zero.",
+      "date_investigated": "2026-10-14",
+      "report": "docs/prediction_task_feasibility_2026-10-14.md"
+    },
+    {
+      "match_id": 3877115,
+      "reason": "three_sixty_event_uuid_mismatch",
+      "file": "data/raw/statsbomb/data/three-sixty/3877115.json",
+      "evidence": "Same root cause and verification method as match 3837706 (see that entry): events.json (4,138 records) and three-sixty.json (3,808 records) share 0 event ids in common. resolve_reference_team_id raises ValueError('Expected exactly two team ids in events, found [].') via build_match_dataset.",
+      "date_investigated": "2026-10-14",
+      "report": "docs/prediction_task_feasibility_2026-10-14.md"
+    },
+    {
+      "match_id": 3877170,
+      "reason": "three_sixty_event_uuid_mismatch",
+      "file": "data/raw/statsbomb/data/three-sixty/3877170.json",
+      "evidence": "Same root cause and verification method as match 3837706 (see that entry): events.json (3,467 records) and three-sixty.json (3,097 records) share 0 event ids in common. resolve_reference_team_id raises ValueError('Expected exactly two team ids in events, found [].') via build_match_dataset.",
+      "date_investigated": "2026-10-14",
+      "report": "docs/prediction_task_feasibility_2026-10-14.md"
+    },
+    {
+      "match_id": 3877194,
+      "reason": "three_sixty_event_uuid_mismatch",
+      "file": "data/raw/statsbomb/data/three-sixty/3877194.json",
+      "evidence": "Same root cause and verification method as match 3837706 (see that entry): events.json (3,552 records) and three-sixty.json (3,174 records) share 0 event ids in common. resolve_reference_team_id raises ValueError('Expected exactly two team ids in events, found [].') via build_match_dataset.",
+      "date_investigated": "2026-10-14",
+      "report": "docs/prediction_task_feasibility_2026-10-14.md"
+    },
+    {
+      "match_id": 3895158,
+      "reason": "three_sixty_event_uuid_mismatch",
+      "file": "data/raw/statsbomb/data/three-sixty/3895158.json",
+      "evidence": "Same root cause and verification method as match 3837706 (see that entry): events.json (3,866 records) and three-sixty.json (3,318 records) share 0 event ids in common. resolve_reference_team_id raises ValueError('Expected exactly two team ids in events, found [].') via build_match_dataset.",
+      "date_investigated": "2026-10-14",
+      "report": "docs/prediction_task_feasibility_2026-10-14.md"
+    },
+    {
+      "match_id": 3895266,
+      "reason": "three_sixty_event_uuid_mismatch",
+      "file": "data/raw/statsbomb/data/three-sixty/3895266.json",
+      "evidence": "Same root cause and verification method as match 3837706 (see that entry): events.json (4,104 records) and three-sixty.json (3,615 records) share 0 event ids in common. resolve_reference_team_id raises ValueError('Expected exactly two team ids in events, found [].') via build_match_dataset.",
+      "date_investigated": "2026-10-14",
+      "report": "docs/prediction_task_feasibility_2026-10-14.md"
+    },
+    {
+      "match_id": 3895309,
+      "reason": "three_sixty_event_uuid_mismatch",
+      "file": "data/raw/statsbomb/data/three-sixty/3895309.json",
+      "evidence": "Same root cause and verification method as match 3837706 (see that entry): events.json (3,890 records) and three-sixty.json (3,280 records) share 0 event ids in common. resolve_reference_team_id raises ValueError('Expected exactly two team ids in events, found [].') via build_match_dataset.",
+      "date_investigated": "2026-10-14",
+      "report": "docs/prediction_task_feasibility_2026-10-14.md"
+    }
+  ]
+}
