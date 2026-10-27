@@ -1,0 +1,15 @@
+Zero-actor frames: 0
+Multiple-actor frames: 5
+
+
+MULTI ACTOR match=3773477 event=49e3ba44-0b26-4a81-8721-dcc7f4f3831e  type=Pass team=Barcelona actor_locations=[[120.0, 80.0], [120.00077511694286, 80.0]] max_pairwise_distance=0.0008 within_tolerance(1.0)=True
+MULTI ACTOR match=3773477 event=a5656e1f-5667-481b-ae92-9650166046bd  type=Block team=Real Betis actor_locations=[[1.100000023841858, 39.400001525878906], [1.100000023841858, 39.400001525878906]] max_pairwise_distance=0.0000 within_tolerance(1.0)=True
+MULTI ACTOR match=3773477 event=68022eee-fd76-432d-8330-6ad4df35eb5e  type=Ball Receipt* team=Barcelona actor_locations=[[41.099998474121094, 7.800000190734863], [41.099998474121094, 7.800000190734863]] max_pairwise_distance=0.0000 within_tolerance(1.0)=True
+MULTI ACTOR match=3773477 event=284b4d1b-eb30-449c-998e-7defb031bfca  type=Ball Recovery team=Real Betis actor_locations=[[41.099998474121094, 7.800000190734863], [41.099998474121094, 7.800000190734863]] max_pairwise_distance=0.0000 within_tolerance(1.0)=True
+MULTI ACTOR match=3773477 event=aa92e1df-6e83-4e8a-a16b-3ebf1f8af911  type=Carry team=Real Betis actor_locations=[[41.099998474121094, 7.800000190734863], [41.099998474121094, 7.800000190734863]] max_pairwise_distance=0.0000 within_tolerance(1.0)=True
+
+case match=3773477 event=49e3ba44-0b26-4a81-8721-dcc7f4f3831e: builder actor_x=120.0 actor_y=80.0 actor_ambiguous=False; shared=False
+case match=3773477 event=a5656e1f-5667-481b-ae92-9650166046bd: builder actor_x=1.100000023841858 actor_y=39.400001525878906 actor_ambiguous=False; shared=False
+case match=3773477 event=68022eee-fd76-432d-8330-6ad4df35eb5e: builder actor_x=41.099998474121094 actor_y=7.800000190734863 actor_ambiguous=False; shared=True
+case match=3773477 event=284b4d1b-eb30-449c-998e-7defb031bfca: builder actor_x=41.099998474121094 actor_y=7.800000190734863 actor_ambiguous=False; shared=True
+case match=3773477 event=aa92e1df-6e83-4e8a-a16b-3ebf1f8af911: builder actor_x=41.099998474121094 actor_y=7.800000190734863 actor_ambiguous=False; shared=True

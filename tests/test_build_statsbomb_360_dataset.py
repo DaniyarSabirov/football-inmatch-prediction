@@ -266,6 +266,7 @@ def test_actor_location_extracted_from_freeze_frame_actor_point() -> None:
         _event("e2", 2, "Carry", HOME, "00:00:02.000"),
         filler_event,
     ]
+    events[0]["location"] = [33.0, 21.0]  # lets the snapshot's orientation be established
     frames = {
         "e1": _frame("e1", actor_location=(33.0, 21.0)),
         "e2": _frame("e2"),
@@ -273,8 +274,28 @@ def test_actor_location_extracted_from_freeze_frame_actor_point() -> None:
     }
     rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
     row = next(r for r in rows if r["current_event_id"] == "e1")
+    assert row["orientation_available"] is True
     assert row["actor_x"] == pytest.approx(33.0)
     assert row["actor_y"] == pytest.approx(21.0)
+
+
+def test_actor_location_unavailable_when_orientation_cannot_be_established_causally() -> None:
+    """No event location -> the snapshot's frame is unknown at prediction
+    time: the feature columns report the actor position as unavailable
+    rather than guessing; the offline diagnostics keep the raw reading."""
+    filler_event, filler_frame = _away_filler()
+    events = [
+        _event("e1", 1, "Pass", HOME, "00:00:01.000"),
+        _event("e2", 2, "Carry", HOME, "00:00:02.000"),
+        filler_event,
+    ]
+    frames = {"e1": _frame("e1", actor_location=(33.0, 21.0)), "e2": _frame("e2"), "away-filler": filler_frame}
+    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    row = next(r for r in rows if r["current_event_id"] == "e1")
+    assert row["orientation"] == "UNCERTAIN" and row["orientation_available"] is False
+    assert row["orientation_resolved_by"] == "unresolved"
+    assert row["actor_x"] is None and row["actor_y"] is None
+    assert row["actor_x_offline"] == pytest.approx(33.0)
 
 
 def test_actor_location_is_none_when_no_actor_point_present() -> None:
@@ -649,3 +670,19 @@ def test_build_match_dataset_unaffected_when_manifest_is_empty(monkeypatch) -> N
     # exclusion check itself is not swallowing unrelated errors.
     with pytest.raises(FileNotFoundError):
         build_match_dataset(match_id=0, maximum_time_difference=10.0)
+
+
+def test_reference_team_is_the_first_360_event_in_event_order_not_timestamp_order() -> None:
+    """Regression (2026-10-27): 9 matches carry a late-indexed period-1 event
+    with an early timestamp; the reference team must come from the first 360
+    event in the stream (the kick-off team), never from a later event."""
+    away_late = _event("late", 50, "Ball Receipt*", AWAY, "00:00:00.100")  # index 50, timestamp first
+    events = [
+        _event("e1", 1, "Pass", HOME, "00:00:01.000"),
+        _event("e2", 2, "Carry", HOME, "00:00:02.000"),
+        away_late,
+    ]
+    frames = {"e1": _frame("e1"), "e2": _frame("e2"), "late": _frame("late")}
+    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    row = next(r for r in rows if r["current_event_id"] == "e1")
+    assert row["team_normalization"] == "REFERENCE"  # Home kicked off: it is the reference team

@@ -1,0 +1,74 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3837928,1,b4906322-7e5f-4e54-82e5-67887bfa75c1,1625,00:34:05.713,34:05.713,2045.713,Pass,Paris Saint-Germain,Achraf Hakimi Mouh,18,0,1,True,,0.978,978
+2,3837928,1,ea69c55d-2118-486f-bc7e-ea57654bf541,1626,00:34:06.691,34:06.691,2046.691,Ball Receipt*,Paris Saint-Germain,Marco Verratti,19,0,1,True,0.978,0.000,80
+3,3837928,1,b9a7d162-3527-4e32-bdeb-2ffa322dbb14,1627,00:34:06.691,34:06.691,2046.691,Pass,Paris Saint-Germain,Marco Verratti,19,0,1,True,0.000,0.976,976
+4,3837928,1,37161f0e-a349-4007-952a-7666e7e5115a,1628,00:34:07.667,34:07.667,2047.667,Ball Receipt*,Paris Saint-Germain,Vitor Machado Ferreira,19,0,1,True,0.976,0.000,80
+5,3837928,1,1ecff5d9-4bfa-407b-b2ba-e09b7ddbdfd2,1629,00:34:07.667,34:07.667,2047.667,Carry,Paris Saint-Germain,Vitor Machado Ferreira,19,0,1,True,0.000,0.196,196
+6,3837928,1,e16fe5d9-1eb1-4ad6-8f21-3fbe5090862c,1630,00:34:07.863,34:07.863,2047.863,Pressure,Lyon,Thiago Henrique Mendes Ribeiro,19,0,1,True,0.196,0.576,576
+7,3837928,1,f22b747b-50d9-481a-ad73-07086a6091ab,1631,00:34:08.439,34:08.439,2048.439,Pass,Paris Saint-Germain,Vitor Machado Ferreira,19,0,1,True,0.576,0.566,566
+8,3837928,1,5df51f47-ee8a-4169-a26d-f44fba23394c,1632,00:34:09.005,34:09.005,2049.005,Ball Receipt*,Paris Saint-Germain,Marco Verratti,19,0,1,True,0.566,0.000,80
+9,3837928,1,f93e40c5-237c-419c-951e-70464790a778,1633,00:34:09.005,34:09.005,2049.005,Pass,Paris Saint-Germain,Marco Verratti,19,0,1,True,0.000,0.034,80
+10,3837928,1,0872d31a-ba44-409d-b794-735879fc00bc,1634,00:34:09.039,34:09.039,2049.039,Ball Receipt*,Paris Saint-Germain,Lionel Andrés Messi Cuccittini,19,0,1,True,0.034,0.000,80
+11,3837928,1,94f9bb1c-3769-45b4-9ae4-22065ba2d172,1635,00:34:09.039,34:09.039,2049.039,Block,Lyon,Nicolás Alejandro Tagliafico,19,0,1,True,0.000,2.253,1500
+12,3837928,1,c81e2208-93cc-4ebe-96fa-487add23540b,1636,00:34:11.292,34:11.292,2051.292,Pass,Lyon,Junior Castello Lukeba,18,0,1,True,2.253,0.005,80
+13,3837928,1,045538f4-91b1-4c26-9960-5cd316088e3b,1637,00:34:11.297,34:11.297,2051.297,Pressure,Paris Saint-Germain,Marco Verratti,18,0,1,True,0.005,3.797,1500
+14,3837928,1,a475ff86-908f-4588-8619-54edf460c22c,1638,00:34:15.094,34:15.094,2055.094,Ball Receipt*,Lyon,Alexandre Lacazette,18,1,1,True,3.797,0.000,80
+15,3837928,1,e3c8138d-598d-4188-a286-65bc74124fb9,1639,00:34:15.094,34:15.094,2055.094,Ball Recovery,Paris Saint-Germain,Gianluigi Donnarumma,18,1,1,True,0.000,0.000,80
+16,3837928,1,35ab2819-45c4-4475-b563-f3b8bd11672c,1640,00:34:15.094,34:15.094,2055.094,Carry,Paris Saint-Germain,Gianluigi Donnarumma,18,1,1,True,0.000,1.304,1304
+17,3837928,1,70524000-baad-4a5e-9b46-7b2e6b7c880c,1641,00:34:16.398,34:16.398,2056.398,Pass,Paris Saint-Germain,Gianluigi Donnarumma,18,1,1,True,1.304,6.606,1500
+18,3837928,1,f898a393-f728-4a6d-8037-0c84df3f4a36,1645,00:34:23.004,34:23.004,2063.004,Pass,Paris Saint-Germain,Renato Júnior Luz Sanches,14,1,1,True,6.606,1.175,1175
+19,3837928,1,f0a5016e-d3a4-42cc-88d1-fc3e8be1d3a5,1646,00:34:24.179,34:24.179,2064.179,Ball Receipt*,Paris Saint-Germain,Nuno Mendes,9,1,1,True,1.175,0.000,80
+20,3837928,1,fc89cd4e-1f68-4143-ad66-efccad40b6d0,1647,00:34:24.179,34:24.179,2064.179,Carry,Paris Saint-Germain,Nuno Mendes,9,1,1,True,0.000,0.718,718
+21,3837928,1,5685f3df-f8c2-425c-bb22-b150c20f9b1d,1648,00:34:24.897,34:24.897,2064.897,Pressure,Lyon,Dejan Lovren,9,1,1,True,0.718,0.681,681
+22,3837928,1,73f3a8c4-f924-408a-b0ef-fb2a6c4a3ff8,1649,00:34:25.578,34:25.578,2065.578,Dribble,Paris Saint-Germain,Nuno Mendes,9,1,1,True,0.681,0.000,80
+23,3837928,1,011671d8-68ed-49fd-92af-b360c4227df5,1650,00:34:25.578,34:25.578,2065.578,Duel,Lyon,Dejan Lovren,9,1,1,True,0.000,33.291,1500
+24,3837928,1,ea28437b-95cd-414d-a09d-d6ded9460a00,1652,00:34:58.869,34:58.869,2098.869,Ball Receipt*,Paris Saint-Germain,Marcos Aoás Corrêa,17,1,1,True,33.291,0.000,80
+25,3837928,1,88c64adf-4d26-4e28-9894-3c1dd942c491,1653,00:34:58.869,34:58.869,2098.869,Duel,Paris Saint-Germain,Marcos Aoás Corrêa,17,1,1,True,0.000,0.000,80
+26,3837928,1,6679064f-ae91-4535-b171-e776d320ee64,1654,00:34:58.869,34:58.869,2098.869,Clearance,Lyon,Junior Castello Lukeba,17,1,1,True,0.000,1.386,1386
+27,3837928,1,9b90148d-7499-40cc-81e9-2f7d74f22b69,1655,00:35:00.255,35:00.255,2100.255,Ball Recovery,Paris Saint-Germain,Marco Verratti,19,1,1,True,1.386,0.000,80
+28,3837928,1,0913ef45-262d-4b07-851d-35e13e852fbb,1656,00:35:00.255,35:00.255,2100.255,Carry,Paris Saint-Germain,Marco Verratti,19,1,1,True,0.000,0.383,383
+29,3837928,1,448ad84e-f544-4be1-bc42-0191a0df5c3a,1657,00:35:00.638,35:00.638,2100.638,Pressure,Lyon,Bradley Barcola,19,1,1,True,0.383,0.966,966
+30,3837928,1,83d82184-19c2-436c-9bd6-c2c3b9a1f36c,1659,00:35:01.604,35:01.604,2101.604,Ball Receipt*,Paris Saint-Germain,Renato Júnior Luz Sanches,19,1,1,True,0.966,0.000,80
+31,3837928,1,8ed08fdd-99d1-4187-86ae-b978496c1351,1660,00:35:01.604,35:01.604,2101.604,Block,Lyon,Bradley Barcola,19,1,1,True,0.000,1.387,1387
+32,3837928,1,cd979a51-f9a1-4cf4-a2fa-7e6c007c7720,1661,00:35:02.991,35:02.991,2102.991,Foul Committed,Paris Saint-Germain,Renato Júnior Luz Sanches,20,1,1,True,1.387,0.000,80
+33,3837928,1,11067760-a28a-49d0-82b2-16d183bdc2ff,1662,00:35:02.991,35:02.991,2102.991,Foul Won,Lyon,Alexandre Lacazette,20,1,1,True,0.000,21.728,1500
+34,3837928,1,9c09eeb2-e6d9-46ce-a003-a5f961a2cac8,1664,00:35:24.719,35:24.719,2124.719,Ball Receipt*,Lyon,Sinaly Diomande,14,1,1,True,21.728,1.973,1500
+35,3837928,1,8760123c-6841-402d-8cfa-ebd49b4a7450,1665,00:35:26.692,35:26.692,2126.692,Pass,Lyon,Sinaly Diomande,15,1,1,True,1.973,1.158,1158
+36,3837928,1,dcfd3b72-3f5d-4bd9-af1c-169d2b2c68ab,1666,00:35:27.850,35:27.850,2127.850,Ball Receipt*,Lyon,Mathis Rayan Cherki,20,0,1,True,1.158,0.000,80
+37,3837928,1,f0350563-ec35-496f-8d13-852c6b990082,1667,00:35:27.850,35:27.850,2127.850,Carry,Lyon,Mathis Rayan Cherki,20,0,1,True,0.000,0.020,80
+38,3837928,1,e02765c8-5a95-400a-b955-3329c132f7b5,1668,00:35:27.870,35:27.870,2127.870,Pass,Lyon,Mathis Rayan Cherki,20,0,1,True,0.020,0.875,875
+39,3837928,1,08020b44-6336-4541-9781-e2a07e3021d4,1669,00:35:28.745,35:28.745,2128.745,Ball Receipt*,Lyon,Sael Kumbedi Nseke,20,0,1,True,0.875,0.000,80
+40,3837928,1,80619ce6-26f6-470a-84f9-11c9610f2002,1670,00:35:28.745,35:28.745,2128.745,Interception,Paris Saint-Germain,Nuno Mendes,20,0,1,True,0.000,0.000,80
+41,3837928,1,c8b07e0e-3368-4570-87a9-46e58872b832,1671,00:35:28.745,35:28.745,2128.745,Carry,Paris Saint-Germain,Nuno Mendes,20,0,1,True,0.000,2.698,1500
+42,3837928,1,598abd62-e05a-4176-97b8-4fe3919761fa,1672,00:35:31.443,35:31.443,2131.443,Pass,Paris Saint-Germain,Nuno Mendes,19,0,1,True,2.698,0.821,821
+43,3837928,1,cbee118b-f22b-4e50-b23e-0df6c89e3696,1673,00:35:32.264,35:32.264,2132.264,Pressure,Lyon,Thiago Henrique Mendes Ribeiro,19,0,1,True,0.821,0.039,80
+44,3837928,1,b428b482-7da1-45d6-aef2-4a47225f4176,1674,00:35:32.303,35:32.303,2132.303,Ball Receipt*,Paris Saint-Germain,Vitor Machado Ferreira,19,0,1,True,0.039,0.000,80
+45,3837928,1,9deea56f-b530-458a-b6de-c08d1b40b29a,1675,00:35:32.303,35:32.303,2132.303,Carry,Paris Saint-Germain,Vitor Machado Ferreira,19,0,1,True,0.000,0.649,649
+46,3837928,1,08433daf-6d69-4a09-bd38-243c7092181d,1676,00:35:32.952,35:32.952,2132.952,Pass,Paris Saint-Germain,Vitor Machado Ferreira,19,0,1,True,0.649,0.777,777
+47,3837928,1,4b4e73d3-faf6-48ed-9324-b96ca50d26be,1677,00:35:33.729,35:33.729,2133.729,Pressure,Lyon,Junior Castello Lukeba,19,0,1,True,0.777,0.062,80
+48,3837928,1,e067f906-6a67-4a3b-9a8a-66b41e7b4caf,1678,00:35:33.791,35:33.791,2133.791,Ball Receipt*,Paris Saint-Germain,Lionel Andrés Messi Cuccittini,19,0,1,True,0.062,0.000,80
+49,3837928,1,e02e0718-bbe8-4a14-be40-ea76700343c2,1679,00:35:33.791,35:33.791,2133.791,Carry,Paris Saint-Germain,Lionel Andrés Messi Cuccittini,19,0,1,True,0.000,0.100,100
+50,3837928,1,47c4b41e-beaa-489a-af87-22535b006e6a,1680,00:35:33.891,35:33.891,2133.891,Pass,Paris Saint-Germain,Lionel Andrés Messi Cuccittini,19,0,1,True,0.100,0.241,241
+51,3837928,1,9ab729f5-1b86-4b0e-9a4a-5ca0f745a370,1681,00:35:34.132,35:34.132,2134.132,Pressure,Lyon,Johann Lepenant,19,0,1,True,0.241,0.407,407
+52,3837928,1,984e4c05-aa18-4e3d-a077-74341d1983e2,1682,00:35:34.539,35:34.539,2134.539,Ball Receipt*,Paris Saint-Germain,Vitor Machado Ferreira,18,0,1,True,0.407,0.000,80
+53,3837928,1,97f709c5-618f-42dd-a098-b196f5919bab,1683,00:35:34.539,35:34.539,2134.539,Carry,Paris Saint-Germain,Vitor Machado Ferreira,18,0,1,True,0.000,0.257,257
+54,3837928,1,7522c4ae-5448-41f9-84fa-076f7a8d508f,1684,00:35:34.796,35:34.796,2134.796,Dribble,Paris Saint-Germain,Vitor Machado Ferreira,18,0,1,True,0.257,0.000,80
+55,3837928,1,3834c884-adee-45cc-aa29-31e75f4c2bf6,1685,00:35:34.796,35:34.796,2134.796,Duel,Lyon,Johann Lepenant,18,0,1,True,0.000,2.144,1500
+56,3837928,1,142f4801-50fb-4881-9618-743921b3de1d,1686,00:35:36.940,35:36.940,2136.940,Pass,Lyon,Bradley Barcola,19,0,1,True,2.144,0.841,841
+57,3837928,1,982ce601-493b-41d7-b180-eac18f83f5b8,1687,00:35:37.781,35:37.781,2137.781,Ball Receipt*,Lyon,Thiago Henrique Mendes Ribeiro,19,0,1,True,0.841,0.000,80
+58,3837928,1,af74d443-1791-4c68-a17f-9be7e28256b8,1688,00:35:37.781,35:37.781,2137.781,Carry,Lyon,Thiago Henrique Mendes Ribeiro,19,0,1,True,0.000,0.375,375
+59,3837928,1,8b01d38d-dcdc-4ccf-b422-42ff6444490b,1689,00:35:38.156,35:38.156,2138.156,Pass,Lyon,Thiago Henrique Mendes Ribeiro,20,0,1,True,0.375,0.976,976
+60,3837928,1,4385a6ba-1258-4911-9993-e5bf401dc896,1690,00:35:39.132,35:39.132,2139.132,Ball Receipt*,Lyon,Mathis Rayan Cherki,20,0,1,True,0.976,0.000,80
+61,3837928,1,7f966453-c9df-4cc0-9494-eab89c534f63,1691,00:35:39.132,35:39.132,2139.132,Carry,Lyon,Mathis Rayan Cherki,20,0,1,True,0.000,1.036,1036
+62,3837928,1,fa3ec421-bb97-4cc3-9f76-322e6eb619ca,1692,00:35:40.168,35:40.168,2140.168,Pressure,Paris Saint-Germain,Marco Verratti,17,0,1,True,1.036,2.811,1500
+63,3837928,1,40d01d80-cc5f-4659-ba7c-c2c73ced29e3,1693,00:35:42.979,35:42.979,2142.979,Pass,Lyon,Mathis Rayan Cherki,15,0,1,True,2.811,1.138,1138
+64,3837928,1,2b94bb20-e635-45e3-bc59-8d92ef766ff4,1694,00:35:44.117,35:44.117,2144.117,Ball Receipt*,Lyon,Bradley Barcola,14,0,1,True,1.138,0.000,80
+65,3837928,1,73238215-ae6c-4c8f-ad7f-666575b79fed,1695,00:35:44.117,35:44.117,2144.117,Carry,Lyon,Bradley Barcola,14,0,1,True,0.000,2.171,1500
+66,3837928,1,bd5a389a-3783-4939-a6d4-0ac1d8ea4344,1696,00:35:46.288,35:46.288,2146.288,Miscontrol,Lyon,Bradley Barcola,8,1,1,True,2.171,0.652,652
+67,3837928,1,c8e4deb2-f9cf-47c8-9eee-468c18ff58d5,1697,00:35:46.940,35:46.940,2146.940,Clearance,Paris Saint-Germain,Achraf Hakimi Mouh,7,1,1,True,0.652,0.160,160
+68,3837928,1,3ad78a44-4f97-4fbb-8fa1-490d4842eae4,1698,00:35:47.100,35:47.100,2147.100,Block,Lyon,Bradley Barcola,7,1,1,True,0.160,0.167,167
+69,3837928,1,d441adef-4af6-44ed-910a-fd9afba7eb47,1699,00:35:47.267,35:47.267,2147.267,Ball Recovery,Paris Saint-Germain,Achraf Hakimi Mouh,7,1,1,True,0.167,0.685,685
+70,3837928,1,cf2ee6b7-1cea-4a09-ac6f-c9bc00dab950,1700,00:35:47.952,35:47.952,2147.952,Ball Recovery,Lyon,Alexandre Lacazette,7,1,1,True,0.685,0.000,80
+71,3837928,1,bac17894-5586-4482-bc73-314c0f3391ae,1701,00:35:47.952,35:47.952,2147.952,Carry,Lyon,Alexandre Lacazette,7,1,1,True,0.000,0.753,753
+72,3837928,1,395a97db-376b-4973-a04b-c4eb340dfb4c,1702,00:35:48.705,35:48.705,2148.705,Foul Committed,Paris Saint-Germain,Gianluigi Donnarumma,9,1,1,True,0.753,0.000,80
+73,3837928,1,b0abf605-281c-4936-bbf2-f165aa4e5d28,1703,00:35:48.705,35:48.705,2148.705,Foul Won,Lyon,Alexandre Lacazette,9,1,1,True,0.000,,80

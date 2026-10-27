@@ -1,0 +1,24 @@
+[
+ {
+  "match_id": 3901833,
+  "decision": "proposed",
+  "periods": [
+   2
+  ],
+  "evidence_type": "user_review_of_renders",
+  "proposed_reference_by_period": {
+   "1": "France Women's",
+   "2": "Morocco Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "Morocco Women's",
+   "2": "France Women's"
+  },
+  "proposed_period_1_reference": "France Women's",
+  "alternative_period_1_reference": "Morocco Women's",
+  "statement": "Period 2: the PROPOSED render is correct. France attacks right-to-left and defends the right goal; Morocco attacks left-to-right and defends the left goal. Keep the proposed visible_area orientation.",
+  "notes": "Recorded from the project owner's in-conversation statement after viewing review.html. No external footage URL or scoreboard clock supplied, so this is not independent video verification. Period 1 was not reviewed (the page then showed no P1 snapshot).",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-23"
+ }
+]

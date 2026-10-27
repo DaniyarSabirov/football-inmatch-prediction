@@ -549,11 +549,15 @@ class _MatchData:
     identity rules read. Points are indexed by their position among the
     record's points with a usable location (`valid`)."""
 
-    def __init__(self, records, resolved_orientations, problem_a_results, team_names) -> None:
-        order = sorted(
-            range(len(records)),
-            key=lambda k: (records[k][0]["period"], timestamp_ms(records[k][0]["timestamp"]), records[k][0]["index"]),
-        )
+    def __init__(self, records, resolved_orientations, problem_a_results, team_names, event_order: bool = False) -> None:
+        # Offline: (period, timestamp, index). Causal: (period, index) -- the
+        # event stream decides what is available; 33 adjacent event pairs
+        # dataset-wide have a later index but an earlier timestamp.
+        if event_order:
+            key = lambda k: (records[k][0]["period"], records[k][0]["index"])  # noqa: E731
+        else:
+            key = lambda k: (records[k][0]["period"], timestamp_ms(records[k][0]["timestamp"]), records[k][0]["index"])  # noqa: E731
+        order = sorted(range(len(records)), key=key)
         self.events = [records[k][0] for k in order]
         self.raws = [records[k][1] for k in order]
         self.orientations = [resolved_orientations[k] for k in order]
@@ -817,10 +821,13 @@ def resolve_match_team_identity(
     OFFLINE (default) uses evidence from both sides in time -- the best
     reconstruction of what happened, for visualization and data-quality
     analysis. With `causal=True`, record k is resolved only from records
-    that precede it in (period, timestamp, index) order -- the information
-    available when its event happens -- see resolve_causal.
+    that precede it in the event stream (period, index) -- the information
+    available when its event happens -- see _resolve_causal. Its
+    `resolved_orientations` / `problem_a_results` must then be causal too
+    (src/orientation_resolution.resolve_causal_orientations), otherwise
+    future information enters through the geometry.
     """
-    data = _MatchData(records, resolved_orientations, problem_a_results, team_names)
+    data = _MatchData(records, resolved_orientations, problem_a_results, team_names, event_order=causal)
     if causal:
         return _resolve_causal(data, all_events)
     return _resolve_offline(data, all_events)
@@ -1017,7 +1024,7 @@ def _goalkeeper_correction(d: _MatchData, k: int, i: int, goal: int, team, linke
 
 def _resolve_causal(d: _MatchData, all_events) -> dict[str, FrameIdentity]:
     """Prediction-time resolution: record k sees only records 0..k in
-    (period, timestamp, index) order -- the current event's own snapshot and
+    event-stream order (period, index) -- the current event's own snapshot and
     everything that happened before it, never the events that follow (which
     include the event a model has to predict). Same rules as offline, with
     what cannot be evaluated without the future left out:

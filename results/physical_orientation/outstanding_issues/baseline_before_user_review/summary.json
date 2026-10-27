@@ -1,0 +1,146 @@
+{
+ "generated_with": "scripts/audit_outstanding_issues.py (current code)",
+ "eligible_matches": 417,
+ "periods_examined": 908,
+ "regular_periods": 894,
+ "shootout_periods": 14,
+ "independently_verified_matches": 2,
+ "period_status": {
+  "high_confidence_inferred": 902,
+  "independently_verified": 4,
+  "derived_from_user_reviewed_period": 1,
+  "user_reviewed": 1
+ },
+ "user_reviewed_periods": 1,
+ "high_confidence_inferred_periods": 902,
+ "ambiguous_periods": 1,
+ "rule_derived_periods": 0,
+ "fallback_periods": 0,
+ "contradicted_by_independent_evidence": 0,
+ "snapshots": 1357626,
+ "uncertain_snapshots_problem_a": 4974,
+ "uncertain_outcomes": {
+  "resolved_rotated": 4397,
+  "resolved_normal": 567,
+  "left_uncorrected": 10
+ },
+ "uncertain_signal_disagreements": 1,
+ "uncertain_visual_class": {
+  "resolved_rotated": 4397,
+  "resolved_normal": 567,
+  "conflicting": 2,
+  "likely_correct": 8
+ },
+ "unresolved_event_level_cases": 10,
+ "likely_flipped_frames": 0,
+ "confirmed_flipped_frames": 0,
+ "flipped_frames_total": 0,
+ "flipped_frame_matches": 0,
+ "sibling_check": {
+  "confirmed_correct": 4360,
+  "no_confident_sibling": 531,
+  "sibling_inconclusive": 83
+ },
+ "sibling_check_by_outcome": {
+  "resolved_rotated|confirmed_correct": 4267,
+  "resolved_normal|no_confident_sibling": 474,
+  "resolved_normal|confirmed_correct": 93,
+  "resolved_rotated|no_confident_sibling": 47,
+  "resolved_rotated|sibling_inconclusive": 83,
+  "left_uncorrected|no_confident_sibling": 10
+ },
+ "unusual_camera_frames": 8497,
+ "unusual_camera_ball_inside_polygon": 8398,
+ "render_errors": 0,
+ "shot_cross_check": {
+  "agrees": 716,
+  "unavailable": 192
+ },
+ "known_visualization_defects": 0,
+ "known_visualization_defect_types": {},
+ "issues_by_priority": {
+  "P3": 49
+ },
+ "issues_by_type": {
+  "two_keepers_same_team": 10,
+  "frequent_unusual_camera_polygons": 28,
+  "ambiguous_team_identity": 7,
+  "derived_from_user_reviewed_period": 1,
+  "clock_outside_expected_range": 1,
+  "undetermined_uncertain_frames": 2
+ },
+ "manual_review_tasks": {
+  "P2": 3
+ },
+ "data_quality": {
+  "missing_visible_area": 0,
+  "malformed_visible_area": 0,
+  "sparse_freeze_frames": 652,
+  "player_points": 21193635,
+  "player_points_out_of_bounds": 115055,
+  "player_points_outside_viewport": 40909,
+  "ball_out_of_bounds": 1,
+  "ambiguous_team_points": 270,
+  "keeper_identity_ambiguous": 5,
+  "frames_two_keepers_same_team": 28,
+  "clock_out_of_period_range": 4,
+  "stoppage_time_snapshots": 74734
+ },
+ "display_resolution_totals": {
+  "resolved_by_duplicate": 4443,
+  "duplicate_consensus_overrides": 25,
+  "resolved_by_kickoff_rule": 470,
+  "resolved_by_camera_continuity": 3,
+  "resolved_rotated": 41,
+  "resolved_normal": 7,
+  "still_uncertain": 10,
+  "duplicate_conflicts": 25,
+  "duplicate_conflicts_unresolved": 0,
+  "duplicate_camera_disagreements": 26
+ },
+ "before_after": {
+  "frames_compared": 4974,
+  "confirmed_flipped_before": 268,
+  "confirmed_flipped_after": 0,
+  "confirmed_flipped_fixed": 268,
+  "likely_flipped_before": 5,
+  "likely_flipped_now_rotated": 3,
+  "previously_confirmed_correct": 4092,
+  "previously_confirmed_correct_still_correct": 4092,
+  "display_changed_frames": 286,
+  "display_changed_outside_previous_flips": 15,
+  "display_changed_outside_previous_flips_event_ids": [
+   "07d1d0e3-c2d2-43a3-acf8-dae438468f24",
+   "1fc1057a-24d3-4a92-aaae-efafb747495d",
+   "21c59c22-6a47-44d0-834d-d413b060ced6",
+   "32b5df24-5794-4c4b-8688-b1f1eebfe64e",
+   "4513fefb-373b-4c85-8d68-33c938ebb525",
+   "5c5c5d84-8f7d-48af-b9c5-a9b7c989e626",
+   "5fe94f1c-3485-4f1c-9da4-fc4ed63486ca",
+   "8dcd0b3c-1b1d-46c4-8462-082387879870",
+   "b52a80c4-e084-4010-a2dc-c911abd3fb64",
+   "bdf2befe-2591-458f-916a-3df68e249366",
+   "c52d0b7f-0bc3-43db-93cc-8054b43b2040",
+   "d2d8c831-3b89-4e56-90e1-a10e6c1e0716",
+   "dc7954cd-c289-4a13-9558-1cb2e366d287",
+   "e2b7c0b4-75d2-42f8-840a-73b1c00217fa",
+   "ee9b1558-9900-461a-9180-88b1018150c2"
+  ],
+  "fix_routes": {
+   "display_duplicate_snapshot": 280,
+   "display_kickoff_own_half": 3,
+   "display_camera_continuity": 3
+  }
+ },
+ "duplicate_snapshot_consistency": {
+  "copies_checked": 396822,
+  "states": {
+   "identical": 396822
+  },
+  "mirrored_with_confident_reference": 0,
+  "mirrored_confident_member": 0
+ },
+ "periods_requiring_manual_orientation_review": 0,
+ "orientation_conflicts": 0,
+ "suspicious_kickoff_frames": 2
+}

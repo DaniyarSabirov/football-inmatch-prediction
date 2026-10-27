@@ -1,0 +1,496 @@
+{
+  "matches_discovered": 426,
+  "matches_excluded": 2,
+  "excluded_matches": [
+    {
+      "match_id": 3845506,
+      "reason": "corrupted_three_sixty_json",
+      "file": "data/raw/statsbomb/data/three-sixty/3845506.json",
+      "evidence": "json.JSONDecodeError: Expecting ',' delimiter: line 92794 column 3 (char 2637824). Root cause confirmed via byte-level scan: a single, isolated 16,384-byte (exactly one storage block) run of NUL (0x00) bytes overwrites real JSON content inside one freeze_frame record, splitting the token \"false\" into \"fa\"+NULs+\"lse\". Scanned all 4,661 raw JSON files in the project (4,235 events.json + 426 three-sixty.json); this is the only file containing any NUL byte. The sibling events.json for this match (2,700,919 bytes) parses successfully (3,095 records) -- only the three-sixty file is affected. No safe recovery is possible without inventing the lost content; a string-literal-aware top-level-record extraction recovers 2,761/2,762 other records independently, but the record overlapping the corruption is permanently lost.",
+      "date_investigated": "2026-10-13",
+      "report": "docs/data_quality_investigation_2026-10-13.md"
+    },
+    {
+      "match_id": 3923880,
+      "reason": "insufficient_three_sixty_coverage_for_team_reference_resolution",
+      "file": "data/raw/statsbomb/data/three-sixty/3923880.json",
+      "evidence": "File is valid, well-formed JSON (1,962 bytes, exactly 1 record) -- NOT corrupted. The single record correctly joins to a real event (event_uuid 7cc66fb5-4f8f-448a-8e70-e863dd24217f, a Pass by Congo DR) in the match's otherwise-normal 3,374-event events.json (period 1/2/5, i.e. this match went to penalties). However, this is 1/3,374 events (0.03%) of 360 coverage, versus a typical match's ~85%, and the ONE covered event belongs to only one of the two teams (team_id 4881). src/team_normalization.py::resolve_reference_team_id requires at least one 360-matched event from EACH team to pick a reference team; with only one team represented, it raises ValueError('Expected exactly two team ids in events, found [4881].'). Reproduced directly via build_match_dataset(match_id=3923880, maximum_time_difference=10.0) (unconditional failure -- this function always calls resolve_reference_team_id) and via src/animate_statsbomb_360_match.py's main() with --apply-team-normalization (same underlying function, same error). This is a genuine, reproducible processing failure caused by sparse source data, not a judgment call based on file size alone.",
+      "date_investigated": "2026-10-13",
+      "report": "docs/supervisor_data_quality_summary_2026-10-13.md"
+    }
+  ],
+  "matches_loaded_ok": 424,
+  "matches_failed_to_load": 0,
+  "failed_matches": [],
+  "event_records": 1578884,
+  "three_sixty_records": 1381466,
+  "matched_pairs": 1357626,
+  "events_without_360": 221258,
+  "duplicate_event_ids": 0,
+  "duplicate_event_uuid_in_frames": 0,
+  "index_not_strictly_increasing_matches": 0,
+  "events_missing_team": 0,
+  "events_missing_player": 7048,
+  "events_missing_player_by_type": {
+    "Half Start": 1852,
+    "Half End": 1852,
+    "Tactical Shift": 1429,
+    "Referee Ball-Drop": 1012,
+    "Starting XI": 848,
+    "Own Goal For": 55
+  },
+  "events_missing_location_by_type": {
+    "Substitution": 3669,
+    "Injury Stoppage": 2334,
+    "Half Start": 1852,
+    "Half End": 1852,
+    "Tactical Shift": 1429,
+    "Starting XI": 848,
+    "Player Off": 500,
+    "Player On": 497,
+    "Bad Behaviour": 279,
+    "Goal Keeper": 7
+  },
+  "event_location_category_counts": {
+    "missing": 13267,
+    "in_bounds": 1565615,
+    "x>120": 2
+  },
+  "freeze_frame_point_category_counts": {
+    "in_bounds": 21372804,
+    "y>80": 83206,
+    "x<0": 10054,
+    "x>120": 14201,
+    "y<0": 81605,
+    "x>120+y>80": 20,
+    "x<0+y<0": 12,
+    "x<0+y>80": 17,
+    "x>120+y<0": 13
+  },
+  "freeze_frame_oob_magnitude_buckets": {
+    "<=0.5": 40328,
+    "<=5.0": 59212,
+    "<=1.0": 31810,
+    "<=2.0": 46187,
+    "<=10.0": 11502,
+    ">10.0": 89
+  },
+  "freeze_frame_points_total": 21561932,
+  "frames_with_zero_actor_points": 2,
+  "frames_with_multiple_actor_points": 28,
+  "frames_empty_freeze_frame": 0,
+  "zero_actor_examples": [
+    {
+      "match_id": 3893793,
+      "event_uuid": "e43bc7e0-4353-4193-a104-29897bf67703"
+    },
+    {
+      "match_id": 4018356,
+      "event_uuid": "dfe42790-bef1-4e78-9632-de2e747af5cc"
+    }
+  ],
+  "multi_actor_examples": [
+    {
+      "match_id": 3773477,
+      "event_uuid": "49e3ba44-0b26-4a81-8721-dcc7f4f3831e",
+      "actor_locations": [
+        [
+          120.0,
+          80.0
+        ],
+        [
+          120.00077511694286,
+          80.0
+        ]
+      ]
+    },
+    {
+      "match_id": 3773477,
+      "event_uuid": "a5656e1f-5667-481b-ae92-9650166046bd",
+      "actor_locations": [
+        [
+          1.100000023841858,
+          39.400001525878906
+        ],
+        [
+          1.100000023841858,
+          39.400001525878906
+        ]
+      ]
+    },
+    {
+      "match_id": 3773477,
+      "event_uuid": "68022eee-fd76-432d-8330-6ad4df35eb5e",
+      "actor_locations": [
+        [
+          41.099998474121094,
+          7.800000190734863
+        ],
+        [
+          41.099998474121094,
+          7.800000190734863
+        ]
+      ]
+    },
+    {
+      "match_id": 3773477,
+      "event_uuid": "284b4d1b-eb30-449c-998e-7defb031bfca",
+      "actor_locations": [
+        [
+          41.099998474121094,
+          7.800000190734863
+        ],
+        [
+          41.099998474121094,
+          7.800000190734863
+        ]
+      ]
+    },
+    {
+      "match_id": 3773477,
+      "event_uuid": "aa92e1df-6e83-4e8a-a16b-3ebf1f8af911",
+      "actor_locations": [
+        [
+          41.099998474121094,
+          7.800000190734863
+        ],
+        [
+          41.099998474121094,
+          7.800000190734863
+        ]
+      ]
+    },
+    {
+      "match_id": 3773672,
+      "event_uuid": "a9fb5567-8a3d-48c4-853d-70cf37ec9c12",
+      "actor_locations": [
+        [
+          74.57040893925675,
+          16.818369191389067
+        ],
+        [
+          74.5999984741211,
+          16.600000381469727
+        ]
+      ]
+    },
+    {
+      "match_id": 3773672,
+      "event_uuid": "7005f9e2-c1ea-4e81-a9c5-bc87a54a5ab0",
+      "actor_locations": [
+        [
+          74.57040893925675,
+          16.818369191389067
+        ],
+        [
+          74.5999984741211,
+          16.600000381469727
+        ]
+      ]
+    },
+    {
+      "match_id": 3788747,
+      "event_uuid": "3d593b92-1e2f-4715-9650-8090cbfd2eb9",
+      "actor_locations": [
+        [
+          30.399999618530273,
+          38.400001525878906
+        ],
+        [
+          30.399999618530273,
+          38.400001525878906
+        ]
+      ]
+    },
+    {
+      "match_id": 3788747,
+      "event_uuid": "5be1077a-abff-4e06-ac45-a1c18c089096",
+      "actor_locations": [
+        [
+          30.399999618530273,
+          38.400001525878906
+        ],
+        [
+          30.399999618530273,
+          38.400001525878906
+        ]
+      ]
+    },
+    {
+      "match_id": 3788747,
+      "event_uuid": "2957b2a0-6c9e-43b2-8103-af044dbbfe91",
+      "actor_locations": [
+        [
+          30.399999618530273,
+          38.400001525878906
+        ],
+        [
+          30.399999618530273,
+          38.400001525878906
+        ]
+      ]
+    },
+    {
+      "match_id": 3788751,
+      "event_uuid": "12fc4fc8-1d48-4cb6-9ac4-80c0b2b97a34",
+      "actor_locations": [
+        [
+          12.899999618530273,
+          0.10000000149011612
+        ],
+        [
+          12.899999618530273,
+          0.10000000149011612
+        ]
+      ]
+    },
+    {
+      "match_id": 3788758,
+      "event_uuid": "dc5a5d16-3a31-42af-9d6b-7bd7428fd88e",
+      "actor_locations": [
+        [
+          10.959138815493041,
+          76.63330661545086
+        ],
+        [
+          11.0,
+          76.5999984741211
+        ]
+      ]
+    },
+    {
+      "match_id": 3788758,
+      "event_uuid": "386c325a-1ac5-40cc-9fbd-58405bb7d036",
+      "actor_locations": [
+        [
+          10.959138815493041,
+          76.63330661545086
+        ],
+        [
+          11.0,
+          76.5999984741211
+        ]
+      ]
+    },
+    {
+      "match_id": 3802699,
+      "event_uuid": "25155327-e339-4030-8c8e-4a790e43ab81",
+      "actor_locations": [
+        [
+          50.599998474121094,
+          77.0999984741211
+        ],
+        [
+          50.599998474121094,
+          77.0999984741211
+        ]
+      ]
+    },
+    {
+      "match_id": 3802699,
+      "event_uuid": "0f3bd77c-4672-4b18-8eb4-9ceb9ac33c22",
+      "actor_locations": [
+        [
+          50.599998474121094,
+          77.0999984741211
+        ],
+        [
+          50.599998474121094,
+          77.0999984741211
+        ]
+      ]
+    },
+    {
+      "match_id": 3802699,
+      "event_uuid": "8844ec14-6e43-4b79-a8b7-7f045334d9d8",
+      "actor_locations": [
+        [
+          106.4000015258789,
+          2.299999952316284
+        ],
+        [
+          106.4000015258789,
+          2.299999952316284
+        ]
+      ]
+    },
+    {
+      "match_id": 3802699,
+      "event_uuid": "5c8c0c71-b2f1-49f1-be3d-0318d973bdae",
+      "actor_locations": [
+        [
+          16.100000381469727,
+          80.0
+        ],
+        [
+          16.100000381469727,
+          80.0
+        ]
+      ]
+    },
+    {
+      "match_id": 3802837,
+      "event_uuid": "0a731280-0e60-48d3-a0d8-fcb29e029b42",
+      "actor_locations": [
+        [
+          30.144737503288656,
+          10.794747684926325
+        ],
+        [
+          36.0,
+          7.400000095367432
+        ]
+      ]
+    },
+    {
+      "match_id": 3802837,
+      "event_uuid": "17380117-fe69-4a61-ad22-1ec0191309c9",
+      "actor_locations": [
+        [
+          30.144737503288656,
+          10.794747684926325
+        ],
+        [
+          36.0,
+          7.400000095367432
+        ]
+      ]
+    },
+    {
+      "match_id": 3837859,
+      "event_uuid": "89ccf857-028b-4e81-9187-4f15157d391e",
+      "actor_locations": [
+        [
+          120.0,
+          80.0
+        ],
+        [
+          120.0002074907946,
+          80.0
+        ]
+      ]
+    },
+    {
+      "match_id": 3837859,
+      "event_uuid": "92e92026-0a8f-44d3-ae7b-6f2f7d14b73e",
+      "actor_locations": [
+        [
+          119.9999484520316,
+          0.10000000149011612
+        ],
+        [
+          120.0,
+          0.10000000149011612
+        ]
+      ]
+    },
+    {
+      "match_id": 3893802,
+      "event_uuid": "6e7e088f-c219-4eda-b386-3095ca4eacf0",
+      "actor_locations": [
+        [
+          39.20000076293945,
+          12.199999809265137
+        ],
+        [
+          39.20000076293945,
+          12.199999809265137
+        ]
+      ]
+    },
+    {
+      "match_id": 3893802,
+      "event_uuid": "e7053014-563d-47c5-a5d8-052e3a103282",
+      "actor_locations": [
+        [
+          39.20000076293945,
+          12.199999809265137
+        ],
+        [
+          39.20000076293945,
+          12.199999809265137
+        ]
+      ]
+    },
+    {
+      "match_id": 3893829,
+      "event_uuid": "3356cb2f-07c0-4161-a87a-1f02ab4ddd66",
+      "actor_locations": [
+        [
+          112.30000305175781,
+          76.30000305175781
+        ],
+        [
+          112.32478478174417,
+          76.2848213894977
+        ]
+      ]
+    },
+    {
+      "match_id": 3895139,
+      "event_uuid": "fdb22e5a-a841-4f0a-871f-5628deffa2c5",
+      "actor_locations": [
+        [
+          7.0,
+          36.099998474121094
+        ],
+        [
+          7.0,
+          36.099998474121094
+        ]
+      ]
+    }
+  ],
+  "event_type_counts": {
+    "Pass": 446186,
+    "Ball Receipt*": 422131,
+    "Carry": 359432,
+    "Pressure": 135217,
+    "Ball Recovery": 41298,
+    "Duel": 27360,
+    "Block": 16709,
+    "Clearance": 16469,
+    "Goal Keeper": 13284,
+    "Dribble": 13225,
+    "Miscontrol": 11476,
+    "Shot": 11000,
+    "Foul Committed": 10498,
+    "Dispossessed": 10007,
+    "Foul Won": 9974,
+    "Interception": 9874,
+    "Dribbled Past": 7707,
+    "Substitution": 3669,
+    "Injury Stoppage": 2334,
+    "Half Start": 1852,
+    "Half End": 1852,
+    "50/50": 1721,
+    "Tactical Shift": 1429,
+    "Referee Ball-Drop": 1012,
+    "Starting XI": 848,
+    "Shield": 547,
+    "Player Off": 500,
+    "Player On": 497,
+    "Bad Behaviour": 279,
+    "Error": 243,
+    "Offside": 144,
+    "Own Goal For": 55,
+    "Own Goal Against": 55
+  },
+  "period_counts": {
+    "1": 787560,
+    "2": 758094,
+    "3": 16744,
+    "4": 16043,
+    "5": 443
+  },
+  "orientation_counts": {
+    "NORMAL": 1274819,
+    "ROTATED_180": 77816,
+    "UNCERTAIN": 4991
+  },
+  "shared_cross_team_groups": 42600,
+  "shared_cross_team_resolved": 42592,
+  "shared_cross_team_ambiguous": 8,
+  "freeze_frame_oob_unique_matches_count": 424,
+  "freeze_frame_oob_unique_events_count": 159238
+}

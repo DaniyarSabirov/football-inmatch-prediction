@@ -1,0 +1,21 @@
+x_drawn,y_drawn,raw_teammate_flag,actor,keeper,drawn_team,paired_team_previous,pair_distance_previous_yd,paired_team_next,pair_distance_next_yd,contradicts
+103.25,32.63,True,False,False,Sweden Women's,Sweden Women's,1.8,,3.64,
+105.0,20.1,True,True,False,Sweden Women's,,,Belgium Women's,0.5,next
+106.69,49.52,True,False,False,Sweden Women's,Sweden Women's,1.56,Sweden Women's,2.37,
+106.71,20.07,False,False,False,Belgium Women's,Belgium Women's,1.91,,3.96,
+106.94,37.53,False,False,False,Belgium Women's,Belgium Women's,2.84,,4.11,
+110.53,47.71,True,False,False,Sweden Women's,Sweden Women's,2.6,Sweden Women's,2.41,
+113.78,39.15,False,False,False,Belgium Women's,Belgium Women's,0.67,Belgium Women's,2.97,
+114.41,43.05,True,False,False,Sweden Women's,Sweden Women's,2.75,Sweden Women's,2.88,
+114.79,38.99,False,False,False,Belgium Women's,Sweden Women's,0.23,Sweden Women's,2.9,both
+115.22,34.76,False,False,False,Belgium Women's,Belgium Women's,2.09,Belgium Women's,2.89,
+115.79,6.56,True,False,False,Sweden Women's,,4.67,Sweden Women's,1.3,
+116.09,41.55,False,False,False,Belgium Women's,Belgium Women's,1.63,Sweden Women's,0.75,next
+116.13,29.34,True,False,False,Sweden Women's,Belgium Women's,0.89,Sweden Women's,2.49,previous
+116.52,37.52,False,False,False,Belgium Women's,Sweden Women's,2.76,Belgium Women's,2.07,previous
+116.73,44.21,False,False,False,Belgium Women's,,6.63,Belgium Women's,2.67,
+116.77,43.67,False,False,False,Belgium Women's,Belgium Women's,2.33,,,
+116.94,35.65,True,False,False,Sweden Women's,Belgium Women's,1.36,Belgium Women's,1.97,both
+118.15,40.13,True,False,False,Sweden Women's,,3.24,Belgium Women's,2.94,next
+118.6,29.21,False,False,False,Belgium Women's,Sweden Women's,2.86,Belgium Women's,2.82,previous
+118.95,38.98,False,False,True,Belgium Women's,,3.78,Belgium Women's,0.58,

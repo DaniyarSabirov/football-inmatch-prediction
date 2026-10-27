@@ -55,3 +55,19 @@ results/metrics/*
 results/*.gif
 results/*.png
 results/*.csv
+
+# Generated research artefacts kept local (2026-10-27): regenerable renders
+# and per-row tables. Reports (*.md), small tables (*.csv/*.json), review
+# pages (*.html) and evidence panels (*.png) under results/ stay tracked.
+results/**/*.gif
+results/**/*_test_frame.png
+results/**/*.csv.gz
+results/team_identity_final_validation_2026-10-27/transition_classes.csv
+results/data_taxonomy/statsbomb_complete_category_audit_data.json
+results/data_taxonomy/*.xlsx
+# Recovered raw StatsBomb content: raw data is never published
+results/data_quality_inspections/*_recovered_three_sixty.json
+
+# Local snapshot exports of the repository (contain raw StatsBomb files)
+thesis_code_review/
+football_orientation_review.zip

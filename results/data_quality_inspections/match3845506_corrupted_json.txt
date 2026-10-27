@@ -1,0 +1,26 @@
+Match 3845506 -- corrupted-json diagnostic
+============================================================
+events.json: OK, 3095 records (/Users/daniyarsabirov/PycharmProjects/football-inmatch-prediction/data/raw/statsbomb/data/events/3845506.json)
+
+three-sixty.json: /Users/daniyarsabirov/PycharmProjects/football-inmatch-prediction/data/raw/statsbomb/data/three-sixty/3845506.json
+File size: 6260494 bytes
+JSONDecodeError: Expecting ',' delimiter: line 92794 column 3 (char 2637824)
+
+NUL-byte (0x00) runs found: 1
+  offset=2637824 length=16384 (ends at offset 2654208)
+
+Context immediately before the first corrupted run:
+  text:  '    "location" : [ 41.87153016483535, 56.85720825561715 ]\n  '
+  hex:   20 20 20 20 22 6c 6f 63 61 74 69 6f 6e 22 20 3a 20 5b 20 34 31 2e 38 37 31 35 33 30 31 36 34 38 33 35 33 35 2c 20 35 36 2e 38 35 37 32 30 38 32 35 35 36 31 37 31 35 20 5d 0a 20 20
+Context immediately after the first corrupted run:
+  text:  'lse,\n    "keeper" : false,\n    "location" : [ 63.13761322053'
+  hex:   6c 73 65 2c 0a 20 20 20 20 22 6b 65 65 70 65 72 22 20 3a 20 66 61 6c 73 65 2c 0a 20 20 20 20 22 6c 6f 63 61 74 69 6f 6e 22 20 3a 20 5b 20 36 33 2e 31 33 37 36 31 33 32 32 30 35 33
+
+Parser's reported error offset: 2637824 (b'483535, 56.85720825561715 ]\n  \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+
+Attempting safe top-level-record extraction (string-literal-aware brace matching)...
+  Candidate top-level objects located: 2762
+  Successfully parsed independently: 2761
+  Failed to parse (contain or follow the corrupted region): 1
+
+Why a complete animation cannot be generated: the corrupted 16KB region overwrites real freeze_frame content inside at least one 360 record with NUL bytes. That content is permanently lost -- there is no way to reconstruct the original player positions without inventing data, which this project's policy explicitly forbids. The surrounding records (those that still parse independently) are NOT guaranteed to be complete or correctly ordered relative to the lost one(s), so any output built from them must be clearly labeled partial and potentially incomplete.

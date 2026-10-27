@@ -1,0 +1,39 @@
+Match ID:        3893793
+Event UUID:      e43bc7e0-4353-4193-a104-29897bf67703
+Event index:     2502
+Event type:      50/50
+Period:          2
+Timestamp:       00:17:21.907
+Team:            Japan Women's
+Player:          Rion Ishikawa
+Event location:  [32.5, 44.2]
+
+Freeze-frame player count: 14
+  [ 0] location=[69.04302884292304, 61.76283668021257]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 1] location=[73.31509313156657, 50.31341006463371]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 2] location=[75.26310998096044, 40.43722451026392]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 3] location=[78.38388054233234, 52.891719465225194]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 4] location=[81.3652940881248, 32.62404384746224]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 5] location=[82.75306390732136, 22.32352934411339]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 6] location=[84.1860379966309, 22.085267615220207]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 7] location=[84.82132330885189, 42.88965840022291]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 8] location=[87.5999984741211, 35.900001525878906]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 9] location=[89.86738437928186, 51.91183854133854]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [10] location=[95.41484360341472, 22.83409599908153]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [11] location=[96.18036604072572, 36.41941187330122]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [12] location=[96.61203651306097, 44.90071012809372]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [13] location=[96.68177648364345, 53.51366349376625]  teammate=False  actor=False  keeper=False  in_bounds=True
+visible_area (12 values): [91.84887240094181, 71.70225569814491, 66.79346638627388, 63.649978943045234, 72.47030904741516, 0.0, 120.0, 0.0, 120.0, 11.864415316090337, 91.84887240094181, 71.70225569814491]
+
+Shared snapshot: NO -- this event's raw 360 snapshot is not shared with a different team's event.
+
+Orientation classification: ROTATED_180 (confidence=0.940)
+  resolved_by: geometry
+
+Team normalization: MIRRORED (reference_team_id=6045)
+Orientation correction applied: True
+Team-normalization mirror applied: True
+Out-of-bounds points (raw): 0 / 14
+Out-of-bounds points (after current pipeline): 0 / 14
+
+Dataset-builder actor resolution: actor_x=None, actor_y=None, actor_ambiguous=False

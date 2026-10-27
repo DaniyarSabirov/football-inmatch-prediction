@@ -1,0 +1,9 @@
+Zero-actor frames: 0
+Multiple-actor frames: 2
+
+
+MULTI ACTOR match=3802837 event=0a731280-0e60-48d3-a0d8-fcb29e029b42  type=Ball Receipt* team=Saint-Étienne actor_locations=[[30.144737503288656, 10.794747684926325], [36.0, 7.400000095367432]] max_pairwise_distance=6.7682 within_tolerance(1.0)=False
+MULTI ACTOR match=3802837 event=17380117-fe69-4a61-ad22-1ec0191309c9  type=Carry team=Saint-Étienne actor_locations=[[30.144737503288656, 10.794747684926325], [36.0, 7.400000095367432]] max_pairwise_distance=6.7682 within_tolerance(1.0)=False
+
+case match=3802837 event=0a731280-0e60-48d3-a0d8-fcb29e029b42: builder actor_x=None actor_y=None actor_ambiguous=True; shared=False
+case match=3802837 event=17380117-fe69-4a61-ad22-1ec0191309c9: builder actor_x=None actor_y=None actor_ambiguous=True; shared=False

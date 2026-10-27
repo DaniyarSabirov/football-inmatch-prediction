@@ -1,0 +1,17 @@
+x_drawn,y_drawn,raw_teammate_flag,actor,keeper,drawn_team,paired_team_previous,pair_distance_previous_yd,paired_team_next,pair_distance_next_yd,contradicts
+31.52,45.91,False,False,False,Bayer Leverkusen,FC Köln,2.53,FC Köln,2.17,both
+33.35,56.71,False,False,False,Bayer Leverkusen,FC Köln,2.53,FC Köln,1.49,both
+34.05,48.42,True,False,False,FC Köln,Bayer Leverkusen,2.53,Bayer Leverkusen,2.38,both
+35.13,26.8,False,False,False,Bayer Leverkusen,FC Köln,2.53,FC Köln,2.61,both
+38.61,65.5,True,False,False,FC Köln,Bayer Leverkusen,2.53,Bayer Leverkusen,2.49,both
+39.21,50.36,True,False,False,FC Köln,Bayer Leverkusen,2.53,,3.8,previous
+39.48,29.05,True,False,False,FC Köln,Bayer Leverkusen,2.53,Bayer Leverkusen,1.6,both
+39.48,61.75,False,False,False,Bayer Leverkusen,FC Köln,2.53,FC Köln,2.36,both
+40.36,56.28,False,False,False,Bayer Leverkusen,FC Köln,2.53,,4.32,previous
+41.6,55.8,True,True,False,FC Köln,Bayer Leverkusen,2.53,Bayer Leverkusen,1.49,both
+49.7,54.53,False,False,False,Bayer Leverkusen,FC Köln,2.53,FC Köln,0.49,both
+52.35,44.59,True,False,False,FC Köln,Bayer Leverkusen,2.53,Bayer Leverkusen,2.77,both
+53.32,31.68,False,False,False,Bayer Leverkusen,FC Köln,2.53,FC Köln,1.61,both
+55.01,59.14,True,False,False,FC Köln,Bayer Leverkusen,2.53,Bayer Leverkusen,1.18,both
+56.09,68.99,False,False,False,Bayer Leverkusen,FC Köln,2.53,FC Köln,2.53,both
+60.28,58.45,False,False,False,Bayer Leverkusen,FC Köln,2.53,FC Köln,2.6,both

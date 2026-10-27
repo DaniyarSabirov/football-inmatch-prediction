@@ -8,10 +8,12 @@ configs/excluded_matches.json, and writes to data/processed/:
   statsbomb_360_all_matches_next_events.csv    all matches concatenated
   statsbomb_360_dataset_manifest.json          code commit, horizon, row counts, schema
 
-Feature columns (visible_teammates/opponents/ambiguous, identity_quality,
-identity_corrected_points) are prediction-time valid (causal team identity);
+Feature columns are prediction-time valid: causal orientation (actor_x/actor_y
+empty when it cannot be decided from earlier records) and causal team identity.
 *_offline columns use later records and are for data-quality analysis only;
-*_raw columns are the untouched StatsBomb teammate flags. See
+*_raw columns are the untouched StatsBomb teammate flags. Select model inputs
+with src.ml_features.select_feature_matrix (allowlist in
+configs/ml_feature_classification.json). See
 docs/ml_dataset_identity_and_orientation.md.
 
 Usage:

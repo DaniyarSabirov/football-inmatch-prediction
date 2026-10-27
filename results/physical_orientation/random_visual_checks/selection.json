@@ -1,0 +1,238 @@
+{
+  "seed": 20261022,
+  "selections": [
+    {
+      "match_id": 3835342,
+      "period": 2,
+      "start_second": 1223.2,
+      "end_second": 1373.2,
+      "usable_frames_in_window": 94,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Clearance",
+        "Pass",
+        "Pressure",
+        "Shot"
+      ],
+      "competition": "UEFA Women's Euro",
+      "season": "2022",
+      "date": "2022-07-18",
+      "home_team": "Iceland Women's",
+      "away_team": "France Women's",
+      "stadium": "AESSEAL New York Stadium ",
+      "physical_verification_status": "unverified"
+    },
+    {
+      "match_id": 3788771,
+      "period": 1,
+      "start_second": 1297.5,
+      "end_second": 1447.5,
+      "usable_frames_in_window": 115,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Clearance",
+        "Dribble",
+        "Dribbled Past",
+        "Duel",
+        "Foul Committed",
+        "Goal Keeper",
+        "Miscontrol",
+        "Pass",
+        "Pressure",
+        "Shot"
+      ],
+      "competition": "UEFA Euro",
+      "season": "2020",
+      "date": "2021-06-22",
+      "home_team": "Croatia",
+      "away_team": "Scotland",
+      "stadium": "Hampden Park",
+      "physical_verification_status": "unverified"
+    },
+    {
+      "match_id": 3893797,
+      "period": 2,
+      "start_second": 1.0,
+      "end_second": 151.0,
+      "usable_frames_in_window": 42,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Clearance",
+        "Duel",
+        "Pass",
+        "Pressure"
+      ],
+      "competition": "Women's World Cup",
+      "season": "2023",
+      "date": "2023-07-23",
+      "home_team": "Netherlands Women's",
+      "away_team": "Portugal Women's",
+      "stadium": "Forsyth Barr",
+      "physical_verification_status": "unverified"
+    },
+    {
+      "match_id": 3893827,
+      "period": 2,
+      "start_second": 207.6,
+      "end_second": 357.6,
+      "usable_frames_in_window": 66,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Carry",
+        "Clearance",
+        "Pass",
+        "Pressure"
+      ],
+      "competition": "Women's World Cup",
+      "season": "2023",
+      "date": "2023-08-01",
+      "home_team": "Vietnam Women's",
+      "away_team": "Netherlands Women's",
+      "stadium": "Forsyth Barr",
+      "physical_verification_status": "unverified"
+    },
+    {
+      "match_id": 3930163,
+      "period": 1,
+      "start_second": 2063.3,
+      "end_second": 2213.3,
+      "usable_frames_in_window": 120,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Carry",
+        "Dispossessed",
+        "Dribble",
+        "Dribbled Past",
+        "Duel",
+        "Interception",
+        "Pass",
+        "Pressure"
+      ],
+      "competition": "UEFA Euro",
+      "season": "2024",
+      "date": "2024-06-16",
+      "home_team": "Serbia",
+      "away_team": "England",
+      "stadium": "VELTINS-Arena",
+      "physical_verification_status": "unverified"
+    }
+  ],
+  "full_log": [
+    {
+      "match_id": 3835342,
+      "period": 2,
+      "result": "accepted",
+      "start_second": 1223.2,
+      "end_second": 1373.2,
+      "usable_frames_in_window": 94,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Clearance",
+        "Pass",
+        "Pressure",
+        "Shot"
+      ]
+    },
+    {
+      "match_id": 3788771,
+      "period": 1,
+      "result": "accepted",
+      "start_second": 1297.5,
+      "end_second": 1447.5,
+      "usable_frames_in_window": 115,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Clearance",
+        "Dribble",
+        "Dribbled Past",
+        "Duel",
+        "Foul Committed",
+        "Goal Keeper",
+        "Miscontrol",
+        "Pass",
+        "Pressure",
+        "Shot"
+      ]
+    },
+    {
+      "match_id": 3893797,
+      "period": 2,
+      "result": "accepted",
+      "start_second": 1.0,
+      "end_second": 151.0,
+      "usable_frames_in_window": 42,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Clearance",
+        "Duel",
+        "Pass",
+        "Pressure"
+      ]
+    },
+    {
+      "match_id": 3893827,
+      "period": 2,
+      "result": "accepted",
+      "start_second": 207.6,
+      "end_second": 357.6,
+      "usable_frames_in_window": 66,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Carry",
+        "Clearance",
+        "Pass",
+        "Pressure"
+      ]
+    },
+    {
+      "match_id": 3930163,
+      "period": 1,
+      "attempt": 0,
+      "result": "window_rejected",
+      "start_second": 2429.6,
+      "usable_frames_in_window": 12,
+      "distinct_event_types": 6
+    },
+    {
+      "match_id": 3930163,
+      "period": 1,
+      "result": "accepted",
+      "start_second": 2063.3,
+      "end_second": 2213.3,
+      "usable_frames_in_window": 120,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Carry",
+        "Dispossessed",
+        "Dribble",
+        "Dribbled Past",
+        "Duel",
+        "Interception",
+        "Pass",
+        "Pressure"
+      ]
+    }
+  ]
+}

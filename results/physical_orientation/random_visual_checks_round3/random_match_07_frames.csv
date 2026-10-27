@@ -1,0 +1,52 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3835340,2,42bdea95-f17b-4e07-b502-57c3ae19ce96,2467,00:39:25.510,84:25.510,2365.510,Ball Recovery,Sweden Women's,Olivia Alma Charlotta Schough,14,0,1,True,,0.000,80
+2,3835340,2,98c37d89-7e4b-44b3-a86c-079dd787fb75,2468,00:39:25.510,84:25.510,2365.510,Carry,Sweden Women's,Olivia Alma Charlotta Schough,14,0,1,True,0.000,0.914,914
+3,3835340,2,8accd223-1236-4f85-b70f-a4a096739f2e,2469,00:39:26.424,84:26.424,2366.424,Pass,Sweden Women's,Olivia Alma Charlotta Schough,16,0,1,True,0.914,1.443,1443
+4,3835340,2,4ae617b4-496a-409f-9b89-8816d543d9c0,2470,00:39:27.867,84:27.867,2367.867,Pressure,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,15,0,1,True,1.443,0.728,728
+5,3835340,2,c6297bd4-c2dd-4e3b-afe9-aab61ad224cd,2471,00:39:28.595,84:28.595,2368.595,Ball Receipt*,Sweden Women's,Hanna Erica Maria Glas,14,0,1,True,0.728,0.000,80
+6,3835340,2,28d1fdcd-fdbd-4d1b-82e7-8f783349bfca,2472,00:39:28.595,84:28.595,2368.595,Pass,Sweden Women's,Hanna Erica Maria Glas,14,0,1,True,0.000,1.192,1192
+7,3835340,2,37e40e19-40b6-4022-b56a-93284b3e8bc2,2473,00:39:29.787,84:29.787,2369.787,Pressure,Portugal Women's,Telma Raquel Velosa Encarnação,13,0,1,True,1.192,0.543,543
+8,3835340,2,043d1f33-d7cc-466f-83e7-b3a16b19302a,2474,00:39:30.330,84:30.330,2370.330,Ball Receipt*,Sweden Women's,Amanda Ilestedt,11,0,1,True,0.543,0.000,80
+9,3835340,2,4c5c3668-5a89-4809-9577-8b40959c2f81,2475,00:39:30.330,84:30.330,2370.330,Carry,Sweden Women's,Amanda Ilestedt,11,0,1,True,0.000,0.040,80
+10,3835340,2,e2f99b9f-d65d-4b98-b2a1-7933f735b85b,2476,00:39:30.370,84:30.370,2370.370,Pass,Sweden Women's,Amanda Ilestedt,11,0,1,True,0.040,1.200,1200
+11,3835340,2,83cf41b5-abe2-4dd0-92e3-b890576f7e76,2477,00:39:31.570,84:31.570,2371.570,Ball Receipt*,Sweden Women's,Linda Brigitta Sembrant,10,0,1,True,1.200,0.000,80
+12,3835340,2,cc5ca969-cd4f-441c-bb49-1023c1fadcbb,2478,00:39:31.570,84:31.570,2371.570,Carry,Sweden Women's,Linda Brigitta Sembrant,10,0,1,True,0.000,1.111,1111
+13,3835340,2,4d45ddc4-ebd0-450e-81d1-c1854bda86ed,2479,00:39:32.681,84:32.681,2372.681,Pressure,Portugal Women's,Telma Raquel Velosa Encarnação,10,0,1,True,1.111,0.859,859
+14,3835340,2,0750e1ef-51e8-4970-a7dd-7e58d18971ab,2480,00:39:33.540,84:33.540,2373.540,Pass,Sweden Women's,Linda Brigitta Sembrant,10,0,1,True,0.859,1.758,1500
+15,3835340,2,451ff257-5a24-4de1-8a77-e17d7c842908,2481,00:39:35.298,84:35.298,2375.298,Ball Receipt*,Sweden Women's,Rut Hedvig Lindahl,7,1,1,True,1.758,0.000,80
+16,3835340,2,7ab78e27-c4c8-4416-a3a1-444fca3cd095,2482,00:39:35.298,84:35.298,2375.298,Carry,Sweden Women's,Rut Hedvig Lindahl,7,1,1,True,0.000,3.134,1500
+17,3835340,2,eca40dc9-59c7-46bc-8bee-18b0213cbdbd,2483,00:39:38.432,84:38.432,2378.432,Pressure,Portugal Women's,Telma Raquel Velosa Encarnação,10,1,1,True,3.134,1.013,1013
+18,3835340,2,b52d7ee6-07a1-4dd5-9d2e-afbc05eeec7d,2484,00:39:39.445,84:39.445,2379.445,Pass,Sweden Women's,Rut Hedvig Lindahl,13,1,1,True,1.013,2.697,1500
+19,3835340,2,5a68c595-fb61-452c-a532-35605b94bce0,2485,00:39:42.142,84:42.142,2382.142,Pass,Portugal Women's,Silvia Rebelo,11,0,1,True,2.697,2.774,1500
+20,3835340,2,257e2035-df3c-47d2-851c-cfae00597b13,2486,00:39:44.916,84:44.916,2384.916,Ball Receipt*,Portugal Women's,Tatiana Vanessa Ferreira Pinto,14,0,1,True,2.774,0.000,80
+21,3835340,2,c774a8ed-f7fd-40a4-ae53-3d4ceb9cac3f,2487,00:39:44.916,84:44.916,2384.916,Duel,Portugal Women's,Andreia Martins Faria,14,0,1,True,0.000,0.000,80
+22,3835340,2,21716879-238c-4a7f-8918-271ea811d49b,2488,00:39:44.916,84:44.916,2384.916,Pass,Sweden Women's,Elin Ingrid Johanna Rubensson,14,0,1,True,0.000,1.291,1291
+23,3835340,2,15fb79ff-7fe5-4e7f-bcfa-a139743a0185,2489,00:39:46.207,84:46.207,2386.207,Ball Receipt*,Sweden Women's,Emma Stina Blackstenius,14,0,1,True,1.291,0.000,80
+24,3835340,2,56a6215d-42d4-4bef-85ed-154078458c2d,2490,00:39:46.207,84:46.207,2386.207,Carry,Sweden Women's,Emma Stina Blackstenius,14,0,1,True,0.000,0.080,80
+25,3835340,2,f8f69031-6f1e-4a80-8860-f8f6275262e9,2491,00:39:46.287,84:46.287,2386.287,Pass,Sweden Women's,Emma Stina Blackstenius,14,0,1,True,0.080,0.672,672
+26,3835340,2,561831cd-3f1a-4db5-b9b6-16e509e29ef1,2492,00:39:46.959,84:46.959,2386.959,Ball Receipt*,Sweden Women's,Kosovare Asllani,14,0,1,True,0.672,0.000,80
+27,3835340,2,d0409676-6ca7-48ec-9751-ca58e3400e5c,2493,00:39:46.959,84:46.959,2386.959,Carry,Sweden Women's,Kosovare Asllani,14,0,1,True,0.000,1.494,1494
+28,3835340,2,496f2e6c-77df-43bf-8937-b8d05a063ccc,2494,00:39:48.453,84:48.453,2388.453,Pass,Sweden Women's,Kosovare Asllani,15,1,1,True,1.494,3.071,1500
+29,3835340,2,c5339048-2d28-4e1d-8c02-c0037e255e0b,2495,00:39:51.524,84:51.524,2391.524,Ball Receipt*,Sweden Women's,Emma Stina Blackstenius,9,1,1,True,3.071,0.000,80
+30,3835340,2,48d01450-64e8-4294-9b82-4371b2025cb5,2496,00:39:51.524,84:51.524,2391.524,Carry,Sweden Women's,Emma Stina Blackstenius,9,1,1,True,0.000,0.461,461
+31,3835340,2,f4a174f3-87e2-493f-9526-2382a6f6bb43,2497,00:39:51.985,84:51.985,2391.985,Dribbled Past,Portugal Women's,Ana Borges,9,1,1,True,0.461,0.000,80
+32,3835340,2,dbb1966c-7ffd-435a-b1d3-ec59871aa536,2498,00:39:51.985,84:51.985,2391.985,Dribble,Sweden Women's,Emma Stina Blackstenius,9,1,1,True,0.000,0.000,80
+33,3835340,2,aad83041-c29b-47d1-9d90-b11f028dfba7,2499,00:39:51.985,84:51.985,2391.985,Carry,Sweden Women's,Emma Stina Blackstenius,9,1,1,True,0.000,2.275,1500
+34,3835340,2,2c815416-fc28-419e-80be-6cf10e421243,2500,00:39:54.260,84:54.260,2394.260,Pressure,Portugal Women's,Ana Borges,8,1,1,True,2.275,0.582,582
+35,3835340,2,ed363eee-4ced-4f17-8809-330edb9baaef,2501,00:39:54.842,84:54.842,2394.842,Dribble,Sweden Women's,Emma Stina Blackstenius,8,1,1,True,0.582,0.000,80
+36,3835340,2,bc04d095-aa14-4d08-b273-f4b9615ef853,2502,00:39:54.842,84:54.842,2394.842,Duel,Portugal Women's,Ana Borges,8,1,1,True,0.000,62.591,1500
+37,3835340,2,11d25c33-0b26-42fe-bf1c-2aa46c80f7ce,2508,00:40:57.433,85:57.433,2457.433,Pressure,Sweden Women's,Lina Mona Andréa Hurtig,15,1,1,True,62.591,0.300,300
+38,3835340,2,e3174727-111c-4353-a554-a4715ee47744,2510,00:40:57.733,85:57.733,2457.733,Miscontrol,Portugal Women's,Jéssica da Silva,15,1,1,True,0.300,22.784,1500
+39,3835340,2,6684ace8-2c09-4b34-a726-eede0e5a8671,2511,00:41:20.517,86:20.517,2480.517,Pass,Sweden Women's,Jonna Ann-Charlotte Andersson,19,1,1,True,22.784,0.811,811
+40,3835340,2,d9e289ff-f9b2-41f2-b7f7-87df09b772e0,2512,00:41:21.328,86:21.328,2481.328,Pressure,Portugal Women's,Tatiana Vanessa Ferreira Pinto,19,1,1,True,0.811,0.144,144
+41,3835340,2,cbe4470c-0548-456d-9eb7-e2ee00850052,2513,00:41:21.472,86:21.472,2481.472,Ball Receipt*,Sweden Women's,Emma Stina Blackstenius,19,1,1,True,0.144,0.000,80
+42,3835340,2,ca97af35-462e-49c1-8dd1-1cb4a9317db8,2514,00:41:21.472,86:21.472,2481.472,Carry,Sweden Women's,Emma Stina Blackstenius,19,1,1,True,0.000,1.850,1500
+43,3835340,2,52b83cdd-d80e-410c-a55a-c2f00aa07087,2516,00:41:23.322,86:23.322,2483.322,Ball Receipt*,Sweden Women's,Jonna Ann-Charlotte Andersson,19,1,1,True,1.850,0.000,80
+44,3835340,2,2c84a5b1-5319-4af0-a144-320d48732002,2517,00:41:23.322,86:23.322,2483.322,Carry,Sweden Women's,Jonna Ann-Charlotte Andersson,19,1,1,True,0.000,0.554,554
+45,3835340,2,129bb7f9-fad8-4921-8145-9981c91870bb,2518,00:41:23.876,86:23.876,2483.876,Pressure,Portugal Women's,Telma Raquel Velosa Encarnação,19,1,1,True,0.554,0.452,452
+46,3835340,2,0656eac2-1b1c-488d-a0c4-ad53fb92227f,2519,00:41:24.328,86:24.328,2484.328,Pass,Sweden Women's,Jonna Ann-Charlotte Andersson,19,1,1,True,0.452,1.096,1096
+47,3835340,2,1b02b382-71c5-473a-ab66-e7407b3696f8,2520,00:41:25.424,86:25.424,2485.424,Ball Receipt*,Sweden Women's,Linda Brigitta Sembrant,17,1,1,True,1.096,0.000,80
+48,3835340,2,e49cd2a5-cf1d-459b-9813-229bf0107aa7,2521,00:41:25.424,86:25.424,2485.424,Carry,Sweden Women's,Linda Brigitta Sembrant,17,1,1,True,0.000,0.642,642
+49,3835340,2,a8bb0c5e-e341-44ad-abd0-b004ca92ad12,2522,00:41:26.066,86:26.066,2486.066,Pass,Sweden Women's,Linda Brigitta Sembrant,17,1,1,True,0.642,14.403,1500
+50,3835340,2,acb322ca-f769-4a9e-a109-0f4320c93252,2525,00:41:40.469,86:40.469,2500.469,Ball Receipt*,Portugal Women's,Diana Catarina Ribeiro Gomes,10,1,1,True,14.403,3.278,1500
+51,3835340,2,26b28b61-de00-4f09-ac3e-e71549131de4,2526,00:41:43.747,86:43.747,2503.747,Pass,Portugal Women's,Diana Catarina Ribeiro Gomes,12,1,1,True,3.278,,80

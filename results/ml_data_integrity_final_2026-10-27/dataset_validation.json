@@ -1,0 +1,90 @@
+{
+ "matches": 417,
+ "matches_manifest": 417,
+ "rows": 756023,
+ "rows_per_match_files_total": 756023,
+ "rows_manifest": 756023,
+ "rows_previous_build": 756023,
+ "rows_only_in_new": 0,
+ "rows_only_in_previous": 0,
+ "duplicate_event_ids": 0,
+ "duplicate_rows": 0,
+ "invalid_target_labels": 0,
+ "missing_targets": 0,
+ "class_distribution_pct": {
+  "Pass": 46.6377,
+  "Carry": 41.5555,
+  "Ball Recovery": 4.7563,
+  "Clearance": 1.8289,
+  "Dribble": 1.5339,
+  "Miscontrol": 1.2992,
+  "Shot": 1.2363,
+  "Dispossessed": 1.1521
+ },
+ "targets_identical_to_previous": true,
+ "schema_classified_exactly": true,
+ "approved_feature_matrix_shape": [
+  756023,
+  11
+ ],
+ "approved_features": [
+  "current_event_type",
+  "period",
+  "minute",
+  "actor_x",
+  "actor_y",
+  "actor_ambiguous",
+  "orientation_available",
+  "visible_players",
+  "visible_teammates",
+  "visible_opponents",
+  "visible_ambiguous"
+ ],
+ "count_invariant_violations_causal": 0,
+ "count_invariant_violations_offline": 0,
+ "raw_count_violations": 0,
+ "orientation_causal": {
+  "NORMAL": 744121,
+  "ROTATED_180": 11861,
+  "UNCERTAIN": 41
+ },
+ "orientation_causal_routes": {
+  "geometry": 755487,
+  "causal_kickoff_own_half": 470,
+  "unresolved": 41,
+  "causal_duplicate_snapshot": 23,
+  "causal_temporal_neighbor": 2
+ },
+ "orientation_available_false": 41,
+ "actor_missing_while_orientation_available": 2,
+ "actor_present_while_orientation_unavailable": 0,
+ "orientation_uses_later_records": 55,
+ "orientation_offline_routes": {
+  "geometry": 755487,
+  "display_kickoff_own_half": 469,
+  "display_duplicate_snapshot": 45,
+  "display_camera_side": 12,
+  "user_frame_review": 9,
+  "temporal_neighbor": 1
+ },
+ "identity_quality": {
+  "clean": 752340,
+  "uncertain": 1987,
+  "corrected": 1696
+ },
+ "identity_quality_offline": {
+  "clean": 751273,
+  "uncertain": 3665,
+  "corrected": 1085
+ },
+ "vs_previous_build": {
+  "actor_xy_changed": 16408,
+  "actor_xy_now_unavailable": 41,
+  "actor_xy_changed_while_available": 16367,
+  "offline_actor_equals_previous_actor": 739656,
+  "offline_actor_differs_from_previous_actor": 16367,
+  "causal_identity_counts_changed": 81,
+  "offline_identity_counts_changed": 0,
+  "orientation_offline_vs_previous_orientation_changed": 0
+ }
+}

@@ -1,0 +1,4 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3901833,1,fc8c23ec-10a2-4ee6-8162-ea60b69a721c,441,00:09:58.510,09:58.510,598.510,Ball Receipt*,Morocco Women's,Anissa Lahmari,4,1,1,True,,0.000,80
+2,3901833,1,2845dbfd-dbe6-4009-a984-e19b1c804b5e,442,00:09:58.510,09:58.510,598.510,Ball Recovery,France Women's,Pauline Peyraud Magnin,4,1,1,True,0.000,0.000,80
+3,3901833,1,f36229a7-0442-495b-b2bd-252f1513a295,443,00:09:58.510,09:58.510,598.510,Carry,France Women's,Pauline Peyraud Magnin,4,1,1,True,0.000,,80

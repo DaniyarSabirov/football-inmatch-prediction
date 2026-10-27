@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>Calibration review: match 3901832</title>
+<style>
+body { font-family: -apple-system, sans-serif; background: #0d1a15; color: #e8efea; max-width: 1400px; margin: 2em auto; }
+h1, h2 { color: #f4d35e; }
+.candidates { display: flex; gap: 2em; flex-wrap: wrap; }
+.candidate { flex: 1; min-width: 500px; }
+.candidate img { width: 100%; border: 2px solid #53645d; }
+.candidate h3 { text-align: center; }
+table { border-collapse: collapse; }
+td, th { padding: 4px 10px; border: 1px solid #53645d; text-align: left; }
+pre { background: #101f19; padding: 1em; overflow-x: auto; border: 1px solid #53645d; }
+a { color: #27a7e8; }
+.warning { background: #3a2a0a; border: 1px solid #f4d35e; padding: 1em; margin: 1em 0; }
+</style></head>
+<body>
+<h1>Physical orientation calibration review: match 3901832</h1>
+
+<div class="warning">
+<strong>This page shows only the two choices the renderer can actually make</strong>
+(which team is <code>--physical-reference-team</code>) -- not four variants,
+since horizontal-only/vertical-only are not real, selectable pipeline
+options (see docs/full_physical_pitch_orientation_audit.md). No source
+link below has been opened or visually inspected by any automated tool --
+you (the reviewer) must open the source yourself and compare it against
+the candidate frames below before recording a decision.
+</div>
+
+<h2>Match metadata</h2>
+<table>
+<tr><th>Competition</th><td>Women's World Cup</td></tr>
+<tr><th>Season</th><td>2023</td></tr>
+<tr><th>Date</th><td>2023-08-08</td></tr>
+<tr><th>Home team</th><td>Colombia Women's</td></tr>
+<tr><th>Away team</th><td>Jamaica Women's</td></tr>
+<tr><th>Score</th><td>1-0</td></tr>
+<tr><th>Representative event</th><td>00:02:12.522 &middot; period 1 &middot; Shot &middot; Jamaica Women's</td></tr>
+</table>
+
+<h2>Candidate orientations (both real, both rendered by the actual production renderer)</h2>
+<div class="candidates">
+<div class="candidate"><h3>Jamaica Women's = reference</h3><img src="3901832/candidate_Jamaica_Women's_reference.png"></div>
+<div class="candidate"><h3>Colombia Women's = reference</h3><img src="3901832/candidate_Colombia_Women's_reference.png"></div>
+</div>
+
+<h2>Candidate public sources (UNVERIFIED -- found via text search only, never opened)</h2>
+<ul><li><a href="https://www.skysports.com/football/colombia-women-vs-jamaica-women/460883" target="_blank">Colombia 1-0 Jamaica WWC 2023 - Sky Sports report</a></li></ul>
+
+<h2>Record your decision here</h2>
+<p>After comparing a source above against the two candidates, fill in this
+snippet and append it to <code>configs/physical_orientation_calibration.json</code>'s
+<code>"calibrations"</code> list:</p>
+<pre>{
+  "match_id": 3901832,
+  "period_1_physical_reference_team": "<FILL IN: exact team name as shown above>",
+  "period_handling_rule": "standard_laws_of_the_game_halftime_and_extra_time_swap",
+  "horizontal_orientation_verified": true,
+  "vertical_orientation_verified": "<true if the source showed depth/touchline clearly, else false>",
+  "vertical_orientation_note": "",
+  "source_url": "<FILL IN>",
+  "source_description": "<FILL IN>",
+  "evidence_landmark": "<FILL IN: e.g. 'X goalkeeper kit color, right-side goal, MM:SS'>",
+  "verification_method": "human visual comparison of candidate frame against source footage",
+  "confidence": "<high|medium|low>",
+  "verification_status": "<verified|partially_verified|unverified|ambiguous>",
+  "verified_by": "<FILL IN>",
+  "date_verified": "<FILL IN: YYYY-MM-DD>",
+  "reviewer_notes": "",
+  "report": "docs/all_matches_physical_orientation_feasibility.md"
+}</pre>
+
+</body></html>

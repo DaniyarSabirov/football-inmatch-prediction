@@ -1,0 +1,110 @@
+{
+ "generated_with": "scripts/audit_outstanding_issues.py (current code)",
+ "eligible_matches": 417,
+ "periods_examined": 908,
+ "regular_periods": 894,
+ "shootout_periods": 14,
+ "independently_verified_matches": 2,
+ "period_status": {
+  "high_confidence_inferred": 902,
+  "independently_verified": 4,
+  "rule_or_relation_derived": 1,
+  "user_reviewed": 1
+ },
+ "user_reviewed_periods": 1,
+ "high_confidence_inferred_periods": 902,
+ "ambiguous_periods": 1,
+ "rule_derived_periods": 1,
+ "fallback_periods": 0,
+ "contradicted_by_independent_evidence": 0,
+ "snapshots": 1357626,
+ "uncertain_snapshots_problem_a": 4974,
+ "uncertain_outcomes": {
+  "resolved_rotated": 4111,
+  "left_uncorrected": 767,
+  "resolved_normal": 96
+ },
+ "uncertain_signal_disagreements": 267,
+ "uncertain_visual_class": {
+  "resolved_rotated": 4111,
+  "likely_correct": 471,
+  "resolved_normal": 96,
+  "confirmed_flipped": 268,
+  "likely_flipped": 5,
+  "undetermined": 16,
+  "confirmed_correct": 7
+ },
+ "unresolved_event_level_cases": 767,
+ "likely_flipped_frames": 5,
+ "confirmed_flipped_frames": 268,
+ "flipped_frames_total": 273,
+ "flipped_frame_matches": 180,
+ "sibling_check": {
+  "confirmed_correct": 4092,
+  "no_confident_sibling": 531,
+  "confirmed_flipped": 268,
+  "sibling_inconclusive": 83
+ },
+ "sibling_check_by_outcome": {
+  "resolved_rotated|confirmed_correct": 3999,
+  "left_uncorrected|no_confident_sibling": 480,
+  "resolved_normal|confirmed_correct": 86,
+  "left_uncorrected|confirmed_flipped": 268,
+  "resolved_rotated|no_confident_sibling": 41,
+  "resolved_rotated|sibling_inconclusive": 71,
+  "left_uncorrected|sibling_inconclusive": 12,
+  "left_uncorrected|confirmed_correct": 7,
+  "resolved_normal|no_confident_sibling": 10
+ },
+ "unusual_camera_frames": 8522,
+ "unusual_camera_ball_inside_polygon": 8423,
+ "render_errors": 0,
+ "shot_cross_check": {
+  "agrees": 716,
+  "unavailable": 192
+ },
+ "known_visualization_defects": 2,
+ "known_visualization_defect_types": {
+  "display_rule_skipped_in_rule_derived_period": {
+   "confirmed": 9,
+   "likely": 0
+  },
+  "uncorrected_uncertain_snapshot_drawn_flipped": {
+   "confirmed": 259,
+   "likely": 5
+  }
+ },
+ "issues_by_priority": {
+  "P3": 63,
+  "P1": 5,
+  "P0": 213
+ },
+ "issues_by_type": {
+  "two_keepers_same_team": 10,
+  "frequent_unusual_camera_polygons": 29,
+  "ambiguous_team_identity": 7,
+  "ambiguous_camera_evidence": 1,
+  "rule_derived_orientation": 1,
+  "clock_outside_expected_range": 1,
+  "flipped_single_frames": 216,
+  "undetermined_uncertain_frames": 16
+ },
+ "manual_review_tasks": {
+  "P1": 6,
+  "P2": 3
+ },
+ "data_quality": {
+  "missing_visible_area": 0,
+  "malformed_visible_area": 0,
+  "sparse_freeze_frames": 652,
+  "player_points": 21193635,
+  "player_points_out_of_bounds": 115055,
+  "player_points_outside_viewport": 40909,
+  "ball_out_of_bounds": 1,
+  "ambiguous_team_points": 270,
+  "keeper_identity_ambiguous": 5,
+  "frames_two_keepers_same_team": 28,
+  "clock_out_of_period_range": 4,
+  "stoppage_time_snapshots": 74734
+ }
+}

@@ -1,0 +1,4 @@
+Match 3773477, event aec2dae2-53b3-4526-a1f1-e2ef1dcf75c0
+Type: Ball Receipt*  Period: 2  Team: Barcelona
+Orientation: ROTATED_180 (confidence=0.873, resolved_by=geometry)
+Transformation applied (orientation mirror): True

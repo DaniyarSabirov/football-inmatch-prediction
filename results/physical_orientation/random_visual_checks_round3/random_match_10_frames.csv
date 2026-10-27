@@ -1,0 +1,76 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3998846,2,14303166-7873-47db-ba5a-274f1fbbca55,2412,00:30:28.848,75:28.848,1828.848,Pressure,Italy Women's,Elisabetta Oliviero,15,0,1,True,,1.047,1047
+2,3998846,2,668b56f8-a092-4fb7-bc2d-6941a5e45837,2413,00:30:29.895,75:29.895,1829.895,Pressure,Italy Women's,Arianna Caruso,16,0,1,True,1.047,0.253,253
+3,3998846,2,cfe77b9d-d99d-4cbc-964a-9a593bdc65f0,2414,00:30:30.148,75:30.148,1830.148,Pass,Portugal Women's,Catarina Amado,16,0,1,True,0.253,0.986,986
+4,3998846,2,289a3d26-f004-46a6-a954-4f0bf64a04dd,2415,00:30:31.134,75:31.134,1831.134,Ball Receipt*,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,16,0,1,True,0.986,0.000,80
+5,3998846,2,68465fa3-8387-4847-8ae1-bcfb81695e64,2416,00:30:31.134,75:31.134,1831.134,Carry,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,16,0,1,True,0.000,1.699,1500
+6,3998846,2,a57bbc50-dca6-4ec7-8d4b-7d5fe5ae7a05,2417,00:30:32.833,75:32.833,1832.833,Pass,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,16,0,1,True,1.699,0.342,342
+7,3998846,2,1b366968-2319-49c4-9bb0-9709f8cead86,2418,00:30:33.175,75:33.175,1833.175,Block,Portugal Women's,Tatiana Vanessa Ferreira Pinto,16,0,1,True,0.342,2.053,1500
+8,3998846,2,a56ee7a9-1b16-4a92-bd9d-e7348bc4d673,2419,00:30:35.228,75:35.228,1835.228,Pass,Portugal Women's,Tatiana Vanessa Ferreira Pinto,16,0,1,True,2.053,1.784,1500
+9,3998846,2,d079b0a1-dc80-4c2b-b454-df5e97533232,2420,00:30:37.012,75:37.012,1837.012,Ball Receipt*,Portugal Women's,Jéssica da Silva,16,0,1,True,1.784,0.000,80
+10,3998846,2,ac1209d0-1682-47c5-8d1b-f9e8ca0fe88a,2421,00:30:37.012,75:37.012,1837.012,Carry,Portugal Women's,Jéssica da Silva,16,0,1,True,0.000,0.541,541
+11,3998846,2,175d7bca-8fe1-43cf-b4d4-1a863271dfa9,2422,00:30:37.553,75:37.553,1837.553,Pass,Portugal Women's,Jéssica da Silva,17,1,1,True,0.541,0.791,791
+12,3998846,2,c4751ce9-d6dc-417e-846a-474d5335bffa,2423,00:30:38.344,75:38.344,1838.344,Ball Receipt*,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,17,1,1,True,0.791,0.000,80
+13,3998846,2,76503b4f-8048-4099-a12e-a00bbff76bc8,2424,00:30:38.344,75:38.344,1838.344,Carry,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,17,1,1,True,0.000,1.708,1500
+14,3998846,2,e034a657-ad68-4fff-a9e8-918312b1dc5b,2425,00:30:40.052,75:40.052,1840.052,Pressure,Italy Women's,Elisabetta Oliviero,17,1,1,True,1.708,0.304,304
+15,3998846,2,4ae04528-4850-4bb5-bedc-78d243eb8c00,2426,00:30:40.356,75:40.356,1840.356,Pass,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,17,1,1,True,0.304,0.696,696
+16,3998846,2,99d280df-7763-4365-a865-6155b1fe1b6c,2427,00:30:41.052,75:41.052,1841.052,Ball Receipt*,Portugal Women's,Tatiana Vanessa Ferreira Pinto,17,1,1,True,0.696,0.000,80
+17,3998846,2,1de5a6cf-edf2-4808-b459-07c0a64eda34,2428,00:30:41.052,75:41.052,1841.052,Pass,Portugal Women's,Tatiana Vanessa Ferreira Pinto,17,1,1,True,0.000,2.554,1500
+18,3998846,2,f60eed9e-f3f2-43c4-b63e-649b32a21f69,2431,00:30:43.606,75:43.606,1843.606,Pass,Portugal Women's,Catarina Amado,17,1,1,True,2.554,0.731,731
+19,3998846,2,e66c79ac-98c1-4f4d-be4b-476a98cfebb3,2432,00:30:44.337,75:44.337,1844.337,Ball Receipt*,Portugal Women's,Tatiana Vanessa Ferreira Pinto,18,1,1,True,0.731,0.000,80
+20,3998846,2,a8035017-f8fb-40d8-91ad-6a332f122e2d,2433,00:30:44.337,75:44.337,1844.337,Pass,Portugal Women's,Tatiana Vanessa Ferreira Pinto,18,1,1,True,0.000,1.390,1390
+21,3998846,2,78f331c5-b3be-45a3-8313-03467cb1b4d9,2434,00:30:45.727,75:45.727,1845.727,Ball Receipt*,Portugal Women's,Catarina Amado,19,1,1,True,1.390,0.000,80
+22,3998846,2,427ae6a0-1fd7-4c9d-8190-22511aed14b2,2435,00:30:45.727,75:45.727,1845.727,Carry,Portugal Women's,Catarina Amado,19,1,1,True,0.000,2.522,1500
+23,3998846,2,786e5912-999a-481b-8687-c799d0135df6,2436,00:30:48.249,75:48.249,1848.249,Pass,Portugal Women's,Catarina Amado,19,1,1,True,2.522,1.045,1045
+24,3998846,2,02039549-5318-45c9-9def-fce0a7f271a0,2437,00:30:49.294,75:49.294,1849.294,Pressure,Italy Women's,Arianna Caruso,18,1,1,True,1.045,0.058,80
+25,3998846,2,e996472a-8feb-4709-bcc7-ab162e2487e1,2438,00:30:49.352,75:49.352,1849.352,Ball Receipt*,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,18,1,1,True,0.058,0.000,80
+26,3998846,2,e279642f-b7fd-4536-972f-61e641ce991a,2439,00:30:49.352,75:49.352,1849.352,Carry,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,18,1,1,True,0.000,2.041,1500
+27,3998846,2,933d60b5-ac4e-4123-8d57-dd6aa4a937bc,2440,00:30:51.393,75:51.393,1851.393,Pressure,Italy Women's,Giada Greggi,18,1,1,True,2.041,0.310,310
+28,3998846,2,e7ba9e8c-d650-4102-8d69-d8c419ba8ecb,2441,00:30:51.703,75:51.703,1851.703,Pass,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,18,1,1,True,0.310,1.092,1092
+29,3998846,2,e83eb1a1-3a66-4b2b-9330-f6d1f367bae2,2442,00:30:52.795,75:52.795,1852.795,Ball Receipt*,Portugal Women's,Andreia de Jesus Jacinto,19,1,1,True,1.092,0.000,80
+30,3998846,2,b72abbfa-e2ad-4b37-ae73-109461fbb50e,2443,00:30:52.795,75:52.795,1852.795,Carry,Portugal Women's,Andreia de Jesus Jacinto,19,1,1,True,0.000,0.571,571
+31,3998846,2,1ff2bfc5-dc5c-49fa-8ffe-57b21e9bba44,2444,00:30:53.366,75:53.366,1853.366,Pressure,Italy Women's,Giada Greggi,19,1,1,True,0.571,0.326,326
+32,3998846,2,d7a98155-6a2b-44ff-89f5-1e14f197def2,2445,00:30:53.692,75:53.692,1853.692,Pass,Portugal Women's,Andreia de Jesus Jacinto,19,1,1,True,0.326,0.976,976
+33,3998846,2,3d26b71e-8666-46b8-9dd8-1c5ea0b59db4,2446,00:30:54.668,75:54.668,1854.668,Ball Receipt*,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,16,1,1,True,0.976,0.000,80
+34,3998846,2,78d7e0bc-25dd-423a-8821-d6b0cfed0c17,2447,00:30:54.668,75:54.668,1854.668,Carry,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,16,1,1,True,0.000,2.219,1500
+35,3998846,2,ca64a7f7-59d8-49b6-a84e-a8592a3487aa,2448,00:30:56.887,75:56.887,1856.887,Pass,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,16,1,1,True,2.219,0.620,620
+36,3998846,2,b104ae33-f81a-4e94-ac82-d2bfb889cd2f,2449,00:30:57.507,75:57.507,1857.507,Ball Receipt*,Portugal Women's,Ana Borges,16,1,1,True,0.620,0.000,80
+37,3998846,2,3e33b546-85df-4491-bf21-194d84cca675,2450,00:30:57.507,75:57.507,1857.507,Carry,Portugal Women's,Ana Borges,16,1,1,True,0.000,2.484,1500
+38,3998846,2,177f59b1-b77f-4704-9c16-0afa8fc99f00,2451,00:30:59.991,75:59.991,1859.991,Dribble,Portugal Women's,Ana Borges,16,1,1,True,2.484,0.000,80
+39,3998846,2,4e2f9f9a-3889-46f0-b9bf-29998047727b,2452,00:30:59.991,75:59.991,1859.991,Duel,Italy Women's,Lisa Boattin,16,1,1,True,0.000,2.088,1500
+40,3998846,2,1f6e2c19-c48f-4acd-ad32-1d3e8da5ab43,2453,00:31:02.079,76:02.079,1862.079,Clearance,Italy Women's,Lisa Boattin,16,1,1,True,2.088,11.233,1500
+41,3998846,2,a38ddd3a-96a3-4e74-8c93-9e21fca3eba7,2454,00:31:13.312,76:13.312,1873.312,Pass,Portugal Women's,Ana Borges,18,0,1,True,11.233,2.168,1500
+42,3998846,2,013f15ff-0108-4552-8e11-173424b304f0,2455,00:31:15.480,76:15.480,1875.480,Ball Receipt*,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,18,0,1,True,2.168,0.000,80
+43,3998846,2,5f2799ce-ed55-4007-9bb6-8bd8cffd235b,2456,00:31:15.480,76:15.480,1875.480,Carry,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,18,0,1,True,0.000,0.663,663
+44,3998846,2,bfdecd1e-516f-408c-99f0-53310e61d47b,2457,00:31:16.143,76:16.143,1876.143,Pass,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,18,0,1,True,0.663,0.851,851
+45,3998846,2,9cf6d77e-b05d-4dcf-ac97-29c1bdbe5743,2458,00:31:16.994,76:16.994,1876.994,Ball Receipt*,Portugal Women's,Tatiana Vanessa Ferreira Pinto,18,0,1,True,0.851,0.000,80
+46,3998846,2,a03aac9f-7cd7-4541-803c-f037dfde863c,2459,00:31:16.994,76:16.994,1876.994,Carry,Portugal Women's,Tatiana Vanessa Ferreira Pinto,18,0,1,True,0.000,2.186,1500
+47,3998846,2,11fb70a2-b3d4-4d0a-9a9f-70c2fb58f500,2460,00:31:19.180,76:19.180,1879.180,Pass,Portugal Women's,Tatiana Vanessa Ferreira Pinto,17,0,1,True,2.186,0.004,80
+48,3998846,2,2089231e-3e91-4b3f-b820-8d48e42a406b,2461,00:31:19.184,76:19.184,1879.184,Pressure,Italy Women's,Giada Greggi,17,0,1,True,0.004,1.483,1483
+49,3998846,2,aeff6aa0-da83-45c0-b31f-9c3e446340d7,2462,00:31:20.667,76:20.667,1880.667,Ball Receipt*,Portugal Women's,Andreia de Jesus Jacinto,17,0,1,True,1.483,0.000,80
+50,3998846,2,31b0d7b6-5013-4724-ad4b-a6a509ff12a7,2463,00:31:20.667,76:20.667,1880.667,Carry,Portugal Women's,Andreia de Jesus Jacinto,17,0,1,True,0.000,1.022,1022
+51,3998846,2,aa0a04f0-cca0-477e-adc5-92adaf886874,2464,00:31:21.689,76:21.689,1881.689,Pressure,Italy Women's,Giada Greggi,16,0,1,True,1.022,1.205,1205
+52,3998846,2,b2d65aac-db62-4b74-960c-78cc3697dff1,2465,00:31:22.894,76:22.894,1882.894,Pass,Portugal Women's,Andreia de Jesus Jacinto,16,0,1,True,1.205,1.063,1063
+53,3998846,2,66548e12-e6c9-43e5-b39d-ef84cdd988b5,2466,00:31:23.957,76:23.957,1883.957,Ball Receipt*,Portugal Women's,Tatiana Vanessa Ferreira Pinto,17,0,1,True,1.063,0.000,80
+54,3998846,2,59db31df-ee41-411c-aae2-0b9cffe15e75,2467,00:31:23.957,76:23.957,1883.957,Carry,Portugal Women's,Tatiana Vanessa Ferreira Pinto,17,0,1,True,0.000,0.763,763
+55,3998846,2,bdd874a3-6904-479a-a2aa-2373198fec98,2468,00:31:24.720,76:24.720,1884.720,Pressure,Italy Women's,Giada Greggi,16,0,1,True,0.763,2.765,1500
+56,3998846,2,5b1a3da3-4856-4f4e-b883-a108e5012ee7,2469,00:31:27.485,76:27.485,1887.485,Pass,Portugal Women's,Tatiana Vanessa Ferreira Pinto,18,0,1,True,2.765,1.643,1500
+57,3998846,2,6d195bc5-bda5-40b3-a313-ac083e0549c2,2470,00:31:29.128,76:29.128,1889.128,Ball Receipt*,Portugal Women's,Ana Borges,16,0,1,True,1.643,0.000,80
+58,3998846,2,33818598-12a3-47e6-b5bc-9d7eb2f7c7ed,2471,00:31:29.128,76:29.128,1889.128,Carry,Portugal Women's,Ana Borges,16,0,1,True,0.000,1.476,1476
+59,3998846,2,231b9c13-6cdc-449c-b652-59b390662252,2472,00:31:30.604,76:30.604,1890.604,Pass,Portugal Women's,Ana Borges,17,1,1,True,1.476,0.302,302
+60,3998846,2,7404b2b8-b1e2-4177-9534-7041eca3af48,2473,00:31:30.906,76:30.906,1890.906,Ball Receipt*,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,17,1,1,True,0.302,0.000,80
+61,3998846,2,c02ba9a6-14f9-4949-b126-f587e90df1c5,2474,00:31:30.906,76:30.906,1890.906,Block,Italy Women's,Arianna Caruso,17,1,1,True,0.000,12.474,1500
+62,3998846,2,bb0c40aa-a044-4a50-b7e8-9356605f2be5,2476,00:31:43.380,76:43.380,1903.380,Ball Receipt*,Portugal Women's,Diana Catarina Ribeiro Gomes,14,0,1,True,12.474,0.000,80
+63,3998846,2,b8464960-8c63-44c3-bd85-015c8d823151,2477,00:31:43.380,76:43.380,1903.380,Carry,Portugal Women's,Diana Catarina Ribeiro Gomes,14,0,1,True,0.000,0.934,934
+64,3998846,2,214b2a49-11b7-4e8d-a90b-f1c379ff789f,2478,00:31:44.314,76:44.314,1904.314,Pass,Portugal Women's,Diana Catarina Ribeiro Gomes,15,0,1,True,0.934,4.950,1500
+65,3998846,2,bd507eef-61ea-4788-8128-59a8d35edd1b,2482,00:31:49.264,76:49.264,1909.264,Ball Receipt*,Portugal Women's,Catarina Amado,17,1,1,True,4.950,0.000,80
+66,3998846,2,15745146-2e32-4bfc-920c-cf6f0f529b72,2483,00:31:49.264,76:49.264,1909.264,Carry,Portugal Women's,Catarina Amado,17,1,1,True,0.000,3.623,1500
+67,3998846,2,f29007c7-c221-4168-a76f-3346e9180365,2484,00:31:52.887,76:52.887,1912.887,Pass,Portugal Women's,Catarina Amado,18,1,1,True,3.623,0.884,884
+68,3998846,2,4ac7ea7f-fa30-40a1-a498-9d6e97159656,2485,00:31:53.771,76:53.771,1913.771,Ball Receipt*,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,18,1,1,True,0.884,0.000,80
+69,3998846,2,4e5bd959-3c34-4c78-a256-a263e41b8445,2486,00:31:53.771,76:53.771,1913.771,Pass,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,18,1,1,True,0.000,1.216,1216
+70,3998846,2,a2cd0d6d-3704-4a78-87bf-6c7d05a4b543,2487,00:31:54.987,76:54.987,1914.987,Ball Receipt*,Portugal Women's,Carole da Silva Costa,20,1,1,True,1.216,0.000,80
+71,3998846,2,713c25b0-841c-47c4-b13c-a3dcf338dcb9,2488,00:31:54.987,76:54.987,1914.987,Carry,Portugal Women's,Carole da Silva Costa,20,1,1,True,0.000,0.743,743
+72,3998846,2,7efc5956-ea38-4586-adb7-878c1961dfca,2489,00:31:55.730,76:55.730,1915.730,Pass,Portugal Women's,Carole da Silva Costa,20,1,1,True,0.743,0.697,697
+73,3998846,2,b40bf438-e91a-456a-b03b-f2d7db845448,2490,00:31:56.427,76:56.427,1916.427,Ball Receipt*,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,20,1,1,True,0.697,0.000,80
+74,3998846,2,637759dd-cb2c-4614-b35a-c7a22612105b,2491,00:31:56.427,76:56.427,1916.427,Carry,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,20,1,1,True,0.000,1.488,1488
+75,3998846,2,ef5965e2-1e5f-4edf-9c89-e082d3abf162,2492,00:31:57.915,76:57.915,1917.915,Pass,Portugal Women's,Francisca Ramos Ribeiro Nazareth Sousa,20,1,1,True,1.488,,80

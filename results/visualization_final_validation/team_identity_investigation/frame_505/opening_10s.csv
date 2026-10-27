@@ -1,0 +1,10 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3930164,1,5aabea4a-a1e7-4e5e-adc3-b13dec0f27bf,5,00:00:00.505,00:00.505,0.505,Pass,Slovakia,Lukáš Haraslín,20,0,1,True,,1.111,1111
+2,3930164,1,199c270e-17b5-4fa6-964b-e8b8392736c5,6,00:00:01.616,00:01.616,1.616,Ball Receipt*,Slovakia,Stanislav Lobotka,20,0,1,True,1.111,0.000,80
+3,3930164,1,7e5af51b-2dad-4f80-ab90-967fa860f1a2,7,00:00:01.616,00:01.616,1.616,Carry,Slovakia,Stanislav Lobotka,20,0,1,True,0.000,0.830,830
+4,3930164,1,67d0151b-6ab3-4925-a262-01e7c3e4fbf7,8,00:00:02.446,00:02.446,2.446,Pass,Slovakia,Stanislav Lobotka,20,0,1,True,0.830,0.989,989
+5,3930164,1,ec8738e7-4126-4b10-9e8c-ad13e040bccf,9,00:00:03.435,00:03.435,3.435,Ball Receipt*,Slovakia,Lukáš Haraslín,20,0,1,True,0.989,0.000,80
+6,3930164,1,e51d84fe-cc74-4c68-ba28-f8a5d319e8e2,10,00:00:03.435,00:03.435,3.435,Pass,Slovakia,Lukáš Haraslín,20,0,1,True,0.000,1.125,1125
+7,3930164,1,29891527-3dfe-40bf-9ce9-a0dc67e19549,11,00:00:04.560,00:04.560,4.560,Ball Receipt*,Slovakia,Stanislav Lobotka,20,0,1,True,1.125,0.000,80
+8,3930164,1,fba3ab35-0b5e-4b8f-a7bf-3bbcd810da50,12,00:00:04.560,00:04.560,4.560,Carry,Slovakia,Stanislav Lobotka,20,0,1,True,0.000,2.223,1500
+9,3930164,1,a825a3b1-9c21-44d2-a253-7d5b1f9d38ff,13,00:00:06.783,00:06.783,6.783,Pass,Slovakia,Stanislav Lobotka,18,0,1,True,2.223,,80

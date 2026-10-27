@@ -1,0 +1,16 @@
+x_drawn,y_drawn,raw_teammate_flag,actor,keeper,drawn_team,paired_team_previous,pair_distance_previous_yd,paired_team_next,pair_distance_next_yd,contradicts
+3.46,41.2,True,True,False,Barcelona,Deportivo Alavés,2.73,Deportivo Alavés,0.0,both
+7.18,48.96,False,False,False,Deportivo Alavés,Barcelona,2.76,Barcelona,0.0,both
+11.76,42.71,False,False,False,Deportivo Alavés,Deportivo Alavés,2.76,Barcelona,0.0,next
+12.0,45.41,True,False,False,Barcelona,Deportivo Alavés,1.0,Deportivo Alavés,0.0,both
+13.43,40.01,True,False,False,Barcelona,Deportivo Alavés,2.69,Deportivo Alavés,0.0,both
+13.54,33.83,True,False,False,Barcelona,Deportivo Alavés,2.6,Deportivo Alavés,0.0,both
+13.71,46.3,True,False,False,Barcelona,,3.53,Deportivo Alavés,0.0,next
+15.13,32.37,False,False,False,Deportivo Alavés,Barcelona,2.25,Barcelona,0.0,both
+15.31,55.88,False,False,False,Deportivo Alavés,Barcelona,1.39,Barcelona,0.0,both
+15.37,49.33,True,False,False,Barcelona,Barcelona,2.08,Deportivo Alavés,0.0,next
+15.75,55.34,True,False,False,Barcelona,,3.38,Deportivo Alavés,0.0,next
+18.4,54.9,True,False,False,Barcelona,,3.68,Deportivo Alavés,0.0,next
+21.78,57.46,True,False,False,Barcelona,Deportivo Alavés,1.41,Deportivo Alavés,0.0,both
+22.19,32.88,True,False,False,Barcelona,Deportivo Alavés,1.58,Deportivo Alavés,0.0,both
+27.17,50.84,False,False,False,Deportivo Alavés,Barcelona,1.71,Barcelona,0.0,both

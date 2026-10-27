@@ -1,0 +1,64 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3902968,2,cea80f66-e92a-4443-bf4c-d0f0492458c9,2332,00:27:19.988,72:19.988,1639.988,Pass,Australia Women's,Mackenzie Arnold,7,1,1,True,,27.759,1500
+2,3902968,2,b9242f24-7492-49e5-92ed-bbabd0954baf,2335,00:27:47.747,72:47.747,1667.747,Pass,Australia Women's,Stephanie-Elise Catley,14,1,1,True,27.759,1.422,1422
+3,3902968,2,873dbadf-d001-4f1d-aba2-00235116638f,2336,00:27:49.169,72:49.169,1669.169,Pressure,France Women's,Maëlle Lakrar,14,1,1,True,1.422,0.367,367
+4,3902968,2,4ee12743-656a-42d2-bd1b-ed5e0e8e0262,2337,00:27:49.536,72:49.536,1669.536,Ball Receipt*,Australia Women's,Samantha May Kerr,14,1,1,True,0.367,0.000,80
+5,3902968,2,e51ae061-e397-46d5-bd96-de53a48633b9,2338,00:27:49.536,72:49.536,1669.536,Carry,Australia Women's,Samantha May Kerr,14,1,1,True,0.000,1.774,1500
+6,3902968,2,48be2385-ab49-4960-a322-5d76f021f0bf,2339,00:27:51.310,72:51.310,1671.310,Pass,Australia Women's,Samantha May Kerr,13,1,1,True,1.774,12.506,1500
+7,3902968,2,55949780-9803-43b9-9219-88783cdd26f9,2345,00:28:03.816,73:03.816,1683.816,Ball Recovery,Australia Women's,Clare Hunt,10,0,1,True,12.506,0.000,80
+8,3902968,2,cd7fd47d-ba60-456e-989d-be89310b2220,2346,00:28:03.816,73:03.816,1683.816,Carry,Australia Women's,Clare Hunt,10,0,1,True,0.000,1.741,1500
+9,3902968,2,9d63a31f-d1c1-484c-823d-5c50e5ca7fca,2347,00:28:05.557,73:05.557,1685.557,Pass,Australia Women's,Clare Hunt,10,0,1,True,1.741,2.118,1500
+10,3902968,2,d18c318e-8467-467a-8694-b41c39aa5732,2348,00:28:07.675,73:07.675,1687.675,Ball Receipt*,Australia Women's,Alanna Stephanie Kennedy,6,0,1,True,2.118,0.000,80
+11,3902968,2,b2481303-f477-4eff-9028-125c0dff52c6,2349,00:28:07.675,73:07.675,1687.675,Carry,Australia Women's,Alanna Stephanie Kennedy,6,0,1,True,0.000,1.498,1498
+12,3902968,2,1cfb90ca-1a5a-44b1-b1ff-1be0ec196244,2350,00:28:09.173,73:09.173,1689.173,Pass,Australia Women's,Alanna Stephanie Kennedy,6,0,1,True,1.498,2.052,1500
+13,3902968,2,101fe6d2-bf0f-473e-8417-d30a40cef4cd,2351,00:28:11.225,73:11.225,1691.225,Ball Receipt*,Australia Women's,Stephanie-Elise Catley,7,0,1,True,2.052,0.000,80
+14,3902968,2,61dbbea0-764c-4a33-91cf-eadd5e46f248,2352,00:28:11.225,73:11.225,1691.225,Carry,Australia Women's,Stephanie-Elise Catley,7,0,1,True,0.000,0.955,955
+15,3902968,2,c02b1a73-4953-4d93-a933-311cd6562658,2353,00:28:12.180,73:12.180,1692.180,Pass,Australia Women's,Stephanie-Elise Catley,7,0,1,True,0.955,1.712,1500
+16,3902968,2,4b899436-feed-4fd2-b815-f572902a220d,2354,00:28:13.892,73:13.892,1693.892,Ball Receipt*,Australia Women's,Alanna Stephanie Kennedy,5,0,1,True,1.712,0.000,80
+17,3902968,2,502ee897-e5ac-48ac-b940-fcfe40451565,2355,00:28:13.892,73:13.892,1693.892,Carry,Australia Women's,Alanna Stephanie Kennedy,5,0,1,True,0.000,0.045,80
+18,3902968,2,7a1963cc-f120-4e3c-823b-b8be88f86929,2356,00:28:13.937,73:13.937,1693.937,Pressure,France Women's,Eugénie Le Sommer,5,0,1,True,0.045,0.773,773
+19,3902968,2,8ac93f15-7d74-4b89-9662-3dc23481769d,2357,00:28:14.710,73:14.710,1694.710,Pass,Australia Women's,Alanna Stephanie Kennedy,6,0,1,True,0.773,1.965,1500
+20,3902968,2,3009a31d-022b-48a7-b348-ee233c26617d,2358,00:28:16.675,73:16.675,1696.675,Ball Receipt*,Australia Women's,Ellie Madison Carpenter,9,0,1,True,1.965,0.000,80
+21,3902968,2,b7dab745-e47d-4893-b40f-d2ca253973bb,2359,00:28:16.675,73:16.675,1696.675,Carry,Australia Women's,Ellie Madison Carpenter,9,0,1,True,0.000,0.200,200
+22,3902968,2,5a20a296-9a64-4c6c-845a-fef0901b451a,2360,00:28:16.875,73:16.875,1696.875,Pressure,France Women's,Selma Bacha,9,0,1,True,0.200,0.745,745
+23,3902968,2,0c11687c-6112-44a1-a813-3f5f911061a8,2361,00:28:17.620,73:17.620,1697.620,Miscontrol,Australia Women's,Ellie Madison Carpenter,10,0,1,True,0.745,1.034,1034
+24,3902968,2,581d7fa7-08db-4410-ad85-700f8046d3a3,2362,00:28:18.654,73:18.654,1698.654,Ball Recovery,France Women's,Kenza Dali,10,0,1,True,1.034,0.000,80
+25,3902968,2,bda5666d-e915-429f-88ac-bdab016d95a4,2363,00:28:18.654,73:18.654,1698.654,Carry,France Women's,Kenza Dali,10,0,1,True,0.000,2.529,1500
+26,3902968,2,3aac934e-6b92-4bd4-8380-ed69b03dc313,2367,00:28:21.183,73:21.183,1701.183,Pass,France Women's,Selma Bacha,13,0,1,True,2.529,0.552,552
+27,3902968,2,ee2b8416-84a9-42ba-b862-a1bf4109445a,2368,00:28:21.735,73:21.735,1701.735,Ball Receipt*,France Women's,Kadidiatou Diani,14,0,1,True,0.552,0.000,80
+28,3902968,2,d10adeea-c4c9-4cf7-ae88-9e19d626c299,2369,00:28:21.735,73:21.735,1701.735,Carry,France Women's,Kadidiatou Diani,14,0,1,True,0.000,0.120,120
+29,3902968,2,5d82237a-8b31-41a0-b1a5-25da5d314d45,2370,00:28:21.855,73:21.855,1701.855,Miscontrol,France Women's,Kadidiatou Diani,15,0,1,True,0.120,2.389,1500
+30,3902968,2,6e1726d3-533f-4d29-998a-8f2e50df4120,2372,00:28:24.244,73:24.244,1704.244,Ball Recovery,Australia Women's,Clare Hunt,12,0,1,True,2.389,0.000,80
+31,3902968,2,7d6d6fbd-ef88-4d4b-965e-daf042d6f241,2373,00:28:24.244,73:24.244,1704.244,Carry,Australia Women's,Clare Hunt,12,0,1,True,0.000,1.119,1119
+32,3902968,2,7a325778-7a2a-4192-901d-130ab2476ddb,2374,00:28:25.363,73:25.363,1705.363,Pass,Australia Women's,Clare Hunt,11,0,1,True,1.119,0.880,880
+33,3902968,2,00744ef2-e9f9-487a-9d41-fb566799fa9f,2375,00:28:26.243,73:26.243,1706.243,Ball Receipt*,Australia Women's,Ellie Madison Carpenter,13,0,1,True,0.880,0.000,80
+34,3902968,2,9a7518d0-fc26-40c1-a633-b7cad9e6eeb1,2376,00:28:26.243,73:26.243,1706.243,Carry,Australia Women's,Ellie Madison Carpenter,13,0,1,True,0.000,2.141,1500
+35,3902968,2,5eb12e71-0fcc-45f0-8742-3c9848e1a848,2377,00:28:28.384,73:28.384,1708.384,Pass,Australia Women's,Ellie Madison Carpenter,15,0,1,True,2.141,1.056,1056
+36,3902968,2,56cad27e-f66a-4c36-afee-3817499dae15,2378,00:28:29.440,73:29.440,1709.440,Ball Receipt*,Australia Women's,Mary Boio Fowler,14,0,1,True,1.056,0.000,80
+37,3902968,2,526cfbec-473f-4de5-8ec5-25818397ede5,2379,00:28:29.440,73:29.440,1709.440,Carry,Australia Women's,Mary Boio Fowler,14,0,1,True,0.000,0.716,716
+38,3902968,2,20532335-cb1e-4a9c-917e-48e90d0c15a0,2380,00:28:30.156,73:30.156,1710.156,Pressure,France Women's,Onema Grace Geyoro,14,0,1,True,0.716,0.223,223
+39,3902968,2,5aaa8478-7d29-4eca-9f2b-9194c7392b33,2381,00:28:30.379,73:30.379,1710.379,Dribbled Past,France Women's,Onema Grace Geyoro,14,0,1,True,0.223,0.000,80
+40,3902968,2,430aa80a-82f8-4dcc-adef-f5ecbb16e12a,2382,00:28:30.379,73:30.379,1710.379,Dribble,Australia Women's,Mary Boio Fowler,14,0,1,True,0.000,0.000,80
+41,3902968,2,8d1ada70-ac17-465d-9a7e-de41889da6b0,2383,00:28:30.379,73:30.379,1710.379,Carry,Australia Women's,Mary Boio Fowler,14,0,1,True,0.000,0.734,734
+42,3902968,2,a0a70e07-4d7d-4c1b-b88f-4e900a1bab7c,2384,00:28:31.113,73:31.113,1711.113,Pressure,France Women's,Kenza Dali,14,0,1,True,0.734,2.069,1500
+43,3902968,2,2f8150d9-0474-4da0-adca-e59ad57efb69,2385,00:28:33.182,73:33.182,1713.182,Pass,Australia Women's,Mary Boio Fowler,12,0,1,True,2.069,3.934,1500
+44,3902968,2,5c3434b9-560d-4a37-8f37-c9acef12095b,2386,00:28:37.116,73:37.116,1717.116,Ball Receipt*,Australia Women's,Caitlin Jade Foord,15,0,1,True,3.934,0.000,80
+45,3902968,2,9d562632-3eb3-42d8-be79-fd1b8dfb9421,2387,00:28:37.116,73:37.116,1717.116,Carry,Australia Women's,Caitlin Jade Foord,15,0,1,True,0.000,3.095,1500
+46,3902968,2,a5f5fbac-1303-4db9-a28d-c208658c2e88,2388,00:28:40.211,73:40.211,1720.211,Pass,Australia Women's,Caitlin Jade Foord,12,1,1,True,3.095,38.639,1500
+47,3902968,2,1cc481a3-fb5a-4fcf-a0c2-214e53e78be8,2391,00:29:18.850,74:18.850,1758.850,Ball Receipt*,France Women's,Eugénie Le Sommer,19,0,1,True,38.639,0.061,80
+48,3902968,2,9401ff78-a7be-468d-a36b-718b640768ba,2392,00:29:18.911,74:18.911,1758.911,Duel,Australia Women's,Katrina Gorry,19,0,1,True,0.061,0.000,80
+49,3902968,2,9bcf3241-8977-451a-b0e8-b8e196e9401a,2393,00:29:18.911,74:18.911,1758.911,Pass,France Women's,Eugénie Le Sommer,19,0,1,True,0.000,2.793,1500
+50,3902968,2,48475b2e-b076-4c99-8a3f-885779ee3bd9,2394,00:29:21.704,74:21.704,1761.704,Ball Receipt*,France Women's,Vicki Becho,19,0,1,True,2.793,0.000,80
+51,3902968,2,61c5af2d-5876-4d69-8857-4a4a69b88520,2395,00:29:21.704,74:21.704,1761.704,Pass,France Women's,Vicki Becho,19,0,1,True,0.000,0.833,833
+52,3902968,2,81305bd6-ac5d-45e5-b50c-ecbe302c9fed,2396,00:29:22.537,74:22.537,1762.537,Ball Receipt*,France Women's,Onema Grace Geyoro,19,0,1,True,0.833,0.000,80
+53,3902968,2,a71cc3ce-b710-4b07-a338-a6f79f6de711,2397,00:29:22.537,74:22.537,1762.537,Carry,France Women's,Onema Grace Geyoro,19,0,1,True,0.000,2.476,1500
+54,3902968,2,68ee12d6-2de5-4b05-9956-1d4960b8554c,2398,00:29:25.013,74:25.013,1765.013,Pass,France Women's,Onema Grace Geyoro,16,0,1,True,2.476,2.995,1500
+55,3902968,2,da1bf51d-5d74-448a-83f7-2eda2fc9cbe4,2399,00:29:28.008,74:28.008,1768.008,Ball Receipt*,France Women's,Elisa De Almeida,10,1,1,True,2.995,0.000,80
+56,3902968,2,52ee851d-68bc-495b-95bf-dcb48b5b8769,2400,00:29:28.008,74:28.008,1768.008,Carry,France Women's,Elisa De Almeida,10,1,1,True,0.000,2.702,1500
+57,3902968,2,74642a93-ef45-43ad-9712-d51887008abc,2401,00:29:30.710,74:30.710,1770.710,Pass,France Women's,Elisa De Almeida,10,1,1,True,2.702,1.753,1500
+58,3902968,2,efd0a41f-699f-4f8f-8a3c-2fa7785a9ca4,2402,00:29:32.463,74:32.463,1772.463,Pressure,Australia Women's,Kyra Lillee Cooney-Cross,10,1,1,True,1.753,0.746,746
+59,3902968,2,0a2d04e2-4d05-4a16-8af0-59361578ae5d,2403,00:29:33.209,74:33.209,1773.209,Ball Receipt*,France Women's,Vicki Becho,10,1,1,True,0.746,0.000,80
+60,3902968,2,f3250416-9af5-4297-915f-c4afa62a75f7,2404,00:29:33.209,74:33.209,1773.209,Carry,France Women's,Vicki Becho,10,1,1,True,0.000,0.040,80
+61,3902968,2,b049321e-59ef-46f8-a98a-25e23ac55845,2405,00:29:33.249,74:33.249,1773.249,Pass,France Women's,Vicki Becho,10,1,1,True,0.040,0.198,198
+62,3902968,2,10ca8605-f635-47ff-bc94-932bef0ba65f,2406,00:29:33.447,74:33.447,1773.447,Ball Receipt*,France Women's,Kadidiatou Diani,10,1,1,True,0.198,0.000,80
+63,3902968,2,5d24176c-4b32-4fb3-85cb-1810b579c20d,2407,00:29:33.447,74:33.447,1773.447,Block,Australia Women's,Kyra Lillee Cooney-Cross,10,1,1,True,0.000,,80

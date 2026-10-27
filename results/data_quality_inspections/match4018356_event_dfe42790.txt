@@ -1,0 +1,41 @@
+Match ID:        4018356
+Event UUID:      dfe42790-bef1-4e78-9632-de2e747af5cc
+Event index:     3447
+Event type:      Dispossessed
+Period:          2
+Timestamp:       00:40:17.198
+Team:            Switzerland Women's
+Player:          Leila Wandeler
+Event location:  [45.1, 2.9]
+
+Freeze-frame player count: 16
+  [ 0] location=[56.051304707780076, 67.29363006388093]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 1] location=[56.1875109055056, 53.10152938826067]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 2] location=[56.60710025722342, 37.9943045062156]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 3] location=[57.77265333095001, 66.58613953749384]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 4] location=[63.10768512416496, 26.430306433436414]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 5] location=[66.13148665101353, 62.64684461523571]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 6] location=[68.36784347748055, 63.1558756033684]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 7] location=[71.80445216662761, 45.99625922895546]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 8] location=[72.22046217194429, 23.93121920170359]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 9] location=[75.0, 77.19999694824219]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [10] location=[77.2308610646805, 58.65674894546453]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [11] location=[78.31911793827462, 65.15891522097346]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [12] location=[81.95800370460489, 62.644305854837135]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [13] location=[82.3058787315287, 75.52151453853963]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [14] location=[85.46730634085569, 65.12036080528915]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [15] location=[88.37889209253848, 77.68110694179103]  teammate=False  actor=False  keeper=False  in_bounds=True
+visible_area (10 values): [54.50179931516989, 80.0, 56.45194197786524, 24.4601156377121, 75.63841686927788, 21.02093215307407, 101.77431104275584, 80.0, 54.50179931516989, 80.0]
+
+Shared snapshot: NO -- this event's raw 360 snapshot is not shared with a different team's event.
+
+Orientation classification: ROTATED_180 (confidence=0.851)
+  resolved_by: geometry
+
+Team normalization: MIRRORED (reference_team_id=863)
+Orientation correction applied: True
+Team-normalization mirror applied: True
+Out-of-bounds points (raw): 0 / 16
+Out-of-bounds points (after current pipeline): 0 / 16
+
+Dataset-builder actor resolution: actor_x=None, actor_y=None, actor_ambiguous=False

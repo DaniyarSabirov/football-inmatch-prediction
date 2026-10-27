@@ -1,0 +1,29 @@
+{
+ "match_files": 426,
+ "categories": {
+  "high_confidence_inferred": 414,
+  "physically_verified": 2,
+  "excluded_insufficient_data": 9,
+  "user_reviewed_and_derived": 1
+ },
+ "camera_status": {
+  "INFERRED": 416,
+  "AMBIGUOUS": 1
+ },
+ "legacy_default_matches_camera": {
+  "False": 221,
+  "True": 196
+ },
+ "registry_agreement": {
+  "3788743": true,
+  "3930160": true
+ },
+ "extra_time_period_3_same_end_as_period_2": {
+  "false": 28,
+  "true": 2
+ },
+ "end_swap_1_2_observed": {
+  "True": 416,
+  "None": 1
+ }
+}

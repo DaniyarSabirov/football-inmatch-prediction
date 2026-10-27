@@ -335,7 +335,7 @@ def test_builder_and_renderer_use_identical_snapshot_orientations():
     renderer = {j.event["id"]: r.orientation for j, r in zip(raw.usable_frames, drawn)}
     rows = build_match_dataset(match_id, 10.0)
     compared = [r for r in rows if r["current_event_id"] in renderer]
-    assert compared and all(r["orientation"] == renderer[r["current_event_id"]] for r in compared)
+    assert compared and all(r["orientation_offline"] == renderer[r["current_event_id"]] for r in compared)
 
 
 # --- defects found in the final validation (2026-10-27) ---------------------------

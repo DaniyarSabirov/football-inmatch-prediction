@@ -1,0 +1,1 @@
+seed 20261024; strong candidates 102; stratum sizes full inversion: 6, mixed, 4 players: 66, mixed, 5-7 players: 22, mixed, >= 8 players: 8

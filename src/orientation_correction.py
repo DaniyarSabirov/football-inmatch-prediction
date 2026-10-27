@@ -237,8 +237,13 @@ def resolve_uncertain_with_neighbors(
     ordered_timestamps: list[float],
     ordered_periods: list[int],
     results: list[OrientationResult],
+    causal: bool = False,
 ) -> list[OrientationResult]:
     """Temporal refinement: resolve only still-UNCERTAIN cases.
+
+    With `causal=True` only EARLIER positions may serve as anchors (the
+    lists must then be in event order), so a result never depends on a
+    record that follows it.
 
     For each UNCERTAIN result, look at nearby (<= NEIGHBOR_ANCHOR_MAX_DT
     seconds, same period) results that are already confidently NORMAL, and
@@ -278,7 +283,7 @@ def resolve_uncertain_with_neighbors(
         best_dt = None
         anchor_vote: Vote | None = None
         lo = max(0, i - NEIGHBOR_ANCHOR_WINDOW)
-        hi = min(length, i + NEIGHBOR_ANCHOR_WINDOW + 1)
+        hi = i if causal else min(length, i + NEIGHBOR_ANCHOR_WINDOW + 1)
         for j in range(lo, hi):
             if j == i or ordered_periods[j] != ordered_periods[i]:
                 continue

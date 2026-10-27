@@ -1,0 +1,43 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3893797,2,d8a10c04-28ff-4d59-b4e7-585cfd4f80f1,1593,00:00:01.763,45:01.763,1.763,Ball Receipt*,Portugal Women's,Fátima Alexandra Figueira Pinto,19,0,1,True,,0.000,80
+2,3893797,2,27ced3fc-d8b0-417f-9fce-7f3296b1ff5a,1594,00:00:01.763,45:01.763,1.763,Carry,Portugal Women's,Fátima Alexandra Figueira Pinto,19,0,1,True,0.000,0.803,803
+3,3893797,2,d6c601fe-774c-4360-baee-d4914e6c2afb,1595,00:00:02.566,45:02.566,2.566,Pressure,Netherlands Women's,Lineth Beerensteyn,19,0,1,True,0.803,0.424,424
+4,3893797,2,d107ce8c-c4af-4813-a245-e73a0a3b9e1f,1596,00:00:02.990,45:02.990,2.990,Pass,Portugal Women's,Fátima Alexandra Figueira Pinto,19,0,1,True,0.424,1.619,1500
+5,3893797,2,80620fdd-69c2-49d8-bfc0-06df29d4a7b4,1597,00:00:04.609,45:04.609,4.609,Ball Receipt*,Portugal Women's,Catarina Amado,19,0,1,True,1.619,0.000,80
+6,3893797,2,dfbb5349-e02e-4420-a4bf-61eb42023d25,1598,00:00:04.609,45:04.609,4.609,Carry,Portugal Women's,Catarina Amado,19,0,1,True,0.000,2.359,1500
+7,3893797,2,f67fb41c-b92e-4829-864e-3d0f57082732,1599,00:00:06.968,45:06.968,6.968,Pass,Portugal Women's,Catarina Amado,17,0,1,True,2.359,1.907,1500
+8,3893797,2,873e16a5-36f9-4a59-93d4-8596ebbccdc9,1602,00:00:08.875,45:08.875,8.875,Pass,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,17,0,1,True,1.907,1.490,1490
+9,3893797,2,c3956000-4ff4-489c-a213-b6dc38b1ec64,1603,00:00:10.365,45:10.365,10.365,Pressure,Netherlands Women's,Lineth Beerensteyn,18,0,1,True,1.490,0.275,275
+10,3893797,2,a2982407-ff0c-4110-8be4-b8316cd2ddc3,1604,00:00:10.640,45:10.640,10.640,Ball Receipt*,Portugal Women's,Diana Catarina Ribeiro Gomes,17,0,1,True,0.275,0.000,80
+11,3893797,2,bfab432e-af44-432b-8841-2d1f3c260e37,1605,00:00:10.640,45:10.640,10.640,Carry,Portugal Women's,Diana Catarina Ribeiro Gomes,17,0,1,True,0.000,0.040,80
+12,3893797,2,485a0cf0-8550-4cff-a5f5-82b566ed96a9,1606,00:00:10.680,45:10.680,10.680,Pass,Portugal Women's,Diana Catarina Ribeiro Gomes,17,0,1,True,0.040,3.527,1500
+13,3893797,2,014b993c-b1c8-4042-9a62-47769b6be7cb,1607,00:00:14.207,45:14.207,14.207,Ball Receipt*,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,14,0,1,True,3.527,0.000,80
+14,3893797,2,5b09d05c-e630-469f-8315-a1d33505705e,1608,00:00:14.207,45:14.207,14.207,Duel,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,14,0,1,True,0.000,0.000,80
+15,3893797,2,1d19facb-3365-4235-9ef0-f1b02b656fad,1609,00:00:14.207,45:14.207,14.207,Clearance,Netherlands Women's,Stephanie van der Gragt,14,0,1,True,0.000,2.772,1500
+16,3893797,2,d5ce8d1b-2471-4b13-955e-377bf8e5cecd,1610,00:00:16.979,45:16.979,16.979,Ball Recovery,Portugal Women's,Fátima Alexandra Figueira Pinto,18,0,1,True,2.772,86.108,1500
+17,3893797,2,6ddc99bc-8982-4afe-86c8-55b535d3b631,1615,00:01:43.087,46:43.087,103.087,Ball Receipt*,Netherlands Women's,Sherida Spitse,12,0,1,True,86.108,7.326,1500
+18,3893797,2,26c57573-e46c-453f-a0df-1ad86ff89121,1620,00:01:50.413,46:50.413,110.413,Pass,Netherlands Women's,Dominique Johanna Anna Petrone Janssen,14,0,1,True,7.326,1.747,1500
+19,3893797,2,cd163d70-8cec-44f5-80a1-1955a11f07c5,1621,00:01:52.160,46:52.160,112.160,Ball Receipt*,Netherlands Women's,Stephanie van der Gragt,11,0,1,True,1.747,0.000,80
+20,3893797,2,aab5a754-6c89-419f-a710-a35d4789d283,1622,00:01:52.160,46:52.160,112.160,Carry,Netherlands Women's,Stephanie van der Gragt,11,0,1,True,0.000,1.557,1500
+21,3893797,2,723437d7-b12e-414e-85d5-8594ebf334fe,1623,00:01:53.717,46:53.717,113.717,Pass,Netherlands Women's,Stephanie van der Gragt,12,0,1,True,1.557,2.037,1500
+22,3893797,2,1f807e02-d3bf-42ac-8037-29f0c0c84e44,1624,00:01:55.754,46:55.754,115.754,Ball Receipt*,Netherlands Women's,Dominique Johanna Anna Petrone Janssen,13,0,1,True,2.037,0.000,80
+23,3893797,2,1d0db753-d8b7-4ca7-8808-67002674afe1,1625,00:01:55.754,46:55.754,115.754,Carry,Netherlands Women's,Dominique Johanna Anna Petrone Janssen,13,0,1,True,0.000,3.626,1500
+24,3893797,2,0975d9bf-f248-4f27-8fda-106efd38da49,1627,00:01:59.380,46:59.380,119.380,Pass,Netherlands Women's,Dominique Johanna Anna Petrone Janssen,19,0,1,True,3.626,21.528,1500
+25,3893797,2,998c80f2-6397-49d8-bc0f-7a0280526b04,1629,00:02:20.908,47:20.908,140.908,Pass,Portugal Women's,Inês Teixeira Pereira,10,1,1,True,21.528,2.128,1500
+26,3893797,2,8d182e9b-e23a-47d1-806b-426a5c0bbc8d,1630,00:02:23.036,47:23.036,143.036,Ball Receipt*,Portugal Women's,Diana Catarina Ribeiro Gomes,13,1,1,True,2.128,0.000,80
+27,3893797,2,5b4f1876-923a-4a44-9d9f-b472325f8144,1631,00:02:23.036,47:23.036,143.036,Carry,Portugal Women's,Diana Catarina Ribeiro Gomes,13,1,1,True,0.000,0.830,830
+28,3893797,2,53cbcfc9-498e-4370-904c-5260161291a3,1632,00:02:23.866,47:23.866,143.866,Pass,Portugal Women's,Diana Catarina Ribeiro Gomes,13,1,1,True,0.830,1.110,1110
+29,3893797,2,3dedbbc9-49ce-44df-b958-62e011ff18c0,1633,00:02:24.976,47:24.976,144.976,Pressure,Netherlands Women's,Danielle van de Donk,12,0,1,True,1.110,0.222,222
+30,3893797,2,adb6c9f4-40e1-440a-904f-a9b154305403,1634,00:02:25.198,47:25.198,145.198,Ball Receipt*,Portugal Women's,Fátima Alexandra Figueira Pinto,12,0,1,True,0.222,0.000,80
+31,3893797,2,195eb2e5-04f5-47ab-b042-770f53caa813,1635,00:02:25.198,47:25.198,145.198,Carry,Portugal Women's,Fátima Alexandra Figueira Pinto,12,0,1,True,0.000,0.040,80
+32,3893797,2,a5ff488b-1698-4dd4-be03-5a982013606e,1636,00:02:25.238,47:25.238,145.238,Pass,Portugal Women's,Fátima Alexandra Figueira Pinto,12,0,1,True,0.040,1.864,1500
+33,3893797,2,0607f962-461f-4f0a-8de9-b6bd8ca39508,1637,00:02:27.102,47:27.102,147.102,Ball Receipt*,Portugal Women's,Catarina Amado,12,0,1,True,1.864,0.000,80
+34,3893797,2,2ec45964-9722-4fc7-8051-2be4861fbdd5,1638,00:02:27.102,47:27.102,147.102,Carry,Portugal Women's,Catarina Amado,12,0,1,True,0.000,0.861,861
+35,3893797,2,71968b74-fa12-4526-a149-c095519360f4,1639,00:02:27.963,47:27.963,147.963,Pass,Portugal Women's,Catarina Amado,12,0,1,True,0.861,0.777,777
+36,3893797,2,ef39487b-f0a7-493f-b3a8-a61ffd931d94,1640,00:02:28.740,47:28.740,148.740,Ball Receipt*,Portugal Women's,Fátima Alexandra Figueira Pinto,14,0,1,True,0.777,0.000,80
+37,3893797,2,115de5c7-fab5-47c6-bd4b-a1e21cf9caa2,1641,00:02:28.740,47:28.740,148.740,Pass,Portugal Women's,Fátima Alexandra Figueira Pinto,14,0,1,True,0.000,0.218,218
+38,3893797,2,43023a08-1ed5-4a85-9bde-44453c4d14f1,1642,00:02:28.958,47:28.958,148.958,Ball Receipt*,Portugal Women's,Diana Micaela Abreu de Sousa e Silva,14,0,1,True,0.218,0.000,80
+39,3893797,2,884dfaf2-5281-42ed-b351-a5de2a864a4d,1643,00:02:28.958,47:28.958,148.958,Block,Netherlands Women's,Danielle van de Donk,14,0,1,True,0.000,0.631,631
+40,3893797,2,8b0f82f8-7dae-45b6-94b0-ffe07974abf0,1644,00:02:29.589,47:29.589,149.589,Ball Recovery,Netherlands Women's,Victoria Pelova,14,0,1,True,0.631,0.000,80
+41,3893797,2,a27028bb-852a-4ac9-aef3-42488e25cca9,1645,00:02:29.589,47:29.589,149.589,Carry,Netherlands Women's,Victoria Pelova,14,0,1,True,0.000,0.803,803
+42,3893797,2,425e9591-9549-4f54-8049-cf67a7cd9b7b,1646,00:02:30.392,47:30.392,150.392,Pressure,Portugal Women's,Catarina Amado,14,0,1,True,0.803,,80

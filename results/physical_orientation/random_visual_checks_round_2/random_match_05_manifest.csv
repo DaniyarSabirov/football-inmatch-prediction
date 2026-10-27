@@ -1,0 +1,93 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3895220,2,02c7ca6e-5a0f-4f8f-aa13-876651597f02,2743,00:14:26.749,59:26.749,866.749,Ball Receipt*,Darmstadt 98,Fabian Holland,10,0,1,True,,0.000,80
+2,3895220,2,a4056178-06f3-4785-85ce-7408f6ba122a,2744,00:14:26.749,59:26.749,866.749,Carry,Darmstadt 98,Fabian Holland,10,0,1,True,0.000,1.027,1027
+3,3895220,2,b4390ac9-bae4-4fa5-9ec5-5f7759ef9261,2745,00:14:27.776,59:27.776,867.776,Pressure,Bayer Leverkusen,Adam Hložek,13,0,1,True,1.027,1.708,1500
+4,3895220,2,fc4f06a2-364b-4885-8e04-98d88ad187d9,2746,00:14:29.484,59:29.484,869.484,Foul Committed,Bayer Leverkusen,Adam Hložek,17,0,1,True,1.708,0.000,80
+5,3895220,2,b0cc8d9a-cd2d-443e-9c33-07884fe0ab16,2747,00:14:29.484,59:29.484,869.484,Foul Won,Darmstadt 98,Fabian Holland,17,0,1,True,0.000,0.000,80
+6,3895220,2,eda81160-f1d7-4fb0-8008-7c21816c9cb8,2748,00:14:29.484,59:29.484,869.484,Carry,Darmstadt 98,Fabian Holland,17,0,1,True,0.000,0.974,974
+7,3895220,2,4e7bb130-31b5-4398-a67c-fd04f08606ad,2749,00:14:30.458,59:30.458,870.458,Pass,Darmstadt 98,Fabian Holland,14,0,1,True,0.974,1.208,1208
+8,3895220,2,f3c5d90e-9c16-446f-a1d9-ca227d42d10b,2750,00:14:31.666,59:31.666,871.666,Ball Receipt*,Darmstadt 98,Emir Karic,13,0,1,True,1.208,0.000,80
+9,3895220,2,b3bae33d-3821-4cf5-a101-4506b6e58c03,2751,00:14:31.666,59:31.666,871.666,Carry,Darmstadt 98,Emir Karic,13,0,1,True,0.000,2.214,1500
+10,3895220,2,b56718e0-0238-4d49-8228-3d7c2f8a79b9,2752,00:14:33.880,59:33.880,873.880,Pass,Darmstadt 98,Emir Karic,13,0,1,True,2.214,1.614,1500
+11,3895220,2,f3aedf33-eeea-464f-8208-fbd7ab3bd3ad,2753,00:14:35.494,59:35.494,875.494,Ball Receipt*,Darmstadt 98,Gerrit Holtmann,14,0,1,True,1.614,0.000,80
+12,3895220,2,af0699ee-6659-4a01-b6c2-3fe389b94d97,2754,00:14:35.494,59:35.494,875.494,Carry,Darmstadt 98,Gerrit Holtmann,14,0,1,True,0.000,1.267,1267
+13,3895220,2,658a35db-acaf-484e-81aa-4fe2689b49b9,2755,00:14:36.761,59:36.761,876.761,Pass,Darmstadt 98,Gerrit Holtmann,13,0,1,True,1.267,0.594,594
+14,3895220,2,06413b13-a9de-4ea4-8785-a2b8889718fc,2756,00:14:37.355,59:37.355,877.355,Ball Receipt*,Darmstadt 98,Emir Karic,13,0,1,True,0.594,0.000,80
+15,3895220,2,9f8cd8f7-1b74-4373-83d4-28e68ade5af2,2757,00:14:37.355,59:37.355,877.355,Miscontrol,Darmstadt 98,Emir Karic,13,0,1,True,0.000,0.786,786
+16,3895220,2,cc83095f-b355-45ab-adca-117cc5bda13b,2758,00:14:38.141,59:38.141,878.141,Ball Recovery,Bayer Leverkusen,Josip Stanišić,13,0,1,True,0.786,0.000,80
+17,3895220,2,420cb421-93cc-415f-b102-c8e2f8e6a280,2759,00:14:38.141,59:38.141,878.141,Carry,Bayer Leverkusen,Josip Stanišić,13,0,1,True,0.000,8.288,1500
+18,3895220,2,da0d3ea1-f5db-4d9d-93da-1561ae99b97e,2763,00:14:46.429,59:46.429,886.429,Pressure,Darmstadt 98,Gerrit Holtmann,15,0,1,True,8.288,3.823,1500
+19,3895220,2,4e8fe25d-977b-45fe-bde0-178979bb6eeb,2765,00:14:50.252,59:50.252,890.252,Pressure,Darmstadt 98,Luca Pfeiffer,17,0,1,True,3.823,0.274,274
+20,3895220,2,232cd8e2-8b53-482e-8e3c-9e29983cf9dc,2766,00:14:50.526,59:50.526,890.526,Ball Receipt*,Bayer Leverkusen,Josip Stanišić,17,0,1,True,0.274,0.000,80
+21,3895220,2,0af73c02-9438-4a22-821e-e97e85f85db7,2767,00:14:50.526,59:50.526,890.526,Pass,Bayer Leverkusen,Josip Stanišić,17,0,1,True,0.000,0.586,586
+22,3895220,2,9b78f34b-d065-4fda-a0bb-59f5194b1830,2768,00:14:51.112,59:51.112,891.112,Ball Receipt*,Bayer Leverkusen,Florian Wirtz,17,0,1,True,0.586,0.000,80
+23,3895220,2,aee3cc16-75b7-47ae-80df-ee006491d9fb,2769,00:14:51.112,59:51.112,891.112,Pass,Bayer Leverkusen,Florian Wirtz,17,0,1,True,0.000,1.417,1417
+24,3895220,2,3c14849f-82f4-4b86-b247-d58515113872,2770,00:14:52.529,59:52.529,892.529,Ball Receipt*,Bayer Leverkusen,Robert Andrich,16,0,1,True,1.417,0.000,80
+25,3895220,2,b73d9b72-2b1c-49ae-a411-bfa8cdba48fe,2771,00:14:52.529,59:52.529,892.529,Carry,Bayer Leverkusen,Robert Andrich,16,0,1,True,0.000,5.431,1500
+26,3895220,2,b93cdb2e-fc7f-4050-98a3-a8aea2eaa99e,2772,00:14:57.960,59:57.960,897.960,Pass,Bayer Leverkusen,Robert Andrich,14,0,1,True,5.431,0.870,870
+27,3895220,2,fce838ec-71d0-4964-b9c7-f29f69eaed39,2773,00:14:58.830,59:58.830,898.830,Ball Receipt*,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.870,0.000,80
+28,3895220,2,e34ae481-40d4-4d50-bbc9-7a6a21bf321d,2774,00:14:58.830,59:58.830,898.830,Carry,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.000,0.048,80
+29,3895220,2,f4ab20a4-3a4b-4a50-a403-bb809c8c1da9,2775,00:14:58.878,59:58.878,898.878,Pass,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.048,0.894,894
+30,3895220,2,d2f14747-d5bc-4227-b2f6-6dd12bad0b68,2776,00:14:59.772,59:59.772,899.772,Ball Receipt*,Bayer Leverkusen,Robert Andrich,15,0,1,True,0.894,0.000,80
+31,3895220,2,4abb87c8-e209-4dd1-97f7-6bf9b78abc00,2777,00:14:59.772,59:59.772,899.772,Carry,Bayer Leverkusen,Robert Andrich,15,0,1,True,0.000,0.610,610
+32,3895220,2,b1574a49-45b6-47bb-be01-f868788fd415,2778,00:15:00.382,60:00.382,900.382,Pass,Bayer Leverkusen,Robert Andrich,15,0,1,True,0.610,1.015,1015
+33,3895220,2,a849b749-fe57-405f-b812-3baa3a0a7bce,2779,00:15:01.397,60:01.397,901.397,Ball Receipt*,Bayer Leverkusen,Florian Wirtz,15,0,1,True,1.015,0.000,80
+34,3895220,2,a04accde-4c31-4dfc-bf67-bb2e412fe497,2780,00:15:01.397,60:01.397,901.397,Carry,Bayer Leverkusen,Florian Wirtz,15,0,1,True,0.000,1.446,1446
+35,3895220,2,ff236590-d6df-4794-8bf8-591b67829cb9,2781,00:15:02.843,60:02.843,902.843,Pass,Bayer Leverkusen,Florian Wirtz,15,0,1,True,1.446,1.457,1457
+36,3895220,2,d928d6ba-26ee-40cc-859b-3920dc01b2aa,2782,00:15:04.300,60:04.300,904.300,Ball Receipt*,Bayer Leverkusen,Jonathan Tah,16,0,1,True,1.457,0.000,80
+37,3895220,2,455cde5e-211a-468d-9579-c7814c403126,2783,00:15:04.300,60:04.300,904.300,Carry,Bayer Leverkusen,Jonathan Tah,16,0,1,True,0.000,3.147,1500
+38,3895220,2,eada5a5b-b956-4d66-80e8-9914682de8f4,2784,00:15:07.447,60:07.447,907.447,Pass,Bayer Leverkusen,Jonathan Tah,20,0,1,True,3.147,0.714,714
+39,3895220,2,d5be5b09-ffff-454c-b4dd-50c695a49eea,2785,00:15:08.161,60:08.161,908.161,Pressure,Darmstadt 98,Christoph Zimmermann,20,0,1,True,0.714,0.171,171
+40,3895220,2,4b564074-4b7e-45f4-9075-b048fc42f0d1,2786,00:15:08.332,60:08.332,908.332,Ball Receipt*,Bayer Leverkusen,Borja Iglesias Quintas,20,0,1,True,0.171,0.000,80
+41,3895220,2,6ff05458-bd82-4cb8-a81d-d82d4113dbb0,2787,00:15:08.332,60:08.332,908.332,Carry,Bayer Leverkusen,Borja Iglesias Quintas,20,0,1,True,0.000,0.182,182
+42,3895220,2,43e2a1d4-74bf-48f5-aa14-b660d7480cb2,2788,00:15:08.514,60:08.514,908.514,Pass,Bayer Leverkusen,Borja Iglesias Quintas,20,0,1,True,0.182,1.173,1173
+43,3895220,2,9d15e6ca-9a75-44da-9979-e5abad7f1d38,2789,00:15:09.687,60:09.687,909.687,Pressure,Darmstadt 98,Matthias Bader,21,1,1,True,1.173,0.208,208
+44,3895220,2,2d52f094-3d8a-4e05-84f4-f8b83aafeb6b,2790,00:15:09.895,60:09.895,909.895,Ball Receipt*,Bayer Leverkusen,Alejandro Grimaldo García,21,1,1,True,0.208,0.000,80
+45,3895220,2,8b6e9920-06ad-4609-8dc1-74f8e384aca9,2791,00:15:09.895,60:09.895,909.895,Carry,Bayer Leverkusen,Alejandro Grimaldo García,21,1,1,True,0.000,0.606,606
+46,3895220,2,2e0d3549-ffa8-46d4-9247-83058905a1e7,2792,00:15:10.501,60:10.501,910.501,Pass,Bayer Leverkusen,Alejandro Grimaldo García,20,1,1,True,0.606,1.895,1500
+47,3895220,2,f6c160f9-60ac-4f3e-a8c8-17b3d718f725,2793,00:15:12.396,60:12.396,912.396,Ball Receipt*,Bayer Leverkusen,Piero Martín Hincapié Reyna,20,0,1,True,1.895,0.000,80
+48,3895220,2,432e2836-0fae-4511-8c16-37b5b5cf4ad2,2794,00:15:12.396,60:12.396,912.396,Carry,Bayer Leverkusen,Piero Martín Hincapié Reyna,20,0,1,True,0.000,1.379,1379
+49,3895220,2,cbdb354d-20d8-41e7-ad39-d70fb1c518e6,2795,00:15:13.775,60:13.775,913.775,Pass,Bayer Leverkusen,Piero Martín Hincapié Reyna,16,0,1,True,1.379,1.128,1128
+50,3895220,2,645722e4-c3c3-4b97-8f2c-f7b8c9ed49cb,2796,00:15:14.903,60:14.903,914.903,Ball Receipt*,Bayer Leverkusen,Jonathan Tah,12,0,1,True,1.128,0.000,80
+51,3895220,2,0f4cc55b-1ab5-48ca-99fe-f25b6fc3fb8a,2797,00:15:14.903,60:14.903,914.903,Carry,Bayer Leverkusen,Jonathan Tah,12,0,1,True,0.000,1.685,1500
+52,3895220,2,76133dd6-2cd4-49a4-ada6-585dab7ba475,2798,00:15:16.588,60:16.588,916.588,Pass,Bayer Leverkusen,Jonathan Tah,13,0,1,True,1.685,1.207,1207
+53,3895220,2,cbdd9bbe-1535-4d9b-8475-a088661eb571,2799,00:15:17.795,60:17.795,917.795,Ball Receipt*,Bayer Leverkusen,Robert Andrich,13,0,1,True,1.207,0.000,80
+54,3895220,2,efc7fd2e-1828-47d1-b7f0-d12dc4ddc0ea,2800,00:15:17.795,60:17.795,917.795,Pass,Bayer Leverkusen,Robert Andrich,13,0,1,True,0.000,0.827,827
+55,3895220,2,61edf7fb-7fda-4c38-bda2-39a57de48ec3,2801,00:15:18.622,60:18.622,918.622,Ball Receipt*,Bayer Leverkusen,Jonathan Tah,14,0,1,True,0.827,0.000,80
+56,3895220,2,ff658917-e562-4ace-94fb-14a3e46776fb,2802,00:15:18.622,60:18.622,918.622,Pass,Bayer Leverkusen,Jonathan Tah,14,0,1,True,0.000,0.971,971
+57,3895220,2,0ec7e05c-3cbe-48a1-9ea2-72d8613923dc,2803,00:15:19.593,60:19.593,919.593,Ball Receipt*,Bayer Leverkusen,Granit Xhaka,14,0,1,True,0.971,0.000,80
+58,3895220,2,6f2d201c-d9a6-451c-96ea-e19afee7c49c,2804,00:15:19.593,60:19.593,919.593,Carry,Bayer Leverkusen,Granit Xhaka,14,0,1,True,0.000,1.592,1500
+59,3895220,2,c81e3a16-021c-4d45-aff1-6616d3724914,2805,00:15:21.185,60:21.185,921.185,Pressure,Darmstadt 98,Oscar Vilhelmsson,15,0,1,True,1.592,1.025,1025
+60,3895220,2,ca21c343-1e79-45a2-8af5-bad6a4002402,2806,00:15:22.210,60:22.210,922.210,Pass,Bayer Leverkusen,Granit Xhaka,20,0,1,True,1.025,1.240,1240
+61,3895220,2,70e3655f-a552-463f-b88c-988c3caffbf8,2807,00:15:23.450,60:23.450,923.450,Ball Receipt*,Bayer Leverkusen,Piero Martín Hincapié Reyna,20,0,1,True,1.240,0.000,80
+62,3895220,2,6b3e34bd-5d84-4f9f-be4d-28320cb3b138,2808,00:15:23.450,60:23.450,923.450,Carry,Bayer Leverkusen,Piero Martín Hincapié Reyna,20,0,1,True,0.000,2.296,1500
+63,3895220,2,621a336d-962d-40a5-ad3f-27c4ddb9d844,2809,00:15:25.746,60:25.746,925.746,Pass,Bayer Leverkusen,Piero Martín Hincapié Reyna,15,0,1,True,2.296,1.329,1329
+64,3895220,2,61b47c9e-2cde-4d69-86ed-3b61116a4650,2810,00:15:27.075,60:27.075,927.075,Ball Receipt*,Bayer Leverkusen,Jonathan Tah,14,0,1,True,1.329,0.000,80
+65,3895220,2,4a2c2c5e-0bb6-4b2a-90e7-9684c1d0572d,2811,00:15:27.075,60:27.075,927.075,Carry,Bayer Leverkusen,Jonathan Tah,14,0,1,True,0.000,1.417,1417
+66,3895220,2,f6d65bac-18a6-46bd-a554-6dd05972c863,2812,00:15:28.492,60:28.492,928.492,Pass,Bayer Leverkusen,Jonathan Tah,15,0,1,True,1.417,0.960,960
+67,3895220,2,54315906-48c8-445d-8c71-201c2335f697,2813,00:15:29.452,60:29.452,929.452,Ball Receipt*,Bayer Leverkusen,Robert Andrich,14,0,1,True,0.960,0.000,80
+68,3895220,2,cc3b6267-d583-498f-9626-84161ccec894,2814,00:15:29.452,60:29.452,929.452,Pass,Bayer Leverkusen,Robert Andrich,14,0,1,True,0.000,0.363,363
+69,3895220,2,98d8ae65-cf2a-43b8-812c-8bbc4cf6cb59,2815,00:15:29.815,60:29.815,929.815,Pressure,Darmstadt 98,Luca Pfeiffer,14,0,1,True,0.363,0.335,335
+70,3895220,2,d763ce5e-cdd8-41ba-8df7-c728a57d9369,2816,00:15:30.150,60:30.150,930.150,Ball Receipt*,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.335,0.000,80
+71,3895220,2,bb4969c0-3925-44e6-bab5-4c97c0d9d5fe,2817,00:15:30.150,60:30.150,930.150,Carry,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.000,0.727,727
+72,3895220,2,4a873500-5b7d-4ec6-8240-6922fb5c31a4,2818,00:15:30.877,60:30.877,930.877,Pass,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.727,1.403,1403
+73,3895220,2,b0947c36-ce6c-47fb-b95d-9a648eb1cbfc,2819,00:15:32.280,60:32.280,932.280,Ball Receipt*,Bayer Leverkusen,Piero Martín Hincapié Reyna,15,0,1,True,1.403,0.000,80
+74,3895220,2,b582caa1-7405-462e-9c35-ca7e16a6d879,2820,00:15:32.280,60:32.280,932.280,Carry,Bayer Leverkusen,Piero Martín Hincapié Reyna,15,0,1,True,0.000,0.650,650
+75,3895220,2,e3c1a6f2-ea24-4319-9999-e3b145001bba,2821,00:15:32.930,60:32.930,932.930,Pass,Bayer Leverkusen,Piero Martín Hincapié Reyna,13,0,1,True,0.650,0.884,884
+76,3895220,2,29ee74aa-a358-4f70-945d-6d6d76aa7aa8,2822,00:15:33.814,60:33.814,933.814,Ball Receipt*,Bayer Leverkusen,Alejandro Grimaldo García,13,0,1,True,0.884,0.000,80
+77,3895220,2,697992b7-5d7d-45a4-a666-1341923cd925,2823,00:15:33.814,60:33.814,933.814,Carry,Bayer Leverkusen,Alejandro Grimaldo García,13,0,1,True,0.000,0.141,141
+78,3895220,2,5149fa63-d85e-454a-8281-f0137f18eda6,2824,00:15:33.955,60:33.955,933.955,Pressure,Darmstadt 98,Tim Skarke,14,0,1,True,0.141,0.508,508
+79,3895220,2,70aaf67a-5895-47b8-9dcd-3d6534a3e5e4,2825,00:15:34.463,60:34.463,934.463,Pass,Bayer Leverkusen,Alejandro Grimaldo García,18,0,1,True,0.508,1.283,1283
+80,3895220,2,8a6915a5-fb5e-412b-8455-5bff813a0176,2826,00:15:35.746,60:35.746,935.746,Ball Recovery,Darmstadt 98,Christoph Zimmermann,16,1,1,True,1.283,0.000,80
+81,3895220,2,1afe66b0-85d4-4ddd-b5a5-3bd7bd408786,2827,00:15:35.746,60:35.746,935.746,Carry,Darmstadt 98,Christoph Zimmermann,16,1,1,True,0.000,0.867,867
+82,3895220,2,08af1158-ce02-406d-a82e-3d29919d99a7,2828,00:15:36.613,60:36.613,936.613,Pressure,Bayer Leverkusen,Borja Iglesias Quintas,15,1,1,True,0.867,0.464,464
+83,3895220,2,2d4eb9d3-5f06-4158-8f84-01424d13139f,2829,00:15:37.077,60:37.077,937.077,Pass,Darmstadt 98,Christoph Zimmermann,15,1,1,True,0.464,3.001,1500
+84,3895220,2,4c5d7ea2-89b4-4866-8a9b-920eb2575f3f,2830,00:15:40.078,60:40.078,940.078,Ball Receipt*,Darmstadt 98,Tim Skarke,13,0,1,True,3.001,0.000,80
+85,3895220,2,7626f93f-b231-43ae-8c89-2eeb2063fc81,2831,00:15:40.078,60:40.078,940.078,Pass,Bayer Leverkusen,Piero Martín Hincapié Reyna,13,0,1,True,0.000,0.387,387
+86,3895220,2,27473e7e-4416-4dbc-b1f3-e46cadeccfa1,2832,00:15:40.465,60:40.465,940.465,Pressure,Darmstadt 98,Luca Pfeiffer,13,0,1,True,0.387,0.316,316
+87,3895220,2,83d020d7-c370-477b-a409-ad42032c2368,2833,00:15:40.781,60:40.781,940.781,Ball Receipt*,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.316,0.000,80
+88,3895220,2,1281231e-7f4f-482d-93db-b759999a71e2,2834,00:15:40.781,60:40.781,940.781,Carry,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.000,0.209,209
+89,3895220,2,fb60d9c0-0d52-4e36-8537-ea5c619ba4de,2835,00:15:40.990,60:40.990,940.990,Pass,Bayer Leverkusen,Granit Xhaka,15,0,1,True,0.209,0.991,991
+90,3895220,2,82f804ab-eeea-4cf7-bc6c-aa9f7ba4f693,2836,00:15:41.981,60:41.981,941.981,Ball Receipt*,Bayer Leverkusen,Alejandro Grimaldo García,17,0,1,True,0.991,0.000,80
+91,3895220,2,b03cfcb6-2e1b-4204-9a8e-3dd7bbee4df9,2837,00:15:41.981,60:41.981,941.981,Carry,Bayer Leverkusen,Alejandro Grimaldo García,17,0,1,True,0.000,1.577,1500
+92,3895220,2,8e373aa3-6995-4673-829d-bb7c646b84f5,2838,00:15:43.558,60:43.558,943.558,Pass,Bayer Leverkusen,Alejandro Grimaldo García,17,0,1,True,1.577,,80

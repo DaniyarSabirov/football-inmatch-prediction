@@ -1,0 +1,988 @@
+match_id,period,timestamp,event_id,team,players,orientation_route,verdict,evaluated,wrong_half,wrong_half_deeper_than_5yd,max_depth_yd
+3764440,1,00:00:00.438,23743e50-fbe4-4929-938e-9b3ab39ff4ff,Elche,7,geometry,inconclusive_few_players,3,3,2,7.73
+3764440,2,00:00:00.337,9b97703a-951a-423e-9367-ac13671dc9a7,Barcelona,20,geometry,consistent,14,0,0,0.0
+3764440,2,00:28:23.679,c65f47d0-6488-44b5-9ea1-7ced986de4ae,Elche,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773369,1,00:00:01.140,e073be3a-11a6-40f9-a4dc-12a51a0525ce,Barcelona,15,geometry,consistent,12,0,0,0.0
+3773369,2,00:08:57.208,7cc2ec01-e359-4734-b8b4-e89cdd028e58,Huesca,20,geometry,consistent,12,0,0,0.0
+3773372,2,00:00:01.115,f5239e4d-253b-4ad6-937a-79acce03e8c0,Atlético Madrid,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773377,1,00:00:01.385,a6905217-6a04-4561-bdc7-bedff629215d,Barcelona,20,geometry,consistent,15,0,0,0.0
+3773377,2,00:00:00.759,b2f79efe-d1f0-4f68-8f08-255761a40f77,Valencia,20,geometry,consistent,14,0,0,0.0
+3773386,1,00:00:00.689,208f072d-cffa-4575-bd73-e9e9384c8fe1,Barcelona,20,geometry,consistent,14,0,0,0.0
+3773386,2,00:00:00.767,6d073376-1180-41ac-9382-99bafe3e19ef,Deportivo Alavés,20,geometry,consistent,14,0,0,0.0
+3773387,1,00:00:00.692,8a9070ad-dbde-49ad-bc20-425abbca8b75,Barcelona,14,geometry,consistent,8,0,0,0.0
+3773387,2,00:00:00.592,b0838690-3f81-42bc-af27-2db47f82f1d7,Levante UD,20,geometry,consistent,14,0,0,0.0
+3773387,2,00:20:29.940,9aa55ae7-0dc4-4fc1-9333-d59e57700bd3,Levante UD,20,geometry,consistent,16,0,0,0.0
+3773403,2,00:00:00.804,7792ca45-2ee4-40e0-a4fa-25b09ace08ea,Athletic Club,18,geometry,minor,14,1,0,2.97
+3773415,1,00:00:00.357,9479fb0f-712e-45b8-80aa-db56cf485b26,Barcelona,20,geometry,consistent,16,0,0,0.0
+3773457,1,00:00:00.955,daac9c8d-95b6-4e42-8cfa-b05779fd7755,Barcelona,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773457,2,00:00:00.264,b8763b63-4aa4-4def-a3ed-accca6716e29,Celta Vigo,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773466,1,00:00:01.344,52ca311f-1d4b-47ee-b50f-75e684721c14,Barcelona,20,geometry,consistent,14,0,0,0.0
+3773466,2,00:00:00.342,9906f98e-877a-4a0d-8a54-65ced8153ac7,Celta Vigo,19,geometry,consistent,16,0,0,0.0
+3773474,1,00:00:00.544,16b1d94e-42e8-40d3-8fb8-50dd2ef0daba,Real Valladolid,20,geometry,consistent,15,0,0,0.0
+3773474,2,00:46:08.368,aeebf9a6-63d5-4ef2-a600-f30594c7a5da,Real Valladolid,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773477,1,00:23:49.379,1dde6081-3241-44e1-a3e2-568df18a60ac,Real Betis,20,geometry,consistent,14,0,0,0.0
+3773477,2,00:00:00.769,c24d6a4e-9e66-4044-8900-20341978597b,Barcelona,20,geometry,consistent,13,0,0,0.0
+3773477,2,00:37:39.182,085cede2-c22b-4dd6-8ba3-82001ec972f9,Real Betis,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773477,2,00:45:01.619,d625aa8f-1ac4-430a-86ff-0c8f05a13c84,Real Betis,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773497,1,00:00:00.687,4bb5ef98-f35a-46a0-86d2-4300f39bdce7,Barcelona,20,geometry,consistent,16,0,0,0.0
+3773497,2,00:00:00.253,94a448d9-7a95-43ec-9a65-b496e80db6af,Real Madrid,20,geometry,consistent,15,0,0,0.0
+3773523,1,00:00:01.251,8f70a1e4-3350-47cc-a49a-39446f43412d,Barcelona,20,geometry,consistent,13,0,0,0.0
+3773523,2,00:00:00.524,82284adb-7e5c-4931-95c0-269fc44cfa2b,Real Sociedad,20,geometry,consistent,14,0,0,0.0
+3773526,1,00:00:01.033,78fc7547-ba8b-4229-8d94-00e674921b2b,Deportivo Alavés,12,geometry,consistent,10,0,0,0.0
+3773526,2,00:00:00.751,a6a01ee7-f0b1-4d73-b55a-e7cb31943beb,Barcelona,20,geometry,consistent,14,0,0,0.0
+3773547,1,00:00:00.969,266ef5bc-8272-4daa-87f8-f9537956ed79,Barcelona,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773547,1,00:43:12.435,14f8dd77-d059-4e37-b716-37ef7efbc22e,Osasuna,18,geometry,consistent,13,0,0,0.0
+3773547,2,00:00:00.479,3fc85372-79cc-4de8-a889-592c52cc8326,Osasuna,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773552,1,00:00:01.454,0af70eb7-6b68-4d46-86e3-1834c6652266,Barcelona,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773552,2,00:00:00.397,695b7207-88fb-47d5-8a14-2001e4250fb3,Huesca,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773565,1,00:00:00.747,ed41e519-cb15-4ee3-ba31-d833f0182a7d,Barcelona,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773565,1,00:12:59.247,96e26ab7-cea4-49a7-ab86-b75c4f6933c8,Granada,20,geometry,consistent,15,0,0,0.0
+3773565,2,00:00:00.257,db2f2976-6a3f-4c2b-b81c-98f6c716ee96,Granada,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773571,1,00:00:00.519,07c9ef0a-c66a-4690-8492-a50c029d64b1,Barcelona,18,geometry,consistent,14,0,0,0.0
+3773571,2,00:00:00.726,bf156891-95cf-4fd2-b904-54a9fbe3a889,Real Valladolid,20,geometry,consistent,15,0,0,0.0
+3773571,2,00:20:41.655,6c8ec5bb-2353-40a2-8d93-d6d4b634425d,Real Valladolid,19,geometry,consistent,15,0,0,0.0
+3773585,1,00:00:00.817,af0b092d-5878-4fc8-9a12-60641e06e816,Real Madrid,20,geometry,consistent,15,0,0,0.0
+3773586,1,00:00:01.622,9bfbe1d4-10a6-4933-b486-da15f8b65953,Barcelona,18,geometry,consistent,13,0,0,0.0
+3773587,2,00:11:57.064,8e014b62-b10f-437d-bbff-2737f0a30799,Barcelona,20,geometry,consistent,16,0,0,0.0
+3773593,1,00:35:03.159,5cc9e7a6-908f-4473-b939-a72ececdb533,Villarreal,20,geometry,consistent,15,0,0,0.0
+3773597,1,00:00:00.929,dcade4b2-948e-4927-9a35-898e9ba4f535,Barcelona,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773597,2,00:00:00.507,250a5e6d-d6df-4266-8718-389259b65f3a,Real Sociedad,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773597,2,00:45:48.425,d1c33bb7-9522-4045-bb00-a4a7a9e19ddb,Real Sociedad,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773625,1,00:00:00.655,5bfa5f39-9bb6-4f38-9fe6-ec9c9e169822,Barcelona,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773625,1,00:29:43.190,20475ad4-2c94-4d1a-bcba-5f4ded58e832,Sevilla,20,geometry,consistent,16,0,0,0.0
+3773625,2,00:00:00.410,03a8fe75-1ed2-4fe3-b7cd-fede6e41263e,Sevilla,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773631,1,00:00:00.992,b1fce2b7-19f6-47df-ae5b-301298529811,Real Betis,7,unresolved,inconclusive_orientation,0,0,0,0.0
+3773631,2,00:00:00.857,823545ae-65a6-4f64-b11a-6203d73fd152,Barcelona,22,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773656,2,00:00:00.685,bedf5e56-f027-4f28-8862-02f422cabf77,Atlético Madrid,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773660,1,00:00:00.364,9dfd4b17-5922-4b96-803c-9316a6be42ba,Levante UD,20,geometry,consistent,16,0,0,0.0
+3773660,2,00:00:00.555,51cd247a-2d43-4b9d-8a7c-c08d09a204e8,Barcelona,20,geometry,consistent,14,0,0,0.0
+3773660,2,00:31:41.614,fefde08d-5f6d-4635-8c20-7e4541cb3c93,Levante UD,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773661,1,00:00:00.061,f15b10b6-5c79-4399-88fb-04504fa2e03d,Getafe,20,geometry,consistent,13,0,0,0.0
+3773661,1,00:08:41.167,93675e89-038c-4a1f-a10f-01e0072aa6f2,Getafe,20,geometry,consistent,14,0,0,0.0
+3773661,2,00:00:00.365,ce6e9e3b-3b72-4416-83ea-df6036e3e3c5,Barcelona,20,geometry,consistent,17,0,0,0.0
+3773665,1,00:00:00.280,755ae873-44e1-406c-a3f2-0c88edebf965,Barcelona,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773672,1,00:00:00.239,234e242d-18df-4071-bed7-9a93c66fef23,Barcelona,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773672,1,00:08:29.559,e0e68dbd-9f75-41d3-8f3d-3f88b3bd8685,Barcelona,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773672,2,00:00:00.088,5c4826c6-036d-4f60-87da-c644845e9c58,Sevilla,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3773689,1,00:00:01.456,11cc18ab-1d15-4b2f-be66-b481f23ca65c,Villarreal,15,geometry,consistent,10,0,0,0.0
+3773689,2,00:00:00.634,9d253931-5801-44ef-9c3b-be71074cda6a,Barcelona,20,geometry,consistent,17,0,0,0.0
+3773695,2,00:00:00.498,59dc32ae-5e86-4593-be02-5299624a26f5,Valencia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788741,1,00:00:00.878,5c888f58-fe77-459b-ab3b-a2fa5fb8ab16,Turkey,10,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788741,2,00:00:00.189,1ef7b65a-6d5c-46e6-a0b7-fa84e54f1e14,Italy,9,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788742,1,00:00:00.809,5d14bae0-f462-491c-9fc2-e55faec97743,Denmark,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788742,2,00:00:00.641,cbab69e2-91d1-4eca-89e3-0bb28f3d131f,Finland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788743,1,00:00:00.518,525da9e7-d3a7-40e0-8808-2ddfbada1c2d,Russia,20,geometry,consistent,16,0,0,0.0
+3788743,1,00:10:34.326,01db8144-de8c-4a3b-851c-0c6ac94d38b2,Russia,20,geometry,minor,16,1,0,2.01
+3788743,2,00:00:00.159,de23c887-e228-470f-94be-b97d48f9a9e2,Belgium,20,geometry,consistent,15,0,0,0.0
+3788744,1,00:00:00.687,10d6d93a-42a1-46b3-8b5c-500eaa0edfc7,Switzerland,20,geometry,consistent,14,0,0,0.0
+3788744,2,00:00:00.633,5d990930-5632-4c91-a3ed-de94d7c5f605,Wales,19,geometry,consistent,12,0,0,0.0
+3788745,1,00:00:00.259,de1529bc-c1f4-43fa-abb9-a802789f823b,England,20,geometry,consistent,15,0,0,0.0
+3788745,2,00:00:01.672,c3d22a79-e913-4512-bfee-9ddb3d88457b,Croatia,17,geometry,consistent,14,0,0,0.0
+3788746,1,00:00:00.227,e7e64ca3-3420-4be1-aaea-b48f217d41cb,Netherlands,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788746,2,00:15:03.170,30d5052d-1758-477d-9478-ee4b36e1cfd3,Ukraine,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788746,2,00:34:36.673,0c62ee97-07f5-44bf-880d-e47020c25940,Netherlands,20,geometry,consistent,16,0,0,0.0
+3788746,2,00:40:45.289,1e0ca630-a3ee-46ef-a3db-2b318cc72022,Ukraine,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788747,1,00:00:01.458,625c845c-131f-4d4c-a4a5-ca075a497550,Austria,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788747,2,00:00:00.088,656c924a-19c7-4ab3-92be-edba07b9451a,North Macedonia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788748,1,00:00:00.236,3e865a66-8d35-4867-ba07-b161f31620ae,Scotland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788748,2,00:00:00.245,c7d47a86-feb3-4668-9ffe-382c18be482b,Czech Republic,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788749,1,00:00:00.442,beb7265d-f2a6-4216-a7a1-d34abb53e248,Slovakia,19,geometry,consistent,13,0,0,0.0
+3788749,2,00:00:00.201,1497fd4e-1be1-4d2a-971e-fdb541bce288,Poland,16,geometry,suspicious,12,12,11,56.92
+3788749,2,00:24:21.679,6dc16ca3-8036-4f23-91dc-de061e5b5e80,Poland,18,geometry,consistent,14,0,0,0.0
+3788750,1,00:00:00.594,2f18b8e3-4d26-4887-b8f3-5b96f200af1e,Sweden,20,geometry,consistent,16,0,0,0.0
+3788750,2,00:00:00.681,dbb26d89-8762-4c46-a35e-0b6cd39e0423,Spain,22,geometry,minor,18,1,0,2.1
+3788751,1,00:00:00.552,c5a1e95e-df4d-4c40-b6a0-7d5f785c39c7,Germany,20,geometry,consistent,14,0,0,0.0
+3788751,2,00:00:00.346,14a2dd27-5a19-42cd-a8f6-4409b4b2114c,France,20,geometry,consistent,14,0,0,0.0
+3788752,1,00:00:00.787,fcb00fc4-85a2-4977-b172-d225aa1bac7a,Hungary,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788752,2,00:00:00.747,85423efd-d02d-49fb-bb92-5dcd5b329671,Portugal,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788752,2,00:39:54.007,45c729f3-aac9-4bfc-bdc4-46d0b043541e,Hungary,20,geometry,minor,15,1,0,3.55
+3788752,2,00:48:01.799,4e7b5f12-a135-49e2-92eb-77d06303ba54,Hungary,19,geometry,consistent,12,0,0,0.0
+3788753,2,00:00:00.306,0a669cfb-4f05-4657-9fb8-6953ccd34b26,Finland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788754,2,00:00:00.288,ec2612a1-39ae-445f-b75d-1bcd6320c142,Italy,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788754,2,00:07:10.388,7d3712e8-f36b-4622-ade1-c928b21566f4,Switzerland,18,geometry,consistent,12,0,0,0.0
+3788755,1,00:00:00.329,0c38259c-a135-4845-8c77-7c2304c3d828,Wales,20,geometry,consistent,14,0,0,0.0
+3788755,2,00:00:00.787,84add813-f404-4cd9-8c65-9f1b72b81233,Turkey,17,geometry,consistent,13,0,0,0.0
+3788756,1,00:00:00.952,5cf1441c-ad1b-4a25-ad7a-22e1a78d3bf9,Austria,20,geometry,consistent,15,0,0,0.0
+3788756,2,00:00:00.524,0e23cef7-4fe7-48bd-88a0-5902dd45e2c4,Netherlands,20,geometry,consistent,15,0,0,0.0
+3788757,1,00:00:00.869,c2676711-e363-48e9-bbd9-6572bb65438f,Denmark,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788757,2,00:00:00.674,d86332cc-dbf5-44a7-be01-1fcf568ae757,Belgium,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788758,1,00:00:00.728,098eff63-9c94-4009-9c8a-b9b48e945e72,North Macedonia,20,geometry,consistent,15,0,0,0.0
+3788758,2,00:00:00.540,2298e4bf-83df-4ec4-873d-d8e3b3f3e89a,Ukraine,20,geometry,consistent,15,0,0,0.0
+3788759,1,00:00:00.683,d4c054d5-fb80-4d5e-b22a-33262e8c98f7,Scotland,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788759,2,00:00:00.360,0303e206-17e6-400e-bc07-d77a479c64c7,England,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788760,1,00:00:01.452,87ecf500-87c6-4555-b094-769bffe23384,Czech Republic,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788760,2,00:00:00.555,5d636c1f-0f55-4433-95ff-3d829f4640ed,Croatia,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788761,1,00:00:00.504,3469ed92-394f-4de4-a037-f9c924a5b7a9,Slovakia,20,geometry,consistent,16,0,0,0.0
+3788761,2,00:00:00.091,c13ca38a-ab2c-4322-b56a-90a4b4807c5c,Sweden,20,geometry,consistent,14,0,0,0.0
+3788762,1,00:00:00.040,45b27e4b-eae8-4c74-8ac1-d8cd1b53e0bb,Poland,20,geometry,consistent,13,0,0,0.0
+3788762,2,00:00:00.536,b88abf99-c630-4a20-9c66-375fdd45893d,Spain,20,geometry,minor,14,2,0,3.19
+3788762,2,00:09:22.200,89aecdb2-7548-431d-aac0-d072e81430a5,Spain,20,geometry,consistent,13,0,0,0.0
+3788763,1,00:00:00.679,ab076578-13f5-4eba-9209-cf2e5b534304,Hungary,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788763,1,00:48:07.862,aee22377-c730-400b-913d-591716dcf7ca,France,17,geometry,consistent,14,0,0,0.0
+3788763,2,00:00:00.800,e8747d93-c7d1-4539-95ca-b2f7ec9eca48,France,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788764,1,00:00:01.281,e95eb4c0-5b80-4168-a712-de53cdb2fea0,Germany,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788764,2,00:00:01.251,9ba28a10-9146-46a4-b77f-19f8c89657b9,Portugal,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788765,1,00:00:00.782,a4d91d73-5213-436f-b452-cedc354d3bac,Switzerland,19,geometry,consistent,12,0,0,0.0
+3788765,2,00:00:00.784,119481a8-5c2a-4b30-b19e-daddd1e325a8,Turkey,14,geometry,consistent,10,0,0,0.0
+3788765,2,00:23:36.382,62177c8c-058f-47a6-9792-1cbedfc3a314,Turkey,20,geometry,consistent,17,0,0,0.0
+3788766,1,00:00:00.688,7d000206-4282-4d4f-be77-2a34aa4cbdde,Italy,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788767,1,00:00:01.479,a020c3d6-2ead-4063-8964-35f0ad612720,Austria,20,geometry,consistent,14,0,0,0.0
+3788767,2,00:00:01.160,1a615132-533a-46a4-b253-707f9bb3f1ca,Ukraine,20,geometry,consistent,14,0,0,0.0
+3788768,1,00:00:00.678,a50662d2-e1fb-4191-979b-f69f6d96d5c2,Belgium,20,geometry,consistent,15,0,0,0.0
+3788768,2,00:00:00.533,1339dd56-2ee0-49fc-89cd-fd3115ca959b,Finland,20,geometry,consistent,15,0,0,0.0
+3788768,2,00:36:56.791,2f812a56-b027-441a-b2f7-e77b5d284eeb,Finland,20,geometry,consistent,14,0,0,0.0
+3788769,1,00:00:00.608,da3e243e-64f9-45b2-91f9-59afcaa9081a,Russia,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788769,2,00:00:00.745,31d4698b-de5f-44ff-81b0-bce100b7f2f4,Denmark,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788769,2,00:37:24.157,33243be1-4114-4772-958c-dba07af9669b,Russia,19,geometry,consistent,13,0,0,0.0
+3788770,1,00:25:31.110,11329277-56af-4ec7-9044-a4d6ccf6c39d,North Macedonia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788770,2,00:13:10.092,ea7854ea-6b8e-4f3d-9e65-8710db2b2138,North Macedonia,19,geometry,consistent,13,0,0,0.0
+3788771,1,00:00:00.679,1581ca0b-1263-4268-8c90-1692490a3676,Scotland,19,geometry,minor,15,1,0,2.08
+3788771,2,00:00:00.722,90994b9d-38cd-4edb-96ee-54b7d0714b6f,Croatia,16,geometry,consistent,11,0,0,0.0
+3788771,2,00:17:44.154,cfaccbcf-69e2-402d-a0c8-2778803e7e42,Scotland,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788772,1,00:00:00.338,c0f258ff-c250-49c9-8291-4eb8d82da2b9,Czech Republic,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788772,2,00:00:00.683,27ada592-2ae7-4b1d-9a38-48fb87e060b9,England,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788773,1,00:31:06.165,41251d20-95d9-44e1-ba67-7e0565697baf,France,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788773,2,00:00:01.014,82eaa750-4a70-4336-8911-47178797f7fb,Portugal,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788773,2,00:15:33.724,84f3571f-9178-47bc-b479-8b9c64f4f135,France,20,geometry,consistent,16,0,0,0.0
+3788774,1,00:00:00.595,40ea0de1-da25-45cd-aae0-174586d4f848,Germany,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788774,2,00:00:00.510,a527f074-aa34-480c-9029-a91dbb380650,Hungary,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788775,1,00:00:00.773,8f0ec442-234e-464d-abe1-917488389657,Slovakia,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788775,2,00:00:00.564,eb69b6e9-e267-4ab2-9f02-efdef1a10379,Spain,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3788776,1,00:00:00.080,662f989a-9ae4-45b6-81ee-818d01140499,Sweden,20,unresolved,inconclusive_orientation,0,0,0,0.0
+3788776,2,00:00:00.585,7faf2f96-9493-441c-a4aa-1663fa7f7de4,Poland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794685,1,00:00:00.897,e77394cb-fbcd-45bd-9499-bd932c1574f6,Austria,20,geometry,consistent,16,0,0,0.0
+3794685,2,00:00:01.202,ac2f1ecd-ddc7-4815-a572-7f410050428a,Italy,20,geometry,consistent,15,0,0,0.0
+3794685,3,00:00:01.134,5121619c-d85a-4fd8-a4c4-144237352465,Italy,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794685,4,00:00:00.450,a76a9c2a-72da-455a-b2b0-cf3a6084d5a4,Austria,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794686,1,00:00:00.409,81abade8-7244-4d25-aef5-3d5b3dbdf952,Spain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794686,1,00:38:39.280,6140c98b-099d-4a31-8f58-a6f6bb39d2be,Croatia,20,geometry,consistent,16,0,0,0.0
+3794686,2,00:00:00.722,ef46898f-aaa2-43f9-98ea-41112c16fc90,Croatia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794686,2,00:12:27.027,0c56f118-4ed2-4d0b-913f-b6f41d73b012,Croatia,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794686,2,00:40:28.018,8021d935-6cf0-47ad-8b98-47e835f3ed8e,Spain,20,geometry,consistent,12,0,0,0.0
+3794686,2,00:48:10.579,bc34c1a0-5738-4680-8fa6-880b2299be4d,Spain,20,geometry,consistent,14,0,0,0.0
+3794686,3,00:00:00.400,4b92d3f1-d54c-4516-a9e7-654af6827e76,Croatia,20,geometry,consistent,13,0,0,0.0
+3794686,3,00:11:34.403,596a9658-4b1a-4d7f-bdf9-94e54b52a03f,Croatia,19,geometry,consistent,14,0,0,0.0
+3794686,3,00:14:05.613,ca6a8e7f-804a-4793-8d2d-dcfa7a8cf27a,Croatia,20,geometry,consistent,16,0,0,0.0
+3794686,4,00:00:00.278,d657183f-ac52-4c5e-811c-42656b741f72,Spain,20,geometry,consistent,12,0,0,0.0
+3794687,1,00:00:00.840,2cd43fa6-252a-4c00-b5b3-9ba0196bfdf5,Belgium,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794687,2,00:00:00.848,cb4c4119-994a-44fe-92b9-13b499348151,Portugal,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794688,1,00:00:00.543,23a50eb3-7cfe-4522-96e7-b4b09e089c75,Germany,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794688,2,00:00:00.424,cf05ffa4-d54d-41b9-a32a-c65d2bc83d6c,England,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794689,2,00:00:00.346,5799c7a5-d43a-413a-b71a-8185fb898c73,Denmark,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794690,1,00:00:00.765,c1043c0d-7cef-404a-8ea5-c16c4e815cb0,Czech Republic,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794690,2,00:00:00.583,3634bc96-2c75-4cbb-bd61-a332b0b75079,Netherlands,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794690,2,00:23:56.044,e8b97577-4e19-4ec4-8ee0-3f0f2733078c,Netherlands,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794690,2,00:35:34.856,5d7df6c4-a4f1-4942-8bdd-6b3ae425f1b3,Netherlands,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794691,1,00:00:00.390,69f37549-b311-4b47-b6de-e4e4df328458,Switzerland,18,geometry,consistent,11,0,0,0.0
+3794691,2,00:00:00.570,e7e51ba5-8118-4c6b-9e5f-4c0bbac7a426,France,20,geometry,consistent,15,0,0,0.0
+3794691,3,00:00:00.675,54053452-678d-461d-9d7a-46c58e8cbf6c,France,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794691,4,00:00:00.586,452eb0e5-5b23-4d42-b645-45ad5cf76b62,Switzerland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794692,1,00:00:00.950,e424277c-ba66-4f0e-ba09-cda8e37f8c05,Ukraine,18,geometry,consistent,14,0,0,0.0
+3794692,2,00:00:00.695,c8902525-dc15-4e3c-9741-c781d171c522,Sweden,15,geometry,consistent,11,0,0,0.0
+3794692,3,00:00:00.463,d4780f64-213c-4df2-beb0-2577f65c7e30,Sweden,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794692,4,00:00:00.558,9d5aeca2-ad14-465c-8ca0-a17160bf1fe4,Ukraine,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3794692,4,00:17:29.559,a0446010-aeed-4a49-9ad8-9e76c75c5dee,Sweden,13,geometry,consistent,6,0,0,0.0
+3795107,1,00:00:01.215,bf2cebf0-4f79-4f10-ae00-292a05c47be7,Belgium,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795107,2,00:00:00.136,508aa624-1fbf-478a-a9e7-ce11329b6449,Italy,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795108,1,00:00:00.967,a7fc0aff-9813-41a3-9d25-bd387c6c4ec2,Spain,20,geometry,consistent,14,0,0,0.0
+3795108,1,00:08:38.931,b02267ed-7594-40c8-98e0-4ecc321c2148,Switzerland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795108,2,00:00:00.810,59414232-af1b-4c17-90a9-2e4841fc41d8,Switzerland,20,geometry,consistent,14,0,0,0.0
+3795108,2,00:24:05.983,859276fa-deff-4a2b-80a1-a92063991cf9,Spain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795108,3,00:00:00.311,2f69a5a3-f498-418c-8a59-beb26e643cc7,Switzerland,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795108,4,00:00:00.075,3da20f8a-4843-4186-885a-b74d44b9a0e1,Spain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795109,1,00:00:00.759,593c66ec-d7de-46f4-b118-540e420baf05,Denmark,14,geometry,consistent,8,0,0,0.0
+3795109,2,00:00:00.607,4654157d-e993-4cff-ab9f-588f38718f96,Czech Republic,16,geometry,consistent,8,0,0,0.0
+3795187,2,00:00:00.662,61b3c717-0865-44d0-8f43-fe4a27485af7,England,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795187,2,00:06:02.852,2e42fa6c-a966-4107-9cd7-84d563ab45dc,Ukraine,20,geometry,consistent,15,0,0,0.0
+3795187,2,00:19:55.808,35888aaa-1834-4ae6-926d-91a739488e2a,Ukraine,20,geometry,consistent,15,0,0,0.0
+3795220,2,00:00:00.378,cef7920b-8aba-4763-8ce5-142cc0759b0e,Italy,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795220,2,00:36:15.338,858c2277-494d-4a52-87e9-7231244b805d,Italy,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795220,3,00:00:00.772,704d450e-32d2-4406-9c9c-485aa3e5ab8d,Spain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795220,4,00:00:00.783,26d45b0b-41f9-440f-b4a0-adabe4f21dbb,Italy,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795221,1,00:00:00.218,32265cf1-77cd-415f-90c4-5443f58c6e1d,Denmark,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795221,2,00:00:01.157,fa3282b9-2d29-47ef-8685-7397c98bbdb5,England,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795221,3,00:00:00.330,5005d941-af86-486f-942c-05e65a32453b,Denmark,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795221,4,00:00:00.167,ba54dc73-91ae-4a9e-9a13-db91b2b23bbb,England,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795506,1,00:00:00.286,0aee931f-9614-4879-b3e8-fd9d7cc80c59,Italy,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795506,2,00:00:01.649,f383afad-137e-4f23-8e8f-5ee53041d208,England,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3795506,3,00:00:00.310,f29d0eaa-3089-4f86-81a6-4e2706c2b3fa,England,15,geometry,consistent,8,0,0,0.0
+3795506,4,00:00:00.394,a02567d4-cd32-4464-b0f1-29ae05057e50,Italy,18,geometry,consistent,13,0,0,0.0
+3802643,1,00:00:00.711,973d02b8-e526-4db4-906c-4086b788a83e,Paris Saint-Germain,20,geometry,consistent,15,0,0,0.0
+3802643,1,00:23:48.561,35f09b5d-a082-4746-9b83-6ac3c8c5f819,Strasbourg,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802643,2,00:00:00.269,0fedf167-e7fe-4289-a5f9-81968800e467,Strasbourg,20,geometry,consistent,14,0,0,0.0
+3802643,2,00:30:17.345,2b79a235-f741-4842-a49e-186c2ace6b7a,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802665,1,00:00:00.492,2e352016-c062-4de5-a293-95043cb131c3,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802665,1,00:06:03.202,7f75e86a-e020-4f35-b75e-f393f03c8b2a,Montpellier,20,geometry,consistent,14,0,0,0.0
+3802665,1,00:20:17.926,4f7a0836-ebf0-46d7-93ed-481d0166a245,Montpellier,20,geometry,consistent,14,0,0,0.0
+3802665,1,00:26:52.691,02234fc8-496d-4c12-b958-03e2ad9fb7e9,Montpellier,20,geometry,consistent,13,0,0,0.0
+3802665,2,00:00:00.543,ab1ee151-2949-4f51-939d-a53c2a002887,Montpellier,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802665,2,00:15:00.494,d65d3f5a-7cb0-47e8-a3d3-acfa6b952fb3,Montpellier,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802676,1,00:00:01.587,60114131-3359-46fc-b0ac-1456945138b1,Lens,20,geometry,minor,15,1,0,2.47
+3802676,2,00:00:01.773,028c4f2f-51b4-4502-88f1-0215a92d9873,Paris Saint-Germain,20,geometry,consistent,16,0,0,0.0
+3802676,2,00:43:30.847,fdb8094c-ecf2-42a4-8ea1-38e673542a24,Paris Saint-Germain,19,geometry,consistent,15,0,0,0.0
+3802685,1,00:00:00.418,ae7dc323-0843-408d-ba29-1e2c39b35874,Paris Saint-Germain,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802690,1,00:00:00.451,80e446e1-0ff4-41d9-99e7-bdc4c58768eb,Paris Saint-Germain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802690,2,00:00:00.667,68a467b3-fbcc-4568-913d-233641f3196f,Lorient,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802690,2,00:46:30.348,6f62b641-b525-4304-8bf2-eeeee49633e7,Lorient,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802696,1,00:00:00.410,92e5c8e1-15cf-4a09-9391-312a7bc31653,Stade de Reims,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802696,1,00:16:21.749,1897b7b2-31c2-429f-9215-046ceaa34abb,Stade de Reims,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802696,2,00:00:01.012,85cf6481-0484-4b49-bcbf-16a66f9e89d6,Paris Saint-Germain,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802699,1,00:00:00.806,bd3224c8-9d10-4cf1-b445-8be0b39d0713,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802699,1,00:31:35.154,feeaed8b-cf88-4b38-a9ad-1c8894ae5c1e,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802699,2,00:30:29.555,6a076cee-31bf-4988-977c-82579ec0f2a5,Lille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802699,2,00:44:17.949,cc0251d3-6540-438d-abef-07a8e4d2bcac,Lille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802709,1,00:00:00.519,559bfd20-fdb7-457e-a20d-af7c03471a5a,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802709,2,00:00:00.399,17a0f4f4-68f7-4372-83c6-f20ad42fed4a,Saint-Étienne,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802709,2,00:02:28.800,6828df02-7889-47d5-9521-05aa8fee6b26,Saint-Étienne,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802709,2,00:07:41.739,2a29ff0f-eb79-40b3-8c02-84a1f2a2a7ba,Saint-Étienne,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802752,1,00:00:00.863,32b61859-d634-4b7b-acbe-c0b174a7fbe0,Paris Saint-Germain,4,geometry,inconclusive_few_players,2,0,0,0.0
+3802752,2,00:09:40.965,69323779-88f9-4d1b-9ad0-daac0781b5e9,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802793,1,00:00:00.559,c1c6e51f-8314-4074-903d-e851645d0846,Paris Saint-Germain,20,geometry,consistent,14,0,0,0.0
+3802793,2,00:00:00.206,107d2175-a519-4277-8d57-0e92c8362be4,OGC Nice,19,geometry,consistent,13,0,0,0.0
+3802795,1,00:00:00.858,fb8487e9-2a6e-4558-9858-4de3965cd585,Paris Saint-Germain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802802,1,00:00:00.282,1a3fa428-e2ac-4565-b107-82c618122a34,Paris Saint-Germain,20,geometry,consistent,14,0,0,0.0
+3802802,2,00:00:00.492,c021204d-13a5-422a-9084-fcdc63cd184d,Stade de Reims,19,geometry,consistent,15,0,0,0.0
+3802805,1,00:00:00.382,b475634b-24a1-4743-a617-31d579d75f87,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802805,2,00:00:00.864,52ef44da-c776-4db1-94b5-61da78b289cc,OGC Nice,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802809,1,00:00:00.565,81a90d89-5a2d-4f09-a1c4-7e911216e802,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802809,2,00:00:00.867,7dabc14d-ac9f-4b49-b5e4-c4ca2080b0e9,Rennes,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802809,2,00:03:05.184,4500e687-76d5-4b8c-bb97-7f4ee9772d09,Paris Saint-Germain,17,geometry,minor,11,2,2,18.23
+3802818,1,00:00:00.400,398f94d0-1834-4534-b87d-53f0a2fcba8b,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802818,1,00:12:49.045,9475b263-c461-42b0-aa69-d3b072b06dce,Lorient,20,geometry,consistent,13,0,0,0.0
+3802818,1,00:28:58.743,e875d8f7-f628-4e60-8e44-12b66551340d,Lorient,20,geometry,consistent,14,0,0,0.0
+3802818,2,00:00:00.393,6c074ad6-8f25-4562-a592-3e5c26473d28,Lorient,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802818,2,00:45:46.255,6f8f0776-d132-43cf-8c2a-af6d4f96073e,Lorient,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802837,1,00:00:00.368,d5000bdc-d156-4efd-b2be-f2faa568101f,Paris Saint-Germain,20,geometry,consistent,14,0,0,0.0
+3802837,1,00:47:40.607,a51bbb15-6fa9-4009-ae91-fa38f3269160,Saint-Étienne,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802837,2,00:00:00.205,eeff640b-da0c-4954-8ce2-2c58dc952436,Saint-Étienne,19,geometry,consistent,13,0,0,0.0
+3802839,1,00:00:00.653,aad00017-70da-43ee-8114-4a14f59b2155,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802839,1,00:51:37.729,c843ca2c-3fd0-4bb7-93da-0371f8303754,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802839,2,00:00:00.260,fee98a31-1c0e-44fe-b033-956c6f7b02ce,Nantes,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802902,2,00:00:00.626,46c4f8d7-b7e3-468b-bd57-c1e492f182c9,Olympique de Marseille,19,geometry,consistent,12,0,0,0.0
+3802904,1,00:00:00.425,4920d954-c140-431f-b2fa-70c5a2192fe5,Bordeaux,20,geometry,consistent,13,0,0,0.0
+3802904,2,00:00:00.546,90911b26-9445-45ad-bcdf-de06b8cbf3ae,Paris Saint-Germain,20,geometry,consistent,15,0,0,0.0
+3802904,2,00:07:24.939,4c1455ef-fa6e-487a-a238-6628f43a0967,Bordeaux,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802907,1,00:00:01.006,65bb81b7-f02c-439b-917e-807f3771703c,Paris Saint-Germain,20,geometry,consistent,14,0,0,0.0
+3802907,1,00:10:08.812,4eda824f-7d3b-4f85-b73e-ae3bb4770db0,Lille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802907,2,00:00:01.612,283e62d0-e828-46f4-9341-e4fb3b20552a,Lille,20,geometry,consistent,15,0,0,0.0
+3802930,1,00:00:00.628,76ba00b2-3aab-4a23-bd76-fac5e0490392,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802930,2,00:00:00.484,c5da1369-2c10-42d5-a204-1b0aa5f084ea,Troyes,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802948,1,00:00:00.877,fb2a0636-a0b8-40a2-a9e1-2883bf090ecc,Paris Saint-Germain,20,geometry,consistent,17,0,0,0.0
+3802948,1,00:32:20.548,893f8097-6335-4c82-aa47-8250863984c8,Metz,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3802948,2,00:00:00.417,2c33c82e-86fb-48ea-ac0a-4b38127df970,Metz,20,geometry,consistent,16,0,0,0.0
+3802948,2,00:06:07.243,05fbed05-045c-412a-81f9-df9335c1c7c8,Metz,20,geometry,consistent,15,0,0,0.0
+3802983,1,00:00:00.675,7c7b431c-05fe-4604-b6fd-cbf1b46f0409,Paris Saint-Germain,20,geometry,consistent,16,0,0,0.0
+3802983,1,00:31:15.897,0d5932cf-e592-45a4-8516-472f5b3bc2b8,Paris Saint-Germain,20,geometry,consistent,16,0,0,0.0
+3802984,2,00:00:00.723,0e2e3a9f-b878-4028-bdff-6e7fb8c4cc67,Paris Saint-Germain,20,geometry,consistent,15,0,0,0.0
+3803000,1,00:00:00.422,3d1bb5b9-1f9b-4455-a281-20d5630907e4,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3803000,1,00:08:19.927,667b81ae-0fbe-4a82-b7a0-f9a00699d6c7,Clermont Foot,20,geometry,consistent,17,0,0,0.0
+3803000,1,00:19:13.945,928e9b04-d923-4737-805d-abdafc8d5627,Clermont Foot,20,geometry,consistent,14,0,0,0.0
+3803000,2,00:00:00.043,278efd80-ebcd-46fa-b756-cdfa7967df1f,Clermont Foot,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3803000,2,00:29:40.313,7df45564-3ce7-46bd-b131-80f3e07145b3,Clermont Foot,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835319,1,00:00:00.118,f3c7c412-cd34-493c-9768-bb8443cb8545,Austria Women's,17,geometry,consistent,11,0,0,0.0
+3835319,2,00:00:00.755,47fd57ef-fc4e-4d77-9f49-b88dd8b53d62,England Women's,19,geometry,consistent,15,0,0,0.0
+3835320,1,00:00:01.118,d7ce4d51-fb64-464a-a3cd-97a2846e628b,Norway Women's,20,geometry,consistent,14,0,0,0.0
+3835321,1,00:00:00.259,cc1628b4-445d-4bca-a00e-bac050d768e5,Spain Women's,20,geometry,consistent,14,0,0,0.0
+3835321,2,00:00:00.363,06e22361-c211-4b13-95b4-d82192647fb3,WNT Finland,17,geometry,consistent,11,0,0,0.0
+3835322,1,00:00:00.729,bab29796-c297-44d8-9291-08a6021266bc,Germany Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835322,1,00:21:25.265,2fd5972d-4e59-45d0-aebf-b74681f9698a,Denmark Women's,19,geometry,consistent,12,0,0,0.0
+3835322,2,00:00:00.211,d7032da5-9966-4452-a75a-3353c219df06,Denmark Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835323,1,00:00:00.382,af21ad72-4a3b-43d2-94c5-b6e8a5520cef,Switzerland Women's,15,geometry,consistent,11,0,0,0.0
+3835323,2,00:00:00.528,f7beb8d6-1dc6-49ce-ab69-5c3ce32408a7,Portugal Women's,20,geometry,consistent,16,0,0,0.0
+3835324,1,00:00:00.950,de1a5eb5-a65f-47d8-a151-8ce1986faf22,Sweden Women's,15,geometry,consistent,8,0,0,0.0
+3835324,2,00:00:00.160,d3e76631-22ed-4594-ad15-86cefa613697,Netherlands Women's,20,geometry,consistent,13,0,0,0.0
+3835325,1,00:00:00.659,725b7447-c31b-4eaa-a97e-73aaace87879,France Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835325,2,00:00:00.361,1a6ef47a-9811-4400-b493-a90074166fe3,Italy Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835325,2,00:32:25.177,a5f1af95-a54b-47db-9f6a-42c78eb7fd7f,France Women's,20,geometry,consistent,15,0,0,0.0
+3835326,1,00:00:00.116,d13a2487-7729-421a-ba56-8afaac61fce0,Iceland Women's,16,geometry,consistent,9,0,0,0.0
+3835326,2,00:00:00.815,7b87554a-0216-4306-aa82-c0c126ca6336,Belgium Women's,20,geometry,consistent,11,0,0,0.0
+3835327,2,00:00:00.096,0d5d17b1-bf4c-487f-926c-11b5d4dba946,England Women's,17,geometry,consistent,11,0,0,0.0
+3835328,1,00:00:01.602,d53f0390-344c-4605-90d5-1aa4bc0764e4,Northern Ireland W,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835328,2,00:00:01.321,49db5cbc-247b-4c39-8218-30b638805b20,Austria Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835329,1,00:00:00.967,8306e86e-645f-4bb2-b31a-ca3080977901,Denmark Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835329,2,00:00:01.039,2dce173b-5031-4797-9399-b49f8bd5adae,WNT Finland,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835330,1,00:00:00.249,33579914-3c75-4c72-9eba-8086abc4571d,Spain Women's,18,geometry,consistent,10,0,0,0.0
+3835330,2,00:00:00.802,7c09b6bc-6179-4e02-a2b0-3c9345b110cf,Germany Women's,16,geometry,consistent,10,0,0,0.0
+3835331,1,00:00:00.639,23be290a-ccb3-4d65-90c0-114b963dcefb,Switzerland Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835332,1,00:00:00.516,1c724b2e-e6a9-4f35-a6e5-eecec109f4fe,Netherlands Women's,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835332,2,00:00:00.366,0bbf4989-22ec-4346-8f26-31bb4f7823e5,Portugal Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835333,1,00:00:00.822,50d5bd9e-a75b-4282-81f2-0c9a03a76bfe,France Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835333,2,00:00:00.802,66a1be20-346b-496e-8c6a-e4ed0b678967,Belgium Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835334,1,00:00:00.157,5643736e-90fa-4093-8fd2-3009c1575bae,Iceland Women's,12,geometry,inconclusive_few_players,5,0,0,0.0
+3835334,2,00:00:00.767,05dd1cc2-b6b4-4dee-a3fb-c76b6234ff79,Italy Women's,19,geometry,consistent,13,0,0,0.0
+3835335,1,00:00:00.713,9f22fc19-4a49-401f-9ea0-7dadc2fbc3c6,England Women's,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835335,2,00:00:02.234,4ef32197-20f5-49e3-89c6-0a54a28579f7,Northern Ireland W,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835336,1,00:00:00.747,e08744b6-a524-4856-834c-5e4ca43e0158,Norway Women's,17,geometry,consistent,11,0,0,0.0
+3835336,2,00:00:01.157,c60e8b10-9e19-4274-bf24-c9ab41938fab,Austria Women's,19,geometry,consistent,13,0,0,0.0
+3835337,1,00:00:00.168,6b32d8a4-211c-4696-9e99-ed4c6cc3ecab,Spain Women's,20,geometry,consistent,16,0,0,0.0
+3835337,2,00:00:00.565,b8983c6c-e9da-4a43-959f-2120b7390cde,Denmark Women's,20,geometry,consistent,12,0,0,0.0
+3835338,1,00:00:00.570,e77552b2-b963-43c6-b347-0c43046e3627,Germany Women's,19,geometry,consistent,13,0,0,0.0
+3835338,2,00:00:00.412,87d10aa0-0917-491b-a938-3786cd5309fa,WNT Finland,19,geometry,consistent,13,0,0,0.0
+3835339,1,00:00:00.800,4ee24c79-ba81-4f27-b74f-f1b5ca386284,Netherlands Women's,14,geometry,consistent,8,0,0,0.0
+3835339,2,00:00:00.462,fb9c451f-f23d-49b9-b563-d1d211724e6e,Switzerland Women's,17,geometry,consistent,10,0,0,0.0
+3835340,2,00:00:01.181,aeb7c604-e57e-4856-be34-d0ae429e8d62,Portugal Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835341,1,00:00:00.637,65cc474e-3387-421a-aecc-a7277429eda3,Italy Women's,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835341,2,00:00:00.165,b10974cf-6bdc-45ff-8a86-4748940d63c2,Belgium Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835342,1,00:00:00.543,74a2e70f-585d-48f3-8c75-0c9833752cb0,Iceland Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3835342,2,00:00:00.634,27d83209-5804-4ec6-9ed7-4e737275376d,France Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837650,1,00:00:01.077,8405c90f-3364-4067-9029-147e5c864bef,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837650,1,00:26:14.710,4867c3c7-d860-4f79-b014-9a77befb71b9,Clermont Foot,20,geometry,consistent,15,0,0,0.0
+3837650,1,00:39:12.405,e31c86fc-a542-47c3-88e5-ea954e42dbf6,Clermont Foot,20,geometry,consistent,14,0,0,0.0
+3837650,2,00:00:00.588,989d9be4-3143-4ae3-a67a-9504ebe4b82f,Clermont Foot,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837659,1,00:00:00.989,07d1c6a7-7f99-4d2e-b0e6-827104b5bae0,Montpellier,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837659,2,00:00:00.432,88b81d71-43e3-4235-8111-02b1e41bb53b,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837659,2,00:26:04.536,cd439c52-021e-4dc3-9ef0-9c7527ded707,Montpellier,20,geometry,consistent,15,0,0,0.0
+3837662,1,00:00:00.987,8ba55989-a646-43fc-810a-b3bdccfc3191,Paris Saint-Germain,20,geometry,consistent,13,0,0,0.0
+3837662,1,00:28:13.182,900d5cff-c90a-4ab5-9e1f-5b9b9a7c0d88,Lille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837662,1,00:39:34.750,bd89f965-8f6b-4aff-af48-b49dea8f060c,Lille,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837662,2,00:00:00.434,049581b6-18a7-4dba-997e-3d12d1c35ad6,Lille,19,geometry,consistent,14,0,0,0.0
+3837662,2,00:07:50.283,22c437d3-c4a5-42c9-a47f-7e032e45e581,Lille,20,geometry,consistent,15,0,0,0.0
+3837662,2,00:09:00.523,91f233aa-d194-4628-89c0-5f98c0702c32,Paris Saint-Germain,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837680,1,00:00:00.397,0975b040-af28-45dc-a204-c7b7256bfa59,Paris Saint-Germain,20,geometry,consistent,15,0,0,0.0
+3837680,1,00:21:40.381,a4289625-c4d4-478e-b878-2d377ef9d119,Paris Saint-Germain,19,geometry,consistent,16,0,0,0.0
+3837680,2,00:00:00.958,6f706301-aef1-4df8-a1b9-f65bdd2f6795,AS Monaco,20,geometry,consistent,14,0,0,0.0
+3837683,1,00:00:00.649,931566e0-dd46-4772-b31c-b5546cdeaef8,Paris Saint-Germain,20,geometry,consistent,15,0,0,0.0
+3837695,1,00:00:01.060,9d33e22c-d38a-4b16-94a5-75359b6da40b,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837695,2,00:00:00.619,2baccf89-8eed-4980-8069-603d1d13116f,Nantes,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837717,1,00:00:00.392,ea030a98-2f0e-4dd1-8ced-d9729b247c77,Lyon,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837717,2,00:00:00.923,28540dd6-1a10-4466-8f70-dae6b3662124,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837727,1,00:00:00.724,c643ae8b-4286-4faa-a34f-4faca71e977b,Paris Saint-Germain,17,geometry,consistent,13,0,0,0.0
+3837747,1,00:00:00.822,70ae6330-dce7-492d-8bbd-cf5f38d4762d,Paris Saint-Germain,19,geometry,consistent,16,0,0,0.0
+3837747,1,00:48:39.127,798e239f-6a90-4735-b83d-40bf1a30221f,Marseille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837747,2,00:00:00.208,ff44ea6b-e25a-42a4-b023-1a80e40dc99b,Marseille,19,geometry,consistent,14,0,0,0.0
+3837752,1,00:00:00.389,39c3baec-65c8-438d-a547-aa917eb1078e,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837752,1,00:26:05.108,837c3fc8-bd16-4a5c-97db-2c9ad98501aa,AC Ajaccio,20,geometry,consistent,15,0,0,0.0
+3837752,2,00:00:00.702,70ea2ead-3250-47e6-9023-872b09aec590,AC Ajaccio,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837771,1,00:00:01.340,6c9b629b-7d0f-4f62-9fe5-bed1d2dd1f4a,Paris Saint-Germain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837771,1,00:03:12.259,d18c9bb9-8da2-49a1-9735-5e7b4e1fb55b,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837771,1,00:24:05.980,16d848cb-0971-4ea1-980b-4917e54e66c5,Troyes,20,geometry,consistent,14,0,0,0.0
+3837771,2,00:00:00.590,e66afa18-8684-4ef3-b56c-fc931b8db438,Troyes,19,unresolved,inconclusive_orientation,0,0,0,0.0
+3837771,2,00:07:20.970,6026d10e-04a1-48cf-a49b-fd1c73a0327f,Paris Saint-Germain,20,geometry,consistent,16,0,0,0.0
+3837771,2,00:10:28.772,991efadf-d069-4e75-ae08-550801e856f6,Troyes,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837771,2,00:32:03.643,c2e9e647-6854-4d20-940d-084b59f94d37,Troyes,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837785,1,00:00:00.418,e5ec1a61-e625-48ee-8a05-16609ee6afd0,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837785,1,00:12:39.510,de015788-bbe1-4800-ba3f-6ae87e2adf39,Auxerre,20,geometry,consistent,16,0,0,0.0
+3837785,2,00:00:00.259,82f1d49e-5236-48ac-ae5f-e5e5d5d657f9,Auxerre,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837818,1,00:00:00.604,875248af-938f-4603-ae82-6d19593825fe,Angers,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837818,2,00:00:00.354,752640be-6679-4d61-80fc-208cfb6a48b9,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837827,1,00:00:00.701,c5f7ea96-c74a-46ba-9df1-dfa43136ca87,Rennes,20,geometry,consistent,13,0,0,0.0
+3837827,2,00:00:00.543,63787c2b-03b9-44b5-90ae-98829b677705,Paris Saint-Germain,20,geometry,consistent,13,0,0,0.0
+3837839,1,00:00:00.319,280aeae0-8bfb-42e1-96fd-d01faf997fc0,Paris Saint-Germain,18,geometry,consistent,12,0,0,0.0
+3837839,2,00:00:00.694,c23fd3e2-c296-4cd0-bbd8-685cbcfbf95c,Stade de Reims,20,geometry,consistent,14,0,0,0.0
+3837839,2,00:07:04.503,ef4cbd82-19f4-4d03-a384-ee31f7802dcd,Stade de Reims,20,geometry,consistent,14,0,0,0.0
+3837839,2,00:51:51.826,7cf18795-924b-463c-834d-abad56f32f74,Paris Saint-Germain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837844,1,00:00:00.618,69114690-983d-4bc1-a7df-085ba52f98c0,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837844,2,00:00:00.468,a8e37b00-2b26-4ab0-86d4-2865d427d34e,Montpellier,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837859,1,00:00:00.948,d2b7dda4-42b0-432c-a2bd-104e223cb8cd,Toulouse,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837859,2,00:00:00.663,37190d3d-942e-408a-9af2-7e70afd6c563,Paris Saint-Germain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837876,1,00:00:00.481,0ab3ef61-1967-466a-9990-31eb7a6b602b,Lille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837876,1,00:14:02.479,a06a5330-4826-4d5a-9637-42ac2ca1a5b5,Lille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837876,1,00:17:12.120,d5fde1f0-b7de-4b53-8c9a-64bc0299e996,Lille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837876,2,00:00:00.524,04722063-93d3-4f70-870d-2b94808de001,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837876,2,00:24:36.978,73366134-24b2-427c-aec4-556d69cf6410,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837885,1,00:00:00.211,f1684eae-76b0-4c31-b700-605ee8b12d95,Paris Saint-Germain,20,geometry,consistent,14,0,0,0.0
+3837885,1,00:29:30.459,9a49a820-0e20-4a28-b285-8dce06f0a9af,Olympique de Marseille,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837885,2,00:00:00.470,93dde083-cc61-4085-aa91-7ea0b92996ec,Olympique de Marseille,20,geometry,consistent,14,0,0,0.0
+3837885,2,00:10:27.050,e61ab01f-36e1-475b-8205-5901e4f16a31,Olympique de Marseille,20,geometry,minor,15,1,0,2.27
+3837896,1,00:00:00.140,8647cb7c-206f-4577-a6c3-f8299c031678,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837896,2,00:00:00.131,c5291342-401e-46c0-bac8-64d76ed8efca,Nantes,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837902,1,00:00:00.354,71dbd8ca-6c6e-41fe-942a-e6812ab87f2f,Paris Saint-Germain,20,geometry,consistent,16,0,0,0.0
+3837902,1,00:37:30.714,5ed684d1-c262-4b74-818f-e68359d11d89,Stade Brestois,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837902,2,00:00:00.192,e52d0bdf-4592-4beb-b160-e5860241a770,Stade Brestois,20,geometry,consistent,13,0,0,0.0
+3837918,1,00:00:00.443,db794fda-0146-41f7-9fb3-23b2dc94e68e,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837918,2,00:00:01.006,ac675076-297c-4046-af59-bdb9c1ea8b71,Rennes,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837918,2,00:03:46.432,420f2627-3ce7-4d3c-8aa0-b1bb19977323,Paris Saint-Germain,20,geometry,consistent,14,0,0,0.0
+3837928,1,00:00:00.757,3edc492e-27b6-4ca4-8ec6-4808c6952226,Paris Saint-Germain,20,geometry,consistent,15,0,0,0.0
+3837928,2,00:00:00.442,34c8a0c1-36c2-42c6-93f5-5506c827895b,Lyon,20,geometry,minor,15,1,0,2.14
+3837938,1,00:00:00.622,d44033c9-855e-4c4c-91f8-d3e97c6a2de1,Paris Saint-Germain,20,geometry,consistent,17,0,0,0.0
+3837938,1,00:26:16.385,2c5cff7d-d2f3-4cc0-acdd-1f8e15722899,OGC Nice,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837947,1,00:00:00.394,d5a8491f-8bec-4c58-8579-9b125b531900,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837947,1,00:40:56.543,90bfe1ed-4cce-44a7-a317-a2dd340b70f5,Lens,19,geometry,consistent,15,0,0,0.0
+3837947,2,00:00:00.791,fee93ee4-a575-4e54-86e5-cffed46fa904,Lens,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837954,1,00:00:00.676,a629f817-10bc-4bbf-ae67-74d058ef7860,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837954,1,00:09:41.487,64c15702-4b8a-4988-97ae-fbfe7d7fc70b,Angers,20,geometry,consistent,16,0,0,0.0
+3837954,2,00:00:00.662,89f930a4-cae5-49bd-ac45-fa2d51156961,Angers,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837963,1,00:00:02.120,b80f6ce3-7f71-437a-87f2-42aaa4313391,Lorient,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837963,2,00:00:01.022,690ae1d3-8680-472f-ab6f-cced8884f9b2,Paris Saint-Germain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837987,1,00:00:00.903,c0b21c38-100c-46db-a6e7-04cd5048dcc9,Paris Saint-Germain,20,geometry,consistent,16,0,0,0.0
+3837987,1,00:34:46.744,93243563-4c40-4af8-bc12-cd538764d1c6,AC Ajaccio,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837987,2,00:00:00.604,39e498dc-cd38-41cb-ae7c-e47232eb3c5b,AC Ajaccio,20,geometry,consistent,17,0,0,0.0
+3837998,1,00:00:00.656,7a08fa6c-d5aa-4d65-8ac2-bc43f8f0e175,Paris Saint-Germain,20,geometry,consistent,16,0,0,0.0
+3837998,1,00:06:37.343,f45036a0-f981-4ffb-91a5-6a1008e3aea1,Auxerre,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837998,1,00:08:52.251,ccdc0451-4e32-4fea-9a21-3ef07f4d88aa,Auxerre,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3837998,2,00:00:00.347,b4ed2a9d-f705-4a15-b2c3-5afd0066bb2f,Auxerre,19,geometry,consistent,14,0,0,0.0
+3838004,1,00:00:00.722,fd7ff4e8-11a9-4f0b-b5b8-2d4a34f7d7a3,Paris Saint-Germain,20,geometry,consistent,17,0,0,0.0
+3838004,2,00:00:00.429,5b8be474-704d-42b1-a5be-3873d4f3a138,Strasbourg,20,geometry,minor,16,1,0,2.08
+3838004,2,00:14:22.301,d172fa57-1938-4123-b828-b080cba403a5,Strasbourg,20,geometry,consistent,13,0,0,0.0
+3838004,2,00:34:52.183,1448df30-fa26-459e-ba5d-482cbe72017f,Paris Saint-Germain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3838017,1,00:21:02.929,3b50ec0f-826a-4afa-b297-2516a48fd3e6,Clermont Foot,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3838017,2,00:00:00.396,359c459e-b475-40bc-b049-e904387d96e4,Clermont Foot,20,geometry,consistent,14,0,0,0.0
+3844384,1,00:00:00.403,00618b2f-d2fd-45a4-a1bb-a2cc8d317334,Spain Women's,19,geometry,consistent,13,0,0,0.0
+3844384,2,00:00:00.297,e35254c3-0e2c-41e4-8c96-934ced4647cc,England Women's,16,geometry,consistent,8,0,0,0.0
+3844384,3,00:00:00.775,636949a7-476d-4bbb-95e6-60cf94106b4e,Spain Women's,17,geometry,consistent,11,0,0,0.0
+3844384,3,00:07:16.337,be778fc4-8cc9-4c0b-a3ea-94cbd0eba90f,Spain Women's,16,geometry,consistent,11,0,0,0.0
+3844384,4,00:00:00.528,90591125-00ce-4133-b84b-1d444328200d,England Women's,15,geometry,consistent,8,0,0,0.0
+3844385,1,00:00:00.683,ccba65ed-2e2d-45a4-b142-c09d35d2db72,Austria Women's,19,geometry,consistent,12,0,0,0.0
+3844385,2,00:00:00.153,996d965e-e54b-4eae-b203-be2face70398,Germany Women's,19,geometry,consistent,12,0,0,0.0
+3844386,1,00:00:00.284,2d5539d3-28e1-423b-9c26-c70fd2322ed7,Sweden Women's,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3844386,2,00:00:00.659,e71e7b82-cbfc-4152-8425-c4a61488a2a6,Belgium Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3844387,1,00:00:00.267,3429b19c-9576-4a5d-baf0-f3b03e207cef,France Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3844387,2,00:00:00.621,56a7c107-4620-462a-86a3-429287eaba14,Netherlands Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3844387,3,00:00:00.608,d6bef844-5e0d-4b86-ad2b-eb5ad5428d22,France Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3844387,4,00:00:00.455,7366fe15-2837-48cb-9199-c2886b6b3049,Netherlands Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3845507,1,00:00:00.663,f02e490c-c002-4fd8-b470-a4f39aa5d055,France Women's,20,geometry,consistent,13,0,0,0.0
+3845507,2,00:00:01.690,8e07d1dd-010c-42a0-8be0-56e9d7c6e941,Germany Women's,18,geometry,consistent,12,0,0,0.0
+3847567,1,00:00:00.520,1d9a238d-785b-4b18-8f5f-c2044ee5a359,England Women's,17,geometry,consistent,9,0,0,0.0
+3847567,3,00:00:00.142,898be389-7309-405e-a3de-08a758b4cb5d,Germany Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3847567,4,00:00:00.433,130908a7-3d0f-44a1-bdf4-f72e7f3d4667,England Women's,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857254,1,00:00:00.361,9266e43f-c76a-413b-8c25-9b61c1aefe49,Denmark,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857254,2,00:00:01.404,65bff75c-cb2a-49ec-bf65-cfd4bda36da3,Tunisia,14,unresolved,inconclusive_orientation,0,0,0,0.0
+3857255,1,00:00:00.540,85f9c989-a218-4f93-bf87-bc6936cce970,Spain,19,geometry,consistent,13,0,0,0.0
+3857256,1,00:00:00.521,f5b59515-d259-43ef-b1c6-3854fdf2c135,Switzerland,19,geometry,consistent,14,0,0,0.0
+3857256,2,00:00:00.723,9136a794-493f-46d9-9b32-4fcc3179d189,Serbia,20,geometry,consistent,16,0,0,0.0
+3857257,1,00:00:00.462,17474ea8-6e50-48e6-93ff-eab18abf878d,Denmark,17,geometry,minor,13,1,0,2.37
+3857257,2,00:00:00.935,551f38f0-d7cc-47d9-a970-92ed5ba8f068,Australia,18,geometry,consistent,13,0,0,0.0
+3857258,1,00:00:00.360,062f1616-08ee-4598-b516-2c01ca307492,Brazil,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857258,2,00:00:00.221,d835360a-fa0a-49d3-8b2a-c16115b521e9,Serbia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857259,1,00:00:00.586,09fab600-1c6e-4d9e-952e-a72ecff24a99,Serbia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857259,1,00:29:52.211,09701d3b-6cde-45d5-bb6e-bd028220b14b,Serbia,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857259,2,00:00:00.767,d0b6a06c-a8c1-4b8b-881a-15f745adba0a,Cameroon,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857260,1,00:00:00.759,c6dc0e02-bc77-4c17-9e3f-1dd210eda989,Mexico,19,geometry,consistent,14,0,0,0.0
+3857260,2,00:00:00.820,00b8ebef-6a9a-4ea9-ab3b-23b674157a54,Saudi Arabia,20,geometry,consistent,13,0,0,0.0
+3857261,1,00:00:00.371,b34ac1b2-804b-428d-98df-05e004216cf7,Wales,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857261,2,00:00:00.303,ac64fe2f-7a12-4024-9bf6-6c1c1529ba3d,England,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857261,2,00:05:33.959,9b767b4c-49af-43f6-9811-9686fcd1eb04,Wales,20,geometry,consistent,14,0,0,0.0
+3857262,1,00:00:00.462,d569dd2c-9cb6-4d84-9c7b-ffb82778535a,South Korea,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857262,2,00:00:00.351,0050a3e4-7b68-49bb-a132-c4ebe4af1f04,Portugal,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857263,1,00:00:00.469,1eb56eed-6f89-4442-92f6-9d687d7e8333,Spain,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857263,2,00:00:00.388,f57060b7-2325-40f9-81c8-accb86df98ad,Germany,14,unresolved,inconclusive_orientation,0,0,0,0.0
+3857264,1,00:00:00.321,cb4f182e-9363-45ba-899b-fffe375128c3,Poland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857264,2,00:00:00.443,d7b026c1-04df-4900-af39-b1dc00672e0b,Argentina,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857265,1,00:00:00.384,2a6345b5-669b-47f8-bf18-865a05c9953c,Mexico,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857265,2,00:00:00.328,b283d525-5bad-4981-8fe9-f75ef2d79a7b,Poland,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857266,1,00:00:00.129,618d3f4d-ad51-423a-8488-a6642ccb898f,Denmark,20,geometry,consistent,12,0,0,0.0
+3857266,2,00:00:00.667,6e981eb1-2d70-4a96-8268-d646db9069fc,France,20,geometry,consistent,16,0,0,0.0
+3857267,1,00:00:00.688,a3b5a893-608b-413d-966a-b4d87aba9fba,Ecuador,20,geometry,consistent,15,0,0,0.0
+3857267,2,00:00:01.261,95f3c574-627d-42b7-836f-46bab6c2c44c,Senegal,20,geometry,consistent,12,0,0,0.0
+3857268,1,00:00:00.401,8beb8919-5adc-465e-a39b-8f3aa28463d8,Canada,20,geometry,consistent,16,0,0,0.0
+3857268,2,00:00:00.914,e1a98d01-cd43-4ada-9029-28473ce12c2c,Belgium,20,geometry,consistent,15,0,0,0.0
+3857269,1,00:00:00.292,2c69b8b1-fcad-4f33-b5a7-2bb777052867,Switzerland,20,geometry,consistent,15,0,0,0.0
+3857269,2,00:00:00.436,1506a3c4-ff27-4415-b6a4-3e9e6a1f2b37,Brazil,20,geometry,consistent,16,0,0,0.0
+3857270,1,00:00:00.664,cd88ca86-cb81-49ed-80e2-8d9dc510b5d5,Uruguay,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857270,2,00:00:00.588,4525de46-8cd6-42a4-8a87-087c6e166d0b,Portugal,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857270,2,00:48:31.904,df71e5fe-7301-4b2b-bcd2-a7a83afd96e8,Uruguay,20,geometry,consistent,13,0,0,0.0
+3857271,1,00:00:00.664,1839e96e-a9be-413a-8982-f363e98f12a4,Iran,14,geometry,consistent,9,0,0,0.0
+3857271,1,00:44:32.754,dd6bd06c-f24e-4d7e-94c8-213251dea1bd,Iran,18,geometry,minor,11,1,1,5.62
+3857271,1,00:46:31.258,8cfe264b-1057-4cc6-93ca-00f0c673dd91,Iran,17,geometry,consistent,11,0,0,0.0
+3857271,2,00:00:00.208,fca718cb-0197-4ae0-99ec-2961f30e2a96,England,19,geometry,consistent,16,0,0,0.0
+3857271,2,00:17:52.112,7bde1692-3f2e-4c4b-af4c-c740c45c7bbc,Iran,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857271,2,00:22:54.051,51a77a91-839d-4fc5-9327-34a4bcedd6ac,England,17,geometry,consistent,12,0,0,0.0
+3857272,1,00:00:00.472,3b7518e6-caee-4edb-bc9d-8115b19d9d07,England,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857272,2,00:00:00.824,079745c1-544c-47a0-8b88-e393352f28f8,United States,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857273,1,00:00:00.508,9a3e1942-7d6c-4efd-a933-6d64a1bfb346,Wales,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857273,2,00:57:06.783,e82afc19-4902-48c3-a51e-80cb7f307be0,Wales,19,geometry,consistent,13,0,0,0.0
+3857274,1,00:00:00.190,6c973eb2-be9c-491a-9ef8-5545339efd17,Ecuador,20,geometry,consistent,16,0,0,0.0
+3857274,2,00:00:00.297,4c52f3d7-4db7-4c79-80eb-9d9118361e4b,Netherlands,20,geometry,consistent,13,0,0,0.0
+3857275,1,00:00:00.339,aab8bca1-8584-42d4-a6f1-57a3adc5f024,Tunisia,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857275,2,00:00:01.348,7800f009-3717-4c01-a1b5-301259a83327,France,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857276,1,00:00:00.460,05a57281-9295-408a-9c4f-e32d7fad4d96,Morocco,18,geometry,consistent,11,0,0,0.0
+3857276,1,00:24:03.835,9945c866-3632-4d01-bda8-f93b3d503135,Canada,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857276,2,00:00:00.286,9f492e1c-0bbd-4f93-88e7-321e684c8ae9,Canada,19,geometry,consistent,13,0,0,0.0
+3857277,1,00:00:00.261,fbd8c79a-3dba-4a18-90dd-730704b0e799,Morocco,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857277,2,00:00:00.289,d4237791-ac59-43fc-b9f3-a915f618b238,Croatia,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857278,1,00:00:00.760,75121853-0b8b-4cf8-9c77-f625e3bdae7d,Iran,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857278,2,00:00:00.550,07138204-38f6-4cba-837a-a7f7636bd4fb,United States,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857279,1,00:00:00.628,bfac39b6-016f-47cb-bb57-d04b4b6092b1,France,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857279,2,00:00:00.442,a5f97f61-2417-4b69-a05c-58165ddb82f2,Australia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857280,1,00:00:00.559,a8013a02-5fd8-46a6-b6e8-930d5938ee2f,Brazil,20,geometry,consistent,16,0,0,0.0
+3857280,2,00:00:00.868,469a390f-43d9-49c3-a39f-8391a989f59f,Cameroon,19,geometry,consistent,14,0,0,0.0
+3857281,1,00:00:00.391,67c226e3-7d9a-4bf3-ae6c-c0e2b5dacc18,Croatia,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857281,2,00:00:01.055,9ade4fba-d93d-4f4c-bbf7-7cf8379a1f45,Canada,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857282,1,00:00:00.472,57d6480e-31a8-4f82-86d2-4fe96a33d53b,United States,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857282,2,00:00:01.059,8be10fb1-6303-4636-abad-ef0c986cefea,Wales,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857283,1,00:00:00.308,dadd317c-3a7a-40bf-8c55-c381b94dda83,Belgium,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857284,1,00:00:00.219,f2d3ec1b-9dfa-431a-ad62-c78053809841,Germany,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857284,2,00:00:00.347,0c4a3e62-b990-4806-affa-ffe610f9e374,Japan,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857285,1,00:00:00.225,7651c5bc-e961-4298-a040-fc3b7814757b,Netherlands,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857285,2,00:00:01.958,6e0f4282-d6d6-4f74-af75-d91a69c6131c,Senegal,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857286,1,00:00:00.887,70734a3c-66ec-495c-8a1d-30a771406518,Qatar,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857286,2,00:00:00.667,89709dc3-911c-4519-a160-a143203ca012,Ecuador,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857287,1,00:00:00.735,5c09ba1c-8d72-4893-a669-d4468b58c3c2,South Korea,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857287,2,00:00:00.707,1d4dcc85-d08c-4c3f-b93b-aa6b8c86eb7b,Uruguay,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857288,1,00:00:00.618,e53c0b44-001e-41ad-af5d-c68ba4da5cb0,Australia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857289,1,00:00:00.547,14b0248d-c2ad-4faa-81b6-4eb05cb9ca4b,Mexico,20,geometry,consistent,16,0,0,0.0
+3857289,2,00:00:00.630,860dacd2-46e1-47e9-978f-cac2b3765e77,Argentina,20,geometry,consistent,14,0,0,0.0
+3857290,1,00:00:00.175,77d20719-e0ee-4433-9093-b87e260b65d6,Switzerland,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857290,2,00:00:01.864,5b446761-97fc-46ab-9169-eb73051ce6df,Cameroon,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857291,1,00:00:00.511,0d4a647d-0e4d-4628-889d-420e395f9ba1,Spain,19,geometry,consistent,11,0,0,0.0
+3857291,1,00:31:04.323,fb1a2cdb-4a39-42ab-926a-a006621033da,Costa Rica,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857291,2,00:00:00.586,5d77d537-9e96-46c1-891e-5bc23c0b819c,Costa Rica,18,geometry,consistent,12,0,0,0.0
+3857291,2,00:09:50.054,aa6f81bf-fcdc-4376-ab60-7be054038089,Costa Rica,19,geometry,consistent,12,0,0,0.0
+3857291,2,00:30:07.555,ee15d7ad-378b-451f-8e14-efbb86447f18,Costa Rica,19,geometry,consistent,14,0,0,0.0
+3857291,2,00:45:10.430,3fef6e85-a16a-492b-a07d-bab33c9c5c31,Costa Rica,18,geometry,consistent,12,0,0,0.0
+3857291,2,00:47:54.011,674f33c7-1644-4113-8c5b-61d65b38738a,Costa Rica,17,geometry,consistent,11,0,0,0.0
+3857292,1,00:00:00.242,f4340445-13c3-4b37-8056-020890171138,Germany,19,geometry,consistent,12,0,0,0.0
+3857292,2,00:00:00.455,ebbe17e5-4e6c-4b5c-a90b-d3b9be251e9f,Costa Rica,17,geometry,minor,11,2,0,4.88
+3857292,2,00:46:27.761,a3ec7ae7-b769-46c7-b160-1af8ae9c6742,Costa Rica,16,geometry,consistent,9,0,0,0.0
+3857293,2,00:00:00.448,dbcbdb30-78f7-4d4b-9c8d-b624bf781a6c,Ghana,20,geometry,consistent,14,0,0,0.0
+3857294,1,00:00:00.812,31e2f2d0-8f6d-4760-bbe6-b13497e271f4,Netherlands,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857294,2,00:00:00.279,9e4edbce-ce6a-492b-a2fb-abd854d9bbbd,Qatar,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857295,1,00:00:00.225,213b2a60-361b-41cc-9469-c82449efd0e5,Costa Rica,20,geometry,consistent,15,0,0,0.0
+3857295,2,00:00:00.794,32910a52-cdf4-4aa1-bc3d-df58b1b29caf,Japan,19,geometry,consistent,12,0,0,0.0
+3857295,2,00:36:53.170,081230da-a112-4892-9328-c8896a18f66e,Japan,20,geometry,consistent,14,0,0,0.0
+3857296,1,00:00:00.690,beaf299b-163d-47f2-8135-faad2bb6951a,Croatia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857296,2,00:00:00.526,f5d0b833-cbf0-4302-bd5e-be590a4c1cd6,Belgium,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857297,1,00:00:00.805,86553b7e-ba67-4199-9a99-26ec92376e4a,Poland,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857297,2,00:00:00.279,21cdd27b-8d44-4a12-bcc6-d1c345964816,Saudi Arabia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857299,1,00:00:00.298,a9c1e660-2ce1-4b20-9078-26f8cb381a7e,South Korea,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857299,2,00:00:00.663,04e28b79-df85-418f-b4d8-067f877a281e,Ghana,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3857299,2,00:24:20.335,d3bf3c30-c9b3-4a32-8185-1a736825f0be,South Korea,15,geometry,consistent,10,0,0,0.0
+3857300,1,00:00:00.411,668f43f0-a0bf-46b0-9c03-9f879683feae,Saudi Arabia,18,geometry,consistent,10,0,0,0.0
+3857300,2,00:00:00.526,67b4c431-6f7e-4a91-8711-0abc88a7a29b,Argentina,20,geometry,consistent,14,0,0,0.0
+3857300,2,00:03:59.391,a59b47e2-0c49-4aa2-a599-4aa51ae65061,Argentina,20,geometry,consistent,15,0,0,0.0
+3857300,2,00:09:12.485,4dc97a0c-ab64-4848-a0fb-1538d009aa71,Argentina,20,geometry,consistent,16,0,0,0.0
+3857301,1,00:00:00.147,693cdeba-e9bd-4d39-91e1-d20f6566dd3b,Qatar,19,geometry,minor,15,2,0,4.35
+3857301,2,00:00:00.138,e5916ff0-fb0d-4f96-828b-e251df0c2a57,Senegal,17,geometry,consistent,10,0,0,0.0
+3857301,2,00:39:28.012,ac16ffa8-b1df-49f2-95fd-fc722a42b6a0,Qatar,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869117,1,00:00:00.311,549b2296-55e3-4768-9a2d-3435b9019ca5,Netherlands,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869117,2,00:00:00.151,69073b1f-9c3f-4657-8207-0309e1fb16c4,United States,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869118,1,00:00:00.828,9ced36d7-29fd-4998-99a4-59d56e9f5e1b,Senegal,20,geometry,consistent,15,0,0,0.0
+3869118,2,00:00:00.506,9d0fc93c-8e28-4839-8e11-80817e03a2ad,England,20,geometry,consistent,14,0,0,0.0
+3869151,1,00:00:00.485,152a4753-1727-4bd7-94e3-9e81dac7b4c9,Australia,20,geometry,consistent,15,0,0,0.0
+3869151,2,00:00:00.637,a09f2164-139b-4a43-b765-841dfeb98d6c,Argentina,20,geometry,consistent,14,0,0,0.0
+3869152,1,00:00:00.350,df1e38a8-9d45-47c2-9f7a-7652b6cc42eb,France,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869152,2,00:00:00.202,52ff4153-1688-4f35-842b-6dd58378ad98,Poland,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869219,1,00:00:00.324,1ba21952-fd29-464e-ab1c-1de5b067a458,Croatia,15,geometry,consistent,10,0,0,0.0
+3869219,2,00:00:00.510,51a7f624-5bba-4ad2-a2f7-773fe598e711,Japan,20,geometry,consistent,14,0,0,0.0
+3869219,3,00:00:00.139,a83fb9ea-4307-41b4-92be-85c3849f9f35,Japan,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869219,4,00:00:00.298,e3a30803-0670-4093-9080-a6769a48d06b,Croatia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869220,1,00:00:00.762,0dcccdef-d2e8-4d81-b910-315a0fa7b4be,Spain,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869220,2,00:00:00.671,648a8765-a6ed-46f2-8894-6b18f9a6577a,Morocco,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869220,3,00:00:00.623,f5e55a51-0ecc-4cea-ab84-99af59500d07,Spain,18,geometry,consistent,11,0,0,0.0
+3869220,4,00:00:00.388,f00fcca2-902f-4b1e-af2f-927bb66bc887,Morocco,17,geometry,consistent,10,0,0,0.0
+3869253,1,00:00:00.769,33271fa4-1f2d-4f8c-86b6-6476e4f4d313,South Korea,19,geometry,minor,13,1,0,3.38
+3869253,2,00:00:00.242,8ee6e8ea-eeaf-4feb-ab2b-88ab9a45d0f2,Brazil,20,geometry,consistent,15,0,0,0.0
+3869253,2,00:31:53.440,fc20d389-526c-4506-afc6-2f7a3ee5a429,Brazil,20,geometry,consistent,14,0,0,0.0
+3869254,1,00:00:00.190,3e4fcd43-ec4f-4414-8df1-4a483fe2e2eb,Switzerland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869254,1,00:18:08.113,30662b49-5eb4-42f1-93c5-9bf6e80622df,Switzerland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869254,1,00:33:58.820,00f40039-785e-4097-babf-4d87b4932e64,Switzerland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869254,2,00:00:00.469,0de8a17c-e5af-45d0-9291-b5453f76104f,Portugal,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869254,2,00:06:23.991,6978ae66-bf11-4a8b-9fac-468a0fc530fc,Switzerland,20,geometry,consistent,14,0,0,0.0
+3869254,2,00:12:43.731,31451f5a-aa68-44f9-81ed-03f3e74ec225,Portugal,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869321,1,00:00:00.335,30082373-9233-4d58-abf3-f7e312ed7e97,Netherlands,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869321,2,00:00:01.306,de53d222-5760-424d-998e-ad1e7aa0ab07,Argentina,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869321,2,00:57:20.941,0a83cbdf-f03b-4f2b-aac1-fb802d3646e5,Argentina,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869321,3,00:00:00.744,56b58aed-dc99-42e4-8b19-4485f0005321,Netherlands,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869354,1,00:00:00.502,3c68740e-e003-4ea1-820b-6424669292bf,France,16,geometry,minor,11,1,0,2.9
+3869354,2,00:00:00.812,511f8679-5242-457d-a4d7-9057a1abfe13,England,18,geometry,consistent,11,0,0,0.0
+3869420,1,00:00:00.489,9f66f598-c069-4beb-8b57-b836f4d14a40,Croatia,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869420,2,00:00:00.395,055e809e-2224-421b-a9c5-e9c3ee182f58,Brazil,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869420,3,00:00:00.369,7f11c23f-ad00-4a3f-a929-72952436a04c,Brazil,18,geometry,consistent,12,0,0,0.0
+3869486,1,00:00:00.436,513606bb-8284-4c6b-afb6-aaf93428551b,Portugal,20,geometry,consistent,13,0,0,0.0
+3869486,2,00:00:00.336,5f7d2aa6-9018-41eb-af98-f0c5dfabb0d0,Morocco,20,geometry,consistent,11,0,0,0.0
+3869519,1,00:00:00.423,794e7ac9-2535-4503-83f4-92c612c0ed78,Croatia,19,geometry,consistent,12,0,0,0.0
+3869519,1,00:34:53.617,44608726-af33-43cf-8ae7-7c6e6f8fe97c,Croatia,20,geometry,consistent,15,0,0,0.0
+3869519,2,00:00:00.493,ca59eaf1-a741-420b-a2d5-91c57d920ab5,Argentina,20,geometry,consistent,15,0,0,0.0
+3869519,2,00:25:34.622,2efd796e-ae89-443e-98f7-593df8a8b249,Croatia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869552,1,00:00:00.494,7fe08768-03f3-41a7-9b6e-bd8ed23e9e75,Morocco,18,geometry,consistent,11,0,0,0.0
+3869552,2,00:00:00.576,f0afcb0e-0e2b-4e9c-91e5-3b70949e9e99,France,20,geometry,minor,16,2,0,2.41
+3869684,1,00:00:02.062,846376f6-944d-45d7-b860-4b6b2efd193c,Croatia,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869684,2,00:00:00.728,7d5b7ca3-c4d2-47c2-94af-bbd762922c3f,Morocco,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3869685,1,00:00:00.578,f651a6c4-55e3-4e0f-a178-59414ba83d6a,France,20,geometry,consistent,14,0,0,0.0
+3869685,2,00:00:00.862,7ff43605-beb7-4a6a-a53e-4c6bb48688ef,Argentina,20,geometry,consistent,14,0,0,0.0
+3869685,3,00:00:00.275,1386effb-a575-4db9-b476-e958e39ab285,France,19,geometry,consistent,14,0,0,0.0
+3877060,1,00:00:00.509,efb8e6ef-3870-4180-9cc9-ebfd71c70035,Inter Miami,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3877072,2,00:00:00.206,2e68a528-4ba4-4530-ac72-ac4ab951c7e6,Nashville SC,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3877090,1,00:00:00.586,c1bc1269-30dd-4125-a31c-73f790c8eb9f,LAFC,22,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893787,1,00:00:00.330,6a111288-3966-4be5-a4ce-c74e68123652,New Zealand Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893787,2,00:00:00.113,a0587454-3665-40f5-8814-e26ef1c49780,Norway Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893788,1,00:00:00.746,3123d197-4d63-4904-952a-52bcae588199,Australia Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893788,2,00:00:00.747,4205fa7a-4903-457d-8b78-78668b877cef,Republic of Ireland Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893789,1,00:00:00.123,9a319727-74af-4343-8325-ade2139fc14f,Philippines Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893789,2,00:00:01.079,f64f1361-db22-486d-8729-5c536b6fd4d4,Switzerland Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893790,1,00:00:01.947,f63a430d-2af0-4da6-8448-61e3e2c8296a,Canada Women's,20,geometry,consistent,13,0,0,0.0
+3893790,2,00:00:00.395,ba3525c0-8675-4ac4-88e5-bf023eaae3b9,Nigeria Women's,20,geometry,consistent,15,0,0,0.0
+3893791,1,00:00:01.094,39351d01-a655-4332-a9c4-18f08e682361,Spain Women's,12,geometry,consistent,8,0,0,0.0
+3893791,1,00:27:50.417,4130802e-766b-4404-85b6-d6e1a5417ceb,Costa Rica Women's,12,unresolved,inconclusive_orientation,0,0,0,0.0
+3893791,2,00:00:00.950,e99906f2-67ce-4a45-b9fb-c3dc6575f5cc,Costa Rica Women's,12,geometry,consistent,8,0,0,0.0
+3893792,1,00:00:00.296,b5f5a0c9-7bdd-41d9-97b0-da4521968062,Vietnam Women's,15,geometry,consistent,10,0,0,0.0
+3893792,2,00:00:00.702,41242a73-3326-4f22-bffe-48be6d2acb58,United States Women's,20,geometry,consistent,15,0,0,0.0
+3893793,1,00:00:00.246,3ce17727-47af-45cb-b29b-7c6cb7d062e3,Japan Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893793,2,00:00:00.839,7fde8ac3-da2e-4c06-b201-987ad767af35,Zambia W,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893794,1,00:00:00.360,1791f276-e3f4-4bd9-9fa6-73e1198af123,England Women's,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893794,2,00:00:00.669,e4eb3771-5629-4fbc-bc6e-e9a67458685e,Haiti Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893795,1,00:00:00.703,1d18e243-0d73-4009-81fa-cccb13ea24d0,Denmark Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893795,2,00:00:00.382,6aa3352e-0908-4f04-be98-8b74abf61d2b,China PR Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893795,2,00:46:00.474,b36605c2-9fee-4e97-afa1-369e90f8d70d,China PR Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893796,1,00:00:00.450,08c73211-2606-4c10-8240-84af404ced4c,Sweden Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893796,2,00:00:00.474,821b2f71-dce0-4099-a38e-9bd2ae384327,South Africa Women's,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893796,2,00:22:02.911,4584c283-7020-417d-84bb-dff38863998f,South Africa Women's,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893797,1,00:00:00.386,33251eb6-baa0-402b-abbd-f008a6e11abb,Netherlands Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893797,2,00:00:00.670,216cbb14-df3e-42cb-a513-5f88ae3a782f,Portugal Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893798,1,00:00:00.580,e535b06b-6240-4d51-b77c-9565988cdf9f,France Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893798,2,00:00:00.338,a1bc0b52-a142-43d7-bee6-6052631f771f,Jamaica Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893799,1,00:00:00.503,9f2fbe3d-2c98-414e-9736-33297c02cc08,Germany Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893799,2,00:00:00.611,1999391b-edb7-4365-b369-d40be1d927c5,Morocco Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893799,2,00:37:14.791,ac5bc8bb-2a6a-472a-8865-1c0cf263ca1a,Morocco Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893800,1,00:00:00.538,6816916f-98da-4675-b291-398c24bb550b,Argentina Women's,19,geometry,consistent,13,0,0,0.0
+3893800,2,00:00:00.335,b6ca297f-fc22-48b1-beac-1fb1f09cce34,Italy Women's,16,geometry,consistent,12,0,0,0.0
+3893801,1,00:00:00.695,225b5df4-d4cd-4d97-9cd3-a9cff7f27dd8,Panama Women's,20,geometry,consistent,14,0,0,0.0
+3893801,2,00:00:00.254,84a690b2-f0b6-47a0-aff1-0035aa377c7d,Brazil Women's,20,geometry,consistent,16,0,0,0.0
+3893802,1,00:00:00.279,6ee2d0ec-74b0-4734-bd6e-e87d1f888a2b,Colombia Women's,18,geometry,consistent,13,0,0,0.0
+3893802,1,00:30:47.856,8ff9b7ae-20a4-4b81-8222-ac393e1c02df,Korea Republic Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893802,2,00:00:00.243,04592f30-e56c-4eb4-9d1c-bace7340fc63,Korea Republic Women's,19,geometry,consistent,15,0,0,0.0
+3893803,1,00:00:00.842,28194f1b-e018-44b0-a034-f25a7feb478b,Philippines Women's,14,geometry,consistent,8,0,0,0.0
+3893803,2,00:00:00.481,92da3d51-c42c-4f40-98fa-b1c3b73faa07,New Zealand Women's,13,geometry,consistent,8,0,0,0.0
+3893804,1,00:00:00.519,985720e5-f906-4237-adc8-e095740a9c4c,Switzerland Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893804,2,00:00:00.458,dbf46246-7fa4-4234-ae83-97c7c72ea26c,Norway Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893805,1,00:00:00.401,46199322-f8f8-493d-845d-1059cceeb19d,Japan Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893806,1,00:00:00.525,dfe233fb-f34b-4ec2-bd4e-7f8dc5bc6f7b,Spain Women's,17,geometry,consistent,13,0,0,0.0
+3893806,2,00:00:01.026,7b114e18-5eb7-4180-bc6e-1bd7f76e6150,Zambia W,15,geometry,consistent,10,0,0,0.0
+3893807,1,00:00:00.748,83fe70f4-62b8-419c-b54c-bf5219e9d5d8,Canada Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893807,2,00:00:01.283,104a230d-2934-40aa-95c6-c6485a7bb42a,Republic of Ireland Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893808,1,00:00:00.496,773ba9a3-9f4e-4177-a2c1-c0ba82a6a816,Netherlands Women's,15,geometry,consistent,7,0,0,0.0
+3893808,2,00:00:00.550,eb2d13e7-07f7-4fd5-ac82-85bacab1e457,United States Women's,14,geometry,consistent,7,0,0,0.0
+3893809,1,00:00:00.254,14b1e2e2-0979-4241-96b3-3def2a5db760,Nigeria Women's,16,geometry,consistent,11,0,0,0.0
+3893809,2,00:00:00.260,0da447dd-2953-4dde-8729-b95dc9cf6a6c,Australia Women's,17,geometry,consistent,10,0,0,0.0
+3893809,2,00:55:01.721,745c8755-c8b6-4d22-afa6-3173ad48f52d,Nigeria Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893810,1,00:00:00.572,4296cb6d-2999-4118-ae88-af24f2a42612,Vietnam Women's,20,geometry,consistent,15,0,0,0.0
+3893810,2,00:00:00.358,dc11a570-ac46-4172-ab23-5275c0157009,Portugal Women's,20,geometry,consistent,14,0,0,0.0
+3893811,1,00:00:01.417,ba69fdde-64c8-40b0-8a2b-922e879e4f8d,Denmark Women's,20,geometry,consistent,15,0,0,0.0
+3893811,2,00:00:01.090,2cbaafde-3c21-4f14-a162-db49d60ae2ec,England Women's,20,geometry,consistent,14,0,0,0.0
+3893812,1,00:00:01.370,b5b3c9ce-ddf2-4ec4-90d3-3cdb6640f456,Argentina Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893812,2,00:00:00.977,377dfaef-2086-4cf4-8d16-09a86b89e416,South Africa Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893813,1,00:00:00.816,55916557-2974-4302-93f7-03aca98a1288,China PR Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893813,2,00:00:00.282,de017e69-1578-43a9-854e-69ee131acedd,Haiti Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893814,1,00:00:00.729,7ae5e088-4dc7-4c2b-9e7e-a6df0deef7d5,Sweden Women's,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893814,2,00:00:00.726,34c4ddf0-1bfe-4911-ae37-141882c4d45f,Italy Women's,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893814,2,00:05:56.466,747dbf6a-9472-4cb4-a730-0e59c848ba22,Italy Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893815,1,00:00:00.119,c6051ffa-50bc-42b7-86d8-901f388b92a7,France Women's,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893815,2,00:00:00.413,7408cfdd-d5e0-4957-8190-a9e264fe2b4a,Brazil Women's,12,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893816,1,00:00:00.833,c46def16-028e-4434-9b77-a3c9a8735e70,Jamaica Women's,15,geometry,consistent,12,0,0,0.0
+3893816,2,00:00:00.906,049370ff-1fe7-4318-81a1-648fe19fbff1,Panama Women's,17,geometry,consistent,10,0,0,0.0
+3893817,1,00:00:00.290,56252fce-4f6b-449f-90a1-2a2b554ae5ea,New Zealand Women's,16,geometry,consistent,11,0,0,0.0
+3893817,2,00:00:00.479,c7f922d7-2507-4f32-9805-0525d5f9b239,Switzerland Women's,17,geometry,consistent,12,0,0,0.0
+3893818,1,00:00:01.125,9ace9111-a20d-4281-9712-0fa06c442b81,Germany Women's,20,geometry,consistent,14,0,0,0.0
+3893818,2,00:00:00.160,33df5499-4886-43da-bdf5-5604bdeaf3e5,Colombia Women's,20,geometry,consistent,13,0,0,0.0
+3893819,1,00:00:00.199,dd8d558f-44b7-4ef3-8701-30c0ba79d6b3,Korea Republic Women's,19,geometry,minor,14,2,1,8.44
+3893819,2,00:00:00.382,5ec052c0-a3e0-4a6a-88bd-94ea9e29693a,Morocco Women's,20,geometry,consistent,15,0,0,0.0
+3893820,1,00:00:01.093,6b3392e1-12b0-4b16-8e58-c959965cbcf8,Philippines Women's,20,geometry,minor,16,1,1,9.32
+3893820,2,00:00:00.151,a770dc41-a308-4846-8ada-a51419506331,Norway Women's,20,geometry,minor,14,1,0,2.18
+3893821,1,00:00:00.546,578fa14d-679c-4c34-a88e-560098d0e6bd,Australia Women's,20,geometry,consistent,16,0,0,0.0
+3893821,1,00:40:10.949,c5c7d9fd-251f-4fae-acbb-18e587e8d8f6,Canada Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893821,2,00:13:18.659,a9e7ce6c-e55d-49aa-85d4-606a96781a2b,Canada Women's,20,geometry,consistent,13,0,0,0.0
+3893822,1,00:00:01.342,c94119cd-aa52-4686-bad8-f395dd1c7cf0,Japan Women's,13,geometry,consistent,8,0,0,0.0
+3893822,2,00:00:01.019,c04b7a19-04a7-4821-8276-69c0572785ff,Spain Women's,12,geometry,consistent,8,0,0,0.0
+3893823,1,00:00:00.676,f0fd29ce-817b-4c1c-be9a-443a3c9e2685,Zambia W,20,geometry,consistent,18,0,0,0.0
+3893823,2,00:00:01.175,f2e4d061-309b-4ad1-a13e-68fad90dd17b,Costa Rica Women's,17,geometry,consistent,12,0,0,0.0
+3893824,1,00:00:00.505,f6d557d2-e431-4ed0-a26e-9ea7d763d557,Nigeria Women's,16,geometry,minor,13,1,1,6.19
+3893824,2,00:00:00.339,d30b9b02-a05b-4305-afa2-3fdadd6ddb8c,Republic of Ireland Women's,19,geometry,consistent,14,0,0,0.0
+3893825,1,00:00:00.926,aa1fc478-f282-41dc-a67a-17e13b5d778d,Denmark Women's,16,geometry,consistent,10,0,0,0.0
+3893825,2,00:00:00.788,a1b46a2d-5053-457e-b7f2-1b4762e23bd5,Haiti Women's,14,geometry,consistent,8,0,0,0.0
+3893826,1,00:00:00.495,44b1767a-be70-4e38-a458-5e9d1837c8ba,United States Women's,18,geometry,consistent,11,0,0,0.0
+3893826,2,00:00:00.545,4af2df95-59c9-4410-88e6-ced3bfd67ca4,Portugal Women's,20,geometry,consistent,14,0,0,0.0
+3893827,1,00:00:00.847,ff6b1127-0881-41cd-b9fb-92b8257fc4e9,Vietnam Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893827,1,00:23:46.846,29eaf05f-f345-4fe0-853d-f98f71cfe933,Vietnam Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893828,1,00:00:00.451,4963019d-b6f9-4399-8ff3-9aee963720fc,England Women's,19,geometry,consistent,14,0,0,0.0
+3893828,2,00:00:00.555,1bd25388-f43c-4468-9284-1ba5824ce3f3,China PR Women's,20,geometry,consistent,15,0,0,0.0
+3893829,1,00:00:00.172,86cfd729-9571-40bd-ae3f-1802bb5b77fa,Panama Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893829,2,00:00:01.073,70baf0d5-cec6-4638-977a-067d826badc8,France Women's,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893829,2,00:19:57.397,5f5a7f73-22b6-485e-ad14-faf8d966d5b4,France Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893830,1,00:00:00.551,b0b466d5-111e-49e8-8f5b-7ae3a3b48055,Sweden Women's,14,geometry,consistent,9,0,0,0.0
+3893830,2,00:00:01.294,5d13a837-f524-4487-8502-42bca28284b3,Argentina Women's,20,geometry,minor,15,1,0,2.87
+3893831,1,00:00:00.310,2d171fad-8c8e-4894-a343-69e0809688e5,Italy Women's,13,geometry,consistent,7,0,0,0.0
+3893831,2,00:00:00.791,19630c3f-0f02-4801-8c43-fe115ec635ce,South Africa Women's,11,geometry,consistent,6,0,0,0.0
+3893832,1,00:00:01.615,972b7795-4401-442b-9b9a-a16d59835642,Brazil Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893832,2,00:00:01.306,db0a9af9-6112-4f95-8f66-b87d8feda2f8,Jamaica Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3893833,1,00:00:00.804,5f1a3e90-e7b0-4b76-b1c5-f7efb3b39885,Germany Women's,20,geometry,consistent,15,0,0,0.0
+3893833,2,00:00:00.733,c152559b-9e17-4f85-b41a-62083f691145,Korea Republic Women's,20,geometry,consistent,13,0,0,0.0
+3893834,1,00:00:00.694,4ab6530b-5b79-4c23-8f80-095cc8b7b722,Morocco Women's,15,geometry,consistent,8,0,0,0.0
+3893834,2,00:00:00.836,61bcb55b-e539-40d9-b792-09264a170be3,Colombia Women's,18,geometry,consistent,15,0,0,0.0
+3895052,2,00:00:00.642,3c0bf59b-829b-436f-b606-6fff8a7ca713,Bayer Leverkusen,20,geometry,consistent,11,0,0,0.0
+3895052,2,00:28:02.895,061247dd-0a19-48de-8e28-1f6450bdfef2,Bayer Leverkusen,20,geometry,consistent,11,0,0,0.0
+3895060,1,00:00:00.725,69bdfb9b-ba46-41c8-814a-98f0a43c6501,Borussia Mönchengladbach,20,geometry,consistent,15,0,0,0.0
+3895060,2,00:00:01.591,5a949cbb-40ac-44c4-822b-8e68045c60ac,Bayer Leverkusen,20,geometry,minor,14,1,0,3.29
+3895060,2,00:08:33.992,7a3dc431-d725-4541-b01f-31adcdc9d186,Borussia Mönchengladbach,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895067,1,00:00:00.362,ad010a23-88fe-43af-8b5c-8cd1772842ac,Darmstadt 98,19,geometry,consistent,12,0,0,0.0
+3895067,2,00:00:01.136,6bfb788a-41aa-4eb2-b077-d798e001b2d7,Bayer Leverkusen,20,geometry,consistent,12,0,0,0.0
+3895067,2,00:16:24.614,57bc63da-4875-41c0-a149-6a63e093fc94,Darmstadt 98,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895067,2,00:38:13.104,f4e1d68d-7477-4d69-9816-635f4cfc1977,Darmstadt 98,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895074,1,00:00:00.332,16252ec8-ab09-4119-bcf6-7fd6524f9128,Bayer Leverkusen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895074,1,00:07:33.604,607c5b51-d7ec-438d-93ef-ebf85683ee29,Bayer Leverkusen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895074,2,00:00:00.377,f8edf383-d35d-471a-ad24-9c2a3a7e9db6,Bayern Munich,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895074,2,00:50:15.312,14243840-f34e-4a6a-a32c-072dcc9dc516,Bayern Munich,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895086,1,00:00:00.776,3aee3cdf-be11-4ee6-b4bb-828cb4edbe36,FC Heidenheim,22,geometry,consistent,16,0,0,0.0
+3895086,2,00:00:00.782,26234eac-8fc3-4ffd-80ba-89c22d3f8be7,Bayer Leverkusen,20,geometry,consistent,12,0,0,0.0
+3895095,2,00:00:00.080,4429ee89-99a6-49d9-8c66-e2be35501872,FSV Mainz 05,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895095,2,00:14:55.472,db5d76d2-94fc-4789-9d46-bf33a84076bb,FSV Mainz 05,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895095,2,00:20:46.367,c0ae79ea-380c-4e82-aa94-4a5892e0412a,FSV Mainz 05,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895107,1,00:00:00.443,cc3b6a56-e194-4ce6-901d-a4f84177e81b,FC Köln,19,geometry,consistent,12,0,0,0.0
+3895107,2,00:22:42.747,fa7ff797-4fa3-4deb-b140-b7b83809ccbd,FC Köln,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895113,1,00:00:00.913,ac5aac4c-5a0e-44c2-97ca-ec38bdb05917,Bayer Leverkusen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895113,2,00:00:00.614,871feca2-b175-4cf7-a00c-f88ad007d853,Wolfsburg,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895121,2,00:16:08.318,b927ace4-5174-4b22-ac91-655b14f1ad7e,Freiburg,21,geometry,consistent,12,0,0,0.0
+3895134,1,00:00:00.991,1bed9ec9-1af9-4570-a620-8aab3469a6dd,Hoffenheim,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895134,2,00:00:00.122,46988665-90ac-4329-b421-6e0dbd5e51a4,Bayer Leverkusen,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895139,1,00:00:01.304,ef1f71db-e406-4af2-ae65-6612a8b32342,Bayer Leverkusen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895153,1,00:00:00.986,8040acc9-2350-4608-b6ea-abf5ba6ad06b,Werder Bremen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895153,2,00:00:00.120,76b5ffb7-635f-451b-a48d-905bb21475b3,Bayer Leverkusen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895167,1,00:00:00.725,a428c0cf-6b83-4b74-9349-63e11905fbdd,VfB Stuttgart,20,geometry,consistent,14,0,0,0.0
+3895180,1,00:00:00.945,7adb7085-8fe4-454b-86ce-b6e507d8de76,Bayer Leverkusen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895180,2,00:00:00.680,1d6785b4-db5b-4bbc-a200-87146555e6e5,Eintracht Frankfurt,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895182,1,00:00:00.877,a2530738-bfbf-4ef1-b4a1-b12a4cde498d,Bochum,21,geometry,minor,14,1,0,3.26
+3895194,1,00:00:01.360,ba19f168-f225-4fc7-8fa7-7824098a207e,Augsburg,21,geometry,minor,14,1,0,2.1
+3895194,2,00:00:01.082,bf998db4-8f8e-467c-be63-ee47d737007a,Bayer Leverkusen,22,geometry,minor,16,2,0,4.26
+3895202,2,00:00:00.152,69d83aad-fd1c-40e0-8d98-b3b6df3ebe04,Bayer Leverkusen,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895202,2,00:02:44.454,592ee9d2-8cda-4215-93d4-e9b7f44ce939,RB Leipzig,20,geometry,minor,16,1,0,2.05
+3895202,2,00:11:26.853,181c91a6-36a1-42a6-8096-f8aa6ff8b5fc,Bayer Leverkusen,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895202,2,00:19:10.453,5b7aec84-4e52-4bd1-8b70-78a2c01d338f,RB Leipzig,20,geometry,consistent,13,0,0,0.0
+3895210,1,00:00:00.643,130ef057-a5f4-423d-8529-1fc7f92d01b8,Bayer Leverkusen,21,geometry,consistent,13,0,0,0.0
+3895220,1,00:00:01.037,81d56851-5748-48bc-a580-d5fa8579448d,Bayer Leverkusen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895220,1,00:33:22.635,b5956428-f1d4-4b01-8ff0-2dd7150d8f84,Darmstadt 98,21,geometry,consistent,13,0,0,0.0
+3895220,2,00:00:02.848,e308b19b-2f4f-469e-93b4-a8e84ead1a92,Darmstadt 98,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895220,2,00:07:51.336,911f5567-3ca6-4471-8561-e3e84fbcbc4b,Darmstadt 98,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895232,1,00:00:00.852,50c22c33-b812-4a3b-9c03-0175309809ed,Bayern Munich,20,geometry,consistent,15,0,0,0.0
+3895244,2,00:00:00.303,4533f0c7-5283-4d8f-8055-273db5ba9e0f,FC Heidenheim,19,geometry,consistent,11,0,0,0.0
+3895250,1,00:00:01.186,2c8959ba-eede-48db-a7c3-c06853b94042,Bayer Leverkusen,19,geometry,minor,13,1,0,3.69
+3895250,2,00:00:01.120,2487876c-c7fe-46a3-ab24-a9187283d343,FSV Mainz 05,20,geometry,consistent,14,0,0,0.0
+3895258,1,00:00:00.880,0062b854-283d-4b44-8a6c-c222de0ee53b,FC Köln,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895258,1,00:37:55.348,11047c14-a348-423d-8718-cc106c217611,FC Köln,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895275,1,00:00:01.152,ca79b923-0a65-4a02-8bfe-3512a0c1d62b,Freiburg,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895286,1,00:00:00.075,4c80f09c-b571-48af-bf63-7f6a86094c78,Hoffenheim,20,geometry,consistent,14,0,0,0.0
+3895286,2,00:00:00.504,a7788892-1f55-48be-8bcc-cd77ffa5c096,Bayer Leverkusen,21,geometry,consistent,14,0,0,0.0
+3895292,1,00:00:01.010,6c546c19-5f61-4236-a1ad-0b6f5cded692,Union Berlin,20,geometry,consistent,13,0,0,0.0
+3895292,2,00:00:00.378,bc5473d6-a373-47a2-ab83-9e0d84b81574,Bayer Leverkusen,20,geometry,consistent,13,0,0,0.0
+3895302,2,00:16:55.154,f07716ca-30bc-492b-a283-2ec6f7acd495,Werder Bremen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895320,2,00:02:44.436,f35e1a90-7307-477d-9589-49faf3d349c2,Bayer Leverkusen,20,geometry,consistent,13,0,0,0.0
+3895333,1,00:00:00.684,77806383-7cfd-45ee-b547-c6c2c8aeb349,Bayer Leverkusen,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895333,1,00:12:45.671,734e4e28-2479-495a-a7ee-42c53b5f6139,Eintracht Frankfurt,19,geometry,consistent,13,0,0,0.0
+3895340,1,00:00:00.719,c1f94cf6-4511-48dd-8aaf-4ed588cf57f0,Bochum,20,geometry,consistent,12,0,0,0.0
+3895340,2,00:00:00.450,3b3ec2a4-7413-489e-a054-969a5004ae7d,Bayer Leverkusen,19,geometry,consistent,15,0,0,0.0
+3895340,2,00:48:14.720,69dc7261-7399-4bce-a645-be8d863aa91c,Bochum,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3895348,2,00:00:01.765,c7a0befa-7500-492f-a5c4-0e481df0ac38,Bayer Leverkusen,20,geometry,minor,14,1,0,2.32
+3901733,1,00:00:00.372,7ab0a626-8e74-4c34-b769-b0db1a1e3ded,Switzerland Women's,18,geometry,consistent,15,0,0,0.0
+3901733,1,00:18:09.969,0770c220-3f69-4abc-a2e5-6a36e445bf11,Switzerland Women's,15,geometry,consistent,10,0,0,0.0
+3901733,2,00:00:01.528,4c4c7df4-b1af-4f76-a119-f22f96a5d423,Spain Women's,16,geometry,consistent,11,0,0,0.0
+3901734,1,00:00:00.596,9bd002be-6867-45eb-8a0a-246c5ae1a7e7,Japan Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901734,2,00:00:00.804,0317c5e0-1e62-46ab-a3af-b6cbb0aae8ab,Norway Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901735,1,00:00:00.277,9f981f71-bc9b-48b5-a34e-84dacef61bbc,England Women's,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901735,2,00:00:00.734,92cbed82-ec7b-4b97-bfc8-57a25f4b1cee,Nigeria Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901735,3,00:00:00.514,ef68f51d-096c-411d-b7a2-15afae162e84,Nigeria Women's,19,geometry,consistent,13,0,0,0.0
+3901736,1,00:00:00.524,d9e095c0-47b0-4262-a298-fd835c93aa38,Denmark Women's,18,geometry,consistent,12,0,0,0.0
+3901736,2,00:00:00.634,1eb3fda4-d678-4407-b579-583e89b5b70c,Australia Women's,17,geometry,consistent,11,0,0,0.0
+3901796,1,00:00:00.387,dfa5e5e5-a0ba-44f8-a042-7cefce578bdd,Netherlands Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901796,2,00:00:00.144,96607eeb-42e4-468f-8a9d-dcc76caa0887,South Africa Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901797,1,00:00:00.365,bea9d672-8b91-4aad-a254-e6c8db43f66b,United States Women's,19,geometry,consistent,12,0,0,0.0
+3901797,2,00:00:00.629,883f648c-367f-467c-96ae-f119e9ddc45f,Sweden Women's,17,geometry,consistent,10,0,0,0.0
+3901797,3,00:00:00.131,08329b2f-56b3-4139-89fc-859ed27a6e48,Sweden Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901797,4,00:00:00.349,cc4f624f-794e-4049-8b56-9451a632faf7,United States Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901832,1,00:00:00.269,d9b00db3-b403-4614-a26b-339e4c455add,Jamaica Women's,18,geometry,consistent,12,0,0,0.0
+3901832,2,00:00:00.536,3834d723-c0d5-434a-a2d4-6490af2baa02,Colombia Women's,19,geometry,consistent,15,0,0,0.0
+3901833,1,00:00:00.212,bf2e83d9-cd48-4532-a9bb-1022be57442b,France Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3901833,2,00:00:00.471,0b0859d0-988c-4a01-94ed-16213ddda744,Morocco Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3902239,1,00:00:01.318,e588d22c-1ef1-45b5-b9f3-aa974d3655a2,Japan Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3902239,2,00:00:00.372,d6d40b62-7c9a-40ae-b727-a982315db135,Sweden Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3902240,1,00:00:00.443,733aefb9-6952-4fb3-8380-4d10727157b6,Netherlands Women's,16,geometry,minor,11,1,0,2.17
+3902240,2,00:00:00.276,abe7f28d-6789-466b-9649-ddc2e81ea527,Spain Women's,19,geometry,consistent,12,0,0,0.0
+3902240,3,00:00:00.356,8a990126-7ac6-419f-a307-82c2d0d3639d,Spain Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3902240,4,00:00:00.184,ac0501a6-5772-4b04-9e68-866a2420dcd5,Netherlands Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3902967,1,00:00:00.458,214a292b-5a7d-409b-a59e-03f4a260250b,England Women's,14,geometry,consistent,8,0,0,0.0
+3902967,2,00:00:03.744,7a36a4a5-be66-46bd-a04a-1e193f6d98e7,Colombia Women's,16,geometry,minor,10,1,1,8.24
+3902968,2,00:00:00.300,1dd12769-9dbf-45d4-81e6-771d87742edb,Australia Women's,19,geometry,consistent,11,0,0,0.0
+3902968,3,00:00:00.820,0dcd978b-e2a2-4369-8668-3705bcb096b6,France Women's,14,geometry,consistent,8,0,0,0.0
+3902968,4,00:00:01.006,aff60a5d-9a8c-45d5-9b1e-135a1b9abbdf,Australia Women's,19,geometry,minor,12,1,0,2.04
+3904628,1,00:00:00.496,eee2be41-39e2-4072-a7e0-5f961a6d5951,Sweden Women's,17,geometry,consistent,11,0,0,0.0
+3904628,2,00:00:00.829,d005ca6e-ea0b-4272-b00f-9663eff64383,Spain Women's,17,geometry,consistent,11,0,0,0.0
+3904629,1,00:00:00.080,53b22deb-dd5b-4da4-b947-39849842adcb,England Women's,14,geometry,consistent,9,0,0,0.0
+3904629,2,00:00:00.992,1d963f98-dc66-42ed-8960-0dbd85a0c36e,Australia Women's,13,geometry,consistent,6,0,0,0.0
+3906389,1,00:00:00.534,7a22be91-348f-4062-a834-16e7c301bb63,Sweden Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3906389,2,00:00:00.615,6313cfef-1086-4b39-be78-341ea168c782,Australia Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3906390,1,00:00:00.563,30728cd8-f0a6-4535-8f24-16a37a1d4f08,England Women's,12,geometry,consistent,7,0,0,0.0
+3906390,2,00:00:00.454,33f19da1-ca88-4e9d-b10a-7d73353a7a4b,Spain Women's,14,geometry,consistent,8,0,0,0.0
+3930158,1,00:00:01.191,0d775a2f-9444-4897-88d8-16a36547b74f,Germany,20,geometry,consistent,15,0,0,0.0
+3930158,2,00:00:00.471,15a0f00b-8751-4883-8e18-9d00a6ce1454,Scotland,18,geometry,minor,14,1,0,2.64
+3930159,1,00:00:00.310,8ad85d85-b3b4-4da8-b338-440280c86265,Hungary,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930159,1,00:13:45.296,41f1e125-3a1f-4efc-8be5-4aac506037ef,Hungary,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930159,2,00:00:00.390,3ddbf179-e534-41a9-bddc-7716e01f2998,Switzerland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930159,2,00:49:49.182,109ac354-19e2-4bb5-8f65-27f79fedcf1b,Hungary,20,geometry,consistent,15,0,0,0.0
+3930160,1,00:00:00.384,55894f3a-f96d-4970-9ce9-1a03e12ced09,Croatia,19,geometry,consistent,12,0,0,0.0
+3930160,1,00:32:33.968,26c5e9bc-9bda-47e4-b629-3aa9d2b09fee,Croatia,20,geometry,consistent,17,0,0,0.0
+3930160,2,00:00:00.381,ca883267-10a8-4e5c-83e0-792de3ff6b98,Spain,20,geometry,consistent,13,0,0,0.0
+3930161,1,00:00:00.863,b21d0a37-1c2a-4205-875c-92af341451db,Albania,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930161,1,00:01:31.630,1e7e08e9-bf63-410c-97d4-12e570fb1829,Italy,20,geometry,consistent,13,0,0,0.0
+3930161,1,00:17:31.260,131fe597-b210-49e7-9612-a3048aaa64f9,Albania,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930161,2,00:00:00.839,397161c8-716f-48aa-8680-ea547612bb85,Italy,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930162,1,00:00:00.697,e17a2055-f6e2-483c-9f3c-44806f938edb,Slovenia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930162,2,00:00:00.472,fc022e6d-5b46-4c24-b249-3e4f05e60dd0,Denmark,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930163,1,00:00:00.458,10983cdd-eac3-4a13-82fb-eeaed6f07c02,England,18,geometry,consistent,12,0,0,0.0
+3930163,1,00:13:24.635,801bf35d-f49a-47e6-8b05-2ccf14a2f5c3,Serbia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930163,2,00:00:00.824,007282f5-a072-448e-9fcf-13b996bbd3a3,Serbia,19,geometry,consistent,13,0,0,0.0
+3930164,1,00:00:00.505,5aabea4a-a1e7-4e5e-adc3-b13dec0f27bf,Slovakia,20,unresolved,inconclusive_orientation,0,0,0,0.0
+3930164,2,00:00:00.804,4c14c882-c47c-4992-b0bb-b39ef365fc8a,Belgium,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930165,1,00:00:00.527,983b539c-c991-46a4-b1a3-43d23826049e,Austria,21,geometry,consistent,15,0,0,0.0
+3930165,2,00:00:00.879,f03121a5-4bae-4aa8-b4ac-942df9d3517e,France,20,geometry,consistent,15,0,0,0.0
+3930166,1,00:00:00.900,87a790b7-17a6-4bbd-953f-a06c07edbad9,Portugal,20,geometry,minor,12,1,1,11.09
+3930166,2,00:00:00.626,f8cd011a-dc9c-4651-9e1e-9c214424998f,Czech Republic,20,geometry,minor,15,1,0,2.15
+3930167,1,00:00:00.551,66a40110-c1d2-4076-8ac9-4bc0df785da9,Albania,20,geometry,consistent,15,0,0,0.0
+3930167,2,00:00:00.584,7c9f344f-edda-4fa6-bb6c-ce55bced39da,Croatia,20,geometry,consistent,15,0,0,0.0
+3930168,1,00:00:00.500,6c9f4991-1587-4a09-995d-57482cd48c7a,Germany,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930168,2,00:00:00.447,aef12918-6a23-4882-a6a8-8ae181088d5f,Hungary,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930169,1,00:00:00.568,784ad74b-9d7f-4854-83df-410d5226151d,Scotland,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930169,2,00:00:00.518,55b7753f-85f2-40ee-83db-9af66c661ebf,Switzerland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930170,1,00:00:00.203,2091a8ec-7d76-4725-ba5e-e59cb5d6d8ec,Slovenia,19,geometry,consistent,12,0,0,0.0
+3930170,2,00:00:00.374,bc38f094-7501-4647-8a07-e6e155f33cf9,Serbia,20,geometry,consistent,13,0,0,0.0
+3930171,1,00:00:00.864,f7c8904d-4aa8-4ecb-96bb-90db35ff0710,England,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930171,2,00:00:00.100,2271fb4c-0f74-4a44-852f-7d50bdd8a8af,Denmark,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930172,2,00:00:00.299,f7717760-11c9-409f-92e3-39cd27066597,Spain,19,geometry,consistent,14,0,0,0.0
+3930173,1,00:00:00.758,cbff499a-532e-4b63-b4e1-ce2736cf8742,Netherlands,20,geometry,minor,16,2,0,3.04
+3930174,1,00:00:00.442,c232fc1a-7a0a-40e3-a00d-341e12986c1e,Portugal,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930174,2,00:00:00.711,afbc97e3-f0ee-4f19-a716-d4e44b2d671c,Turkey,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930174,2,00:11:14.872,6157d9d0-1617-4bbf-bc1c-e1ed765847bb,Turkey,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930175,1,00:00:00.792,581b5f3a-5811-42a4-89e6-0fbe46d21f6d,Belgium,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930175,2,00:00:00.549,5fbb5f34-bcfb-4a28-8f3a-4e4022692c59,Romania,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930176,1,00:00:00.393,f9af34bd-653b-4f33-b3e4-af5c3df61479,Germany,20,geometry,consistent,16,0,0,0.0
+3930176,2,00:00:01.349,da955286-7651-42bf-89a1-49d87feffeb1,Switzerland,21,geometry,consistent,13,0,0,0.0
+3930177,1,00:00:00.491,b13bcf53-8033-4bce-a69b-341244cfb336,Hungary,19,geometry,consistent,10,0,0,0.0
+3930177,2,00:00:00.655,874a3e81-5b84-4fa6-a33f-17c2e589a54a,Scotland,20,geometry,consistent,13,0,0,0.0
+3930178,1,00:00:00.287,e517bc9a-e478-42b0-aa27-99c5b4d71d55,Croatia,20,geometry,consistent,14,0,0,0.0
+3930178,2,00:00:01.138,27596fbd-a474-4fd2-8bf0-24640f77402e,Italy,20,geometry,consistent,12,0,0,0.0
+3930179,1,00:00:00.646,baa181ea-5435-40f2-b9a0-41b020f9ef5b,Albania,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930179,2,00:00:00.458,7195a367-1549-474b-81eb-d7b035e0d940,Spain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930180,1,00:00:01.688,18b41254-e490-4fbe-9a96-e5b94756c491,Austria,20,geometry,consistent,13,0,0,0.0
+3930180,2,00:00:01.026,fd8282f3-1655-46bc-9f31-e317b2455883,Netherlands,18,geometry,consistent,12,0,0,0.0
+3930181,1,00:00:01.404,5c629533-2c74-4aa8-993f-c42e3b052663,England,22,geometry,minor,17,1,0,4.39
+3930181,2,00:00:00.666,c06af783-9ba1-467c-b1b9-e160b46138a8,Slovenia,22,geometry,consistent,16,0,0,0.0
+3930182,1,00:00:00.105,1fd3bac5-3e5e-4069-a66c-3428660599c1,Denmark,20,geometry,consistent,13,0,0,0.0
+3930182,2,00:00:00.686,6df7e2fa-447d-40bf-800a-c4a54b55c57c,Serbia,20,geometry,consistent,16,0,0,0.0
+3930183,1,00:00:00.434,8c2c0ed6-7549-46d5-af35-148142412ab1,Slovakia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930183,2,00:00:00.706,972c4b0f-853c-4b0d-aaf4-1c0b5930a1b8,Romania,22,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930184,1,00:00:00.489,0e9849c3-ead6-4161-86bd-ebe8bff2ffd6,Czech Republic,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930184,2,00:00:00.195,74c53a14-a3d4-4a33-a6c5-a4d09c0e438f,Turkey,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3930184,2,00:23:15.062,4206ac27-7948-4b78-96b9-65428187fd7a,Turkey,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938637,1,00:00:01.289,9193eec8-891e-4259-af3c-20a1ae80dafd,Poland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938637,2,00:00:00.745,13ccccd2-102a-404b-b23b-c983d5c81ffb,Netherlands,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938638,1,00:00:00.917,a3f5c483-d8d0-49b6-8637-b3fe93d6349e,Ukraine,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938638,2,00:00:00.760,93fbbf79-8c6e-4ed3-a254-b0fe4ecea107,Romania,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938639,1,00:00:00.838,f2f413a7-4d5e-4c65-8e70-16be69280b1e,Georgia,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938639,2,00:00:00.186,e39e0f09-3ba7-428f-b05b-a745d9ae3180,Turkey,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938640,1,00:00:00.450,e3b5727f-618b-4f8e-8876-e92d8e435b55,Slovakia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938640,2,00:00:00.613,107fa5d9-9a66-4983-9ffa-f9ce4c7510fe,Ukraine,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938641,1,00:00:01.266,aaf9e06c-345b-4dc2-9a7f-a546557f4d15,Austria,20,geometry,minor,12,1,1,5.83
+3938641,1,00:31:12.821,f987839e-42c7-48a2-adcb-ca3a5103e489,Austria,20,geometry,consistent,13,0,0,0.0
+3938641,2,00:00:00.738,b0c4afd3-8dd3-49d4-ab09-02f43df13a12,Poland,20,geometry,consistent,14,0,0,0.0
+3938642,1,00:00:00.820,6767e654-f9ec-4d96-b95a-1f7a55bd0ff0,Georgia,20,geometry,consistent,13,0,0,0.0
+3938642,1,00:49:31.048,6cb7acc6-1575-4fa2-8123-ce787d327c86,Czech Republic,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938642,2,00:00:00.585,c9776a34-7272-469f-8827-1e362cd481d8,Czech Republic,20,geometry,minor,15,1,0,2.05
+3938643,1,00:00:00.420,29f1243c-4a66-488b-b54b-bda4e491c5db,Poland,20,geometry,consistent,12,0,0,0.0
+3938643,2,00:00:00.165,fdc4da64-78f6-4554-bafc-b2b0a384272b,France,20,geometry,consistent,15,0,0,0.0
+3938643,2,00:11:43.834,b22a0270-9401-4666-8d30-830adf915326,Poland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938644,1,00:00:00.905,29364d29-8cbb-42b7-bdab-eb83e829928f,Portugal,20,geometry,minor,12,1,0,3.05
+3938644,1,00:02:43.283,a0a80d7b-3643-4826-9840-f19523b2e1cb,Portugal,20,geometry,consistent,15,0,0,0.0
+3938644,2,00:00:00.620,16267676-2597-45a7-81ac-f97d7ac0a681,Georgia,18,geometry,consistent,13,0,0,0.0
+3938645,1,00:00:01.181,e8cea1c3-37e7-43ef-b5df-afac1fbb1725,Belgium,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3938645,2,00:00:00.181,49d72ec6-1f41-4f4b-8508-601eb3f42bdd,Ukraine,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3940878,1,00:00:00.595,32cfe707-5034-4b19-9304-c69edafd9358,Switzerland,20,geometry,consistent,15,0,0,0.0
+3940878,2,00:00:00.709,39ab723c-bd0b-41cb-a2eb-1e056bb4d77a,Italy,20,geometry,minor,15,3,0,3.48
+3940983,1,00:00:00.546,66cc8655-4ab1-414e-865b-64b3917f60fc,Germany,20,geometry,consistent,14,0,0,0.0
+3940983,2,00:00:00.246,de1eda0e-afa4-4fdd-870a-3fe06889af49,Denmark,20,geometry,consistent,12,0,0,0.0
+3941017,1,00:00:00.372,781bff47-9014-42e3-b2d2-baf1d62556e4,Slovakia,20,geometry,consistent,11,0,0,0.0
+3941017,1,00:26:50.081,5edd405c-1c22-4ddc-bb87-3b4a518574d9,England,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3941017,2,00:00:00.250,06965ecd-c506-4c24-a328-843654922d10,England,19,geometry,minor,14,1,0,2.6
+3941017,3,00:00:00.339,ba4ba152-d705-424f-b68e-449879c79f46,England,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3941017,4,00:00:00.205,cccadd59-3cdd-4a6b-b0b9-9b8f8e95bf06,Slovakia,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3941018,1,00:00:00.662,2fb0d500-d7aa-461a-9db1-3d96d07529fe,Spain,22,geometry,consistent,17,0,0,0.0
+3941018,2,00:00:00.800,b4f39c83-cf17-442f-840b-7384185570f8,Georgia,22,geometry,consistent,17,0,0,0.0
+3941018,2,00:31:18.083,c2d4e098-d765-4b77-9311-dc8f53240321,Georgia,20,geometry,consistent,15,0,0,0.0
+3941019,1,00:00:00.356,26fed4d2-ed26-4dfd-bb39-384ea6ab5c28,France,22,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3941019,2,00:00:00.980,f38be6df-64c4-491b-a5ff-67d07704a3d8,Belgium,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3941020,1,00:00:00.547,740955c7-1d80-465f-8c7a-67d2846f40f2,Portugal,20,geometry,consistent,13,0,0,0.0
+3941020,2,00:00:00.298,e662dfb1-de75-4e20-906f-da1b11df5ba9,Slovenia,20,geometry,consistent,15,0,0,0.0
+3941020,3,00:00:00.670,54cc4ef9-3d3a-4b5f-80b3-ba273986a1cc,Portugal,21,geometry,consistent,17,0,0,0.0
+3941020,4,00:00:00.378,fccd8a13-b212-4096-9889-f24ab0d4ada2,Slovenia,20,geometry,consistent,13,0,0,0.0
+3941021,1,00:00:00.313,693fd638-a37d-419b-8ba2-8a4d217c6699,Netherlands,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3941021,2,00:00:00.689,599e298b-f684-45be-b8fc-102dd5c93b5f,Romania,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3941022,1,00:00:00.704,c09233cf-efc0-406b-a390-234ec244e004,Austria,20,geometry,consistent,13,0,0,0.0
+3941022,2,00:00:00.578,32f05e5b-d8a3-4e90-8b6e-871bfb9fade1,Turkey,19,geometry,consistent,13,0,0,0.0
+3942226,1,00:00:01.291,61ee7611-4ecf-4285-b2cf-5fd997ff2b26,Germany,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942226,2,00:00:00.812,5b5f3cec-518e-406d-9084-2523686076d8,Spain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942226,3,00:00:00.278,34e3ea3c-f26e-4442-b5a0-3c2da4bca887,Spain,20,geometry,consistent,14,0,0,0.0
+3942226,4,00:00:00.512,d3eb8093-77e6-44db-83cb-9de880517297,Germany,20,geometry,consistent,14,0,0,0.0
+3942227,1,00:00:00.235,099e3388-f214-43aa-9c48-ac9146779b2f,England,22,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942227,2,00:00:00.404,b40b0355-5eee-48a3-bd33-3ba484e1e311,Switzerland,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942227,2,00:35:59.638,d461743e-a69f-41cc-9a4f-1bebf5f16f11,Switzerland,22,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942227,3,00:00:00.294,ab91e428-db0b-4937-9dd6-4a6817e0c9da,Switzerland,20,geometry,consistent,13,0,0,0.0
+3942227,4,00:00:00.654,89ab8d66-4133-4cf2-a6c9-9637d3ce4f4e,England,21,geometry,consistent,15,0,0,0.0
+3942349,1,00:00:00.455,3af97f8a-7473-4f1a-ab16-7badde4d2d53,France,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942349,2,00:00:00.391,0a05aea2-2b27-4602-8959-251923bf7a99,Portugal,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942349,3,00:00:00.775,2c5d4e94-327f-425b-9060-0648ce904746,France,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942349,4,00:00:00.523,32788fe7-0cfc-4290-a1ff-c09343439f55,Portugal,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942382,1,00:00:00.492,3ccb39d2-ae6d-4bc1-b4fc-8a331b675089,Netherlands,20,geometry,consistent,13,0,0,0.0
+3942382,2,00:00:00.505,eccd814d-bc78-4d2e-b097-81d393625c85,Turkey,19,geometry,consistent,15,0,0,0.0
+3942752,1,00:09:38.766,b38c52f6-f61b-490f-b475-bb176b8ecd7a,Spain,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942752,2,00:00:00.430,c004401e-619d-40b9-bfda-552ad150eb8c,Spain,20,geometry,consistent,14,0,0,0.0
+3942819,1,00:00:00.355,1ad9580c-c00d-42bc-b7d1-71a550ec21c0,England,21,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3942819,2,00:00:00.529,c54414a6-f1bd-4416-a2fc-dfbe9a4dee89,Netherlands,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3943043,1,00:00:00.340,277afcf7-04cb-4768-b41c-2b421d657d1d,England,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3943043,2,00:00:00.293,6f7734cb-6655-4b65-a498-b3c075cdc4bd,Spain,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3943043,2,00:02:21.608,90352181-49d6-4a0c-9574-4148fccb7cc4,England,20,geometry,consistent,13,0,0,0.0
+3943043,2,00:42:40.388,8cf5ae2e-7c94-4788-8088-392dc3f7eb52,England,20,geometry,consistent,12,0,0,0.0
+3998836,1,00:00:00.681,f83bbb5c-09b6-48b6-a046-e5a0a13d7913,WNT Finland,16,geometry,consistent,9,0,0,0.0
+3998836,2,00:00:01.285,c1fd0473-255f-4fbe-b306-cbab5eb46cf9,Iceland Women's,15,geometry,minor,10,1,0,2.15
+3998837,1,00:00:00.640,1b04aafd-5d46-4f36-a682-dedcc9edc658,Switzerland Women's,20,geometry,consistent,12,0,0,0.0
+3998838,1,00:00:01.642,d234c3cf-437e-4380-bfe5-f48cfe7bfa9e,Italy Women's,14,geometry,consistent,7,0,0,0.0
+3998839,1,00:00:00.603,cb98d9f9-f0b4-4a59-a080-2c279defa5f4,Portugal Women's,19,geometry,consistent,15,0,0,0.0
+3998839,1,00:08:41.787,ce12c3c0-8820-402a-b368-c441b7b5cc75,Portugal Women's,19,geometry,consistent,14,0,0,0.0
+3998839,2,00:00:00.386,7a1c3e9e-38f5-4511-bbbe-164793c16dd5,Spain Women's,20,geometry,consistent,14,0,0,0.0
+3998840,1,00:00:00.369,b1277ca2-bd37-4d37-855a-19e9bfb21af5,Poland Women's,19,geometry,consistent,10,0,0,0.0
+3998840,2,00:00:00.543,f7016ae6-6d03-434e-a7d4-7bb7c5a3a508,Germany Women's,18,geometry,consistent,12,0,0,0.0
+3998841,1,00:00:00.393,b50dd672-6caf-434d-b1cd-d8d9d64238a9,Sweden Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998841,2,00:00:00.985,f66a4885-9b8d-4048-b875-fbb39067e468,Denmark Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998842,1,00:00:00.393,a1ab20ea-fbef-43d3-b141-bb3255cdb4ce,Wales W,17,geometry,consistent,10,0,0,0.0
+3998843,1,00:00:00.636,bd39e4f1-3dc9-4558-8fe0-d55776a3c523,England Women's,20,geometry,consistent,14,0,0,0.0
+3998843,1,00:36:36.551,9c2739e9-1066-4fb7-88dd-838ea45fe05d,England Women's,20,geometry,consistent,15,0,0,0.0
+3998844,1,00:00:00.525,670265af-cbb4-4139-9676-470c47ccff06,Iceland Women's,17,geometry,consistent,10,0,0,0.0
+3998844,2,00:00:00.940,aa32b7b6-f059-4f27-8680-ead551a59119,Switzerland Women's,19,geometry,consistent,12,0,0,0.0
+3998845,1,00:00:00.496,a6cc4db5-a64e-43f9-8d83-b9138fe27ff8,WNT Finland,13,geometry,consistent,8,0,0,0.0
+3998845,2,00:00:00.627,64ae7646-94b0-4652-9284-14b23c78920a,Norway Women's,15,geometry,consistent,9,0,0,0.0
+3998846,2,00:00:00.910,cf69c2d1-02cf-4712-843d-6aa1ea1e8d80,Portugal Women's,19,geometry,consistent,14,0,0,0.0
+3998847,1,00:00:00.471,afa732c1-e332-4635-a9b0-8bdbe19bd2e0,Spain Women's,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998848,1,00:00:01.156,8721b04f-e977-4cf7-8666-04be5ad42058,Poland Women's,16,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998848,2,00:00:01.077,fdf99907-dddf-43de-851a-ecc045bf013a,Sweden Women's,17,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998849,1,00:00:01.200,c0f25f37-8c91-4548-8d94-e97514d2719d,Denmark Women's,20,geometry,minor,13,1,0,2.18
+3998849,2,00:00:00.800,6984fcb2-9f58-4b61-b60a-957e150ff52b,Germany Women's,20,geometry,consistent,14,0,0,0.0
+3998849,2,00:23:49.560,7126e103-aabb-46f7-9533-b03834f21cd7,Denmark Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998850,1,00:00:00.443,57265b50-09b2-45d6-ad1b-b82991f6beda,Wales W,19,geometry,consistent,13,0,0,0.0
+3998852,2,00:00:00.617,d272fc6a-4e9d-414b-80f8-33716756d65d,Switzerland Women's,19,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998853,1,00:00:00.252,382b90b2-6c0d-4237-80a9-ecad4c1d8ff9,Iceland Women's,13,geometry,inconclusive_few_players,5,0,0,0.0
+3998854,1,00:00:00.599,0654c0e3-6a20-414e-be3e-e19bd7e65012,Portugal Women's,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998854,2,00:00:01.515,6f5489a6-308d-40a0-8e85-ce42c15801cd,Belgium Women's,13,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998855,1,00:00:00.571,f856d990-97b5-49cf-ae27-19ca794f22c3,Spain Women's,20,geometry,consistent,15,0,0,0.0
+3998855,2,00:00:00.578,4a3f684d-f735-40b9-9e1d-6e0617dc73b2,Italy Women's,20,geometry,consistent,15,0,0,0.0
+3998856,1,00:12:34.643,bca56833-696a-44d9-b84a-6a07711d3715,Germany Women's,20,geometry,consistent,13,0,0,0.0
+3998856,1,00:25:45.832,075fdc39-14fc-43b0-b6df-cc2b4ba3442d,Germany Women's,21,geometry,consistent,15,0,0,0.0
+3998856,1,00:34:12.047,c8cf5b1d-5dce-4205-b382-ebae93039a84,Germany Women's,20,geometry,consistent,16,0,0,0.0
+3998856,2,00:00:00.725,216334f6-32e8-40f3-a906-483271ccfa57,Sweden Women's,19,geometry,consistent,12,0,0,0.0
+3998857,1,00:00:00.845,d98813d8-05de-45de-9f06-8b7446be318e,Denmark Women's,11,geometry,inconclusive_few_players,5,0,0,0.0
+3998857,2,00:38:35.540,92179032-4b32-4a0a-a4b7-3f431773b97f,Poland Women's,17,geometry,consistent,9,0,0,0.0
+3998858,1,00:00:00.080,0f371e82-6409-442e-929d-b0c6ad5c3ebc,England Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998858,2,00:00:00.225,b7e75dea-1cfe-4cc2-9133-91f968ba5585,Wales W,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998859,1,00:00:00.212,eb57eb51-70ef-406b-bf29-89cb8ce3dd32,Netherlands Women's,15,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+3998859,2,00:00:00.330,c47cae6c-d3f4-443d-9e42-6abe7446582d,France Women's,14,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+4018354,1,00:00:01.107,140d4ec7-60b9-45af-89a1-d75bb420a492,Italy Women's,18,geometry,consistent,9,0,0,0.0
+4018354,2,00:00:00.679,383385d8-f532-4b12-aa04-3961f4634d79,Norway Women's,20,geometry,minor,12,1,0,2.34
+4018355,1,00:25:46.095,46d087b0-51ac-48b9-9253-7cd81535dcf2,England Women's,21,geometry,minor,18,2,0,2.15
+4018356,1,00:00:00.853,8736a8ab-bee8-4b7a-99b4-24658a2fd48b,Switzerland Women's,20,geometry,consistent,13,0,0,0.0
+4018356,2,00:00:00.615,b44a1a89-6eca-44b0-8958-b5be40c33fe8,Spain Women's,20,geometry,consistent,14,0,0,0.0
+4018357,1,00:00:00.295,36031f9d-d726-4bf1-9788-27083420d7b4,Germany Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+4018357,2,00:00:00.836,6ae8b57b-a80a-4732-93be-0a77d8bde937,France Women's,18,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+4018357,3,00:00:00.289,177782e4-60cc-4ef2-92d8-1cff87db86f1,Germany Women's,15,geometry,consistent,8,0,0,0.0
+4018357,4,00:00:00.345,74b7c269-8662-4c2b-97fd-64af3b71162e,France Women's,15,geometry,consistent,11,0,0,0.0
+4020005,1,00:00:01.117,0e11bdcb-7122-4bec-8d36-776f87255cac,Italy Women's,20,geometry,minor,12,1,0,2.51
+4020005,2,00:00:01.048,c533fddd-2627-49d8-adbb-fd32429cec78,England Women's,20,geometry,consistent,11,0,0,0.0
+4020005,3,00:00:00.745,7cfb6894-149c-4644-bbcd-6c8fbaecf2a8,England Women's,20,causal_kickoff_own_half,inconclusive_orientation,0,0,0,0.0
+4020077,2,00:00:01.486,4e0b59b3-279f-4822-9159-52025587cf31,Germany Women's,20,geometry,consistent,15,0,0,0.0
+4020077,3,00:00:00.883,a21ae0fa-c423-468b-8e7e-85ffc690709d,Spain Women's,20,geometry,consistent,13,0,0,0.0
+4020077,4,00:00:00.570,caa45967-61d1-4665-abce-ce24c6553262,Germany Women's,20,geometry,consistent,13,0,0,0.0
+4020846,1,00:00:00.682,cec374a5-5a32-4b02-8f25-e96f441e1bd1,England Women's,19,geometry,consistent,12,0,0,0.0
+4020846,2,00:00:00.304,9d878023-5b50-442f-b219-e4094ba55569,Spain Women's,19,geometry,consistent,15,0,0,0.0
+4020846,3,00:00:00.476,d9b316f9-8a10-4552-ade3-2221cd489e5e,England Women's,20,geometry,consistent,12,0,0,0.0

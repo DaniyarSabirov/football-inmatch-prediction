@@ -1,0 +1,45 @@
+Match ID:        3773477
+Event UUID:      49e3ba44-0b26-4a81-8721-dcc7f4f3831e
+Event index:     1960
+Event type:      Pass
+Period:          2
+Timestamp:       00:01:56.894
+Team:            Barcelona
+Player:          Lionel Andrés Messi Cuccittini
+Event location:  [120.0, 80.0]
+
+Freeze-frame player count: 20
+  [ 0] location=[99.4261685347989, 45.765870849983486]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [ 1] location=[101.49005447290352, 35.61209964554214]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [ 2] location=[104.12290083197257, 36.98854256613215]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 3] location=[106.40943944927835, 49.49993611523105]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 4] location=[110.416279418796, 40.85420738952125]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [ 5] location=[110.60015418393662, 37.785385486368426]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [ 6] location=[110.66222681382473, 44.04561837426979]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [ 7] location=[111.28181199072364, 43.524870021984285]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 8] location=[112.03228053966566, 41.62221394352697]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 9] location=[112.83930955147827, 34.59966300743706]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [10] location=[114.78057820022482, 40.0149680543735]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [11] location=[114.8924825850032, 37.03518802232003]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [12] location=[115.42639430874661, 44.438653591366055]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [13] location=[116.0514331641021, 42.21184079928824]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [14] location=[116.83452824747275, 47.70219462185213]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [15] location=[116.99032917270941, 44.7644830078838]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [16] location=[117.0630207921744, 48.45097703441372]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [17] location=[118.85418982792797, 40.03776320118902]  teammate=False  actor=False  keeper=True  in_bounds=True
+  [18] location=[120.0, 80.0]  teammate=True  actor=True  keeper=False  in_bounds=True
+  [19] location=[120.00077511694286, 80.0]  teammate=True  actor=True  keeper=False  in_bounds=False
+visible_area (12 values): [105.17440532612193, 80.0, 84.41400755392883, 23.348658999604375, 105.9279744461096, 11.418817639317854, 120.0, 28.94156146925957, 120.0, 80.0, 105.17440532612193, 80.0]
+
+Shared snapshot: NO -- this event's raw 360 snapshot is not shared with a different team's event.
+
+Orientation classification: NORMAL (confidence=0.910)
+  resolved_by: geometry
+
+Team normalization: REFERENCE (reference_team_id=217)
+Orientation correction applied: False
+Team-normalization mirror applied: False
+Out-of-bounds points (raw): 1 / 20
+Out-of-bounds points (after current pipeline): 1 / 20
+
+Dataset-builder actor resolution: actor_x=120.0, actor_y=80.0, actor_ambiguous=False

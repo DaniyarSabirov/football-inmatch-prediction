@@ -1,0 +1,3954 @@
+{
+  "match_id": 3788744,
+  "event_uuid": null,
+  "offenders": [
+    {
+      "event_uuid": "1c554b2d-ed6a-4753-96c2-29943ed73544",
+      "event_type": "Pass",
+      "point": [
+        69.91354662076976,
+        83.12005331631553
+      ],
+      "overshoot": 3.120053316315534,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "55db0a2f-3bd1-4f88-a608-052cb1e7c463",
+      "event_type": "Ball Receipt*",
+      "point": [
+        62.538025580446934,
+        85.33096728067952
+      ],
+      "overshoot": 5.330967280679516,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "55db0a2f-3bd1-4f88-a608-052cb1e7c463",
+      "event_type": "Ball Receipt*",
+      "point": [
+        70.21478826140483,
+        80.55521815561471
+      ],
+      "overshoot": 0.5552181556147104,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "686aa988-a7fe-4504-83eb-62f4db55b2ec",
+      "event_type": "Carry",
+      "point": [
+        62.538025580446934,
+        85.33096728067952
+      ],
+      "overshoot": 5.330967280679516,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "686aa988-a7fe-4504-83eb-62f4db55b2ec",
+      "event_type": "Carry",
+      "point": [
+        70.21478826140483,
+        80.55521815561471
+      ],
+      "overshoot": 0.5552181556147104,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fbc33fd7-34c8-44ea-9c17-0ac1b0b22eb2",
+      "event_type": "Pass",
+      "point": [
+        60.89788860225878,
+        84.39732366613862
+      ],
+      "overshoot": 4.397323666138618,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fbc33fd7-34c8-44ea-9c17-0ac1b0b22eb2",
+      "event_type": "Pass",
+      "point": [
+        66.34967458132783,
+        82.71784281684911
+      ],
+      "overshoot": 2.7178428168491138,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "429dc74f-a9c6-4df5-9692-8f63a1f83882",
+      "event_type": "Ball Receipt*",
+      "point": [
+        67.79378726825308,
+        81.03917402311737
+      ],
+      "overshoot": 1.0391740231173685,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "105d9d13-0bb6-46ee-8fe6-1024ecc7a49f",
+      "event_type": "Carry",
+      "point": [
+        67.79378726825308,
+        81.03917402311737
+      ],
+      "overshoot": 1.0391740231173685,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "a9b7c258-bac2-4e41-8a88-bb1e707a481e",
+      "event_type": "Pressure",
+      "point": [
+        46.78445266012422,
+        80.11614625878012
+      ],
+      "overshoot": 0.11614625878011964,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b9f04ec8-a396-4f68-82bb-318ebe745d33",
+      "event_type": "Pass",
+      "point": [
+        73.62835959586567,
+        -0.8352309412996277
+      ],
+      "overshoot": 0.8352309412996277,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0553b019-39bc-4f31-884d-bc1d333725d7",
+      "event_type": "Pressure",
+      "point": [
+        54.09691970594043,
+        -3.0053382828120903
+      ],
+      "overshoot": 3.0053382828120903,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5f363d0e-3437-4477-9410-cb37091cadb9",
+      "event_type": "Pass",
+      "point": [
+        65.27701177971862,
+        81.32961413431393
+      ],
+      "overshoot": 1.3296141343139283,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c6dee207-954c-4f7b-b1d9-f002f16d4127",
+      "event_type": "Ball Receipt*",
+      "point": [
+        67.96219227913136,
+        80.39395704947081
+      ],
+      "overshoot": 0.39395704947081356,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ead09fd8-f0a4-48f5-9a62-f6608c28b37c",
+      "event_type": "Pass",
+      "point": [
+        67.96219214115227,
+        80.39395778518886
+      ],
+      "overshoot": 0.39395778518886004,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f492c460-3f55-4453-863b-559fdd661a9a",
+      "event_type": "Pass",
+      "point": [
+        59.97359014957954,
+        -0.3565505601268555
+      ],
+      "overshoot": 0.3565505601268555,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2f298062-2bc7-4bb2-8421-43c1a2761657",
+      "event_type": "Ball Receipt*",
+      "point": [
+        59.837956752270955,
+        -1.127562091069855
+      ],
+      "overshoot": 1.127562091069855,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c9b02288-5e9e-4d10-8f17-6379daa8fb84",
+      "event_type": "Carry",
+      "point": [
+        59.837956752270955,
+        -1.127562091069855
+      ],
+      "overshoot": 1.127562091069855,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0baec8ba-2b1c-4a6a-9af9-a3b70d51aff4",
+      "event_type": "Pass",
+      "point": [
+        62.200118388704205,
+        -1.2438428248066629
+      ],
+      "overshoot": 1.2438428248066629,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4ee9f1e3-5c47-427f-8ec3-1a6847f298e5",
+      "event_type": "Pass",
+      "point": [
+        63.47342650781275,
+        82.66484658841233
+      ],
+      "overshoot": 2.664846588412331,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "eed00262-e81d-4a0e-9306-5315d78c8d6e",
+      "event_type": "Pass",
+      "point": [
+        120.08932701107832,
+        33.2523435210912
+      ],
+      "overshoot": 0.08932701107832486,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "260cf96b-e69b-4513-9a48-08567be72ce6",
+      "event_type": "Ball Receipt*",
+      "point": [
+        44.13784653000383,
+        81.32692340449698
+      ],
+      "overshoot": 1.3269234044969807,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b8fb50bc-9651-467e-aa2a-a96cff8648a4",
+      "event_type": "Carry",
+      "point": [
+        44.13784653000383,
+        81.32692340449698
+      ],
+      "overshoot": 1.3269234044969807,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "41383fdb-cfd6-46f5-a00f-2147b4efe618",
+      "event_type": "Ball Receipt*",
+      "point": [
+        -0.2814456722992702,
+        19.51541848603707
+      ],
+      "overshoot": 0.2814456722992702,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5a44ca37-07c9-4305-a65a-95062b577ee2",
+      "event_type": "Clearance",
+      "point": [
+        -0.2814456722992702,
+        19.51541848603707
+      ],
+      "overshoot": 0.2814456722992702,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1c80c1a9-ccd1-459a-b11f-831930d2c84c",
+      "event_type": "Ball Receipt*",
+      "point": [
+        54.592003244362225,
+        -0.5965066803576775
+      ],
+      "overshoot": 0.5965066803576775,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "48523ed8-0f26-4ec0-b2ca-8063e84a0598",
+      "event_type": "Ball Receipt*",
+      "point": [
+        57.220314668969706,
+        84.00894335198042
+      ],
+      "overshoot": 4.00894335198042,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "48523ed8-0f26-4ec0-b2ca-8063e84a0598",
+      "event_type": "Ball Receipt*",
+      "point": [
+        67.19893850012276,
+        82.75857719933691
+      ],
+      "overshoot": 2.758577199336912,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "48523ed8-0f26-4ec0-b2ca-8063e84a0598",
+      "event_type": "Ball Receipt*",
+      "point": [
+        75.54852970069037,
+        82.24415721116273
+      ],
+      "overshoot": 2.2441572111627295,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "48523ed8-0f26-4ec0-b2ca-8063e84a0598",
+      "event_type": "Ball Receipt*",
+      "point": [
+        77.51200780345451,
+        82.15492798336766
+      ],
+      "overshoot": 2.1549279833676565,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "617ddbca-3b31-4f5f-81e9-259243175613",
+      "event_type": "Carry",
+      "point": [
+        57.220314668969706,
+        84.00894335198042
+      ],
+      "overshoot": 4.00894335198042,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "617ddbca-3b31-4f5f-81e9-259243175613",
+      "event_type": "Carry",
+      "point": [
+        67.19893850012276,
+        82.75857719933691
+      ],
+      "overshoot": 2.758577199336912,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "617ddbca-3b31-4f5f-81e9-259243175613",
+      "event_type": "Carry",
+      "point": [
+        75.54852970069037,
+        82.24415721116273
+      ],
+      "overshoot": 2.2441572111627295,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "617ddbca-3b31-4f5f-81e9-259243175613",
+      "event_type": "Carry",
+      "point": [
+        77.51200780345451,
+        82.15492798336766
+      ],
+      "overshoot": 2.1549279833676565,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "049f17e4-30fc-4cae-a0e8-7d2067352020",
+      "event_type": "Pass",
+      "point": [
+        84.21658726835601,
+        83.40303690560252
+      ],
+      "overshoot": 3.4030369056025194,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fa70f914-e689-4586-9caf-98559760c53c",
+      "event_type": "Ball Receipt*",
+      "point": [
+        57.262534687040464,
+        82.48756594289188
+      ],
+      "overshoot": 2.4875659428918766,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fa70f914-e689-4586-9caf-98559760c53c",
+      "event_type": "Ball Receipt*",
+      "point": [
+        72.13236577330741,
+        83.10488417195131
+      ],
+      "overshoot": 3.104884171951312,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dfe8a101-4ea3-4a17-8aed-ac883f15468c",
+      "event_type": "Carry",
+      "point": [
+        57.262534687040464,
+        82.48756594289188
+      ],
+      "overshoot": 2.4875659428918766,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dfe8a101-4ea3-4a17-8aed-ac883f15468c",
+      "event_type": "Carry",
+      "point": [
+        72.13236577330741,
+        83.10488417195131
+      ],
+      "overshoot": 3.104884171951312,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f2d5f773-023a-4280-ac73-8f76062573e0",
+      "event_type": "Pass",
+      "point": [
+        121.70080156388038,
+        39.9032978240229
+      ],
+      "overshoot": 1.7008015638803755,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "5fe263d3-5612-494e-8ff4-68e26c32aed4",
+      "event_type": "Pass",
+      "point": [
+        54.722253652713505,
+        83.89823692053541
+      ],
+      "overshoot": 3.8982369205354104,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1eda61b8-c8e6-4c7e-b80f-f3138807a061",
+      "event_type": "Pass",
+      "point": [
+        44.8076809871726,
+        95.70177229706503
+      ],
+      "overshoot": 15.701772297065034,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1eda61b8-c8e6-4c7e-b80f-f3138807a061",
+      "event_type": "Pass",
+      "point": [
+        67.35869237075535,
+        -0.14473219910070156
+      ],
+      "overshoot": 0.14473219910070156,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5382d269-2a10-40e1-96dd-aa638fcdd811",
+      "event_type": "Pressure",
+      "point": [
+        34.47682192130776,
+        -0.09688757869277964
+      ],
+      "overshoot": 0.09688757869277964,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7d461f3d-3381-459e-8b93-4f7fc43a4e55",
+      "event_type": "Ball Receipt*",
+      "point": [
+        84.87780613087257,
+        83.79060677614426
+      ],
+      "overshoot": 3.7906067761442586,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7d461f3d-3381-459e-8b93-4f7fc43a4e55",
+      "event_type": "Ball Receipt*",
+      "point": [
+        86.81172793095327,
+        82.35448645109659
+      ],
+      "overshoot": 2.354486451096591,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d0a2577d-0eaa-4992-8855-66a5a14c064f",
+      "event_type": "Carry",
+      "point": [
+        84.87780613087257,
+        83.79060677614426
+      ],
+      "overshoot": 3.7906067761442586,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d0a2577d-0eaa-4992-8855-66a5a14c064f",
+      "event_type": "Carry",
+      "point": [
+        86.81172793095327,
+        82.35448645109659
+      ],
+      "overshoot": 2.354486451096591,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4464d0fc-bd3e-48ab-94ad-bb5c92d069e3",
+      "event_type": "Pass",
+      "point": [
+        83.37769394415064,
+        83.79446163744137
+      ],
+      "overshoot": 3.7944616374413727,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4464d0fc-bd3e-48ab-94ad-bb5c92d069e3",
+      "event_type": "Pass",
+      "point": [
+        85.34620365717527,
+        81.25549751241657
+      ],
+      "overshoot": 1.255497512416568,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dd2262ff-af7d-4036-bd71-d336846e9ec1",
+      "event_type": "Ball Receipt*",
+      "point": [
+        45.11266754597608,
+        117.3044782878609
+      ],
+      "overshoot": 37.3044782878609,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dd2262ff-af7d-4036-bd71-d336846e9ec1",
+      "event_type": "Ball Receipt*",
+      "point": [
+        45.29406786033425,
+        111.47896243851234
+      ],
+      "overshoot": 31.47896243851234,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "9e073522-912e-487d-917f-8f4a818586d2",
+      "event_type": "Carry",
+      "point": [
+        45.11266754597608,
+        117.3044782878609
+      ],
+      "overshoot": 37.3044782878609,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "9e073522-912e-487d-917f-8f4a818586d2",
+      "event_type": "Carry",
+      "point": [
+        45.29406786033425,
+        111.47896243851234
+      ],
+      "overshoot": 31.47896243851234,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e8d95ea2-ad4b-436a-b97a-915df39ee7ec",
+      "event_type": "Pass",
+      "point": [
+        72.85431142089213,
+        80.84403327459822
+      ],
+      "overshoot": 0.8440332745982175,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1c9fc608-26c3-4def-98e7-9f124ee645b5",
+      "event_type": "Ball Receipt*",
+      "point": [
+        67.99129054589424,
+        81.47790691979844
+      ],
+      "overshoot": 1.4779069197984427,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4e1755be-7dbf-4e3c-b2bc-563e6c9f1739",
+      "event_type": "Carry",
+      "point": [
+        67.99129054589424,
+        81.47790691979844
+      ],
+      "overshoot": 1.4779069197984427,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "90b24b30-b943-4c73-a3b4-ac3e42d844b6",
+      "event_type": "Ball Receipt*",
+      "point": [
+        87.53958627517216,
+        85.30895099470386
+      ],
+      "overshoot": 5.308950994703864,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "90b24b30-b943-4c73-a3b4-ac3e42d844b6",
+      "event_type": "Ball Receipt*",
+      "point": [
+        95.3288468681739,
+        84.18612938419459
+      ],
+      "overshoot": 4.186129384194587,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2e5094c1-2d14-4e59-b51c-2f674fa35002",
+      "event_type": "Carry",
+      "point": [
+        87.53958627517216,
+        85.30895099470386
+      ],
+      "overshoot": 5.308950994703864,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2e5094c1-2d14-4e59-b51c-2f674fa35002",
+      "event_type": "Carry",
+      "point": [
+        95.3288468681739,
+        84.18612938419459
+      ],
+      "overshoot": 4.186129384194587,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "3c4e5e43-3b40-4f0a-9dce-3e0d7c54c3ee",
+      "event_type": "Ball Receipt*",
+      "point": [
+        -1.516737139802082,
+        35.77824874431161
+      ],
+      "overshoot": 1.516737139802082,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "fd2f2990-6109-4b7b-887e-21a703161529",
+      "event_type": "Interception",
+      "point": [
+        -1.516737139802082,
+        35.77824874431161
+      ],
+      "overshoot": 1.516737139802082,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "f4a1e338-b49d-4a37-b1fc-99c948b9f0ad",
+      "event_type": "Ball Receipt*",
+      "point": [
+        105.19664608789198,
+        80.60835932331399
+      ],
+      "overshoot": 0.6083593233139908,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c7ff45bc-1375-4bd5-8c19-cbbae0f91671",
+      "event_type": "Carry",
+      "point": [
+        105.19664608789198,
+        80.60835932331399
+      ],
+      "overshoot": 0.6083593233139908,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2d497485-2131-4f03-9b19-d9d8f234bfe5",
+      "event_type": "Pass",
+      "point": [
+        39.33762041625667,
+        -0.150345989604034
+      ],
+      "overshoot": 0.150345989604034,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fdaf34e5-32a5-44a2-8604-2fbb6ee29466",
+      "event_type": "Pass",
+      "point": [
+        85.2508450296864,
+        84.78236716299902
+      ],
+      "overshoot": 4.782367162999023,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6bdf49c2-27b1-48b8-82e2-6f63ab2f4150",
+      "event_type": "Ball Receipt*",
+      "point": [
+        83.21123295447902,
+        83.80823275612738
+      ],
+      "overshoot": 3.8082327561273814,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "161b276e-1d9f-4b2b-a5a7-dc1e62a84d56",
+      "event_type": "Pass",
+      "point": [
+        83.21123295447902,
+        83.80823275612738
+      ],
+      "overshoot": 3.8082327561273814,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e7a6a3b0-12a6-40e1-b8e3-ce1622ff572d",
+      "event_type": "Pass",
+      "point": [
+        88.42175980791993,
+        -0.19830653270877008
+      ],
+      "overshoot": 0.19830653270877008,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4c25fbfb-1fab-4caf-abd6-ac2ce9d00420",
+      "event_type": "Pass",
+      "point": [
+        67.11483070652554,
+        84.10344416052519
+      ],
+      "overshoot": 4.103444160525186,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "47244327-5e84-4d84-b0d6-a309b9ddf460",
+      "event_type": "Pass",
+      "point": [
+        78.88174453464727,
+        81.68418921379606
+      ],
+      "overshoot": 1.68418921379606,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "bf256a4a-aa79-4433-a9da-8f576456db46",
+      "event_type": "Pass",
+      "point": [
+        35.41934641072027,
+        -1.4952480988068153
+      ],
+      "overshoot": 1.4952480988068153,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7b7f11bf-aae3-4e59-aafd-87335a18ea4b",
+      "event_type": "Pass",
+      "point": [
+        32.61272428631009,
+        83.44901828087575
+      ],
+      "overshoot": 3.449018280875748,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0e1c5235-6721-4d78-abd5-02f504de9484",
+      "event_type": "Pass",
+      "point": [
+        50.44282984045484,
+        -2.7238062778107235
+      ],
+      "overshoot": 2.7238062778107235,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1738bd40-b6d2-41e7-ad1c-cd50982dd110",
+      "event_type": "Ball Receipt*",
+      "point": [
+        54.33541546478367,
+        -1.7212698280489072
+      ],
+      "overshoot": 1.7212698280489072,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "17c14238-c23c-4dae-8924-cdb54d2886c5",
+      "event_type": "Carry",
+      "point": [
+        54.33541546478367,
+        -1.7212698280489072
+      ],
+      "overshoot": 1.7212698280489072,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4d12101f-0909-4193-aca6-59e3d857e27d",
+      "event_type": "Pass",
+      "point": [
+        50.05290131379917,
+        -2.6231785147024596
+      ],
+      "overshoot": 2.6231785147024596,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7de2171d-c632-4df9-b20e-92471e08de9d",
+      "event_type": "Ball Receipt*",
+      "point": [
+        62.78512558826942,
+        -3.304171962694653
+      ],
+      "overshoot": 3.304171962694653,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7de2171d-c632-4df9-b20e-92471e08de9d",
+      "event_type": "Ball Receipt*",
+      "point": [
+        68.65934860389473,
+        -0.3311461428326865
+      ],
+      "overshoot": 0.3311461428326865,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6a2254cf-abd9-4678-84a1-8e47d1c7bb58",
+      "event_type": "Carry",
+      "point": [
+        62.78512558826942,
+        -3.304171962694653
+      ],
+      "overshoot": 3.304171962694653,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6a2254cf-abd9-4678-84a1-8e47d1c7bb58",
+      "event_type": "Carry",
+      "point": [
+        68.65934860389473,
+        -0.3311461428326865
+      ],
+      "overshoot": 0.3311461428326865,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e7afce68-5a40-43d5-b10a-240b024da474",
+      "event_type": "Pass",
+      "point": [
+        61.80099049390909,
+        -3.844640923445443
+      ],
+      "overshoot": 3.844640923445443,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e7afce68-5a40-43d5-b10a-240b024da474",
+      "event_type": "Pass",
+      "point": [
+        69.08576236626658,
+        -1.4241058685422523
+      ],
+      "overshoot": 1.4241058685422523,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6dbd3a18-3c14-4e88-a0a6-6080d4c3293a",
+      "event_type": "Ball Receipt*",
+      "point": [
+        66.19489357276606,
+        80.04907266808975
+      ],
+      "overshoot": 0.04907266808974953,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6dbd3a18-3c14-4e88-a0a6-6080d4c3293a",
+      "event_type": "Ball Receipt*",
+      "point": [
+        70.58788119211741,
+        82.7400017235197
+      ],
+      "overshoot": 2.740001723519697,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6dbd3a18-3c14-4e88-a0a6-6080d4c3293a",
+      "event_type": "Ball Receipt*",
+      "point": [
+        79.26191685998296,
+        100.48495643688923
+      ],
+      "overshoot": 20.484956436889235,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "140c19f7-7a12-4e72-8f52-363f0336b216",
+      "event_type": "Carry",
+      "point": [
+        66.19489357276606,
+        80.04907266808975
+      ],
+      "overshoot": 0.04907266808974953,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "140c19f7-7a12-4e72-8f52-363f0336b216",
+      "event_type": "Carry",
+      "point": [
+        70.58788119211741,
+        82.7400017235197
+      ],
+      "overshoot": 2.740001723519697,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "140c19f7-7a12-4e72-8f52-363f0336b216",
+      "event_type": "Carry",
+      "point": [
+        79.26191685998296,
+        100.48495643688923
+      ],
+      "overshoot": 20.484956436889235,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e077769c-5d20-44a0-9d47-664f84f5798b",
+      "event_type": "Ball Receipt*",
+      "point": [
+        42.72630258223864,
+        -2.3808339095388895
+      ],
+      "overshoot": 2.3808339095388895,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "12105087-d898-4afc-a895-1acd48fb2a1d",
+      "event_type": "Carry",
+      "point": [
+        42.72630258223864,
+        -2.3808339095388895
+      ],
+      "overshoot": 2.3808339095388895,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5d246b79-8023-4e13-99cf-4b582d9479fe",
+      "event_type": "Dispossessed",
+      "point": [
+        60.53871492317814,
+        80.32891521093643
+      ],
+      "overshoot": 0.3289152109364295,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "822d6e3f-6c9e-4731-8e9f-bb16f5c2f7ba",
+      "event_type": "Duel",
+      "point": [
+        60.53871492317814,
+        80.32891521093643
+      ],
+      "overshoot": 0.3289152109364295,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "957f9018-1e9a-4a85-9e6a-ba24476e33a8",
+      "event_type": "Pass",
+      "point": [
+        79.67397277191013,
+        80.76428772771942
+      ],
+      "overshoot": 0.7642877277194202,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7a9fcab9-8ef4-41a7-90a8-43c4afe09a7b",
+      "event_type": "Pass",
+      "point": [
+        86.21910158207811,
+        80.42025842026217
+      ],
+      "overshoot": 0.4202584202621722,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "68f7147f-80d0-4065-9ba9-4e600416f1b5",
+      "event_type": "Ball Receipt*",
+      "point": [
+        64.72673580003651,
+        -3.0970919268755637
+      ],
+      "overshoot": 3.0970919268755637,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "68f7147f-80d0-4065-9ba9-4e600416f1b5",
+      "event_type": "Ball Receipt*",
+      "point": [
+        68.22699129956364,
+        -0.31015817812875923
+      ],
+      "overshoot": 0.31015817812875923,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fe6a32fc-ea17-46b5-8251-1c4e48993025",
+      "event_type": "Carry",
+      "point": [
+        64.72673580003651,
+        -3.0970919268755637
+      ],
+      "overshoot": 3.0970919268755637,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fe6a32fc-ea17-46b5-8251-1c4e48993025",
+      "event_type": "Carry",
+      "point": [
+        68.22699129956364,
+        -0.31015817812875923
+      ],
+      "overshoot": 0.31015817812875923,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ecd2a1c5-be5b-4477-bb51-2a0e5c7ba660",
+      "event_type": "Ball Receipt*",
+      "point": [
+        58.095061628983174,
+        -3.691993206776104
+      ],
+      "overshoot": 3.691993206776104,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "75fd13ae-2fb4-4433-a8ab-2f2bab321dd9",
+      "event_type": "Carry",
+      "point": [
+        58.095061628983174,
+        -3.691993206776104
+      ],
+      "overshoot": 3.691993206776104,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2cba696e-437c-44d6-b5f2-c45a5de644d6",
+      "event_type": "Pass",
+      "point": [
+        98.76040312671734,
+        -0.1062329695033597
+      ],
+      "overshoot": 0.1062329695033597,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5161d102-b5ab-40df-bb96-63fdbd679140",
+      "event_type": "Pass",
+      "point": [
+        88.95569595975215,
+        84.59694865972376
+      ],
+      "overshoot": 4.596948659723765,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5161d102-b5ab-40df-bb96-63fdbd679140",
+      "event_type": "Pass",
+      "point": [
+        94.23486921449035,
+        80.44090123112144
+      ],
+      "overshoot": 0.44090123112144397,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "385ccf1a-bb5b-428e-ad0a-f73cab1d7f8f",
+      "event_type": "Ball Receipt*",
+      "point": [
+        94.39329973179633,
+        81.93408370430379
+      ],
+      "overshoot": 1.934083704303788,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "93773d83-31b4-4f11-90a6-8b465834de96",
+      "event_type": "Carry",
+      "point": [
+        94.39329973179633,
+        81.93408370430379
+      ],
+      "overshoot": 1.934083704303788,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f7d93410-d49a-4472-b6f9-6980fdffb7d4",
+      "event_type": "Pass",
+      "point": [
+        95.75342005857479,
+        81.38582516218653
+      ],
+      "overshoot": 1.385825162186535,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1e6226ab-b937-4ada-99cc-102eee614fc9",
+      "event_type": "Ball Receipt*",
+      "point": [
+        121.60716082429592,
+        44.03860355801677
+      ],
+      "overshoot": 1.6071608242959172,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "6701a5eb-0ac8-49c0-9401-35cf05490ac4",
+      "event_type": "Pass",
+      "point": [
+        120.50716235017482,
+        44.43860126919841
+      ],
+      "overshoot": 0.5071623501748235,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "9716af13-0c93-4196-ac0f-273fd4f58f94",
+      "event_type": "Pass",
+      "point": [
+        53.76016037642931,
+        81.49245562222754
+      ],
+      "overshoot": 1.4924556222275385,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e5399776-def6-4a4d-b900-062784cd4554",
+      "event_type": "Ball Receipt*",
+      "point": [
+        57.226772649988774,
+        81.20462394652719
+      ],
+      "overshoot": 1.2046239465271924,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "909ff7e4-7842-4b3a-a4ad-6fbea208f104",
+      "event_type": "Carry",
+      "point": [
+        57.226772649988774,
+        81.20462394652719
+      ],
+      "overshoot": 1.2046239465271924,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e24e3a54-5cde-41bf-94c6-0ee25313bf0b",
+      "event_type": "Pass",
+      "point": [
+        64.00008071111662,
+        82.50270373770552
+      ],
+      "overshoot": 2.5027037377055166,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "481ec241-2684-42f4-b768-26d23433d7bb",
+      "event_type": "Ball Receipt*",
+      "point": [
+        66.92245655615754,
+        86.35346231970746
+      ],
+      "overshoot": 6.353462319707461,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "71372d9e-6b1b-4e67-81d4-74612e7fa168",
+      "event_type": "Carry",
+      "point": [
+        66.92245655615754,
+        86.35346231970746
+      ],
+      "overshoot": 6.353462319707461,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "a14be48c-e88b-40fb-b2c5-2da2e9329b2d",
+      "event_type": "Pass",
+      "point": [
+        64.17012007444781,
+        -2.098762307505936
+      ],
+      "overshoot": 2.098762307505936,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "47d56c38-92ba-4a6b-a767-fdc46241942b",
+      "event_type": "Ball Receipt*",
+      "point": [
+        68.46337901814152,
+        81.82099040582864
+      ],
+      "overshoot": 1.8209904058286384,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "64a24b1a-adda-4dfc-8384-27bc347ee3e2",
+      "event_type": "Carry",
+      "point": [
+        68.46337901814152,
+        81.82099040582864
+      ],
+      "overshoot": 1.8209904058286384,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5b2ffeb0-3852-4d8c-b252-083d403dff4d",
+      "event_type": "Pass",
+      "point": [
+        66.98849599026457,
+        82.78197686720685
+      ],
+      "overshoot": 2.7819768672068506,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "07a979e9-0f21-4e05-a320-556645b49451",
+      "event_type": "Pressure",
+      "point": [
+        54.58612401954622,
+        -2.000455666240022
+      ],
+      "overshoot": 2.000455666240022,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "95714542-1101-4dc2-afbe-28cec096ae59",
+      "event_type": "Pass",
+      "point": [
+        67.68465143859295,
+        80.22810571418638
+      ],
+      "overshoot": 0.22810571418638403,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f8ee089b-9ab1-4837-a4b9-4a121c52f85f",
+      "event_type": "Pass",
+      "point": [
+        69.19919027997642,
+        -0.8664837546110036
+      ],
+      "overshoot": 0.8664837546110036,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1a58a642-34c9-4008-8d48-debad72e09fa",
+      "event_type": "Ball Receipt*",
+      "point": [
+        69.4623049819303,
+        82.75269507995725
+      ],
+      "overshoot": 2.752695079957249,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "202bfc13-936c-439a-a9f8-2910cb6fbd01",
+      "event_type": "Carry",
+      "point": [
+        69.4623049819303,
+        82.75269507995725
+      ],
+      "overshoot": 2.752695079957249,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "43474e2e-5650-41e5-a579-e74a9c3287bc",
+      "event_type": "Pass",
+      "point": [
+        71.83982129641865,
+        80.88178546076071
+      ],
+      "overshoot": 0.8817854607607103,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "82c42b7c-e311-4739-8c5b-0a1689942a39",
+      "event_type": "Clearance",
+      "point": [
+        -1.0299422281374646,
+        37.40815446901598
+      ],
+      "overshoot": 1.0299422281374646,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "82c42b7c-e311-4739-8c5b-0a1689942a39",
+      "event_type": "Clearance",
+      "point": [
+        -0.6562603254608561,
+        4.902435954789688
+      ],
+      "overshoot": 0.6562603254608561,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0ca3c767-c305-4323-9e72-6c6d3bfb4a16",
+      "event_type": "Pressure",
+      "point": [
+        44.875554205126264,
+        -1.366027667746188
+      ],
+      "overshoot": 1.366027667746188,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1cabca50-27c0-4904-8395-7ce4b1ab7e79",
+      "event_type": "Pass",
+      "point": [
+        76.77899091984318,
+        82.64141640919455
+      ],
+      "overshoot": 2.641416409194548,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "beb9fb73-b724-4fa1-a258-795d467a0803",
+      "event_type": "Pressure",
+      "point": [
+        -0.8156007235442218,
+        50.021675284268284
+      ],
+      "overshoot": 0.8156007235442218,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "beb9fb73-b724-4fa1-a258-795d467a0803",
+      "event_type": "Pressure",
+      "point": [
+        14.748730918449354,
+        86.29226441434764
+      ],
+      "overshoot": 6.292264414347642,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "55c4293e-4107-43c8-b156-ca2eb54c96cb",
+      "event_type": "Pressure",
+      "point": [
+        -1.0550785409251873,
+        43.20863181404186
+      ],
+      "overshoot": 1.0550785409251873,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "fd679ad0-97d6-4822-ac01-1a859f856540",
+      "event_type": "Dribbled Past",
+      "point": [
+        120.23763752754107,
+        38.900270374094205
+      ],
+      "overshoot": 0.23763752754106804,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "9606a641-50f2-4ac2-851d-0a06dd6978bd",
+      "event_type": "Dribble",
+      "point": [
+        120.23763752754107,
+        38.900270374094205
+      ],
+      "overshoot": 0.23763752754106804,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "4b7c1482-4e5b-42b3-a126-f64b8d088acc",
+      "event_type": "Carry",
+      "point": [
+        120.23763752754107,
+        38.900270374094205
+      ],
+      "overshoot": 0.23763752754106804,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "76477212-b8b9-468b-b612-28428ac2d2cc",
+      "event_type": "Pressure",
+      "point": [
+        120.18495749027886,
+        45.42486262318344
+      ],
+      "overshoot": 0.18495749027886177,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "c48c59f1-d7d4-4c50-8d9b-c49f60332365",
+      "event_type": "Pass",
+      "point": [
+        -0.425893726965505,
+        35.35732525709105
+      ],
+      "overshoot": 0.425893726965505,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "c1016e36-8ecb-4048-befd-35abb18e6b4c",
+      "event_type": "Pass",
+      "point": [
+        59.89536251090888,
+        81.65327086688418
+      ],
+      "overshoot": 1.653270866884185,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "a3afdb3a-3f3f-4d05-84ff-57c9cbf44f93",
+      "event_type": "Ball Receipt*",
+      "point": [
+        63.734473381585616,
+        84.11321351242294
+      ],
+      "overshoot": 4.113213512422945,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "8cb687d0-b3f5-451a-8f08-61b249f83196",
+      "event_type": "Carry",
+      "point": [
+        63.734473381585616,
+        84.11321351242294
+      ],
+      "overshoot": 4.113213512422945,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e69002bd-e1fa-4c7c-91f4-2670b33fe62c",
+      "event_type": "Pass",
+      "point": [
+        60.208002584387046,
+        80.87683050030586
+      ],
+      "overshoot": 0.8768305003058572,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "62ce4186-ac83-431f-bb7a-860026702735",
+      "event_type": "Pass",
+      "point": [
+        67.545924120968,
+        84.52393155836998
+      ],
+      "overshoot": 4.523931558369981,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f1b477d0-279b-4fc6-bad4-f317dd839794",
+      "event_type": "Pass",
+      "point": [
+        77.16731188664949,
+        80.50466335134519
+      ],
+      "overshoot": 0.5046633513451866,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5f6e075d-d85b-4d72-8198-0bc68571c237",
+      "event_type": "Pass",
+      "point": [
+        70.38501962977597,
+        81.02801853691176
+      ],
+      "overshoot": 1.028018536911759,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0c8a5213-3d86-4fde-824f-a7351259af65",
+      "event_type": "Ball Receipt*",
+      "point": [
+        83.60075126885617,
+        81.44652550182067
+      ],
+      "overshoot": 1.4465255018206733,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d0336d5f-1b15-43a8-bd5e-4bcc5b30b7c5",
+      "event_type": "Pass",
+      "point": [
+        83.60075126885617,
+        81.44652550182067
+      ],
+      "overshoot": 1.4465255018206733,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "08cd61b2-000d-460a-97fc-0e4136b5cdb8",
+      "event_type": "Ball Receipt*",
+      "point": [
+        81.10847676399617,
+        83.57613932476963
+      ],
+      "overshoot": 3.5761393247696276,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5ae7ee4a-4438-48e1-8e3f-5e5da32cfb00",
+      "event_type": "Carry",
+      "point": [
+        81.10847676399617,
+        83.57613932476963
+      ],
+      "overshoot": 3.5761393247696276,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4d0db004-863d-4366-a876-8c0633f803da",
+      "event_type": "Pass",
+      "point": [
+        78.59883051958882,
+        80.80727982437762
+      ],
+      "overshoot": 0.8072798243776163,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d104285a-e135-4876-9a77-f09ac307121b",
+      "event_type": "Pass",
+      "point": [
+        53.92113286624121,
+        82.67388428311793
+      ],
+      "overshoot": 2.6738842831179284,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "8a7392b0-1aa7-479b-a021-17c7950725c7",
+      "event_type": "Pass",
+      "point": [
+        60.21130212832674,
+        80.59277129300555
+      ],
+      "overshoot": 0.5927712930055549,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "8a7392b0-1aa7-479b-a021-17c7950725c7",
+      "event_type": "Pass",
+      "point": [
+        80.16305191891043,
+        83.6943682933065
+      ],
+      "overshoot": 3.6943682933064963,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "87e641a0-c17c-4274-8972-743fc65b76f0",
+      "event_type": "Ball Receipt*",
+      "point": [
+        80.40195579440218,
+        81.41306636526159
+      ],
+      "overshoot": 1.4130663652615851,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1e117c23-375a-4162-962a-cf5af5360b95",
+      "event_type": "Carry",
+      "point": [
+        80.40195579440218,
+        81.41306636526159
+      ],
+      "overshoot": 1.4130663652615851,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2241a962-fc19-42c1-966c-490af0fbee3a",
+      "event_type": "Pressure",
+      "point": [
+        40.874013508816724,
+        -2.2550224286563
+      ],
+      "overshoot": 2.2550224286563,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d8a2949e-1b75-44c3-b84b-38d9074d8397",
+      "event_type": "Pass",
+      "point": [
+        78.4309427831392,
+        85.55696725905591
+      ],
+      "overshoot": 5.556967259055909,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "222616d4-677f-47ed-a9be-741da6407487",
+      "event_type": "Ball Receipt*",
+      "point": [
+        74.40156987428776,
+        82.87427609251637
+      ],
+      "overshoot": 2.874276092516368,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "461a635d-245c-4199-955e-17e9b7cd5d30",
+      "event_type": "Carry",
+      "point": [
+        74.40156987428776,
+        82.87427609251637
+      ],
+      "overshoot": 2.874276092516368,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d13e7032-af3a-4ddf-a71e-67478e5c09c1",
+      "event_type": "Pass",
+      "point": [
+        73.18509697581595,
+        82.83094288261157
+      ],
+      "overshoot": 2.8309428826115663,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "41312f45-9070-4460-a0fb-6995595db106",
+      "event_type": "Ball Receipt*",
+      "point": [
+        42.77810551419881,
+        -1.1470154475574184
+      ],
+      "overshoot": 1.1470154475574184,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fcbc6f0f-a6db-4746-825b-490ee4ea5c01",
+      "event_type": "Interception",
+      "point": [
+        42.77810551419881,
+        -1.1470154475574184
+      ],
+      "overshoot": 1.1470154475574184,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dad258c6-3b8d-45ab-87ca-75cc4e4ba90b",
+      "event_type": "Pass",
+      "point": [
+        90.82487560775905,
+        80.9073315990426
+      ],
+      "overshoot": 0.9073315990426067,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fc08eafe-044f-4f64-b130-02d5728652c7",
+      "event_type": "Ball Receipt*",
+      "point": [
+        87.94489252306045,
+        83.35880198433264
+      ],
+      "overshoot": 3.3588019843326435,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e426dff1-c2be-496b-9772-642ed3c9edaa",
+      "event_type": "Carry",
+      "point": [
+        87.94489252306045,
+        83.35880198433264
+      ],
+      "overshoot": 3.3588019843326435,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e963527e-9a81-408c-92b9-ce3f5a4a1f9d",
+      "event_type": "Pass",
+      "point": [
+        84.96031772198374,
+        82.47441660256742
+      ],
+      "overshoot": 2.474416602567416,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b5da5269-9c10-4405-8016-ae7c2c8f0890",
+      "event_type": "Pass",
+      "point": [
+        70.0104388689843,
+        81.49773225957958
+      ],
+      "overshoot": 1.4977322595795783,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "724c1196-a627-4671-91b5-7cb62d8f56da",
+      "event_type": "Ball Receipt*",
+      "point": [
+        70.66246938949533,
+        80.2467577929074
+      ],
+      "overshoot": 0.24675779290740252,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "9cde26b2-2b0b-40e3-80dd-e21723a7a5a5",
+      "event_type": "Carry",
+      "point": [
+        70.66246938949533,
+        80.2467577929074
+      ],
+      "overshoot": 0.24675779290740252,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2c058398-05b1-47e3-8802-3f28df362753",
+      "event_type": "Pass",
+      "point": [
+        71.66957323815592,
+        83.52396002967897
+      ],
+      "overshoot": 3.5239600296789746,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c6e2fde0-89f2-4a14-9185-196b24ed0980",
+      "event_type": "Ball Receipt*",
+      "point": [
+        72.06332440312224,
+        80.93465041985704
+      ],
+      "overshoot": 0.9346504198570358,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6615e8a6-92a4-4631-877e-65630584254e",
+      "event_type": "Carry",
+      "point": [
+        72.06332440312224,
+        80.93465041985704
+      ],
+      "overshoot": 0.9346504198570358,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "112ac58c-7b1a-4ccb-9849-cd52475edfce",
+      "event_type": "Pass",
+      "point": [
+        57.20766482651632,
+        83.12706349557752
+      ],
+      "overshoot": 3.1270634955775165,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e5d57eb4-1d27-4121-bce5-f1e6a63b5aa8",
+      "event_type": "Foul Committed",
+      "point": [
+        66.38838491152407,
+        -1.0223642537309594
+      ],
+      "overshoot": 1.0223642537309594,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e70d2b7f-1a02-4bb8-8053-ab2728c5c2ba",
+      "event_type": "Foul Won",
+      "point": [
+        66.38838491152407,
+        -1.0223642537309594
+      ],
+      "overshoot": 1.0223642537309594,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "092d40b4-5667-4f49-a975-eb74f5170399",
+      "event_type": "Pressure",
+      "point": [
+        -0.6393112509498664,
+        41.987959672083406
+      ],
+      "overshoot": 0.6393112509498664,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "bf51b866-1ec8-4b9c-b0ce-acb959a4d07b",
+      "event_type": "Dispossessed",
+      "point": [
+        -0.9231144750265514,
+        38.84826394868872
+      ],
+      "overshoot": 0.9231144750265514,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "ed202fd5-c1c9-478a-b7de-07c32a1a55c4",
+      "event_type": "Duel",
+      "point": [
+        -0.9231144750265514,
+        38.84826394868872
+      ],
+      "overshoot": 0.9231144750265514,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "59544f87-2fe8-4576-ae37-77555c0e99c5",
+      "event_type": "Carry",
+      "point": [
+        -0.9231144750265514,
+        38.84826394868872
+      ],
+      "overshoot": 0.9231144750265514,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "f0aef880-5abb-4fa0-87fb-8c8285027335",
+      "event_type": "Pass",
+      "point": [
+        -1.8112300278977997,
+        37.90162532490628
+      ],
+      "overshoot": 1.8112300278977997,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "6a04b8eb-3b11-4a23-98c1-074b08e06dd8",
+      "event_type": "Pressure",
+      "point": [
+        67.66070087433293,
+        -1.187716477248287
+      ],
+      "overshoot": 1.187716477248287,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d088615e-6fb6-4824-af69-31530391efd5",
+      "event_type": "Ball Receipt*",
+      "point": [
+        51.40996749434923,
+        80.11853918391527
+      ],
+      "overshoot": 0.1185391839152743,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5e4b3434-f5c2-4cd8-9513-7f5d002fc55a",
+      "event_type": "Pass",
+      "point": [
+        51.40996749434923,
+        81.21853765803637
+      ],
+      "overshoot": 1.218537658036368,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "a9c46dca-921d-42a9-bcaa-acf1dd21536b",
+      "event_type": "Ball Receipt*",
+      "point": [
+        66.02661702266366,
+        -1.436794518732583
+      ],
+      "overshoot": 1.436794518732583,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "20bda55a-72b8-4917-9ea4-eb6b4748d9ee",
+      "event_type": "Pass",
+      "point": [
+        66.02661702266366,
+        -1.436794518732583
+      ],
+      "overshoot": 1.436794518732583,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0ddb51c4-20b7-41d5-9af2-89bdfd6027d0",
+      "event_type": "Pass",
+      "point": [
+        67.54165216131686,
+        86.96986330545332
+      ],
+      "overshoot": 6.969863305453316,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4e18300b-361e-42c6-958a-890eceb595bd",
+      "event_type": "Ball Receipt*",
+      "point": [
+        -3.933185983719156,
+        7.845703171836298
+      ],
+      "overshoot": 3.933185983719156,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f9786e15-8d2f-47e0-beab-2ef7131ddc42",
+      "event_type": "Goal Keeper",
+      "point": [
+        -3.933185983719156,
+        7.845703171836298
+      ],
+      "overshoot": 3.933185983719156,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "51d7afbc-cc70-40e8-bac4-eae143a9ff56",
+      "event_type": "Carry",
+      "point": [
+        -3.933185983719156,
+        7.845703171836298
+      ],
+      "overshoot": 3.933185983719156,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2beadeee-4d28-4ff5-b06a-28945fdce82f",
+      "event_type": "Ball Receipt*",
+      "point": [
+        19.727337572782886,
+        80.21215098264952
+      ],
+      "overshoot": 0.21215098264951848,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "284ac01d-eccf-4d9b-a077-4a5462534f64",
+      "event_type": "Pressure",
+      "point": [
+        93.16449349194784,
+        -1.1600900046578815
+      ],
+      "overshoot": 1.1600900046578815,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fd2b34b0-0ac0-4ec5-b94a-2beed1e088ee",
+      "event_type": "Pass",
+      "point": [
+        26.929520308733316,
+        81.84996587795108
+      ],
+      "overshoot": 1.8499658779510781,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2f062efe-d4ef-4928-9c49-2a15c0ab399c",
+      "event_type": "Pass",
+      "point": [
+        60.78187143576975,
+        -1.1166189641756397
+      ],
+      "overshoot": 1.1166189641756397,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b6de10b5-2e79-4245-99c4-cde82509bd48",
+      "event_type": "Ball Receipt*",
+      "point": [
+        70.35499287436532,
+        -2.455903645334587
+      ],
+      "overshoot": 2.455903645334587,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ba1dd00a-75b4-460b-bd76-299fec556a35",
+      "event_type": "Carry",
+      "point": [
+        70.35499287436532,
+        -2.455903645334587
+      ],
+      "overshoot": 2.455903645334587,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "93c50cbb-d9dc-4674-9787-5ba7b8f4c74a",
+      "event_type": "Pass",
+      "point": [
+        73.7687142187518,
+        -3.9258141318043727
+      ],
+      "overshoot": 3.9258141318043727,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7b2f7509-934b-4a97-af06-9109c6194ad1",
+      "event_type": "Ball Receipt*",
+      "point": [
+        74.74503853850999,
+        -2.024095008404334
+      ],
+      "overshoot": 2.024095008404334,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "91959789-456d-4c34-80a1-6f10d6b0ea7a",
+      "event_type": "Carry",
+      "point": [
+        74.74503853850999,
+        -2.024095008404334
+      ],
+      "overshoot": 2.024095008404334,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5b06292d-d759-4c45-8751-0bac3d6a7ea8",
+      "event_type": "Ball Receipt*",
+      "point": [
+        86.56677355229078,
+        -1.0235427419203376
+      ],
+      "overshoot": 1.0235427419203376,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f397b51f-7cbf-437f-a846-1cc5ea0dba5f",
+      "event_type": "Carry",
+      "point": [
+        86.56677355229078,
+        -1.0235427419203376
+      ],
+      "overshoot": 1.0235427419203376,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "8f48395c-b10b-48aa-ad46-c8133c78f750",
+      "event_type": "Pass",
+      "point": [
+        87.32589540009918,
+        -6.1959625213319285
+      ],
+      "overshoot": 6.1959625213319285,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "8f48395c-b10b-48aa-ad46-c8133c78f750",
+      "event_type": "Pass",
+      "point": [
+        90.88289880008138,
+        -1.4198153155298314
+      ],
+      "overshoot": 1.4198153155298314,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7c42fb24-0cca-43ea-934b-500e7686ce79",
+      "event_type": "Pass",
+      "point": [
+        26.2234835559899,
+        83.91683046213694
+      ],
+      "overshoot": 3.916830462136943,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "731f1d07-52ef-4ced-9241-8499218ecb31",
+      "event_type": "Pass",
+      "point": [
+        20.147635432308903,
+        81.24910780750527
+      ],
+      "overshoot": 1.2491078075052684,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "abbda82e-8d64-433e-a0d5-3c0a2f88aead",
+      "event_type": "Ball Receipt*",
+      "point": [
+        32.55094918803729,
+        87.73856472600201
+      ],
+      "overshoot": 7.738564726002011,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "329a053f-33aa-468c-90aa-e3e51ac2d7de",
+      "event_type": "Carry",
+      "point": [
+        32.55094918803729,
+        87.73856472600201
+      ],
+      "overshoot": 7.738564726002011,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f371886a-af68-4f7c-b521-1199e35f8013",
+      "event_type": "Pass",
+      "point": [
+        23.332204708059678,
+        81.56675073868192
+      ],
+      "overshoot": 1.5667507386819182,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "cfb895f9-f673-487f-8296-730cc8ef2e51",
+      "event_type": "Pressure",
+      "point": [
+        77.43925323341338,
+        -0.32261688500756236
+      ],
+      "overshoot": 0.32261688500756236,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2356683a-a835-4d95-b1c9-690735e83db1",
+      "event_type": "Ball Receipt*",
+      "point": [
+        41.528280696850246,
+        80.51862100589912
+      ],
+      "overshoot": 0.5186210058991207,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4c720399-b44f-4194-a5e3-9598f47d9b05",
+      "event_type": "Carry",
+      "point": [
+        41.528280696850246,
+        80.51862100589912
+      ],
+      "overshoot": 0.5186210058991207,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5d5eba71-724b-458f-b376-795ce4a5264d",
+      "event_type": "Ball Receipt*",
+      "point": [
+        71.67685565244587,
+        -5.550919202782726
+      ],
+      "overshoot": 5.550919202782726,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5d5eba71-724b-458f-b376-795ce4a5264d",
+      "event_type": "Ball Receipt*",
+      "point": [
+        74.02221367640931,
+        -2.3482102700698455
+      ],
+      "overshoot": 2.3482102700698455,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5d5eba71-724b-458f-b376-795ce4a5264d",
+      "event_type": "Ball Receipt*",
+      "point": [
+        85.27959202670228,
+        -7.012407077864257
+      ],
+      "overshoot": 7.012407077864257,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "5d5eba71-724b-458f-b376-795ce4a5264d",
+      "event_type": "Ball Receipt*",
+      "point": [
+        87.13710871826365,
+        -3.2665836748269506
+      ],
+      "overshoot": 3.2665836748269506,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "66c33c15-2f6d-4680-bbf6-241ff134e01f",
+      "event_type": "Carry",
+      "point": [
+        71.67685565244587,
+        -5.550919202782726
+      ],
+      "overshoot": 5.550919202782726,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "66c33c15-2f6d-4680-bbf6-241ff134e01f",
+      "event_type": "Carry",
+      "point": [
+        74.02221367640931,
+        -2.3482102700698455
+      ],
+      "overshoot": 2.3482102700698455,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "66c33c15-2f6d-4680-bbf6-241ff134e01f",
+      "event_type": "Carry",
+      "point": [
+        85.27959202670228,
+        -7.012407077864257
+      ],
+      "overshoot": 7.012407077864257,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "66c33c15-2f6d-4680-bbf6-241ff134e01f",
+      "event_type": "Carry",
+      "point": [
+        87.13710871826365,
+        -3.2665836748269506
+      ],
+      "overshoot": 3.2665836748269506,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fcac4adc-433f-47c8-aebf-f5d7a0113e65",
+      "event_type": "Pass",
+      "point": [
+        76.42400227986286,
+        -3.368607987227179
+      ],
+      "overshoot": 3.368607987227179,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fcac4adc-433f-47c8-aebf-f5d7a0113e65",
+      "event_type": "Pass",
+      "point": [
+        85.36119794369749,
+        -6.430069984707579
+      ],
+      "overshoot": 6.430069984707579,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fcac4adc-433f-47c8-aebf-f5d7a0113e65",
+      "event_type": "Pass",
+      "point": [
+        88.7815271783595,
+        -1.7706656800086051
+      ],
+      "overshoot": 1.7706656800086051,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4954ee9a-0b47-4863-9222-800af23461d0",
+      "event_type": "Ball Receipt*",
+      "point": [
+        84.12009678627575,
+        -0.23972852600569894
+      ],
+      "overshoot": 0.23972852600569894,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c4414904-6772-4384-bb7f-a8f46ca8a845",
+      "event_type": "Carry",
+      "point": [
+        84.12009678627575,
+        -0.23972852600569894
+      ],
+      "overshoot": 0.23972852600569894,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "bc1faa5e-656e-4414-be37-12e4b2083537",
+      "event_type": "Pressure",
+      "point": [
+        79.01640126068334,
+        80.29299311147801
+      ],
+      "overshoot": 0.29299311147801177,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "bf65654c-f1b4-4ecb-b6b4-77f4676c0d28",
+      "event_type": "Pass",
+      "point": [
+        67.04929998190416,
+        85.25595525203639
+      ],
+      "overshoot": 5.255955252036387,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1452fa4c-8a2f-4fcc-9eb7-ca35209c0a49",
+      "event_type": "Ball Receipt*",
+      "point": [
+        64.48992607831403,
+        80.49224254473998
+      ],
+      "overshoot": 0.4922425447399803,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c4363e65-3654-4e61-ad0a-eadb2bdd0b78",
+      "event_type": "Carry",
+      "point": [
+        64.48992607831403,
+        80.49224254473998
+      ],
+      "overshoot": 0.4922425447399803,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0e1711ad-f4f3-40e4-8645-ec177c4cefcd",
+      "event_type": "Pass",
+      "point": [
+        61.87442416660768,
+        85.8608196923458
+      ],
+      "overshoot": 5.8608196923458,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "46420810-51eb-4089-9d90-d93c26ded161",
+      "event_type": "Ball Receipt*",
+      "point": [
+        51.64743796829403,
+        -2.564253383818695
+      ],
+      "overshoot": 2.564253383818695,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f08d44f5-b2c5-43ed-b4e2-3297b5bf8a3b",
+      "event_type": "Carry",
+      "point": [
+        51.64743796829403,
+        -2.564253383818695
+      ],
+      "overshoot": 2.564253383818695,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ace8f864-5ca4-446e-9e96-5a22432424a1",
+      "event_type": "Pass",
+      "point": [
+        59.203341361508606,
+        83.60847683950081
+      ],
+      "overshoot": 3.6084768395008098,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ef287d09-a3d7-4a6a-ac1c-73427d8829d7",
+      "event_type": "Ball Receipt*",
+      "point": [
+        78.81773795913296,
+        80.01219679840298
+      ],
+      "overshoot": 0.012196798402982267,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "02f8b0e7-3753-49ce-93bd-cb40cb00208a",
+      "event_type": "Carry",
+      "point": [
+        78.81773795913296,
+        80.01219679840298
+      ],
+      "overshoot": 0.012196798402982267,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0c86b00b-4700-40d7-aa17-a576541b3692",
+      "event_type": "Pass",
+      "point": [
+        79.30727802339446,
+        81.60287013078586
+      ],
+      "overshoot": 1.6028701307858597,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "614eebbf-f482-4c79-96ca-1f481e2902d1",
+      "event_type": "Pass",
+      "point": [
+        78.97731212509002,
+        83.41477626703109
+      ],
+      "overshoot": 3.414776267031087,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "8c288f74-24e7-4a8a-b743-de4cb7383861",
+      "event_type": "Pass",
+      "point": [
+        76.7880206892898,
+        83.04140740180064
+      ],
+      "overshoot": 3.0414074018006403,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b19788cb-6886-48cd-a931-44c426d58710",
+      "event_type": "Pass",
+      "point": [
+        49.464461473390045,
+        80.29376055750188
+      ],
+      "overshoot": 0.29376055750188357,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "da145e65-0655-49d3-9f9a-4897489d14b7",
+      "event_type": "Pass",
+      "point": [
+        59.64282549208654,
+        82.41673123293714
+      ],
+      "overshoot": 2.4167312329371384,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dba4bbf3-75dd-4a6c-b6a8-e01781ec4a21",
+      "event_type": "Pass",
+      "point": [
+        37.69777768855675,
+        -0.5312208127891367
+      ],
+      "overshoot": 0.5312208127891367,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dba4bbf3-75dd-4a6c-b6a8-e01781ec4a21",
+      "event_type": "Pass",
+      "point": [
+        38.6617052521837,
+        -0.2542055195094335
+      ],
+      "overshoot": 0.2542055195094335,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "61d073fa-9d87-4071-bbf9-0f48e59bcc63",
+      "event_type": "Pass",
+      "point": [
+        99.91555025975568,
+        81.23945107578777
+      ],
+      "overshoot": 1.2394510757877697,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4511aada-e179-4784-8244-2f6129856875",
+      "event_type": "Ball Receipt*",
+      "point": [
+        42.71241552359657,
+        -3.1062104914611623
+      ],
+      "overshoot": 3.1062104914611623,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0ce73218-849a-4b09-995f-77e8317ff868",
+      "event_type": "Carry",
+      "point": [
+        42.71241552359657,
+        -3.1062104914611623
+      ],
+      "overshoot": 3.1062104914611623,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b25b928a-a7a1-483c-b213-063ff72a8788",
+      "event_type": "Pass",
+      "point": [
+        49.110747458573215,
+        -0.8804175524844453
+      ],
+      "overshoot": 0.8804175524844453,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f223069c-289b-4ff4-98f2-1b142625934c",
+      "event_type": "Ball Receipt*",
+      "point": [
+        54.05305306585489,
+        -0.17553258535173555
+      ],
+      "overshoot": 0.17553258535173555,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "cc4d9257-d510-44d4-89d0-325304b6cf7b",
+      "event_type": "Carry",
+      "point": [
+        54.05305306585489,
+        -0.17553258535173555
+      ],
+      "overshoot": 0.17553258535173555,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ccd89963-649f-42c4-b9b7-eb26bd49673b",
+      "event_type": "Ball Receipt*",
+      "point": [
+        74.42210561119444,
+        80.17057072268288
+      ],
+      "overshoot": 0.1705707226828821,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fa44e8b0-b278-4437-a284-b55071c00bd0",
+      "event_type": "Carry",
+      "point": [
+        74.42210561119444,
+        80.17057072268288
+      ],
+      "overshoot": 0.1705707226828821,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4005b21b-1f3b-469b-9785-c2c61648ab40",
+      "event_type": "Pass",
+      "point": [
+        61.64291435420598,
+        -2.739920667908656
+      ],
+      "overshoot": 2.739920667908656,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "88da1e10-c5a0-4ad3-99a5-329a5a8080b2",
+      "event_type": "Pass",
+      "point": [
+        52.802342741271055,
+        -1.511501029397479
+      ],
+      "overshoot": 1.511501029397479,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "01d3322c-15a3-415e-abb0-a5db3b22193c",
+      "event_type": "Pass",
+      "point": [
+        50.56518549302465,
+        -2.362673097783233
+      ],
+      "overshoot": 2.362673097783233,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "cba87f8f-ed7f-4386-b7a2-c6d3dc9d271c",
+      "event_type": "Pass",
+      "point": [
+        67.7497297166785,
+        -0.8160414647613763
+      ],
+      "overshoot": 0.8160414647613763,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "cba87f8f-ed7f-4386-b7a2-c6d3dc9d271c",
+      "event_type": "Pass",
+      "point": [
+        73.92438101239236,
+        -0.7647322623727959
+      ],
+      "overshoot": 0.7647322623727959,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "68851a9f-ae88-4180-83e5-cfe0bb89dde8",
+      "event_type": "Ball Receipt*",
+      "point": [
+        59.99631905006125,
+        80.30973454728813
+      ],
+      "overshoot": 0.3097345472881301,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7364917a-58f4-48fa-bf56-54f90f818be1",
+      "event_type": "Pass",
+      "point": [
+        59.99631905006125,
+        80.30973454728813
+      ],
+      "overshoot": 0.3097345472881301,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "46722f30-56c6-4f27-a91b-1bf48cf690a2",
+      "event_type": "Pass",
+      "point": [
+        46.11634807626564,
+        -1.8983909942573085
+      ],
+      "overshoot": 1.8983909942573085,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d87a739f-4d68-4c7e-b1aa-b89d3dd411f4",
+      "event_type": "Pass",
+      "point": [
+        81.61364649782021,
+        -1.4773148255047843
+      ],
+      "overshoot": 1.4773148255047843,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ce62696a-9971-40c3-a93a-4e92d02bf4ce",
+      "event_type": "Pressure",
+      "point": [
+        39.28290947357635,
+        81.42489811155218
+      ],
+      "overshoot": 1.4248981115521815,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2aa5fa59-f72a-464c-a3ad-004496a0152c",
+      "event_type": "Pressure",
+      "point": [
+        70.30509394013421,
+        -1.6629416362158835
+      ],
+      "overshoot": 1.6629416362158835,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2aa5fa59-f72a-464c-a3ad-004496a0152c",
+      "event_type": "Pressure",
+      "point": [
+        78.45767897012351,
+        -1.1512291496683602
+      ],
+      "overshoot": 1.1512291496683602,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ac8f1f17-2849-4975-b8dd-b88ccc168d3c",
+      "event_type": "Ball Receipt*",
+      "point": [
+        54.346367868719135,
+        -2.7884590031185112
+      ],
+      "overshoot": 2.7884590031185112,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ac8f1f17-2849-4975-b8dd-b88ccc168d3c",
+      "event_type": "Ball Receipt*",
+      "point": [
+        55.37668670475455,
+        -0.5666519305270263
+      ],
+      "overshoot": 0.5666519305270263,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "3aaf2969-32d3-4845-837d-079ddfdbd167",
+      "event_type": "Carry",
+      "point": [
+        54.346367868719135,
+        -2.7884590031185112
+      ],
+      "overshoot": 2.7884590031185112,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "3aaf2969-32d3-4845-837d-079ddfdbd167",
+      "event_type": "Carry",
+      "point": [
+        55.37668670475455,
+        -0.5666519305270263
+      ],
+      "overshoot": 0.5666519305270263,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e548c311-2494-4a1f-ab94-05365ae21acf",
+      "event_type": "Pass",
+      "point": [
+        58.573996890095586,
+        80.63883739139358
+      ],
+      "overshoot": 0.6388373913935794,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "aad9278b-5e3e-4ae0-ad24-ea1811f70ae6",
+      "event_type": "Pass",
+      "point": [
+        66.67305053101519,
+        81.8384420994814
+      ],
+      "overshoot": 1.838442099481398,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "637f31b5-a333-4ad0-acad-05ed3903045b",
+      "event_type": "Ball Receipt*",
+      "point": [
+        90.69976572215084,
+        80.42450900031841
+      ],
+      "overshoot": 0.4245090003184089,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d0f92dde-cc47-452c-9689-20926eb7850b",
+      "event_type": "Carry",
+      "point": [
+        90.69976572215084,
+        80.42450900031841
+      ],
+      "overshoot": 0.4245090003184089,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "54adb75e-ee6e-4ad4-9f1e-166ed339e95a",
+      "event_type": "Pass",
+      "point": [
+        90.86536231575617,
+        81.4057763561325
+      ],
+      "overshoot": 1.405776356132506,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c4d6cefe-fbab-479e-a834-acc226d2394f",
+      "event_type": "Pressure",
+      "point": [
+        32.57703377730321,
+        -0.294412971733891
+      ],
+      "overshoot": 0.294412971733891,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "d2bc766d-32e7-491f-a37d-0323bf77e51b",
+      "event_type": "Ball Receipt*",
+      "point": [
+        -0.809687423612047,
+        41.679549676784255
+      ],
+      "overshoot": 0.809687423612047,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "5b3a577e-4bf6-4f55-8818-d3264c66d65a",
+      "event_type": "Pressure",
+      "point": [
+        94.32725782281672,
+        -0.8722892231240991
+      ],
+      "overshoot": 0.8722892231240991,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "38409bf5-c2e3-419f-8fc1-11c0b772e01b",
+      "event_type": "Ball Receipt*",
+      "point": [
+        120.59089726379375,
+        39.020348717058575
+      ],
+      "overshoot": 0.5908972637937495,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "8cbc2c2c-5434-4a7a-8176-c4f80ac0032d",
+      "event_type": "Duel",
+      "point": [
+        120.59089726379375,
+        39.020348717058575
+      ],
+      "overshoot": 0.5908972637937495,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "a246da8e-f994-4231-9c9f-b5e23baf1d45",
+      "event_type": "Pass",
+      "point": [
+        88.60420126875152,
+        80.18447362515265
+      ],
+      "overshoot": 0.18447362515264842,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "01852fbc-df77-47a8-858c-a55cc27e77d9",
+      "event_type": "Ball Receipt*",
+      "point": [
+        92.36639155681665,
+        83.51009737944567
+      ],
+      "overshoot": 3.510097379445668,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "49aebf6c-95f0-4b28-9d12-31bf4bc95a7c",
+      "event_type": "Carry",
+      "point": [
+        92.36639155681665,
+        83.51009737944567
+      ],
+      "overshoot": 3.510097379445668,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "976905c7-fc61-46f0-b981-fcb6b01e3de4",
+      "event_type": "Ball Receipt*",
+      "point": [
+        94.85897389917346,
+        80.7087232370223
+      ],
+      "overshoot": 0.7087232370222978,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2913b4df-8a9d-42f3-a07e-7e540284d876",
+      "event_type": "Carry",
+      "point": [
+        94.85897389917346,
+        80.7087232370223
+      ],
+      "overshoot": 0.7087232370222978,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "2696096e-9aeb-4be0-b321-57d5205dd817",
+      "event_type": "Pass",
+      "point": [
+        93.1197910444567,
+        80.92009333388305
+      ],
+      "overshoot": 0.9200933338830453,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e6600fec-7e1f-42f8-a2e6-a2786c3ce90f",
+      "event_type": "Ball Receipt*",
+      "point": [
+        90.98101579933792,
+        81.53181614448913
+      ],
+      "overshoot": 1.5318161444891274,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4ffc492f-c425-4c7a-8956-58784a9beae1",
+      "event_type": "Carry",
+      "point": [
+        90.98101579933792,
+        81.53181614448913
+      ],
+      "overshoot": 1.5318161444891274,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4863dd68-ff1a-45bc-84f9-65bfd73e8685",
+      "event_type": "Pass",
+      "point": [
+        92.8543949726429,
+        86.61609158034547
+      ],
+      "overshoot": 6.6160915803454685,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "0f6e0b65-530a-4d87-a2f4-096099a81259",
+      "event_type": "Ball Receipt*",
+      "point": [
+        89.10067740518248,
+        83.97196986742132
+      ],
+      "overshoot": 3.971969867421322,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "bdd81870-562d-4a32-911c-d42dfa86a314",
+      "event_type": "Carry",
+      "point": [
+        89.10067740518248,
+        83.97196986742132
+      ],
+      "overshoot": 3.971969867421322,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "ee13561f-8755-408d-8b5f-982b251518e0",
+      "event_type": "Pass",
+      "point": [
+        87.93657378848759,
+        84.32770384071098
+      ],
+      "overshoot": 4.327703840710981,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c24056e0-14d5-4bec-8248-36218fba16b1",
+      "event_type": "Ball Receipt*",
+      "point": [
+        45.23609029343083,
+        80.14855414227225
+      ],
+      "overshoot": 0.14855414227224628,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "72cf5139-4ced-432c-8332-63b1c602c176",
+      "event_type": "Interception",
+      "point": [
+        45.23609029343083,
+        80.14855414227225
+      ],
+      "overshoot": 0.14855414227224628,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "96cd144a-4258-4cc2-bebe-88bcf394bac9",
+      "event_type": "Pass",
+      "point": [
+        56.65063099780881,
+        83.30205336502154
+      ],
+      "overshoot": 3.3020533650215356,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "7e10ff29-b6de-4f97-aef2-92034042649b",
+      "event_type": "Ball Receipt*",
+      "point": [
+        60.58418908584309,
+        -1.359976718744683
+      ],
+      "overshoot": 1.359976718744683,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "e019bde1-dc8d-4c19-ad92-e32f4966648b",
+      "event_type": "Carry",
+      "point": [
+        60.58418908584309,
+        -1.359976718744683
+      ],
+      "overshoot": 1.359976718744683,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1638ac3d-1ac4-41b9-9e9e-ea1bce0474b6",
+      "event_type": "Ball Receipt*",
+      "point": [
+        34.00698574040523,
+        81.50442910215168
+      ],
+      "overshoot": 1.5044291021516756,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "cf15b440-23c7-4526-b50d-20c76a35fbf1",
+      "event_type": "Duel",
+      "point": [
+        34.00698574040523,
+        81.50442910215168
+      ],
+      "overshoot": 1.5044291021516756,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b70ff4f9-fcbc-4244-8215-27a529fcee1f",
+      "event_type": "Pass",
+      "point": [
+        34.00698574040523,
+        81.50442910215168
+      ],
+      "overshoot": 1.5044291021516756,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f554e210-302c-4274-9570-efa92e84cc8d",
+      "event_type": "Ball Receipt*",
+      "point": [
+        37.57542296580461,
+        80.26464666634081
+      ],
+      "overshoot": 0.26464666634080913,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "62ce9ba8-f1bb-4e5d-b51b-920aad7c3d37",
+      "event_type": "Carry",
+      "point": [
+        37.57542296580461,
+        80.26464666634081
+      ],
+      "overshoot": 0.26464666634080913,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c56e5bfe-3abb-46f4-afab-96a81f9c2343",
+      "event_type": "Pass",
+      "point": [
+        63.914990053770126,
+        82.42676327610573
+      ],
+      "overshoot": 2.4267632761057314,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "96a9df0b-ba51-42f5-9ada-e1b2db34787e",
+      "event_type": "Ball Receipt*",
+      "point": [
+        64.27055423243584,
+        82.47854586094914
+      ],
+      "overshoot": 2.47854586094914,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "4e092c50-fc97-4667-b039-e7f23d8382e0",
+      "event_type": "Carry",
+      "point": [
+        64.27055423243584,
+        82.47854586094914
+      ],
+      "overshoot": 2.47854586094914,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6bca6f4d-a57a-483b-87f0-40f0baf2bf49",
+      "event_type": "Pass",
+      "point": [
+        60.64373192525802,
+        85.56777456664676
+      ],
+      "overshoot": 5.5677745666467615,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "98a72289-d3dc-41fb-9b2f-9077cd35a08e",
+      "event_type": "Pass",
+      "point": [
+        93.45552791434702,
+        80.08271420761896
+      ],
+      "overshoot": 0.08271420761896309,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "94058ae4-5e49-45d1-8843-1efd9f07da32",
+      "event_type": "Ball Receipt*",
+      "point": [
+        57.89697796456283,
+        -1.8351436224794213
+      ],
+      "overshoot": 1.8351436224794213,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "94058ae4-5e49-45d1-8843-1efd9f07da32",
+      "event_type": "Ball Receipt*",
+      "point": [
+        63.58293113914529,
+        -2.593802341537426
+      ],
+      "overshoot": 2.593802341537426,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dc62ff1a-1860-4b6e-b411-c848bb2d6b86",
+      "event_type": "Interception",
+      "point": [
+        57.89697796456283,
+        -1.8351436224794213
+      ],
+      "overshoot": 1.8351436224794213,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dc62ff1a-1860-4b6e-b411-c848bb2d6b86",
+      "event_type": "Interception",
+      "point": [
+        63.58293113914529,
+        -2.593802341537426
+      ],
+      "overshoot": 2.593802341537426,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "51dfd2d4-73f1-464a-9284-e954f4d0a352",
+      "event_type": "Pressure",
+      "point": [
+        32.79314301964688,
+        -0.07167256265607591
+      ],
+      "overshoot": 0.07167256265607591,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "42ec549e-cf0d-413a-af7b-e62bc805fc2f",
+      "event_type": "Ball Receipt*",
+      "point": [
+        73.5615939974222,
+        -1.7217624173931156
+      ],
+      "overshoot": 1.7217624173931156,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "cb424f4b-ec55-4c52-94b4-9d93676e299f",
+      "event_type": "Carry",
+      "point": [
+        73.5615939974222,
+        -1.7217624173931156
+      ],
+      "overshoot": 1.7217624173931156,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "3f51ff00-1dec-4253-9dc9-b1d80630b411",
+      "event_type": "Ball Receipt*",
+      "point": [
+        82.33281735665125,
+        -0.34235586784230065
+      ],
+      "overshoot": 0.34235586784230065,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "6cbae8ee-75c3-478a-9aa7-e88a5cb21d42",
+      "event_type": "Carry",
+      "point": [
+        82.33281735665125,
+        -0.34235586784230065
+      ],
+      "overshoot": 0.34235586784230065,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b5a25acf-7b71-4110-a348-1135edf49ec8",
+      "event_type": "Pass",
+      "point": [
+        97.81096544369846,
+        -2.482614796856609
+      ],
+      "overshoot": 2.482614796856609,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "1cef8d6c-c885-4eea-9783-6a0979b9c88a",
+      "event_type": "Ball Receipt*",
+      "point": [
+        98.32780696477728,
+        -1.796385160345345
+      ],
+      "overshoot": 1.796385160345345,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "b3d603ff-9f11-48a7-bd9c-9bdb1691c2e2",
+      "event_type": "Carry",
+      "point": [
+        98.32780696477728,
+        -1.796385160345345
+      ],
+      "overshoot": 1.796385160345345,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "71d1c62e-13bf-40bd-beab-b264e8ece344",
+      "event_type": "Pass",
+      "point": [
+        98.065391908314,
+        -0.5837088056675128
+      ],
+      "overshoot": 0.5837088056675128,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "3be6df8e-9f25-404d-a9ca-dddd9834ba9f",
+      "event_type": "Pressure",
+      "point": [
+        122.47692949689458,
+        38.80261148683741
+      ],
+      "overshoot": 2.4769294968945843,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "67e0b989-2e47-4a86-8c3d-9b58058f43e3",
+      "event_type": "Pass",
+      "point": [
+        -1.293087296390084,
+        39.38768413632971
+      ],
+      "overshoot": 1.293087296390084,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "126139c6-2f18-472b-8bd3-b32c94cef260",
+      "event_type": "Ball Receipt*",
+      "point": [
+        43.21298965319394,
+        81.01841857195883
+      ],
+      "overshoot": 1.0184185719588328,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "24a68f46-fab1-4aa8-a4f4-ae48fce0f272",
+      "event_type": "Duel",
+      "point": [
+        43.21298965319394,
+        81.01841857195883
+      ],
+      "overshoot": 1.0184185719588328,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "a1804f89-8d16-47e1-b8a0-c13d397c41ea",
+      "event_type": "Pass",
+      "point": [
+        43.21298965319394,
+        81.01841857195883
+      ],
+      "overshoot": 1.0184185719588328,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "a02bceb8-907d-4325-b7ca-3304f82a230a",
+      "event_type": "Pressure",
+      "point": [
+        -0.6828272654693563,
+        34.082691699129256
+      ],
+      "overshoot": 0.6828272654693563,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "30ce4b82-1b1a-4a82-ab6a-c57d56396449",
+      "event_type": "Pass",
+      "point": [
+        121.47101497946731,
+        42.33812152848191
+      ],
+      "overshoot": 1.4710149794673129,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "355d0d44-28ef-4d72-b5f5-3bf0d67b6eb6",
+      "event_type": "Ball Receipt*",
+      "point": [
+        77.95641839099466,
+        83.03789895162006
+      ],
+      "overshoot": 3.0378989516200647,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "fde5661c-dd2f-4c88-9a56-c88083c9de05",
+      "event_type": "Carry",
+      "point": [
+        77.95641839099466,
+        83.03789895162006
+      ],
+      "overshoot": 3.0378989516200647,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dd3fa67d-726c-4d1d-80d8-034160561716",
+      "event_type": "Pass",
+      "point": [
+        43.28413311254454,
+        80.48258867432997
+      ],
+      "overshoot": 0.48258867432997476,
+      "teammate": true,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "dd3fa67d-726c-4d1d-80d8-034160561716",
+      "event_type": "Pass",
+      "point": [
+        48.7070306339375,
+        80.61899066240461
+      ],
+      "overshoot": 0.6189906624046131,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "f76c8489-ad13-4a15-a67e-b884349eec1d",
+      "event_type": "Pass",
+      "point": [
+        120.21627455325846,
+        43.52713469781999
+      ],
+      "overshoot": 0.216274553258458,
+      "teammate": false,
+      "actor": false,
+      "keeper": false
+    },
+    {
+      "event_uuid": "c43168ed-9cd0-4b14-ad4c-a3ba21dba9a0",
+      "event_type": "Pressure",
+      "point": [
+        -0.38259505694539087,
+        39.704929895502886
+      ],
+      "overshoot": 0.38259505694539087,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "a6645e42-b90c-449f-9b4d-018c6c020937",
+      "event_type": "Dispossessed",
+      "point": [
+        -1.124099929651031,
+        40.74819204312975
+      ],
+      "overshoot": 1.124099929651031,
+      "teammate": false,
+      "actor": false,
+      "keeper": true
+    },
+    {
+      "event_uuid": "d73af7c1-241b-4790-a711-12804f97b870",
+      "event_type": "Duel",
+      "point": [
+        -1.124099929651031,
+        40.74819204312975
+      ],
+      "overshoot": 1.124099929651031,
+      "teammate": true,
+      "actor": false,
+      "keeper": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+ "rows": 55,
+ "matches": 46,
+ "offline_route": {
+  "display_duplicate_snapshot": 45,
+  "user_frame_review": 9,
+  "temporal_neighbor": 1
+ },
+ "event_types": {
+  "Carry": 42,
+  "Pass": 8,
+  "Ball Recovery": 2,
+  "Miscontrol": 1,
+  "Dispossessed": 1,
+  "Clearance": 1
+ },
+ "geometry_alone": {
+  "UNCERTAIN": 55
+ },
+ "rows_with_a_later_identical_copy": 24,
+ "rows_with_an_earlier_identical_copy": 29,
+ "offline_orientation": {
+  "ROTATED_180": 39,
+  "NORMAL": 16
+ },
+ "causal_route": {
+  "unresolved": 30,
+  "causal_kickoff_own_half": 1,
+  "causal_duplicate_snapshot": 23,
+  "causal_temporal_neighbor": 1
+ },
+ "causal_matches_offline": 25,
+ "causal_unavailable_actor_xy_empty": 30,
+ "causal_decided_but_differs_from_offline": 0,
+ "identity_causal_equals_offline": 38
+}

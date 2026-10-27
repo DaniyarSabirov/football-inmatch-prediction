@@ -1,0 +1,1689 @@
+{
+ "match_id": 3788743,
+ "teams_by_id": {
+  "796": "Russia",
+  "782": "Belgium"
+ },
+ "handedness_check": "StatsBomb y=0 is the attacker's LEFT (own-frame mean y: Left Back ~13, Right Back ~72); display draws y=0 at top -> proper, non-mirrored map",
+ "automatic_reference_team": "Russia",
+ "legacy_reference_by_period": {
+  "1": "Russia",
+  "2": "Belgium"
+ },
+ "camera_inference": {
+  "status": "INFERRED",
+  "reference_by_period": {
+   "1": "Belgium",
+   "2": "Russia"
+  },
+  "periods": [
+   {
+    "period": 1,
+    "support": 1657,
+    "opposition": 0,
+    "agreement": 1.0,
+    "votes_by_team": {
+     "Russia": {
+      "LOW_Y": 592
+     },
+     "Belgium": {
+      "HIGH_Y": 1065
+     }
+    }
+   },
+   {
+    "period": 2,
+    "support": 1479,
+    "opposition": 0,
+    "agreement": 1.0,
+    "votes_by_team": {
+     "Russia": {
+      "HIGH_Y": 559
+     },
+     "Belgium": {
+      "LOW_Y": 920
+     }
+    }
+   }
+  ]
+ },
+ "camera_plan": "P1: unrotated team id 782 [camera]; P2: unrotated team id 796 [camera]",
+ "events": {
+  "courtois_carry_p2_26_53_383": {
+   "event_id": "6d4668fb-2a8b-4f79-8d90-b7d87768a5f3",
+   "type": "Carry",
+   "player": "Thibaut Courtois",
+   "team": "Belgium",
+   "period": 2,
+   "minute_second": [
+    71,
+    53
+   ],
+   "1_raw": {
+    "event_location": [
+     12.9,
+     32.9
+    ],
+    "actor_location": [
+     12.899999618530273,
+     32.900001525878906
+    ],
+    "keeper_locations": [
+     [
+      12.899999618530273,
+      32.900001525878906
+     ]
+    ],
+    "freeze_frame": [
+     {
+      "teammate": true,
+      "actor": true,
+      "keeper": true,
+      "location": [
+       12.9,
+       32.9
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       27.69,
+       50.631
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       32.26,
+       34.011
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       37.258,
+       24.12
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       37.476,
+       20.509
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       41.572,
+       25.038
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       41.698,
+       31.946
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       50.758,
+       63.142
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       51.824,
+       16.656
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       55.187,
+       44.582
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       55.56,
+       8.88
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       60.438,
+       36.598
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.012,
+       17.963
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.079,
+       45.46
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.867,
+       14.035
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       63.404,
+       59.546
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       63.55,
+       23.51
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       65.812,
+       15.58
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       67.303,
+       35.785
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       69.192,
+       46.887
+      ]
+     }
+    ],
+    "visible_area_vertices": [
+     [
+      0.0,
+      80.0
+     ],
+     [
+      0.0,
+      38.16
+     ],
+     [
+      28.108,
+      0.0
+     ],
+     [
+      70.281,
+      0.0
+     ],
+     [
+      96.831,
+      80.0
+     ],
+     [
+      0.0,
+      80.0
+     ]
+    ],
+    "camera_side": "LOW_Y",
+    "camera_apex": [
+     57.18,
+     -39.47
+    ]
+   },
+   "2_problem_a": {
+    "orientation": "NORMAL",
+    "confidence": 0.868
+   },
+   "3_after_problem_a": {
+    "event_location": [
+     12.9,
+     32.9
+    ],
+    "actor_location": [
+     12.899999618530273,
+     32.900001525878906
+    ],
+    "keeper_locations": [
+     [
+      12.899999618530273,
+      32.900001525878906
+     ]
+    ],
+    "freeze_frame": [
+     {
+      "teammate": true,
+      "actor": true,
+      "keeper": true,
+      "location": [
+       12.9,
+       32.9
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       27.69,
+       50.631
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       32.26,
+       34.011
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       37.258,
+       24.12
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       37.476,
+       20.509
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       41.572,
+       25.038
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       41.698,
+       31.946
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       50.758,
+       63.142
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       51.824,
+       16.656
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       55.187,
+       44.582
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       55.56,
+       8.88
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       60.438,
+       36.598
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.012,
+       17.963
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.079,
+       45.46
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.867,
+       14.035
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       63.404,
+       59.546
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       63.55,
+       23.51
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       65.812,
+       15.58
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       67.303,
+       35.785
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       69.192,
+       46.887
+      ]
+     }
+    ],
+    "visible_area_vertices": [
+     [
+      0.0,
+      80.0
+     ],
+     [
+      0.0,
+      38.16
+     ],
+     [
+      28.108,
+      0.0
+     ],
+     [
+      70.281,
+      0.0
+     ],
+     [
+      96.831,
+      80.0
+     ],
+     [
+      0.0,
+      80.0
+     ]
+    ],
+    "camera_side": "LOW_Y",
+    "camera_apex": [
+     57.18,
+     -39.47
+    ]
+   },
+   "4_legacy_display": {
+    "reference_team_this_period": "Belgium",
+    "rotated": false,
+    "event_location": [
+     12.9,
+     32.9
+    ],
+    "actor_location": [
+     12.899999618530273,
+     32.900001525878906
+    ],
+    "keeper_locations": [
+     [
+      12.899999618530273,
+      32.900001525878906
+     ]
+    ],
+    "freeze_frame": [
+     {
+      "teammate": true,
+      "actor": true,
+      "keeper": true,
+      "location": [
+       12.9,
+       32.9
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       27.69,
+       50.631
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       32.26,
+       34.011
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       37.258,
+       24.12
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       37.476,
+       20.509
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       41.572,
+       25.038
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       41.698,
+       31.946
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       50.758,
+       63.142
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       51.824,
+       16.656
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       55.187,
+       44.582
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       55.56,
+       8.88
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       60.438,
+       36.598
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.012,
+       17.963
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.079,
+       45.46
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       62.867,
+       14.035
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       63.404,
+       59.546
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       63.55,
+       23.51
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       65.812,
+       15.58
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       67.303,
+       35.785
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       69.192,
+       46.887
+      ]
+     }
+    ],
+    "visible_area_vertices": [
+     [
+      0.0,
+      80.0
+     ],
+     [
+      0.0,
+      38.16
+     ],
+     [
+      28.108,
+      0.0
+     ],
+     [
+      70.281,
+      0.0
+     ],
+     [
+      96.831,
+      80.0
+     ],
+     [
+      0.0,
+      80.0
+     ]
+    ],
+    "camera_side": "LOW_Y",
+    "camera_apex": [
+     57.18,
+     -39.47
+    ]
+   },
+   "5_camera_display": {
+    "reference_team_this_period": "Russia",
+    "rotated": true,
+    "attacking_directions": {
+     "Russia": 1,
+     "Belgium": -1
+    },
+    "event_location": [
+     107.1,
+     47.1
+    ],
+    "actor_location": [
+     107.10000038146973,
+     47.099998474121094
+    ],
+    "keeper_locations": [
+     [
+      107.10000038146973,
+      47.099998474121094
+     ]
+    ],
+    "freeze_frame": [
+     {
+      "teammate": true,
+      "actor": true,
+      "keeper": true,
+      "location": [
+       107.1,
+       47.1
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       92.31,
+       29.369
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       87.74,
+       45.989
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       82.742,
+       55.88
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       82.524,
+       59.491
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       78.428,
+       54.962
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       78.302,
+       48.054
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       69.242,
+       16.858
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       68.176,
+       63.344
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       64.813,
+       35.418
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       64.44,
+       71.12
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       59.562,
+       43.402
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       57.988,
+       62.037
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       57.921,
+       34.54
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       57.133,
+       65.965
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       56.596,
+       20.454
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       56.45,
+       56.49
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       54.188,
+       64.42
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       52.697,
+       44.215
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       50.808,
+       33.113
+      ]
+     }
+    ],
+    "visible_area_vertices": [
+     [
+      120.0,
+      0.0
+     ],
+     [
+      120.0,
+      41.84
+     ],
+     [
+      91.892,
+      80.0
+     ],
+     [
+      49.719,
+      80.0
+     ],
+     [
+      23.169,
+      0.0
+     ],
+     [
+      120.0,
+      0.0
+     ]
+    ],
+    "camera_side": "HIGH_Y",
+    "camera_apex": [
+     62.82,
+     119.47
+    ]
+   }
+  },
+  "lukaku_goal_p2_87_45": {
+   "event_id": "b0e8f7c7-291e-4d0a-81d4-0f99f4fcd73d",
+   "type": "Shot",
+   "player": "Romelu Lukaku Menama",
+   "team": "Belgium",
+   "period": 2,
+   "minute_second": [
+    87,
+    45
+   ],
+   "1_raw": {
+    "event_location": [
+     102.5,
+     49.2
+    ],
+    "actor_location": [
+     102.5,
+     49.20000076293945
+    ],
+    "keeper_locations": [
+     [
+      111.52269709563444,
+      44.598455778353774
+     ]
+    ],
+    "freeze_frame": [
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       76.189,
+       15.143
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       78.022,
+       48.268
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       78.689,
+       53.787
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       80.563,
+       52.124
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       82.49,
+       67.948
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       86.01,
+       64.274
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       87.998,
+       50.381
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       88.151,
+       53.113
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       90.94,
+       22.695
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": true,
+      "keeper": false,
+      "location": [
+       102.5,
+       49.2
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       103.329,
+       49.374
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": true,
+      "location": [
+       111.523,
+       44.598
+      ]
+     }
+    ],
+    "visible_area_vertices": [
+     [
+      80.722,
+      80.0
+     ],
+     [
+      69.699,
+      18.25
+     ],
+     [
+      96.832,
+      4.24
+     ],
+     [
+      120.0,
+      34.193
+     ],
+     [
+      120.0,
+      80.0
+     ],
+     [
+      80.722,
+      80.0
+     ]
+    ],
+    "camera_side": "LOW_Y",
+    "camera_apex": [
+     58.31,
+     -45.57
+    ]
+   },
+   "2_problem_a": {
+    "orientation": "NORMAL",
+    "confidence": 0.947
+   },
+   "3_after_problem_a": {
+    "event_location": [
+     102.5,
+     49.2
+    ],
+    "actor_location": [
+     102.5,
+     49.20000076293945
+    ],
+    "keeper_locations": [
+     [
+      111.52269709563444,
+      44.598455778353774
+     ]
+    ],
+    "freeze_frame": [
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       76.189,
+       15.143
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       78.022,
+       48.268
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       78.689,
+       53.787
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       80.563,
+       52.124
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       82.49,
+       67.948
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       86.01,
+       64.274
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       87.998,
+       50.381
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       88.151,
+       53.113
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       90.94,
+       22.695
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": true,
+      "keeper": false,
+      "location": [
+       102.5,
+       49.2
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       103.329,
+       49.374
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": true,
+      "location": [
+       111.523,
+       44.598
+      ]
+     }
+    ],
+    "visible_area_vertices": [
+     [
+      80.722,
+      80.0
+     ],
+     [
+      69.699,
+      18.25
+     ],
+     [
+      96.832,
+      4.24
+     ],
+     [
+      120.0,
+      34.193
+     ],
+     [
+      120.0,
+      80.0
+     ],
+     [
+      80.722,
+      80.0
+     ]
+    ],
+    "camera_side": "LOW_Y",
+    "camera_apex": [
+     58.31,
+     -45.57
+    ]
+   },
+   "4_legacy_display": {
+    "reference_team_this_period": "Belgium",
+    "rotated": false,
+    "event_location": [
+     102.5,
+     49.2
+    ],
+    "actor_location": [
+     102.5,
+     49.20000076293945
+    ],
+    "keeper_locations": [
+     [
+      111.52269709563444,
+      44.598455778353774
+     ]
+    ],
+    "freeze_frame": [
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       76.189,
+       15.143
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       78.022,
+       48.268
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       78.689,
+       53.787
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       80.563,
+       52.124
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       82.49,
+       67.948
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       86.01,
+       64.274
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       87.998,
+       50.381
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       88.151,
+       53.113
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       90.94,
+       22.695
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": true,
+      "keeper": false,
+      "location": [
+       102.5,
+       49.2
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       103.329,
+       49.374
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": true,
+      "location": [
+       111.523,
+       44.598
+      ]
+     }
+    ],
+    "visible_area_vertices": [
+     [
+      80.722,
+      80.0
+     ],
+     [
+      69.699,
+      18.25
+     ],
+     [
+      96.832,
+      4.24
+     ],
+     [
+      120.0,
+      34.193
+     ],
+     [
+      120.0,
+      80.0
+     ],
+     [
+      80.722,
+      80.0
+     ]
+    ],
+    "camera_side": "LOW_Y",
+    "camera_apex": [
+     58.31,
+     -45.57
+    ]
+   },
+   "5_camera_display": {
+    "reference_team_this_period": "Russia",
+    "rotated": true,
+    "attacking_directions": {
+     "Russia": 1,
+     "Belgium": -1
+    },
+    "event_location": [
+     17.5,
+     30.799999999999997
+    ],
+    "actor_location": [
+     17.5,
+     30.799999237060547
+    ],
+    "keeper_locations": [
+     [
+      8.477302904365558,
+      35.401544221646226
+     ]
+    ],
+    "freeze_frame": [
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       43.811,
+       64.857
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       41.978,
+       31.732
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       41.311,
+       26.213
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       39.437,
+       27.876
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       37.51,
+       12.052
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       33.99,
+       15.726
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       32.002,
+       29.619
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       31.849,
+       26.887
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       29.06,
+       57.305
+      ]
+     },
+     {
+      "teammate": true,
+      "actor": true,
+      "keeper": false,
+      "location": [
+       17.5,
+       30.8
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": false,
+      "location": [
+       16.671,
+       30.626
+      ]
+     },
+     {
+      "teammate": false,
+      "actor": false,
+      "keeper": true,
+      "location": [
+       8.477,
+       35.402
+      ]
+     }
+    ],
+    "visible_area_vertices": [
+     [
+      39.278,
+      0.0
+     ],
+     [
+      50.301,
+      61.75
+     ],
+     [
+      23.168,
+      75.76
+     ],
+     [
+      0.0,
+      45.807
+     ],
+     [
+      0.0,
+      0.0
+     ],
+     [
+      39.278,
+      0.0
+     ]
+    ],
+    "camera_side": "HIGH_Y",
+    "camera_apex": [
+     61.69,
+     125.57
+    ]
+   }
+  }
+ },
+ "variants": {
+  "identity": {
+   "courtois": [
+    12.9,
+    32.9
+   ],
+   "camera_side": "LOW_Y",
+   "belgium_direction": 1,
+   "proper_rotation": true
+  },
+  "rotate_180": {
+   "courtois": [
+    107.1,
+    47.1
+   ],
+   "camera_side": "HIGH_Y",
+   "belgium_direction": -1,
+   "proper_rotation": true
+  },
+  "x_reflection": {
+   "courtois": [
+    107.1,
+    32.9
+   ],
+   "camera_side": "LOW_Y",
+   "belgium_direction": -1,
+   "proper_rotation": false
+  },
+  "y_reflection": {
+   "courtois": [
+    12.9,
+    47.1
+   ],
+   "camera_side": "HIGH_Y",
+   "belgium_direction": 1,
+   "proper_rotation": false
+  }
+ },
+ "broadcast_window_87_35_to_87_46": {
+  "snapshots": 7,
+  "mean_event_x": 39.24,
+  "camera_sides": [
+   "HIGH_Y"
+  ],
+  "mean_visible_area_x": 45.4
+ }
+}

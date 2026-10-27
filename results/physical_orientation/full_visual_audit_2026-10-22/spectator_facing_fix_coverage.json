@@ -1,0 +1,6856 @@
+{
+  "matches_checked": 417,
+  "load_errors": [],
+  "results": [
+    {
+      "match_id": 3764440,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1042,
+      "new_reference_by_period": {
+        "1": 1042,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3764661,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 215
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773369,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 902
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773372,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 212
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773377,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 207
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773386,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 206
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773387,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 221
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773403,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 215
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773415,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 552
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773428,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 552
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773457,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 209
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773466,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 209
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773474,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 901,
+      "new_reference_by_period": {
+        "1": 901,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773477,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 218,
+      "new_reference_by_period": {
+        "1": 218,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773497,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 220
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773523,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 210
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773526,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 206,
+      "new_reference_by_period": {
+        "1": 206,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773547,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 422
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773552,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 902
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773565,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 1049
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773571,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 901
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773585,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 220,
+      "new_reference_by_period": {
+        "1": 220,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773586,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 1049
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773587,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 216
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773593,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 222,
+      "new_reference_by_period": {
+        "1": 222,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773597,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 210
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773625,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 213
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773631,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 218,
+      "new_reference_by_period": {
+        "1": 218,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773656,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 212
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773660,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 221,
+      "new_reference_by_period": {
+        "1": 221,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773661,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 216,
+      "new_reference_by_period": {
+        "1": 216,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773665,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 422
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773672,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 213
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773689,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 222,
+      "new_reference_by_period": {
+        "1": 222,
+        "2": 217
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3773695,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 217,
+      "new_reference_by_period": {
+        "1": 217,
+        "2": 207
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788741,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 909,
+      "new_reference_by_period": {
+        "1": 909,
+        "2": 914
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788742,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 776,
+      "new_reference_by_period": {
+        "1": 776,
+        "2": 1835
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788743,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 796,
+      "new_reference_by_period": {
+        "1": 796,
+        "2": 782
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788744,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 907
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788745,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 768,
+      "new_reference_by_period": {
+        "1": 768,
+        "2": 785
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788746,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 941,
+      "new_reference_by_period": {
+        "1": 941,
+        "2": 911
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788747,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 915,
+      "new_reference_by_period": {
+        "1": 915,
+        "2": 2358
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788748,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 942,
+      "new_reference_by_period": {
+        "1": 942,
+        "2": 912
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788749,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 908,
+      "new_reference_by_period": {
+        "1": 908,
+        "2": 789
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788750,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 790,
+      "new_reference_by_period": {
+        "1": 790,
+        "2": 772
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788751,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 771
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788752,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 916,
+      "new_reference_by_period": {
+        "1": 916,
+        "2": 780
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788753,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 796,
+      "new_reference_by_period": {
+        "1": 796,
+        "2": 1835
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788754,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 914
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788755,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 907,
+      "new_reference_by_period": {
+        "1": 907,
+        "2": 909
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788756,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 915,
+      "new_reference_by_period": {
+        "1": 915,
+        "2": 941
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788757,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 776,
+      "new_reference_by_period": {
+        "1": 776,
+        "2": 782
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788758,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 2358,
+      "new_reference_by_period": {
+        "1": 2358,
+        "2": 911
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788759,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 942,
+      "new_reference_by_period": {
+        "1": 942,
+        "2": 768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788760,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 912,
+      "new_reference_by_period": {
+        "1": 912,
+        "2": 785
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788761,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 908,
+      "new_reference_by_period": {
+        "1": 908,
+        "2": 790
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788762,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 789,
+      "new_reference_by_period": {
+        "1": 789,
+        "2": 772
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788763,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 916,
+      "new_reference_by_period": {
+        "1": 916,
+        "2": 771
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788764,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 780
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788765,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 909
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788766,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 914,
+      "new_reference_by_period": {
+        "1": 914,
+        "2": 907
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788767,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 915,
+      "new_reference_by_period": {
+        "1": 915,
+        "2": 911
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788768,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 782,
+      "new_reference_by_period": {
+        "1": 782,
+        "2": 1835
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788769,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 796,
+      "new_reference_by_period": {
+        "1": 796,
+        "2": 776
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788770,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 2358,
+      "new_reference_by_period": {
+        "1": 2358,
+        "2": 941
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788771,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 942,
+      "new_reference_by_period": {
+        "1": 942,
+        "2": 785
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788772,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 912,
+      "new_reference_by_period": {
+        "1": 912,
+        "2": 768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788773,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 771,
+      "new_reference_by_period": {
+        "1": 771,
+        "2": 780
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788774,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 916
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788775,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 908,
+      "new_reference_by_period": {
+        "1": 908,
+        "2": 772
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3788776,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 790,
+      "new_reference_by_period": {
+        "1": 790,
+        "2": 789
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3794685,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 915,
+      "new_reference_by_period": {
+        "1": 915,
+        "2": 914,
+        "3": 915,
+        "4": 914
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3794686,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 772,
+      "new_reference_by_period": {
+        "1": 772,
+        "2": 785,
+        "3": 772,
+        "4": 785
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3794687,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 782,
+      "new_reference_by_period": {
+        "1": 782,
+        "2": 780
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3794688,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3794689,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 907,
+      "new_reference_by_period": {
+        "1": 907,
+        "2": 776
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3794690,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 912,
+      "new_reference_by_period": {
+        "1": 912,
+        "2": 941
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3794691,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 771,
+        "3": 773,
+        "4": 771
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3794692,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 911,
+      "new_reference_by_period": {
+        "1": 911,
+        "2": 790,
+        "3": 911,
+        "4": 790
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3795107,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 782,
+      "new_reference_by_period": {
+        "1": 782,
+        "2": 914
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3795108,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 772,
+      "new_reference_by_period": {
+        "1": 772,
+        "2": 773,
+        "3": 772,
+        "4": 773
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3795109,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 776,
+      "new_reference_by_period": {
+        "1": 776,
+        "2": 912
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3795187,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 911,
+      "new_reference_by_period": {
+        "1": 911,
+        "2": 768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3795220,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 772,
+      "new_reference_by_period": {
+        "1": 772,
+        "2": 914,
+        "3": 772,
+        "4": 914
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3795221,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 776,
+      "new_reference_by_period": {
+        "1": 776,
+        "2": 768,
+        "3": 776,
+        "4": 768
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3795506,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 914,
+      "new_reference_by_period": {
+        "1": 914,
+        "2": 768,
+        "3": 914,
+        "4": 768
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802643,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 138
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802665,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 139
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802676,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 168,
+      "new_reference_by_period": {
+        "1": 168,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802683,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 129
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802685,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 168
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802690,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 165
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802696,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 156,
+      "new_reference_by_period": {
+        "1": 156,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802699,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 143
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802709,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 135
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802752,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 137
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802793,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 136
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802795,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 134
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802802,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 156
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802805,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 136
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802809,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 134
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802818,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 165
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802837,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 135
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802839,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 144
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802902,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 147
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802904,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 146,
+      "new_reference_by_period": {
+        "1": 146,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802907,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 143
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802930,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 133
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802948,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 141
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802983,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 147
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3802984,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 144,
+      "new_reference_by_period": {
+        "1": 144,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3803000,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 152
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835319,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 859,
+      "new_reference_by_period": {
+        "1": 859,
+        "2": 865
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835320,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 852,
+      "new_reference_by_period": {
+        "1": 852,
+        "2": 2457
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835321,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 920
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835322,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 857,
+      "new_reference_by_period": {
+        "1": 857,
+        "2": 853
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835323,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 860,
+      "new_reference_by_period": {
+        "1": 860,
+        "2": 864
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835324,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 851
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835325,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 861,
+      "new_reference_by_period": {
+        "1": 861,
+        "2": 855
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835326,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 862,
+      "new_reference_by_period": {
+        "1": 862,
+        "2": 854
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835327,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 852,
+      "new_reference_by_period": {
+        "1": 852,
+        "2": 865
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835328,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 2457,
+      "new_reference_by_period": {
+        "1": 2457,
+        "2": 859
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835329,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 853,
+      "new_reference_by_period": {
+        "1": 853,
+        "2": 920
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835330,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 857
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835331,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 860,
+      "new_reference_by_period": {
+        "1": 860,
+        "2": 858
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835332,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 851,
+      "new_reference_by_period": {
+        "1": 851,
+        "2": 864
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835333,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 861,
+      "new_reference_by_period": {
+        "1": 861,
+        "2": 854
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835334,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 862,
+      "new_reference_by_period": {
+        "1": 862,
+        "2": 855
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835335,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 2457
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835336,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 852,
+      "new_reference_by_period": {
+        "1": 852,
+        "2": 859
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835337,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 853
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835338,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 857,
+      "new_reference_by_period": {
+        "1": 857,
+        "2": 920
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835339,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 851,
+      "new_reference_by_period": {
+        "1": 851,
+        "2": 860
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835340,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 864,
+      "new_reference_by_period": {
+        "1": 864,
+        "2": 858
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835341,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 855,
+      "new_reference_by_period": {
+        "1": 855,
+        "2": 854
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3835342,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 862,
+      "new_reference_by_period": {
+        "1": 862,
+        "2": 861
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837650,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 152
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837659,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 139,
+      "new_reference_by_period": {
+        "1": 139,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837662,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 143
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837680,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 129
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837683,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 130
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837695,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 144
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837717,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 137,
+      "new_reference_by_period": {
+        "1": 137,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837727,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 136
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837747,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 147
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837752,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 158
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837771,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 133
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837785,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 167
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837818,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 145,
+      "new_reference_by_period": {
+        "1": 145,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837827,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 134,
+      "new_reference_by_period": {
+        "1": 134,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837839,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 156
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837844,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 139
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837859,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 130,
+      "new_reference_by_period": {
+        "1": 130,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837876,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 143,
+      "new_reference_by_period": {
+        "1": 143,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837885,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 147
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837896,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 144
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837902,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 153
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837918,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 134
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837928,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 137
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837938,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 136
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837947,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 168
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837954,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 145
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837963,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 165,
+      "new_reference_by_period": {
+        "1": 165,
+        "2": 131
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837987,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 158
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3837998,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 167
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3838004,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 138
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3838017,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 131,
+      "new_reference_by_period": {
+        "1": 131,
+        "2": 152
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3844384,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 865,
+        "3": 863,
+        "4": 865
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3844385,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 859,
+      "new_reference_by_period": {
+        "1": 859,
+        "2": 857
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3844386,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 854
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3844387,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 861,
+      "new_reference_by_period": {
+        "1": 861,
+        "2": 851,
+        "3": 861,
+        "4": 851
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3845507,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 861,
+      "new_reference_by_period": {
+        "1": 861,
+        "2": 857
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3847567,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 857,
+        "3": 865,
+        "4": 857
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857254,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 776,
+      "new_reference_by_period": {
+        "1": 776,
+        "2": 777
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857255,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 772,
+      "new_reference_by_period": {
+        "1": 772,
+        "2": 778
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857256,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 786
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857257,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 776,
+      "new_reference_by_period": {
+        "1": 776,
+        "2": 792
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857258,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 781,
+      "new_reference_by_period": {
+        "1": 781,
+        "2": 786
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857259,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 786,
+      "new_reference_by_period": {
+        "1": 786,
+        "2": 2722
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857260,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 794,
+      "new_reference_by_period": {
+        "1": 794,
+        "2": 799
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857261,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 907,
+      "new_reference_by_period": {
+        "1": 907,
+        "2": 768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857262,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 791,
+      "new_reference_by_period": {
+        "1": 791,
+        "2": 780
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857263,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 772,
+      "new_reference_by_period": {
+        "1": 772,
+        "2": 770
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857264,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 789,
+      "new_reference_by_period": {
+        "1": 789,
+        "2": 779
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857265,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 794,
+      "new_reference_by_period": {
+        "1": 794,
+        "2": 789
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857266,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 776,
+      "new_reference_by_period": {
+        "1": 776,
+        "2": 771
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857267,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 3565,
+      "new_reference_by_period": {
+        "1": 3565,
+        "2": 787
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857268,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1833,
+      "new_reference_by_period": {
+        "1": 1833,
+        "2": 782
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857269,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 781
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857270,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 783,
+      "new_reference_by_period": {
+        "1": 783,
+        "2": 780
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857271,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 797,
+      "new_reference_by_period": {
+        "1": 797,
+        "2": 768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857272,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 768,
+      "new_reference_by_period": {
+        "1": 768,
+        "2": 1839
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857273,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 907,
+      "new_reference_by_period": {
+        "1": 907,
+        "2": 797
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857274,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 3565,
+      "new_reference_by_period": {
+        "1": 3565,
+        "2": 941
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857275,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 777,
+      "new_reference_by_period": {
+        "1": 777,
+        "2": 771
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857276,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 788,
+      "new_reference_by_period": {
+        "1": 788,
+        "2": 1833
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857277,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 788,
+      "new_reference_by_period": {
+        "1": 788,
+        "2": 785
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857278,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 797,
+      "new_reference_by_period": {
+        "1": 797,
+        "2": 1839
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857279,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 771,
+      "new_reference_by_period": {
+        "1": 771,
+        "2": 792
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857280,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 781,
+      "new_reference_by_period": {
+        "1": 781,
+        "2": 2722
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857281,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 785,
+      "new_reference_by_period": {
+        "1": 785,
+        "2": 1833
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857282,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1839,
+      "new_reference_by_period": {
+        "1": 1839,
+        "2": 907
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857283,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 782,
+      "new_reference_by_period": {
+        "1": 782,
+        "2": 788
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857284,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 778
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857285,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 941,
+      "new_reference_by_period": {
+        "1": 941,
+        "2": 787
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857286,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 3566,
+      "new_reference_by_period": {
+        "1": 3566,
+        "2": 3565
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857287,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 791,
+      "new_reference_by_period": {
+        "1": 791,
+        "2": 783
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857288,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 792,
+      "new_reference_by_period": {
+        "1": 792,
+        "2": 777
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857289,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 794,
+      "new_reference_by_period": {
+        "1": 794,
+        "2": 779
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857290,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 2722
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857291,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 772,
+      "new_reference_by_period": {
+        "1": 772,
+        "2": 795
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857292,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 795
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857293,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 783,
+      "new_reference_by_period": {
+        "1": 783,
+        "2": 4885
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857294,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 941,
+      "new_reference_by_period": {
+        "1": 941,
+        "2": 3566
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857295,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 795,
+      "new_reference_by_period": {
+        "1": 795,
+        "2": 778
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857296,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 785,
+      "new_reference_by_period": {
+        "1": 785,
+        "2": 782
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857297,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 789,
+      "new_reference_by_period": {
+        "1": 789,
+        "2": 799
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857298,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 780,
+      "new_reference_by_period": {
+        "1": 780,
+        "2": 4885
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857299,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 791,
+      "new_reference_by_period": {
+        "1": 791,
+        "2": 4885
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857300,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 799,
+      "new_reference_by_period": {
+        "1": 799,
+        "2": 779
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3857301,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 3566,
+      "new_reference_by_period": {
+        "1": 3566,
+        "2": 787
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869117,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 941,
+      "new_reference_by_period": {
+        "1": 941,
+        "2": 1839
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869118,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 787,
+      "new_reference_by_period": {
+        "1": 787,
+        "2": 768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869151,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 792,
+      "new_reference_by_period": {
+        "1": 792,
+        "2": 779
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869152,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 771,
+      "new_reference_by_period": {
+        "1": 771,
+        "2": 789
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869219,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 785,
+      "new_reference_by_period": {
+        "1": 785,
+        "2": 778,
+        "3": 785,
+        "4": 778,
+        "5": 785
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869220,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 772,
+      "new_reference_by_period": {
+        "1": 772,
+        "2": 788,
+        "3": 772,
+        "4": 788,
+        "5": 772
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869253,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 791,
+      "new_reference_by_period": {
+        "1": 791,
+        "2": 781
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869254,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 780
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869321,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 941,
+      "new_reference_by_period": {
+        "1": 941,
+        "2": 779,
+        "3": 941,
+        "4": 779,
+        "5": 941
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869354,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 771,
+      "new_reference_by_period": {
+        "1": 771,
+        "2": 768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869420,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 785,
+      "new_reference_by_period": {
+        "1": 785,
+        "2": 781,
+        "3": 785,
+        "4": 781,
+        "5": 785
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869486,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 780,
+      "new_reference_by_period": {
+        "1": 780,
+        "2": 788
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869519,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 785,
+      "new_reference_by_period": {
+        "1": 785,
+        "2": 779
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869552,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 788,
+      "new_reference_by_period": {
+        "1": 788,
+        "2": 771
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869684,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 785,
+      "new_reference_by_period": {
+        "1": 785,
+        "2": 788
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3869685,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 771,
+      "new_reference_by_period": {
+        "1": 771,
+        "2": 779,
+        "3": 771,
+        "4": 779,
+        "5": 771
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3877060,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1975,
+      "new_reference_by_period": {
+        "1": 1975,
+        "2": 387
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3877072,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1975,
+      "new_reference_by_period": {
+        "1": 1975,
+        "2": 1938
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3877090,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 919,
+      "new_reference_by_period": {
+        "1": 919,
+        "2": 1975
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893787,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1215,
+      "new_reference_by_period": {
+        "1": 1215,
+        "2": 852
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893788,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1205,
+      "new_reference_by_period": {
+        "1": 1205,
+        "2": 16768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893789,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1106,
+      "new_reference_by_period": {
+        "1": 1106,
+        "2": 860
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893790,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1206,
+      "new_reference_by_period": {
+        "1": 1206,
+        "2": 1213
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893791,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 1832
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893792,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 16769,
+      "new_reference_by_period": {
+        "1": 16769,
+        "2": 1214
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893793,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1210,
+      "new_reference_by_period": {
+        "1": 1210,
+        "2": 6045
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893794,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 2355
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893795,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 853,
+      "new_reference_by_period": {
+        "1": 853,
+        "2": 1207
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893796,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 1216
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893797,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 851,
+      "new_reference_by_period": {
+        "1": 851,
+        "2": 864
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893798,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 861,
+      "new_reference_by_period": {
+        "1": 861,
+        "2": 1212
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893799,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 857,
+      "new_reference_by_period": {
+        "1": 857,
+        "2": 2391
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893800,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1204,
+      "new_reference_by_period": {
+        "1": 1204,
+        "2": 855
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893801,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 16803,
+      "new_reference_by_period": {
+        "1": 16803,
+        "2": 1203
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893802,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 16802,
+      "new_reference_by_period": {
+        "1": 16802,
+        "2": 1211
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893803,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1106,
+      "new_reference_by_period": {
+        "1": 1106,
+        "2": 1215
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893804,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 860,
+      "new_reference_by_period": {
+        "1": 860,
+        "2": 852
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893805,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1210,
+      "new_reference_by_period": {
+        "1": 1210,
+        "2": 1832
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893806,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 6045
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893807,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1206,
+      "new_reference_by_period": {
+        "1": 1206,
+        "2": 16768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893808,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 851,
+      "new_reference_by_period": {
+        "1": 851,
+        "2": 1214
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893809,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1213,
+      "new_reference_by_period": {
+        "1": 1213,
+        "2": 1205
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893810,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 16769,
+      "new_reference_by_period": {
+        "1": 16769,
+        "2": 864
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893811,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 853,
+      "new_reference_by_period": {
+        "1": 853,
+        "2": 865
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893812,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1204,
+      "new_reference_by_period": {
+        "1": 1204,
+        "2": 1216
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893813,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1207,
+      "new_reference_by_period": {
+        "1": 1207,
+        "2": 2355
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893814,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 855
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893815,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 861,
+      "new_reference_by_period": {
+        "1": 861,
+        "2": 1203
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893816,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1212,
+      "new_reference_by_period": {
+        "1": 1212,
+        "2": 16803
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893817,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1215,
+      "new_reference_by_period": {
+        "1": 1215,
+        "2": 860
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893818,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 857,
+      "new_reference_by_period": {
+        "1": 857,
+        "2": 16802
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893819,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1211,
+      "new_reference_by_period": {
+        "1": 1211,
+        "2": 2391
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893820,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1106,
+      "new_reference_by_period": {
+        "1": 1106,
+        "2": 852
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893821,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1205,
+      "new_reference_by_period": {
+        "1": 1205,
+        "2": 1206
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893822,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1210,
+      "new_reference_by_period": {
+        "1": 1210,
+        "2": 863
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893823,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 6045,
+      "new_reference_by_period": {
+        "1": 6045,
+        "2": 1832
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893824,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1213,
+      "new_reference_by_period": {
+        "1": 1213,
+        "2": 16768
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893825,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 853,
+      "new_reference_by_period": {
+        "1": 853,
+        "2": 2355
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893826,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1214,
+      "new_reference_by_period": {
+        "1": 1214,
+        "2": 864
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893827,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 16769,
+      "new_reference_by_period": {
+        "1": 16769,
+        "2": 851
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893828,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 1207
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893829,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 16803,
+      "new_reference_by_period": {
+        "1": 16803,
+        "2": 861
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893830,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 1204
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893831,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 855,
+      "new_reference_by_period": {
+        "1": 855,
+        "2": 1216
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893832,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1203,
+      "new_reference_by_period": {
+        "1": 1203,
+        "2": 1212
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893833,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 857,
+      "new_reference_by_period": {
+        "1": 857,
+        "2": 1211
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3893834,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 2391,
+      "new_reference_by_period": {
+        "1": 2391,
+        "2": 16802
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895052,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 182,
+      "new_reference_by_period": {
+        "1": 182,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895060,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 185,
+      "new_reference_by_period": {
+        "1": 185,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895067,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 872,
+      "new_reference_by_period": {
+        "1": 872,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895074,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 169
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895086,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 201,
+      "new_reference_by_period": {
+        "1": 201,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895095,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 177
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895107,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 186,
+      "new_reference_by_period": {
+        "1": 186,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895113,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 179
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895121,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 183
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895134,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 175,
+      "new_reference_by_period": {
+        "1": 175,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895139,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 190
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895153,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 176,
+      "new_reference_by_period": {
+        "1": 176,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895167,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 174,
+      "new_reference_by_period": {
+        "1": 174,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895180,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 184
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895182,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 868,
+      "new_reference_by_period": {
+        "1": 868,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895194,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 172,
+      "new_reference_by_period": {
+        "1": 172,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895202,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 182,
+      "new_reference_by_period": {
+        "1": 182,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895210,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 185
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895220,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 872
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895232,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 169,
+      "new_reference_by_period": {
+        "1": 169,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895244,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 201
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895250,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 177
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895258,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 186,
+      "new_reference_by_period": {
+        "1": 186,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895275,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 183,
+      "new_reference_by_period": {
+        "1": 183,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895286,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 175,
+      "new_reference_by_period": {
+        "1": 175,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895292,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 190,
+      "new_reference_by_period": {
+        "1": 190,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895302,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 176,
+      "new_reference_by_period": {
+        "1": 176,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895320,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 174,
+      "new_reference_by_period": {
+        "1": 174,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895333,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 904,
+      "new_reference_by_period": {
+        "1": 904,
+        "2": 184
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895340,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 868,
+      "new_reference_by_period": {
+        "1": 868,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3895348,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 172,
+      "new_reference_by_period": {
+        "1": 172,
+        "2": 904
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3901733,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 860,
+      "new_reference_by_period": {
+        "1": 860,
+        "2": 863
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3901734,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1210,
+      "new_reference_by_period": {
+        "1": 1210,
+        "2": 852
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3901735,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 1213,
+        "3": 865,
+        "4": 1213,
+        "5": 865
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3901736,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 853,
+      "new_reference_by_period": {
+        "1": 853,
+        "2": 1205
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3901796,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 851,
+      "new_reference_by_period": {
+        "1": 851,
+        "2": 1216
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3901797,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 1214,
+      "new_reference_by_period": {
+        "1": 1214,
+        "2": 858,
+        "3": 1214,
+        "4": 858,
+        "5": 1214
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3901832,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1212,
+      "new_reference_by_period": {
+        "1": 1212,
+        "2": 16802
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3901833,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 861,
+      "new_reference_by_period": {
+        "1": 861,
+        "2": 2391
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3902239,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 1210,
+      "new_reference_by_period": {
+        "1": 1210,
+        "2": 858
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3902240,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 851,
+      "new_reference_by_period": {
+        "1": 851,
+        "2": 863,
+        "3": 851,
+        "4": 863
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3902967,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 16802
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3902968,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 1205,
+      "new_reference_by_period": {
+        "1": 1205,
+        "2": 861,
+        "3": 1205,
+        "4": 861,
+        "5": 1205
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3904628,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 863
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3904629,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 1205
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3906389,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 1205
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3906390,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 863
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930158,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 942
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930159,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 916,
+      "new_reference_by_period": {
+        "1": 916,
+        "2": 773
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930160,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 785,
+      "new_reference_by_period": {
+        "1": 785,
+        "2": 772
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930161,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 906,
+      "new_reference_by_period": {
+        "1": 906,
+        "2": 914
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930162,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 944,
+      "new_reference_by_period": {
+        "1": 944,
+        "2": 776
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930163,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 768,
+      "new_reference_by_period": {
+        "1": 768,
+        "2": 786
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930164,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 908,
+      "new_reference_by_period": {
+        "1": 908,
+        "2": 782
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930165,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 915,
+      "new_reference_by_period": {
+        "1": 915,
+        "2": 771
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930166,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 780,
+      "new_reference_by_period": {
+        "1": 780,
+        "2": 912
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930167,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 906,
+      "new_reference_by_period": {
+        "1": 906,
+        "2": 785
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930168,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 916
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930169,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 942,
+      "new_reference_by_period": {
+        "1": 942,
+        "2": 773
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930170,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 944,
+      "new_reference_by_period": {
+        "1": 944,
+        "2": 786
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930171,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 768,
+      "new_reference_by_period": {
+        "1": 768,
+        "2": 776
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930172,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 914,
+      "new_reference_by_period": {
+        "1": 914,
+        "2": 772
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930173,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 941,
+      "new_reference_by_period": {
+        "1": 941,
+        "2": 771
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930174,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 780,
+      "new_reference_by_period": {
+        "1": 780,
+        "2": 909
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930175,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 782,
+      "new_reference_by_period": {
+        "1": 782,
+        "2": 905
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930176,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 773
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930177,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 916,
+      "new_reference_by_period": {
+        "1": 916,
+        "2": 942
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930178,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 785,
+      "new_reference_by_period": {
+        "1": 785,
+        "2": 914
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930179,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 906,
+      "new_reference_by_period": {
+        "1": 906,
+        "2": 772
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930180,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 915,
+      "new_reference_by_period": {
+        "1": 915,
+        "2": 941
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930181,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 768,
+      "new_reference_by_period": {
+        "1": 768,
+        "2": 944
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930182,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 776,
+      "new_reference_by_period": {
+        "1": 776,
+        "2": 786
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930183,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 908,
+      "new_reference_by_period": {
+        "1": 908,
+        "2": 905
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3930184,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 912,
+      "new_reference_by_period": {
+        "1": 912,
+        "2": 909
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938637,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 789,
+      "new_reference_by_period": {
+        "1": 789,
+        "2": 941
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938638,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 911,
+      "new_reference_by_period": {
+        "1": 911,
+        "2": 905
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938639,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 2138,
+      "new_reference_by_period": {
+        "1": 2138,
+        "2": 909
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938640,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 908,
+      "new_reference_by_period": {
+        "1": 908,
+        "2": 911
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938641,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 915,
+      "new_reference_by_period": {
+        "1": 915,
+        "2": 789
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938642,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 2138,
+      "new_reference_by_period": {
+        "1": 2138,
+        "2": 912
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938643,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 789,
+      "new_reference_by_period": {
+        "1": 789,
+        "2": 771
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938644,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 780,
+      "new_reference_by_period": {
+        "1": 780,
+        "2": 2138
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3938645,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 782,
+      "new_reference_by_period": {
+        "1": 782,
+        "2": 911
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3940878,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 773,
+      "new_reference_by_period": {
+        "1": 773,
+        "2": 914
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3940983,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 776
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3941017,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 908,
+      "new_reference_by_period": {
+        "1": 908,
+        "2": 768,
+        "3": 908,
+        "4": 768
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3941018,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 772,
+      "new_reference_by_period": {
+        "1": 772,
+        "2": 2138
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3941019,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 771,
+      "new_reference_by_period": {
+        "1": 771,
+        "2": 782
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3941020,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 780,
+      "new_reference_by_period": {
+        "1": 780,
+        "2": 944,
+        "3": 780,
+        "4": 944,
+        "5": 780
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3941021,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 941,
+      "new_reference_by_period": {
+        "1": 941,
+        "2": 905
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3941022,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 915,
+      "new_reference_by_period": {
+        "1": 915,
+        "2": 909
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3942226,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 770,
+      "new_reference_by_period": {
+        "1": 770,
+        "2": 772,
+        "3": 770,
+        "4": 772
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3942227,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 768,
+      "new_reference_by_period": {
+        "1": 768,
+        "2": 773,
+        "3": 768,
+        "4": 773,
+        "5": 768
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3942349,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 771,
+      "new_reference_by_period": {
+        "1": 771,
+        "2": 780,
+        "3": 771,
+        "4": 780,
+        "5": 771
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3942382,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 941,
+      "new_reference_by_period": {
+        "1": 941,
+        "2": 909
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3942752,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 771,
+      "new_reference_by_period": {
+        "1": 771,
+        "2": 772
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3942819,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 768,
+      "new_reference_by_period": {
+        "1": 768,
+        "2": 941
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3943043,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 768,
+      "new_reference_by_period": {
+        "1": 768,
+        "2": 772
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998836,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 920,
+      "new_reference_by_period": {
+        "1": 920,
+        "2": 862
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998837,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 860,
+      "new_reference_by_period": {
+        "1": 860,
+        "2": 852
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998838,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 855,
+      "new_reference_by_period": {
+        "1": 855,
+        "2": 854
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998839,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 864,
+      "new_reference_by_period": {
+        "1": 864,
+        "2": 863
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998840,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 29167,
+      "new_reference_by_period": {
+        "1": 29167,
+        "2": 857
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998841,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 853
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998842,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 2456,
+      "new_reference_by_period": {
+        "1": 2456,
+        "2": 851
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998843,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 861
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998844,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 862,
+      "new_reference_by_period": {
+        "1": 862,
+        "2": 860
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998845,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 920,
+      "new_reference_by_period": {
+        "1": 920,
+        "2": 852
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998846,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 855,
+      "new_reference_by_period": {
+        "1": 855,
+        "2": 864
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998847,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 854
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998848,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 29167,
+      "new_reference_by_period": {
+        "1": 29167,
+        "2": 858
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998849,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 853,
+      "new_reference_by_period": {
+        "1": 853,
+        "2": 857
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998850,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 2456,
+      "new_reference_by_period": {
+        "1": 2456,
+        "2": 861
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998851,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 851
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998852,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 920,
+      "new_reference_by_period": {
+        "1": 920,
+        "2": 860
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998853,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 862,
+      "new_reference_by_period": {
+        "1": 862,
+        "2": 852
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998854,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 864,
+      "new_reference_by_period": {
+        "1": 864,
+        "2": 854
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998855,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 855
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998856,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 857,
+      "new_reference_by_period": {
+        "1": 857,
+        "2": 858
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998857,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 853,
+      "new_reference_by_period": {
+        "1": 853,
+        "2": 29167
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998858,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 2456
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 3998859,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 851,
+      "new_reference_by_period": {
+        "1": 851,
+        "2": 861
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 4018354,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 855,
+      "new_reference_by_period": {
+        "1": 855,
+        "2": 852
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 4018355,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 858,
+      "new_reference_by_period": {
+        "1": 858,
+        "2": 865,
+        "3": 858,
+        "4": 865,
+        "5": 858
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 4018356,
+      "periods_present": [
+        1,
+        2
+      ],
+      "old_reference_team_id": 860,
+      "new_reference_by_period": {
+        "1": 860,
+        "2": 863
+      },
+      "affected_periods": [
+        2
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 4018357,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 857,
+      "new_reference_by_period": {
+        "1": 857,
+        "2": 861,
+        "3": 857,
+        "4": 861,
+        "5": 857
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 4020005,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 855,
+      "new_reference_by_period": {
+        "1": 855,
+        "2": 865,
+        "3": 855,
+        "4": 865
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 4020077,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "old_reference_team_id": 863,
+      "new_reference_by_period": {
+        "1": 863,
+        "2": 857,
+        "3": 863,
+        "4": 857
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    },
+    {
+      "match_id": 4020846,
+      "periods_present": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "old_reference_team_id": 865,
+      "new_reference_by_period": {
+        "1": 865,
+        "2": 863,
+        "3": 865,
+        "4": 863,
+        "5": 865
+      },
+      "affected_periods": [
+        2,
+        4
+      ],
+      "affected": true
+    }
+  ]
+}

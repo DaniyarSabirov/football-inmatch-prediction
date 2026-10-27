@@ -1,0 +1,7 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3773631,1,77085096-84aa-4f49-8331-97a8d00cdd4a,1164,00:25:34.626,25:34.626,1534.626,Pass,Barcelona,Clément Lenglet,20,0,1,True,,0.833,833
+2,3773631,1,41774708-85f1-4e86-936a-908662a5b654,1165,00:25:35.459,25:35.459,1535.459,Ball Receipt*,Barcelona,Ricard Puig Martí,20,0,1,True,0.833,0.000,80
+3,3773631,1,99948c58-e944-4b54-a119-5e5fb2ae09dd,1166,00:25:35.459,25:35.459,1535.459,Carry,Barcelona,Ricard Puig Martí,20,0,1,True,0.000,3.637,1500
+4,3773631,1,18e73a44-8e58-4142-9b56-6a400f6edc80,1167,00:25:39.096,25:39.096,1539.096,Pass,Barcelona,Ricard Puig Martí,20,0,1,True,3.637,0.579,579
+5,3773631,1,dc7954cd-c289-4a13-9558-1cb2e366d287,1168,00:25:39.675,25:39.675,1539.675,Ball Receipt*,Barcelona,Óscar Mingueza García,20,0,1,True,0.579,0.000,80
+6,3773631,1,ea181279-28d3-463d-9584-64f52a15cd12,1169,00:25:39.675,25:39.675,1539.675,Foul Committed,Real Betis,Juan Miguel Jiménez López,20,0,1,True,0.000,,80

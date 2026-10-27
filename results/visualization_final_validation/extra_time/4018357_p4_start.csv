@@ -1,0 +1,44 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,4018357,4,74b7c269-8662-4c2b-97fd-64af3b71162e,3366,00:00:00.345,105:00.345,0.345,Pass,France Women's,Clara Mateo,15,0,1,True,,0.400,400
+2,4018357,4,d3bcce44-bacf-4855-98e3-d1a20063bee5,3367,00:00:00.745,105:00.745,0.745,Ball Receipt*,France Women's,Oriane Jean-François,15,0,1,True,0.400,0.000,80
+3,4018357,4,6369ddfc-8838-4f8d-8b26-7ed2b3e80f1b,3368,00:00:00.745,105:00.745,0.745,Carry,France Women's,Oriane Jean-François,15,0,1,True,0.000,1.590,1500
+4,4018357,4,7ad0f52e-45c7-4c75-aa6b-53e359a21ed5,3369,00:00:02.335,105:02.335,2.335,Pass,France Women's,Oriane Jean-François,16,0,1,True,1.590,0.959,959
+5,4018357,4,73684b5b-5986-4378-a872-36de6912e03f,3370,00:00:03.294,105:03.294,3.294,Ball Receipt*,France Women's,Sakina Karchaoui,14,0,1,True,0.959,0.000,80
+6,4018357,4,4f2e613c-68a7-4e00-a53a-ba612026e5ef,3371,00:00:03.294,105:03.294,3.294,Carry,France Women's,Sakina Karchaoui,14,0,1,True,0.000,4.385,1500
+7,4018357,4,e1a95409-6785-4ce6-b222-f8ac17f4dc2e,3372,00:00:07.679,105:07.679,7.679,Pass,France Women's,Sakina Karchaoui,15,0,1,True,4.385,1.541,1500
+8,4018357,4,d92ac512-cae0-4e47-8352-13479bd1a7d8,3373,00:00:09.220,105:09.220,9.220,Ball Receipt*,France Women's,Selma Bacha,16,0,1,True,1.541,0.000,80
+9,4018357,4,022707a4-90a2-4398-97e9-3daa9d42540f,3374,00:00:09.220,105:09.220,9.220,Carry,France Women's,Selma Bacha,16,0,1,True,0.000,4.228,1500
+10,4018357,4,e1b9720e-312b-427e-adf7-3e4a2c7ced03,3378,00:00:13.448,105:13.448,13.448,Pass,France Women's,Maëlle Lakrar,17,0,1,True,4.228,3.437,1500
+11,4018357,4,ce785f82-c8ef-411b-aeb7-d4f42b486d93,3381,00:00:16.885,105:16.885,16.885,Pass,France Women's,Alice Sombath,18,0,1,True,3.437,1.291,1291
+12,4018357,4,9ceddb6f-92e4-41f8-9791-214cab17da3b,3382,00:00:18.176,105:18.176,18.176,Ball Receipt*,France Women's,Maëlle Lakrar,16,0,1,True,1.291,0.000,80
+13,4018357,4,98b6b519-8c5b-4942-b1bb-75da93bb1309,3383,00:00:18.176,105:18.176,18.176,Carry,France Women's,Maëlle Lakrar,16,0,1,True,0.000,0.899,899
+14,4018357,4,2fed3e94-6341-4013-a273-c6d72b60f380,3384,00:00:19.075,105:19.075,19.075,Pass,France Women's,Maëlle Lakrar,15,0,1,True,0.899,1.463,1463
+15,4018357,4,5a6d0e36-3a8a-41d3-8d6a-19fbadf48940,3385,00:00:20.538,105:20.538,20.538,Ball Receipt*,France Women's,Sakina Karchaoui,14,0,1,True,1.463,0.000,80
+16,4018357,4,fee38bd4-b256-4129-8aad-4e88289bcac6,3386,00:00:20.538,105:20.538,20.538,Carry,France Women's,Sakina Karchaoui,14,0,1,True,0.000,2.979,1500
+17,4018357,4,535b4077-fcd2-417c-950b-4e75bca476ac,3387,00:00:23.517,105:23.517,23.517,Pressure,Germany Women's,Lea Schüller,14,0,1,True,2.979,0.602,602
+18,4018357,4,119e3d80-9856-4ba7-b85d-f5c17284b9ce,3388,00:00:24.119,105:24.119,24.119,Pass,France Women's,Sakina Karchaoui,14,0,1,True,0.602,2.185,1500
+19,4018357,4,8228e69b-c690-45fb-8a8b-c5c1d4835a4f,3389,00:00:26.304,105:26.304,26.304,Ball Receipt*,France Women's,Alice Sombath,15,0,1,True,2.185,0.000,80
+20,4018357,4,4196828d-27ce-4be6-9e78-fa402619c8cb,3390,00:00:26.304,105:26.304,26.304,Carry,France Women's,Alice Sombath,15,0,1,True,0.000,2.781,1500
+21,4018357,4,0926947c-3146-4acc-b517-3c75d5d92965,3392,00:00:29.085,105:29.085,29.085,Ball Receipt*,France Women's,Elisa De Almeida,16,0,1,True,2.781,0.000,80
+22,4018357,4,6aa50135-0d0a-484f-99d2-0bcabe5db7d7,3393,00:00:29.085,105:29.085,29.085,Carry,France Women's,Elisa De Almeida,16,0,1,True,0.000,0.977,977
+23,4018357,4,dc83b2e6-14f4-4d32-80e5-7238e00c3248,3394,00:00:30.062,105:30.062,30.062,Pass,France Women's,Elisa De Almeida,17,0,1,True,0.977,0.750,750
+24,4018357,4,45081d3c-2b90-49df-a67c-2425bf539a35,3395,00:00:30.812,105:30.812,30.812,Pressure,Germany Women's,Sjoeke Nüsken,15,0,1,True,0.750,0.015,80
+25,4018357,4,54f1c51c-0c5d-4f6e-ada2-047a6a0504e5,3396,00:00:30.827,105:30.827,30.827,Ball Receipt*,France Women's,Sandy Baltimore,15,0,1,True,0.015,0.000,80
+26,4018357,4,af831112-8246-4e20-b1fb-9ec0f5f9ceaa,3397,00:00:30.827,105:30.827,30.827,Carry,France Women's,Sandy Baltimore,15,0,1,True,0.000,0.229,229
+27,4018357,4,8af67b62-cf2f-4875-b263-3611e55ae769,3398,00:00:31.056,105:31.056,31.056,Pressure,Germany Women's,Franziska Kett,15,0,1,True,0.229,0.076,80
+28,4018357,4,3a78aba0-a254-4999-9acb-5a811eaefc6c,3399,00:00:31.132,105:31.132,31.132,Pass,France Women's,Sandy Baltimore,15,0,1,True,0.076,1.795,1500
+29,4018357,4,14443dbe-41fa-4c93-bcc4-0f5556249da4,3400,00:00:32.927,105:32.927,32.927,Ball Receipt*,France Women's,Alice Sombath,13,0,1,True,1.795,0.000,80
+30,4018357,4,060c9545-c7da-4e21-9438-0630ff7b1fc5,3401,00:00:32.927,105:32.927,32.927,Carry,France Women's,Alice Sombath,13,0,1,True,0.000,2.117,1500
+31,4018357,4,0c325a88-0898-47e7-9344-44f6a8dfb4b1,3402,00:00:35.044,105:35.044,35.044,Pass,France Women's,Alice Sombath,13,0,1,True,2.117,1.104,1104
+32,4018357,4,af3a650a-9014-4e2f-ae12-9c97e6a972d3,3403,00:00:36.148,105:36.148,36.148,Ball Receipt*,France Women's,Elisa De Almeida,15,0,1,True,1.104,0.000,80
+33,4018357,4,ec397c6a-6fcb-48d5-9462-6aa3326920f8,3404,00:00:36.148,105:36.148,36.148,Carry,France Women's,Elisa De Almeida,15,0,1,True,0.000,1.048,1048
+34,4018357,4,e50f750e-0231-49b0-9f79-09744429e484,3405,00:00:37.196,105:37.196,37.196,Pass,France Women's,Elisa De Almeida,14,0,1,True,1.048,0.644,644
+35,4018357,4,d39762e8-4091-4aa9-bc75-56d8bdf69461,3406,00:00:37.840,105:37.840,37.840,Ball Receipt*,France Women's,Sandy Baltimore,14,0,1,True,0.644,0.000,80
+36,4018357,4,e26aac4d-83fd-4143-82ed-731f3457a16d,3407,00:00:37.840,105:37.840,37.840,Carry,France Women's,Sandy Baltimore,14,0,1,True,0.000,0.040,80
+37,4018357,4,96cf9deb-6e14-44c0-b27f-5937c73db88c,3408,00:00:37.880,105:37.880,37.880,Pass,France Women's,Sandy Baltimore,14,0,1,True,0.040,1.015,1015
+38,4018357,4,53b94b39-2944-42d0-8b25-27d004084082,3409,00:00:38.895,105:38.895,38.895,Ball Receipt*,France Women's,Elisa De Almeida,14,0,1,True,1.015,0.000,80
+39,4018357,4,07ff1f61-09ed-40ae-a089-76b53b0fda8f,3410,00:00:38.895,105:38.895,38.895,Carry,France Women's,Elisa De Almeida,14,0,1,True,0.000,0.040,80
+40,4018357,4,5f1b99a7-8895-4a10-80bf-c80570017d87,3411,00:00:38.935,105:38.935,38.935,Miscontrol,France Women's,Elisa De Almeida,14,0,1,True,0.040,20.831,1500
+41,4018357,4,1407951b-a142-4007-8b82-7e7baa30678f,3413,00:00:59.766,105:59.766,59.766,Ball Receipt*,Germany Women's,Lea Schüller,13,0,1,True,20.831,0.000,80
+42,4018357,4,cdfa735d-edb4-4d6b-86e3-717698acce75,3414,00:00:59.766,105:59.766,59.766,Pass,Germany Women's,Lea Schüller,13,0,1,True,0.000,0.178,178
+43,4018357,4,9accd13c-8219-4d43-ad06-83755a211641,3415,00:00:59.944,105:59.944,59.944,Block,France Women's,Elisa De Almeida,13,0,1,True,0.178,,80

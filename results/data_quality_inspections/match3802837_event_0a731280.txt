@@ -1,0 +1,43 @@
+Match ID:        3802837
+Event UUID:      0a731280-0e60-48d3-a0d8-fcb29e029b42
+Event index:     1398
+Event type:      Ball Receipt*
+Period:          1
+Timestamp:       00:36:47.951
+Team:            Saint-Étienne
+Player:          Miguel Ángel Trauco Saavedra
+Event location:  [36.0, 7.4]
+
+Freeze-frame player count: 18
+  [ 0] location=[24.41937371540986, 25.153548656434246]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [ 1] location=[26.42344407920713, 15.892108192824196]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [ 2] location=[26.457642445229766, 38.13147385468145]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [ 3] location=[27.697199713249717, 16.92182853760852]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 4] location=[30.144737503288656, 10.794747684926325]  teammate=True  actor=True  keeper=False  in_bounds=True
+  [ 5] location=[31.46503700148141, 34.827435892571536]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 6] location=[33.39684057239893, 3.022219497535211]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 7] location=[35.25611182091513, 12.791639617091416]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [ 8] location=[36.0, 7.400000095367432]  teammate=True  actor=True  keeper=False  in_bounds=True
+  [ 9] location=[36.123750658886806, 29.07077991627604]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [10] location=[38.486988040984954, 1.8936420536764018]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [11] location=[40.18917197479467, 1.4230562740183856]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [12] location=[40.53715009840346, 14.334788948300258]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [13] location=[40.957787615586625, 3.666481343075482]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [14] location=[45.64337394643532, 54.02631489587888]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [15] location=[55.030933618680876, 35.56691624067887]  teammate=True  actor=False  keeper=False  in_bounds=True
+  [16] location=[56.34508798995151, 51.29831047757681]  teammate=False  actor=False  keeper=False  in_bounds=True
+  [17] location=[57.92388719139666, 35.06335341007474]  teammate=False  actor=False  keeper=False  in_bounds=True
+visible_area (10 values): [36.5515487371601, 59.12182662895094, 7.610158641820062, 0.0, 59.34053777987075, 0.0, 60.49544517841932, 53.49100886960288, 36.5515487371601, 59.12182662895094]
+
+Shared snapshot: NO -- this event's raw 360 snapshot is not shared with a different team's event.
+
+Orientation classification: NORMAL (confidence=0.874)
+  resolved_by: geometry
+
+Team normalization: REFERENCE (reference_team_id=135)
+Orientation correction applied: False
+Team-normalization mirror applied: False
+Out-of-bounds points (raw): 0 / 18
+Out-of-bounds points (after current pipeline): 0 / 18
+
+Dataset-builder actor resolution: actor_x=None, actor_y=None, actor_ambiguous=True

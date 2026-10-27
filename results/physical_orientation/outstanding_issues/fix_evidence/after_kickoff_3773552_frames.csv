@@ -1,0 +1,8 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3773552,1,0af70eb7-6b68-4d46-86e3-1834c6652266,5,00:00:01.454,00:01.454,1.454,Pass,Barcelona,Martin Braithwaite Christensen,15,1,1,True,,2.314,1500
+2,3773552,1,b4a74c7b-f64d-4ed0-991c-541c21aa3ea8,9,00:00:03.768,00:03.768,3.768,Ball Receipt*,Barcelona,Frenkie de Jong,20,0,1,True,2.314,0.000,80
+3,3773552,1,de68b22e-abed-40c4-a658-1b532bfa8ed9,10,00:00:03.768,00:03.768,3.768,Carry,Barcelona,Frenkie de Jong,20,0,1,True,0.000,1.076,1076
+4,3773552,1,a0286065-dacd-4ef3-a903-d726a91a1fcf,11,00:00:04.844,00:04.844,4.844,Pass,Barcelona,Frenkie de Jong,19,0,1,True,1.076,1.168,1168
+5,3773552,1,f7d24b7c-d98b-47a2-88d4-7a73abccf6db,12,00:00:06.012,00:06.012,6.012,Ball Receipt*,Barcelona,Sergio Busquets i Burgos,19,0,1,True,1.168,0.000,80
+6,3773552,1,f8837992-9cbd-4905-88b5-f0422b878853,13,00:00:06.012,00:06.012,6.012,Carry,Barcelona,Sergio Busquets i Burgos,19,0,1,True,0.000,0.823,823
+7,3773552,1,3f9ba2d3-4b1e-4c25-80f5-47fb5ae1a79e,14,00:00:06.835,00:06.835,6.835,Pass,Barcelona,Sergio Busquets i Burgos,18,0,1,True,0.823,,80

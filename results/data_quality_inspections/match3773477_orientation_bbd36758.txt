@@ -1,0 +1,5 @@
+Match 3773477, event bbd36758-ca6d-4074-8406-1942451d37bf
+Type: Ball Receipt*  Period: 1  Team: Real Betis
+Orientation: UNCERTAIN (confidence=0.425, resolved_by=geometry)
+Transformation applied (orientation mirror): False
+UNCERTAIN: evidence is insufficient or contradictory. No transformation is applied -- raw coordinates are shown in BOTH panels below. This is NOT a guess presented as ground truth; it is the documented 'never guess' policy.

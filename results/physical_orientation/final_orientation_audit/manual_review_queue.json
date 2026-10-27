@@ -1,0 +1,1108 @@
+[
+ {
+  "match_id": 3869220,
+  "why": "extra time: period 3 inferred at period 2's ends",
+  "competition": "FIFA World Cup",
+  "season": "2022",
+  "date": "2022-12-06",
+  "home_team": "Morocco",
+  "away_team": "Spain",
+  "score": "0-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Spain: Unai Sim\u00f3n Mendibil; Morocco: Yassine Bounou",
+  "search_url": "https://www.youtube.com/results?search_query=Morocco+vs+Spain+2022+FIFA+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3869220/p1_proposed.png",
+   "p1_alternative": "3869220/p1_alternative.png",
+   "p2_proposed": "3869220/p2_proposed.png",
+   "p2_alternative": "3869220/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Spain",
+  "alternative_period_1_reference": "Morocco",
+  "proposed_reference_by_period": {
+   "1": "Spain",
+   "2": "Morocco",
+   "3": "Morocco",
+   "4": "Spain"
+  },
+  "alternative_reference_by_period": {
+   "1": "Morocco",
+   "2": "Spain",
+   "3": "Spain",
+   "4": "Morocco"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 772 [camera]; P2: unrotated team id 788 [camera]; P3: unrotated team id 788 [camera]; P4: unrotated team id 772 [camera]; P5: rotate both teams=False [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 4018357,
+  "why": "extra time: period 3 inferred at period 2's ends",
+  "competition": "UEFA Women's Euro",
+  "season": "2025",
+  "date": "2025-07-19",
+  "home_team": "France Women's",
+  "away_team": "Germany Women's",
+  "score": "1-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Germany Women's: Ann-Katrin Berger; France Women's: Pauline Peyraud Magnin",
+  "search_url": "https://www.youtube.com/results?search_query=France+Women%27s+vs+Germany+Women%27s+2025+UEFA+Women%27s+Euro+highlights",
+  "images": {
+   "p1_proposed": "4018357/p1_proposed.png",
+   "p1_alternative": "4018357/p1_alternative.png",
+   "p2_proposed": "4018357/p2_proposed.png",
+   "p2_alternative": "4018357/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Germany Women's",
+  "alternative_period_1_reference": "France Women's",
+  "proposed_reference_by_period": {
+   "1": "Germany Women's",
+   "2": "France Women's",
+   "3": "France Women's",
+   "4": "Germany Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "France Women's",
+   "2": "Germany Women's",
+   "3": "Germany Women's",
+   "4": "France Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 857 [camera]; P2: unrotated team id 861 [camera]; P3: unrotated team id 861 [camera]; P4: unrotated team id 857 [camera]; P5: rotate both teams=False [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3869219,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "FIFA World Cup",
+  "season": "2022",
+  "date": "2022-12-05",
+  "home_team": "Japan",
+  "away_team": "Croatia",
+  "score": "1-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Croatia: Dominik Livakovi\u0107; Japan: Sh\u016bichi Gonda",
+  "search_url": "https://www.youtube.com/results?search_query=Japan+vs+Croatia+2022+FIFA+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3869219/p1_proposed.png",
+   "p1_alternative": "3869219/p1_alternative.png",
+   "p2_proposed": "3869219/p2_proposed.png",
+   "p2_alternative": "3869219/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Japan",
+  "alternative_period_1_reference": "Croatia",
+  "proposed_reference_by_period": {
+   "1": "Japan",
+   "2": "Croatia",
+   "3": "Japan",
+   "4": "Croatia"
+  },
+  "alternative_reference_by_period": {
+   "1": "Croatia",
+   "2": "Japan",
+   "3": "Croatia",
+   "4": "Japan"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 778 [camera]; P2: unrotated team id 785 [camera]; P3: unrotated team id 778 [camera]; P4: unrotated team id 785 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3869321,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "FIFA World Cup",
+  "season": "2022",
+  "date": "2022-12-09",
+  "home_team": "Netherlands",
+  "away_team": "Argentina",
+  "score": "2-2",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Netherlands: Andries Noppert; Argentina: Dami\u00e1n Emiliano Mart\u00ednez",
+  "search_url": "https://www.youtube.com/results?search_query=Netherlands+vs+Argentina+2022+FIFA+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3869321/p1_proposed.png",
+   "p1_alternative": "3869321/p1_alternative.png",
+   "p2_proposed": "3869321/p2_proposed.png",
+   "p2_alternative": "3869321/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Netherlands",
+  "alternative_period_1_reference": "Argentina",
+  "proposed_reference_by_period": {
+   "1": "Netherlands",
+   "2": "Argentina",
+   "3": "Netherlands",
+   "4": "Argentina"
+  },
+  "alternative_reference_by_period": {
+   "1": "Argentina",
+   "2": "Netherlands",
+   "3": "Argentina",
+   "4": "Netherlands"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 941 [camera]; P2: unrotated team id 779 [camera]; P3: unrotated team id 941 [camera]; P4: unrotated team id 779 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3869420,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "FIFA World Cup",
+  "season": "2022",
+  "date": "2022-12-09",
+  "home_team": "Croatia",
+  "away_team": "Brazil",
+  "score": "1-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Brazil: Alisson Rams\u00e9s Becker; Croatia: Dominik Livakovi\u0107",
+  "search_url": "https://www.youtube.com/results?search_query=Croatia+vs+Brazil+2022+FIFA+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3869420/p1_proposed.png",
+   "p1_alternative": "3869420/p1_alternative.png",
+   "p2_proposed": "3869420/p2_proposed.png",
+   "p2_alternative": "3869420/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Croatia",
+  "alternative_period_1_reference": "Brazil",
+  "proposed_reference_by_period": {
+   "1": "Croatia",
+   "2": "Brazil",
+   "3": "Croatia",
+   "4": "Brazil"
+  },
+  "alternative_reference_by_period": {
+   "1": "Brazil",
+   "2": "Croatia",
+   "3": "Brazil",
+   "4": "Croatia"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 785 [camera]; P2: unrotated team id 781 [camera]; P3: unrotated team id 785 [camera]; P4: unrotated team id 781 [camera]; P5: rotate both teams=False [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3869685,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "FIFA World Cup",
+  "season": "2022",
+  "date": "2022-12-18",
+  "home_team": "Argentina",
+  "away_team": "France",
+  "score": "3-3",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Argentina: Dami\u00e1n Emiliano Mart\u00ednez; France: Hugo Lloris",
+  "search_url": "https://www.youtube.com/results?search_query=Argentina+vs+France+2022+FIFA+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3869685/p1_proposed.png",
+   "p1_alternative": "3869685/p1_alternative.png",
+   "p2_proposed": "3869685/p2_proposed.png",
+   "p2_alternative": "3869685/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Argentina",
+  "alternative_period_1_reference": "France",
+  "proposed_reference_by_period": {
+   "1": "Argentina",
+   "2": "France",
+   "3": "Argentina",
+   "4": "France"
+  },
+  "alternative_reference_by_period": {
+   "1": "France",
+   "2": "Argentina",
+   "3": "France",
+   "4": "Argentina"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 779 [camera]; P2: unrotated team id 771 [camera]; P3: unrotated team id 779 [camera]; P4: unrotated team id 771 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3901735,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "Women's World Cup",
+  "season": "2023",
+  "date": "2023-08-07",
+  "home_team": "England Women's",
+  "away_team": "Nigeria Women's",
+  "score": "0-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "England Women's: Mary Alexandra Earps; Nigeria Women's: Chiamaka Cynthia Nnadozie",
+  "search_url": "https://www.youtube.com/results?search_query=England+Women%27s+vs+Nigeria+Women%27s+2023+Women%27s+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3901735/p1_proposed.png",
+   "p1_alternative": "3901735/p1_alternative.png",
+   "p2_proposed": "3901735/p2_proposed.png",
+   "p2_alternative": "3901735/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "England Women's",
+  "alternative_period_1_reference": "Nigeria Women's",
+  "proposed_reference_by_period": {
+   "1": "England Women's",
+   "2": "Nigeria Women's",
+   "3": "England Women's",
+   "4": "Nigeria Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "Nigeria Women's",
+   "2": "England Women's",
+   "3": "Nigeria Women's",
+   "4": "England Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 865 [camera]; P2: unrotated team id 1213 [camera]; P3: unrotated team id 865 [camera]; P4: unrotated team id 1213 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3901797,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "Women's World Cup",
+  "season": "2023",
+  "date": "2023-08-06",
+  "home_team": "Sweden Women's",
+  "away_team": "United States Women's",
+  "score": "0-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Sweden Women's: Zecira Musovic; United States Women's: Alyssa Michele Naeher",
+  "search_url": "https://www.youtube.com/results?search_query=Sweden+Women%27s+vs+United+States+Women%27s+2023+Women%27s+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3901797/p1_proposed.png",
+   "p1_alternative": "3901797/p1_alternative.png",
+   "p2_proposed": "3901797/p2_proposed.png",
+   "p2_alternative": "3901797/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Sweden Women's",
+  "alternative_period_1_reference": "United States Women's",
+  "proposed_reference_by_period": {
+   "1": "Sweden Women's",
+   "2": "United States Women's",
+   "3": "Sweden Women's",
+   "4": "United States Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "United States Women's",
+   "2": "Sweden Women's",
+   "3": "United States Women's",
+   "4": "Sweden Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 858 [camera]; P2: unrotated team id 1214 [camera]; P3: unrotated team id 858 [camera]; P4: unrotated team id 1214 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3902968,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "Women's World Cup",
+  "season": "2023",
+  "date": "2023-08-12",
+  "home_team": "Australia Women's",
+  "away_team": "France Women's",
+  "score": "0-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Australia Women's: Mackenzie Arnold; France Women's: Pauline Peyraud Magnin, Sol\u00e8ne Durand",
+  "search_url": "https://www.youtube.com/results?search_query=Australia+Women%27s+vs+France+Women%27s+2023+Women%27s+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3902968/p1_proposed.png",
+   "p1_alternative": "3902968/p1_alternative.png",
+   "p2_proposed": "3902968/p2_proposed.png",
+   "p2_alternative": "3902968/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Australia Women's",
+  "alternative_period_1_reference": "France Women's",
+  "proposed_reference_by_period": {
+   "1": "Australia Women's",
+   "2": "France Women's",
+   "3": "Australia Women's",
+   "4": "France Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "France Women's",
+   "2": "Australia Women's",
+   "3": "France Women's",
+   "4": "Australia Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 1205 [camera]; P2: unrotated team id 861 [camera]; P3: unrotated team id 1205 [camera]; P4: unrotated team id 861 [camera]; P5: rotate both teams=False [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3941020,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "UEFA Euro",
+  "season": "2024",
+  "date": "2024-07-01",
+  "home_team": "Portugal",
+  "away_team": "Slovenia",
+  "score": "0-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Slovenia: Jan Oblak; Portugal: Diogo Meireles Costa",
+  "search_url": "https://www.youtube.com/results?search_query=Portugal+vs+Slovenia+2024+UEFA+Euro+highlights",
+  "images": {
+   "p1_proposed": "3941020/p1_proposed.png",
+   "p1_alternative": "3941020/p1_alternative.png",
+   "p2_proposed": "3941020/p2_proposed.png",
+   "p2_alternative": "3941020/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Slovenia",
+  "alternative_period_1_reference": "Portugal",
+  "proposed_reference_by_period": {
+   "1": "Slovenia",
+   "2": "Portugal",
+   "3": "Slovenia",
+   "4": "Portugal"
+  },
+  "alternative_reference_by_period": {
+   "1": "Portugal",
+   "2": "Slovenia",
+   "3": "Portugal",
+   "4": "Slovenia"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 944 [camera]; P2: unrotated team id 780 [camera]; P3: unrotated team id 944 [camera]; P4: unrotated team id 780 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3942227,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "UEFA Euro",
+  "season": "2024",
+  "date": "2024-07-06",
+  "home_team": "England",
+  "away_team": "Switzerland",
+  "score": "1-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "England: Jordan Pickford; Switzerland: Yann Sommer",
+  "search_url": "https://www.youtube.com/results?search_query=England+vs+Switzerland+2024+UEFA+Euro+highlights",
+  "images": {
+   "p1_proposed": "3942227/p1_proposed.png",
+   "p1_alternative": "3942227/p1_alternative.png",
+   "p2_proposed": "3942227/p2_proposed.png",
+   "p2_alternative": "3942227/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "England",
+  "alternative_period_1_reference": "Switzerland",
+  "proposed_reference_by_period": {
+   "1": "England",
+   "2": "Switzerland",
+   "3": "England",
+   "4": "Switzerland"
+  },
+  "alternative_reference_by_period": {
+   "1": "Switzerland",
+   "2": "England",
+   "3": "Switzerland",
+   "4": "England"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 768 [camera]; P2: unrotated team id 773 [camera]; P3: unrotated team id 768 [camera]; P4: unrotated team id 773 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3942349,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "UEFA Euro",
+  "season": "2024",
+  "date": "2024-07-05",
+  "home_team": "Portugal",
+  "away_team": "France",
+  "score": "0-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Portugal: Diogo Meireles Costa; France: Mike Maignan",
+  "search_url": "https://www.youtube.com/results?search_query=Portugal+vs+France+2024+UEFA+Euro+highlights",
+  "images": {
+   "p1_proposed": "3942349/p1_proposed.png",
+   "p1_alternative": "3942349/p1_alternative.png",
+   "p2_proposed": "3942349/p2_proposed.png",
+   "p2_alternative": "3942349/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "France",
+  "alternative_period_1_reference": "Portugal",
+  "proposed_reference_by_period": {
+   "1": "France",
+   "2": "Portugal",
+   "3": "France",
+   "4": "Portugal"
+  },
+  "alternative_reference_by_period": {
+   "1": "Portugal",
+   "2": "France",
+   "3": "Portugal",
+   "4": "France"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 771 [camera]; P2: unrotated team id 780 [camera]; P3: unrotated team id 771 [camera]; P4: unrotated team id 780 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 4018355,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "UEFA Women's Euro",
+  "season": "2025",
+  "date": "2025-07-17",
+  "home_team": "Sweden Women's",
+  "away_team": "England Women's",
+  "score": "2-2",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "England Women's: Hannah Hampton; Sweden Women's: Jennifer Miley Falk",
+  "search_url": "https://www.youtube.com/results?search_query=Sweden+Women%27s+vs+England+Women%27s+2025+UEFA+Women%27s+Euro+highlights",
+  "images": {
+   "p1_proposed": "4018355/p1_proposed.png",
+   "p1_alternative": "4018355/p1_alternative.png",
+   "p2_proposed": "4018355/p2_proposed.png",
+   "p2_alternative": "4018355/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Sweden Women's",
+  "alternative_period_1_reference": "England Women's",
+  "proposed_reference_by_period": {
+   "1": "Sweden Women's",
+   "2": "England Women's",
+   "3": "Sweden Women's",
+   "4": "England Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "England Women's",
+   "2": "Sweden Women's",
+   "3": "England Women's",
+   "4": "Sweden Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 858 [camera]; P2: unrotated team id 865 [camera]; P3: unrotated team id 858 [camera]; P4: unrotated team id 865 [camera]; P5: rotate both teams=False [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 4020846,
+  "why": "penalty shootout (shared-frame model)",
+  "competition": "UEFA Women's Euro",
+  "season": "2025",
+  "date": "2025-07-27",
+  "home_team": "England Women's",
+  "away_team": "Spain Women's",
+  "score": "1-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "England Women's: Hannah Hampton; Spain Women's: Catalina Thomas Coll Lluch",
+  "search_url": "https://www.youtube.com/results?search_query=England+Women%27s+vs+Spain+Women%27s+2025+UEFA+Women%27s+Euro+highlights",
+  "images": {
+   "p1_proposed": "4020846/p1_proposed.png",
+   "p1_alternative": "4020846/p1_alternative.png",
+   "p2_proposed": "4020846/p2_proposed.png",
+   "p2_alternative": "4020846/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Spain Women's",
+  "alternative_period_1_reference": "England Women's",
+  "proposed_reference_by_period": {
+   "1": "Spain Women's",
+   "2": "England Women's",
+   "3": "Spain Women's",
+   "4": "England Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "England Women's",
+   "2": "Spain Women's",
+   "3": "England Women's",
+   "4": "Spain Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera",
+   "3": "camera",
+   "4": "camera",
+   "5": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 863 [camera]; P2: unrotated team id 865 [camera]; P3: unrotated team id 863 [camera]; P4: unrotated team id 865 [camera]; P5: rotate both teams=True [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3835330,
+  "why": "lowest camera-side agreement among inferred matches",
+  "competition": "UEFA Women's Euro",
+  "season": "2022",
+  "date": "2022-07-12",
+  "home_team": "Germany Women's",
+  "away_team": "Spain Women's",
+  "score": "2-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Spain Women's: Sandra Pa\u00f1os Garc\u00eda-Villamil; Germany Women's: Merle Frohms",
+  "search_url": "https://www.youtube.com/results?search_query=Germany+Women%27s+vs+Spain+Women%27s+2022+UEFA+Women%27s+Euro+highlights",
+  "images": {
+   "p1_proposed": "3835330/p1_proposed.png",
+   "p1_alternative": "3835330/p1_alternative.png",
+   "p2_proposed": "3835330/p2_proposed.png",
+   "p2_alternative": "3835330/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Germany Women's",
+  "alternative_period_1_reference": "Spain Women's",
+  "proposed_reference_by_period": {
+   "1": "Germany Women's",
+   "2": "Spain Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "Spain Women's",
+   "2": "Germany Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 857 [camera]; P2: unrotated team id 863 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3788747,
+  "why": "lowest camera-side agreement among inferred matches",
+  "competition": "UEFA Euro",
+  "season": "2020",
+  "date": "2021-06-13",
+  "home_team": "Austria",
+  "away_team": "North Macedonia",
+  "score": "3-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "North Macedonia: Stole Dimitrievski; Austria: Daniel Bachmann",
+  "search_url": "https://www.youtube.com/results?search_query=Austria+vs+North+Macedonia+2021+UEFA+Euro+highlights",
+  "images": {
+   "p1_proposed": "3788747/p1_proposed.png",
+   "p1_alternative": "3788747/p1_alternative.png",
+   "p2_proposed": "3788747/p2_proposed.png",
+   "p2_alternative": "3788747/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Austria",
+  "alternative_period_1_reference": "North Macedonia",
+  "proposed_reference_by_period": {
+   "1": "Austria",
+   "2": "North Macedonia"
+  },
+  "alternative_reference_by_period": {
+   "1": "North Macedonia",
+   "2": "Austria"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 915 [camera]; P2: unrotated team id 2358 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3835327,
+  "why": "lowest camera-side agreement among inferred matches",
+  "competition": "UEFA Women's Euro",
+  "season": "2022",
+  "date": "2022-07-11",
+  "home_team": "England Women's",
+  "away_team": "Norway Women's",
+  "score": "8-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Norway Women's: Guro Pettersen; England Women's: Mary Alexandra Earps",
+  "search_url": "https://www.youtube.com/results?search_query=England+Women%27s+vs+Norway+Women%27s+2022+UEFA+Women%27s+Euro+highlights",
+  "images": {
+   "p1_proposed": "3835327/p1_proposed.png",
+   "p1_alternative": "3835327/p1_alternative.png",
+   "p2_proposed": "3835327/p2_proposed.png",
+   "p2_alternative": "3835327/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "England Women's",
+  "alternative_period_1_reference": "Norway Women's",
+  "proposed_reference_by_period": {
+   "1": "England Women's",
+   "2": "Norway Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "Norway Women's",
+   "2": "England Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 865 [camera]; P2: unrotated team id 852 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3788767,
+  "why": "lowest camera-side agreement among inferred matches",
+  "competition": "UEFA Euro",
+  "season": "2020",
+  "date": "2021-06-21",
+  "home_team": "Ukraine",
+  "away_team": "Austria",
+  "score": "0-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Austria: Daniel Bachmann; Ukraine: Heorhii Bushchan",
+  "search_url": "https://www.youtube.com/results?search_query=Ukraine+vs+Austria+2021+UEFA+Euro+highlights",
+  "images": {
+   "p1_proposed": "3788767/p1_proposed.png",
+   "p1_alternative": "3788767/p1_alternative.png",
+   "p2_proposed": "3788767/p2_proposed.png",
+   "p2_alternative": "3788767/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Ukraine",
+  "alternative_period_1_reference": "Austria",
+  "proposed_reference_by_period": {
+   "1": "Ukraine",
+   "2": "Austria"
+  },
+  "alternative_reference_by_period": {
+   "1": "Austria",
+   "2": "Ukraine"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 911 [camera]; P2: unrotated team id 915 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3998844,
+  "why": "stratified validation sample: UEFA Women's Euro 2025",
+  "competition": "UEFA Women's Euro",
+  "season": "2025",
+  "date": "2025-07-06",
+  "home_team": "Switzerland Women's",
+  "away_team": "Iceland Women's",
+  "score": "2-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Switzerland Women's: Livia Peng; Iceland Women's: Cecil\u00eda R\u00e1n R\u00fanarsd\u00f3ttir",
+  "search_url": "https://www.youtube.com/results?search_query=Switzerland+Women%27s+vs+Iceland+Women%27s+2025+UEFA+Women%27s+Euro+highlights",
+  "images": {
+   "p1_proposed": "3998844/p1_proposed.png",
+   "p1_alternative": "3998844/p1_alternative.png",
+   "p2_proposed": "3998844/p2_proposed.png",
+   "p2_alternative": "3998844/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Switzerland Women's",
+  "alternative_period_1_reference": "Iceland Women's",
+  "proposed_reference_by_period": {
+   "1": "Switzerland Women's",
+   "2": "Iceland Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "Iceland Women's",
+   "2": "Switzerland Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 860 [camera]; P2: unrotated team id 862 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3901734,
+  "why": "stratified validation sample: Women's World Cup 2023",
+  "competition": "Women's World Cup",
+  "season": "2023",
+  "date": "2023-08-05",
+  "home_team": "Japan Women's",
+  "away_team": "Norway Women's",
+  "score": "3-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Japan Women's: Ayaka Yamashita; Norway Women's: Aurora Watten Mikalsen",
+  "search_url": "https://www.youtube.com/results?search_query=Japan+Women%27s+vs+Norway+Women%27s+2023+Women%27s+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3901734/p1_proposed.png",
+   "p1_alternative": "3901734/p1_alternative.png",
+   "p2_proposed": "3901734/p2_proposed.png",
+   "p2_alternative": "3901734/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Japan Women's",
+  "alternative_period_1_reference": "Norway Women's",
+  "proposed_reference_by_period": {
+   "1": "Japan Women's",
+   "2": "Norway Women's"
+  },
+  "alternative_reference_by_period": {
+   "1": "Norway Women's",
+   "2": "Japan Women's"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 1210 [camera]; P2: unrotated team id 852 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3895107,
+  "why": "stratified validation sample: 1. Bundesliga 2023/2024",
+  "competition": "1. Bundesliga",
+  "season": "2023/2024",
+  "date": "2023-10-08",
+  "home_team": "Bayer Leverkusen",
+  "away_team": "FC K\u00f6ln",
+  "score": "3-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "FC K\u00f6ln: Marvin Schw\u00e4be; Bayer Leverkusen: Luk\u00e1\u0161 Hr\u00e1deck\u00fd",
+  "search_url": "https://www.youtube.com/results?search_query=Bayer+Leverkusen+vs+FC+K%C3%B6ln+2023+1.+Bundesliga+highlights",
+  "images": {
+   "p1_proposed": "3895107/p1_proposed.png",
+   "p1_alternative": "3895107/p1_alternative.png",
+   "p2_proposed": "3895107/p2_proposed.png",
+   "p2_alternative": "3895107/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Bayer Leverkusen",
+  "alternative_period_1_reference": "FC K\u00f6ln",
+  "proposed_reference_by_period": {
+   "1": "Bayer Leverkusen",
+   "2": "FC K\u00f6ln"
+  },
+  "alternative_reference_by_period": {
+   "1": "FC K\u00f6ln",
+   "2": "Bayer Leverkusen"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 904 [camera]; P2: unrotated team id 186 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3857299,
+  "why": "stratified validation sample: FIFA World Cup 2022",
+  "competition": "FIFA World Cup",
+  "season": "2022",
+  "date": "2022-11-28",
+  "home_team": "South Korea",
+  "away_team": "Ghana",
+  "score": "2-3",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Ghana: Lawrence Ati-Zigi; South Korea: Seung-Gyu Kim",
+  "search_url": "https://www.youtube.com/results?search_query=South+Korea+vs+Ghana+2022+FIFA+World+Cup+highlights",
+  "images": {
+   "p1_proposed": "3857299/p1_proposed.png",
+   "p1_alternative": "3857299/p1_alternative.png",
+   "p2_proposed": "3857299/p2_proposed.png",
+   "p2_alternative": "3857299/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "South Korea",
+  "alternative_period_1_reference": "Ghana",
+  "proposed_reference_by_period": {
+   "1": "South Korea",
+   "2": "Ghana"
+  },
+  "alternative_reference_by_period": {
+   "1": "Ghana",
+   "2": "South Korea"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 791 [camera]; P2: unrotated team id 4885 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3773523,
+  "why": "stratified validation sample: La Liga 2020/2021",
+  "competition": "La Liga",
+  "season": "2020/2021",
+  "date": "2020-12-16",
+  "home_team": "Barcelona",
+  "away_team": "Real Sociedad",
+  "score": "2-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Barcelona: Marc-Andr\u00e9 ter Stegen; Real Sociedad: Alejandro Remiro Gargallo",
+  "search_url": "https://www.youtube.com/results?search_query=Barcelona+vs+Real+Sociedad+2020+La+Liga+highlights",
+  "images": {
+   "p1_proposed": "3773523/p1_proposed.png",
+   "p1_alternative": "3773523/p1_alternative.png",
+   "p2_proposed": "3773523/p2_proposed.png",
+   "p2_alternative": "3773523/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Real Sociedad",
+  "alternative_period_1_reference": "Barcelona",
+  "proposed_reference_by_period": {
+   "1": "Real Sociedad",
+   "2": "Barcelona"
+  },
+  "alternative_reference_by_period": {
+   "1": "Barcelona",
+   "2": "Real Sociedad"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 210 [camera]; P2: unrotated team id 217 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3802902,
+  "why": "stratified validation sample: Ligue 1 2021/2022",
+  "competition": "Ligue 1",
+  "season": "2021/2022",
+  "date": "2021-10-24",
+  "home_team": "Olympique de Marseille",
+  "away_team": "Paris Saint-Germain",
+  "score": "0-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Paris Saint-Germain: Keylor Navas Gamboa; Olympique de Marseille: Pau L\u00f3pez Sabata",
+  "search_url": "https://www.youtube.com/results?search_query=Olympique+de+Marseille+vs+Paris+Saint-Germain+2021+Ligue+1+highlights",
+  "images": {
+   "p1_proposed": "3802902/p1_proposed.png",
+   "p1_alternative": "3802902/p1_alternative.png",
+   "p2_proposed": "3802902/p2_proposed.png",
+   "p2_alternative": "3802902/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Olympique de Marseille",
+  "alternative_period_1_reference": "Paris Saint-Germain",
+  "proposed_reference_by_period": {
+   "1": "Olympique de Marseille",
+   "2": "Paris Saint-Germain"
+  },
+  "alternative_reference_by_period": {
+   "1": "Paris Saint-Germain",
+   "2": "Olympique de Marseille"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 147 [camera]; P2: unrotated team id 131 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3837785,
+  "why": "stratified validation sample: Ligue 1 2022/2023",
+  "competition": "Ligue 1",
+  "season": "2022/2023",
+  "date": "2022-11-13",
+  "home_team": "Paris Saint-Germain",
+  "away_team": "Auxerre",
+  "score": "5-0",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Auxerre: Beno\u00eet Guy Robert Costil; Paris Saint-Germain: Gianluigi Donnarumma",
+  "search_url": "https://www.youtube.com/results?search_query=Paris+Saint-Germain+vs+Auxerre+2022+Ligue+1+highlights",
+  "images": {
+   "p1_proposed": "3837785/p1_proposed.png",
+   "p1_alternative": "3837785/p1_alternative.png",
+   "p2_proposed": "3837785/p2_proposed.png",
+   "p2_alternative": "3837785/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Paris Saint-Germain",
+  "alternative_period_1_reference": "Auxerre",
+  "proposed_reference_by_period": {
+   "1": "Paris Saint-Germain",
+   "2": "Auxerre"
+  },
+  "alternative_reference_by_period": {
+   "1": "Auxerre",
+   "2": "Paris Saint-Germain"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 131 [camera]; P2: unrotated team id 167 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3877060,
+  "why": "stratified validation sample: Major League Soccer 2023",
+  "competition": "Major League Soccer",
+  "season": "2023",
+  "date": "2023-08-27",
+  "home_team": "New York Red Bulls",
+  "away_team": "Inter Miami",
+  "score": "0-2",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Inter Miami: Drake Callender; New York Red Bulls: Carlos Miguel Coronel",
+  "search_url": "https://www.youtube.com/results?search_query=New+York+Red+Bulls+vs+Inter+Miami+2023+Major+League+Soccer+highlights",
+  "images": {
+   "p1_proposed": "3877060/p1_proposed.png",
+   "p1_alternative": "3877060/p1_alternative.png",
+   "p2_proposed": "3877060/p2_proposed.png",
+   "p2_alternative": "3877060/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Inter Miami",
+  "alternative_period_1_reference": "New York Red Bulls",
+  "proposed_reference_by_period": {
+   "1": "Inter Miami",
+   "2": "New York Red Bulls"
+  },
+  "alternative_reference_by_period": {
+   "1": "New York Red Bulls",
+   "2": "Inter Miami"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 1975 [camera]; P2: unrotated team id 387 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3788768,
+  "why": "stratified validation sample: UEFA Euro 2020",
+  "competition": "UEFA Euro",
+  "season": "2020",
+  "date": "2021-06-21",
+  "home_team": "Finland",
+  "away_team": "Belgium",
+  "score": "0-2",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "Finland: Luk\u00e1\u0161 Hr\u00e1deck\u00fd; Belgium: Thibaut Courtois",
+  "search_url": "https://www.youtube.com/results?search_query=Finland+vs+Belgium+2021+UEFA+Euro+highlights",
+  "images": {
+   "p1_proposed": "3788768/p1_proposed.png",
+   "p1_alternative": "3788768/p1_alternative.png",
+   "p2_proposed": "3788768/p2_proposed.png",
+   "p2_alternative": "3788768/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Finland",
+  "alternative_period_1_reference": "Belgium",
+  "proposed_reference_by_period": {
+   "1": "Finland",
+   "2": "Belgium"
+  },
+  "alternative_reference_by_period": {
+   "1": "Belgium",
+   "2": "Finland"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 1835 [camera]; P2: unrotated team id 782 [camera]",
+  "provenance": "INFERRED"
+ },
+ {
+  "match_id": 3930163,
+  "why": "stratified validation sample: UEFA Euro 2024",
+  "competition": "UEFA Euro",
+  "season": "2024",
+  "date": "2024-06-16",
+  "home_team": "Serbia",
+  "away_team": "England",
+  "score": "0-1",
+  "category": "high_confidence_inferred",
+  "goalkeepers": "England: Jordan Pickford; Serbia: Predrag Rajkovi\u0107",
+  "search_url": "https://www.youtube.com/results?search_query=Serbia+vs+England+2024+UEFA+Euro+highlights",
+  "images": {
+   "p1_proposed": "3930163/p1_proposed.png",
+   "p1_alternative": "3930163/p1_alternative.png",
+   "p2_proposed": "3930163/p2_proposed.png",
+   "p2_alternative": "3930163/p2_alternative.png"
+  },
+  "proposed_period_1_reference": "Serbia",
+  "alternative_period_1_reference": "England",
+  "proposed_reference_by_period": {
+   "1": "Serbia",
+   "2": "England"
+  },
+  "alternative_reference_by_period": {
+   "1": "England",
+   "2": "Serbia"
+  },
+  "source_by_period": {
+   "1": "camera",
+   "2": "camera"
+  },
+  "recorded_reviews": {},
+  "plan": "P1: unrotated team id 786 [camera]; P2: unrotated team id 768 [camera]",
+  "provenance": "INFERRED"
+ }
+]

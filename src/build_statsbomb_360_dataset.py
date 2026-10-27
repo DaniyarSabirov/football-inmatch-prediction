@@ -8,10 +8,9 @@ try:
     # Flat sibling import: how this module sees it when run directly as a
     # script (e.g. `python src/build_statsbomb_360_dataset.py`), which puts
     # this file's own directory (src/) at sys.path[0].
-    from orientation_correction import apply_correction, classify_orientations_for_match
+    from orientation_correction import ORIENTATION_UNCERTAIN, apply_correction, classify_orientation
     from team_normalization import (
         apply_team_normalization_to_frame,
-        resolve_reference_team_id,
         team_normalization_label,
     )
     from team_identity import (
@@ -21,16 +20,24 @@ try:
         TEAM_IDENTITY_AMBIGUOUS,
         resolve_match_team_identity,
     )
-    from orientation_resolution import ROUTES_USING_LATER_RECORDS, resolve_match_orientation
+    from orientation_resolution import (
+        ROUTES_USING_LATER_RECORDS,
+        OrderedRecords,
+        OrientationResolutionError,
+        compute_orientation_results,
+        event_order_key,
+        ordered_usable_records,
+        resolve_causal_orientations,
+        resolve_match_orientation,
+    )
     from match_exclusions import check_not_excluded, load_exclusion_manifest
 except ImportError:
     # Package-style import: how this module sees it when run as
     # `python -m src.build_statsbomb_360_dataset` from the project root,
     # which puts the project root (not src/) at sys.path[0].
-    from src.orientation_correction import apply_correction, classify_orientations_for_match
+    from src.orientation_correction import ORIENTATION_UNCERTAIN, apply_correction, classify_orientation
     from src.team_normalization import (
         apply_team_normalization_to_frame,
-        resolve_reference_team_id,
         team_normalization_label,
     )
     from src.team_identity import (
@@ -40,7 +47,16 @@ except ImportError:
         TEAM_IDENTITY_AMBIGUOUS,
         resolve_match_team_identity,
     )
-    from src.orientation_resolution import ROUTES_USING_LATER_RECORDS, resolve_match_orientation
+    from src.orientation_resolution import (
+        ROUTES_USING_LATER_RECORDS,
+        OrderedRecords,
+        OrientationResolutionError,
+        compute_orientation_results,
+        event_order_key,
+        ordered_usable_records,
+        resolve_causal_orientations,
+        resolve_match_orientation,
+    )
     from src.match_exclusions import check_not_excluded, load_exclusion_manifest
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -263,55 +279,43 @@ def build_rows_from_match_data(
     frames, keyed by `event_uuid`, exactly as loaded from the three-sixty
     JSON file.
     """
-    # Classify every matched event/360-frame pair up front, in chronological
-    # order, so the temporal-refinement pass (see
-    # src/orientation_correction.py) has the full match timeline available as
-    # potential neighbors -- not just the subset of MEANINGFUL_EVENT_TYPES
-    # rows this dataset ultimately keeps.
-    matched_pairs = sorted(
-        (
-            (event, frames_by_event_id[event["id"]])
-            for event in events
-            if event["id"] in frames_by_event_id
-        ),
-        key=lambda pair: (
-            pair[0]["period"],
-            timestamp_to_seconds(pair[0]["timestamp"]),
-            pair[0]["index"],
-        ),
+    # Step 1: snapshot orientation, in two versions (src/orientation_resolution.py).
+    #
+    # CAUSAL (feature columns): each snapshot decided only from itself and
+    # records EARLIER in the event stream -- what is known when the event
+    # happens. Where that is not enough the orientation stays UNCERTAIN and
+    # the actor position is reported as unavailable (None), never guessed
+    # and never taken from a resolution that looked ahead.
+    #
+    # OFFLINE (*_offline columns, diagnostics only): exactly what the
+    # renderer uses -- Problem A with neighbours on both sides plus the
+    # display resolution of UNCERTAIN snapshots (copies in any order, camera
+    # side estimated from the whole period, reviewer decisions).
+    #
+    # Each frame is corrected exactly once per version. Records with an empty
+    # freeze_frame carry no coordinates; they get the record-only
+    # classification as their causal label.
+    try:
+        match_orientation = resolve_match_orientation(match_id, events, frames_by_event_id)
+        usable_records = match_orientation.records.usable_frames
+        offline_results, offline_problem_a = match_orientation.resolved, match_orientation.problem_a
+    except OrientationResolutionError:
+        # The display resolution needs 360 records of both teams (camera side
+        # per team); a partial match (e.g. cut right after the kick-off) has
+        # only one. The offline diagnostics then fall back to Problem A alone.
+        usable_records = ordered_usable_records(events, frames_by_event_id).usable_frames
+        offline_problem_a = compute_orientation_results(OrderedRecords(usable_records))
+        offline_results = offline_problem_a
+    offline_orientation_by_event_id = {
+        record.event["id"]: result for record, result in zip(usable_records, offline_results)
+    }
+    offline_problem_a_by_event_id = {
+        record.event["id"]: result for record, result in zip(usable_records, offline_problem_a)
+    }
+    causal_orientation_by_event_id = resolve_causal_orientations(
+        [(record.event, record.frame_360) for record in usable_records]
     )
-    ordered_events = [pair[0] for pair in matched_pairs]
-    ordered_frames = [pair[1] for pair in matched_pairs]
-    ordered_timestamps = [
-        timestamp_to_seconds(event["timestamp"]) for event in ordered_events
-    ]
-    ordered_periods = [event["period"] for event in ordered_events]
-    orientation_by_event_id = {
-        event["id"]: result
-        for event, result in zip(
-            ordered_events,
-            classify_orientations_for_match(
-                ordered_events, ordered_frames, ordered_timestamps, ordered_periods
-            ),
-        )
-    }
-
-    # Snapshot orientation for every record with a non-empty freeze_frame
-    # comes from src/orientation_resolution.py -- the exact pipeline the
-    # renderer uses (same records, same order, Problem A, then the
-    # validated resolution of UNCERTAIN snapshots: same-moment duplicates,
-    # kick-off rule, camera side, camera + continuity, reviewer frame
-    # decisions). It replaces the classification above for those records,
-    # so each snapshot is corrected exactly once. Records with an empty
-    # freeze_frame carry no coordinates and keep the plain classification
-    # as their label.
-    match_orientation = resolve_match_orientation(match_id, events, frames_by_event_id)
-    usable_records = match_orientation.records.usable_frames
-    for record, result in zip(usable_records, match_orientation.resolved):
-        orientation_by_event_id[record.event["id"]] = result
-    problem_a_by_event_id = {
-        record.event["id"]: result for record, result in zip(usable_records, match_orientation.problem_a)
-    }
+    ordered_events = sorted((event for event in events if event["id"] in frames_by_event_id), key=event_order_key)
 
     # Step 2 (Problem B, independent of and applied after Step 1 above): the
     # two teams' raw coordinates use opposite attack-direction conventions
@@ -321,13 +325,15 @@ def build_rows_from_match_data(
     # only decides whether this event's (already Step-1-corrected) frame
     # needs mirroring to sit on the same scale as the reference team.
     #
-    # Resolved from `ordered_events` (chronological, 360-joined), not the
+    # Resolved from `ordered_events` (360-joined, in event order), not the
     # full raw `events` list: early events such as "Starting XI"/"Half
     # Start" have no 360 data and can belong to a different team than the
-    # first 360-joined event, which would otherwise make this pick a
-    # different reference team than the animation script (which only ever
-    # sees 360-joined events) -- the two consumers must agree on one team.
-    reference_team_id = resolve_reference_team_id(ordered_events)
+    # first 360-joined event. The first 360-joined event of the match
+    # precedes every row, so the reference is available at prediction time.
+    # Same rule as resolve_reference_team_id (the first team found), read
+    # from the first 360-joined event alone, so the reference never depends
+    # on later records (that helper also requires the second team to appear).
+    reference_team_id = ordered_events[0]["team"]["id"]
 
     # Step 3 (team identity, independent of Steps 1-2; see
     # src/team_identity.py): which team each freeze_frame point belongs to,
@@ -344,15 +350,15 @@ def build_rows_from_match_data(
     # OFFLINE resolution (both directions in time, what the renderer draws)
     # is kept in the *_offline columns for data-quality analysis only.
     team_names = _match_team_names(events)
-    identity_inputs = (
-        [(record.event, record.frame_360) for record in usable_records],
-        [result.orientation for result in match_orientation.resolved],
-        match_orientation.problem_a,
-        team_names,
-        events,
+    usable_pairs = [(record.event, record.frame_360) for record in usable_records]
+    causal_results = [causal_orientation_by_event_id[record.event["id"]] for record in usable_records]
+    causal_identity_by_event_id = resolve_match_team_identity(
+        usable_pairs, [r.orientation for r in causal_results], causal_results, team_names, events, causal=True,
     )
-    causal_identity_by_event_id = resolve_match_team_identity(*identity_inputs, causal=True)
-    offline_identity_by_event_id = resolve_match_team_identity(*identity_inputs)
+    offline_identity_by_event_id = resolve_match_team_identity(
+        usable_pairs, [r.orientation for r in offline_results], offline_problem_a,
+        team_names, events,
+    )
 
     rows = []
 
@@ -393,24 +399,30 @@ def build_rows_from_match_data(
 
         # Some StatsBomb 360 snapshots are recorded reflected through the
         # pitch center relative to the event's own location (see
-        # src/orientation_correction.py for the forensic evidence and the
-        # geometry-based detection method). Never assume event type alone
-        # decides this; each snapshot was classified on its own evidence
-        # above, and a correction is never forced when that evidence is weak
-        # or contradictory (orientation == UNCERTAIN keeps raw coordinates).
-        orientation_result = orientation_by_event_id[current_event_id]
-        frame = apply_correction(
-            frames_by_event_id[current_event_id], orientation_result.orientation
+        # src/orientation_correction.py). The whole snapshot is corrected
+        # with the CAUSAL orientation for the feature columns and with the
+        # OFFLINE orientation for the *_offline diagnostics; team
+        # normalization then puts both on the reference team's scale.
+        raw_frame = frames_by_event_id[current_event_id]
+        causal_result = causal_orientation_by_event_id.get(current_event_id) or classify_orientation(current_event, raw_frame)
+        offline_result = offline_orientation_by_event_id.get(current_event_id, causal_result)
+        causal_frame = apply_team_normalization_to_frame(
+            apply_correction(raw_frame, causal_result.orientation), current_event, reference_team_id
         )
-        frame = apply_team_normalization_to_frame(frame, current_event, reference_team_id)
-        freeze_frame = frame.get("freeze_frame", [])
+        offline_frame = apply_team_normalization_to_frame(
+            apply_correction(raw_frame, offline_result.orientation), current_event, reference_team_id
+        )
+        freeze_frame = causal_frame.get("freeze_frame", [])
         team_normalization = team_normalization_label(current_event, reference_team_id)
+        orientation_available = causal_result.orientation != ORIENTATION_UNCERTAIN
+        actor_x, actor_y, actor_ambiguous = resolve_actor_location(freeze_frame)
+        if not orientation_available:
+            actor_x = actor_y = None  # frame unknown at prediction time: unavailable, not guessed
+        actor_x_offline, actor_y_offline, _ = resolve_actor_location(offline_frame.get("freeze_frame", []))
 
         current_team_name = current_event["team"]["name"]
         causal = identity_counts(causal_identity_by_event_id.get(current_event_id), current_team_name)
         offline = identity_counts(offline_identity_by_event_id.get(current_event_id), current_team_name)
-
-        actor_x, actor_y, actor_ambiguous = resolve_actor_location(freeze_frame)
 
         current_team_id = current_event["team"]["id"]
         next_team_id = next_event["team"]["id"]
@@ -437,11 +449,16 @@ def build_rows_from_match_data(
             "actor_x": actor_x,
             "actor_y": actor_y,
             "actor_ambiguous": actor_ambiguous,
-            "orientation": orientation_result.orientation,
-            "orientation_confidence": round(orientation_result.confidence, 3),
-            "orientation_problem_a": problem_a_by_event_id.get(current_event_id, orientation_result).orientation,
-            "orientation_resolved_by": orientation_result.resolved_by,
-            "orientation_uses_later_records": orientation_result.resolved_by in ROUTES_USING_LATER_RECORDS,
+            "orientation": causal_result.orientation,
+            "orientation_available": orientation_available,
+            "orientation_confidence": round(causal_result.confidence, 3),
+            "orientation_resolved_by": causal_result.resolved_by,
+            "actor_x_offline": actor_x_offline,
+            "actor_y_offline": actor_y_offline,
+            "orientation_offline": offline_result.orientation,
+            "orientation_offline_resolved_by": offline_result.resolved_by,
+            "orientation_problem_a_offline": offline_problem_a_by_event_id.get(current_event_id, offline_result).orientation,
+            "orientation_uses_later_records": offline_result.resolved_by in ROUTES_USING_LATER_RECORDS,
             "team_normalization": team_normalization,
             "visible_players": len(freeze_frame),
             "visible_teammates": causal["teammates"],

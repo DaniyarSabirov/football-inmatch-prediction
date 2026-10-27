@@ -1,0 +1,4 @@
+Match 3773477, event 195352ca-956f-4e43-81e8-a799ac796257
+Type: Pass  Period: 1  Team: Real Betis
+Orientation: NORMAL (confidence=0.935, resolved_by=geometry)
+Transformation applied (orientation mirror): False

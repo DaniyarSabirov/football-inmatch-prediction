@@ -1,0 +1,8 @@
+{
+ "matches_audited": 417,
+ "audit_errors": [],
+ "periods": 908,
+ "uncertain_rows": 4974,
+ "unusual_rows": 8497,
+ "inconsistent_rows": 3229
+}

@@ -1,0 +1,330 @@
+Match 3788744: 329 out-of-bounds point(s) found across all events
+  event=1c554b2d type=Pass               point=(69.91354662076976, 83.12005331631553) overshoot=3.120 teammate=True actor=False keeper=False
+  event=55db0a2f type=Ball Receipt*      point=(62.538025580446934, 85.33096728067952) overshoot=5.331 teammate=True actor=False keeper=False
+  event=55db0a2f type=Ball Receipt*      point=(70.21478826140483, 80.55521815561471) overshoot=0.555 teammate=False actor=False keeper=False
+  event=686aa988 type=Carry              point=(62.538025580446934, 85.33096728067952) overshoot=5.331 teammate=True actor=False keeper=False
+  event=686aa988 type=Carry              point=(70.21478826140483, 80.55521815561471) overshoot=0.555 teammate=False actor=False keeper=False
+  event=fbc33fd7 type=Pass               point=(60.89788860225878, 84.39732366613862) overshoot=4.397 teammate=True actor=False keeper=False
+  event=fbc33fd7 type=Pass               point=(66.34967458132783, 82.71784281684911) overshoot=2.718 teammate=False actor=False keeper=False
+  event=429dc74f type=Ball Receipt*      point=(67.79378726825308, 81.03917402311737) overshoot=1.039 teammate=True actor=False keeper=False
+  event=105d9d13 type=Carry              point=(67.79378726825308, 81.03917402311737) overshoot=1.039 teammate=True actor=False keeper=False
+  event=a9b7c258 type=Pressure           point=(46.78445266012422, 80.11614625878012) overshoot=0.116 teammate=False actor=False keeper=False
+  event=b9f04ec8 type=Pass               point=(73.62835959586567, -0.8352309412996277) overshoot=0.835 teammate=True actor=False keeper=False
+  event=0553b019 type=Pressure           point=(54.09691970594043, -3.0053382828120903) overshoot=3.005 teammate=False actor=False keeper=False
+  event=5f363d0e type=Pass               point=(65.27701177971862, 81.32961413431393) overshoot=1.330 teammate=True actor=False keeper=False
+  event=c6dee207 type=Ball Receipt*      point=(67.96219227913136, 80.39395704947081) overshoot=0.394 teammate=True actor=False keeper=False
+  event=ead09fd8 type=Pass               point=(67.96219214115227, 80.39395778518886) overshoot=0.394 teammate=True actor=False keeper=False
+  event=f492c460 type=Pass               point=(59.97359014957954, -0.3565505601268555) overshoot=0.357 teammate=True actor=False keeper=False
+  event=2f298062 type=Ball Receipt*      point=(59.837956752270955, -1.127562091069855) overshoot=1.128 teammate=True actor=False keeper=False
+  event=c9b02288 type=Carry              point=(59.837956752270955, -1.127562091069855) overshoot=1.128 teammate=True actor=False keeper=False
+  event=0baec8ba type=Pass               point=(62.200118388704205, -1.2438428248066629) overshoot=1.244 teammate=True actor=False keeper=False
+  event=4ee9f1e3 type=Pass               point=(63.47342650781275, 82.66484658841233) overshoot=2.665 teammate=True actor=False keeper=False
+  event=eed00262 type=Pass               point=(120.08932701107832, 33.2523435210912) overshoot=0.089 teammate=False actor=False keeper=True
+  event=260cf96b type=Ball Receipt*      point=(44.13784653000383, 81.32692340449698) overshoot=1.327 teammate=True actor=False keeper=False
+  event=b8fb50bc type=Carry              point=(44.13784653000383, 81.32692340449698) overshoot=1.327 teammate=True actor=False keeper=False
+  event=41383fdb type=Ball Receipt*      point=(-0.2814456722992702, 19.51541848603707) overshoot=0.281 teammate=False actor=False keeper=False
+  event=5a44ca37 type=Clearance          point=(-0.2814456722992702, 19.51541848603707) overshoot=0.281 teammate=False actor=False keeper=False
+  event=1c80c1a9 type=Ball Receipt*      point=(54.592003244362225, -0.5965066803576775) overshoot=0.597 teammate=False actor=False keeper=False
+  event=48523ed8 type=Ball Receipt*      point=(57.220314668969706, 84.00894335198042) overshoot=4.009 teammate=False actor=False keeper=False
+  event=48523ed8 type=Ball Receipt*      point=(67.19893850012276, 82.75857719933691) overshoot=2.759 teammate=True actor=False keeper=False
+  event=48523ed8 type=Ball Receipt*      point=(75.54852970069037, 82.24415721116273) overshoot=2.244 teammate=True actor=False keeper=False
+  event=48523ed8 type=Ball Receipt*      point=(77.51200780345451, 82.15492798336766) overshoot=2.155 teammate=True actor=False keeper=False
+  event=617ddbca type=Carry              point=(57.220314668969706, 84.00894335198042) overshoot=4.009 teammate=False actor=False keeper=False
+  event=617ddbca type=Carry              point=(67.19893850012276, 82.75857719933691) overshoot=2.759 teammate=True actor=False keeper=False
+  event=617ddbca type=Carry              point=(75.54852970069037, 82.24415721116273) overshoot=2.244 teammate=True actor=False keeper=False
+  event=617ddbca type=Carry              point=(77.51200780345451, 82.15492798336766) overshoot=2.155 teammate=True actor=False keeper=False
+  event=049f17e4 type=Pass               point=(84.21658726835601, 83.40303690560252) overshoot=3.403 teammate=True actor=False keeper=False
+  event=fa70f914 type=Ball Receipt*      point=(57.262534687040464, 82.48756594289188) overshoot=2.488 teammate=True actor=False keeper=False
+  event=fa70f914 type=Ball Receipt*      point=(72.13236577330741, 83.10488417195131) overshoot=3.105 teammate=True actor=False keeper=False
+  event=dfe8a101 type=Carry              point=(57.262534687040464, 82.48756594289188) overshoot=2.488 teammate=True actor=False keeper=False
+  event=dfe8a101 type=Carry              point=(72.13236577330741, 83.10488417195131) overshoot=3.105 teammate=True actor=False keeper=False
+  event=f2d5f773 type=Pass               point=(121.70080156388038, 39.9032978240229) overshoot=1.701 teammate=False actor=False keeper=True
+  event=5fe263d3 type=Pass               point=(54.722253652713505, 83.89823692053541) overshoot=3.898 teammate=True actor=False keeper=False
+  event=1eda61b8 type=Pass               point=(44.8076809871726, 95.70177229706503) overshoot=15.702 teammate=True actor=False keeper=False
+  event=1eda61b8 type=Pass               point=(67.35869237075535, -0.14473219910070156) overshoot=0.145 teammate=True actor=False keeper=False
+  event=5382d269 type=Pressure           point=(34.47682192130776, -0.09688757869277964) overshoot=0.097 teammate=False actor=False keeper=False
+  event=7d461f3d type=Ball Receipt*      point=(84.87780613087257, 83.79060677614426) overshoot=3.791 teammate=True actor=False keeper=False
+  event=7d461f3d type=Ball Receipt*      point=(86.81172793095327, 82.35448645109659) overshoot=2.354 teammate=False actor=False keeper=False
+  event=d0a2577d type=Carry              point=(84.87780613087257, 83.79060677614426) overshoot=3.791 teammate=True actor=False keeper=False
+  event=d0a2577d type=Carry              point=(86.81172793095327, 82.35448645109659) overshoot=2.354 teammate=False actor=False keeper=False
+  event=4464d0fc type=Pass               point=(83.37769394415064, 83.79446163744137) overshoot=3.794 teammate=True actor=False keeper=False
+  event=4464d0fc type=Pass               point=(85.34620365717527, 81.25549751241657) overshoot=1.255 teammate=False actor=False keeper=False
+  event=dd2262ff type=Ball Receipt*      point=(45.11266754597608, 117.3044782878609) overshoot=37.304 teammate=True actor=False keeper=False
+  event=dd2262ff type=Ball Receipt*      point=(45.29406786033425, 111.47896243851234) overshoot=31.479 teammate=True actor=False keeper=False
+  event=9e073522 type=Carry              point=(45.11266754597608, 117.3044782878609) overshoot=37.304 teammate=True actor=False keeper=False
+  event=9e073522 type=Carry              point=(45.29406786033425, 111.47896243851234) overshoot=31.479 teammate=True actor=False keeper=False
+  event=e8d95ea2 type=Pass               point=(72.85431142089213, 80.84403327459822) overshoot=0.844 teammate=True actor=False keeper=False
+  event=1c9fc608 type=Ball Receipt*      point=(67.99129054589424, 81.47790691979844) overshoot=1.478 teammate=True actor=False keeper=False
+  event=4e1755be type=Carry              point=(67.99129054589424, 81.47790691979844) overshoot=1.478 teammate=True actor=False keeper=False
+  event=90b24b30 type=Ball Receipt*      point=(87.53958627517216, 85.30895099470386) overshoot=5.309 teammate=True actor=False keeper=False
+  event=90b24b30 type=Ball Receipt*      point=(95.3288468681739, 84.18612938419459) overshoot=4.186 teammate=True actor=False keeper=False
+  event=2e5094c1 type=Carry              point=(87.53958627517216, 85.30895099470386) overshoot=5.309 teammate=True actor=False keeper=False
+  event=2e5094c1 type=Carry              point=(95.3288468681739, 84.18612938419459) overshoot=4.186 teammate=True actor=False keeper=False
+  event=3c4e5e43 type=Ball Receipt*      point=(-1.516737139802082, 35.77824874431161) overshoot=1.517 teammate=True actor=False keeper=True
+  event=fd2f2990 type=Interception       point=(-1.516737139802082, 35.77824874431161) overshoot=1.517 teammate=True actor=False keeper=True
+  event=f4a1e338 type=Ball Receipt*      point=(105.19664608789198, 80.60835932331399) overshoot=0.608 teammate=True actor=False keeper=False
+  event=c7ff45bc type=Carry              point=(105.19664608789198, 80.60835932331399) overshoot=0.608 teammate=True actor=False keeper=False
+  event=2d497485 type=Pass               point=(39.33762041625667, -0.150345989604034) overshoot=0.150 teammate=True actor=False keeper=False
+  event=fdaf34e5 type=Pass               point=(85.2508450296864, 84.78236716299902) overshoot=4.782 teammate=True actor=False keeper=False
+  event=6bdf49c2 type=Ball Receipt*      point=(83.21123295447902, 83.80823275612738) overshoot=3.808 teammate=True actor=False keeper=False
+  event=161b276e type=Pass               point=(83.21123295447902, 83.80823275612738) overshoot=3.808 teammate=True actor=False keeper=False
+  event=e7a6a3b0 type=Pass               point=(88.42175980791993, -0.19830653270877008) overshoot=0.198 teammate=True actor=False keeper=False
+  event=4c25fbfb type=Pass               point=(67.11483070652554, 84.10344416052519) overshoot=4.103 teammate=True actor=False keeper=False
+  event=47244327 type=Pass               point=(78.88174453464727, 81.68418921379606) overshoot=1.684 teammate=True actor=False keeper=False
+  event=bf256a4a type=Pass               point=(35.41934641072027, -1.4952480988068153) overshoot=1.495 teammate=True actor=False keeper=False
+  event=7b7f11bf type=Pass               point=(32.61272428631009, 83.44901828087575) overshoot=3.449 teammate=False actor=False keeper=False
+  event=0e1c5235 type=Pass               point=(50.44282984045484, -2.7238062778107235) overshoot=2.724 teammate=True actor=False keeper=False
+  event=1738bd40 type=Ball Receipt*      point=(54.33541546478367, -1.7212698280489072) overshoot=1.721 teammate=True actor=False keeper=False
+  event=17c14238 type=Carry              point=(54.33541546478367, -1.7212698280489072) overshoot=1.721 teammate=True actor=False keeper=False
+  event=4d12101f type=Pass               point=(50.05290131379917, -2.6231785147024596) overshoot=2.623 teammate=True actor=False keeper=False
+  event=7de2171d type=Ball Receipt*      point=(62.78512558826942, -3.304171962694653) overshoot=3.304 teammate=True actor=False keeper=False
+  event=7de2171d type=Ball Receipt*      point=(68.65934860389473, -0.3311461428326865) overshoot=0.331 teammate=False actor=False keeper=False
+  event=6a2254cf type=Carry              point=(62.78512558826942, -3.304171962694653) overshoot=3.304 teammate=True actor=False keeper=False
+  event=6a2254cf type=Carry              point=(68.65934860389473, -0.3311461428326865) overshoot=0.331 teammate=False actor=False keeper=False
+  event=e7afce68 type=Pass               point=(61.80099049390909, -3.844640923445443) overshoot=3.845 teammate=True actor=False keeper=False
+  event=e7afce68 type=Pass               point=(69.08576236626658, -1.4241058685422523) overshoot=1.424 teammate=False actor=False keeper=False
+  event=6dbd3a18 type=Ball Receipt*      point=(66.19489357276606, 80.04907266808975) overshoot=0.049 teammate=False actor=False keeper=False
+  event=6dbd3a18 type=Ball Receipt*      point=(70.58788119211741, 82.7400017235197) overshoot=2.740 teammate=True actor=False keeper=False
+  event=6dbd3a18 type=Ball Receipt*      point=(79.26191685998296, 100.48495643688923) overshoot=20.485 teammate=True actor=False keeper=False
+  event=140c19f7 type=Carry              point=(66.19489357276606, 80.04907266808975) overshoot=0.049 teammate=False actor=False keeper=False
+  event=140c19f7 type=Carry              point=(70.58788119211741, 82.7400017235197) overshoot=2.740 teammate=True actor=False keeper=False
+  event=140c19f7 type=Carry              point=(79.26191685998296, 100.48495643688923) overshoot=20.485 teammate=True actor=False keeper=False
+  event=e077769c type=Ball Receipt*      point=(42.72630258223864, -2.3808339095388895) overshoot=2.381 teammate=True actor=False keeper=False
+  event=12105087 type=Carry              point=(42.72630258223864, -2.3808339095388895) overshoot=2.381 teammate=True actor=False keeper=False
+  event=5d246b79 type=Dispossessed       point=(60.53871492317814, 80.32891521093643) overshoot=0.329 teammate=True actor=False keeper=False
+  event=822d6e3f type=Duel               point=(60.53871492317814, 80.32891521093643) overshoot=0.329 teammate=False actor=False keeper=False
+  event=957f9018 type=Pass               point=(79.67397277191013, 80.76428772771942) overshoot=0.764 teammate=True actor=False keeper=False
+  event=7a9fcab9 type=Pass               point=(86.21910158207811, 80.42025842026217) overshoot=0.420 teammate=True actor=False keeper=False
+  event=68f7147f type=Ball Receipt*      point=(64.72673580003651, -3.0970919268755637) overshoot=3.097 teammate=True actor=False keeper=False
+  event=68f7147f type=Ball Receipt*      point=(68.22699129956364, -0.31015817812875923) overshoot=0.310 teammate=False actor=False keeper=False
+  event=fe6a32fc type=Carry              point=(64.72673580003651, -3.0970919268755637) overshoot=3.097 teammate=True actor=False keeper=False
+  event=fe6a32fc type=Carry              point=(68.22699129956364, -0.31015817812875923) overshoot=0.310 teammate=False actor=False keeper=False
+  event=ecd2a1c5 type=Ball Receipt*      point=(58.095061628983174, -3.691993206776104) overshoot=3.692 teammate=True actor=False keeper=False
+  event=75fd13ae type=Carry              point=(58.095061628983174, -3.691993206776104) overshoot=3.692 teammate=True actor=False keeper=False
+  event=2cba696e type=Pass               point=(98.76040312671734, -0.1062329695033597) overshoot=0.106 teammate=True actor=False keeper=False
+  event=5161d102 type=Pass               point=(88.95569595975215, 84.59694865972376) overshoot=4.597 teammate=True actor=False keeper=False
+  event=5161d102 type=Pass               point=(94.23486921449035, 80.44090123112144) overshoot=0.441 teammate=False actor=False keeper=False
+  event=385ccf1a type=Ball Receipt*      point=(94.39329973179633, 81.93408370430379) overshoot=1.934 teammate=True actor=False keeper=False
+  event=93773d83 type=Carry              point=(94.39329973179633, 81.93408370430379) overshoot=1.934 teammate=True actor=False keeper=False
+  event=f7d93410 type=Pass               point=(95.75342005857479, 81.38582516218653) overshoot=1.386 teammate=True actor=False keeper=False
+  event=1e6226ab type=Ball Receipt*      point=(121.60716082429592, 44.03860355801677) overshoot=1.607 teammate=False actor=False keeper=True
+  event=6701a5eb type=Pass               point=(120.50716235017482, 44.43860126919841) overshoot=0.507 teammate=False actor=False keeper=True
+  event=9716af13 type=Pass               point=(53.76016037642931, 81.49245562222754) overshoot=1.492 teammate=True actor=False keeper=False
+  event=e5399776 type=Ball Receipt*      point=(57.226772649988774, 81.20462394652719) overshoot=1.205 teammate=True actor=False keeper=False
+  event=909ff7e4 type=Carry              point=(57.226772649988774, 81.20462394652719) overshoot=1.205 teammate=True actor=False keeper=False
+  event=e24e3a54 type=Pass               point=(64.00008071111662, 82.50270373770552) overshoot=2.503 teammate=True actor=False keeper=False
+  event=481ec241 type=Ball Receipt*      point=(66.92245655615754, 86.35346231970746) overshoot=6.353 teammate=True actor=False keeper=False
+  event=71372d9e type=Carry              point=(66.92245655615754, 86.35346231970746) overshoot=6.353 teammate=True actor=False keeper=False
+  event=a14be48c type=Pass               point=(64.17012007444781, -2.098762307505936) overshoot=2.099 teammate=True actor=False keeper=False
+  event=47d56c38 type=Ball Receipt*      point=(68.46337901814152, 81.82099040582864) overshoot=1.821 teammate=True actor=False keeper=False
+  event=64a24b1a type=Carry              point=(68.46337901814152, 81.82099040582864) overshoot=1.821 teammate=True actor=False keeper=False
+  event=5b2ffeb0 type=Pass               point=(66.98849599026457, 82.78197686720685) overshoot=2.782 teammate=True actor=False keeper=False
+  event=07a979e9 type=Pressure           point=(54.58612401954622, -2.000455666240022) overshoot=2.000 teammate=False actor=False keeper=False
+  event=95714542 type=Pass               point=(67.68465143859295, 80.22810571418638) overshoot=0.228 teammate=True actor=False keeper=False
+  event=f8ee089b type=Pass               point=(69.19919027997642, -0.8664837546110036) overshoot=0.866 teammate=True actor=False keeper=False
+  event=1a58a642 type=Ball Receipt*      point=(69.4623049819303, 82.75269507995725) overshoot=2.753 teammate=True actor=False keeper=False
+  event=202bfc13 type=Carry              point=(69.4623049819303, 82.75269507995725) overshoot=2.753 teammate=True actor=False keeper=False
+  event=43474e2e type=Pass               point=(71.83982129641865, 80.88178546076071) overshoot=0.882 teammate=True actor=False keeper=False
+  event=82c42b7c type=Clearance          point=(-1.0299422281374646, 37.40815446901598) overshoot=1.030 teammate=True actor=False keeper=True
+  event=82c42b7c type=Clearance          point=(-0.6562603254608561, 4.902435954789688) overshoot=0.656 teammate=False actor=False keeper=False
+  event=0ca3c767 type=Pressure           point=(44.875554205126264, -1.366027667746188) overshoot=1.366 teammate=False actor=False keeper=False
+  event=1cabca50 type=Pass               point=(76.77899091984318, 82.64141640919455) overshoot=2.641 teammate=True actor=False keeper=False
+  event=beb9fb73 type=Pressure           point=(-0.8156007235442218, 50.021675284268284) overshoot=0.816 teammate=True actor=False keeper=True
+  event=beb9fb73 type=Pressure           point=(14.748730918449354, 86.29226441434764) overshoot=6.292 teammate=False actor=False keeper=False
+  event=55c4293e type=Pressure           point=(-1.0550785409251873, 43.20863181404186) overshoot=1.055 teammate=True actor=False keeper=True
+  event=fd679ad0 type=Dribbled Past      point=(120.23763752754107, 38.900270374094205) overshoot=0.238 teammate=False actor=False keeper=True
+  event=9606a641 type=Dribble            point=(120.23763752754107, 38.900270374094205) overshoot=0.238 teammate=False actor=False keeper=True
+  event=4b7c1482 type=Carry              point=(120.23763752754107, 38.900270374094205) overshoot=0.238 teammate=False actor=False keeper=True
+  event=76477212 type=Pressure           point=(120.18495749027886, 45.42486262318344) overshoot=0.185 teammate=False actor=False keeper=True
+  event=c48c59f1 type=Pass               point=(-0.425893726965505, 35.35732525709105) overshoot=0.426 teammate=True actor=False keeper=True
+  event=c1016e36 type=Pass               point=(59.89536251090888, 81.65327086688418) overshoot=1.653 teammate=True actor=False keeper=False
+  event=a3afdb3a type=Ball Receipt*      point=(63.734473381585616, 84.11321351242294) overshoot=4.113 teammate=True actor=False keeper=False
+  event=8cb687d0 type=Carry              point=(63.734473381585616, 84.11321351242294) overshoot=4.113 teammate=True actor=False keeper=False
+  event=e69002bd type=Pass               point=(60.208002584387046, 80.87683050030586) overshoot=0.877 teammate=True actor=False keeper=False
+  event=62ce4186 type=Pass               point=(67.545924120968, 84.52393155836998) overshoot=4.524 teammate=True actor=False keeper=False
+  event=f1b477d0 type=Pass               point=(77.16731188664949, 80.50466335134519) overshoot=0.505 teammate=True actor=False keeper=False
+  event=5f6e075d type=Pass               point=(70.38501962977597, 81.02801853691176) overshoot=1.028 teammate=True actor=False keeper=False
+  event=0c8a5213 type=Ball Receipt*      point=(83.60075126885617, 81.44652550182067) overshoot=1.447 teammate=True actor=False keeper=False
+  event=d0336d5f type=Pass               point=(83.60075126885617, 81.44652550182067) overshoot=1.447 teammate=True actor=False keeper=False
+  event=08cd61b2 type=Ball Receipt*      point=(81.10847676399617, 83.57613932476963) overshoot=3.576 teammate=True actor=False keeper=False
+  event=5ae7ee4a type=Carry              point=(81.10847676399617, 83.57613932476963) overshoot=3.576 teammate=True actor=False keeper=False
+  event=4d0db004 type=Pass               point=(78.59883051958882, 80.80727982437762) overshoot=0.807 teammate=True actor=False keeper=False
+  event=d104285a type=Pass               point=(53.92113286624121, 82.67388428311793) overshoot=2.674 teammate=True actor=False keeper=False
+  event=8a7392b0 type=Pass               point=(60.21130212832674, 80.59277129300555) overshoot=0.593 teammate=True actor=False keeper=False
+  event=8a7392b0 type=Pass               point=(80.16305191891043, 83.6943682933065) overshoot=3.694 teammate=True actor=False keeper=False
+  event=87e641a0 type=Ball Receipt*      point=(80.40195579440218, 81.41306636526159) overshoot=1.413 teammate=True actor=False keeper=False
+  event=1e117c23 type=Carry              point=(80.40195579440218, 81.41306636526159) overshoot=1.413 teammate=True actor=False keeper=False
+  event=2241a962 type=Pressure           point=(40.874013508816724, -2.2550224286563) overshoot=2.255 teammate=False actor=False keeper=False
+  event=d8a2949e type=Pass               point=(78.4309427831392, 85.55696725905591) overshoot=5.557 teammate=True actor=False keeper=False
+  event=222616d4 type=Ball Receipt*      point=(74.40156987428776, 82.87427609251637) overshoot=2.874 teammate=True actor=False keeper=False
+  event=461a635d type=Carry              point=(74.40156987428776, 82.87427609251637) overshoot=2.874 teammate=True actor=False keeper=False
+  event=d13e7032 type=Pass               point=(73.18509697581595, 82.83094288261157) overshoot=2.831 teammate=True actor=False keeper=False
+  event=41312f45 type=Ball Receipt*      point=(42.77810551419881, -1.1470154475574184) overshoot=1.147 teammate=False actor=False keeper=False
+  event=fcbc6f0f type=Interception       point=(42.77810551419881, -1.1470154475574184) overshoot=1.147 teammate=False actor=False keeper=False
+  event=dad258c6 type=Pass               point=(90.82487560775905, 80.9073315990426) overshoot=0.907 teammate=True actor=False keeper=False
+  event=fc08eafe type=Ball Receipt*      point=(87.94489252306045, 83.35880198433264) overshoot=3.359 teammate=True actor=False keeper=False
+  event=e426dff1 type=Carry              point=(87.94489252306045, 83.35880198433264) overshoot=3.359 teammate=True actor=False keeper=False
+  event=e963527e type=Pass               point=(84.96031772198374, 82.47441660256742) overshoot=2.474 teammate=True actor=False keeper=False
+  event=b5da5269 type=Pass               point=(70.0104388689843, 81.49773225957958) overshoot=1.498 teammate=True actor=False keeper=False
+  event=724c1196 type=Ball Receipt*      point=(70.66246938949533, 80.2467577929074) overshoot=0.247 teammate=True actor=False keeper=False
+  event=9cde26b2 type=Carry              point=(70.66246938949533, 80.2467577929074) overshoot=0.247 teammate=True actor=False keeper=False
+  event=2c058398 type=Pass               point=(71.66957323815592, 83.52396002967897) overshoot=3.524 teammate=True actor=False keeper=False
+  event=c6e2fde0 type=Ball Receipt*      point=(72.06332440312224, 80.93465041985704) overshoot=0.935 teammate=True actor=False keeper=False
+  event=6615e8a6 type=Carry              point=(72.06332440312224, 80.93465041985704) overshoot=0.935 teammate=True actor=False keeper=False
+  event=112ac58c type=Pass               point=(57.20766482651632, 83.12706349557752) overshoot=3.127 teammate=True actor=False keeper=False
+  event=e5d57eb4 type=Foul Committed     point=(66.38838491152407, -1.0223642537309594) overshoot=1.022 teammate=False actor=False keeper=False
+  event=e70d2b7f type=Foul Won           point=(66.38838491152407, -1.0223642537309594) overshoot=1.022 teammate=True actor=False keeper=False
+  event=092d40b4 type=Pressure           point=(-0.6393112509498664, 41.987959672083406) overshoot=0.639 teammate=True actor=False keeper=True
+  event=bf51b866 type=Dispossessed       point=(-0.9231144750265514, 38.84826394868872) overshoot=0.923 teammate=False actor=False keeper=True
+  event=ed202fd5 type=Duel               point=(-0.9231144750265514, 38.84826394868872) overshoot=0.923 teammate=True actor=False keeper=True
+  event=59544f87 type=Carry              point=(-0.9231144750265514, 38.84826394868872) overshoot=0.923 teammate=True actor=False keeper=True
+  event=f0aef880 type=Pass               point=(-1.8112300278977997, 37.90162532490628) overshoot=1.811 teammate=True actor=False keeper=True
+  event=6a04b8eb type=Pressure           point=(67.66070087433293, -1.187716477248287) overshoot=1.188 teammate=False actor=False keeper=False
+  event=d088615e type=Ball Receipt*      point=(51.40996749434923, 80.11853918391527) overshoot=0.119 teammate=True actor=False keeper=False
+  event=5e4b3434 type=Pass               point=(51.40996749434923, 81.21853765803637) overshoot=1.219 teammate=True actor=False keeper=False
+  event=a9c46dca type=Ball Receipt*      point=(66.02661702266366, -1.436794518732583) overshoot=1.437 teammate=False actor=False keeper=False
+  event=20bda55a type=Pass               point=(66.02661702266366, -1.436794518732583) overshoot=1.437 teammate=False actor=False keeper=False
+  event=0ddb51c4 type=Pass               point=(67.54165216131686, 86.96986330545332) overshoot=6.970 teammate=True actor=False keeper=False
+  event=4e18300b type=Ball Receipt*      point=(-3.933185983719156, 7.845703171836298) overshoot=3.933 teammate=False actor=False keeper=False
+  event=f9786e15 type=Goal Keeper        point=(-3.933185983719156, 7.845703171836298) overshoot=3.933 teammate=False actor=False keeper=False
+  event=51d7afbc type=Carry              point=(-3.933185983719156, 7.845703171836298) overshoot=3.933 teammate=False actor=False keeper=False
+  event=2beadeee type=Ball Receipt*      point=(19.727337572782886, 80.21215098264952) overshoot=0.212 teammate=True actor=False keeper=False
+  event=284ac01d type=Pressure           point=(93.16449349194784, -1.1600900046578815) overshoot=1.160 teammate=False actor=False keeper=False
+  event=fd2b34b0 type=Pass               point=(26.929520308733316, 81.84996587795108) overshoot=1.850 teammate=True actor=False keeper=False
+  event=2f062efe type=Pass               point=(60.78187143576975, -1.1166189641756397) overshoot=1.117 teammate=True actor=False keeper=False
+  event=b6de10b5 type=Ball Receipt*      point=(70.35499287436532, -2.455903645334587) overshoot=2.456 teammate=True actor=False keeper=False
+  event=ba1dd00a type=Carry              point=(70.35499287436532, -2.455903645334587) overshoot=2.456 teammate=True actor=False keeper=False
+  event=93c50cbb type=Pass               point=(73.7687142187518, -3.9258141318043727) overshoot=3.926 teammate=True actor=False keeper=False
+  event=7b2f7509 type=Ball Receipt*      point=(74.74503853850999, -2.024095008404334) overshoot=2.024 teammate=True actor=False keeper=False
+  event=91959789 type=Carry              point=(74.74503853850999, -2.024095008404334) overshoot=2.024 teammate=True actor=False keeper=False
+  event=5b06292d type=Ball Receipt*      point=(86.56677355229078, -1.0235427419203376) overshoot=1.024 teammate=True actor=False keeper=False
+  event=f397b51f type=Carry              point=(86.56677355229078, -1.0235427419203376) overshoot=1.024 teammate=True actor=False keeper=False
+  event=8f48395c type=Pass               point=(87.32589540009918, -6.1959625213319285) overshoot=6.196 teammate=True actor=False keeper=False
+  event=8f48395c type=Pass               point=(90.88289880008138, -1.4198153155298314) overshoot=1.420 teammate=False actor=False keeper=False
+  event=7c42fb24 type=Pass               point=(26.2234835559899, 83.91683046213694) overshoot=3.917 teammate=True actor=False keeper=False
+  event=731f1d07 type=Pass               point=(20.147635432308903, 81.24910780750527) overshoot=1.249 teammate=True actor=False keeper=False
+  event=abbda82e type=Ball Receipt*      point=(32.55094918803729, 87.73856472600201) overshoot=7.739 teammate=True actor=False keeper=False
+  event=329a053f type=Carry              point=(32.55094918803729, 87.73856472600201) overshoot=7.739 teammate=True actor=False keeper=False
+  event=f371886a type=Pass               point=(23.332204708059678, 81.56675073868192) overshoot=1.567 teammate=True actor=False keeper=False
+  event=cfb895f9 type=Pressure           point=(77.43925323341338, -0.32261688500756236) overshoot=0.323 teammate=False actor=False keeper=False
+  event=2356683a type=Ball Receipt*      point=(41.528280696850246, 80.51862100589912) overshoot=0.519 teammate=True actor=False keeper=False
+  event=4c720399 type=Carry              point=(41.528280696850246, 80.51862100589912) overshoot=0.519 teammate=True actor=False keeper=False
+  event=5d5eba71 type=Ball Receipt*      point=(71.67685565244587, -5.550919202782726) overshoot=5.551 teammate=True actor=False keeper=False
+  event=5d5eba71 type=Ball Receipt*      point=(74.02221367640931, -2.3482102700698455) overshoot=2.348 teammate=False actor=False keeper=False
+  event=5d5eba71 type=Ball Receipt*      point=(85.27959202670228, -7.012407077864257) overshoot=7.012 teammate=True actor=False keeper=False
+  event=5d5eba71 type=Ball Receipt*      point=(87.13710871826365, -3.2665836748269506) overshoot=3.267 teammate=False actor=False keeper=False
+  event=66c33c15 type=Carry              point=(71.67685565244587, -5.550919202782726) overshoot=5.551 teammate=True actor=False keeper=False
+  event=66c33c15 type=Carry              point=(74.02221367640931, -2.3482102700698455) overshoot=2.348 teammate=False actor=False keeper=False
+  event=66c33c15 type=Carry              point=(85.27959202670228, -7.012407077864257) overshoot=7.012 teammate=True actor=False keeper=False
+  event=66c33c15 type=Carry              point=(87.13710871826365, -3.2665836748269506) overshoot=3.267 teammate=False actor=False keeper=False
+  event=fcac4adc type=Pass               point=(76.42400227986286, -3.368607987227179) overshoot=3.369 teammate=True actor=False keeper=False
+  event=fcac4adc type=Pass               point=(85.36119794369749, -6.430069984707579) overshoot=6.430 teammate=True actor=False keeper=False
+  event=fcac4adc type=Pass               point=(88.7815271783595, -1.7706656800086051) overshoot=1.771 teammate=False actor=False keeper=False
+  event=4954ee9a type=Ball Receipt*      point=(84.12009678627575, -0.23972852600569894) overshoot=0.240 teammate=True actor=False keeper=False
+  event=c4414904 type=Carry              point=(84.12009678627575, -0.23972852600569894) overshoot=0.240 teammate=True actor=False keeper=False
+  event=bc1faa5e type=Pressure           point=(79.01640126068334, 80.29299311147801) overshoot=0.293 teammate=False actor=False keeper=False
+  event=bf65654c type=Pass               point=(67.04929998190416, 85.25595525203639) overshoot=5.256 teammate=True actor=False keeper=False
+  event=1452fa4c type=Ball Receipt*      point=(64.48992607831403, 80.49224254473998) overshoot=0.492 teammate=True actor=False keeper=False
+  event=c4363e65 type=Carry              point=(64.48992607831403, 80.49224254473998) overshoot=0.492 teammate=True actor=False keeper=False
+  event=0e1711ad type=Pass               point=(61.87442416660768, 85.8608196923458) overshoot=5.861 teammate=True actor=False keeper=False
+  event=46420810 type=Ball Receipt*      point=(51.64743796829403, -2.564253383818695) overshoot=2.564 teammate=True actor=False keeper=False
+  event=f08d44f5 type=Carry              point=(51.64743796829403, -2.564253383818695) overshoot=2.564 teammate=True actor=False keeper=False
+  event=ace8f864 type=Pass               point=(59.203341361508606, 83.60847683950081) overshoot=3.608 teammate=True actor=False keeper=False
+  event=ef287d09 type=Ball Receipt*      point=(78.81773795913296, 80.01219679840298) overshoot=0.012 teammate=True actor=False keeper=False
+  event=02f8b0e7 type=Carry              point=(78.81773795913296, 80.01219679840298) overshoot=0.012 teammate=True actor=False keeper=False
+  event=0c86b00b type=Pass               point=(79.30727802339446, 81.60287013078586) overshoot=1.603 teammate=True actor=False keeper=False
+  event=614eebbf type=Pass               point=(78.97731212509002, 83.41477626703109) overshoot=3.415 teammate=True actor=False keeper=False
+  event=8c288f74 type=Pass               point=(76.7880206892898, 83.04140740180064) overshoot=3.041 teammate=True actor=False keeper=False
+  event=b19788cb type=Pass               point=(49.464461473390045, 80.29376055750188) overshoot=0.294 teammate=True actor=False keeper=False
+  event=da145e65 type=Pass               point=(59.64282549208654, 82.41673123293714) overshoot=2.417 teammate=True actor=False keeper=False
+  event=dba4bbf3 type=Pass               point=(37.69777768855675, -0.5312208127891367) overshoot=0.531 teammate=False actor=False keeper=False
+  event=dba4bbf3 type=Pass               point=(38.6617052521837, -0.2542055195094335) overshoot=0.254 teammate=True actor=False keeper=False
+  event=61d073fa type=Pass               point=(99.91555025975568, 81.23945107578777) overshoot=1.239 teammate=False actor=False keeper=False
+  event=4511aada type=Ball Receipt*      point=(42.71241552359657, -3.1062104914611623) overshoot=3.106 teammate=True actor=False keeper=False
+  event=0ce73218 type=Carry              point=(42.71241552359657, -3.1062104914611623) overshoot=3.106 teammate=True actor=False keeper=False
+  event=b25b928a type=Pass               point=(49.110747458573215, -0.8804175524844453) overshoot=0.880 teammate=True actor=False keeper=False
+  event=f223069c type=Ball Receipt*      point=(54.05305306585489, -0.17553258535173555) overshoot=0.176 teammate=False actor=False keeper=False
+  event=cc4d9257 type=Carry              point=(54.05305306585489, -0.17553258535173555) overshoot=0.176 teammate=False actor=False keeper=False
+  event=ccd89963 type=Ball Receipt*      point=(74.42210561119444, 80.17057072268288) overshoot=0.171 teammate=True actor=False keeper=False
+  event=fa44e8b0 type=Carry              point=(74.42210561119444, 80.17057072268288) overshoot=0.171 teammate=True actor=False keeper=False
+  event=4005b21b type=Pass               point=(61.64291435420598, -2.739920667908656) overshoot=2.740 teammate=True actor=False keeper=False
+  event=88da1e10 type=Pass               point=(52.802342741271055, -1.511501029397479) overshoot=1.512 teammate=True actor=False keeper=False
+  event=01d3322c type=Pass               point=(50.56518549302465, -2.362673097783233) overshoot=2.363 teammate=True actor=False keeper=False
+  event=cba87f8f type=Pass               point=(67.7497297166785, -0.8160414647613763) overshoot=0.816 teammate=True actor=False keeper=False
+  event=cba87f8f type=Pass               point=(73.92438101239236, -0.7647322623727959) overshoot=0.765 teammate=False actor=False keeper=False
+  event=68851a9f type=Ball Receipt*      point=(59.99631905006125, 80.30973454728813) overshoot=0.310 teammate=True actor=False keeper=False
+  event=7364917a type=Pass               point=(59.99631905006125, 80.30973454728813) overshoot=0.310 teammate=True actor=False keeper=False
+  event=46722f30 type=Pass               point=(46.11634807626564, -1.8983909942573085) overshoot=1.898 teammate=True actor=False keeper=False
+  event=d87a739f type=Pass               point=(81.61364649782021, -1.4773148255047843) overshoot=1.477 teammate=True actor=False keeper=False
+  event=ce62696a type=Pressure           point=(39.28290947357635, 81.42489811155218) overshoot=1.425 teammate=False actor=False keeper=False
+  event=2aa5fa59 type=Pressure           point=(70.30509394013421, -1.6629416362158835) overshoot=1.663 teammate=False actor=False keeper=False
+  event=2aa5fa59 type=Pressure           point=(78.45767897012351, -1.1512291496683602) overshoot=1.151 teammate=False actor=False keeper=False
+  event=ac8f1f17 type=Ball Receipt*      point=(54.346367868719135, -2.7884590031185112) overshoot=2.788 teammate=True actor=False keeper=False
+  event=ac8f1f17 type=Ball Receipt*      point=(55.37668670475455, -0.5666519305270263) overshoot=0.567 teammate=False actor=False keeper=False
+  event=3aaf2969 type=Carry              point=(54.346367868719135, -2.7884590031185112) overshoot=2.788 teammate=True actor=False keeper=False
+  event=3aaf2969 type=Carry              point=(55.37668670475455, -0.5666519305270263) overshoot=0.567 teammate=False actor=False keeper=False
+  event=e548c311 type=Pass               point=(58.573996890095586, 80.63883739139358) overshoot=0.639 teammate=True actor=False keeper=False
+  event=aad9278b type=Pass               point=(66.67305053101519, 81.8384420994814) overshoot=1.838 teammate=True actor=False keeper=False
+  event=637f31b5 type=Ball Receipt*      point=(90.69976572215084, 80.42450900031841) overshoot=0.425 teammate=True actor=False keeper=False
+  event=d0f92dde type=Carry              point=(90.69976572215084, 80.42450900031841) overshoot=0.425 teammate=True actor=False keeper=False
+  event=54adb75e type=Pass               point=(90.86536231575617, 81.4057763561325) overshoot=1.406 teammate=True actor=False keeper=False
+  event=c4d6cefe type=Pressure           point=(32.57703377730321, -0.294412971733891) overshoot=0.294 teammate=False actor=False keeper=False
+  event=d2bc766d type=Ball Receipt*      point=(-0.809687423612047, 41.679549676784255) overshoot=0.810 teammate=True actor=False keeper=True
+  event=5b3a577e type=Pressure           point=(94.32725782281672, -0.8722892231240991) overshoot=0.872 teammate=False actor=False keeper=False
+  event=38409bf5 type=Ball Receipt*      point=(120.59089726379375, 39.020348717058575) overshoot=0.591 teammate=False actor=False keeper=True
+  event=8cbc2c2c type=Duel               point=(120.59089726379375, 39.020348717058575) overshoot=0.591 teammate=False actor=False keeper=True
+  event=a246da8e type=Pass               point=(88.60420126875152, 80.18447362515265) overshoot=0.184 teammate=True actor=False keeper=False
+  event=01852fbc type=Ball Receipt*      point=(92.36639155681665, 83.51009737944567) overshoot=3.510 teammate=True actor=False keeper=False
+  event=49aebf6c type=Carry              point=(92.36639155681665, 83.51009737944567) overshoot=3.510 teammate=True actor=False keeper=False
+  event=976905c7 type=Ball Receipt*      point=(94.85897389917346, 80.7087232370223) overshoot=0.709 teammate=True actor=False keeper=False
+  event=2913b4df type=Carry              point=(94.85897389917346, 80.7087232370223) overshoot=0.709 teammate=True actor=False keeper=False
+  event=2696096e type=Pass               point=(93.1197910444567, 80.92009333388305) overshoot=0.920 teammate=True actor=False keeper=False
+  event=e6600fec type=Ball Receipt*      point=(90.98101579933792, 81.53181614448913) overshoot=1.532 teammate=True actor=False keeper=False
+  event=4ffc492f type=Carry              point=(90.98101579933792, 81.53181614448913) overshoot=1.532 teammate=True actor=False keeper=False
+  event=4863dd68 type=Pass               point=(92.8543949726429, 86.61609158034547) overshoot=6.616 teammate=True actor=False keeper=False
+  event=0f6e0b65 type=Ball Receipt*      point=(89.10067740518248, 83.97196986742132) overshoot=3.972 teammate=True actor=False keeper=False
+  event=bdd81870 type=Carry              point=(89.10067740518248, 83.97196986742132) overshoot=3.972 teammate=True actor=False keeper=False
+  event=ee13561f type=Pass               point=(87.93657378848759, 84.32770384071098) overshoot=4.328 teammate=True actor=False keeper=False
+  event=c24056e0 type=Ball Receipt*      point=(45.23609029343083, 80.14855414227225) overshoot=0.149 teammate=True actor=False keeper=False
+  event=72cf5139 type=Interception       point=(45.23609029343083, 80.14855414227225) overshoot=0.149 teammate=True actor=False keeper=False
+  event=96cd144a type=Pass               point=(56.65063099780881, 83.30205336502154) overshoot=3.302 teammate=True actor=False keeper=False
+  event=7e10ff29 type=Ball Receipt*      point=(60.58418908584309, -1.359976718744683) overshoot=1.360 teammate=True actor=False keeper=False
+  event=e019bde1 type=Carry              point=(60.58418908584309, -1.359976718744683) overshoot=1.360 teammate=True actor=False keeper=False
+  event=1638ac3d type=Ball Receipt*      point=(34.00698574040523, 81.50442910215168) overshoot=1.504 teammate=False actor=False keeper=False
+  event=cf15b440 type=Duel               point=(34.00698574040523, 81.50442910215168) overshoot=1.504 teammate=False actor=False keeper=False
+  event=b70ff4f9 type=Pass               point=(34.00698574040523, 81.50442910215168) overshoot=1.504 teammate=True actor=False keeper=False
+  event=f554e210 type=Ball Receipt*      point=(37.57542296580461, 80.26464666634081) overshoot=0.265 teammate=True actor=False keeper=False
+  event=62ce9ba8 type=Carry              point=(37.57542296580461, 80.26464666634081) overshoot=0.265 teammate=True actor=False keeper=False
+  event=c56e5bfe type=Pass               point=(63.914990053770126, 82.42676327610573) overshoot=2.427 teammate=True actor=False keeper=False
+  event=96a9df0b type=Ball Receipt*      point=(64.27055423243584, 82.47854586094914) overshoot=2.479 teammate=True actor=False keeper=False
+  event=4e092c50 type=Carry              point=(64.27055423243584, 82.47854586094914) overshoot=2.479 teammate=True actor=False keeper=False
+  event=6bca6f4d type=Pass               point=(60.64373192525802, 85.56777456664676) overshoot=5.568 teammate=True actor=False keeper=False
+  event=98a72289 type=Pass               point=(93.45552791434702, 80.08271420761896) overshoot=0.083 teammate=True actor=False keeper=False
+  event=94058ae4 type=Ball Receipt*      point=(57.89697796456283, -1.8351436224794213) overshoot=1.835 teammate=True actor=False keeper=False
+  event=94058ae4 type=Ball Receipt*      point=(63.58293113914529, -2.593802341537426) overshoot=2.594 teammate=False actor=False keeper=False
+  event=dc62ff1a type=Interception       point=(57.89697796456283, -1.8351436224794213) overshoot=1.835 teammate=True actor=False keeper=False
+  event=dc62ff1a type=Interception       point=(63.58293113914529, -2.593802341537426) overshoot=2.594 teammate=False actor=False keeper=False
+  event=51dfd2d4 type=Pressure           point=(32.79314301964688, -0.07167256265607591) overshoot=0.072 teammate=False actor=False keeper=False
+  event=42ec549e type=Ball Receipt*      point=(73.5615939974222, -1.7217624173931156) overshoot=1.722 teammate=True actor=False keeper=False
+  event=cb424f4b type=Carry              point=(73.5615939974222, -1.7217624173931156) overshoot=1.722 teammate=True actor=False keeper=False
+  event=3f51ff00 type=Ball Receipt*      point=(82.33281735665125, -0.34235586784230065) overshoot=0.342 teammate=True actor=False keeper=False
+  event=6cbae8ee type=Carry              point=(82.33281735665125, -0.34235586784230065) overshoot=0.342 teammate=True actor=False keeper=False
+  event=b5a25acf type=Pass               point=(97.81096544369846, -2.482614796856609) overshoot=2.483 teammate=True actor=False keeper=False
+  event=1cef8d6c type=Ball Receipt*      point=(98.32780696477728, -1.796385160345345) overshoot=1.796 teammate=True actor=False keeper=False
+  event=b3d603ff type=Carry              point=(98.32780696477728, -1.796385160345345) overshoot=1.796 teammate=True actor=False keeper=False
+  event=71d1c62e type=Pass               point=(98.065391908314, -0.5837088056675128) overshoot=0.584 teammate=True actor=False keeper=False
+  event=3be6df8e type=Pressure           point=(122.47692949689458, 38.80261148683741) overshoot=2.477 teammate=False actor=False keeper=True
+  event=67e0b989 type=Pass               point=(-1.293087296390084, 39.38768413632971) overshoot=1.293 teammate=True actor=False keeper=True
+  event=126139c6 type=Ball Receipt*      point=(43.21298965319394, 81.01841857195883) overshoot=1.018 teammate=False actor=False keeper=False
+  event=24a68f46 type=Duel               point=(43.21298965319394, 81.01841857195883) overshoot=1.018 teammate=False actor=False keeper=False
+  event=a1804f89 type=Pass               point=(43.21298965319394, 81.01841857195883) overshoot=1.018 teammate=False actor=False keeper=False
+  event=a02bceb8 type=Pressure           point=(-0.6828272654693563, 34.082691699129256) overshoot=0.683 teammate=True actor=False keeper=True
+  event=30ce4b82 type=Pass               point=(121.47101497946731, 42.33812152848191) overshoot=1.471 teammate=False actor=False keeper=False
+  event=355d0d44 type=Ball Receipt*      point=(77.95641839099466, 83.03789895162006) overshoot=3.038 teammate=True actor=False keeper=False
+  event=fde5661c type=Carry              point=(77.95641839099466, 83.03789895162006) overshoot=3.038 teammate=True actor=False keeper=False
+  event=dd3fa67d type=Pass               point=(43.28413311254454, 80.48258867432997) overshoot=0.483 teammate=True actor=False keeper=False
+  event=dd3fa67d type=Pass               point=(48.7070306339375, 80.61899066240461) overshoot=0.619 teammate=False actor=False keeper=False
+  event=f76c8489 type=Pass               point=(120.21627455325846, 43.52713469781999) overshoot=0.216 teammate=False actor=False keeper=False
+  event=c43168ed type=Pressure           point=(-0.38259505694539087, 39.704929895502886) overshoot=0.383 teammate=True actor=False keeper=True
+  event=a6645e42 type=Dispossessed       point=(-1.124099929651031, 40.74819204312975) overshoot=1.124 teammate=False actor=False keeper=True
+  event=d73af7c1 type=Duel               point=(-1.124099929651031, 40.74819204312975) overshoot=1.124 teammate=True actor=False keeper=True

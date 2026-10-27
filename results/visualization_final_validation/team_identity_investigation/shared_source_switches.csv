@@ -1,0 +1,3 @@
+match_id,events,period,timestamp,previous_source_team,new_source_team,mismatches_current_vs_before_after,mismatches_alternative_vs_before_after
+3857293,"['491357cc-02a0-4123-a183-9e976ec3db5e', '4bc0f78b-3227-4935-90f6-80678753e610']",1,00:44:24.954,Ghana,Uruguay,"[(12, 12), (13, 13)]","[(12, 0), (13, 0)]"
+3857293,"['f6aa86e6-b3c8-4be5-8160-fdc73e72cab1', '16844876-9627-44c1-b82c-398f2c0a888e']",2,00:38:27.375,Ghana,Uruguay,"[(17, 17), (8, 8)]","[(17, 0), (8, 0)]"

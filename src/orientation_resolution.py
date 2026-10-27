@@ -33,8 +33,10 @@ try:
         ORIENTATION_UNCERTAIN,
         OrientationResult,
         apply_correction,
+        classify_orientation,
         classify_orientations_for_match,
         mirror_point,
+        resolve_uncertain_with_neighbors,
     )
     from team_normalization import resolve_reference_team_id
     from physical_orientation_calibration import (
@@ -45,6 +47,7 @@ try:
     )
     from broadcast_orientation import (
         CAMERA_SIDE_UNKNOWN,
+        SHARED_FRAME_PERIODS,
         PROVENANCE_PREFERENCE,
         PROVENANCE_VERIFIED,
         BroadcastOrientationInference,
@@ -64,8 +67,10 @@ except ImportError:
         ORIENTATION_UNCERTAIN,
         OrientationResult,
         apply_correction,
+        classify_orientation,
         classify_orientations_for_match,
         mirror_point,
+        resolve_uncertain_with_neighbors,
     )
     from src.team_normalization import resolve_reference_team_id
     from src.physical_orientation_calibration import (
@@ -76,6 +81,7 @@ except ImportError:
     )
     from src.broadcast_orientation import (
         CAMERA_SIDE_UNKNOWN,
+        SHARED_FRAME_PERIODS,
         PROVENANCE_PREFERENCE,
         PROVENANCE_VERIFIED,
         BroadcastOrientationInference,
@@ -539,3 +545,87 @@ def resolve_match_orientation(
         records, problem_a, inference, plan, frame_reviews=frame_review_corrections()
     )
     return MatchOrientation(records, problem_a, resolved, plan, counts)
+
+
+# ---------------------------------------------------------------------------
+# Causal (prediction-time) orientation, 2026-10-27.
+#
+# The display resolution above may read records AFTER a snapshot's own event
+# (copies in any order, neighbours on both sides, a period-level camera
+# estimate, reviewer decisions made while watching whole sequences). That is
+# fine for retrospective visualization but not for features of a model that
+# predicts what happens next. The causal resolution decides each snapshot
+# only from the record itself and records EARLIER in the event stream
+# (period, index):
+#
+#   geometry                    Problem A on the record alone
+#   causal_temporal_neighbor    Problem A's neighbour vote, earlier anchors only
+#   causal_kickoff_own_half     Law 8 own-half rule on a kick-off snapshot
+#                               (record only; no camera veto)
+#   causal_duplicate_snapshot   an EARLIER copy of the same raw snapshot with a
+#                               causal orientation: two copies' own frames are
+#                               mirror images exactly when their events'
+#                               teams differ (pure geometry, no camera plan)
+#
+# Anything else stays UNCERTAIN: the snapshot's frame is not known at
+# prediction time, and consumers must treat its coordinates as unavailable
+# rather than guess.
+# ---------------------------------------------------------------------------
+
+CAUSAL_ROUTES = frozenset({
+    "geometry", "causal_temporal_neighbor", "causal_kickoff_own_half", "causal_duplicate_snapshot",
+})
+CAUSAL_UNRESOLVED_ROUTE = "unresolved"
+
+
+def event_order_key(event: dict[str, Any]) -> tuple[int, int]:
+    """Position in the event stream. Causal availability follows this order:
+    a record is available to event e if it precedes e in the stream. (33
+    adjacent pairs dataset-wide have a later index but an earlier timestamp,
+    so timestamps are not used for this.)"""
+    return _integer_field(event, "period"), _integer_field(event, "index")
+
+
+def resolve_causal_orientations(records: list[tuple[dict[str, Any], dict[str, Any]]]) -> dict[str, OrientationResult]:
+    """Causal orientation for every (event, RAW 360 record) pair, by event id.
+
+    Records may come in any order; they are put into event order here. A
+    record's result depends only on itself and the records before it."""
+    ordered = sorted(records, key=lambda pair: event_order_key(pair[0]))
+    events = [event for event, _ in ordered]
+    frames = [frame for _, frame in ordered]
+    pass_one = [classify_orientation(event, frame) for event, frame in ordered]
+    refined = resolve_uncertain_with_neighbors(
+        events, frames, [_seconds(e.get("timestamp")) for e in events],
+        [_integer_field(e, "period") for e in events], pass_one, causal=True,
+    )
+    resolved: list[OrientationResult] = []
+    first_copy: dict[tuple, int] = {}
+    for k, (event, frame) in enumerate(ordered):
+        result = refined[k]
+        if result.orientation != ORIENTATION_UNCERTAIN:
+            route = "geometry" if result.resolved_by == "geometry" else "causal_temporal_neighbor"
+            result = OrientationResult(result.orientation, result.confidence, result.best_distance, result.votes, route)
+        elif ((event.get("pass") or {}).get("type") or {}).get("name") == "Kick Off" \
+                and (verdict := kickoff_own_half_orientation(frame)) is not None:
+            result = OrientationResult(verdict, result.confidence, result.best_distance, result.votes, "causal_kickoff_own_half")
+        else:
+            key = (_integer_field(event, "period"), snapshot_key(frame))
+            earlier = [j for j in first_copy.get(key, []) if resolved[j].orientation != ORIENTATION_UNCERTAIN]
+            if earlier:
+                j = earlier[0]
+                rotate = resolved[j].orientation == ORIENTATION_ROTATED_180
+                if key[0] not in SHARED_FRAME_PERIODS and _team_id(events[j]) != _team_id(event):
+                    rotate = not rotate
+                result = OrientationResult(ORIENTATION_ROTATED_180 if rotate else ORIENTATION_NORMAL, result.confidence,
+                                           result.best_distance, result.votes, "causal_duplicate_snapshot")
+        if result.orientation == ORIENTATION_UNCERTAIN:
+            result = OrientationResult(result.orientation, result.confidence, result.best_distance, result.votes, "unresolved")
+        resolved.append(result)
+        first_copy.setdefault((_integer_field(event, "period"), snapshot_key(frame)), []).append(k)
+    return {event["id"]: result for event, result in zip(events, resolved)}
+
+
+def _team_id(event: dict[str, Any]) -> Any:
+    team = event.get("team")
+    return team.get("id") if isinstance(team, dict) else None

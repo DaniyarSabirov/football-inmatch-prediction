@@ -1,0 +1,144 @@
+{
+  "seed": 20261023,
+  "excluded_match_ids": [
+    3788771,
+    3835342,
+    3893797,
+    3893827,
+    3930163
+  ],
+  "period_plan": [
+    1,
+    1,
+    2,
+    2,
+    2
+  ],
+  "selections": [
+    {
+      "match_id": 3788770,
+      "period": 1,
+      "start_second": 877.3,
+      "end_second": 1027.3,
+      "usable_frames_in_window": 88,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Dispossessed",
+        "Dribble",
+        "Duel",
+        "Interception",
+        "Pass",
+        "Pressure"
+      ],
+      "competition": "UEFA Euro",
+      "season": "2020",
+      "date": "2021-06-21",
+      "home_team": "North Macedonia",
+      "away_team": "Netherlands",
+      "stadium": "Johan Cruijff Arena (Amsterdam)",
+      "physical_verification_status": "unverified"
+    },
+    {
+      "match_id": 3869117,
+      "period": 1,
+      "start_second": 765.5,
+      "end_second": 915.5,
+      "usable_frames_in_window": 89,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Foul Committed",
+        "Foul Won",
+        "Miscontrol",
+        "Pass",
+        "Pressure"
+      ],
+      "competition": "FIFA World Cup",
+      "season": "2022",
+      "date": "2022-12-03",
+      "home_team": "Netherlands",
+      "away_team": "United States",
+      "stadium": "Sheikh Khalifa International Stadium",
+      "physical_verification_status": "unverified"
+    },
+    {
+      "match_id": 3788743,
+      "period": 2,
+      "start_second": 1580.2,
+      "end_second": 1730.2,
+      "usable_frames_in_window": 64,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Carry",
+        "Dribble",
+        "Duel",
+        "Pass",
+        "Pressure"
+      ],
+      "competition": "UEFA Euro",
+      "season": "2020",
+      "date": "2021-06-12",
+      "home_team": "Belgium",
+      "away_team": "Russia",
+      "stadium": "Saint-Petersburg Stadium ( Gazprom Arena )",
+      "physical_verification_status": "unverified"
+    },
+    {
+      "match_id": 3902968,
+      "period": 2,
+      "start_second": 1628.5,
+      "end_second": 1778.5,
+      "usable_frames_in_window": 63,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Carry",
+        "Dribble",
+        "Dribbled Past",
+        "Duel",
+        "Miscontrol",
+        "Pass",
+        "Pressure"
+      ],
+      "competition": "Women's World Cup",
+      "season": "2023",
+      "date": "2023-08-12",
+      "home_team": "Australia Women's",
+      "away_team": "France Women's",
+      "stadium": "Victoria Park",
+      "physical_verification_status": "unverified"
+    },
+    {
+      "match_id": 3895220,
+      "period": 2,
+      "start_second": 866.1,
+      "end_second": 1016.1,
+      "usable_frames_in_window": 92,
+      "distinct_event_types": [
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Carry",
+        "Foul Committed",
+        "Foul Won",
+        "Miscontrol",
+        "Pass",
+        "Pressure"
+      ],
+      "competition": "1. Bundesliga",
+      "season": "2023/2024",
+      "date": "2024-02-03",
+      "home_team": "Darmstadt 98",
+      "away_team": "Bayer Leverkusen",
+      "stadium": "Merck-Stadion am B\u00f6llenfalltor",
+      "physical_verification_status": "unverified"
+    }
+  ],
+  "full_log": []
+}

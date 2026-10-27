@@ -1,0 +1,148 @@
+[
+ {
+  "match_id": 3773631,
+  "period": 1,
+  "timestamp": "00:00:00.992",
+  "frame_event_ids": [
+   "b1fce2b7-19f6-47df-ae5b-301298529811"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Left screenshot (top-left panel = THIS frame AS DRAWN, current)",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3773631_p1_000000_992.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": "User: \"Left screenshot. The camera view faces the left goal.\" The top-left (current) panel's visible_area faces the left goal; the alternative faces the right goal."
+ },
+ {
+  "match_id": 3788741,
+  "period": 2,
+  "timestamp": "00:00:00.189",
+  "frame_event_ids": [
+   "1ef7b65a-6d5c-46e6-a0b7-fa84e54f1e14"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Left screenshot (top-left panel = THIS frame AS DRAWN, current)",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3788741_p2_000000_189.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": "The only left panel showing this frame is the current one (bottom-left is the next event)."
+ },
+ {
+  "match_id": 3788776,
+  "period": 1,
+  "timestamp": "00:00:00.080",
+  "frame_event_ids": [
+   "662f989a-9ae4-45b6-81ee-818d01140499"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Left screenshot = CURRENT",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3788776_p1_000000_080.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": ""
+ },
+ {
+  "match_id": 3837771,
+  "period": 2,
+  "timestamp": "00:00:00.590",
+  "frame_event_ids": [
+   "e66afa18-8684-4ef3-b56c-fc931b8db438"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Left screenshot = CURRENT",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3837771_p2_000000_590.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": ""
+ },
+ {
+  "match_id": 3857254,
+  "period": 2,
+  "timestamp": "00:00:01.404",
+  "frame_event_ids": [
+   "65bff75c-cb2a-49ec-bf65-cfd4bda36da3"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Left screenshot = CURRENT",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3857254_p2_000001_404.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": ""
+ },
+ {
+  "match_id": 3857263,
+  "period": 2,
+  "timestamp": "00:00:00.388",
+  "frame_event_ids": [
+   "f57060b7-2325-40f9-81c8-accb86df98ad"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Left screenshot = CURRENT",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3857263_p2_000000_388.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": ""
+ },
+ {
+  "match_id": 3893791,
+  "period": 1,
+  "timestamp": "00:27:50.417",
+  "frame_event_ids": [
+   "4130802e-766b-4404-85b6-d6e1a5417ceb"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Panel labelled CURRENT (top-right)",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3893791_p1_002750_417.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": ""
+ },
+ {
+  "match_id": 3930163,
+  "period": 1,
+  "timestamp": "00:46:15.525",
+  "frame_event_ids": [
+   "8cb60fdb-27bd-4942-a341-ffaf5e095c87",
+   "b4a4354a-c843-4880-a2de-fe9b60570344"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Panel labelled CURRENT (top-right)",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3930163_p1_004615_525.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": ""
+ },
+ {
+  "match_id": 3930164,
+  "period": 1,
+  "timestamp": "00:00:00.505",
+  "frame_event_ids": [
+   "5aabea4a-a1e7-4e5e-adc3-b13dec0f27bf"
+  ],
+  "decision": "current",
+  "current_snapshot_correction": "NONE",
+  "selected_panel": "Left screenshot = CURRENT",
+  "sheet": "results/visualization_final_validation/uncertain_frames/3930164_p1_000000_505.png",
+  "evidence_type": "user_review_of_renders",
+  "reviewer": "project owner",
+  "reviewed_at": "2026-10-24",
+  "notes": "Orientation decision only. Team colours in this frame are investigated separately.",
+  "open_issue": "team colours: raw StatsBomb teammate flags in this snapshot are inconsistent with the next frame (11 of 18 paired players) and with Law 8 at kick-off; not corrected; see results/visualization_final_validation/team_identity_investigation/"
+ }
+]

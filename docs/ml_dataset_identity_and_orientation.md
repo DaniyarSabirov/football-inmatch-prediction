@@ -1,51 +1,83 @@
-# Next-event dataset: team identity and orientation columns
+# Next-event dataset: causal features, identity and orientation
 
-Status: 2026-10-27. Built by `scripts/build_full_dataset.py` (all 417 usable matches) or
-`src/build_statsbomb_360_dataset.py --match-id N` (one match) into `data/processed/` (gitignored). Validation:
-`results/team_identity_final_validation_2026-10-27/README.md`.
+Status: 2026-10-27 (updated after the ML data integrity audit). Built by `scripts/build_full_dataset.py` (all 417
+usable matches) or `src/build_statsbomb_360_dataset.py --match-id N` into `data/processed/` (gitignored).
+Validation: `results/ml_data_integrity_final_2026-10-27/README.md`.
 
-## Which columns to use as model features
+## Prediction setting
 
-| Column | Meaning | Use as a feature? |
+A row describes the **current event** and its own 360 snapshot; the label is the **next meaningful event**.
+Model inputs may use only:
+- the current event;
+- its snapshot;
+- records that come **earlier in the event stream** (period, index).
+
+They may never use later events, later snapshots or labels. Event order, not timestamps, decides what is
+earlier: 33 adjacent event pairs dataset-wide have a later index but an earlier timestamp.
+
+## Selecting model inputs: use the allowlist
+
+`configs/ml_feature_classification.json` classifies all 42 columns (CAUSAL_FEATURE / TARGET / OFFLINE_DIAGNOSTIC
+/ METADATA / EXCLUDED) and marks the approved inputs explicitly. Training code must use
+`src.ml_features.select_feature_matrix(df)`:
+- it checks that the dataset schema matches the classification;
+- it returns only the approved columns;
+- `validate_feature_columns` rejects anything else, including any new, unclassified column.
+
+Approved causal features (11): `current_event_type`, `period`, `minute`, `actor_x`, `actor_y`,
+`actor_ambiguous`, `orientation_available`, `visible_players`, `visible_teammates`, `visible_opponents`,
+`visible_ambiguous`. Target: `next_event_type`.
+
+## Causal vs offline columns
+
+| Quantity | Causal (feature columns) | Offline (diagnostics only) |
 |---|---|---|
-| `visible_teammates`, `visible_opponents` | Players of the acting team / the other team in the current snapshot, by the **causal** team-identity resolution: decided only from this snapshot and earlier records, never from the events that follow (which include the event being predicted). Players whose team is not established are counted on neither side. | **yes** |
-| `visible_ambiguous` | Players whose team is not established (UNRESOLVED). A data-quality count, not a third team. | yes, as a quality flag, or for masking |
-| `identity_quality` | `uncertain` (≥ 1 unresolved player), `corrected` (≥ 1 player read differently from the raw flag, causal), `clean` | quality flag / masking / sensitivity analysis |
-| `identity_corrected_points` | Players read differently from their raw `teammate` flag (causal) | analysis |
-| `visible_teammates_raw`, `visible_opponents_raw` | The untouched StatsBomb `teammate` flags, read relative to the event's own team | analysis / baseline comparisons |
-| `visible_teammates_offline`, `visible_opponents_offline`, `visible_ambiguous_offline`, `identity_quality_offline` | **Offline** resolution: evidence from both directions in time, up to 2 s after the event. This is what the renderer draws. | **no**: it uses records after the event |
-| `actor_x`, `actor_y` | Actor position after the shared orientation resolution (`src/orientation_resolution.py`) and team normalization (one fixed reference team per match) | yes |
-| `orientation`, `orientation_problem_a`, `orientation_resolved_by` | Final snapshot correction, the geometry classifier's result, and the route that decided it | analysis |
-| `orientation_uses_later_records` | True when the orientation route could read records after the event (55 rows of 756,023) | exclude these rows in a strict sensitivity check |
+| Snapshot orientation | `orientation`, `orientation_resolved_by`, `orientation_available` | `orientation_offline`, `orientation_offline_resolved_by`, `orientation_problem_a_offline`, `orientation_uses_later_records` |
+| Actor position | `actor_x`, `actor_y` (empty when `orientation_available` is false) | `actor_x_offline`, `actor_y_offline` |
+| Team identity | `visible_teammates`, `visible_opponents`, `visible_ambiguous`, `identity_quality`, `identity_corrected_points` | `*_offline` |
+| Raw flags | `visible_teammates_raw`, `visible_opponents_raw` (no correction) | — |
 
-Invariants (checked on the rebuilt dataset):
+### Causal orientation
 
-- `visible_teammates + visible_opponents + visible_ambiguous == visible_players`, for both causal and offline;
-- `visible_teammates_raw + visible_opponents_raw == visible_players`.
+Implemented by `src/orientation_resolution.resolve_causal_orientations`, using the snapshot itself and earlier
+records only:
 
-## Why causal features
+1. Problem A geometry on the record alone.
+2. Problem A's neighbour vote with **earlier** anchors only.
+3. The kick-off own-half rule (record only, no camera veto).
+4. An **earlier** copy of the same raw snapshot: two copies' own frames are mirror images exactly when their
+   teams differ.
 
-- **The risk:** 72.9% of rows have the snapshot of the event to be predicted within 2 s. The offline
-  resolution may use exactly that snapshot.
-- **How much it changes:** offline and causal features differ in 3,801 rows (0.50%).
-- **Measured effect:** in a match-grouped 5-fold probe, the difference was −0.0003 ± 0.0006 macro-F1, below
-  fold noise. The causal default therefore costs nothing measurable and removes the methodological objection.
+Otherwise the orientation is UNCERTAIN and the actor position is **unavailable**. It is neither guessed nor
+taken from a look-ahead resolution.
 
-**Price of strict causality:** a snapshot copied from a *later* event cannot be recognised as a copy when its
-own event happens. It keeps its raw reading in the causal columns. This is mostly Ball Receipt* records,
-which are rarely dataset rows.
+### Offline orientation
 
-## Rules in brief
+This is the renderer's resolution, for retrospective visualization. It may use:
+- copies in any order;
+- a camera side estimated from the whole period;
+- reviewer decisions made while watching sequences;
+- Problem A neighbours on both sides.
 
-Team identity (`src/team_identity.py`):
+A match- or period-level convention inferred from the whole match is acceptable for visualization. It is
+**not** a predictive feature unless a prediction setting explicitly allows whole-match information.
 
-- spec reading by default;
-- structural copies/derived records resolved by evidence (continuity > keeper + owner > legacy source);
-- crowding-safe two-neighbour detector (offline only);
-- narrow goalkeeper continuity rule;
-- simultaneous contradictions (≤ 250 ms, margin ≥ 2 yd) unresolved.
+### Causal identity
 
-See the module's section comment for details.
+Computed by `src/team_identity.resolve_match_team_identity(..., causal=True)` with the causal orientations.
+Every rule uses only earlier records; the two-neighbour detector needs the next snapshot and is therefore not
+run.
 
-Orientation: the renderer's validated resolution of UNCERTAIN snapshots (duplicates, kick-off rule, camera
-side, camera + continuity, reviewer decisions), applied once, before team normalization.
+**Price of strict causality:** a snapshot copied from a *later* event cannot be recognised as a copy at its
+own time, so it keeps its raw reading.
+
+## Guarantees and checks
+
+- **Truncation invariance:** cutting the input right after any event, and keeping only that event's label,
+  leaves every non-target, non-offline column of that row and of all earlier rows unchanged. This is checked
+  in `tests/test_ml_feature_safety.py` and, on 155 real cuts (3.66M cells), in
+  `results/ml_data_integrity_final_2026-10-27/truncation_check.json`.
+- **Count invariants:** `visible_teammates + visible_opponents + visible_ambiguous == visible_players`, for both
+  causal and offline columns.
+- **Row selection:** rows exist only when a next meaningful event follows within 10 s in the same period. This
+  is part of the target definition; evaluation is conditional on it.
