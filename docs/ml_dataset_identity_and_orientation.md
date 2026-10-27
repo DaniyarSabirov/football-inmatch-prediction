@@ -6,7 +6,8 @@ Validation: `results/ml_data_integrity_final_2026-10-27/README.md`.
 
 ## Prediction setting
 
-A row describes the **current event** and its own 360 snapshot; the label is the **next meaningful event**.
+A row describes the **current event** and its own 360 snapshot; the label is the **next meaningful event** in the
+same period, by event order, however many seconds later it happens.
 Model inputs may use only:
 - the current event;
 - its snapshot;
@@ -79,5 +80,8 @@ own time, so it keeps its raw reading.
   `results/ml_data_integrity_final_2026-10-27/truncation_check.json`.
 - **Count invariants:** `visible_teammates + visible_opponents + visible_ambiguous == visible_players`, for both
   causal and offline columns.
-- **Row selection:** rows exist only when a next meaningful event follows within 10 s in the same period. This
-  is part of the target definition; evaluation is conditional on it.
+- **Row selection:** every meaningful current event with a 360 record that has a meaningful successor in the
+  same period (event order). There is no time window: the 10-second cap was removed on 2026-10-27 because it
+  excluded 3.97% of rows selectively (64% of current Shot rows, all penalty-shootout rows); see
+  `results/next_event_time_window_audit_2026-10-27/README.md`. The last meaningful event of each period has no
+  target and is not a row.

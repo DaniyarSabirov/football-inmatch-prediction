@@ -42,11 +42,9 @@ from src.match_exclusions import load_exclusion_manifest  # noqa: E402
 EVENTS_DIR = PROJECT_ROOT / "data" / "raw" / "statsbomb" / "data" / "events"
 FRAMES_DIR = PROJECT_ROOT / "data" / "raw" / "statsbomb" / "data" / "three-sixty"
 
-# A large cap so essentially no same-period transition is excluded by the
-# time-gap filter -- the production default (10.0s) is applied AFTERWARDS,
-# in Python, so the full distribution is visible and the effect of the
-# production default can be measured rather than assumed.
-LARGE_MAX_TIME_DIFFERENCE = 600.0
+# The builder applies no time window (removed 2026-10-27); the horizons
+# below are applied afterwards, in Python, so the full gap distribution is
+# visible and any horizon's effect can be measured rather than assumed.
 HORIZONS = [2.0, 5.0, 10.0, 15.0, 30.0, 60.0]
 
 
@@ -72,7 +70,7 @@ def run(match_ids: list[int]) -> dict:
     for mid in match_ids:
         try:
             events, frames_by_event_id = load_match(mid)
-            rows = build_rows_from_match_data(mid, events, frames_by_event_id, LARGE_MAX_TIME_DIFFERENCE)
+            rows = build_rows_from_match_data(mid, events, frames_by_event_id)
         except Exception as error:  # noqa: BLE001
             errors.append({"match_id": mid, "error_type": type(error).__name__, "error_message": str(error)})
             continue

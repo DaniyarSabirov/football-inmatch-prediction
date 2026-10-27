@@ -3,9 +3,9 @@
 Research code for a bachelor's thesis on machine learning methods for predicting
 events during football matches.
 
-The repository currently provides the reproducible project foundation only.
-It intentionally contains no datasets, feature pipelines, or machine-learning
-models yet.
+The repository contains the data pipeline for StatsBomb event and 360 data
+(validation, orientation and team-identity correction, a next-event dataset
+with causal features). No prediction model has been trained yet.
 
 ## Research scope
 
@@ -17,8 +17,30 @@ The project is intended to support a transparent workflow for:
 4. training and evaluating predictive models;
 5. reporting metrics, tables, and figures used in the thesis.
 
-The precise prediction target, observation window, datasets, and evaluation
-protocol should be documented before modeling begins.
+## Prediction task and dataset
+
+**Task:** given the information available at the current event, predict the
+type of the next event in the same period of the match.
+
+- **Rows:** every event of one of 8 types (`MEANINGFUL_EVENT_TYPES`: Pass,
+  Carry, Dribble, Shot, Miscontrol, Ball Recovery, Clearance, Dispossessed)
+  that has a StatsBomb 360 record, in the 417 usable matches.
+- **Target (`next_event_type`):** the type of the first LATER event in the raw
+  event stream (event order, i.e. `index`) whose type is one of the 8 types
+  and that lies in the same period. The next event does not need 360 data.
+  There is **no time window**: the next event counts however many seconds
+  later it happens (the earlier 10-second cap was removed on 2026-10-27, see
+  `results/next_event_time_window_audit_2026-10-27/README.md`). Events with
+  no such successor in their period have no target and are not rows.
+- **Features:** only the 11 approved causal columns in
+  `configs/ml_feature_classification.json`, selected with
+  `src.ml_features.select_feature_matrix`. They use the current event, its
+  own 360 snapshot and earlier records only. The gap to the next event
+  (`time_to_next_event_seconds`) is future information and never a feature.
+- **Build:** `python scripts/build_full_dataset.py` writes per-match CSVs, a
+  combined CSV and a manifest to `data/processed/` (not version-controlled).
+
+Details: `docs/ml_dataset_identity_and_orientation.md`.
 
 ## Setup
 

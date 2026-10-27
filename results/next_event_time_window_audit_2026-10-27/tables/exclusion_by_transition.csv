@@ -1,0 +1,57 @@
+current_type,next_type,eligible,excluded,excluded_pct
+Pass,Pass,66156,10986,16.61
+Shot,Pass,7616,6508,85.45
+Carry,Pass,288988,5960,2.06
+Clearance,Pass,7655,2820,36.84
+Miscontrol,Pass,4803,1413,29.42
+Dispossessed,Pass,3178,1115,35.08
+Dribble,Pass,2024,779,38.49
+Ball Recovery,Pass,2528,775,30.66
+Carry,Shot,4936,325,6.58
+Pass,Ball Recovery,18142,219,1.21
+Shot,Shot,139,126,90.65
+Ball Recovery,Ball Recovery,1463,83,5.67
+Pass,Shot,3503,78,2.23
+Shot,Ball Recovery,1889,31,1.64
+Clearance,Ball Recovery,5967,15,0.25
+Clearance,Shot,24,13,54.17
+Carry,Dispossessed,8620,12,0.14
+Carry,Dribble,11509,10,0.09
+Carry,Miscontrol,7981,6,0.08
+Dispossessed,Ball Recovery,3006,6,0.2
+Dribble,Shot,10,6,60.0
+Dribble,Ball Recovery,1670,5,0.3
+Ball Recovery,Shot,1284,4,0.31
+Dispossessed,Shot,5,3,60.0
+Miscontrol,Shot,4,3,75.0
+Miscontrol,Ball Recovery,3991,3,0.08
+Pass,Clearance,10326,1,0.01
+Pass,Dribble,74,1,1.35
+Pass,Miscontrol,1799,1,0.06
+Ball Recovery,Clearance,208,1,0.48
+Ball Recovery,Dispossessed,11,0,0.0
+Miscontrol,Miscontrol,1,0,0.0
+Clearance,Carry,69,0,0.0
+Pass,Dispossessed,84,0,0.0
+Carry,Clearance,51,0,0.0
+Shot,Carry,15,0,0.0
+Shot,Clearance,702,0,0.0
+Pass,Carry,273093,0,0.0
+Ball Recovery,Dribble,16,0,0.0
+Ball Recovery,Miscontrol,18,0,0.0
+Clearance,Miscontrol,29,0,0.0
+Miscontrol,Dribble,6,0,0.0
+Carry,Carry,662,0,0.0
+Miscontrol,Clearance,944,0,0.0
+Miscontrol,Carry,150,0,0.0
+Clearance,Clearance,1239,0,0.0
+Dribble,Miscontrol,1,0,0.0
+Dribble,Clearance,182,0,0.0
+Dribble,Carry,7298,0,0.0
+Ball Recovery,Carry,30899,0,0.0
+Carry,Ball Recovery,193,0,0.0
+Dispossessed,Clearance,177,0,0.0
+Dispossessed,Carry,1983,0,0.0
+Clearance,Dispossessed,2,0,0.0
+Clearance,Dribble,3,0,0.0
+Miscontrol,Dispossessed,5,0,0.0

@@ -81,9 +81,9 @@ def test_feature_pipeline_is_truncation_invariant(match_id, timestamp, event_typ
     if target is None:  # the ordinary row may not exist at exactly that time: take the nearest Pass
         target = min((e for e in events if e["type"]["name"] == event_type and e["id"] in frames),
                      key=lambda e: abs(e["index"] - 1100))
-    full = {r["current_event_id"]: r for r in build_rows_from_match_data(match_id, events, frames, 10.0)}
+    full = {r["current_event_id"]: r for r in build_rows_from_match_data(match_id, events, frames)}
     cut_events, cut_frames = _truncate_after(events, frames, target["id"])
-    truncated = build_rows_from_match_data(match_id, cut_events, cut_frames, 10.0)
+    truncated = build_rows_from_match_data(match_id, cut_events, cut_frames)
     by_id = {r["current_event_id"]: r for r in truncated}
     assert target["id"] in by_id and target["id"] in full
     compared = 0
@@ -106,7 +106,7 @@ def test_causal_orientation_never_uses_later_records():
 
 def test_causal_and_offline_values_live_in_separate_columns():
     events, frames = _load(3773477)
-    rows = build_rows_from_match_data(3773477, events, frames, 10.0)
+    rows = build_rows_from_match_data(3773477, events, frames)
     row = next(r for r in rows if r["timestamp"] == "00:46:48.258" and r["current_event_type"] == "Carry")
     assert row["orientation_uses_later_records"] is True
     assert row["orientation_available"] is False and row["actor_x"] is None  # causal: unavailable
@@ -117,7 +117,7 @@ def test_causal_and_offline_values_live_in_separate_columns():
 
 def test_classification_covers_the_builder_schema_exactly():
     events, frames = _load(3773386)
-    rows = build_rows_from_match_data(3773386, events, frames, 10.0)
+    rows = build_rows_from_match_data(3773386, events, frames)
     validate_schema(list(rows[0]), CLASSIFICATION)
 
 
@@ -145,7 +145,7 @@ def test_unsafe_or_unknown_columns_are_rejected(unsafe):
 def test_select_feature_matrix_returns_the_allowlist_only():
     pd = pytest.importorskip("pandas")
     events, frames = _load(3773386)
-    frame = pd.DataFrame(build_rows_from_match_data(3773386, events, frames, 10.0))
+    frame = pd.DataFrame(build_rows_from_match_data(3773386, events, frames))
     matrix = select_feature_matrix(frame, CLASSIFICATION)
     assert list(matrix.columns) == approved_feature_columns(CLASSIFICATION)
     with pytest.raises(FeatureSafetyError):

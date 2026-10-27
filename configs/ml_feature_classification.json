@@ -1,6 +1,7 @@
 {
-  "schema_version": "2026-10-27",
+  "schema_version": "2026-10-27b",
   "dataset": "data/processed/statsbomb_360_all_matches_next_events.csv (src/build_statsbomb_360_dataset.py)",
+  "rows": "every current event of a MEANINGFUL_EVENT_TYPES type with a 360 record that has a meaningful successor in the same period (event order); no time window",
   "prediction_time": "the current event: features may depend only on the current event, its own 360 snapshot and records EARLIER in the event stream (period, index); never on later events, later snapshots or labels",
   "target": "next_event_type",
   "categories": {
@@ -52,6 +53,6 @@
     "next_player": {"category": "TARGET", "approved_for_training": false, "lineage": "next event's player"},
     "same_team": {"category": "TARGET", "approved_for_training": false, "lineage": "derived from the next event"},
     "same_possession": {"category": "TARGET", "approved_for_training": false, "lineage": "derived from the next event"},
-    "time_to_next_event_seconds": {"category": "TARGET", "approved_for_training": false, "lineage": "derived from the next event"}
+    "time_to_next_event_seconds": {"category": "TARGET", "approved_for_training": false, "lineage": "gap to the next event (future information); diagnostic only, never used to select rows; can be 0 (simultaneous events) or negative (non-monotonic timestamps)"}
   }
 }

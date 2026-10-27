@@ -3,7 +3,7 @@
 Covers: event filtering (the implemented "meaningful event" definition),
 next-event target construction (predicting the next MEANINGFUL_EVENT_TYPES
 event in the complete raw event stream, not restricted to 360-covered
-events), period-boundary non-leakage, max-time-difference filtering, CSV
+events), period-boundary non-leakage, next-event semantics without a time window, CSV
 round-tripping, and -- the regression target -- correct teammate/opponent
 counts for events whose raw 360 snapshot is shared with a different team's
 event (Problem C integration; see src/team_identity.py).
@@ -156,7 +156,7 @@ def test_current_event_without_360_frame_is_never_a_row() -> None:
         filler_event,
     ]
     frames = {"e2": _frame("e2"), "away-filler": filler_frame}  # e1 has no 360 coverage
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     assert all(row["current_event_id"] != "e1" for row in rows)
 
 
@@ -172,37 +172,100 @@ def test_next_event_does_not_require_360_frame() -> None:
         filler_event,
     ]
     frames = {"e1": _frame("e1"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     assert len(rows) == 1
     assert rows[0]["next_event_id"] == "e2"
     assert rows[0]["next_event_type"] == "Carry"
 
 
-# --- time-difference filtering ----------------------------------------------
+# --- next-event target: event order, no time window (2026-10-27) -------------
 
-def test_row_dropped_when_gap_exceeds_maximum_time_difference() -> None:
+def _pair(gap_seconds: float, first: str = "00:00:01.000"):
+    """Two Home events `gap_seconds` apart (period 1) plus the Away filler."""
+    filler_event, filler_frame = _away_filler()
+    start = timestamp_to_seconds(first)
+    later = start + gap_seconds
+    stamp = f"00:{int(later // 60):02d}:{later % 60:06.3f}"
+    events = [_event("e1", 1, "Pass", HOME, first), _event("e2", 2, "Carry", HOME, stamp), filler_event]
+    frames = {"e1": _frame("e1"), "e2": _frame("e2"), "away-filler": filler_frame}
+    return events, frames
+
+
+@pytest.mark.parametrize("gap", [2.0, 10.0, 11.0, 30.0, 487.5])  # 487.5 s: a long stoppage (injury / VAR)
+def test_next_event_is_the_target_however_long_the_gap(gap) -> None:
+    events, frames = _pair(gap)
+    rows = build_rows_from_match_data("m1", events, frames)
+    row = next(r for r in rows if r["current_event_id"] == "e1")
+    assert row["next_event_id"] == "e2" and row["next_event_type"] == "Carry"
+    assert row["time_to_next_event_seconds"] == pytest.approx(gap)
+
+
+def test_builder_has_no_time_window_parameter() -> None:
+    import inspect
+
+    assert "maximum_time_difference" not in inspect.signature(build_rows_from_match_data).parameters
+    assert "maximum_time_difference" not in inspect.signature(build_match_dataset).parameters
+
+
+def test_simultaneous_events_follow_event_order() -> None:
+    """Equal timestamps: the next event is the next one in the stream."""
     filler_event, filler_frame = _away_filler()
     events = [
-        _event("e1", 1, "Pass", HOME, "00:00:01.000"),
-        _event("e2", 2, "Carry", HOME, "00:00:20.000"),  # 19s later
+        _event("e1", 1, "Pass", HOME, "00:00:05.000"),
+        _event("e2", 2, "Carry", HOME, "00:00:05.000"),
+        _event("e3", 3, "Pass", HOME, "00:00:05.000"),
         filler_event,
     ]
+    frames = {e: _frame(e) for e in ("e1", "e2", "e3")} | {"away-filler": filler_frame}
+    rows = {r["current_event_id"]: r for r in build_rows_from_match_data("m1", events, frames)}
+    assert rows["e1"]["next_event_id"] == "e2" and rows["e1"]["time_to_next_event_seconds"] == 0
+    assert rows["e2"]["next_event_id"] == "e3"
+
+
+def test_equal_timestamps_in_a_different_stream_order_change_the_target() -> None:
+    filler_event, filler_frame = _away_filler()
+    a = _event("a", 1, "Pass", HOME, "00:00:05.000")
+    b = _event("b", 2, "Dribble", HOME, "00:00:05.000")
+    c = _event("c", 3, "Carry", HOME, "00:00:05.000")
+    frames = {e: _frame(e) for e in ("a", "b", "c")} | {"away-filler": filler_frame}
+    first = {r["current_event_id"]: r for r in build_rows_from_match_data("m1", [a, b, c, filler_event], frames)}
+    b2, c2 = dict(c, index=2), dict(b, index=3)
+    second = {r["current_event_id"]: r for r in build_rows_from_match_data("m1", [a, b2, c2, filler_event], frames)}
+    assert first["a"]["next_event_type"] == "Dribble" and second["a"]["next_event_type"] == "Carry"
+
+
+def test_non_monotonic_timestamps_keep_the_event_order_target() -> None:
+    """A later event in the stream with an EARLIER timestamp (seen in 33
+    adjacent pairs in the raw data) is still the next event; the negative
+    gap is reported, not used to drop the row."""
+    filler_event, filler_frame = _away_filler()
+    events = [_event("e1", 1, "Pass", HOME, "00:00:05.000"), _event("e2", 2, "Carry", HOME, "00:00:04.200"), filler_event]
     frames = {"e1": _frame("e1"), "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
-    assert rows == []
+    row = next(r for r in build_rows_from_match_data("m1", events, frames) if r["current_event_id"] == "e1")
+    assert row["next_event_id"] == "e2" and row["time_to_next_event_seconds"] == pytest.approx(-0.8)
 
 
-def test_row_kept_when_gap_within_maximum_time_difference() -> None:
+def test_last_event_of_a_period_has_no_target_and_never_crosses_halftime() -> None:
     filler_event, filler_frame = _away_filler()
     events = [
-        _event("e1", 1, "Pass", HOME, "00:00:01.000"),
-        _event("e2", 2, "Carry", HOME, "00:00:05.000"),  # 4s later
+        _event("e1", 1, "Pass", HOME, "00:46:10.000", period=1, minute=46),
+        _event("half", 2, "Half End", HOME, "00:46:12.000", period=1, minute=46),
+        _event("e2", 3, "Pass", HOME, "00:00:00.500", period=2, minute=45),
+        _event("e3", 4, "Carry", HOME, "00:00:02.000", period=2, minute=45),
         filler_event,
     ]
+    frames = {e: _frame(e) for e in ("e1", "e2", "e3")} | {"away-filler": filler_frame}
+    rows = {r["current_event_id"]: r for r in build_rows_from_match_data("m1", events, frames)}
+    assert "e1" not in rows  # no meaningful successor in period 1: no row
+    assert rows["e2"]["next_event_id"] == "e3"
+
+
+def test_last_event_of_the_match_has_no_target() -> None:
+    filler_event, filler_frame = _away_filler()
+    events = [filler_event, _event("e1", 1, "Pass", HOME, "00:10:00.000"), _event("e2", 2, "Carry", HOME, "00:10:02.000")]
     frames = {"e1": _frame("e1"), "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
-    assert len(rows) == 1
-    assert rows[0]["time_to_next_event_seconds"] == pytest.approx(4.0)
+    rows = {r["current_event_id"]: r for r in build_rows_from_match_data("m1", events, frames)}
+    assert rows["e1"]["next_event_id"] == "e2" and "e2" not in rows
 
 
 # --- same_team / same_possession -------------------------------------------
@@ -214,7 +277,7 @@ def test_same_team_and_same_possession_flags() -> None:
         _event("e3", 3, "Ball Recovery", AWAY, "00:00:03.000", possession=8),
     ]
     frames = {"e1": _frame("e1"), "e2": _frame("e2"), "e3": _frame("e3")}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row_for_e1 = next(r for r in rows if r["current_event_id"] == "e1")
     assert row_for_e1["same_team"] is True
     assert row_for_e1["same_possession"] is True
@@ -234,7 +297,7 @@ def test_row_never_contains_next_event_spatial_fields() -> None:
         filler_event,
     ]
     frames = {"e1": _frame("e1"), "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = rows[0]
     spatial_keywords = ("next_actor", "next_x", "next_y", "next_location", "next_freeze_frame")
     for key in row:
@@ -252,8 +315,8 @@ def test_build_rows_is_deterministic_for_identical_input() -> None:
         _event("e3", 3, "Ball Recovery", AWAY, "00:00:03.000"),
     ]
     frames = {"e1": _frame("e1"), "e2": _frame("e2"), "e3": _frame("e3")}
-    rows_a = build_rows_from_match_data("m1", copy.deepcopy(events), copy.deepcopy(frames), 10.0)
-    rows_b = build_rows_from_match_data("m1", copy.deepcopy(events), copy.deepcopy(frames), 10.0)
+    rows_a = build_rows_from_match_data("m1", copy.deepcopy(events), copy.deepcopy(frames))
+    rows_b = build_rows_from_match_data("m1", copy.deepcopy(events), copy.deepcopy(frames))
     assert rows_a == rows_b
 
 
@@ -272,7 +335,7 @@ def test_actor_location_extracted_from_freeze_frame_actor_point() -> None:
         "e2": _frame("e2"),
         "away-filler": filler_frame,
     }
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = next(r for r in rows if r["current_event_id"] == "e1")
     assert row["orientation_available"] is True
     assert row["actor_x"] == pytest.approx(33.0)
@@ -290,7 +353,7 @@ def test_actor_location_unavailable_when_orientation_cannot_be_established_causa
         filler_event,
     ]
     frames = {"e1": _frame("e1", actor_location=(33.0, 21.0)), "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = next(r for r in rows if r["current_event_id"] == "e1")
     assert row["orientation"] == "UNCERTAIN" and row["orientation_available"] is False
     assert row["orientation_resolved_by"] == "unresolved"
@@ -311,7 +374,7 @@ def test_actor_location_is_none_when_no_actor_point_present() -> None:
         "freeze_frame": [{"teammate": True, "actor": False, "keeper": False, "location": [1.0, 1.0]}],
     }
     frames = {"e1": no_actor_frame, "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = next(r for r in rows if r["current_event_id"] == "e1")
     assert row["actor_x"] is None
     assert row["actor_y"] is None
@@ -337,7 +400,7 @@ def test_teammate_opponent_counts_for_non_shared_snapshot() -> None:
         ],
     }
     frames = {"e1": frame, "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = next(r for r in rows if r["current_event_id"] == "e1")
     assert row["visible_teammates"] == 2
     assert row["visible_opponents"] == 2
@@ -392,7 +455,7 @@ def _shared_snapshot_fixture():
 
 def test_shared_snapshot_borrower_teammate_opponent_counts_use_resolved_source_team() -> None:
     events, frames = _shared_snapshot_fixture()
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
 
     borrower_row = next(r for r in rows if r["current_event_id"] == "home-borrow")
     # Correct (post-fix) answer: 2 of the 3 points are physically Away
@@ -408,7 +471,7 @@ def test_shared_snapshot_borrower_teammate_opponent_counts_use_resolved_source_t
 
 def test_shared_snapshot_source_event_unaffected_by_fix() -> None:
     events, frames = _shared_snapshot_fixture()
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
 
     source_row = next(r for r in rows if r["current_event_id"] == "away-src")
     # The source event's own reading was already correct before the fix
@@ -435,7 +498,7 @@ def test_genuinely_ambiguous_shared_snapshot_is_counted_not_guessed() -> None:
         "ev-y": {"event_uuid": "ev-y", "visible_area": [], "freeze_frame": copy.deepcopy(SHARED_RAW_ARRAY)},
         "trail": _frame("trail"),
     }
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row_x = next(r for r in rows if r["current_event_id"] == "ev-x")
     row_y = next(r for r in rows if r["current_event_id"] == "ev-y")
     # Offline (both directions in time): both records are ambiguous.
@@ -453,7 +516,7 @@ def test_genuinely_ambiguous_shared_snapshot_is_counted_not_guessed() -> None:
 
 def test_csv_round_trip_preserves_row_values(tmp_path) -> None:
     events, frames = _shared_snapshot_fixture()
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     output_path = tmp_path / "out.csv"
     save_dataset(rows, output_path)
 
@@ -577,7 +640,7 @@ def test_row_marks_actor_ambiguous_without_inventing_a_position() -> None:
         ],
     }
     frames = {"e1": ambiguous_frame, "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = next(r for r in rows if r["current_event_id"] == "e1")
     assert row["actor_x"] is None
     assert row["actor_y"] is None
@@ -599,7 +662,7 @@ def test_row_actor_not_ambiguous_when_no_actor_point_present() -> None:
         "freeze_frame": [{"teammate": True, "actor": False, "keeper": False, "location": [1.0, 1.0]}],
     }
     frames = {"e1": no_actor_frame, "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = next(r for r in rows if r["current_event_id"] == "e1")
     assert row["actor_x"] is None
     assert row["actor_y"] is None
@@ -638,7 +701,7 @@ def test_duplicate_actor_point_inflates_visible_player_count_by_one() -> None:
         ],
     }
     frames = {"e1": duplicate_frame, "e2": _frame("e2"), "away-filler": filler_frame}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = next(r for r in rows if r["current_event_id"] == "e1")
     assert row["visible_players"] == 3  # raw point count, duplicate included
     assert row["visible_teammates"] == 2  # both duplicate entries counted -- known, documented limitation
@@ -660,7 +723,7 @@ def test_build_match_dataset_raises_excluded_match_error_before_any_file_io(monk
         build_statsbomb_360_dataset_module, "load_exclusion_manifest", lambda: {424242: fake_excluded}
     )
     with pytest.raises(ExcludedMatchError, match="test_reason"):
-        build_match_dataset(match_id=424242, maximum_time_difference=10.0)
+        build_match_dataset(match_id=424242)
 
 
 def test_build_match_dataset_unaffected_when_manifest_is_empty(monkeypatch) -> None:
@@ -669,7 +732,7 @@ def test_build_match_dataset_unaffected_when_manifest_is_empty(monkeypatch) -> N
     # the normal FileNotFoundError path for a made-up id -- proving the
     # exclusion check itself is not swallowing unrelated errors.
     with pytest.raises(FileNotFoundError):
-        build_match_dataset(match_id=0, maximum_time_difference=10.0)
+        build_match_dataset(match_id=0)
 
 
 def test_reference_team_is_the_first_360_event_in_event_order_not_timestamp_order() -> None:
@@ -683,6 +746,6 @@ def test_reference_team_is_the_first_360_event_in_event_order_not_timestamp_orde
         away_late,
     ]
     frames = {"e1": _frame("e1"), "e2": _frame("e2"), "late": _frame("late")}
-    rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
+    rows = build_rows_from_match_data("m1", events, frames)
     row = next(r for r in rows if r["current_event_id"] == "e1")
     assert row["team_normalization"] == "REFERENCE"  # Home kicked off: it is the reference team

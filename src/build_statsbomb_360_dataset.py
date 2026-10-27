@@ -212,10 +212,7 @@ def find_next_meaningful_event(
     return None
 
 
-def build_match_dataset(
-    match_id: int,
-    maximum_time_difference: float,
-) -> list[dict]:
+def build_match_dataset(match_id: int) -> list[dict]:
     """Load one match's raw JSON from disk and build its next-event dataset.
 
     Thin I/O wrapper around `build_rows_from_match_data`, which contains all
@@ -261,16 +258,27 @@ def build_match_dataset(
         for frame in frames
     }
 
-    return build_rows_from_match_data(match_id, events, frames_by_event_id, maximum_time_difference)
+    return build_rows_from_match_data(match_id, events, frames_by_event_id)
 
 
 def build_rows_from_match_data(
     match_id: int,
     events: list[dict],
     frames_by_event_id: dict[str, dict],
-    maximum_time_difference: float,
 ) -> list[dict]:
     """Build one match's next-event dataset rows from already-loaded data.
+
+    Prediction target (see docs/ml_dataset_identity_and_orientation.md):
+    for every current event of a MEANINGFUL_EVENT_TYPES type that has a 360
+    record, `next_event_type` is the type of the first later event in the
+    raw event stream (event order = list order = `index`) whose type is in
+    MEANINGFUL_EVENT_TYPES and that lies in the same period -- however many
+    seconds later it happens, and whether or not it has 360 data. Events with
+    no such successor (the last ones of a period) have no target and are not
+    rows. No time window is applied (the former 10-second cap and the
+    negative-gap filter were removed on 2026-10-27); the gap stays available
+    as `time_to_next_event_seconds`, a TARGET-derived column that is never a
+    model input.
 
     `events` must be StatsBomb's raw, unmodified events list (already in
     `index` order -- verified dataset-wide to match the raw file's own
@@ -379,23 +387,14 @@ def build_rows_from_match_data(
         )
 
         if next_event is None:
-            continue
+            continue  # last meaningful event of its period: no target
 
-        current_time = timestamp_to_seconds(
+        # Diagnostic only (period-relative timestamps). It can be 0 for
+        # simultaneous events and is never used to select rows: event order,
+        # not the clock, decides what "next" is.
+        time_difference = timestamp_to_seconds(next_event["timestamp"]) - timestamp_to_seconds(
             current_event["timestamp"]
         )
-
-        next_time = timestamp_to_seconds(
-            next_event["timestamp"]
-        )
-
-        time_difference = next_time - current_time
-
-        if time_difference < 0:
-            continue
-
-        if time_difference > maximum_time_difference:
-            continue
 
         # Some StatsBomb 360 snapshots are recorded reflected through the
         # pitch center relative to the event's own location (see
@@ -532,22 +531,9 @@ def main():
         help="StatsBomb match ID.",
     )
 
-    parser.add_argument(
-        "--max-time",
-        type=float,
-        default=10.0,
-        help=(
-            "Maximum allowed number of seconds "
-            "between current and next event."
-        ),
-    )
-
     args = parser.parse_args()
 
-    rows = build_match_dataset(
-        match_id=args.match_id,
-        maximum_time_difference=args.max_time,
-    )
+    rows = build_match_dataset(match_id=args.match_id)
 
     output_path = (
         OUTPUT_DIR

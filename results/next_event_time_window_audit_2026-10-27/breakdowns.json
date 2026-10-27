@@ -1,0 +1,400 @@
+{
+ "by_current_type": [
+  {
+   "current_type": "Ball Recovery",
+   "eligible": 36427,
+   "excluded": 863,
+   "excluded_pct": 2.369
+  },
+  {
+   "current_type": "Carry",
+   "eligible": 322940,
+   "excluded": 6313,
+   "excluded_pct": 1.955
+  },
+  {
+   "current_type": "Clearance",
+   "eligible": 14988,
+   "excluded": 2848,
+   "excluded_pct": 19.002
+  },
+  {
+   "current_type": "Dispossessed",
+   "eligible": 8349,
+   "excluded": 1124,
+   "excluded_pct": 13.463
+  },
+  {
+   "current_type": "Dribble",
+   "eligible": 11185,
+   "excluded": 790,
+   "excluded_pct": 7.063
+  },
+  {
+   "current_type": "Miscontrol",
+   "eligible": 9904,
+   "excluded": 1419,
+   "excluded_pct": 14.328
+  },
+  {
+   "current_type": "Pass",
+   "eligible": 373177,
+   "excluded": 11286,
+   "excluded_pct": 3.024
+  },
+  {
+   "current_type": "Shot",
+   "eligible": 10361,
+   "excluded": 6665,
+   "excluded_pct": 64.328
+  }
+ ],
+ "by_next_type": [
+  {
+   "next_type": "Ball Recovery",
+   "eligible": 36321,
+   "excluded": 362,
+   "excluded_pct": 0.997
+  },
+  {
+   "next_type": "Carry",
+   "eligible": 314169,
+   "excluded": 0,
+   "excluded_pct": 0.0
+  },
+  {
+   "next_type": "Clearance",
+   "eligible": 13829,
+   "excluded": 2,
+   "excluded_pct": 0.014
+  },
+  {
+   "next_type": "Dispossessed",
+   "eligible": 8722,
+   "excluded": 12,
+   "excluded_pct": 0.138
+  },
+  {
+   "next_type": "Dribble",
+   "eligible": 11608,
+   "excluded": 11,
+   "excluded_pct": 0.095
+  },
+  {
+   "next_type": "Miscontrol",
+   "eligible": 9829,
+   "excluded": 7,
+   "excluded_pct": 0.071
+  },
+  {
+   "next_type": "Pass",
+   "eligible": 382948,
+   "excluded": 30356,
+   "excluded_pct": 7.927
+  },
+  {
+   "next_type": "Shot",
+   "eligible": 9905,
+   "excluded": 558,
+   "excluded_pct": 5.634
+  }
+ ],
+ "by_period": [
+  {
+   "period": 1,
+   "eligible": 393949,
+   "excluded": 14736,
+   "excluded_pct": 3.741
+  },
+  {
+   "period": 2,
+   "eligible": 376690,
+   "excluded": 15663,
+   "excluded_pct": 4.158
+  },
+  {
+   "period": 3,
+   "eligible": 8597,
+   "excluded": 399,
+   "excluded_pct": 4.641
+  },
+  {
+   "period": 4,
+   "eligible": 7991,
+   "excluded": 406,
+   "excluded_pct": 5.081
+  },
+  {
+   "period": 5,
+   "eligible": 104,
+   "excluded": 104,
+   "excluded_pct": 100.0
+  }
+ ],
+ "by_match": {
+  "matches": 417,
+  "excluded_pct": {
+   "count": 417.0,
+   "mean": 4.083,
+   "std": 1.188,
+   "min": 1.754,
+   "25%": 3.187,
+   "50%": 3.865,
+   "75%": 4.762,
+   "max": 8.592
+  },
+  "max_match": "3893802",
+  "min_match": "3837818"
+ },
+ "class_distribution": [
+  {
+   "next_type": "Ball Recovery",
+   "old_rows": 35959,
+   "new_rows": 36321,
+   "added": 362,
+   "old_pct": 4.7563,
+   "new_pct": 4.6132,
+   "class_growth_pct": 1.01
+  },
+  {
+   "next_type": "Carry",
+   "old_rows": 314169,
+   "new_rows": 314169,
+   "added": 0,
+   "old_pct": 41.5555,
+   "new_pct": 39.903,
+   "class_growth_pct": 0.0
+  },
+  {
+   "next_type": "Clearance",
+   "old_rows": 13827,
+   "new_rows": 13829,
+   "added": 2,
+   "old_pct": 1.8289,
+   "new_pct": 1.7564,
+   "class_growth_pct": 0.01
+  },
+  {
+   "next_type": "Dispossessed",
+   "old_rows": 8710,
+   "new_rows": 8722,
+   "added": 12,
+   "old_pct": 1.1521,
+   "new_pct": 1.1078,
+   "class_growth_pct": 0.14
+  },
+  {
+   "next_type": "Dribble",
+   "old_rows": 11597,
+   "new_rows": 11608,
+   "added": 11,
+   "old_pct": 1.5339,
+   "new_pct": 1.4743,
+   "class_growth_pct": 0.09
+  },
+  {
+   "next_type": "Miscontrol",
+   "old_rows": 9822,
+   "new_rows": 9829,
+   "added": 7,
+   "old_pct": 1.2992,
+   "new_pct": 1.2484,
+   "class_growth_pct": 0.07
+  },
+  {
+   "next_type": "Pass",
+   "old_rows": 352592,
+   "new_rows": 382948,
+   "added": 30356,
+   "old_pct": 46.6377,
+   "new_pct": 48.6388,
+   "class_growth_pct": 8.61
+  },
+  {
+   "next_type": "Shot",
+   "old_rows": 9347,
+   "new_rows": 9905,
+   "added": 558,
+   "old_pct": 1.2363,
+   "new_pct": 1.258,
+   "class_growth_pct": 5.97
+  }
+ ],
+ "imbalance_ratio_majority_to_minority": {
+  "old": 40.481,
+  "new": 43.906
+ },
+ "gap_percentiles_by_next_type": [
+  {
+   "next_type": "Ball Recovery",
+   "count": 36321.0,
+   "mean": 2.7,
+   "std": 8.31,
+   "min": 0.0,
+   "50%": 1.73,
+   "90%": 3.88,
+   "95%": 4.79,
+   "99%": 9.71,
+   "max": 320.65
+  },
+  {
+   "next_type": "Carry",
+   "count": 314169.0,
+   "mean": 1.22,
+   "std": 0.76,
+   "min": 0.0,
+   "50%": 1.18,
+   "90%": 2.1,
+   "95%": 2.5,
+   "99%": 3.59,
+   "max": 10.0
+  },
+  {
+   "next_type": "Clearance",
+   "count": 13829.0,
+   "mean": 1.73,
+   "std": 1.02,
+   "min": 0.0,
+   "50%": 1.52,
+   "90%": 3.04,
+   "95%": 3.57,
+   "99%": 4.82,
+   "max": 36.78
+  },
+  {
+   "next_type": "Dispossessed",
+   "count": 8722.0,
+   "mean": 1.77,
+   "std": 1.54,
+   "min": 0.0,
+   "50%": 1.3,
+   "90%": 3.81,
+   "95%": 4.95,
+   "99%": 7.16,
+   "max": 14.75
+  },
+  {
+   "next_type": "Dribble",
+   "count": 11608.0,
+   "mean": 1.72,
+   "std": 1.55,
+   "min": 0.0,
+   "50%": 1.3,
+   "90%": 3.77,
+   "95%": 4.82,
+   "99%": 7.24,
+   "max": 13.76
+  },
+  {
+   "next_type": "Miscontrol",
+   "count": 9829.0,
+   "mean": 0.98,
+   "std": 1.28,
+   "min": 0.0,
+   "50%": 0.43,
+   "90%": 2.66,
+   "95%": 3.54,
+   "99%": 5.85,
+   "max": 17.66
+  },
+  {
+   "next_type": "Pass",
+   "count": 382948.0,
+   "mean": 4.12,
+   "std": 10.29,
+   "min": 0.0,
+   "50%": 1.54,
+   "90%": 6.46,
+   "95%": 19.34,
+   "99%": 49.46,
+   "max": 503.41
+  },
+  {
+   "next_type": "Shot",
+   "count": 9905.0,
+   "mean": 6.57,
+   "std": 24.13,
+   "min": 0.0,
+   "50%": 1.38,
+   "90%": 4.04,
+   "95%": 46.24,
+   "99%": 122.51,
+   "max": 333.05
+  }
+ ],
+ "top_excluded_transitions": [
+  {
+   "current_type": "Pass",
+   "next_type": "Pass",
+   "eligible": 66156,
+   "excluded": 10986,
+   "excluded_pct": 16.61
+  },
+  {
+   "current_type": "Shot",
+   "next_type": "Pass",
+   "eligible": 7616,
+   "excluded": 6508,
+   "excluded_pct": 85.45
+  },
+  {
+   "current_type": "Carry",
+   "next_type": "Pass",
+   "eligible": 288988,
+   "excluded": 5960,
+   "excluded_pct": 2.06
+  },
+  {
+   "current_type": "Clearance",
+   "next_type": "Pass",
+   "eligible": 7655,
+   "excluded": 2820,
+   "excluded_pct": 36.84
+  },
+  {
+   "current_type": "Miscontrol",
+   "next_type": "Pass",
+   "eligible": 4803,
+   "excluded": 1413,
+   "excluded_pct": 29.42
+  },
+  {
+   "current_type": "Dispossessed",
+   "next_type": "Pass",
+   "eligible": 3178,
+   "excluded": 1115,
+   "excluded_pct": 35.08
+  },
+  {
+   "current_type": "Dribble",
+   "next_type": "Pass",
+   "eligible": 2024,
+   "excluded": 779,
+   "excluded_pct": 38.49
+  },
+  {
+   "current_type": "Ball Recovery",
+   "next_type": "Pass",
+   "eligible": 2528,
+   "excluded": 775,
+   "excluded_pct": 30.66
+  },
+  {
+   "current_type": "Carry",
+   "next_type": "Shot",
+   "eligible": 4936,
+   "excluded": 325,
+   "excluded_pct": 6.58
+  },
+  {
+   "current_type": "Pass",
+   "next_type": "Ball Recovery",
+   "eligible": 18142,
+   "excluded": 219,
+   "excluded_pct": 1.21
+  }
+ ],
+ "excluded_next_has_360_pct": 47.55,
+ "retained_next_has_360_pct": 93.67,
+ "empty_freeze_frame_current": 0
+}

@@ -36,11 +36,11 @@ def check(job):
     match_id, event_ids = job
     events = json.loads((RAW / "events" / f"{match_id}.json").read_text(encoding="utf-8"))
     frames = {f["event_uuid"]: f for f in json.loads((RAW / "three-sixty" / f"{match_id}.json").read_text(encoding="utf-8"))}
-    full = {r["current_event_id"]: r for r in build_rows_from_match_data(match_id, events, frames, 10.0)}
+    full = {r["current_event_id"]: r for r in build_rows_from_match_data(match_id, events, frames)}
     out = []
     for event_id in event_ids:
         cut_events, cut_frames = _truncate_after(events, frames, event_id)
-        rows = build_rows_from_match_data(match_id, cut_events, cut_frames, 10.0)
+        rows = build_rows_from_match_data(match_id, cut_events, cut_frames)
         mismatches = [(r["current_event_id"], c) for r in rows for c in COLUMNS if not same(r[c], full[r["current_event_id"]][c])]
         out.append({"match_id": match_id, "event_id": event_id, "cut_row_present": event_id in {r["current_event_id"] for r in rows},
                     "rows_compared": len(rows), "cells_compared": len(rows) * len(COLUMNS), "mismatches": mismatches[:10],

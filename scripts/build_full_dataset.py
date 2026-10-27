@@ -17,7 +17,7 @@ configs/ml_feature_classification.json). See
 docs/ml_dataset_identity_and_orientation.md.
 
 Usage:
-    .venv/bin/python scripts/build_full_dataset.py [--max-time 10] [--workers 7]
+    .venv/bin/python scripts/build_full_dataset.py [--workers 7]
 """
 
 from __future__ import annotations
@@ -42,22 +42,20 @@ COMBINED = OUTPUT_DIR / "statsbomb_360_all_matches_next_events.csv"
 MANIFEST = OUTPUT_DIR / "statsbomb_360_dataset_manifest.json"
 
 
-def build_one(job: tuple[int, float]) -> tuple[int, int, list[str]]:
-    match_id, max_time = job
-    rows = build_match_dataset(match_id, max_time)
+def build_one(match_id: int) -> tuple[int, int, list[str]]:
+    rows = build_match_dataset(match_id)
     save_dataset(rows, OUTPUT_DIR / f"statsbomb_360_match_{match_id}_next_events.csv")
     return match_id, len(rows), list(rows[0])
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    parser.add_argument("--max-time", type=float, default=10.0)
     parser.add_argument("--workers", type=int, default=7)
     args = parser.parse_args()
     excluded = load_exclusion_manifest()
     match_ids = [m for m in available_360_match_ids() if m not in excluded]
     with ProcessPoolExecutor(max_workers=args.workers) as pool:
-        results = sorted(pool.map(build_one, [(m, args.max_time) for m in match_ids], chunksize=1))
+        results = sorted(pool.map(build_one, match_ids, chunksize=1))
     schemas = {tuple(columns) for _, _, columns in results}
     if len(schemas) != 1:
         raise RuntimeError(f"Per-match files disagree on the schema: {schemas}")
@@ -75,7 +73,8 @@ def main() -> int:
     manifest = {
         "built_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "git_commit": commit, "src_had_uncommitted_changes": dirty,
-        "max_time_seconds": args.max_time, "matches": len(results), "excluded_matches": sorted(excluded),
+        "target": "next event of a MEANINGFUL_EVENT_TYPES type in the same period, by event order; no time window",
+        "matches": len(results), "excluded_matches": sorted(excluded),
         "rows": sum(n for _, n, _ in results), "rows_per_match": {str(m): n for m, n, _ in results},
         "columns": columns, "combined_file": COMBINED.name,
     }

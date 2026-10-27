@@ -1,0 +1,9 @@
+next_type,eligible,excluded,excluded_pct
+Ball Recovery,36321,362,0.997
+Carry,314169,0,0.0
+Clearance,13829,2,0.014
+Dispossessed,8722,12,0.138
+Dribble,11608,11,0.095
+Miscontrol,9829,7,0.071
+Pass,382948,30356,7.927
+Shot,9905,558,5.634

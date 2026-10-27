@@ -333,7 +333,7 @@ def test_builder_and_renderer_use_identical_snapshot_orientations():
     plan, _, _ = resolve_display_plan(match_id, raw, inference)
     drawn, _ = display_orientation_results(raw, results, inference, plan, frame_reviews=frame_review_corrections())
     renderer = {j.event["id"]: r.orientation for j, r in zip(raw.usable_frames, drawn)}
-    rows = build_match_dataset(match_id, 10.0)
+    rows = build_match_dataset(match_id)
     compared = [r for r in rows if r["current_event_id"] in renderer]
     assert compared and all(r["orientation_offline"] == renderer[r["current_event_id"]] for r in compared)
 
@@ -465,7 +465,7 @@ def test_builder_offline_columns_equal_what_the_renderer_draws():
         [(j.event, j.frame_360) for j in raw.usable_frames], [r.orientation for r in drawn], results,
         tuple(names[t] for t in match_team_ids(raw)), load_json_records(raw.event_path, "event"),
     )
-    rows = build_match_dataset(match_id, 10.0)
+    rows = build_match_dataset(match_id)
     assert rows
     for row in rows:
         teams = renderer[row["current_event_id"]].teams

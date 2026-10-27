@@ -1,0 +1,41 @@
+{
+ "events": 1551841,
+ "meaningful_type": 893476,
+ "meaningful_with_360_record": 788087,
+ "meaningful_without_360_record": 105389,
+ "matches": 417,
+ "excluded_matches_by_manifest": 9,
+ "eligible_current_events": 788087,
+ "outcomes": {
+  "retained_old": 756023,
+  "excluded_gap_over_10s": 31308,
+  "no_successor_in_period": 756
+ },
+ "eligible_with_successor": 787331,
+ "gap_percentiles_s": {
+  "1": 0.0,
+  "5": 0.0,
+  "25": 0.861,
+  "50": 1.336,
+  "75": 2.099,
+  "90": 3.698,
+  "95": 6.588,
+  "99": 36.855,
+  "min": 0.0,
+  "max": 503.411,
+  "mean": 2.785
+ },
+ "gap_bins": {
+  "<0": 0,
+  "=0": 40165,
+  "(0,2]": 534143,
+  "(2,5]": 161173,
+  "(5,10]": 20542,
+  "(10,15]": 6301,
+  "(15,30]": 13429,
+  "(30,60]": 8489,
+  "(60,120]": 2566,
+  "(120,300]": 514,
+  ">300": 9
+ }
+}

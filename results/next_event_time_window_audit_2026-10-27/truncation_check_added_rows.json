@@ -1,0 +1,9 @@
+{
+ "cuts": 60,
+ "matches": 58,
+ "cut_rows_present": 60,
+ "rows_compared": 56502,
+ "cells_compared": 1412550,
+ "mismatching_cells": 0,
+ "examples": []
+}
