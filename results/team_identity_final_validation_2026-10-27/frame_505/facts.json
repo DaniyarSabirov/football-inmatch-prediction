@@ -1,0 +1,55 @@
+{
+ "event": {
+  "id": "5aabea4a-a1e7-4e5e-adc3-b13dec0f27bf",
+  "index": 5,
+  "timestamp": "00:00:00.505",
+  "location": [
+   60.0,
+   40.0
+  ],
+  "type": "Pass",
+  "pass_type": "Kick Off",
+  "team": "Slovakia",
+  "player": "Lukáš Haraslín",
+  "recipient": "Stanislav Lobotka",
+  "end_location": [
+   48.3,
+   39.2
+  ]
+ },
+ "previous_events": "Starting XI x2, Half Start x2 (no 360 record before it in the period)",
+ "points": 20,
+ "teammate_true": 10,
+ "keepers_flagged": 0,
+ "problem_a": "UNCERTAIN",
+ "resolved_orientation": "NORMAL",
+ "route": "user_frame_review",
+ "status_now": [
+  "SPEC"
+ ],
+ "law8_as_drawn (slovakia_beyond_halfway, belgium_in_slovakia_half)": [
+  6,
+  2
+ ],
+ "law8_if_frame_mirrored": [
+  1,
+  4
+ ],
+ "law8_if_flags_inverted": [
+  4,
+  1
+ ],
+ "continuity_with_next_distinct_snapshot_as_drawn": {
+  "unambiguous_pairs": 14,
+  "flag_disagreements": 10
+ },
+ "continuity_if_flags_inverted": {
+  "unambiguous_pairs": 14,
+  "flag_disagreements": 4
+ },
+ "continuity_if_frame_mirrored": {
+  "unambiguous_pairs": 5,
+  "flag_disagreements": 4
+ },
+ "next_snapshot": "00:00:01.616"
+}

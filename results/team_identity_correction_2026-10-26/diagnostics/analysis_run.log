@@ -1,0 +1,339 @@
+{
+ "population": {
+  "matches": 417,
+  "events": 1551841,
+  "events_with_360_record": 1357626,
+  "usable_snapshots": 1357626,
+  "player_observations": 21193635,
+  "ml_rows": 756023,
+  "legacy_ml_rows": 756023,
+  "legacy_rows_missing_in_new": 0
+ },
+ "player_observations": {
+  "confirmed_correct (positive independent evidence: neighbour agreement or keeper goal side)": {
+   "count": 13154864,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 62.0699
+  },
+  "corrected_vs_original_pipeline (team changed on evidence)": {
+   "count": 2822,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0133
+  },
+  "  of which goalkeeper rule": {
+   "count": 1175,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0055
+  },
+  "  of which view correction of copies/derived records": {
+   "count": 1647,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0078
+  },
+  "original_unclear_now_resolved": {
+   "count": 127,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0006
+  },
+  "original_definite_now_unresolved": {
+   "count": 9536,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.045
+  },
+  "unresolved_after_correction (all)": {
+   "count": 9679,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0457
+  },
+  "  unresolved: structurally proven inconsistency, direction undecided (copy_group_undecided)": {
+   "count": 3670,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0173
+  },
+  "  unresolved: suspected label errors (other reasons)": {
+   "count": 6009,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0284
+  },
+  "unresolved_by_reason": {
+   "copy_group_undecided": 3670,
+   "copy_flag_deviation": 1134,
+   "record_contradicted": 520,
+   "contradicted_by_both_neighbours": 3455,
+   "keeper_goal_side_unverified": 900,
+   "goalkeeper_correction_contradicted": 0
+  },
+  "unverified (no evidence either way, kept as read)": {
+   "count": 8029092,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 37.8844
+  },
+  "status_counts": {
+   "spec": 20512162,
+   "corrected_view": 670619,
+   "corrected_goalkeeper": 1175,
+   "unresolved": 9679
+  },
+  "note_corrected_view": "corrected_view counts every point read in another view than its own event's spec reading, INCLUDING byte-identical copies already handled by the original pipeline; changes relative to the original pipeline are 'corrected_vs_original_pipeline'.",
+  "original_pipeline_unclear_points": {
+   "count": 270,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0013
+  }
+ },
+ "snapshots": {
+  "with_any_change_vs_original": {
+   "count": 1287,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.0948
+  },
+  "with_any_unresolved_point": {
+   "count": 5423,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.3994
+  },
+  "fully_unresolved": {
+   "count": 270,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.0199
+  },
+  "structurally_linked_to_another_record": {
+   "count": 894743,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 65.905
+  },
+  "structurally_inconsistent (flag view contradicts its own team)": {
+   "count": 101041,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 7.4425
+  },
+  "structural_decisions": {
+   "continuity": 67779,
+   "legacy_problem_c_source": 17082,
+   "keeper_and_owner": 15944,
+   "undecided": 236
+  },
+  "scrambled_raw_labels (>=1 point contradicted by both neighbours)": {
+   "count": 3237,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.2384
+  },
+  "record_level_contradiction (whole record unclear)": {
+   "count": 31,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.0023
+  },
+  "orientation_resolved_by": {
+   "geometry": 1352620,
+   "display_duplicate_snapshot": 4443,
+   "display_kickoff_own_half": 470,
+   "display_camera_side": 48,
+   "display_duplicate_consensus": 25,
+   "user_frame_review": 10,
+   "temporal_neighbor": 7,
+   "display_camera_continuity": 3
+  },
+  "orientation_still_uncertain": {
+   "count": 0,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.0
+  }
+ },
+ "goalkeepers": {
+  "observations_near_a_goal": 488292,
+  "original_pipeline_wrong_keeper_colour": {
+   "count": 2280,
+   "denominator": 488292,
+   "unit": "keeper observations near a goal",
+   "percent": 0.4669
+  },
+  "goalkeeper_only_errors (rest of record unchanged and resolved)": {
+   "count": 2122,
+   "denominator": 488292,
+   "unit": "keeper observations near a goal",
+   "percent": 0.4346
+  },
+  "goalkeeper_only_outcome": {
+   "CORRECTED_GOALKEEPER": 1154,
+   "UNRESOLVED": 968
+  },
+  "goalkeeper_only_unresolved_reasons": {
+   "keeper_goal_side_unverified": 884,
+   "copy_flag_deviation": 84
+  },
+  "new_pipeline_wrong_keeper_colour": {
+   "count": 0,
+   "denominator": 488292,
+   "unit": "keeper observations near a goal",
+   "percent": 0.0
+  },
+  "new_pipeline_unresolved_keepers": {
+   "count": 1241,
+   "denominator": 488292,
+   "unit": "keeper observations near a goal",
+   "percent": 0.2542
+  },
+  "goalkeeper_rule_forward_validation": {
+   "agrees": 826,
+   "no_forward_evidence": 349
+  },
+  "reconciliation_with_previous_957": {
+   "previous_keeper_wrong_records_reproduced": 2276,
+   "of_which_rest_agrees_with_neighbours (flag_perspective OWN)": 1000,
+   "note": "957 could not be reproduced exactly from the saved files; the same definition gives the number above (the earlier text may have used an unsaved variant). Outcomes below are for this set.",
+   "outcome_in_new_pipeline": {
+    "CORRECTED_GOALKEEPER": 551,
+    "UNRESOLVED": 447,
+    "SPEC": 6
+   }
+  }
+ },
+ "ml_rows": {
+  "rows": 756023,
+  "identity_quality": {
+   "clean": 751978,
+   "uncertain": 2949,
+   "corrected": 1096
+  },
+  "rows_with_>=1_uncertain_player": {
+   "count": 2949,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.3901
+  },
+  "rows_with_>=1_uncertain_player_in_original": {
+   "count": 9,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.0012
+  },
+  "rows_whose_teammate/opponent_counts_change_vs_original": {
+   "count": 3610,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.4775
+  },
+  "rows_whose_counts_change_and_are_certain": {
+   "count": 667,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.0882
+  },
+  "rows_excluded_if_unresolved_rows_dropped": {
+   "count": 2949,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.3901
+  },
+  "uncertain_players_per_uncertain_row": {
+   "count": 2949.0,
+   "mean": 1.537,
+   "std": 2.701,
+   "min": 1.0,
+   "25%": 1.0,
+   "50%": 1.0,
+   "75%": 1.0,
+   "max": 21.0
+  },
+  "rows_with_entire_freeze_frame_uncertain": {
+   "count": 93,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.0123
+  },
+  "teammates_change_distribution": {
+   "-11": 12,
+   "-10": 23,
+   "-9": 18,
+   "-8": 16,
+   "-7": 10,
+   "-6": 5,
+   "-5": 3,
+   "-4": 3,
+   "-3": 6,
+   "-2": 32,
+   "-1": 2051,
+   "0": 1207,
+   "1": 217,
+   "2": 4,
+   "7": 1,
+   "11": 2
+  },
+  "opponents_change_distribution": {
+   "-11": 2,
+   "-10": 9,
+   "-9": 22,
+   "-8": 14,
+   "-7": 16,
+   "-6": 8,
+   "-5": 8,
+   "-4": 7,
+   "-3": 3,
+   "-2": 26,
+   "-1": 1530,
+   "0": 1512,
+   "1": 438,
+   "2": 5,
+   "3": 4,
+   "4": 2,
+   "5": 2,
+   "10": 2
+  },
+  "orientation_sync": {
+   "rows_orientation_label_changed": {
+    "count": 535,
+    "denominator": 756023,
+    "unit": "ML rows",
+    "percent": 0.0708
+   },
+   "rows_actor_xy_changed": {
+    "count": 47,
+    "denominator": 756023,
+    "unit": "ML rows",
+    "percent": 0.0062
+   },
+   "legacy_uncertain_rows (the earlier 535)": 535,
+   "legacy_uncertain_rows_now_resolved": 535,
+   "legacy_uncertain_rows_now_rotated (actor_x/y mirrored)": 50,
+   "legacy_uncertain_rows_now_normal (coordinates unchanged)": 485,
+   "legacy_confident_rows_changed": 0,
+   "transitions": [
+    {
+     "legacy_orientation": "UNCERTAIN",
+     "orientation": "NORMAL",
+     "rows": 485
+    },
+    {
+     "legacy_orientation": "UNCERTAIN",
+     "orientation": "ROTATED_180",
+     "rows": 50
+    }
+   ],
+   "resolved_by": {
+    "display_kickoff_own_half": 469,
+    "display_duplicate_snapshot": 45,
+    "display_camera_side": 12,
+    "user_frame_review": 9
+   }
+  }
+ }
+}

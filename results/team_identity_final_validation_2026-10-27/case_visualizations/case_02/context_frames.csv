@@ -1,0 +1,28 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3895107,2,684fb72e-732b-4775-8794-11dd2b6f8c0e,3688,00:37:05.888,82:05.888,2225.888,Pass,FC Köln,Julian Chabot,12,1,1,True,,1.516,1500
+2,3895107,2,4fc4b066-955a-435d-a9bd-1412fa900f73,3689,00:37:07.404,82:07.404,2227.404,Ball Receipt*,FC Köln,Dejan Ljubicic,11,0,1,True,1.516,0.000,80
+3,3895107,2,1a5673c3-e8c9-4b49-8429-ab97e4948f6b,3690,00:37:07.404,82:07.404,2227.404,Carry,FC Köln,Dejan Ljubicic,11,0,1,True,0.000,0.083,83
+4,3895107,2,1bd11aff-9858-4789-ae2e-33722606b0d4,3691,00:37:07.487,82:07.487,2227.487,Pressure,Bayer Leverkusen,Amine Adli,11,0,1,True,0.083,0.493,493
+5,3895107,2,4404d4d8-3181-4fa2-83e5-4a1280f544a5,3692,00:37:07.980,82:07.980,2227.980,Pass,FC Köln,Dejan Ljubicic,13,0,1,True,0.493,0.169,169
+6,3895107,2,6cbed67d-1994-4c5c-a98b-d9401f5fbc39,3693,00:37:08.149,82:08.149,2228.149,Ball Receipt*,FC Köln,Florian Kainz,14,0,1,True,0.169,0.000,80
+7,3895107,2,73ca24c0-ce06-419f-b362-1d764d5790f0,3694,00:37:08.149,82:08.149,2228.149,Block,Bayer Leverkusen,Amine Adli,14,0,1,True,0.000,1.483,1483
+8,3895107,2,fa06a5b2-5ee1-461c-81dd-63819bffaf2e,3695,00:37:09.632,82:09.632,2229.632,Pass,Bayer Leverkusen,Alejandro Grimaldo García,19,0,1,True,1.483,0.774,774
+9,3895107,2,ac3ca08b-a694-430e-b5c4-5e1d97507418,3696,00:37:10.406,82:10.406,2230.406,Ball Receipt*,Bayer Leverkusen,Exequiel Alejandro Palacios,20,0,1,True,0.774,0.000,80
+10,3895107,2,2c07dd14-01f1-4f47-89d1-312882d4c083,3697,00:37:10.406,82:10.406,2230.406,Pass,Bayer Leverkusen,Exequiel Alejandro Palacios,20,0,1,True,0.000,0.922,922
+11,3895107,2,229b9aa4-f545-45bc-a58e-d8a35c6674f1,3698,00:37:11.328,82:11.328,2231.328,Ball Receipt*,Bayer Leverkusen,Alejandro Grimaldo García,20,0,1,True,0.922,0.000,80
+12,3895107,2,8a31a61a-2885-4066-9328-d8363fb1ce37,3699,00:37:11.328,82:11.328,2231.328,Carry,Bayer Leverkusen,Alejandro Grimaldo García,20,0,1,True,0.000,0.111,111
+13,3895107,2,e1ae93e9-fcb9-4f12-adeb-98e56df28155,3700,00:37:11.439,82:11.439,2231.439,Pass,Bayer Leverkusen,Alejandro Grimaldo García,20,0,1,True,0.111,1.228,1228
+14,3895107,2,66d50c18-e1af-4dea-bc39-03b753cb4301,3701,00:37:12.667,82:12.667,2232.667,Ball Receipt*,Bayer Leverkusen,Amine Adli,16,0,1,True,1.228,0.000,80
+15,3895107,2,4c54f0c3-d5f3-4dfc-aedc-99163df46807,3702,00:37:12.667,82:12.667,2232.667,Pass,FC Köln,Mathias Flaga Olesen,16,0,1,True,0.000,0.311,311
+16,3895107,2,932353c5-53aa-47b0-b33a-3403fcb570ee,3703,00:37:12.978,82:12.978,2232.978,Block,Bayer Leverkusen,Amine Adli,16,0,1,True,0.311,0.082,82
+17,3895107,2,e167f860-59b0-4490-8a66-7f6bc1652d2b,3704,00:37:13.060,82:13.060,2233.060,Block,FC Köln,Mathias Flaga Olesen,16,0,1,True,0.082,0.869,869
+18,3895107,2,f8c87a2d-db5c-401a-a8c2-b4f500ccc975,3705,00:37:13.929,82:13.929,2233.929,Pressure,Bayer Leverkusen,Amine Adli,16,0,1,True,0.869,0.561,561
+19,3895107,2,900fe32c-1e9d-489c-85a2-41a9ead17f6d,3706,00:37:14.490,82:14.490,2234.490,Pass,FC Köln,Mathias Flaga Olesen,16,0,1,True,0.561,1.598,1500
+20,3895107,2,102cf03c-328a-4bad-86cd-22345e7cb617,3707,00:37:16.088,82:16.088,2236.088,Ball Receipt*,FC Köln,Florian Kainz,20,0,1,True,1.598,0.000,80
+21,3895107,2,12a5db6c-3ef8-4575-ad80-befb0ba6b062,3708,00:37:16.088,82:16.088,2236.088,Carry,FC Köln,Florian Kainz,20,0,1,True,0.000,0.143,143
+22,3895107,2,869ea3e1-00c3-4771-b816-e7edee3dd897,3709,00:37:16.231,82:16.231,2236.231,Pressure,Bayer Leverkusen,Exequiel Alejandro Palacios,20,0,1,True,0.143,0.931,931
+23,3895107,2,cc9a4750-a7b7-407c-bbd6-31e883fb0d60,3710,00:37:17.162,82:17.162,2237.162,Pass,FC Köln,Florian Kainz,20,0,1,True,0.931,3.318,1500
+24,3895107,2,fa23620c-8840-4c2e-a331-554b0002a239,3711,00:37:20.480,82:20.480,2240.480,Pressure,FC Köln,Dejan Ljubicic,7,1,1,True,3.318,0.429,429
+25,3895107,2,6c4592f6-1c2c-4f72-8297-83f690275585,3712,00:37:20.909,82:20.909,2240.909,Ball Receipt*,FC Köln,Dejan Ljubicic,7,1,1,True,0.429,0.000,80
+26,3895107,2,fa86d559-5078-4008-a887-c60d6f23b63c,3713,00:37:20.909,82:20.909,2240.909,Ball Recovery,Bayer Leverkusen,Piero Martín Hincapié Reyna,7,1,1,True,0.000,0.000,80
+27,3895107,2,e5b8e046-e8dd-449f-9a0e-b9b4969e2a35,3714,00:37:20.909,82:20.909,2240.909,Carry,Bayer Leverkusen,Piero Martín Hincapié Reyna,7,1,1,True,0.000,,80

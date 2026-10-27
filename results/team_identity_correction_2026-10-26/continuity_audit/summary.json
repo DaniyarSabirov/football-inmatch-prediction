@@ -1,0 +1,35 @@
+{
+ "matches": 417,
+ "distinct_snapshots": 962911,
+ "neighbour_pairs_compared": 733132,
+ "paired_players": 7142505,
+ "paired_players_changing_colour": 96350,
+ "shared_source_switches": 0,
+ "flagged_frames": 200,
+ "flagged_frames_both_neighbours": 1,
+ "flagged_frames_single_neighbour": 199,
+ "flagged_matches": 123,
+ "flagged_kickoffs": 2,
+ "flagged_shared_cross_team": 8,
+ "flagged_within_first_5s_of_period": 2,
+ "flagged_by_event_type": {
+  "Ball Receipt*": 81,
+  "Pass": 79,
+  "Pressure": 16,
+  "Goal Keeper": 6,
+  "Ball Recovery": 6,
+  "Block": 5,
+  "Clearance": 2,
+  "Miscontrol": 2,
+  "Shot": 1,
+  "50/50": 1,
+  "Duel": 1
+ },
+ "thresholds": {
+  "max_dt": 2.0,
+  "max_pair_distance": 3.0,
+  "min_mismatches": 4,
+  "min_mismatch_share": 0.3,
+  "pairing": "unambiguous (margin >= 1 yd, common offset removed)"
+ }
+}

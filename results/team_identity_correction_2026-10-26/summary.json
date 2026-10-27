@@ -1,0 +1,756 @@
+{
+ "population": {
+  "matches": 417,
+  "events": 1551841,
+  "events_with_360_record": 1357626,
+  "usable_snapshots": 1357626,
+  "player_observations": 21193635,
+  "ml_rows": 756023,
+  "legacy_ml_rows": 756023,
+  "legacy_rows_missing_in_new": 0
+ },
+ "player_observations": {
+  "confirmed_correct (positive independent evidence: neighbour agreement or keeper goal side)": {
+   "count": 13154864,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 62.0699
+  },
+  "corrected_vs_original_pipeline (team changed on evidence)": {
+   "count": 2822,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0133
+  },
+  "  of which goalkeeper rule": {
+   "count": 1175,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0055
+  },
+  "  of which view correction of copies/derived records": {
+   "count": 1647,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0078
+  },
+  "original_unclear_now_resolved": {
+   "count": 127,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0006
+  },
+  "original_definite_now_unresolved": {
+   "count": 9536,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.045
+  },
+  "unresolved_after_correction (all)": {
+   "count": 9679,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0457
+  },
+  "  unresolved: structurally proven inconsistency, direction undecided (copy_group_undecided)": {
+   "count": 3670,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0173
+  },
+  "  unresolved: suspected label errors (other reasons)": {
+   "count": 6009,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0284
+  },
+  "unresolved_by_reason": {
+   "copy_group_undecided": 3670,
+   "copy_flag_deviation": 1134,
+   "record_contradicted": 520,
+   "contradicted_by_both_neighbours": 3455,
+   "keeper_goal_side_unverified": 900,
+   "goalkeeper_correction_contradicted": 0
+  },
+  "unverified (no evidence either way, kept as read)": {
+   "count": 8029092,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 37.8844
+  },
+  "status_counts": {
+   "spec": 20512162,
+   "corrected_view": 670619,
+   "corrected_goalkeeper": 1175,
+   "unresolved": 9679
+  },
+  "note_corrected_view": "corrected_view counts every point read in another view than its own event's spec reading, INCLUDING byte-identical copies already handled by the original pipeline; changes relative to the original pipeline are 'corrected_vs_original_pipeline'.",
+  "original_pipeline_unclear_points": {
+   "count": 270,
+   "denominator": 21193635,
+   "unit": "player observations",
+   "percent": 0.0013
+  }
+ },
+ "snapshots": {
+  "with_any_change_vs_original": {
+   "count": 1287,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.0948
+  },
+  "with_any_unresolved_point": {
+   "count": 5423,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.3994
+  },
+  "fully_unresolved": {
+   "count": 270,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.0199
+  },
+  "structurally_linked_to_another_record": {
+   "count": 894743,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 65.905
+  },
+  "structurally_inconsistent (flag view contradicts its own team)": {
+   "count": 101041,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 7.4425
+  },
+  "structural_decisions": {
+   "continuity": 67779,
+   "legacy_problem_c_source": 17082,
+   "keeper_and_owner": 15944,
+   "undecided": 236
+  },
+  "scrambled_raw_labels (>=1 point contradicted by both neighbours)": {
+   "count": 3237,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.2384
+  },
+  "record_level_contradiction (whole record unclear)": {
+   "count": 31,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.0023
+  },
+  "orientation_resolved_by": {
+   "geometry": 1352620,
+   "display_duplicate_snapshot": 4443,
+   "display_kickoff_own_half": 470,
+   "display_camera_side": 48,
+   "display_duplicate_consensus": 25,
+   "user_frame_review": 10,
+   "temporal_neighbor": 7,
+   "display_camera_continuity": 3
+  },
+  "orientation_still_uncertain": {
+   "count": 0,
+   "denominator": 1357626,
+   "unit": "snapshots",
+   "percent": 0.0
+  }
+ },
+ "goalkeepers": {
+  "observations_near_a_goal": 488292,
+  "original_pipeline_wrong_keeper_colour": {
+   "count": 2280,
+   "denominator": 488292,
+   "unit": "keeper observations near a goal",
+   "percent": 0.4669
+  },
+  "goalkeeper_only_errors (rest of record unchanged and resolved)": {
+   "count": 2122,
+   "denominator": 488292,
+   "unit": "keeper observations near a goal",
+   "percent": 0.4346
+  },
+  "goalkeeper_only_outcome": {
+   "CORRECTED_GOALKEEPER": 1154,
+   "UNRESOLVED": 968
+  },
+  "goalkeeper_only_unresolved_reasons": {
+   "keeper_goal_side_unverified": 884,
+   "copy_flag_deviation": 84
+  },
+  "new_pipeline_wrong_keeper_colour": {
+   "count": 0,
+   "denominator": 488292,
+   "unit": "keeper observations near a goal",
+   "percent": 0.0
+  },
+  "new_pipeline_unresolved_keepers": {
+   "count": 1241,
+   "denominator": 488292,
+   "unit": "keeper observations near a goal",
+   "percent": 0.2542
+  },
+  "goalkeeper_rule_forward_validation": {
+   "agrees": 826,
+   "no_forward_evidence": 349
+  },
+  "reconciliation_with_previous_957": {
+   "previous_keeper_wrong_records_reproduced": 2276,
+   "of_which_rest_agrees_with_neighbours (flag_perspective OWN)": 1000,
+   "note": "957 could not be reproduced exactly from the saved files; the same definition gives the number above (the earlier text may have used an unsaved variant). Outcomes below are for this set.",
+   "outcome_in_new_pipeline": {
+    "CORRECTED_GOALKEEPER": 551,
+    "UNRESOLVED": 447,
+    "SPEC": 6
+   }
+  }
+ },
+ "ml_rows": {
+  "rows": 756023,
+  "identity_quality": {
+   "clean": 751978,
+   "uncertain": 2949,
+   "corrected": 1096
+  },
+  "rows_with_>=1_uncertain_player": {
+   "count": 2949,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.3901
+  },
+  "rows_with_>=1_uncertain_player_in_original": {
+   "count": 9,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.0012
+  },
+  "rows_whose_teammate/opponent_counts_change_vs_original": {
+   "count": 3610,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.4775
+  },
+  "rows_whose_counts_change_and_are_certain": {
+   "count": 667,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.0882
+  },
+  "rows_excluded_if_unresolved_rows_dropped": {
+   "count": 2949,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.3901
+  },
+  "uncertain_players_per_uncertain_row": {
+   "count": 2949.0,
+   "mean": 1.537,
+   "std": 2.701,
+   "min": 1.0,
+   "25%": 1.0,
+   "50%": 1.0,
+   "75%": 1.0,
+   "max": 21.0
+  },
+  "rows_with_entire_freeze_frame_uncertain": {
+   "count": 93,
+   "denominator": 756023,
+   "unit": "ML rows",
+   "percent": 0.0123
+  },
+  "teammates_change_distribution": {
+   "-11": 12,
+   "-10": 23,
+   "-9": 18,
+   "-8": 16,
+   "-7": 10,
+   "-6": 5,
+   "-5": 3,
+   "-4": 3,
+   "-3": 6,
+   "-2": 32,
+   "-1": 2051,
+   "0": 1207,
+   "1": 217,
+   "2": 4,
+   "7": 1,
+   "11": 2
+  },
+  "opponents_change_distribution": {
+   "-11": 2,
+   "-10": 9,
+   "-9": 22,
+   "-8": 14,
+   "-7": 16,
+   "-6": 8,
+   "-5": 8,
+   "-4": 7,
+   "-3": 3,
+   "-2": 26,
+   "-1": 1530,
+   "0": 1512,
+   "1": 438,
+   "2": 5,
+   "3": 4,
+   "4": 2,
+   "5": 2,
+   "10": 2
+  },
+  "orientation_sync": {
+   "rows_orientation_label_changed": {
+    "count": 535,
+    "denominator": 756023,
+    "unit": "ML rows",
+    "percent": 0.0708
+   },
+   "rows_actor_xy_changed": {
+    "count": 47,
+    "denominator": 756023,
+    "unit": "ML rows",
+    "percent": 0.0062
+   },
+   "legacy_uncertain_rows (the earlier 535)": 535,
+   "legacy_uncertain_rows_now_resolved": 535,
+   "legacy_uncertain_rows_now_rotated (actor_x/y mirrored)": 50,
+   "legacy_uncertain_rows_now_normal (coordinates unchanged)": 485,
+   "legacy_confident_rows_changed": 0,
+   "transitions": [
+    {
+     "legacy_orientation": "UNCERTAIN",
+     "orientation": "NORMAL",
+     "rows": 485
+    },
+    {
+     "legacy_orientation": "UNCERTAIN",
+     "orientation": "ROTATED_180",
+     "rows": 50
+    }
+   ],
+   "resolved_by": {
+    "display_kickoff_own_half": 469,
+    "display_duplicate_snapshot": 45,
+    "display_camera_side": 12,
+    "user_frame_review": 9
+   }
+  }
+ },
+ "concentration": {
+  "matches_with_>=1_uncertain_row": {
+   "count": 406,
+   "denominator": 417,
+   "unit": "matches",
+   "percent": 97.3621
+  },
+  "matches_with_>=1_changed_row": {
+   "count": 411,
+   "denominator": 417,
+   "unit": "matches",
+   "percent": 98.5612
+  },
+  "share_of_uncertain_rows_in_top_10_matches": 12.8518,
+  "share_of_uncertain_rows_in_top_10pct_matches": 33.7063,
+  "per_match_uncertain_share": {
+   "count": 417.0,
+   "mean": 0.0039,
+   "std": 0.00381,
+   "min": 0.0,
+   "25%": 0.00167,
+   "50%": 0.00286,
+   "75%": 0.00469,
+   "max": 0.02919
+  },
+  "max_match": {
+   "match_id": 3773372,
+   "uncertain_rows": 45,
+   "rows": 1885
+  },
+  "by_current_event_type": {
+   "chi2": 90.97,
+   "dof": 7,
+   "p_value": 7.804111653548154e-17,
+   "cramers_v": 0.011,
+   "table": [
+    {
+     "current_event_type": "Ball Recovery",
+     "rows": 35564,
+     "uncertain": 161,
+     "counts_changed": 212,
+     "uncertain_pct_of_group": 0.453,
+     "share_of_all_rows_pct": 4.704,
+     "share_after_exclusion_pct": 4.701
+    },
+    {
+     "current_event_type": "Carry",
+     "rows": 316627,
+     "uncertain": 1136,
+     "counts_changed": 1390,
+     "uncertain_pct_of_group": 0.359,
+     "share_of_all_rows_pct": 41.881,
+     "share_after_exclusion_pct": 41.894
+    },
+    {
+     "current_event_type": "Clearance",
+     "rows": 12140,
+     "uncertain": 83,
+     "counts_changed": 112,
+     "uncertain_pct_of_group": 0.684,
+     "share_of_all_rows_pct": 1.606,
+     "share_after_exclusion_pct": 1.601
+    },
+    {
+     "current_event_type": "Dispossessed",
+     "rows": 7225,
+     "uncertain": 23,
+     "counts_changed": 35,
+     "uncertain_pct_of_group": 0.318,
+     "share_of_all_rows_pct": 0.956,
+     "share_after_exclusion_pct": 0.956
+    },
+    {
+     "current_event_type": "Dribble",
+     "rows": 10395,
+     "uncertain": 51,
+     "counts_changed": 70,
+     "uncertain_pct_of_group": 0.491,
+     "share_of_all_rows_pct": 1.375,
+     "share_after_exclusion_pct": 1.374
+    },
+    {
+     "current_event_type": "Miscontrol",
+     "rows": 8485,
+     "uncertain": 54,
+     "counts_changed": 67,
+     "uncertain_pct_of_group": 0.636,
+     "share_of_all_rows_pct": 1.122,
+     "share_after_exclusion_pct": 1.12
+    },
+    {
+     "current_event_type": "Pass",
+     "rows": 361891,
+     "uncertain": 1404,
+     "counts_changed": 1684,
+     "uncertain_pct_of_group": 0.388,
+     "share_of_all_rows_pct": 47.868,
+     "share_after_exclusion_pct": 47.869
+    },
+    {
+     "current_event_type": "Shot",
+     "rows": 3696,
+     "uncertain": 37,
+     "counts_changed": 40,
+     "uncertain_pct_of_group": 1.001,
+     "share_of_all_rows_pct": 0.489,
+     "share_after_exclusion_pct": 0.486
+    }
+   ]
+  },
+  "by_next_event_type": {
+   "chi2": 117.58,
+   "dof": 7,
+   "p_value": 2.4420820541887025e-22,
+   "cramers_v": 0.0125,
+   "table": [
+    {
+     "next_event_type": "Ball Recovery",
+     "rows": 35959,
+     "uncertain": 215,
+     "counts_changed": 265,
+     "uncertain_pct_of_group": 0.598,
+     "share_of_all_rows_pct": 4.756,
+     "share_after_exclusion_pct": 4.746
+    },
+    {
+     "next_event_type": "Carry",
+     "rows": 314169,
+     "uncertain": 1183,
+     "counts_changed": 1437,
+     "uncertain_pct_of_group": 0.377,
+     "share_of_all_rows_pct": 41.555,
+     "share_after_exclusion_pct": 41.561
+    },
+    {
+     "next_event_type": "Clearance",
+     "rows": 13827,
+     "uncertain": 100,
+     "counts_changed": 126,
+     "uncertain_pct_of_group": 0.723,
+     "share_of_all_rows_pct": 1.829,
+     "share_after_exclusion_pct": 1.823
+    },
+    {
+     "next_event_type": "Dispossessed",
+     "rows": 8710,
+     "uncertain": 44,
+     "counts_changed": 52,
+     "uncertain_pct_of_group": 0.505,
+     "share_of_all_rows_pct": 1.152,
+     "share_after_exclusion_pct": 1.151
+    },
+    {
+     "next_event_type": "Dribble",
+     "rows": 11597,
+     "uncertain": 52,
+     "counts_changed": 65,
+     "uncertain_pct_of_group": 0.448,
+     "share_of_all_rows_pct": 1.534,
+     "share_after_exclusion_pct": 1.533
+    },
+    {
+     "next_event_type": "Miscontrol",
+     "rows": 9822,
+     "uncertain": 57,
+     "counts_changed": 69,
+     "uncertain_pct_of_group": 0.58,
+     "share_of_all_rows_pct": 1.299,
+     "share_after_exclusion_pct": 1.297
+    },
+    {
+     "next_event_type": "Pass",
+     "rows": 352592,
+     "uncertain": 1242,
+     "counts_changed": 1525,
+     "uncertain_pct_of_group": 0.352,
+     "share_of_all_rows_pct": 46.638,
+     "share_after_exclusion_pct": 46.655
+    },
+    {
+     "next_event_type": "Shot",
+     "rows": 9347,
+     "uncertain": 56,
+     "counts_changed": 71,
+     "uncertain_pct_of_group": 0.599,
+     "share_of_all_rows_pct": 1.236,
+     "share_after_exclusion_pct": 1.234
+    }
+   ]
+  },
+  "by_period": {
+   "chi2": 5.28,
+   "dof": 3,
+   "p_value": 0.15239689921776858,
+   "cramers_v": 0.0026,
+   "table": [
+    {
+     "period": 1,
+     "rows": 379213,
+     "uncertain": 1419,
+     "counts_changed": 1701,
+     "uncertain_pct_of_group": 0.374,
+     "share_of_all_rows_pct": 50.159,
+     "share_after_exclusion_pct": 50.167
+    },
+    {
+     "period": 2,
+     "rows": 361027,
+     "uncertain": 1469,
+     "counts_changed": 1832,
+     "uncertain_pct_of_group": 0.407,
+     "share_of_all_rows_pct": 47.753,
+     "share_after_exclusion_pct": 47.745
+    },
+    {
+     "period": 3,
+     "rows": 8198,
+     "uncertain": 30,
+     "counts_changed": 37,
+     "uncertain_pct_of_group": 0.366,
+     "share_of_all_rows_pct": 1.084,
+     "share_after_exclusion_pct": 1.085
+    },
+    {
+     "period": 4,
+     "rows": 7585,
+     "uncertain": 31,
+     "counts_changed": 40,
+     "uncertain_pct_of_group": 0.409,
+     "share_of_all_rows_pct": 1.003,
+     "share_after_exclusion_pct": 1.003
+    }
+   ]
+  },
+  "by_minute_bucket": {
+   "(-1, 15]": {
+    "rows": 136091,
+    "uncertain": 489,
+    "uncertain_pct_of_group": 0.359
+   },
+   "(15, 30]": {
+    "rows": 116942,
+    "uncertain": 423,
+    "uncertain_pct_of_group": 0.362
+   },
+   "(30, 45]": {
+    "rows": 124468,
+    "uncertain": 474,
+    "uncertain_pct_of_group": 0.381
+   },
+   "(45, 60]": {
+    "rows": 126083,
+    "uncertain": 511,
+    "uncertain_pct_of_group": 0.405
+   },
+   "(60, 75]": {
+    "rows": 106369,
+    "uncertain": 398,
+    "uncertain_pct_of_group": 0.374
+   },
+   "(75, 90]": {
+    "rows": 103766,
+    "uncertain": 413,
+    "uncertain_pct_of_group": 0.398
+   },
+   "(90, 200]": {
+    "rows": 42304,
+    "uncertain": 241,
+    "uncertain_pct_of_group": 0.57
+   }
+  },
+  "by_zone": {
+   "defensive third": {
+    "rows": 189413,
+    "uncertain": 791,
+    "uncertain_pct_of_group": 0.418
+   },
+   "middle third": {
+    "rows": 369288,
+    "uncertain": 1250,
+    "uncertain_pct_of_group": 0.338
+   },
+   "attacking third": {
+    "rows": 197320,
+    "uncertain": 908,
+    "uncertain_pct_of_group": 0.46
+   }
+  }
+ },
+ "class_balance": [
+  {
+   "next_event_type": "Pass",
+   "share_all_pct": 46.6377,
+   "share_after_exclusion_pct": 46.6554,
+   "relative_change_pct": 0.038,
+   "rows_removed": 1242,
+   "rows_removed_pct_of_class": 0.352
+  },
+  {
+   "next_event_type": "Carry",
+   "share_all_pct": 41.5555,
+   "share_after_exclusion_pct": 41.5611,
+   "relative_change_pct": 0.013,
+   "rows_removed": 1183,
+   "rows_removed_pct_of_class": 0.377
+  },
+  {
+   "next_event_type": "Ball Recovery",
+   "share_all_pct": 4.7563,
+   "share_after_exclusion_pct": 4.7464,
+   "relative_change_pct": -0.208,
+   "rows_removed": 215,
+   "rows_removed_pct_of_class": 0.598
+  },
+  {
+   "next_event_type": "Clearance",
+   "share_all_pct": 1.8289,
+   "share_after_exclusion_pct": 1.8228,
+   "relative_change_pct": -0.334,
+   "rows_removed": 100,
+   "rows_removed_pct_of_class": 0.723
+  },
+  {
+   "next_event_type": "Dribble",
+   "share_all_pct": 1.5339,
+   "share_after_exclusion_pct": 1.533,
+   "relative_change_pct": -0.059,
+   "rows_removed": 52,
+   "rows_removed_pct_of_class": 0.448
+  },
+  {
+   "next_event_type": "Miscontrol",
+   "share_all_pct": 1.2992,
+   "share_after_exclusion_pct": 1.2967,
+   "relative_change_pct": -0.192,
+   "rows_removed": 57,
+   "rows_removed_pct_of_class": 0.58
+  },
+  {
+   "next_event_type": "Shot",
+   "share_all_pct": 1.2363,
+   "share_after_exclusion_pct": 1.2337,
+   "relative_change_pct": -0.21,
+   "rows_removed": 56,
+   "rows_removed_pct_of_class": 0.599
+  },
+  {
+   "next_event_type": "Dispossessed",
+   "share_all_pct": 1.1521,
+   "share_after_exclusion_pct": 1.1508,
+   "relative_change_pct": -0.113,
+   "rows_removed": 44,
+   "rows_removed_pct_of_class": 0.505
+  }
+ ],
+ "class_balance_imbalance_ratio": {
+  "majority_to_minority_all": 40.481,
+  "majority_to_minority_after_exclusion": 40.544
+ },
+ "excluded_vs_kept_features": {
+  "actor_x": {
+   "mean_kept": 60.462,
+   "mean_excluded": 61.832,
+   "ks_statistic": 0.0479
+  },
+  "actor_y": {
+   "mean_kept": 39.839,
+   "mean_excluded": 40.083,
+   "ks_statistic": 0.0155
+  },
+  "minute": {
+   "mean_kept": 46.314,
+   "mean_excluded": 48.367,
+   "ks_statistic": 0.0295
+  },
+  "visible_players": {
+   "mean_kept": 15.666,
+   "mean_excluded": 16.031,
+   "ks_statistic": 0.0572
+  },
+  "visible_teammates": {
+   "mean_kept": 7.716,
+   "mean_excluded": 7.038,
+   "ks_statistic": 0.1061
+  },
+  "visible_opponents": {
+   "mean_kept": 7.95,
+   "mean_excluded": 7.455,
+   "ks_statistic": 0.1615
+  }
+ },
+ "original_vs_corrected_features": {
+  "visible_teammates": {
+   "mean_original": 7.71718,
+   "mean_corrected": 7.71367,
+   "ks_statistic": 0.000624,
+   "rows_changed": 2403
+  },
+  "visible_opponents": {
+   "mean_original": 7.95005,
+   "mean_corrected": 7.94774,
+   "ks_statistic": 0.000382,
+   "rows_changed": 2098
+  },
+  "actor_x": {
+   "mean_original": 60.46791,
+   "mean_corrected": 60.46745,
+   "ks_statistic": 1.1e-05,
+   "rows_changed": 47
+  },
+  "actor_y": {
+   "mean_original": 39.83953,
+   "mean_corrected": 39.83988,
+   "ks_statistic": 9e-06,
+   "rows_changed": 47
+  }
+ }
+}

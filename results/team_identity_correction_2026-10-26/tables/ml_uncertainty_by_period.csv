@@ -1,0 +1,5 @@
+period,rows,uncertain,counts_changed,uncertain_pct_of_group,share_of_all_rows_pct,share_after_exclusion_pct
+1,379213,1419,1701,0.374,50.159,50.167
+2,361027,1469,1832,0.407,47.753,47.745
+3,8198,30,37,0.366,1.084,1.085
+4,7585,31,40,0.409,1.003,1.003

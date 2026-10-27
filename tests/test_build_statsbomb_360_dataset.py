@@ -416,9 +416,16 @@ def test_genuinely_ambiguous_shared_snapshot_is_counted_not_guessed() -> None:
     }
     rows = build_rows_from_match_data("m1", events, frames, maximum_time_difference=10.0)
     row_x = next(r for r in rows if r["current_event_id"] == "ev-x")
-    assert row_x["visible_ambiguous"] == 3
-    assert row_x["visible_teammates"] == 0
-    assert row_x["visible_opponents"] == 0
+    row_y = next(r for r in rows if r["current_event_id"] == "ev-y")
+    # Offline (both directions in time): both records are ambiguous.
+    assert row_x["visible_ambiguous_offline"] == 3
+    assert row_x["visible_teammates_offline"] == row_x["visible_opponents_offline"] == 0
+    # Causal feature columns: ev-x precedes ev-y and cannot know about the
+    # conflicting copy yet; ev-y sees both and is ambiguous, not guessed.
+    assert row_x["visible_ambiguous"] == 0
+    assert row_y["visible_ambiguous"] == 3
+    assert row_y["visible_teammates"] == row_y["visible_opponents"] == 0
+    assert row_y["identity_quality"] == "uncertain"
 
 
 # --- CSV round-trip -----------------------------------------------------------

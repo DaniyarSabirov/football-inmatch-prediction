@@ -1,0 +1,53 @@
+{
+ "pairs_evaluated": 7140398,
+ "transitions": 95579,
+ "transition_rate_pct": 1.3386,
+ "matches_with_transitions": 417,
+ "snapshot_links_with_transitions": 80725,
+ "snapshots_involved": 154366,
+ "player_observations_involved": 191034,
+ "classes": {
+  "likely_pairing_artefact": 92019,
+  "ambiguous": 3296,
+  "strongly_suspected": 264
+ },
+ "confirmed_by_anchor": {
+  "keeper_goal_side": 0,
+  "actor_semantics": 0
+ },
+ "patterns": {
+  "unanchored": 82006,
+  "step": 13343,
+  "blip_B": 106,
+  "blip_A": 106,
+  "alternating": 18
+ },
+ "floor_rate_pct (dt<=0.25 s, margin>5 yd)": 0.0009,
+ "floor_pairs": 991776,
+ "floor_transitions": 9,
+ "estimated_genuine_label_disagreements": 65,
+ "estimated_pairing_artefacts": 95514,
+ "share_attributed_to_pairing_pct": 99.9,
+ "per_match_transition_rate_pct": null,
+ "transitions_per_match": {
+  "count": 417.0,
+  "mean": 229.2,
+  "std": 43.1,
+  "min": 140.0,
+  "25%": 201.0,
+  "50%": 222.0,
+  "75%": 252.0,
+  "max": 416.0
+ },
+ "top10_matches_share_pct": 3.73,
+ "by_event_type_a_top": {
+  "Pass": 48153,
+  "Ball Receipt*": 29890,
+  "Pressure": 8425,
+  "Ball Recovery": 2993,
+  "Duel": 1666,
+  "Block": 955,
+  "Dribble": 921,
+  "Miscontrol": 848
+ }
+}

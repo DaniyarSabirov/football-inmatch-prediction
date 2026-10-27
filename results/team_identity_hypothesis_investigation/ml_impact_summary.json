@@ -1,0 +1,22 @@
+{
+ "rows": 756023,
+ "matches": 417,
+ "rows_with_keeper_evidence": 261551,
+ "rows_keeper_verified_wrong_colours": 1187,
+ "rows_shared_problem_c": 35447,
+ "rows_flagged_any": 1170,
+ "rows_flagged_strong": 43,
+ "rows_by_root_cause": {
+  "insufficient_evidence": 549,
+  "crowding_artefact": 355,
+  "raw_label_scramble": 132,
+  "record_level_inversion": 128,
+  "derived_record_flags_not_reexpressed": 3,
+  "disagrees_with_one_neighbour_only": 2,
+  "copy_missed_by_problem_c": 1
+ },
+ "rows_structural_or_raw_error_classes": 264,
+ "rows_where_display_refinement_differs_from_ml": 0,
+ "rows_uncertain_orientation_actor_xy_uncorrected_in_ml": 535,
+ "median_teammate_opponent_gap_in_affected_rows": 1.0
+}

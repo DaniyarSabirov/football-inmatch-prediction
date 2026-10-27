@@ -1,0 +1,9 @@
+current_event_type,rows,uncertain,counts_changed,uncertain_pct_of_group,share_of_all_rows_pct,share_after_exclusion_pct
+Ball Recovery,35564,161,212,0.453,4.704,4.701
+Carry,316627,1136,1390,0.359,41.881,41.894
+Clearance,12140,83,112,0.684,1.606,1.601
+Dispossessed,7225,23,35,0.318,0.956,0.956
+Dribble,10395,51,70,0.491,1.375,1.374
+Miscontrol,8485,54,67,0.636,1.122,1.12
+Pass,361891,1404,1684,0.388,47.868,47.869
+Shot,3696,37,40,1.001,0.489,0.486

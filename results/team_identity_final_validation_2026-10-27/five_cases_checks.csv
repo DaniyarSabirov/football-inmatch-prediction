@@ -1,0 +1,16 @@
+case,match_id,snapshot,clock,event_type,event_team,players,polygon_present,orientation,orientation_route,decision,statuses,actor_to_event_location_yd,actor_colour_before,actor_colour_after,keepers_goal_side,vs_next_before,vs_next_after,vs_previous_after,vs_previous_before
+case_01,3893791,previous,18:25.761,Ball Receipt*,Spain Women's,18,True,NORMAL,geometry,keeper_and_owner,SPEC,0.0,Spain Women's,Spain Women's,before ok / after ok,0/10 disagree,0/10 disagree,,
+case_01,3893791,case,18:25.761,Duel,Costa Rica Women's,18,True,ROTATED_180,geometry,keeper_and_owner,CORRECTED_VIEW,1.76,Costa Rica Women's,Spain Women's,before WRONG / after ok,10/10 disagree,0/10 disagree,0/12 disagree,12/12 disagree
+case_01,3893791,next,18:25.761,Shot,Spain Women's,18,True,NORMAL,geometry,,SPEC,0.0,Spain Women's,Spain Women's,before ok / after ok,,,0/10 disagree,0/10 disagree
+case_02,3895107,previous,82:12.978,Block,Bayer Leverkusen,16,True,NORMAL,geometry,continuity,SPEC,0.0,Bayer Leverkusen,Bayer Leverkusen,no keeper near a goal,0/10 disagree,0/10 disagree,,
+case_02,3895107,case,82:13.060,Block,FC Köln,16,True,NORMAL,geometry,continuity,CORRECTED_VIEW,0.0,FC Köln,Bayer Leverkusen,no keeper near a goal,10/10 disagree,0/10 disagree,0/16 disagree,16/16 disagree
+case_02,3895107,next,82:13.929,Pressure,Bayer Leverkusen,16,True,NORMAL,geometry,,SPEC,0.0,Bayer Leverkusen,Bayer Leverkusen,no keeper near a goal,,,0/10 disagree,0/10 disagree
+case_03,3857256,previous,90:21.879,Ball Receipt*,Serbia,18,True,NORMAL,geometry,spec_consistent,SPEC,0.0,Serbia,Serbia,no keeper near a goal,2/8 disagree,2/8 disagree,,
+case_03,3857256,case,90:23.300,Pass,Serbia,18,True,NORMAL,geometry,,SPEC,0.0,Serbia,Serbia,no keeper near a goal,0/4 disagree,0/4 disagree,1/8 disagree,1/8 disagree
+case_03,3857256,next,90:24.975,Carry,Serbia,19,True,NORMAL,geometry,spec_consistent,SPEC,0.0,Serbia,Serbia,no keeper near a goal,,,2/8 disagree,2/8 disagree
+case_04,3844386,previous,31:57.139,Clearance,Belgium Women's,19,True,NORMAL,geometry,,SPEC,0.0,Belgium Women's,Belgium Women's,before ok / after ok,1/8 disagree,1/8 disagree,,
+case_04,3844386,case,31:58.616,Pressure,Sweden Women's,20,True,NORMAL,geometry,,SPEC,0.0,Sweden Women's,Sweden Women's,before ok / after ok,1/12 disagree,1/12 disagree,0/6 disagree,0/6 disagree
+case_04,3844386,next,31:59.258,Carry,Belgium Women's,19,True,NORMAL,geometry,spec_consistent,SPEC,0.0,Belgium Women's,Belgium Women's,before ok / after ok,,,1/8 disagree,1/8 disagree
+case_05,3773386,previous,27:12.941,Pass,Barcelona,15,True,NORMAL,geometry,,SPEC,0.0,Barcelona,Barcelona,before ok / after ok,1/10 disagree,1/10 disagree,,
+case_05,3773386,case,27:13.282,Ball Receipt*,Barcelona,15,True,ROTATED_180,display_camera_side,continuity,CORRECTED_VIEW,26.07,Barcelona,Deportivo Alavés,no keeper near a goal,13/13 disagree,0/13 disagree,1/10 disagree,9/10 disagree
+case_05,3773386,next,27:13.282,Block,Deportivo Alavés,15,True,NORMAL,geometry,continuity,SPEC,0.0,Deportivo Alavés,Deportivo Alavés,no keeper near a goal,,,1/10 disagree,1/10 disagree

@@ -1,0 +1,19 @@
+threshold,rule,records_changed_with_keeper_evidence,fixed,broken,applicable_records_without_keeper_evidence,fixed_strong_flagged,fixed_weak_flagged
+0 s,R2 owner,9,5,4,54982,2,2
+0 s,R3 majority,3587,45,3542,556908,1,3
+0 s,R4 naive earlier->later,81,11,17,96,,
+0.0001 s,R2 owner,9,5,4,54982,2,2
+0.0001 s,R3 majority,3587,45,3542,556908,1,3
+0.0001 s,R4 naive earlier->later,81,11,17,96,,
+0.0003 s,R2 owner,9,5,4,54982,2,2
+0.0003 s,R3 majority,3587,45,3542,556908,1,3
+0.0003 s,R4 naive earlier->later,81,11,17,96,,
+0.001 s,R2 owner,9,5,4,54982,2,2
+0.001 s,R3 majority,3587,45,3542,557117,1,3
+0.001 s,R4 naive earlier->later,81,11,17,98,,
+0.01 s,R2 owner,9,5,4,54987,2,2
+0.01 s,R3 majority,3587,45,3542,558636,1,3
+0.01 s,R4 naive earlier->later,86,11,17,108,,
+0.1 s,R2 owner,9,5,4,55098,2,2
+0.1 s,R3 majority,3531,40,3491,583404,1,3
+0.1 s,R4 naive earlier->later,313,27,40,427,,

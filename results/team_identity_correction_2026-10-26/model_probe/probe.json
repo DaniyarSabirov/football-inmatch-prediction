@@ -1,0 +1,35 @@
+{
+ "rows": 756023,
+ "uncertain_rows": 2949,
+ "labels": [
+  "Ball Recovery",
+  "Carry",
+  "Clearance",
+  "Dispossessed",
+  "Dribble",
+  "Miscontrol",
+  "Pass",
+  "Shot"
+ ],
+ "seed": 20261026,
+ "folds": "GroupKFold(5) by match_id",
+ "features": [
+  "type_Ball Recovery",
+  "type_Carry",
+  "type_Clearance",
+  "type_Dispossessed",
+  "type_Dribble",
+  "type_Miscontrol",
+  "type_Pass",
+  "type_Shot",
+  "period",
+  "minute",
+  "actor_missing",
+  "actor_x",
+  "actor_y",
+  "visible_players",
+  "visible_teammates",
+  "visible_opponents",
+  "identity_uncertain"
+ ]
+}

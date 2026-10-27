@@ -16,10 +16,13 @@ from src.orientation_correction import (
     classify_orientation,
 )
 from src.team_normalization import (
+    PHYSICALLY_FLIPPED_PERIODS,
     TEAM_NORMALIZATION_MIRRORED,
     TEAM_NORMALIZATION_REFERENCE,
     apply_team_normalization_to_event,
     apply_team_normalization_to_frame,
+    period_requires_physical_end_swap,
+    resolve_physical_reference_team_id,
     resolve_reference_team_id,
     team_normalization_label,
 )
@@ -67,6 +70,87 @@ def test_events_of_two_ids_resolve_to_first_seen_team_as_reference() -> None:
 def test_resolve_reference_team_id_requires_exactly_two_teams() -> None:
     with pytest.raises(ValueError):
         resolve_reference_team_id([REFERENCE_EVENT])
+
+
+# --- physical_reference_team_name override -----------------------------------
+# Added after the 2026-10-21 broadcast-footage investigation
+# (docs/physical_pitch_orientation_validation.md): the automatic pick above
+# is confirmed to have no relationship to real camera/stadium orientation
+# (it is simply whichever team's first 360-matched event is chronologically
+# earliest -- in practice, whichever team kicks off). This override lets a
+# caller with independent, verified physical-orientation evidence (e.g. a
+# broadcast screenshot) select the correct reference team explicitly,
+# without changing the default (analytical) behavior for anyone who does
+# not pass it.
+
+def test_override_none_preserves_automatic_behavior() -> None:
+    # Explicitly passing None must be identical to omitting the argument.
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    assert (
+        resolve_reference_team_id(events)
+        == resolve_reference_team_id(events, physical_reference_team_name=None)
+        == REFERENCE_TEAM_ID
+    )
+
+
+def test_override_can_select_the_team_that_would_not_be_picked_automatically() -> None:
+    # Automatic pick (first-seen) would choose REFERENCE_TEAM_ID here; the
+    # override must be able to select the OTHER team instead.
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    assert resolve_reference_team_id(events) == REFERENCE_TEAM_ID
+    assert (
+        resolve_reference_team_id(events, physical_reference_team_name="Other FC")
+        == OTHER_TEAM_ID
+    )
+
+
+def test_override_matches_case_insensitively() -> None:
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    assert (
+        resolve_reference_team_id(events, physical_reference_team_name="other fc")
+        == OTHER_TEAM_ID
+    )
+    assert (
+        resolve_reference_team_id(events, physical_reference_team_name="OTHER FC")
+        == OTHER_TEAM_ID
+    )
+
+
+def test_override_with_non_matching_name_raises() -> None:
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    with pytest.raises(ValueError):
+        resolve_reference_team_id(events, physical_reference_team_name="Nonexistent FC")
+
+
+def test_override_still_requires_exactly_two_teams_first() -> None:
+    # The team-count check must run before the name match is attempted, so
+    # a malformed/incomplete event list fails with the same clear error
+    # regardless of whether an override was requested.
+    with pytest.raises(ValueError):
+        resolve_reference_team_id([REFERENCE_EVENT], physical_reference_team_name="Reference FC")
+
+
+def test_override_flips_which_events_team_normalization_treats_as_mirrored() -> None:
+    # End-to-end: swapping the reference team via the override must swap
+    # which of the two teams' coordinates get mirrored, using the exact
+    # same (already-tested) mirror formula -- no new transform is
+    # introduced, only which team it is applied to changes.
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    swapped_reference_id = resolve_reference_team_id(
+        events, physical_reference_team_name="Other FC"
+    )
+    assert swapped_reference_id == OTHER_TEAM_ID
+
+    # Under the swapped reference, the team that was previously REFERENCE
+    # (and unmirrored) is now MIRRORED, and vice versa.
+    assert team_normalization_label(REFERENCE_EVENT, swapped_reference_id) == TEAM_NORMALIZATION_MIRRORED
+    assert team_normalization_label(MIRRORED_EVENT, swapped_reference_id) == TEAM_NORMALIZATION_REFERENCE
+
+    formerly_reference_normalized = apply_team_normalization_to_event(REFERENCE_EVENT, swapped_reference_id)
+    assert formerly_reference_normalized["location"] == pytest.approx([90.0, 60.0])
+
+    formerly_mirrored_normalized = apply_team_normalization_to_event(MIRRORED_EVENT, swapped_reference_id)
+    assert formerly_mirrored_normalized["location"] == pytest.approx([30.0, 20.0])
 
 
 # --- 1. Reference team coordinates remain unchanged -------------------------
@@ -303,3 +387,102 @@ def test_apply_team_normalization_is_not_idempotent_calling_code_must_apply_once
     assert once["freeze_frame"][0]["location"] != twice["freeze_frame"][0]["location"]
     # Specifically, applying it twice cancels out and returns to the raw input.
     assert twice["freeze_frame"][0]["location"] == SAMPLE_FRAME["freeze_frame"][0]["location"]
+
+
+# --- 14. Period-aware physical calibration (halftime end swap) --------------
+# Added after the 2026-10-21 second-half investigation
+# (docs/full_physical_pitch_orientation_audit.md): a SINGLE,
+# period-independent reference team (as --physical-reference-team alone
+# originally provided) is only physically correct for periods sharing
+# period 1's end arrangement. Real teams swap ends at halftime (and before
+# the second half of extra time) -- resolve_physical_reference_team_id
+# must swap which team is reference for those periods, using the SAME,
+# already-tested mirror mechanism, never a new transform.
+
+def test_period_requires_physical_end_swap_matches_laws_of_the_game() -> None:
+    # Periods 1 and 3 share period 1's arrangement (3 is the first half of
+    # extra time, no additional swap yet); periods 2 and 4 are played after
+    # an end swap. Period 5 (shootout) is deliberately NOT flagged as
+    # swapped -- see period_requires_physical_end_swap's docstring for why
+    # this is a documented assumption, not a verified fact.
+    assert period_requires_physical_end_swap(1) is False
+    assert period_requires_physical_end_swap(2) is True
+    assert period_requires_physical_end_swap(3) is False
+    assert period_requires_physical_end_swap(4) is True
+    assert period_requires_physical_end_swap(5) is False
+    assert PHYSICALLY_FLIPPED_PERIODS == {2, 4}
+
+
+def test_resolve_physical_reference_team_id_period_1_matches_plain_override() -> None:
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    assert (
+        resolve_physical_reference_team_id(events, "Reference FC", period=1)
+        == resolve_reference_team_id(events, physical_reference_team_name="Reference FC")
+        == REFERENCE_TEAM_ID
+    )
+
+
+def test_resolve_physical_reference_team_id_swaps_in_period_2() -> None:
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    # Calibrated team attacks one way in period 1 (REFERENCE_TEAM_ID stays
+    # reference); in period 2, after the real halftime end swap, the OTHER
+    # team must become reference instead.
+    assert resolve_physical_reference_team_id(events, "Reference FC", period=1) == REFERENCE_TEAM_ID
+    assert resolve_physical_reference_team_id(events, "Reference FC", period=2) == OTHER_TEAM_ID
+
+
+def test_resolve_physical_reference_team_id_period_3_matches_period_1() -> None:
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    assert (
+        resolve_physical_reference_team_id(events, "Reference FC", period=3)
+        == resolve_physical_reference_team_id(events, "Reference FC", period=1)
+    )
+
+
+def test_resolve_physical_reference_team_id_period_4_matches_period_2() -> None:
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    assert (
+        resolve_physical_reference_team_id(events, "Reference FC", period=4)
+        == resolve_physical_reference_team_id(events, "Reference FC", period=2)
+    )
+
+
+def test_resolve_physical_reference_team_id_applies_full_mirror_formula_once_swapped() -> None:
+    # End-to-end: the period-2 swapped reference must still use the exact
+    # same, already-tested (120-x, 80-y) mirror formula -- not a new,
+    # separately-invented transform -- just applied to the other team.
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    period_2_reference = resolve_physical_reference_team_id(events, "Reference FC", period=2)
+    assert period_2_reference == OTHER_TEAM_ID
+
+    normalized = apply_team_normalization_to_event(REFERENCE_EVENT, period_2_reference)
+    assert normalized["location"] == pytest.approx([90.0, 60.0])  # (120-30, 80-20)
+
+
+# --- 15. apply_period_end_swap: baseline-agnostic core -----------------------
+# Added 2026-10-22 (docs/full_visualization_orientation_and_clock_audit_2026-10-22.md):
+# factored out of resolve_physical_reference_team_id so the SAME swap logic
+# can be driven by an UNVERIFIED automatic baseline too (the renderer's
+# default "spectator-facing" path), not only an externally-verified team
+# name. This must behave identically regardless of how the baseline id was
+# obtained.
+
+def test_apply_period_end_swap_matches_resolve_physical_reference_team_id() -> None:
+    from src.team_normalization import apply_period_end_swap
+
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    for period in (1, 2, 3, 4, 5):
+        via_name = resolve_physical_reference_team_id(events, "Reference FC", period)
+        via_id = apply_period_end_swap(events, REFERENCE_TEAM_ID, period)
+        assert via_name == via_id
+
+
+def test_apply_period_end_swap_works_with_an_arbitrary_unverified_baseline() -> None:
+    # The core function does not care whether REFERENCE_TEAM_ID came from
+    # a verified name lookup or an arbitrary automatic pick -- it is
+    # baseline-agnostic by design.
+    from src.team_normalization import apply_period_end_swap
+
+    events = [REFERENCE_EVENT, MIRRORED_EVENT]
+    assert apply_period_end_swap(events, OTHER_TEAM_ID, period=1) == OTHER_TEAM_ID
+    assert apply_period_end_swap(events, OTHER_TEAM_ID, period=2) == REFERENCE_TEAM_ID

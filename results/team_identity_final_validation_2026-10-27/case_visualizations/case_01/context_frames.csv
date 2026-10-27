@@ -1,0 +1,5 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3893791,1,129994c3-43c3-459d-979e-70e5ccc5f6ab,739,00:18:23.675,18:23.675,1103.675,Pass,Spain Women's,Teresa Abelleira Dueñas,19,1,1,True,,2.086,1500
+2,3893791,1,bc583917-fa68-4931-bfa4-ea30a29a400c,740,00:18:25.761,18:25.761,1105.761,Ball Receipt*,Spain Women's,Ivana Andrés Sanz,18,1,1,True,2.086,0.000,80
+3,3893791,1,ccd066b1-5fe2-407f-b28c-aea41d58acf1,741,00:18:25.761,18:25.761,1105.761,Duel,Costa Rica Women's,María Paula Coto González,18,1,1,True,0.000,0.000,80
+4,3893791,1,5921fdaa-496d-4fd0-bc65-1f85d565c4c1,742,00:18:25.761,18:25.761,1105.761,Shot,Spain Women's,Ivana Andrés Sanz,18,1,1,True,0.000,,80

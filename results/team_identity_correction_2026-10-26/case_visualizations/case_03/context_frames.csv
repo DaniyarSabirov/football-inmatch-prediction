@@ -1,0 +1,19 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3857256,2,cba06a19-57ad-4564-842f-236d1cc144b9,2990,00:45:14.446,90:14.446,2714.446,Ball Receipt*,Serbia,Strahinja Pavlović,13,0,1,True,,0.000,80
+2,3857256,2,f3789f9e-a180-455f-bc48-033057fd8238,2991,00:45:14.446,90:14.446,2714.446,Carry,Serbia,Strahinja Pavlović,13,0,1,True,0.000,2.797,1500
+3,3857256,2,ad6f6ea8-7d3e-43f9-a158-b506a5bfbfd2,2992,00:45:17.243,90:17.243,2717.243,Pass,Serbia,Strahinja Pavlović,19,0,1,True,2.797,1.387,1387
+4,3857256,2,f9a53095-fc1a-4201-8bdc-8df900717f67,2993,00:45:18.630,90:18.630,2718.630,Ball Receipt*,Serbia,Saša Lukić,19,0,1,True,1.387,0.000,80
+5,3857256,2,efc5d2bf-92fb-46da-850c-cbbe0c14d910,2994,00:45:18.630,90:18.630,2718.630,Carry,Serbia,Saša Lukić,19,0,1,True,0.000,2.086,1500
+6,3857256,2,4c52907f-a9f1-4e3e-bac3-e5702158e75e,2995,00:45:20.716,90:20.716,2720.716,Pass,Serbia,Saša Lukić,17,0,1,True,2.086,1.163,1163
+7,3857256,2,c2689ba8-ed17-4305-8ecd-090f3c37885d,2996,00:45:21.879,90:21.879,2721.879,Ball Receipt*,Serbia,Strahinja Pavlović,18,0,1,True,1.163,0.000,80
+8,3857256,2,77194e90-b3a0-4570-8b79-215084b9d31b,2997,00:45:21.879,90:21.879,2721.879,Carry,Serbia,Strahinja Pavlović,18,0,1,True,0.000,1.421,1421
+9,3857256,2,83ce9921-c1f8-442c-b431-a1cbfdbfd19b,2998,00:45:23.300,90:23.300,2723.300,Pass,Serbia,Strahinja Pavlović,18,0,1,True,1.421,1.675,1500
+10,3857256,2,2f0ff875-c1e9-481d-8641-8d377783f794,2999,00:45:24.975,90:24.975,2724.975,Ball Receipt*,Serbia,Saša Lukić,19,0,1,True,1.675,0.000,80
+11,3857256,2,76ff768e-dbd5-4812-8ec4-4e77ba4eebbb,3000,00:45:24.975,90:24.975,2724.975,Carry,Serbia,Saša Lukić,19,0,1,True,0.000,1.677,1500
+12,3857256,2,2d9b1385-d60f-44f3-849c-11bfc15ee2e6,3001,00:45:26.652,90:26.652,2726.652,Pass,Serbia,Saša Lukić,19,1,1,True,1.677,2.378,1500
+13,3857256,2,774db0f6-a77d-49d4-9be5-4f2f8b6b0457,3002,00:45:29.030,90:29.030,2729.030,Ball Receipt*,Serbia,Aleksandar Mitrović,14,1,1,True,2.378,0.000,80
+14,3857256,2,2ba212e4-9b8a-43e7-bc42-b2f741534254,3003,00:45:29.030,90:29.030,2729.030,Duel,Switzerland,Silvan Widmer,14,1,1,True,0.000,0.000,80
+15,3857256,2,3c6c4107-7bf3-4c37-9ec7-b60018e02745,3004,00:45:29.030,90:29.030,2729.030,Pass,Serbia,Aleksandar Mitrović,14,1,1,True,0.000,2.377,1500
+16,3857256,2,1c627970-4767-44d5-b886-f42fce3bdc23,3005,00:45:31.407,90:31.407,2731.407,Ball Recovery,Switzerland,Edimilson Fernandes,18,1,1,True,2.377,0.000,80
+17,3857256,2,55b33c3b-f726-4882-b3b1-f0600bc5fc61,3006,00:45:31.407,90:31.407,2731.407,Carry,Switzerland,Edimilson Fernandes,18,1,1,True,0.000,0.536,536
+18,3857256,2,c46d1e29-612d-46c1-a252-2dde31c352d2,3007,00:45:31.943,90:31.943,2731.943,Pass,Switzerland,Edimilson Fernandes,18,1,1,True,0.536,,80

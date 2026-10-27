@@ -1,0 +1,9 @@
+next_event_type,share_all_pct,share_after_exclusion_pct,relative_change_pct,rows_removed,rows_removed_pct_of_class
+Pass,46.6377,46.6554,0.038,1242,0.352
+Carry,41.5555,41.5611,0.013,1183,0.377
+Ball Recovery,4.7563,4.7464,-0.208,215,0.598
+Clearance,1.8289,1.8228,-0.334,100,0.723
+Dribble,1.5339,1.533,-0.059,52,0.448
+Miscontrol,1.2992,1.2967,-0.192,57,0.58
+Shot,1.2363,1.2337,-0.21,56,0.599
+Dispossessed,1.1521,1.1508,-0.113,44,0.505

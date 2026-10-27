@@ -1,0 +1,85 @@
+{
+ "rows": 756023,
+ "identity_exposure": {
+  "rows_offline_features_differ_from_causal": 3801,
+  "pct": 0.5028,
+  "of_which_next_event_snapshot_within_2s": 3255,
+  "rows_next_event_snapshot_within_2s_overall": 551033,
+  "pct_rows_next_event_snapshot_within_2s": 72.89,
+  "rows_offline_uncertain": 3665,
+  "rows_causal_uncertain": 2019,
+  "rows_counts_changed_vs_legacy_offline": 4320,
+  "rows_counts_changed_vs_legacy_causal": 3325,
+  "causal_vs_offline_quality_crosstab": {
+   "clean": {
+    "clean": 749880,
+    "corrected": 819,
+    "uncertain": 574
+   },
+   "corrected": {
+    "clean": 61,
+    "corrected": 871,
+    "uncertain": 153
+   },
+   "uncertain": {
+    "clean": 2312,
+    "corrected": 61,
+    "uncertain": 1292
+   }
+  }
+ },
+ "orientation_exposure": {
+  "rows_by_route": {
+   "geometry": 755487,
+   "display_kickoff_own_half": 469,
+   "display_duplicate_snapshot": 45,
+   "display_camera_side": 12,
+   "user_frame_review": 9,
+   "temporal_neighbor": 1
+  },
+  "rows_route_can_read_later_records": 55,
+  "rows_route_uses_period_camera_side": 481,
+  "rows_actor_xy_differs_from_legacy": 47,
+  "rows_actor_xy_differs_and_route_later": 39
+ },
+ "conditional_mutual_information_bits": {
+  "offline_uncertain": {
+   "cmi": 0.00017897859140165545,
+   "permutation_mean": 3.6643912128999956e-05,
+   "permutation_p99": 5.79043062253801e-05,
+   "above_p99": "True",
+   "flagged_rows": 3665
+  },
+  "causal_uncertain": {
+   "cmi": 0.0002724881125061556,
+   "permutation_mean": 3.458766395506006e-05,
+   "permutation_p99": 5.906034580126196e-05,
+   "above_p99": "True",
+   "flagged_rows": 2019
+  },
+  "offline_differs_from_causal": {
+   "cmi": 0.00021314077627921808,
+   "permutation_mean": 3.588959454515459e-05,
+   "permutation_p99": 5.731637134225563e-05,
+   "above_p99": "True",
+   "flagged_rows": 3801
+  },
+  "offline_counts_changed_vs_legacy": {
+   "cmi": 0.00018742251907965962,
+   "permutation_mean": 3.682026643535338e-05,
+   "permutation_p99": 6.254415071711464e-05,
+   "above_p99": "True",
+   "flagged_rows": 4320
+  },
+  "causal_counts_changed_vs_legacy": {
+   "cmi": 0.0003203624701946667,
+   "permutation_mean": 3.602768811557502e-05,
+   "permutation_p99": 5.9505785801270475e-05,
+   "above_p99": "True",
+   "flagged_rows": 3325
+  },
+  "reference_actor_x_thirds": {
+   "cmi": 0.016890602432854587
+  }
+ }
+}

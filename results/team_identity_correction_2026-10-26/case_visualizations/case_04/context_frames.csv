@@ -1,0 +1,12 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3844386,1,fb5fda01-229e-4020-aef1-8841b1a96d2c,1066,00:31:55.720,31:55.720,1915.720,Pass,Sweden Women's,Kosovare Asllani,19,1,1,True,,1.419,1419
+2,3844386,1,050c96af-8264-4b5a-bd29-2b8ff301da8e,1067,00:31:57.139,31:57.139,1917.139,Clearance,Belgium Women's,Marie Minnaert,19,1,1,True,1.419,1.477,1477
+3,3844386,1,9c29506c-5725-4f52-a432-c9ff64c86391,1068,00:31:58.616,31:58.616,1918.616,Pressure,Sweden Women's,Amanda Nildén,20,1,1,True,1.477,0.642,642
+4,3844386,1,9747b6b4-8420-4ed8-8e7b-69be8fa8184e,1071,00:31:59.258,31:59.258,1919.258,Dribbled Past,Sweden Women's,Amanda Nildén,19,1,1,True,0.642,0.000,80
+5,3844386,1,4bc29711-baf6-4d83-9e1a-461ba6660d01,1072,00:31:59.258,31:59.258,1919.258,Dribble,Belgium Women's,Tessa Wullaert,19,1,1,True,0.000,0.000,80
+6,3844386,1,4012c94d-aa5a-4a8f-a0c8-1025e3f2b777,1073,00:31:59.258,31:59.258,1919.258,Carry,Belgium Women's,Tessa Wullaert,19,1,1,True,0.000,3.390,1500
+7,3844386,1,b4dc7911-c68c-43ba-8d51-f7a25ee53974,1074,00:32:02.648,32:02.648,1922.648,Pass,Belgium Women's,Tessa Wullaert,11,0,1,True,3.390,2.513,1500
+8,3844386,1,755fa71b-774e-47ce-b8b9-011c369d775d,1075,00:32:05.161,32:05.161,1925.161,Ball Receipt*,Belgium Women's,Davina Philtjens,13,0,1,True,2.513,0.000,80
+9,3844386,1,a4d7d4e8-62e9-4d43-80ab-fd692e2ef0cc,1076,00:32:05.161,32:05.161,1925.161,Ball Recovery,Sweden Women's,Gun Nathalie Björn,13,0,1,True,0.000,0.000,80
+10,3844386,1,5f22a141-6cc2-48e3-89f0-111f4742f879,1077,00:32:05.161,32:05.161,1925.161,Carry,Sweden Women's,Gun Nathalie Björn,13,0,1,True,0.000,1.685,1500
+11,3844386,1,20adefd3-f584-4c11-b631-a7b52e973a7f,1078,00:32:06.846,32:06.846,1926.846,Pass,Sweden Women's,Gun Nathalie Björn,14,0,1,True,1.685,,80

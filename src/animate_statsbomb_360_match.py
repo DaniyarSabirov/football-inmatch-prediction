@@ -6,8 +6,10 @@ import argparse
 import csv
 import io
 import json
+import math
 import statistics
 import sys
+from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime
 from json import JSONDecodeError
@@ -24,6 +26,7 @@ from matplotlib.axes import Axes
 from matplotlib.lines import Line2D
 from matplotlib.patches import Circle, Patch, Polygon, Rectangle
 from PIL import Image
+from scipy.optimize import linear_sum_assignment
 
 try:
     # Flat sibling import: how this module sees it when run directly as a
@@ -31,6 +34,7 @@ try:
     # this file's own directory (src/) at sys.path[0].
     from orientation_correction import (
         ORIENTATION_NORMAL,
+        mirror_point,
         ORIENTATION_ROTATED_180,
         ORIENTATION_UNCERTAIN,
         OrientationResult,
@@ -43,8 +47,45 @@ try:
         apply_team_normalization_to_event,
         apply_team_normalization_to_frame,
         resolve_reference_team_id,
+        resolve_physical_reference_team_id,
+        apply_period_end_swap,
+        rotate_event_180,
+    )
+    from physical_orientation_calibration import (
+        load_calibration_registry,
+        load_frame_reviews,
+        load_period_reviews,
+        resolve_usable_physical_reference_team_name,
+    )
+    from broadcast_orientation import (
+        PROVENANCE_PREFERENCE,
+        PROVENANCE_VERIFIED,
+        BroadcastOrientationInference,
+        DisplayOrientationPlan,
+        build_display_plan,
+        CAMERA_SIDE_UNKNOWN,
+        estimate_camera_side,
+        expected_own_frame_camera_side,
+        infer_broadcast_orientation,
+        kickoff_own_half_orientation,
+        resolve_uncertain_for_display,
+    )
+    # Orientation resolution shared with the dataset builder (moved there
+    # unchanged on 2026-10-26); re-exported here for existing scripts.
+    from orientation_resolution import (
+        CONTINUITY_MAX_SECONDS,
+        CONTINUITY_RATIO,
+        display_orientation_results,
+        frame_review_corrections,
+        infer_broadcast_orientation_for_match,
+        resolve_display_plan,
     )
     from team_identity import (
+        IDENTITY_CORRECTED_GOALKEEPER,
+        IDENTITY_CORRECTED_VIEW,
+        FrameIdentity,
+        resolve_match_team_identity,
+        snapshot_key,
         TEAM_IDENTITY_AMBIGUOUS,
         SharedGroupInfo,
         detect_shared_cross_team_snapshots,
@@ -56,6 +97,7 @@ except ImportError:
     # which puts the project root (not src/) at sys.path[0].
     from src.orientation_correction import (
         ORIENTATION_NORMAL,
+        mirror_point,
         ORIENTATION_ROTATED_180,
         ORIENTATION_UNCERTAIN,
         OrientationResult,
@@ -68,8 +110,45 @@ except ImportError:
         apply_team_normalization_to_event,
         apply_team_normalization_to_frame,
         resolve_reference_team_id,
+        resolve_physical_reference_team_id,
+        apply_period_end_swap,
+        rotate_event_180,
+    )
+    from src.physical_orientation_calibration import (
+        load_calibration_registry,
+        load_frame_reviews,
+        load_period_reviews,
+        resolve_usable_physical_reference_team_name,
+    )
+    from src.broadcast_orientation import (
+        PROVENANCE_PREFERENCE,
+        PROVENANCE_VERIFIED,
+        BroadcastOrientationInference,
+        DisplayOrientationPlan,
+        build_display_plan,
+        CAMERA_SIDE_UNKNOWN,
+        estimate_camera_side,
+        expected_own_frame_camera_side,
+        infer_broadcast_orientation,
+        kickoff_own_half_orientation,
+        resolve_uncertain_for_display,
+    )
+    # Orientation resolution shared with the dataset builder (moved there
+    # unchanged on 2026-10-26); re-exported here for existing scripts.
+    from src.orientation_resolution import (
+        CONTINUITY_MAX_SECONDS,
+        CONTINUITY_RATIO,
+        display_orientation_results,
+        frame_review_corrections,
+        infer_broadcast_orientation_for_match,
+        resolve_display_plan,
     )
     from src.team_identity import (
+        IDENTITY_CORRECTED_GOALKEEPER,
+        IDENTITY_CORRECTED_VIEW,
+        FrameIdentity,
+        resolve_match_team_identity,
+        snapshot_key,
         TEAM_IDENTITY_AMBIGUOUS,
         SharedGroupInfo,
         detect_shared_cross_team_snapshots,
@@ -85,6 +164,9 @@ DEFAULT_END_MINUTE = 20
 DEFAULT_FRAME_DURATION_MS = 250
 FIXED_X_LIMITS = (-3.0, 123.0)
 FIXED_Y_LIMITS = (83.0, -3.0)
+# Inside the 3-unit margin beyond the far touchline, so goal labels never
+# collide with the secondary header line drawn just above the axes.
+GOAL_LABEL_Y = -1.5
 VIEW_ALIASES = {
     "analysis": "analysis",
     "camera-overlay": "camera-overlay",
@@ -193,6 +275,7 @@ class VisualTheme:
     legend_face: str
     legend_edge: str
     actor_accent: str
+    correction_ring: str
     ball_fill: str
     ball_edge: str
     camera_fill: str
@@ -216,6 +299,7 @@ THEMES = {
         legend_face="#0A1511",
         legend_edge="#53645D",
         actor_accent="#F4D35E",
+        correction_ring="#7FE7DC",
         ball_fill="#FFFFFF",
         ball_edge="#08110D",
         camera_fill="#F4D35E",
@@ -237,6 +321,7 @@ THEMES = {
         legend_face="#F7FAF8",
         legend_edge="#8A9991",
         actor_accent="#E5B82E",
+        correction_ring="#0E8C82",
         ball_fill="#FFFFFF",
         ball_edge="#111111",
         camera_fill="#FFE9A6",
@@ -280,6 +365,9 @@ class DirectionInference:
 
     directions: dict[str, int]
     explanation: str
+    # One-line, on-figure statement of how the display orientation was
+    # established (verified / inferred / unknown); empty draws nothing.
+    provenance: str = ""
 
 
 @dataclass(frozen=True)
@@ -633,6 +721,264 @@ def apply_team_normalization_to_match(match: MatchFrames, reference_team_id: int
     )
 
 
+def apply_team_normalization_to_match_with_physical_calibration(
+    match: MatchFrames,
+    all_events: list[dict[str, Any]],
+    physical_reference_team_name: str,
+) -> tuple[MatchFrames, dict[int, int]]:
+    """Like apply_team_normalization_to_match, but resolves the reference
+    team SEPARATELY FOR EACH EVENT'S OWN PERIOD via
+    resolve_physical_reference_team_id, correctly handling the real
+    halftime (and extra-time-half) end swap -- see
+    docs/full_physical_pitch_orientation_audit.md for the forensic
+    evidence that a single, period-independent reference (as
+    apply_team_normalization_to_match alone provides) renders the second
+    half backwards relative to a real broadcast camera.
+
+    Returns the transformed match AND the period -> reference_team_id
+    mapping actually used, so callers can report it for transparency
+    (which team was treated as reference in which period is otherwise
+    invisible from the output alone).
+
+    Only used when --physical-reference-team is supplied. The default
+    analytical path (apply_team_normalization_to_match with one fixed
+    reference_team_id) is completely unchanged, still period-independent,
+    and is what src/build_statsbomb_360_dataset.py continues to use.
+    """
+    periods_present = sorted(
+        {integer_event_field(joined.event, "period") for joined in match.usable_frames}
+    )
+    reference_by_period = {
+        period: resolve_physical_reference_team_id(all_events, physical_reference_team_name, period)
+        for period in periods_present
+    }
+    return _apply_team_normalization_per_period(match, reference_by_period), reference_by_period
+
+
+def apply_team_normalization_to_match_spectator_facing(
+    match: MatchFrames,
+    all_events: list[dict[str, Any]],
+) -> tuple[MatchFrames, dict[int, int]]:
+    """The renderer's DEFAULT, uncalibrated presentation path -- period-aware
+    like apply_team_normalization_to_match_with_physical_calibration, but
+    using the automatic, UNVERIFIED resolve_reference_team_id() pick as the
+    period-1 baseline instead of an externally-verified team name.
+
+    Root-cause fix for the 2026-10-22 finding (Iceland vs France, match
+    3835342): the ORIGINAL default rendering path
+    (apply_team_normalization_to_match, still used only when this function
+    is not) resolved ONE reference team for the WHOLE match and never
+    re-examined it per period -- correct for periods sharing period 1's
+    arrangement, systematically backwards for periods after a real
+    halftime/extra-time-half end swap (2 and 4), EVEN WITHOUT any physical
+    calibration, because "teams swap ends at halftime" is a fact about the
+    sport, not about any specific camera. See
+    docs/full_visualization_orientation_and_clock_audit_2026-10-22.md.
+
+    This does NOT constitute physical verification -- the period-1
+    baseline is still the same arbitrary (if deterministic) automatic
+    pick as before, with no connection to real stadium/camera geometry
+    (see resolve_reference_team_id's own docstring). It only guarantees
+    that whichever arbitrary side is chosen for period 1 is applied
+    CONSISTENTLY with the real, known structure of a football match
+    across all periods -- a presentation-layer correctness property,
+    independent of and not requiring physical calibration. Explicit
+    --physical-reference-team or a verified registry entry still take
+    priority whenever available (see main()).
+    """
+    periods_present = sorted(
+        {integer_event_field(joined.event, "period") for joined in match.usable_frames}
+    )
+    automatic_baseline = resolve_reference_team_id(all_events)
+    reference_by_period = {
+        period: apply_period_end_swap(all_events, automatic_baseline, period)
+        for period in periods_present
+    }
+    return _apply_team_normalization_per_period(match, reference_by_period), reference_by_period
+
+
+def _apply_team_normalization_per_period(
+    match: MatchFrames, reference_by_period: dict[int, int]
+) -> MatchFrames:
+    """Shared core: apply team normalization using a precomputed
+    period -> reference_team_id mapping, regardless of how that mapping
+    was derived (physical calibration or the automatic spectator-facing
+    baseline). Never called with a mapping that omits a present period.
+    """
+    normalized_frames = [
+        JoinedFrame(
+            event=apply_team_normalization_to_event(
+                joined.event,
+                reference_by_period[integer_event_field(joined.event, "period")],
+            ),
+            frame_360=apply_team_normalization_to_frame(
+                joined.frame_360,
+                joined.event,
+                reference_by_period[integer_event_field(joined.event, "period")],
+            ),
+        )
+        for joined in match.usable_frames
+    ]
+    return MatchFrames(
+        event_path=match.event_path,
+        three_sixty_path=match.three_sixty_path,
+        event_count=match.event_count,
+        three_sixty_count=match.three_sixty_count,
+        matched_count=match.matched_count,
+        usable_count=match.usable_count,
+        usable_frames=normalized_frames,
+    )
+
+
+def match_team_ids(match: MatchFrames) -> tuple[int, int]:
+    """The match's two team ids, in chronological order of first appearance."""
+    team_ids: list[int] = []
+    for joined in match.usable_frames:
+        team = joined.event.get("team")
+        team_id = team.get("id") if isinstance(team, dict) else None
+        if isinstance(team_id, int) and not isinstance(team_id, bool) and team_id not in team_ids:
+            team_ids.append(team_id)
+    if len(team_ids) != 2:
+        raise VisualizationError(f"Expected exactly two team ids, found {team_ids}.")
+    return team_ids[0], team_ids[1]
+
+
+def apply_display_plan_to_match(match: MatchFrames, plan: DisplayOrientationPlan) -> MatchFrames:
+    """Apply the display-only orientation layer (Problem D) to every frame.
+
+    Each event and its whole snapshot (every freeze_frame player and the
+    visible_area polygon) are rotated together, or not at all, exactly as
+    `plan` says for that event's (period, team) -- so players, ball and
+    polygon can never be transformed differently. Replaces team
+    normalization for display; the analytical pipeline is unaffected.
+    """
+    displayed = []
+    for joined in match.usable_frames:
+        team = joined.event.get("team")
+        team_id = team.get("id") if isinstance(team, dict) else None
+        if plan.rotates(integer_event_field(joined.event, "period"), team_id):
+            displayed.append(
+                JoinedFrame(
+                    event=rotate_event_180(joined.event),
+                    frame_360=apply_correction(joined.frame_360, ORIENTATION_ROTATED_180),
+                )
+            )
+        else:
+            displayed.append(JoinedFrame(event=dict(joined.event), frame_360=dict(joined.frame_360)))
+    return MatchFrames(
+        event_path=match.event_path,
+        three_sixty_path=match.three_sixty_path,
+        event_count=match.event_count,
+        three_sixty_count=match.three_sixty_count,
+        matched_count=match.matched_count,
+        usable_count=match.usable_count,
+        usable_frames=displayed,
+    )
+
+
+def summarize_display_plan(match: MatchFrames, plan: DisplayOrientationPlan) -> dict[str, int]:
+    """Count unrotated (REFERENCE) vs rotated (MIRRORED) usable frames under `plan`."""
+    counts = {TEAM_NORMALIZATION_REFERENCE: 0, TEAM_NORMALIZATION_MIRRORED: 0}
+    for joined in match.usable_frames:
+        team = joined.event.get("team")
+        team_id = team.get("id") if isinstance(team, dict) else None
+        rotated = plan.rotates(integer_event_field(joined.event, "period"), team_id)
+        counts[TEAM_NORMALIZATION_MIRRORED if rotated else TEAM_NORMALIZATION_REFERENCE] += 1
+    return counts
+
+
+PROVENANCE_DISPLAY_TEXT = {
+    "VERIFIED": "verified against broadcast evidence (calibration registry / explicit flag)",
+    "PREFERENCE": "explicit presentation preference - NOT broadcast-verified",
+    "INFERRED": "inferred from StatsBomb visible_area camera side - not broadcast-verified",
+    "PARTIALLY_INFERRED": "inferred from visible_area, some periods by halftime rule - not broadcast-verified",
+    "UNKNOWN": "deterministic fallback - physical orientation UNKNOWN",
+    "USER_CONFIRMED": "confirmed by user review of renders - not independent video verification",
+    "USER_CONFIRMED_AND_DERIVED": "user-reviewed period + halftime-rule derivation - not independent video verification",
+}
+
+
+PERIOD_SOURCE_DISPLAY_TEXT = {
+    "user_confirmed": "P{period} confirmed by user review of renders - not independent video verification",
+    "laws_rule": "P{period} derived by halftime rule from another period - not broadcast-verified",
+    "derived_from_user_reviewed_period_and_halftime_rule": (
+        "P{period} derived from a user-reviewed period by the halftime rule - not broadcast-verified"
+    ),
+}
+
+
+def orientation_provenance_text(plan: DisplayOrientationPlan | None, period: int | None = None) -> str:
+    """The on-figure provenance line for a display plan (empty without one).
+
+    With `period`, a period-specific source (user-confirmed, rule-derived)
+    is stated instead of the match-level provenance, so a frame never
+    borrows a stronger claim from another period.
+    """
+    if plan is None:
+        return ""
+    transform = plan.transforms.get(period) if period is not None else None
+    if transform is not None and transform.source in PERIOD_SOURCE_DISPLAY_TEXT:
+        detail = PERIOD_SOURCE_DISPLAY_TEXT[transform.source].format(period=period)
+    else:
+        detail = PROVENANCE_DISPLAY_TEXT.get(plan.provenance, plan.provenance)
+    return f"View: camera touchline at bottom · {detail}"
+
+
+def directions_from_display_plan(
+    plan: DisplayOrientationPlan,
+    period: int,
+    team_names_by_id: dict[int, str],
+    shot_based: DirectionInference,
+) -> DirectionInference:
+    """Attacking directions as an exact consequence of the display transform.
+
+    Raw StatsBomb frames always have the event's own team attacking toward
+    increasing x, so a team left unrotated attacks +x on screen and a
+    rotated team attacks -x; no statistical estimate is needed. The older
+    shot-origin estimate (`shot_based`) is kept as an independent
+    cross-check and any disagreement is stated in the explanation, never
+    silently resolved. Shared-frame periods (penalty shootout) get no
+    arrows: both teams kick at the same goal.
+    """
+    by_id = plan.attacking_directions(period)
+    provenance = orientation_provenance_text(plan, period)
+    if by_id is None:
+        return DirectionInference({}, "Direction omitted: shared-frame period (both teams attack one goal).", provenance)
+    directions = {team_names_by_id[team_id]: direction for team_id, direction in by_id.items()}
+    if shot_based.directions and shot_based.directions != directions:
+        note = f" WARNING: shot-origin cross-check disagrees ({shot_based.directions})."
+    elif shot_based.directions:
+        note = " Shot-origin cross-check agrees."
+    else:
+        note = " Shot-origin cross-check unavailable."
+    return DirectionInference(
+        directions,
+        f"Derived from the display transform for period {period} ({plan.transforms[period].source}).{note}",
+        provenance,
+    )
+
+
+def summarize_physical_team_normalization(
+    match: MatchFrames, reference_by_period: dict[int, int]
+) -> dict[str, int]:
+    """Like summarize_team_normalization, but using a period -> reference_team_id
+    mapping instead of one fixed id, matching
+    apply_team_normalization_to_match_with_physical_calibration.
+    """
+    counts = {TEAM_NORMALIZATION_REFERENCE: 0, TEAM_NORMALIZATION_MIRRORED: 0}
+    for joined in match.usable_frames:
+        team = joined.event.get("team")
+        team_id = team.get("id") if isinstance(team, dict) else None
+        period = integer_event_field(joined.event, "period")
+        key = (
+            TEAM_NORMALIZATION_REFERENCE
+            if team_id == reference_by_period[period]
+            else TEAM_NORMALIZATION_MIRRORED
+        )
+        counts[key] += 1
+    return counts
+
+
 def summarize_team_normalization(match: MatchFrames, reference_team_id: int) -> dict[str, int]:
     """Count how many usable frames belong to the reference vs. mirrored team."""
     counts = {TEAM_NORMALIZATION_REFERENCE: 0, TEAM_NORMALIZATION_MIRRORED: 0}
@@ -657,6 +1003,134 @@ def compute_shared_group_info(match: MatchFrames) -> dict[str, SharedGroupInfo]:
     events = [joined.event for joined in match.usable_frames]
     frames_by_event_id = {joined.event["id"]: joined.frame_360 for joined in match.usable_frames}
     return detect_shared_cross_team_snapshots(events, frames_by_event_id)
+
+
+# Display-only refinement of Problem C (team_identity.py is shared with the
+# dataset builder and is deliberately not changed).
+IDENTITY_CONTINUITY_MAX_SECONDS = 2.0
+IDENTITY_CONTINUITY_MAX_PAIR_DISTANCE = 3.0
+IDENTITY_CONTINUITY_MIN_MISMATCHES = 4
+IDENTITY_CONTINUITY_MIN_SHARE = 0.5
+IDENTITY_CONTINUITY_MAX_ALTERNATIVE_SHARE = 0.1
+
+
+def _paired_team_mismatches(
+    points_a: list[tuple[tuple[float, float], str]], points_b: list[tuple[tuple[float, float], str]]
+) -> tuple[int, int]:
+    """Pair two drawn snapshots by optimal assignment on distance (Hungarian;
+    greedy nearest-first mis-pairs players in crowded goal-mouths).
+
+    Returns (pairs, pairs whose drawn team differs); pairs further apart than
+    IDENTITY_CONTINUITY_MAX_PAIR_DISTANCE and points of unclear team are ignored.
+    """
+    if not points_a or not points_b:
+        return 0, 0
+    cost = [[math.dist(a[0], b[0]) for b in points_b] for a in points_a]
+    rows, cols = linear_sum_assignment(cost)
+    pairs = mismatches = 0
+    for i, j in zip(rows, cols):
+        if cost[i][j] > IDENTITY_CONTINUITY_MAX_PAIR_DISTANCE:
+            continue
+        team_a, team_b = points_a[i][1], points_b[j][1]
+        if TEAM_IDENTITY_AMBIGUOUS in (team_a, team_b):
+            continue
+        pairs += 1
+        mismatches += team_a != team_b
+    return pairs, mismatches
+
+
+def refine_shared_sources_by_continuity(
+    displayed: MatchFrames,
+    shared_group_by_event_id: dict[str, SharedGroupInfo],
+    raw_events_by_id: dict[str, dict[str, Any]],
+    team_names: tuple[str, str],
+) -> tuple[dict[str, SharedGroupInfo], list[dict[str, Any]]]:
+    """Re-check, for DISPLAY only, which event of a shared cross-team snapshot
+    its `teammate` flags belong to.
+
+    Problem C trusts the Problem-A-confident member. The 2026-10-24 colour-
+    continuity audit found shared snapshots (a failed Ball Receipt* sharing
+    with the other team's Block/Interception) whose colours, read that way,
+    contradict both neighbouring frames, while the other member's reading
+    makes them continuous. Rule, per shared group: take the nearest drawn
+    snapshot before and after it (same period, <= IDENTITY_CONTINUITY_MAX_SECONDS,
+    not itself part of a shared group, so its identity is unambiguous). The
+    source switches to a member of the other team only if BOTH neighbours
+    exist, each disagrees with the current colours on at least
+    IDENTITY_CONTINUITY_MIN_MISMATCHES players and IDENTITY_CONTINUITY_MIN_SHARE
+    of paired players, and the alternative disagrees on at most
+    IDENTITY_CONTINUITY_MAX_ALTERNATIVE_SHARE. Nothing else is recoloured;
+    `displayed` must be the match as drawn (after orientation and display plan).
+    Returns the refined mapping and one record per switched group.
+    """
+    frames = displayed.usable_frames
+    times = [timestamp_seconds(j.event.get("timestamp")) for j in frames]
+    index_by_id = {j.event["id"]: i for i, j in enumerate(frames)}
+
+    def drawn(index: int, info: SharedGroupInfo | None) -> list[tuple[tuple[float, float], str]]:
+        event = frames[index].event
+        return [
+            (tuple(player["location"]), resolve_absolute_team_for_point(player, event, info, raw_events_by_id, team_names))
+            for player in frames[index].frame_360.get("freeze_frame") or []
+            if isinstance(player.get("location"), list)
+        ]
+
+    def neighbour(index: int, step: int) -> int | None:
+        period = frames[index].event.get("period")
+        k = index + step
+        while 0 <= k < len(frames) and abs(times[k] - times[index]) <= IDENTITY_CONTINUITY_MAX_SECONDS:
+            if frames[k].event.get("period") != period:
+                return None
+            if frames[k].event["id"] not in shared_group_by_event_id:
+                return k
+            k += step
+        return None
+
+    refined = dict(shared_group_by_event_id)
+    switched: list[dict[str, Any]] = []
+    seen: set[tuple[str, ...]] = set()
+    for info in shared_group_by_event_id.values():
+        if info.group_event_ids in seen or info.source_event_id is None:
+            continue
+        seen.add(info.group_event_ids)
+        members = [index_by_id[e] for e in info.group_event_ids if e in index_by_id]
+        if not members:
+            continue
+        current_team = raw_events_by_id[info.source_event_id]["team"]["name"]
+        alternative_id = next(
+            (e for e in info.group_event_ids if raw_events_by_id[e]["team"]["name"] != current_team), None
+        )
+        if alternative_id is None:
+            continue
+        alternative = SharedGroupInfo(info.group_event_ids, alternative_id)
+        first, last = min(members), max(members)
+        before, after = neighbour(first, -1), neighbour(last, 1)
+        if before is None or after is None:
+            continue
+        evidence = []
+        for k in (before, after):
+            reference = drawn(k, None)
+            current = _paired_team_mismatches(drawn(first, info), reference)
+            other = _paired_team_mismatches(drawn(first, alternative), reference)
+            evidence.append((current, other))
+        if all(
+            cur[1] >= IDENTITY_CONTINUITY_MIN_MISMATCHES
+            and cur[1] >= IDENTITY_CONTINUITY_MIN_SHARE * cur[0]
+            and alt[1] <= IDENTITY_CONTINUITY_MAX_ALTERNATIVE_SHARE * max(alt[0], 1)
+            for cur, alt in evidence
+        ):
+            for event_id in info.group_event_ids:
+                refined[event_id] = alternative
+            switched.append({
+                "events": info.group_event_ids,
+                "period": frames[first].event.get("period"),
+                "timestamp": frames[first].event.get("timestamp"),
+                "previous_source_team": current_team,
+                "new_source_team": raw_events_by_id[alternative_id]["team"]["name"],
+                "mismatches_current_vs_before_after": [cur for cur, _ in evidence],
+                "mismatches_alternative_vs_before_after": [alt for _, alt in evidence],
+            })
+    return refined, switched
 
 
 def summarize_team_identity_points(
@@ -1160,6 +1634,85 @@ def set_viewport(ax: Axes) -> None:
     ax.set_ylim(*FIXED_Y_LIMITS)
 
 
+# The nominal (pre-stoppage-time) end minute of each period, per the Laws
+# of the Game: first half (1) and first half of extra time (3) run 45
+# minutes; second half (2) and second half of extra time (4) each run a
+# further 45. Period 5 (penalty shootout) has no such nominal duration --
+# real broadcasts do not show "120+N" stoppage notation for shootouts, so
+# it is deliberately excluded here (see format_match_clock).
+PERIOD_NOMINAL_END_MINUTE = {1: 45, 2: 90, 3: 105, 4: 120}
+
+PERIOD_DISPLAY_NAMES = {
+    1: "1st Half",
+    2: "2nd Half",
+    3: "Extra Time, 1st Half",
+    4: "Extra Time, 2nd Half",
+    5: "Penalty Shootout",
+}
+
+
+def period_display_name(period: Any) -> str:
+    """Human-readable period label, or a generic fallback for an
+    unexpected period number (never raises)."""
+    if isinstance(period, bool) or not isinstance(period, int):
+        return "Unknown Period"
+    return PERIOD_DISPLAY_NAMES.get(period, f"Period {period}")
+
+
+def format_match_clock(event: dict[str, Any]) -> str:
+    """Format the event's true match-time clock in CONVENTIONAL FOOTBALL
+    NOTATION -- e.g. "65:59", "45+2:57", "90+1:04" -- never HH:MM:SS.
+
+    Football match clocks are never hour-wrapped: a 65th-minute event is
+    always shown as "65:59", not "1:05:59". The previous implementation
+    incorrectly used `divmod(minute, 60)` to introduce an hours component
+    once minute exceeded 59 -- a basic misunderstanding of football
+    notation, not a football convention at all (confirmed as the exact
+    cause of the "1:05:59.487" artifact reported for match 3835342,
+    minute=65 -- see
+    docs/full_visualization_orientation_and_clock_audit_2026-10-22.md).
+    Fixed here: the raw `minute` value is used directly, never wrapped.
+
+    Stoppage time is shown as "<nominal_end>+<overage>:<second>" once
+    `minute` strictly exceeds that PERIOD's own nominal end minute (see
+    PERIOD_NOMINAL_END_MINUTE) -- keyed off the event's actual `period`
+    field, not inferred from the raw minute value alone, so a normal
+    second-half minute (e.g. 46) is never misread as first-half stoppage
+    time (period 1's nominal end) merely because it is numerically close;
+    period 2's own nominal end (90) is what minute=46 is compared against,
+    and 46 is far below it, so it renders as plain "46:XX".
+
+    StatsBomb's minute/second fields are the authoritative, continuous
+    match clock, already correctly accounting for added time and period
+    boundaries (confirmed empirically: period 2 of match 3930160 begins
+    at minute=45 even though period 1 ran to minute=47 after 2:57 of
+    first-half stoppage; a sampled shootout period resumes at minute=120).
+    This function reads them directly -- it never reconstructs elapsed
+    time via period-relative-timestamp arithmetic (e.g. "+45"), which
+    would be wrong whenever non-zero stoppage time was played.
+
+    The sub-second fractional part is borrowed from the period-relative
+    `timestamp` field (minute/second are whole seconds only), since both
+    describe the exact same instant.
+    """
+    minute = event.get("minute")
+    second = event.get("second")
+    period = event.get("period")
+    if (
+        isinstance(minute, bool) or not isinstance(minute, int)
+        or isinstance(second, bool) or not isinstance(second, int)
+    ):
+        return "Unknown"
+    raw_timestamp = str(event.get("timestamp", ""))
+    fractional = "." + raw_timestamp.split(".", 1)[1] if "." in raw_timestamp else ""
+
+    nominal_end = PERIOD_NOMINAL_END_MINUTE.get(period) if isinstance(period, int) and not isinstance(period, bool) else None
+    if nominal_end is not None and minute > nominal_end:
+        stoppage = minute - nominal_end
+        return f"{nominal_end}+{stoppage}:{second:02d}{fractional}"
+    return f"{minute:02d}:{second:02d}{fractional}"
+
+
 def event_header_lines(
     joined: JoinedFrame,
     frame_number: int,
@@ -1168,11 +1721,23 @@ def event_header_lines(
     timing_mode: str,
     show_timing_debug: bool = False,
 ) -> tuple[str, str]:
-    """Build compact primary and secondary presentation header lines."""
+    """Build compact primary and secondary presentation header lines.
+
+    Primary line uses conventional FOOTBALL match-clock notation (see
+    format_match_clock -- e.g. "65:59" or "45+2:57", never HH:MM:SS),
+    led by the human-readable period name (e.g. "2nd Half"), matching how
+    a football viewer actually reads a match clock -- NOT how a general-
+    purpose timer/stopwatch would be formatted. The period-relative
+    StatsBomb `timestamp` field (resets to 00:00 at the start of each
+    period) is technical/debugging information only and is demoted to the
+    secondary line.
+    """
     event = joined.event
-    timestamp = str(event.get("timestamp", "Unknown"))
-    if timestamp.startswith("00:"):
-        timestamp = timestamp[3:]
+    match_clock = format_match_clock(event)
+    period_name = period_display_name(event.get("period"))
+    period_relative = str(event.get("timestamp", "Unknown"))
+    if period_relative.startswith("00:"):
+        period_relative = period_relative[3:]
     previous = (
         "—"
         if timing.gap_from_previous is None
@@ -1182,12 +1747,13 @@ def event_header_lines(
         "—" if timing.gap_to_next is None else f"{timing.gap_to_next:.3f} s"
     )
     player = nested_name(event, "player")
-    primary_parts = [timestamp, nested_name(event, "type")]
+    primary_parts = [period_name, match_clock, nested_name(event, "type")]
     if player != "Unknown":
         primary_parts.append(player)
     primary = "  ·  ".join(primary_parts)
     next_text = "next —" if following == "—" else f"next frame in {following}"
     secondary = (
+        f"Period-relative {period_relative}  |  "
         f"Frame {frame_number}/{total_frames}  |  previous {previous}  |  "
         f"{next_text}"
     )
@@ -1202,14 +1768,39 @@ def event_header_lines(
 def add_orientation_annotations(
     ax: Axes, team_style: TeamStyle, direction_inference: DirectionInference
 ) -> None:
-    """Show goal-side labels and arrows only for reliably inferred directions."""
+    """Show goal-side labels and arrows only for reliably inferred directions.
+
+    Label text is deliberately unambiguous ("{team} defending goal", never
+    bare "{team} goal") -- confirmed, 2026-10-22, to be a real source of
+    viewer misreading (see
+    docs/russia_belgium_orientation_regression_2026-10-22.md): "{team}
+    goal" alone is genuinely ambiguous in English (could mean the goal a
+    team defends OR the goal a team scores into), and the label has always
+    placed the text at the team's DEFENDED end (`goal_x = 0 if direction
+    == 1 else 120` -- direction 1 means the team attacks toward
+    increasing x, so their own goal is at the opposite, x=0, end). This
+    is a text-only clarification: neither `goal_x` nor the arrow geometry
+    changes, so no match's rendered COORDINATES are affected by this fix.
+    """
+    if direction_inference.provenance:
+        # Bottom margin, i.e. beside the camera (near) touchline.
+        ax.text(
+            120,
+            81.7,
+            direction_inference.provenance,
+            color="#9aa0a6",
+            fontsize=7.4,
+            ha="right",
+            va="center",
+            clip_on=False,
+        )
     for team_name, direction in direction_inference.directions.items():
         color = team_style.color_for(team_name)
         goal_x = 0 if direction == 1 else 120
         ax.text(
             goal_x,
-            -4.4,
-            f"{team_name} goal",
+            GOAL_LABEL_Y,
+            f"{team_name} defending goal",
             color=color,
             fontsize=9,
             fontweight="bold",
@@ -1220,8 +1811,8 @@ def add_orientation_annotations(
         arrow_start = 44 if direction == 1 else 76
         ax.annotate(
             "attacks",
-            xy=(arrow_start + direction * 16, -4.4),
-            xytext=(arrow_start, -4.4),
+            xy=(arrow_start + direction * 16, GOAL_LABEL_Y),
+            xytext=(arrow_start, GOAL_LABEL_Y),
             color=color,
             fontsize=8,
             ha="center",
@@ -1247,8 +1838,16 @@ def render_event_frame(
     highlight_goalkeepers: bool = False,
     shared_group_by_event_id: dict[str, SharedGroupInfo] | None = None,
     raw_events_by_id: dict[str, dict[str, Any]] | None = None,
+    frame_identities: dict[str, FrameIdentity] | None = None,
 ) -> None:
     """Render one actual StatsBomb 360 event freeze frame.
+
+    `frame_identities` (src/team_identity.py resolve_match_team_identity,
+    shared with the dataset builder) takes precedence over the Problem C
+    inputs below when given: each point is drawn in its resolved team's
+    colour, points corrected on evidence get a dashed ring, and UNRESOLVED
+    points the neutral "team unclear" fill -- only those points, never the
+    whole frame unless every point of it is unresolved.
 
     `shared_group_by_event_id`/`raw_events_by_id` are Problem C's inputs
     (see src/team_identity.py): when provided, each non-actor point's
@@ -1282,17 +1881,23 @@ def render_event_frame(
         shared_group_by_event_id.get(joined.event["id"]) if shared_group_by_event_id is not None else None
     )
     player_groups: dict[tuple[str, bool, bool], list[tuple[float, float]]] = {}
+    corrected_locations: list[tuple[float, float]] = []
     has_ambiguous_point = False
+    identity = frame_identities.get(joined.event["id"]) if frame_identities is not None else None
 
     # Freeze-frame points lack reliable IDs for non-actors, so no identities,
     # labels, trails, nearest-neighbour matching, or tracking are invented.
-    for player in frame["freeze_frame"]:
+    for point_index, player in enumerate(frame["freeze_frame"]):
         if not isinstance(player, dict):
             continue
         location = coordinate_pair(player.get("location"))
         if location is None:
             continue
-        if raw_events_by_id is not None:
+        if identity is not None:
+            player_team = identity.teams[point_index]
+            if identity.statuses[point_index] in (IDENTITY_CORRECTED_VIEW, IDENTITY_CORRECTED_GOALKEEPER):
+                corrected_locations.append(location)
+        elif raw_events_by_id is not None:
             player_team = resolve_absolute_team_for_point(
                 player, joined.event, shared_group_info, raw_events_by_id, team_names
             )
@@ -1359,6 +1964,13 @@ def render_event_frame(
                 s=18,
                 zorder=9,
             )
+
+    if corrected_locations:
+        x, y = zip(*corrected_locations)
+        ax.scatter(
+            x, y, facecolors="none", edgecolors=theme.correction_ring, marker="o",
+            linewidths=1.5, linestyle=(0, (2, 1.5)), s=420, zorder=7,
+        )
 
     ball = coordinate_pair(joined.event.get("location"))
     if ball is not None:
@@ -1460,7 +2072,17 @@ def render_event_frame(
                 [0], [0], marker="o", color="none",
                 markerfacecolor=theme.ambiguous_fill,
                 markeredgecolor=theme.marker_edge, markeredgewidth=1.2,
-                markersize=8.5, label="Team unclear (shared 360 snapshot)",
+                markersize=8.5,
+                label="Team unclear (identity not established)" if identity is not None
+                else "Team unclear (shared 360 snapshot)",
+            )
+        )
+    if corrected_locations:
+        legend_handles.append(
+            Line2D(
+                [0], [0], marker="o", color="none", markerfacecolor="none",
+                markeredgecolor=theme.correction_ring, markeredgewidth=1.4, linestyle="none",
+                markersize=11, label="Team corrected on evidence",
             )
         )
     visible_x = [
@@ -1471,9 +2093,13 @@ def render_event_frame(
     legend_location = (
         2 if visible_x and statistics.fmean(visible_x) >= 60 else 1
     )
+    # Anchored just inside the far touchline (axes fraction of y=0 on the
+    # inverted y-axis), so it never covers the goal labels in the margin.
+    far_touchline = (FIXED_Y_LIMITS[0] - 0.6) / (FIXED_Y_LIMITS[0] - FIXED_Y_LIMITS[1])
     legend = ax.legend(
         handles=legend_handles,
         loc=legend_location,
+        bbox_to_anchor=(0.0, 0.0, 1.0, far_touchline),
         borderaxespad=0.65,
         borderpad=0.55,
         labelspacing=0.38,
@@ -1552,6 +2178,7 @@ def save_static_test_frame(
     highlight_goalkeepers: bool = False,
     shared_group_by_event_id: dict[str, SharedGroupInfo] | None = None,
     raw_events_by_id: dict[str, dict[str, Any]] | None = None,
+    frame_identities: dict[str, FrameIdentity] | None = None,
 ) -> Path:
     """Render and save the first selected event as a structural test image."""
     test_frame_path = static_test_frame_path(output_path)
@@ -1577,6 +2204,7 @@ def save_static_test_frame(
             highlight_goalkeepers,
             shared_group_by_event_id,
             raw_events_by_id,
+            frame_identities=frame_identities,
         )
         figure.savefig(
             test_frame_path, dpi=150, facecolor=theme.figure_background
@@ -1900,6 +2528,7 @@ def export_event_frame_manifest(
         "event_id",
         "event_index",
         "timestamp",
+        "match_time",
         "period_second",
         "event_type",
         "team",
@@ -1931,6 +2560,7 @@ def export_event_frame_manifest(
                         "event_id": event.get("id"),
                         "event_index": event.get("index"),
                         "timestamp": event.get("timestamp"),
+                        "match_time": format_match_clock(event),
                         "period_second": f"{timing.match_second:.3f}",
                         "event_type": nested_name(event, "type"),
                         "team": nested_name(event, "team"),
@@ -2056,6 +2686,7 @@ def save_animation(
     highlight_goalkeepers: bool = False,
     shared_group_by_event_id: dict[str, SharedGroupInfo] | None = None,
     raw_events_by_id: dict[str, dict[str, Any]] | None = None,
+    frame_identities: dict[str, FrameIdentity] | None = None,
 ) -> Path:
     """Save one animation frame per actual event, without interpolation."""
     if frame_duration_ms <= 0:
@@ -2095,6 +2726,7 @@ def save_animation(
             highlight_goalkeepers,
             shared_group_by_event_id,
             raw_events_by_id,
+            frame_identities=frame_identities,
         )
         return ()
 
@@ -2340,6 +2972,69 @@ def build_argument_parser() -> argparse.ArgumentParser:
             "compared side by side."
         ),
     )
+    parser.add_argument(
+        "--physical-reference-team",
+        type=str,
+        default=None,
+        help=(
+            "Override which team --apply-team-normalization treats as the "
+            "unmirrored reference, using an exact (case-insensitive) team "
+            "name (e.g. 'Spain'). By default the reference team is picked "
+            "automatically (whichever team's first 360-matched event is "
+            "chronologically earliest, in practice just whichever team "
+            "kicks off) -- this default has NO relationship to real "
+            "stadium/camera orientation and is only validated for "
+            "analytical (e.g. ML feature) use, not for matching a real "
+            "broadcast camera. Use this flag when you have independent "
+            "evidence (e.g. a broadcast screenshot) of which team actually "
+            "appears to attack toward increasing x; see "
+            "docs/physical_pitch_orientation_validation.md for the "
+            "forensic evidence and an example. Only affects "
+            "--apply-team-normalization; has no effect otherwise, and "
+            "does not change src/build_statsbomb_360_dataset.py's "
+            "unrelated analytical pipeline."
+        ),
+    )
+    parser.add_argument(
+        "--presentation-reference-team",
+        type=str,
+        default=None,
+        help=(
+            "Deterministic, user-chosen DISPLAY PREFERENCE for which team "
+            "is the period-1 baseline -- mechanically identical to "
+            "--physical-reference-team (same exact, case-insensitive team "
+            "name matching, same period-aware halftime/extra-time swap "
+            "applied on top), but explicitly NOT a claim of physical/"
+            "broadcast verification. Added 2026-10-22 after finding that "
+            "the automatic baseline is an unverifiable coin flip per "
+            "match (see "
+            "docs/russia_belgium_orientation_regression_2026-10-22.md): "
+            "if a match's automatic default happens to look backwards to "
+            "you and you have no independent evidence to justify "
+            "--physical-reference-team, use this flag instead to get a "
+            "stable, reproducible override without asserting it is "
+            "physically correct. Reported in the run's own output as "
+            "'presentation preference (unverified)', never as calibrated. "
+            "Ignored if --physical-reference-team is also given (physical "
+            "evidence always takes priority over a bare preference)."
+        ),
+    )
+    parser.add_argument(
+        "--display-orientation",
+        choices=("camera", "legacy"),
+        default="camera",
+        help=(
+            "Display-only orientation layer used with --apply-team-normalization. "
+            "'camera' (default): spectator-facing view with the broadcast camera's "
+            "touchline at the bottom, inferred per period from StatsBomb visible_area "
+            "geometry (src/broadcast_orientation.py) -- no reference team is chosen; "
+            "a verified registry entry or an explicit --physical-reference-team / "
+            "--presentation-reference-team still takes priority as the period-1 anchor. "
+            "'legacy': the previous behavior (chronologically-first-team baseline plus "
+            "a fixed halftime/extra-time rule), kept for comparison. See "
+            "docs/final_statsbomb_360_orientation_research.md."
+        ),
+    )
     parser.add_argument("--event-frame-manifest", type=Path)
     parser.add_argument("--timing-csv", type=Path)
     parser.add_argument("--timing-plot", type=Path)
@@ -2394,17 +3089,146 @@ def main() -> int:
         shared_group_by_event_id = compute_shared_group_info(match)
         raw_events_by_id = {joined.event["id"]: joined.event for joined in match.usable_frames}
         team_identity_summary = summarize_team_identity(match, shared_group_by_event_id)
+        # Problem D (display only): camera-side evidence, read from the RAW
+        # match with Problem A's per-frame results, before any correction is
+        # applied to `match`. See src/broadcast_orientation.py.
+        broadcast_inference = infer_broadcast_orientation_for_match(match, orientation_results)
+        display_plan: DisplayOrientationPlan | None = None
+        display_messages: list[str] = []
+        plan_calibration_source: str | None = None
+        if args.display_orientation == "camera":
+            # Resolved once, on the RAW match (only event team/period fields
+            # are read), so the UNCERTAIN-snapshot resolution below can use
+            # the same period plan that is later applied for display.
+            display_plan, plan_calibration_source, display_messages = resolve_display_plan(
+                match_id,
+                match,
+                broadcast_inference,
+                args.physical_reference_team,
+                args.presentation_reference_team,
+            )
+        uncertain_display_counts: dict[str, int] | None = None
+        correction_results = orientation_results
+        if display_plan is not None:
+            correction_results, uncertain_display_counts = display_orientation_results(
+                match, orientation_results, broadcast_inference, display_plan,
+                frame_reviews=frame_review_corrections(),
+            )
+        # Team identity (shared with the dataset builder): resolved on the RAW
+        # match with the same snapshot orientations the builder uses.
+        frame_identities: dict[str, FrameIdentity] | None = None
+        if args.apply_team_identity_resolution:
+            identity_names = {j.event["team"]["id"]: j.event["team"]["name"] for j in match.usable_frames}
+            frame_identities = resolve_match_team_identity(
+                [(joined.event, joined.frame_360) for joined in match.usable_frames],
+                [result.orientation for result in correction_results],
+                orientation_results,
+                tuple(identity_names[team_id] for team_id in match_team_ids(match)),
+                load_json_records(match.event_path, "event"),
+            )
         if args.apply_orientation_correction:
-            match = apply_orientation_correction_to_match(match, orientation_results)
+            match = apply_orientation_correction_to_match(match, correction_results)
+        else:
+            uncertain_display_counts = None
         # Step 2 (Problem B, independent question, applied after Step 1):
         # which of the two teams' coordinate conventions do we standardize
-        # on? See src/team_normalization.py.
-        reference_team_id = resolve_reference_team_id(
-            [joined.event for joined in match.usable_frames]
-        )
-        team_normalization_summary = summarize_team_normalization(match, reference_team_id)
-        if args.apply_team_normalization:
-            match = apply_team_normalization_to_match(match, reference_team_id)
+        # on? See src/team_normalization.py. The automatic pick has no
+        # relationship to real camera orientation (see
+        # docs/physical_pitch_orientation_validation.md); --physical-
+        # reference-team lets a caller override it with externally-verified
+        # evidence without changing the default (analytical) behavior.
+        #
+        # A single reference team for the WHOLE match is only physically
+        # correct for periods sharing period 1's end arrangement -- real
+        # teams swap ends at halftime (and before the second half of extra
+        # time), so --physical-reference-team resolves the reference
+        # SEPARATELY PER PERIOD (resolve_physical_reference_team_id), never
+        # a single fixed id, to avoid rendering later periods backwards.
+        # See docs/full_physical_pitch_orientation_audit.md.
+        all_usable_events = [joined.event for joined in match.usable_frames]
+        reference_by_period: dict[int, int] | None = None
+        # Resolution priority: explicit --physical-reference-team (highest,
+        # claims verified evidence) > explicit --presentation-reference-team
+        # (a deterministic, reproducible DISPLAY PREFERENCE with no
+        # verification claim -- added 2026-10-22, see
+        # docs/russia_belgium_orientation_regression_2026-10-22.md) > a
+        # "verified" entry in configs/physical_orientation_calibration.json
+        # (see src/physical_orientation_calibration.py) > the automatic,
+        # non-physical default. A registry entry is NEVER applied unless its
+        # verification_status is exactly "verified" -- partially_verified/
+        # unverified/ambiguous entries are surfaced by review tooling, never
+        # silently auto-applied here. See
+        # docs/all_matches_physical_orientation_feasibility.md.
+        effective_physical_reference_team = args.physical_reference_team
+        calibration_source = "cli_override" if effective_physical_reference_team is not None else None
+        if effective_physical_reference_team is None and args.presentation_reference_team is not None:
+            effective_physical_reference_team = args.presentation_reference_team
+            calibration_source = "presentation_preference"
+        if effective_physical_reference_team is None:
+            calibration_registry = load_calibration_registry()
+            registry_team = resolve_usable_physical_reference_team_name(match_id, calibration_registry)
+            if registry_team is not None:
+                effective_physical_reference_team = registry_team
+                calibration_source = "registry"
+        if args.display_orientation == "camera":
+            periods_present = sorted(
+                {integer_event_field(event, "period") for event in all_usable_events}
+            )
+            calibration_source = plan_calibration_source
+            for message in display_messages:
+                print(message, file=sys.stderr)
+            anchor_id = None
+            reference_by_period = display_plan.reference_by_period()
+            reference_team_id = reference_by_period.get(periods_present[0], anchor_id)
+            team_normalization_summary = summarize_display_plan(match, display_plan)
+            if args.apply_team_normalization:
+                match = apply_display_plan_to_match(match, display_plan)
+        elif effective_physical_reference_team is not None:
+            periods_present = sorted(
+                {integer_event_field(event, "period") for event in all_usable_events}
+            )
+            reference_by_period = {
+                period: resolve_physical_reference_team_id(
+                    all_usable_events, effective_physical_reference_team, period
+                )
+                for period in periods_present
+            }
+            reference_team_id = reference_by_period[periods_present[0]]
+            team_normalization_summary = summarize_physical_team_normalization(
+                match, reference_by_period
+            )
+            if args.apply_team_normalization:
+                match, reference_by_period = apply_team_normalization_to_match_with_physical_calibration(
+                    match, all_usable_events, effective_physical_reference_team
+                )
+        else:
+            # No explicit override and no verified registry entry: still
+            # apply the period-aware halftime/extra-time-half end swap
+            # (root-cause fix, 2026-10-22 -- see
+            # docs/full_visualization_orientation_and_clock_audit_2026-10-22.md).
+            # This is the renderer's "spectator-facing" presentation
+            # convention: a real, universal football-rules fact (teams
+            # swap ends) applied consistently to whichever arbitrary
+            # automatic baseline was chosen for period 1 -- NOT a claim of
+            # physical verification. calibration_source stays None so
+            # downstream reporting never describes this as calibrated.
+            calibration_source = "spectator_facing_default"
+            periods_present = sorted(
+                {integer_event_field(event, "period") for event in all_usable_events}
+            )
+            automatic_baseline = resolve_reference_team_id(all_usable_events)
+            reference_by_period = {
+                period: apply_period_end_swap(all_usable_events, automatic_baseline, period)
+                for period in periods_present
+            }
+            reference_team_id = reference_by_period[periods_present[0]]
+            team_normalization_summary = summarize_physical_team_normalization(
+                match, reference_by_period
+            )
+            if args.apply_team_normalization:
+                match, reference_by_period = apply_team_normalization_to_match_spectator_facing(
+                    match, all_usable_events
+                )
         if (args.all_events or args.all_period_events) and (
             args.start_minute is not None or args.end_minute is not None
         ):
@@ -2445,6 +3269,13 @@ def main() -> int:
         direction_inference = infer_attacking_directions(
             match.usable_frames, direction_period, team_style
         )
+        if display_plan is not None and args.apply_team_normalization and direction_period in display_plan.transforms:
+            team_names_by_id = {
+                joined.event["team"]["id"]: joined.event["team"]["name"] for joined in match.usable_frames
+            }
+            direction_inference = directions_from_display_plan(
+                display_plan, direction_period, team_names_by_id, direction_inference
+            )
         timing_plan = build_timing_plan(
             selected,
             args.timing_mode,
@@ -2542,6 +3373,7 @@ def main() -> int:
             args.highlight_goalkeepers,
             render_shared_group_by_event_id,
             render_raw_events_by_id,
+            frame_identities=frame_identities,
         )
         summary = summarize_segment(selected)
         animation_path = save_animation(
@@ -2559,6 +3391,7 @@ def main() -> int:
             args.highlight_goalkeepers,
             render_shared_group_by_event_id,
             render_raw_events_by_id,
+            frame_identities=frame_identities,
         )
     except VisualizationError as error:
         print(f"Error: {error}", file=sys.stderr)
@@ -2586,10 +3419,83 @@ def main() -> int:
         "Orientation correction applied to rendering: "
         f"{'yes' if args.apply_orientation_correction else 'no (use --apply-orientation-correction)'}"
     )
+    if uncertain_display_counts is not None:
+        print(
+            "UNCERTAIN snapshots resolved for display only: "
+            f"same-moment duplicate={uncertain_display_counts['resolved_by_duplicate']} "
+            f"kick-off own-half={uncertain_display_counts['resolved_by_kickoff_rule']} "
+            f"camera+continuity={uncertain_display_counts['resolved_by_camera_continuity']} "
+            f"user frame review={uncertain_display_counts['resolved_by_user_frame_review']} "
+            f"camera+lean rotated={uncertain_display_counts['resolved_rotated']} "
+            f"camera+lean normal={uncertain_display_counts['resolved_normal']} "
+            f"left uncorrected={uncertain_display_counts['still_uncertain']} "
+            f"(confident copies re-aligned by duplicate consensus={uncertain_display_counts['duplicate_consensus_overrides']}, "
+            f"duplicate vs camera disagreements={uncertain_display_counts['duplicate_camera_disagreements']}, "
+            f"duplicate conflicts={uncertain_display_counts['duplicate_conflicts']})"
+        )
+    display_note = ""
+    if display_plan is not None:
+        display_note = (
+            f" Display orientation layer: provenance={display_plan.provenance} "
+            f"(camera-side inference status={broadcast_inference.status}: "
+            f"{broadcast_inference.explanation}) plan: {display_plan.explanation}."
+        )
+    if calibration_source == "camera_side_inference":
+        reference_source = (
+            "camera-side inference from visible_area (spectator-facing, camera touchline at "
+            "the bottom; NOT broadcast-verified -- see src/broadcast_orientation.py)"
+        )
+    elif calibration_source == "cli_override":
+        provenance = f"explicit --physical-reference-team={args.physical_reference_team!r}"
+        reference_source = (
+            f"period-aware PHYSICAL calibration, {provenance} "
+            f"(per-period reference_team_id: {reference_by_period}; see "
+            "docs/full_physical_pitch_orientation_audit.md for why a single "
+            "match-wide reference is wrong for periods after an end swap)"
+        )
+    elif calibration_source == "registry":
+        provenance = (
+            f"auto-applied from configs/physical_orientation_calibration.json "
+            f"(verified entry, team={effective_physical_reference_team!r}; see "
+            "docs/all_matches_physical_orientation_feasibility.md)"
+        )
+        reference_source = (
+            f"period-aware PHYSICAL calibration, {provenance} "
+            f"(per-period reference_team_id: {reference_by_period}; see "
+            "docs/full_physical_pitch_orientation_audit.md for why a single "
+            "match-wide reference is wrong for periods after an end swap)"
+        )
+    elif calibration_source == "presentation_preference":
+        # Deterministic, user-chosen DISPLAY PREFERENCE (2026-10-22) --
+        # mechanically period-aware, same as the PHYSICAL branches above,
+        # but explicitly and permanently reported as unverified: this flag
+        # never claims broadcast/physical evidence, only a reproducible
+        # override. See docs/russia_belgium_orientation_regression_2026-10-22.md.
+        reference_source = (
+            f"presentation PREFERENCE (NOT physically verified), explicit "
+            f"--presentation-reference-team={args.presentation_reference_team!r} "
+            f"(per-period reference_team_id: {reference_by_period})"
+        )
+    else:
+        # calibration_source == "spectator_facing_default": period-aware,
+        # but the period-1 baseline is still the automatic, UNVERIFIED pick
+        # -- never describe this as physically verified. See
+        # docs/full_visualization_orientation_and_clock_audit_2026-10-22.md.
+        reference_source = (
+            "spectator-facing DEFAULT convention (period-aware halftime/extra-time "
+            "end swap applied to the automatic, chronologically-first-team baseline; "
+            "NOT physically verified -- see "
+            "docs/full_visualization_orientation_and_clock_audit_2026-10-22.md). "
+            f"(per-period reference_team_id: {reference_by_period}). No verified "
+            "entry for this match in configs/physical_orientation_calibration.json "
+            "-- pass --physical-reference-team if you have evidence, or "
+            "--presentation-reference-team for a deterministic preference, or see "
+            "docs/all_matches_physical_orientation_feasibility.md to calibrate it."
+        )
     print(
         "Team normalization (all usable freeze frames; see "
         "src/team_normalization.py): "
-        f"reference_team_id={reference_team_id} "
+        f"reference_team_id={reference_team_id} ({reference_source}){display_note} "
         f"REFERENCE={team_normalization_summary[TEAM_NORMALIZATION_REFERENCE]} "
         f"MIRRORED={team_normalization_summary[TEAM_NORMALIZATION_MIRRORED]}"
     )
@@ -2598,8 +3504,7 @@ def main() -> int:
         f"{'yes' if args.apply_team_normalization else 'no (use --apply-team-normalization)'}"
     )
     print(
-        "Team identity resolution (all usable freeze frames; see "
-        "src/team_identity.py): "
+        "Legacy Problem C, byte-identical copies only (all usable freeze frames): "
         f"total={team_identity_summary['total_frames']} "
         f"shared={team_identity_summary['shared_frames']} "
         f"recoverable={team_identity_summary['recoverable_frames']} "
@@ -2609,11 +3514,19 @@ def main() -> int:
         selected, shared_group_by_event_id, raw_events_by_id, team_style
     )
     print(
-        "Team identity point counts for the selected/rendered frames: "
+        "Legacy Problem C point counts for the selected frames (not what is drawn): "
         f"{team_style.team_one}={selection_point_counts[team_style.team_one]} "
         f"{team_style.team_two}={selection_point_counts[team_style.team_two]} "
         f"AMBIGUOUS={selection_point_counts[TEAM_IDENTITY_AMBIGUOUS]}"
     )
+    if frame_identities is not None:
+        selected_statuses = Counter(
+            status for joined in selected for status in frame_identities[joined.event["id"]].statuses
+        )
+        print(
+            "Evidence-based team identity (shared with the dataset builder) for the selected frames: "
+            + ", ".join(f"{status}={count}" for status, count in sorted(selected_statuses.items()))
+        )
     print(
         "Team identity resolution applied to rendering: "
         f"{'yes' if args.apply_team_identity_resolution else 'no (use --apply-team-identity-resolution)'}"

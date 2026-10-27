@@ -1,0 +1,212 @@
+{
+  "_comment": "Single source of truth for independently-verified physical pitch-orientation calibrations. Read by src/physical_orientation_calibration.py; consumed by src/animate_statsbomb_360_match.py (--physical-reference-team auto-fills from this registry when not explicitly passed, and ONLY for entries with verification_status=='verified'). Each entry documents the evidence so the calibration is independently re-checkable, not just asserted. A match absent from this file is simply not yet calibrated -- NOT an error, and NOT treated as verified. See docs/all_matches_physical_orientation_feasibility.md for the full feasibility study and docs/full_physical_pitch_orientation_audit.md for this entry's complete evidence chain.",
+  "calibrations": [
+    {
+      "match_id": 3930160,
+      "period_1_physical_reference_team": "Spain",
+      "period_handling_rule": "standard_laws_of_the_game_halftime_and_extra_time_swap",
+      "horizontal_orientation_verified": true,
+      "vertical_orientation_verified": true,
+      "vertical_orientation_note": "Upgraded from 'not independently verified' after the project owner reported comparing BOTH halves directly against real YouTube match footage (not just static screenshots) and confirming player positions, goal directions, camera visible-area positioning, and halftime side switching all match the real match. This is a stronger verification method than the assistant's own static-screenshot landmark analysis (continuous footage vs. one frame), but it is the project owner's verification, relayed to and recorded by the assistant -- the assistant did not itself watch the video. See docs/full_physical_pitch_orientation_audit.md section 6 for the assistant's own (weaker, static-frame-only) confidence statement, now superseded by this stronger human verification.",
+      "source_url": null,
+      "source_description": "Two screenshots supplied directly by the project owner in-conversation (first-half broadcast frame ~31:18, and a second-half StatsBomb-render comparison), PLUS the project owner's own direct comparison of both halves against real YouTube match footage (not screenshotted or relayed as images to the assistant). Not a URL-addressable public source.",
+      "evidence_landmark": "First half: Croatia goalkeeper (unmistakable bright yellow kit) standing in the right-hand goal on the broadcast image, scoreboard reading 'ESP 1 | 0 CRO' at 31:18, consistent with the real match timeline immediately before Fabian Ruiz's 31:24 goal (which made it 2-0). Second half: project owner's own direct video comparison (player positions, goal directions, visible-area camera positioning, halftime side switching), not a single static landmark.",
+      "verification_method": "Human visual comparison: (1) assistant-performed landmark analysis of two static broadcast/render screenshots in-session; (2) project-owner-performed direct comparison of the rendered GIFs against real YouTube match video for both halves. Both independently cross-checked by this project's own code against aggregate whole-period shot-direction statistics (both teams confirmed to occupy opposite coordinate halves in both periods, with the expected period-to-period swap).",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified_by": "project owner",
+      "date_verified": "2026-10-21",
+      "reviewer_notes": "First-half calibration independently confirmed by direct landmark comparison performed in-session by the assistant. Both halves subsequently confirmed by the project owner's own direct comparison against real YouTube broadcast footage (reported to, not independently re-performed by, the assistant). See docs/full_physical_pitch_orientation_audit.md section 4 for the assistant's own narrower verification scope, and this entry for the project owner's broader, stronger confirmation.",
+      "report": "docs/full_physical_pitch_orientation_audit.md"
+    },
+    {
+      "match_id": 3788743,
+      "period_1_physical_reference_team": "Belgium",
+      "period_handling_rule": "standard_laws_of_the_game_halftime_and_extra_time_swap",
+      "horizontal_orientation_verified": true,
+      "vertical_orientation_verified": false,
+      "vertical_orientation_note": "Not independently verified. The X-axis correction (which team is period-1 reference) was confirmed via the shared (120-x,80-y) mirror formula, which moves X and Y together -- Y-axis confidence is inherited from the same formula, not separately proven on its own evidence. No continuous footage or second independent landmark was available to test near/far touchline placement specifically.",
+      "source_url": null,
+      "source_description": "Project owner's direct description of real broadcast footage (Belgium vs Russia, UEFA Euro 2020, second half, clock ~87:43: 'Belgium is attacking from right to left', 'Russian goal visible on the LEFT'), cross-validated independently by the assistant against this project's own StatsBomb event data (not visually inspected by the assistant -- the assistant cannot view video).",
+      "evidence_landmark": "Belgium's 3rd goal (Romelu Lukaku, period 2, timestamp 00:42:45.554, minute=87 second=45) -- precisely matches the broadcast's clock (87:43, ~2s broadcast/data latency) AND scoreboard (BEL 2-0 RUS, i.e. the score immediately before this exact goal, confirmed from the raw match metadata: Belgium 3-0 Russia final, with goals at minute 9, 33, and 87). The shot's own embedded freeze_frame independently names the facing goalkeeper as Anton Shunin (Russia) -- the automatic/default calibration placed this goal, and Shunin, on the RIGHT side of the render; the broadcast shows Russia's goal on the LEFT. The default (Russia=period-1 reference) was therefore backwards for this match; Belgium=period-1 reference produces a render consistent with the broadcast on this landmark.",
+      "verification_method": "Independent, non-circular cross-reference: (1) precise clock+scoreline synchronization between the broadcast screenshot and this project's own authoritative goal/score event log (not an assumption that the two screenshots were the same moment -- explicitly verified via two independent signals, clock AND score, agreeing to within measurement precision); (2) the goalkeeper named in the shot's own StatsBomb freeze_frame (Shunin, Russia) used as a non-circular identity anchor, analogous to the Courtois check in the prior (superseded) investigation, but for the OPPONENT's goal this time, which is what actually tests cross-team absolute orientation rather than only within-team self-consistency; (3) the project owner's own direct observation of attacking direction and goal side in the real broadcast.",
+      "confidence": "high",
+      "verification_status": "verified",
+      "verified_by": "project owner (broadcast observation) + assistant (independent data cross-reference)",
+      "date_verified": "2026-10-23",
+      "reviewer_notes": "This entry SUPERSEDES the prior (2026-10-22) conclusion that match 3788743 required no calibration -- that conclusion was based only on within-team self-consistency (Courtois near his own labeled goal), which the project owner correctly identified as insufficient to establish ABSOLUTE orientation (a team's own goalkeeper will always appear next to that team's own label regardless of which absolute side the whole match is rendered on). This entry uses opponent-goal evidence (the goal Belgium scored against Russia, identifying Russia's keeper) which does test absolute orientation. See docs/belgium_russia_broadcast_orientation_forensic_audit.md for the complete investigation, including explicit internal-consistency checks across all 3 Belgium goals (periods 1 and 2) and the visible_area polygon trace.",
+      "report": "docs/belgium_russia_broadcast_orientation_forensic_audit.md"
+    }
+  ],
+  "period_reviews": [
+    {
+      "match_id": 3901833,
+      "period": 2,
+      "display_reference_team": "Morocco Women's",
+      "decision": "proposed",
+      "evidence_type": "user_review_of_renders",
+      "statement": "Period 2: the PROPOSED render is correct. France attacks right-to-left and defends the right goal; Morocco attacks left-to-right and defends the left goal. Keep the proposed visible_area orientation.",
+      "source_url": null,
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-23",
+      "notes": "Recorded from the project owner's in-conversation statement after viewing review.html. No external footage URL or scoreboard clock supplied, so this is not independent video verification. Period 1 was not reviewed (the page then showed no P1 snapshot).",
+      "report": "docs/final_statsbomb_360_orientation_research.md"
+    }
+  ],
+  "frame_reviews": [
+    {
+      "match_id": 3773631,
+      "period": 1,
+      "event_ids": [
+        "b1fce2b7-19f6-47df-ae5b-301298529811"
+      ],
+      "timestamp": "00:00:00.992",
+      "selected_panel": "Left screenshot (top-left panel = THIS frame AS DRAWN, current)",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3773631_p1_000000_992.png",
+      "open_issue": "",
+      "notes": "User: \"Left screenshot. The camera view faces the left goal.\" The top-left (current) panel's visible_area faces the left goal; the alternative faces the right goal."
+    },
+    {
+      "match_id": 3788741,
+      "period": 2,
+      "event_ids": [
+        "1ef7b65a-6d5c-46e6-a0b7-fa84e54f1e14"
+      ],
+      "timestamp": "00:00:00.189",
+      "selected_panel": "Left screenshot (top-left panel = THIS frame AS DRAWN, current)",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3788741_p2_000000_189.png",
+      "open_issue": "",
+      "notes": "The only left panel showing this frame is the current one (bottom-left is the next event)."
+    },
+    {
+      "match_id": 3788776,
+      "period": 1,
+      "event_ids": [
+        "662f989a-9ae4-45b6-81ee-818d01140499"
+      ],
+      "timestamp": "00:00:00.080",
+      "selected_panel": "Left screenshot = CURRENT",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3788776_p1_000000_080.png",
+      "open_issue": "",
+      "notes": ""
+    },
+    {
+      "match_id": 3837771,
+      "period": 2,
+      "event_ids": [
+        "e66afa18-8684-4ef3-b56c-fc931b8db438"
+      ],
+      "timestamp": "00:00:00.590",
+      "selected_panel": "Left screenshot = CURRENT",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3837771_p2_000000_590.png",
+      "open_issue": "",
+      "notes": ""
+    },
+    {
+      "match_id": 3857254,
+      "period": 2,
+      "event_ids": [
+        "65bff75c-cb2a-49ec-bf65-cfd4bda36da3"
+      ],
+      "timestamp": "00:00:01.404",
+      "selected_panel": "Left screenshot = CURRENT",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3857254_p2_000001_404.png",
+      "open_issue": "",
+      "notes": ""
+    },
+    {
+      "match_id": 3857263,
+      "period": 2,
+      "event_ids": [
+        "f57060b7-2325-40f9-81c8-accb86df98ad"
+      ],
+      "timestamp": "00:00:00.388",
+      "selected_panel": "Left screenshot = CURRENT",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3857263_p2_000000_388.png",
+      "open_issue": "",
+      "notes": ""
+    },
+    {
+      "match_id": 3893791,
+      "period": 1,
+      "event_ids": [
+        "4130802e-766b-4404-85b6-d6e1a5417ceb"
+      ],
+      "timestamp": "00:27:50.417",
+      "selected_panel": "Panel labelled CURRENT (top-right)",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3893791_p1_002750_417.png",
+      "open_issue": "",
+      "notes": ""
+    },
+    {
+      "match_id": 3930163,
+      "period": 1,
+      "event_ids": [
+        "8cb60fdb-27bd-4942-a341-ffaf5e095c87",
+        "b4a4354a-c843-4880-a2de-fe9b60570344"
+      ],
+      "timestamp": "00:46:15.525",
+      "selected_panel": "Panel labelled CURRENT (top-right)",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3930163_p1_004615_525.png",
+      "open_issue": "",
+      "notes": ""
+    },
+    {
+      "match_id": 3930164,
+      "period": 1,
+      "event_ids": [
+        "5aabea4a-a1e7-4e5e-adc3-b13dec0f27bf"
+      ],
+      "timestamp": "00:00:00.505",
+      "selected_panel": "Left screenshot = CURRENT",
+      "decision": "current",
+      "snapshot_correction": "NONE",
+      "evidence_type": "user_review_of_renders",
+      "reviewed_by": "project owner",
+      "date_reviewed": "2026-10-24",
+      "sheet": "results/visualization_final_validation/uncertain_frames/3930164_p1_000000_505.png",
+      "open_issue": "team colours: raw StatsBomb teammate flags in this snapshot are inconsistent with the next frame (11 of 18 paired players) and with Law 8 at kick-off; not corrected; see results/visualization_final_validation/team_identity_investigation/",
+      "notes": "Orientation decision only. Team colours in this frame are investigated separately."
+    }
+  ]
+}

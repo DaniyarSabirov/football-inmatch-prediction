@@ -1,0 +1,7 @@
+threshold,threshold_ms,candidate_pairs,cross_team_pairs,identical_coordinates,nearly_identical_coordinates,cross_team_copies_equal_flags,drawn_same_scene_pairs,conflicting_colour_pairs,conflicting_pairs_4plus_players,conflicting_pairs_spatially_unambiguous,conflicting_pairs_ambiguous_or_unsafe,strong_flagged_frames_in_a_conflicting_pair,weak_flagged_frames_in_a_conflicting_pair,R3_fixed_keeper_verified,R3_broken_keeper_verified,R4_fixed_keeper_verified,R4_broken_keeper_verified
+0 s,0.0,471553,108322,448389,19602,56458,457211,177,21,93,84,7,13,45,3542,11,17
+0.0001 s,0.1,471553,108322,448389,19602,56458,457211,177,21,93,84,7,13,45,3542,11,17
+0.0003 s,0.3,471553,108322,448389,19602,56458,457211,177,21,93,84,7,13,45,3542,11,17
+0.001 s,1.0,472082,108667,448448,20027,56459,457348,179,21,95,84,7,13,45,3542,11,17
+0.01 s,10.0,476731,111306,449219,23449,56475,458841,194,21,99,95,7,13,45,3542,11,17
+0.1 s,100.0,560745,144160,467090,76259,56783,492000,740,67,368,372,15,22,40,3491,27,40

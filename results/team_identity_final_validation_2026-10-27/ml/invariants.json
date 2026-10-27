@@ -1,0 +1,11 @@
+{
+ "rows": 756023,
+ "matches": 417,
+ "rows_missing_vs_legacy": 0,
+ "violations_causal_counts_sum": 0,
+ "violations_offline_counts_sum": 0,
+ "violations_raw_counts_sum": 0,
+ "violations_identity_quality": 0,
+ "raw_counts_equal_legacy_spec_reading_rows": null,
+ "visible_players_vs_dict_points_mismatch": 0
+}

@@ -15,10 +15,13 @@ try:
         team_normalization_label,
     )
     from team_identity import (
+        IDENTITY_CORRECTED_GOALKEEPER,
+        IDENTITY_CORRECTED_VIEW,
+        IDENTITY_UNRESOLVED,
         TEAM_IDENTITY_AMBIGUOUS,
-        detect_shared_cross_team_snapshots,
-        resolve_absolute_team_for_point,
+        resolve_match_team_identity,
     )
+    from orientation_resolution import ROUTES_USING_LATER_RECORDS, resolve_match_orientation
     from match_exclusions import check_not_excluded, load_exclusion_manifest
 except ImportError:
     # Package-style import: how this module sees it when run as
@@ -31,10 +34,13 @@ except ImportError:
         team_normalization_label,
     )
     from src.team_identity import (
+        IDENTITY_CORRECTED_GOALKEEPER,
+        IDENTITY_CORRECTED_VIEW,
+        IDENTITY_UNRESOLVED,
         TEAM_IDENTITY_AMBIGUOUS,
-        detect_shared_cross_team_snapshots,
-        resolve_absolute_team_for_point,
+        resolve_match_team_identity,
     )
+    from src.orientation_resolution import ROUTES_USING_LATER_RECORDS, resolve_match_orientation
     from src.match_exclusions import check_not_excluded, load_exclusion_manifest
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -146,6 +152,33 @@ def _match_team_names(events: list[dict]) -> tuple[str, str]:
     if len(names) != 2:
         raise ValueError(f"Expected exactly two team names in events, found {names}.")
     return names[0], names[1]
+
+
+def identity_counts(identity, current_team_name: str) -> dict:
+    """Per-row team counts from one FrameIdentity (src/team_identity.py).
+
+    teammates/opponents count only players whose team is established;
+    UNRESOLVED players go to `ambiguous` and to neither side (uncertainty is
+    never a third team). raw_* are the untouched spec reading of the raw
+    `teammate` flags. quality: "uncertain" if any player is unresolved,
+    "corrected" if any player's team differs from the spec reading (copy
+    read in another view, goalkeeper rule), else "clean". A row without a
+    resolved snapshot counts nothing.
+    """
+    counts = {"teammates": 0, "opponents": 0, "ambiguous": 0, "corrected": 0, "raw_teammates": 0, "raw_opponents": 0}
+    if identity is not None:
+        for team, spec_team, status in zip(identity.teams, identity.spec_teams, identity.statuses):
+            counts["raw_teammates"] += spec_team == current_team_name
+            counts["raw_opponents"] += spec_team not in (current_team_name, TEAM_IDENTITY_AMBIGUOUS)
+            counts["corrected"] += status in (IDENTITY_CORRECTED_VIEW, IDENTITY_CORRECTED_GOALKEEPER)
+            if status == IDENTITY_UNRESOLVED:
+                counts["ambiguous"] += 1
+            elif team == current_team_name:
+                counts["teammates"] += 1
+            else:
+                counts["opponents"] += 1
+    counts["quality"] = "uncertain" if counts["ambiguous"] else "corrected" if counts["corrected"] else "clean"
+    return counts
 
 
 def find_next_meaningful_event(
@@ -263,6 +296,23 @@ def build_rows_from_match_data(
         )
     }
 
+    # Snapshot orientation for every record with a non-empty freeze_frame
+    # comes from src/orientation_resolution.py -- the exact pipeline the
+    # renderer uses (same records, same order, Problem A, then the
+    # validated resolution of UNCERTAIN snapshots: same-moment duplicates,
+    # kick-off rule, camera side, camera + continuity, reviewer frame
+    # decisions). It replaces the classification above for those records,
+    # so each snapshot is corrected exactly once. Records with an empty
+    # freeze_frame carry no coordinates and keep the plain classification
+    # as their label.
+    match_orientation = resolve_match_orientation(match_id, events, frames_by_event_id)
+    usable_records = match_orientation.records.usable_frames
+    for record, result in zip(usable_records, match_orientation.resolved):
+        orientation_by_event_id[record.event["id"]] = result
+    problem_a_by_event_id = {
+        record.event["id"]: result for record, result in zip(usable_records, match_orientation.problem_a)
+    }
+
     # Step 2 (Problem B, independent of and applied after Step 1 above): the
     # two teams' raw coordinates use opposite attack-direction conventions
     # (see src/team_normalization.py for the forensic evidence). This is a
@@ -279,17 +329,30 @@ def build_rows_from_match_data(
     # sees 360-joined events) -- the two consumers must agree on one team.
     reference_team_id = resolve_reference_team_id(ordered_events)
 
-    # Step 3 (Problem C, independent of Steps 1-2, resolved on the RAW
-    # events/frames -- see src/team_identity.py): StatsBomb sometimes
-    # attaches the exact same raw 360 snapshot to two or three different
-    # events belonging to DIFFERENT teams at the same instant. Reading
-    # `teammate` relative to a borrowing event's own team, instead of the
-    # snapshot's true source team, silently flips the teammate/opponent
-    # split for that row. Must run before any orientation/normalization
-    # mirroring, which would make originally-identical arrays diverge.
-    shared_group_by_event_id = detect_shared_cross_team_snapshots(events, frames_by_event_id)
-    raw_events_by_id = {event["id"]: event for event in events if "id" in event}
+    # Step 3 (team identity, independent of Steps 1-2; see
+    # src/team_identity.py): which team each freeze_frame point belongs to,
+    # with the same rules the renderer uses. Copies and derived records are
+    # read in the flag view their evidence supports, goalkeeper-only flag
+    # errors are corrected under the narrow continuity rule, and points whose
+    # team cannot be established are UNRESOLVED -- counted in
+    # visible_ambiguous, never assigned to either side. Coordinates are not
+    # touched.
+    #
+    # The FEATURE columns use the CAUSAL resolution: a row's identities are
+    # decided only from its own snapshot and earlier records, never from the
+    # events that follow it (which include the event being predicted). The
+    # OFFLINE resolution (both directions in time, what the renderer draws)
+    # is kept in the *_offline columns for data-quality analysis only.
     team_names = _match_team_names(events)
+    identity_inputs = (
+        [(record.event, record.frame_360) for record in usable_records],
+        [result.orientation for result in match_orientation.resolved],
+        match_orientation.problem_a,
+        team_names,
+        events,
+    )
+    causal_identity_by_event_id = resolve_match_team_identity(*identity_inputs, causal=True)
+    offline_identity_by_event_id = resolve_match_team_identity(*identity_inputs)
 
     rows = []
 
@@ -343,31 +406,9 @@ def build_rows_from_match_data(
         freeze_frame = frame.get("freeze_frame", [])
         team_normalization = team_normalization_label(current_event, reference_team_id)
 
-        # Resolve each point's ABSOLUTE team via Problem C instead of the
-        # naive "teammate relative to this event's own team" reading, which
-        # is only reliable when this event's raw snapshot isn't shared with
-        # a different team's event (see the module-level comment above).
-        # Coordinates (already orientation/normalization-corrected above)
-        # are never touched by this -- only which team each point counts
-        # toward. Genuinely ambiguous points (no confident source) are
-        # counted separately rather than guessed either way.
-        shared_group_info = shared_group_by_event_id.get(current_event_id)
         current_team_name = current_event["team"]["name"]
-        teammates = []
-        opponents = []
-        ambiguous_points = []
-        for player in freeze_frame:
-            if not isinstance(player, dict):
-                continue
-            resolved_team = resolve_absolute_team_for_point(
-                player, current_event, shared_group_info, raw_events_by_id, team_names
-            )
-            if resolved_team == TEAM_IDENTITY_AMBIGUOUS:
-                ambiguous_points.append(player)
-            elif resolved_team == current_team_name:
-                teammates.append(player)
-            else:
-                opponents.append(player)
+        causal = identity_counts(causal_identity_by_event_id.get(current_event_id), current_team_name)
+        offline = identity_counts(offline_identity_by_event_id.get(current_event_id), current_team_name)
 
         actor_x, actor_y, actor_ambiguous = resolve_actor_location(freeze_frame)
 
@@ -398,11 +439,22 @@ def build_rows_from_match_data(
             "actor_ambiguous": actor_ambiguous,
             "orientation": orientation_result.orientation,
             "orientation_confidence": round(orientation_result.confidence, 3),
+            "orientation_problem_a": problem_a_by_event_id.get(current_event_id, orientation_result).orientation,
+            "orientation_resolved_by": orientation_result.resolved_by,
+            "orientation_uses_later_records": orientation_result.resolved_by in ROUTES_USING_LATER_RECORDS,
             "team_normalization": team_normalization,
             "visible_players": len(freeze_frame),
-            "visible_teammates": len(teammates),
-            "visible_opponents": len(opponents),
-            "visible_ambiguous": len(ambiguous_points),
+            "visible_teammates": causal["teammates"],
+            "visible_opponents": causal["opponents"],
+            "visible_ambiguous": causal["ambiguous"],
+            "identity_corrected_points": causal["corrected"],
+            "identity_quality": causal["quality"],
+            "visible_teammates_raw": causal["raw_teammates"],
+            "visible_opponents_raw": causal["raw_opponents"],
+            "visible_teammates_offline": offline["teammates"],
+            "visible_opponents_offline": offline["opponents"],
+            "visible_ambiguous_offline": offline["ambiguous"],
+            "identity_quality_offline": offline["quality"],
             "next_event_id": next_event["id"],
             "next_event_type": next_event["type"]["name"],
             "next_team": next_event["team"]["name"],

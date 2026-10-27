@@ -1,0 +1,19 @@
+frame_number,match_id,period,event_id,event_index,timestamp,match_time,period_second,event_type,team,player,visible_player_count,goalkeeper_count,actor_count,has_visible_area,gap_from_previous_seconds,gap_to_next_seconds,gif_display_duration_ms
+1,3773386,1,62f47e4e-7641-402d-81ca-675c95e41074,1114,00:27:06.304,27:06.304,1626.304,Pass,Barcelona,Lionel Andrés Messi Cuccittini,17,0,1,True,,0.892,892
+2,3773386,1,fa8bc96f-e6cc-49c7-835b-39d7096f7b9c,1115,00:27:07.196,27:07.196,1627.196,Ball Receipt*,Barcelona,Frenkie de Jong,18,1,1,True,0.892,0.000,80
+3,3773386,1,d58db884-9325-4ea9-8e36-461e398662a6,1116,00:27:07.196,27:07.196,1627.196,Carry,Barcelona,Frenkie de Jong,18,1,1,True,0.000,1.863,1500
+4,3773386,1,347d5553-062c-4864-8a2e-e341a2b631f2,1117,00:27:09.059,27:09.059,1629.059,Pressure,Deportivo Alavés,José Ignacio Peleteiro Ramallo,14,1,1,True,1.863,0.617,617
+5,3773386,1,3c91006c-9ece-4047-8901-64d8190050d5,1118,00:27:09.676,27:09.676,1629.676,Pass,Barcelona,Frenkie de Jong,14,1,1,True,0.617,0.727,727
+6,3773386,1,c436b188-78aa-4195-b73b-4b2ae9411e1e,1119,00:27:10.403,27:10.403,1630.403,Ball Receipt*,Barcelona,Anssumane Fati,14,1,1,True,0.727,0.000,80
+7,3773386,1,c126319e-3ecb-4cc8-9d80-e248871cc397,1120,00:27:10.403,27:10.403,1630.403,Carry,Barcelona,Anssumane Fati,14,1,1,True,0.000,2.538,1500
+8,3773386,1,c1d8a453-23cb-4cf7-a8aa-5aa82826eca9,1121,00:27:12.941,27:12.941,1632.941,Pass,Barcelona,Anssumane Fati,15,1,1,True,2.538,0.341,341
+9,3773386,1,ef2cb7db-58ea-4e53-bf2e-6aa9b97d77e1,1122,00:27:13.282,27:13.282,1633.282,Ball Receipt*,Barcelona,Jordi Alba Ramos,15,0,1,True,0.341,0.000,80
+10,3773386,1,64ff9a38-17ed-49b2-8018-d57121f6208f,1123,00:27:13.282,27:13.282,1633.282,Block,Deportivo Alavés,Tomás Pina Isla,15,0,1,True,0.000,3.153,1500
+11,3773386,1,3cef697d-655f-4066-a8dd-eb769d03b878,1124,00:27:16.435,27:16.435,1636.435,Pass,Deportivo Alavés,Edgar Antonio Méndez Ortega,19,1,1,True,3.153,1.333,1333
+12,3773386,1,58e3878a-cf3f-4bb7-990c-01ed7a5af445,1125,00:27:17.768,27:17.768,1637.768,Ball Receipt*,Deportivo Alavés,Deyverson Brum Silva Acosta,20,1,1,True,1.333,0.000,80
+13,3773386,1,2d3dfb91-7804-4f89-8926-34b7ca820973,1126,00:27:17.768,27:17.768,1637.768,Carry,Deportivo Alavés,Deyverson Brum Silva Acosta,20,1,1,True,0.000,0.075,80
+14,3773386,1,6136988d-92c8-4bcf-b88d-1d18aa2717b3,1127,00:27:17.843,27:17.843,1637.843,Pass,Deportivo Alavés,Deyverson Brum Silva Acosta,20,1,1,True,0.075,1.280,1280
+15,3773386,1,32ce51e2-be57-4126-b9e4-8e81d17438c2,1128,00:27:19.123,27:19.123,1639.123,Pass,Barcelona,Jordi Alba Ramos,19,1,1,True,1.280,1.027,1027
+16,3773386,1,01aab286-2bb4-41ed-bbbf-6ad932c66d3f,1129,00:27:20.150,27:20.150,1640.150,Ball Receipt*,Barcelona,Clément Lenglet,19,0,1,True,1.027,0.000,80
+17,3773386,1,7e726809-6816-4042-bcd2-b7f78d36a8ca,1130,00:27:20.150,27:20.150,1640.150,Carry,Barcelona,Clément Lenglet,19,0,1,True,0.000,1.055,1055
+18,3773386,1,beebd4de-9847-4d67-a862-d5566cc71ce1,1131,00:27:21.205,27:21.205,1641.205,Pass,Barcelona,Clément Lenglet,17,0,1,True,1.055,,80
