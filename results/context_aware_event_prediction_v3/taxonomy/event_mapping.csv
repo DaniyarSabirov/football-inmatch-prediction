@@ -1,0 +1,63 @@
+type,subtype,rule,n,category,filtered8,scenarioD15,actions15,raw33
+50/50,,,668,on_ball_action,skipped,50/50,50/50,50/50
+50/50,,K3,659,on_ball_action,skipped,50/50,skipped (companion K3),50/50
+Bad Behaviour,,,218,foul_or_discipline,skipped,skipped,skipped,Bad Behaviour
+Ball Receipt*,,,331711,derived_companion,skipped,skipped,skipped,Ball Receipt*
+Ball Recovery,,,32637,on_ball_action,Ball Recovery,Ball Recovery,Ball Recovery,Ball Recovery
+Block,,,13134,defensive_action,skipped,Block,Block,Block
+Carry,,,282368,on_ball_action,Carry,Carry,Carry,Carry
+Clearance,,,13059,on_ball_action,Clearance,Clearance,Clearance,Clearance
+Dispossessed,,,7944,on_ball_action,Dispossessed,Dispossessed,Dispossessed,Dispossessed
+Dribble,,,10364,on_ball_action,Dribble,Dribble,Dribble,Dribble
+Dribbled Past,,,6061,derived_companion,skipped,skipped,skipped,Dribbled Past
+Duel,Tackle,K2,12221,defensive_action,skipped,Duel,skipped (companion K2),Duel
+Duel,Aerial Lost,,9474,defensive_action,skipped,Duel,Duel,Duel
+Error,,,189,retrospective_annotation,skipped,skipped,skipped,Error
+Foul Committed,,,7670,foul_or_discipline,skipped,Foul Committed,Foul Committed,Foul Committed
+Foul Committed,Handball,,367,foul_or_discipline,skipped,Foul Committed,Foul Committed,Foul Committed
+Foul Committed,Dangerous Play,,52,foul_or_discipline,skipped,Foul Committed,Foul Committed,Foul Committed
+Foul Committed,Foul Out,,33,foul_or_discipline,skipped,Foul Committed,Foul Committed,Foul Committed
+Foul Committed,Dive,,12,foul_or_discipline,skipped,Foul Committed,Foul Committed,Foul Committed
+Foul Committed,6 Seconds,,1,foul_or_discipline,skipped,Foul Committed,Foul Committed,Foul Committed
+Foul Won,,,7719,derived_companion,skipped,skipped,skipped,Foul Won
+Goal Keeper,Shot Faced,K1,5498,goalkeeper_action,skipped,Goal Keeper,skipped (companion K1),Goal Keeper
+Goal Keeper,Shot Saved,,1935,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Goal Conceded,K1,883,goalkeeper_action,skipped,Goal Keeper,skipped (companion K1),Goal Keeper
+Goal Keeper,Keeper Sweeper,,690,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Collected,,554,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Punch,,473,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Penalty Conceded,K1,170,goalkeeper_action,skipped,Goal Keeper,skipped (companion K1),Goal Keeper
+Goal Keeper,Penalty Saved,,55,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Shot Saved to Post,,40,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Shot Saved Off Target,,32,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Smother,,26,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Save,,20,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Goal Keeper,Penalty Saved to Post,,4,goalkeeper_action,skipped,Goal Keeper,Goal Keeper,Goal Keeper
+Half End,,,1454,administrative,skipped,skipped,skipped,Half End
+Half Start,,,1454,administrative,skipped,skipped,skipped,Half Start
+Injury Stoppage,,,1848,restart_or_stoppage,skipped,skipped,skipped,Injury Stoppage
+Interception,,,7775,defensive_action,skipped,Interception,Interception,Interception
+Miscontrol,,,9097,on_ball_action,Miscontrol,Miscontrol,Miscontrol,Miscontrol
+Offside,,,116,foul_or_discipline,skipped,skipped,skipped,Offside
+Own Goal Against,,,41,retrospective_annotation,skipped,skipped,skipped,Own Goal Against
+Own Goal For,,,41,derived_companion,skipped,skipped,skipped,Own Goal For
+Pass,,,290820,on_ball_action,Pass,Pass,Pass,Pass
+Pass,Recovery,,25908,on_ball_action,Pass,Pass,Pass,Pass
+Pass,Throw-in,,13349,on_ball_action,Pass,Pass,Pass,Pass
+Pass,Free Kick,,7916,on_ball_action,Pass,Pass,Pass,Pass
+Pass,Goal Kick,,5199,on_ball_action,Pass,Pass,Pass,Pass
+Pass,Corner,,3157,on_ball_action,Pass,Pass,Pass,Pass
+Pass,Interception,,2617,on_ball_action,Pass,Pass,Pass,Pass
+Pass,Kick Off,,1699,on_ball_action,Pass,Pass,Pass,Pass
+Player Off,,,403,administrative,skipped,skipped,skipped,Player Off
+Player On,,,401,administrative,skipped,skipped,skipped,Player On
+Pressure,,,106522,defensive_action,skipped,Pressure,Pressure,Pressure
+Referee Ball-Drop,,,814,restart_or_stoppage,skipped,skipped,skipped,Referee Ball-Drop
+Shield,,,440,on_ball_action,skipped,skipped,skipped,Shield
+Shot,Open Play,,8081,on_ball_action,Shot,Shot,Shot,Shot
+Shot,Free Kick,,275,on_ball_action,Shot,Shot,Shot,Shot
+Shot,Penalty,,255,on_ball_action,Shot,Shot,Shot,Shot
+Shot,Corner,,6,on_ball_action,Shot,Shot,Shot,Shot
+Starting XI,,,668,administrative,skipped,skipped,skipped,Starting XI
+Substitution,,,2879,administrative,skipped,skipped,skipped,Substitution
+Tactical Shift,,,1079,administrative,skipped,skipped,skipped,Tactical Shift

@@ -1,0 +1,52 @@
+{
+ "final_test_never_read": {
+  "tier_overlap_with_final_test": {
+   "tier_a": {
+    "tier_a": []
+   },
+   "tier_b": {
+    "filtered8": [],
+    "scenarioD15": []
+   }
+  },
+  "guard": "load_development_events checks every match list against the hold-out and refuses experiment 1's all-match cache (tests/test_v2_pipeline.py)",
+  "passed": true
+ },
+ "tiers_disjoint": true,
+ "folds_match_grouped": {
+  "tier_a": true,
+  "tier_b": true
+ },
+ "same_rows_and_folds_within_each_comparison": "all models of a (tier, taxonomy) are evaluated by one call on one row set with one fold map (evaluate_task)",
+ "filtered8_targets_equal_production": {
+  "tier_a": [
+   true
+  ],
+  "tier_b": [
+   true
+  ]
+ },
+ "scenario_d_equals_research_script": {
+  "filtered8": {
+   "matches": 30,
+   "rows_ours": 59675,
+   "rows_research_script": 59675,
+   "target_counts_equal": true,
+   "passed": true
+  },
+  "scenarioD15": {
+   "matches": 30,
+   "rows_ours": 73152,
+   "rows_research_script": 73152,
+   "target_counts_equal": true,
+   "passed": true
+  }
+ },
+ "cost_priors": "from the fold's TRAINING evaluation rows only (fold_priors; test_cost_priors_use_training_folds_only)",
+ "cost_tuning": "gamma, HMM K and init type chosen on Tier A only and frozen for Tier B (tuning_decisions.json)",
+ "markov_smoothing": "concentration chosen by inner CV over the outer TRAINING folds (test_markov_nested_selection...)",
+ "hmm_k_tier_a": "cross-fold rule: K for fold f chosen from the other folds' validation scores",
+ "calibration": "diagnostic only; no recalibration fitted, so no calibration parameter can leak",
+ "future_information": "causal filtering only; zone of event t+1 marginalised (tests/test_v2_spatial_models.py)",
+ "known_incident": "2026-10-28, before experiment 2 code existed: one exploratory check read experiment 1's all-match event cache (incl. final-test matches) and filtered it to pilot matches; no statistic of a final-test match was computed or viewed; experiment 2 code refuses that cache"
+}

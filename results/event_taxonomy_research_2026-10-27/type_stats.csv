@@ -1,0 +1,34 @@
+event_type,category,count,pct_of_events,matches,with_360_record,pct_with_360_record,without_360_record,nonempty_freeze_frame,actor_point_in_own_snapshot,pct_actor_point_of_360,pct_has_location,pct_has_player
+Pass,on_ball_action,438439,28.2528,417,373639,85.22,64800,373639,373639,100.0,100.0,100.0
+Ball Receipt*,derived_companion,414717,26.7242,417,371155,89.5,43562,371155,371155,100.0,100.0,100.0
+Carry,on_ball_action,353132,22.7557,417,322954,91.45,30178,322954,322954,100.0,100.0,100.0
+Pressure,defensive_action,133003,8.5707,417,118572,89.15,14431,118572,118572,100.0,100.0,100.0
+Ball Recovery,on_ball_action,40649,2.6194,417,36464,89.7,4185,36464,36464,100.0,100.0,100.0
+Duel,defensive_action,26980,1.7386,417,23688,87.8,3292,23688,23688,100.0,100.0,100.0
+Block,defensive_action,16432,1.0589,417,14765,89.86,1667,14765,14765,100.0,100.0,100.0
+Clearance,on_ball_action,16254,1.0474,417,15064,92.68,1190,15064,15064,100.0,100.0,100.0
+Goal Keeper,goalkeeper_action,13071,0.8423,417,6032,46.15,7039,6032,6032,100.0,99.95,100.0
+Dribble,on_ball_action,13028,0.8395,417,11198,85.95,1830,11198,11198,100.0,100.0,100.0
+Miscontrol,on_ball_action,11291,0.7276,417,9925,87.9,1366,9925,9925,100.0,100.0,100.0
+Shot,on_ball_action,10831,0.6979,417,10483,96.79,348,10483,10483,100.0,100.0,100.0
+Foul Committed,foul_or_discipline,10310,0.6644,417,8947,86.78,1363,8947,8947,100.0,100.0,100.0
+Dispossessed,on_ball_action,9852,0.6349,417,8360,84.86,1492,8360,8359,99.99,100.0,100.0
+Foul Won,derived_companion,9794,0.6311,417,8482,86.6,1312,8482,8482,100.0,100.0,100.0
+Interception,defensive_action,9701,0.6251,417,8975,92.52,726,8975,8975,100.0,100.0,100.0
+Dribbled Past,derived_companion,7587,0.4889,417,6600,86.99,987,6600,6600,100.0,100.0,100.0
+Substitution,administrative,3610,0.2326,417,0,0.0,3610,0,0,,0.0,100.0
+Injury Stoppage,restart_or_stoppage,2311,0.1489,403,0,0.0,2311,0,0,,0.0,100.0
+Half Start,administrative,1824,0.1175,417,0,0.0,1824,0,0,,0.0,0.0
+Half End,administrative,1824,0.1175,417,0,0.0,1824,0,0,,0.0,0.0
+50/50,on_ball_action,1685,0.1086,301,1506,89.38,179,1506,1505,99.93,100.0,100.0
+Tactical Shift,administrative,1399,0.0902,409,0,0.0,1399,0,0,,0.0,0.0
+Referee Ball-Drop,restart_or_stoppage,996,0.0642,300,22,2.21,974,22,22,100.0,100.0,0.0
+Starting XI,administrative,834,0.0537,417,0,0.0,834,0,0,,0.0,0.0
+Shield,on_ball_action,543,0.035,299,365,67.22,178,365,365,100.0,100.0,100.0
+Player Off,administrative,494,0.0318,253,0,0.0,494,0,0,,0.0,100.0
+Player On,administrative,491,0.0316,252,0,0.0,491,0,0,,0.0,100.0
+Bad Behaviour,foul_or_discipline,271,0.0175,157,0,0.0,271,0,0,,0.0,100.0
+Error,retrospective_annotation,237,0.0153,181,207,87.34,30,207,207,100.0,100.0,100.0
+Offside,foul_or_discipline,141,0.0091,119,127,90.07,14,127,127,100.0,100.0,100.0
+Own Goal For,derived_companion,55,0.0035,51,48,87.27,7,48,48,100.0,100.0,0.0
+Own Goal Against,retrospective_annotation,55,0.0035,51,48,87.27,7,48,48,100.0,100.0,100.0

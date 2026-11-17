@@ -1,0 +1,1272 @@
+task,model,true_class,predicted_class,count
+filtered8,frequency_baseline,Pass,Pass,29091
+filtered8,frequency_baseline,Carry,Pass,24003
+filtered8,frequency_baseline,Ball Recovery,Pass,2627
+filtered8,frequency_baseline,Clearance,Pass,1058
+filtered8,frequency_baseline,Dribble,Pass,811
+filtered8,frequency_baseline,Shot,Pass,732
+filtered8,frequency_baseline,Miscontrol,Pass,725
+filtered8,frequency_baseline,Dispossessed,Pass,608
+filtered8,frequency_baseline,Pass,Carry,0
+filtered8,frequency_baseline,Carry,Carry,0
+filtered8,frequency_baseline,Ball Recovery,Carry,0
+filtered8,frequency_baseline,Clearance,Carry,0
+filtered8,frequency_baseline,Dribble,Carry,0
+filtered8,frequency_baseline,Shot,Carry,0
+filtered8,frequency_baseline,Miscontrol,Carry,0
+filtered8,frequency_baseline,Dispossessed,Carry,0
+filtered8,frequency_baseline,Pass,Ball Recovery,0
+filtered8,frequency_baseline,Carry,Ball Recovery,0
+filtered8,frequency_baseline,Ball Recovery,Ball Recovery,0
+filtered8,frequency_baseline,Clearance,Ball Recovery,0
+filtered8,frequency_baseline,Dribble,Ball Recovery,0
+filtered8,frequency_baseline,Shot,Ball Recovery,0
+filtered8,frequency_baseline,Miscontrol,Ball Recovery,0
+filtered8,frequency_baseline,Dispossessed,Ball Recovery,0
+filtered8,frequency_baseline,Pass,Clearance,0
+filtered8,frequency_baseline,Carry,Clearance,0
+filtered8,frequency_baseline,Ball Recovery,Clearance,0
+filtered8,frequency_baseline,Clearance,Clearance,0
+filtered8,frequency_baseline,Dribble,Clearance,0
+filtered8,frequency_baseline,Shot,Clearance,0
+filtered8,frequency_baseline,Miscontrol,Clearance,0
+filtered8,frequency_baseline,Dispossessed,Clearance,0
+filtered8,frequency_baseline,Pass,Dribble,0
+filtered8,frequency_baseline,Carry,Dribble,0
+filtered8,frequency_baseline,Ball Recovery,Dribble,0
+filtered8,frequency_baseline,Clearance,Dribble,0
+filtered8,frequency_baseline,Dribble,Dribble,0
+filtered8,frequency_baseline,Shot,Dribble,0
+filtered8,frequency_baseline,Miscontrol,Dribble,0
+filtered8,frequency_baseline,Dispossessed,Dribble,0
+filtered8,frequency_baseline,Pass,Shot,0
+filtered8,frequency_baseline,Carry,Shot,0
+filtered8,frequency_baseline,Ball Recovery,Shot,0
+filtered8,frequency_baseline,Clearance,Shot,0
+filtered8,frequency_baseline,Dribble,Shot,0
+filtered8,frequency_baseline,Shot,Shot,0
+filtered8,frequency_baseline,Miscontrol,Shot,0
+filtered8,frequency_baseline,Dispossessed,Shot,0
+filtered8,frequency_baseline,Pass,Miscontrol,0
+filtered8,frequency_baseline,Carry,Miscontrol,0
+filtered8,frequency_baseline,Ball Recovery,Miscontrol,0
+filtered8,frequency_baseline,Clearance,Miscontrol,0
+filtered8,frequency_baseline,Dribble,Miscontrol,0
+filtered8,frequency_baseline,Shot,Miscontrol,0
+filtered8,frequency_baseline,Miscontrol,Miscontrol,0
+filtered8,frequency_baseline,Dispossessed,Miscontrol,0
+filtered8,frequency_baseline,Pass,Dispossessed,0
+filtered8,frequency_baseline,Carry,Dispossessed,0
+filtered8,frequency_baseline,Ball Recovery,Dispossessed,0
+filtered8,frequency_baseline,Clearance,Dispossessed,0
+filtered8,frequency_baseline,Dribble,Dispossessed,0
+filtered8,frequency_baseline,Shot,Dispossessed,0
+filtered8,frequency_baseline,Miscontrol,Dispossessed,0
+filtered8,frequency_baseline,Dispossessed,Dispossessed,0
+filtered8,markov_order1,Pass,Pass,23984
+filtered8,markov_order1,Carry,Pass,195
+filtered8,markov_order1,Ball Recovery,Pass,1069
+filtered8,markov_order1,Clearance,Pass,227
+filtered8,markov_order1,Dribble,Pass,808
+filtered8,markov_order1,Shot,Pass,363
+filtered8,markov_order1,Miscontrol,Pass,600
+filtered8,markov_order1,Dispossessed,Pass,603
+filtered8,markov_order1,Pass,Carry,5107
+filtered8,markov_order1,Carry,Carry,23808
+filtered8,markov_order1,Ball Recovery,Carry,1558
+filtered8,markov_order1,Clearance,Carry,831
+filtered8,markov_order1,Dribble,Carry,3
+filtered8,markov_order1,Shot,Carry,369
+filtered8,markov_order1,Miscontrol,Carry,125
+filtered8,markov_order1,Dispossessed,Carry,5
+filtered8,markov_order1,Pass,Ball Recovery,0
+filtered8,markov_order1,Carry,Ball Recovery,0
+filtered8,markov_order1,Ball Recovery,Ball Recovery,0
+filtered8,markov_order1,Clearance,Ball Recovery,0
+filtered8,markov_order1,Dribble,Ball Recovery,0
+filtered8,markov_order1,Shot,Ball Recovery,0
+filtered8,markov_order1,Miscontrol,Ball Recovery,0
+filtered8,markov_order1,Dispossessed,Ball Recovery,0
+filtered8,markov_order1,Pass,Clearance,0
+filtered8,markov_order1,Carry,Clearance,0
+filtered8,markov_order1,Ball Recovery,Clearance,0
+filtered8,markov_order1,Clearance,Clearance,0
+filtered8,markov_order1,Dribble,Clearance,0
+filtered8,markov_order1,Shot,Clearance,0
+filtered8,markov_order1,Miscontrol,Clearance,0
+filtered8,markov_order1,Dispossessed,Clearance,0
+filtered8,markov_order1,Pass,Dribble,0
+filtered8,markov_order1,Carry,Dribble,0
+filtered8,markov_order1,Ball Recovery,Dribble,0
+filtered8,markov_order1,Clearance,Dribble,0
+filtered8,markov_order1,Dribble,Dribble,0
+filtered8,markov_order1,Shot,Dribble,0
+filtered8,markov_order1,Miscontrol,Dribble,0
+filtered8,markov_order1,Dispossessed,Dribble,0
+filtered8,markov_order1,Pass,Shot,0
+filtered8,markov_order1,Carry,Shot,0
+filtered8,markov_order1,Ball Recovery,Shot,0
+filtered8,markov_order1,Clearance,Shot,0
+filtered8,markov_order1,Dribble,Shot,0
+filtered8,markov_order1,Shot,Shot,0
+filtered8,markov_order1,Miscontrol,Shot,0
+filtered8,markov_order1,Dispossessed,Shot,0
+filtered8,markov_order1,Pass,Miscontrol,0
+filtered8,markov_order1,Carry,Miscontrol,0
+filtered8,markov_order1,Ball Recovery,Miscontrol,0
+filtered8,markov_order1,Clearance,Miscontrol,0
+filtered8,markov_order1,Dribble,Miscontrol,0
+filtered8,markov_order1,Shot,Miscontrol,0
+filtered8,markov_order1,Miscontrol,Miscontrol,0
+filtered8,markov_order1,Dispossessed,Miscontrol,0
+filtered8,markov_order1,Pass,Dispossessed,0
+filtered8,markov_order1,Carry,Dispossessed,0
+filtered8,markov_order1,Ball Recovery,Dispossessed,0
+filtered8,markov_order1,Clearance,Dispossessed,0
+filtered8,markov_order1,Dribble,Dispossessed,0
+filtered8,markov_order1,Shot,Dispossessed,0
+filtered8,markov_order1,Miscontrol,Dispossessed,0
+filtered8,markov_order1,Dispossessed,Dispossessed,0
+filtered8,markov_order2,Pass,Pass,24062
+filtered8,markov_order2,Carry,Pass,361
+filtered8,markov_order2,Ball Recovery,Pass,1087
+filtered8,markov_order2,Clearance,Pass,260
+filtered8,markov_order2,Dribble,Pass,808
+filtered8,markov_order2,Shot,Pass,385
+filtered8,markov_order2,Miscontrol,Pass,606
+filtered8,markov_order2,Dispossessed,Pass,603
+filtered8,markov_order2,Pass,Carry,5029
+filtered8,markov_order2,Carry,Carry,23642
+filtered8,markov_order2,Ball Recovery,Carry,1540
+filtered8,markov_order2,Clearance,Carry,798
+filtered8,markov_order2,Dribble,Carry,3
+filtered8,markov_order2,Shot,Carry,347
+filtered8,markov_order2,Miscontrol,Carry,119
+filtered8,markov_order2,Dispossessed,Carry,5
+filtered8,markov_order2,Pass,Ball Recovery,0
+filtered8,markov_order2,Carry,Ball Recovery,0
+filtered8,markov_order2,Ball Recovery,Ball Recovery,0
+filtered8,markov_order2,Clearance,Ball Recovery,0
+filtered8,markov_order2,Dribble,Ball Recovery,0
+filtered8,markov_order2,Shot,Ball Recovery,0
+filtered8,markov_order2,Miscontrol,Ball Recovery,0
+filtered8,markov_order2,Dispossessed,Ball Recovery,0
+filtered8,markov_order2,Pass,Clearance,0
+filtered8,markov_order2,Carry,Clearance,0
+filtered8,markov_order2,Ball Recovery,Clearance,0
+filtered8,markov_order2,Clearance,Clearance,0
+filtered8,markov_order2,Dribble,Clearance,0
+filtered8,markov_order2,Shot,Clearance,0
+filtered8,markov_order2,Miscontrol,Clearance,0
+filtered8,markov_order2,Dispossessed,Clearance,0
+filtered8,markov_order2,Pass,Dribble,0
+filtered8,markov_order2,Carry,Dribble,0
+filtered8,markov_order2,Ball Recovery,Dribble,0
+filtered8,markov_order2,Clearance,Dribble,0
+filtered8,markov_order2,Dribble,Dribble,0
+filtered8,markov_order2,Shot,Dribble,0
+filtered8,markov_order2,Miscontrol,Dribble,0
+filtered8,markov_order2,Dispossessed,Dribble,0
+filtered8,markov_order2,Pass,Shot,0
+filtered8,markov_order2,Carry,Shot,0
+filtered8,markov_order2,Ball Recovery,Shot,0
+filtered8,markov_order2,Clearance,Shot,0
+filtered8,markov_order2,Dribble,Shot,0
+filtered8,markov_order2,Shot,Shot,0
+filtered8,markov_order2,Miscontrol,Shot,0
+filtered8,markov_order2,Dispossessed,Shot,0
+filtered8,markov_order2,Pass,Miscontrol,0
+filtered8,markov_order2,Carry,Miscontrol,0
+filtered8,markov_order2,Ball Recovery,Miscontrol,0
+filtered8,markov_order2,Clearance,Miscontrol,0
+filtered8,markov_order2,Dribble,Miscontrol,0
+filtered8,markov_order2,Shot,Miscontrol,0
+filtered8,markov_order2,Miscontrol,Miscontrol,0
+filtered8,markov_order2,Dispossessed,Miscontrol,0
+filtered8,markov_order2,Pass,Dispossessed,0
+filtered8,markov_order2,Carry,Dispossessed,0
+filtered8,markov_order2,Ball Recovery,Dispossessed,0
+filtered8,markov_order2,Clearance,Dispossessed,0
+filtered8,markov_order2,Dribble,Dispossessed,0
+filtered8,markov_order2,Shot,Dispossessed,0
+filtered8,markov_order2,Miscontrol,Dispossessed,0
+filtered8,markov_order2,Dispossessed,Dispossessed,0
+filtered8,hmm_event_K2,Pass,Pass,29091
+filtered8,hmm_event_K2,Carry,Pass,24003
+filtered8,hmm_event_K2,Ball Recovery,Pass,2627
+filtered8,hmm_event_K2,Clearance,Pass,1058
+filtered8,hmm_event_K2,Dribble,Pass,811
+filtered8,hmm_event_K2,Shot,Pass,732
+filtered8,hmm_event_K2,Miscontrol,Pass,725
+filtered8,hmm_event_K2,Dispossessed,Pass,608
+filtered8,hmm_event_K2,Pass,Carry,0
+filtered8,hmm_event_K2,Carry,Carry,0
+filtered8,hmm_event_K2,Ball Recovery,Carry,0
+filtered8,hmm_event_K2,Clearance,Carry,0
+filtered8,hmm_event_K2,Dribble,Carry,0
+filtered8,hmm_event_K2,Shot,Carry,0
+filtered8,hmm_event_K2,Miscontrol,Carry,0
+filtered8,hmm_event_K2,Dispossessed,Carry,0
+filtered8,hmm_event_K2,Pass,Ball Recovery,0
+filtered8,hmm_event_K2,Carry,Ball Recovery,0
+filtered8,hmm_event_K2,Ball Recovery,Ball Recovery,0
+filtered8,hmm_event_K2,Clearance,Ball Recovery,0
+filtered8,hmm_event_K2,Dribble,Ball Recovery,0
+filtered8,hmm_event_K2,Shot,Ball Recovery,0
+filtered8,hmm_event_K2,Miscontrol,Ball Recovery,0
+filtered8,hmm_event_K2,Dispossessed,Ball Recovery,0
+filtered8,hmm_event_K2,Pass,Clearance,0
+filtered8,hmm_event_K2,Carry,Clearance,0
+filtered8,hmm_event_K2,Ball Recovery,Clearance,0
+filtered8,hmm_event_K2,Clearance,Clearance,0
+filtered8,hmm_event_K2,Dribble,Clearance,0
+filtered8,hmm_event_K2,Shot,Clearance,0
+filtered8,hmm_event_K2,Miscontrol,Clearance,0
+filtered8,hmm_event_K2,Dispossessed,Clearance,0
+filtered8,hmm_event_K2,Pass,Dribble,0
+filtered8,hmm_event_K2,Carry,Dribble,0
+filtered8,hmm_event_K2,Ball Recovery,Dribble,0
+filtered8,hmm_event_K2,Clearance,Dribble,0
+filtered8,hmm_event_K2,Dribble,Dribble,0
+filtered8,hmm_event_K2,Shot,Dribble,0
+filtered8,hmm_event_K2,Miscontrol,Dribble,0
+filtered8,hmm_event_K2,Dispossessed,Dribble,0
+filtered8,hmm_event_K2,Pass,Shot,0
+filtered8,hmm_event_K2,Carry,Shot,0
+filtered8,hmm_event_K2,Ball Recovery,Shot,0
+filtered8,hmm_event_K2,Clearance,Shot,0
+filtered8,hmm_event_K2,Dribble,Shot,0
+filtered8,hmm_event_K2,Shot,Shot,0
+filtered8,hmm_event_K2,Miscontrol,Shot,0
+filtered8,hmm_event_K2,Dispossessed,Shot,0
+filtered8,hmm_event_K2,Pass,Miscontrol,0
+filtered8,hmm_event_K2,Carry,Miscontrol,0
+filtered8,hmm_event_K2,Ball Recovery,Miscontrol,0
+filtered8,hmm_event_K2,Clearance,Miscontrol,0
+filtered8,hmm_event_K2,Dribble,Miscontrol,0
+filtered8,hmm_event_K2,Shot,Miscontrol,0
+filtered8,hmm_event_K2,Miscontrol,Miscontrol,0
+filtered8,hmm_event_K2,Dispossessed,Miscontrol,0
+filtered8,hmm_event_K2,Pass,Dispossessed,0
+filtered8,hmm_event_K2,Carry,Dispossessed,0
+filtered8,hmm_event_K2,Ball Recovery,Dispossessed,0
+filtered8,hmm_event_K2,Clearance,Dispossessed,0
+filtered8,hmm_event_K2,Dribble,Dispossessed,0
+filtered8,hmm_event_K2,Shot,Dispossessed,0
+filtered8,hmm_event_K2,Miscontrol,Dispossessed,0
+filtered8,hmm_event_K2,Dispossessed,Dispossessed,0
+filtered8,hmm_event_K3,Pass,Pass,23987
+filtered8,hmm_event_K3,Carry,Pass,246
+filtered8,hmm_event_K3,Ball Recovery,Pass,1073
+filtered8,hmm_event_K3,Clearance,Pass,227
+filtered8,hmm_event_K3,Dribble,Pass,808
+filtered8,hmm_event_K3,Shot,Pass,366
+filtered8,hmm_event_K3,Miscontrol,Pass,600
+filtered8,hmm_event_K3,Dispossessed,Pass,603
+filtered8,hmm_event_K3,Pass,Carry,5104
+filtered8,hmm_event_K3,Carry,Carry,23757
+filtered8,hmm_event_K3,Ball Recovery,Carry,1554
+filtered8,hmm_event_K3,Clearance,Carry,831
+filtered8,hmm_event_K3,Dribble,Carry,3
+filtered8,hmm_event_K3,Shot,Carry,366
+filtered8,hmm_event_K3,Miscontrol,Carry,125
+filtered8,hmm_event_K3,Dispossessed,Carry,5
+filtered8,hmm_event_K3,Pass,Ball Recovery,0
+filtered8,hmm_event_K3,Carry,Ball Recovery,0
+filtered8,hmm_event_K3,Ball Recovery,Ball Recovery,0
+filtered8,hmm_event_K3,Clearance,Ball Recovery,0
+filtered8,hmm_event_K3,Dribble,Ball Recovery,0
+filtered8,hmm_event_K3,Shot,Ball Recovery,0
+filtered8,hmm_event_K3,Miscontrol,Ball Recovery,0
+filtered8,hmm_event_K3,Dispossessed,Ball Recovery,0
+filtered8,hmm_event_K3,Pass,Clearance,0
+filtered8,hmm_event_K3,Carry,Clearance,0
+filtered8,hmm_event_K3,Ball Recovery,Clearance,0
+filtered8,hmm_event_K3,Clearance,Clearance,0
+filtered8,hmm_event_K3,Dribble,Clearance,0
+filtered8,hmm_event_K3,Shot,Clearance,0
+filtered8,hmm_event_K3,Miscontrol,Clearance,0
+filtered8,hmm_event_K3,Dispossessed,Clearance,0
+filtered8,hmm_event_K3,Pass,Dribble,0
+filtered8,hmm_event_K3,Carry,Dribble,0
+filtered8,hmm_event_K3,Ball Recovery,Dribble,0
+filtered8,hmm_event_K3,Clearance,Dribble,0
+filtered8,hmm_event_K3,Dribble,Dribble,0
+filtered8,hmm_event_K3,Shot,Dribble,0
+filtered8,hmm_event_K3,Miscontrol,Dribble,0
+filtered8,hmm_event_K3,Dispossessed,Dribble,0
+filtered8,hmm_event_K3,Pass,Shot,0
+filtered8,hmm_event_K3,Carry,Shot,0
+filtered8,hmm_event_K3,Ball Recovery,Shot,0
+filtered8,hmm_event_K3,Clearance,Shot,0
+filtered8,hmm_event_K3,Dribble,Shot,0
+filtered8,hmm_event_K3,Shot,Shot,0
+filtered8,hmm_event_K3,Miscontrol,Shot,0
+filtered8,hmm_event_K3,Dispossessed,Shot,0
+filtered8,hmm_event_K3,Pass,Miscontrol,0
+filtered8,hmm_event_K3,Carry,Miscontrol,0
+filtered8,hmm_event_K3,Ball Recovery,Miscontrol,0
+filtered8,hmm_event_K3,Clearance,Miscontrol,0
+filtered8,hmm_event_K3,Dribble,Miscontrol,0
+filtered8,hmm_event_K3,Shot,Miscontrol,0
+filtered8,hmm_event_K3,Miscontrol,Miscontrol,0
+filtered8,hmm_event_K3,Dispossessed,Miscontrol,0
+filtered8,hmm_event_K3,Pass,Dispossessed,0
+filtered8,hmm_event_K3,Carry,Dispossessed,0
+filtered8,hmm_event_K3,Ball Recovery,Dispossessed,0
+filtered8,hmm_event_K3,Clearance,Dispossessed,0
+filtered8,hmm_event_K3,Dribble,Dispossessed,0
+filtered8,hmm_event_K3,Shot,Dispossessed,0
+filtered8,hmm_event_K3,Miscontrol,Dispossessed,0
+filtered8,hmm_event_K3,Dispossessed,Dispossessed,0
+filtered8,hmm_event_K4,Pass,Pass,23985
+filtered8,hmm_event_K4,Carry,Pass,201
+filtered8,hmm_event_K4,Ball Recovery,Pass,1070
+filtered8,hmm_event_K4,Clearance,Pass,227
+filtered8,hmm_event_K4,Dribble,Pass,808
+filtered8,hmm_event_K4,Shot,Pass,363
+filtered8,hmm_event_K4,Miscontrol,Pass,600
+filtered8,hmm_event_K4,Dispossessed,Pass,603
+filtered8,hmm_event_K4,Pass,Carry,5106
+filtered8,hmm_event_K4,Carry,Carry,23802
+filtered8,hmm_event_K4,Ball Recovery,Carry,1557
+filtered8,hmm_event_K4,Clearance,Carry,831
+filtered8,hmm_event_K4,Dribble,Carry,3
+filtered8,hmm_event_K4,Shot,Carry,369
+filtered8,hmm_event_K4,Miscontrol,Carry,125
+filtered8,hmm_event_K4,Dispossessed,Carry,5
+filtered8,hmm_event_K4,Pass,Ball Recovery,0
+filtered8,hmm_event_K4,Carry,Ball Recovery,0
+filtered8,hmm_event_K4,Ball Recovery,Ball Recovery,0
+filtered8,hmm_event_K4,Clearance,Ball Recovery,0
+filtered8,hmm_event_K4,Dribble,Ball Recovery,0
+filtered8,hmm_event_K4,Shot,Ball Recovery,0
+filtered8,hmm_event_K4,Miscontrol,Ball Recovery,0
+filtered8,hmm_event_K4,Dispossessed,Ball Recovery,0
+filtered8,hmm_event_K4,Pass,Clearance,0
+filtered8,hmm_event_K4,Carry,Clearance,0
+filtered8,hmm_event_K4,Ball Recovery,Clearance,0
+filtered8,hmm_event_K4,Clearance,Clearance,0
+filtered8,hmm_event_K4,Dribble,Clearance,0
+filtered8,hmm_event_K4,Shot,Clearance,0
+filtered8,hmm_event_K4,Miscontrol,Clearance,0
+filtered8,hmm_event_K4,Dispossessed,Clearance,0
+filtered8,hmm_event_K4,Pass,Dribble,0
+filtered8,hmm_event_K4,Carry,Dribble,0
+filtered8,hmm_event_K4,Ball Recovery,Dribble,0
+filtered8,hmm_event_K4,Clearance,Dribble,0
+filtered8,hmm_event_K4,Dribble,Dribble,0
+filtered8,hmm_event_K4,Shot,Dribble,0
+filtered8,hmm_event_K4,Miscontrol,Dribble,0
+filtered8,hmm_event_K4,Dispossessed,Dribble,0
+filtered8,hmm_event_K4,Pass,Shot,0
+filtered8,hmm_event_K4,Carry,Shot,0
+filtered8,hmm_event_K4,Ball Recovery,Shot,0
+filtered8,hmm_event_K4,Clearance,Shot,0
+filtered8,hmm_event_K4,Dribble,Shot,0
+filtered8,hmm_event_K4,Shot,Shot,0
+filtered8,hmm_event_K4,Miscontrol,Shot,0
+filtered8,hmm_event_K4,Dispossessed,Shot,0
+filtered8,hmm_event_K4,Pass,Miscontrol,0
+filtered8,hmm_event_K4,Carry,Miscontrol,0
+filtered8,hmm_event_K4,Ball Recovery,Miscontrol,0
+filtered8,hmm_event_K4,Clearance,Miscontrol,0
+filtered8,hmm_event_K4,Dribble,Miscontrol,0
+filtered8,hmm_event_K4,Shot,Miscontrol,0
+filtered8,hmm_event_K4,Miscontrol,Miscontrol,0
+filtered8,hmm_event_K4,Dispossessed,Miscontrol,0
+filtered8,hmm_event_K4,Pass,Dispossessed,0
+filtered8,hmm_event_K4,Carry,Dispossessed,0
+filtered8,hmm_event_K4,Ball Recovery,Dispossessed,0
+filtered8,hmm_event_K4,Clearance,Dispossessed,0
+filtered8,hmm_event_K4,Dribble,Dispossessed,0
+filtered8,hmm_event_K4,Shot,Dispossessed,0
+filtered8,hmm_event_K4,Miscontrol,Dispossessed,0
+filtered8,hmm_event_K4,Dispossessed,Dispossessed,0
+filtered8,hmm_event_K5,Pass,Pass,23980
+filtered8,hmm_event_K5,Carry,Pass,197
+filtered8,hmm_event_K5,Ball Recovery,Pass,1068
+filtered8,hmm_event_K5,Clearance,Pass,227
+filtered8,hmm_event_K5,Dribble,Pass,808
+filtered8,hmm_event_K5,Shot,Pass,363
+filtered8,hmm_event_K5,Miscontrol,Pass,600
+filtered8,hmm_event_K5,Dispossessed,Pass,603
+filtered8,hmm_event_K5,Pass,Carry,5111
+filtered8,hmm_event_K5,Carry,Carry,23806
+filtered8,hmm_event_K5,Ball Recovery,Carry,1559
+filtered8,hmm_event_K5,Clearance,Carry,831
+filtered8,hmm_event_K5,Dribble,Carry,3
+filtered8,hmm_event_K5,Shot,Carry,369
+filtered8,hmm_event_K5,Miscontrol,Carry,125
+filtered8,hmm_event_K5,Dispossessed,Carry,5
+filtered8,hmm_event_K5,Pass,Ball Recovery,0
+filtered8,hmm_event_K5,Carry,Ball Recovery,0
+filtered8,hmm_event_K5,Ball Recovery,Ball Recovery,0
+filtered8,hmm_event_K5,Clearance,Ball Recovery,0
+filtered8,hmm_event_K5,Dribble,Ball Recovery,0
+filtered8,hmm_event_K5,Shot,Ball Recovery,0
+filtered8,hmm_event_K5,Miscontrol,Ball Recovery,0
+filtered8,hmm_event_K5,Dispossessed,Ball Recovery,0
+filtered8,hmm_event_K5,Pass,Clearance,0
+filtered8,hmm_event_K5,Carry,Clearance,0
+filtered8,hmm_event_K5,Ball Recovery,Clearance,0
+filtered8,hmm_event_K5,Clearance,Clearance,0
+filtered8,hmm_event_K5,Dribble,Clearance,0
+filtered8,hmm_event_K5,Shot,Clearance,0
+filtered8,hmm_event_K5,Miscontrol,Clearance,0
+filtered8,hmm_event_K5,Dispossessed,Clearance,0
+filtered8,hmm_event_K5,Pass,Dribble,0
+filtered8,hmm_event_K5,Carry,Dribble,0
+filtered8,hmm_event_K5,Ball Recovery,Dribble,0
+filtered8,hmm_event_K5,Clearance,Dribble,0
+filtered8,hmm_event_K5,Dribble,Dribble,0
+filtered8,hmm_event_K5,Shot,Dribble,0
+filtered8,hmm_event_K5,Miscontrol,Dribble,0
+filtered8,hmm_event_K5,Dispossessed,Dribble,0
+filtered8,hmm_event_K5,Pass,Shot,0
+filtered8,hmm_event_K5,Carry,Shot,0
+filtered8,hmm_event_K5,Ball Recovery,Shot,0
+filtered8,hmm_event_K5,Clearance,Shot,0
+filtered8,hmm_event_K5,Dribble,Shot,0
+filtered8,hmm_event_K5,Shot,Shot,0
+filtered8,hmm_event_K5,Miscontrol,Shot,0
+filtered8,hmm_event_K5,Dispossessed,Shot,0
+filtered8,hmm_event_K5,Pass,Miscontrol,0
+filtered8,hmm_event_K5,Carry,Miscontrol,0
+filtered8,hmm_event_K5,Ball Recovery,Miscontrol,0
+filtered8,hmm_event_K5,Clearance,Miscontrol,0
+filtered8,hmm_event_K5,Dribble,Miscontrol,0
+filtered8,hmm_event_K5,Shot,Miscontrol,0
+filtered8,hmm_event_K5,Miscontrol,Miscontrol,0
+filtered8,hmm_event_K5,Dispossessed,Miscontrol,0
+filtered8,hmm_event_K5,Pass,Dispossessed,0
+filtered8,hmm_event_K5,Carry,Dispossessed,0
+filtered8,hmm_event_K5,Ball Recovery,Dispossessed,0
+filtered8,hmm_event_K5,Clearance,Dispossessed,0
+filtered8,hmm_event_K5,Dribble,Dispossessed,0
+filtered8,hmm_event_K5,Shot,Dispossessed,0
+filtered8,hmm_event_K5,Miscontrol,Dispossessed,0
+filtered8,hmm_event_K5,Dispossessed,Dispossessed,0
+filtered8,hmm_spatial_K2,Pass,Pass,29091
+filtered8,hmm_spatial_K2,Carry,Pass,24003
+filtered8,hmm_spatial_K2,Ball Recovery,Pass,2627
+filtered8,hmm_spatial_K2,Clearance,Pass,1058
+filtered8,hmm_spatial_K2,Dribble,Pass,811
+filtered8,hmm_spatial_K2,Shot,Pass,732
+filtered8,hmm_spatial_K2,Miscontrol,Pass,725
+filtered8,hmm_spatial_K2,Dispossessed,Pass,608
+filtered8,hmm_spatial_K2,Pass,Carry,0
+filtered8,hmm_spatial_K2,Carry,Carry,0
+filtered8,hmm_spatial_K2,Ball Recovery,Carry,0
+filtered8,hmm_spatial_K2,Clearance,Carry,0
+filtered8,hmm_spatial_K2,Dribble,Carry,0
+filtered8,hmm_spatial_K2,Shot,Carry,0
+filtered8,hmm_spatial_K2,Miscontrol,Carry,0
+filtered8,hmm_spatial_K2,Dispossessed,Carry,0
+filtered8,hmm_spatial_K2,Pass,Ball Recovery,0
+filtered8,hmm_spatial_K2,Carry,Ball Recovery,0
+filtered8,hmm_spatial_K2,Ball Recovery,Ball Recovery,0
+filtered8,hmm_spatial_K2,Clearance,Ball Recovery,0
+filtered8,hmm_spatial_K2,Dribble,Ball Recovery,0
+filtered8,hmm_spatial_K2,Shot,Ball Recovery,0
+filtered8,hmm_spatial_K2,Miscontrol,Ball Recovery,0
+filtered8,hmm_spatial_K2,Dispossessed,Ball Recovery,0
+filtered8,hmm_spatial_K2,Pass,Clearance,0
+filtered8,hmm_spatial_K2,Carry,Clearance,0
+filtered8,hmm_spatial_K2,Ball Recovery,Clearance,0
+filtered8,hmm_spatial_K2,Clearance,Clearance,0
+filtered8,hmm_spatial_K2,Dribble,Clearance,0
+filtered8,hmm_spatial_K2,Shot,Clearance,0
+filtered8,hmm_spatial_K2,Miscontrol,Clearance,0
+filtered8,hmm_spatial_K2,Dispossessed,Clearance,0
+filtered8,hmm_spatial_K2,Pass,Dribble,0
+filtered8,hmm_spatial_K2,Carry,Dribble,0
+filtered8,hmm_spatial_K2,Ball Recovery,Dribble,0
+filtered8,hmm_spatial_K2,Clearance,Dribble,0
+filtered8,hmm_spatial_K2,Dribble,Dribble,0
+filtered8,hmm_spatial_K2,Shot,Dribble,0
+filtered8,hmm_spatial_K2,Miscontrol,Dribble,0
+filtered8,hmm_spatial_K2,Dispossessed,Dribble,0
+filtered8,hmm_spatial_K2,Pass,Shot,0
+filtered8,hmm_spatial_K2,Carry,Shot,0
+filtered8,hmm_spatial_K2,Ball Recovery,Shot,0
+filtered8,hmm_spatial_K2,Clearance,Shot,0
+filtered8,hmm_spatial_K2,Dribble,Shot,0
+filtered8,hmm_spatial_K2,Shot,Shot,0
+filtered8,hmm_spatial_K2,Miscontrol,Shot,0
+filtered8,hmm_spatial_K2,Dispossessed,Shot,0
+filtered8,hmm_spatial_K2,Pass,Miscontrol,0
+filtered8,hmm_spatial_K2,Carry,Miscontrol,0
+filtered8,hmm_spatial_K2,Ball Recovery,Miscontrol,0
+filtered8,hmm_spatial_K2,Clearance,Miscontrol,0
+filtered8,hmm_spatial_K2,Dribble,Miscontrol,0
+filtered8,hmm_spatial_K2,Shot,Miscontrol,0
+filtered8,hmm_spatial_K2,Miscontrol,Miscontrol,0
+filtered8,hmm_spatial_K2,Dispossessed,Miscontrol,0
+filtered8,hmm_spatial_K2,Pass,Dispossessed,0
+filtered8,hmm_spatial_K2,Carry,Dispossessed,0
+filtered8,hmm_spatial_K2,Ball Recovery,Dispossessed,0
+filtered8,hmm_spatial_K2,Clearance,Dispossessed,0
+filtered8,hmm_spatial_K2,Dribble,Dispossessed,0
+filtered8,hmm_spatial_K2,Shot,Dispossessed,0
+filtered8,hmm_spatial_K2,Miscontrol,Dispossessed,0
+filtered8,hmm_spatial_K2,Dispossessed,Dispossessed,0
+filtered8,hmm_spatial_K3,Pass,Pass,29091
+filtered8,hmm_spatial_K3,Carry,Pass,24003
+filtered8,hmm_spatial_K3,Ball Recovery,Pass,2627
+filtered8,hmm_spatial_K3,Clearance,Pass,1058
+filtered8,hmm_spatial_K3,Dribble,Pass,811
+filtered8,hmm_spatial_K3,Shot,Pass,732
+filtered8,hmm_spatial_K3,Miscontrol,Pass,725
+filtered8,hmm_spatial_K3,Dispossessed,Pass,608
+filtered8,hmm_spatial_K3,Pass,Carry,0
+filtered8,hmm_spatial_K3,Carry,Carry,0
+filtered8,hmm_spatial_K3,Ball Recovery,Carry,0
+filtered8,hmm_spatial_K3,Clearance,Carry,0
+filtered8,hmm_spatial_K3,Dribble,Carry,0
+filtered8,hmm_spatial_K3,Shot,Carry,0
+filtered8,hmm_spatial_K3,Miscontrol,Carry,0
+filtered8,hmm_spatial_K3,Dispossessed,Carry,0
+filtered8,hmm_spatial_K3,Pass,Ball Recovery,0
+filtered8,hmm_spatial_K3,Carry,Ball Recovery,0
+filtered8,hmm_spatial_K3,Ball Recovery,Ball Recovery,0
+filtered8,hmm_spatial_K3,Clearance,Ball Recovery,0
+filtered8,hmm_spatial_K3,Dribble,Ball Recovery,0
+filtered8,hmm_spatial_K3,Shot,Ball Recovery,0
+filtered8,hmm_spatial_K3,Miscontrol,Ball Recovery,0
+filtered8,hmm_spatial_K3,Dispossessed,Ball Recovery,0
+filtered8,hmm_spatial_K3,Pass,Clearance,0
+filtered8,hmm_spatial_K3,Carry,Clearance,0
+filtered8,hmm_spatial_K3,Ball Recovery,Clearance,0
+filtered8,hmm_spatial_K3,Clearance,Clearance,0
+filtered8,hmm_spatial_K3,Dribble,Clearance,0
+filtered8,hmm_spatial_K3,Shot,Clearance,0
+filtered8,hmm_spatial_K3,Miscontrol,Clearance,0
+filtered8,hmm_spatial_K3,Dispossessed,Clearance,0
+filtered8,hmm_spatial_K3,Pass,Dribble,0
+filtered8,hmm_spatial_K3,Carry,Dribble,0
+filtered8,hmm_spatial_K3,Ball Recovery,Dribble,0
+filtered8,hmm_spatial_K3,Clearance,Dribble,0
+filtered8,hmm_spatial_K3,Dribble,Dribble,0
+filtered8,hmm_spatial_K3,Shot,Dribble,0
+filtered8,hmm_spatial_K3,Miscontrol,Dribble,0
+filtered8,hmm_spatial_K3,Dispossessed,Dribble,0
+filtered8,hmm_spatial_K3,Pass,Shot,0
+filtered8,hmm_spatial_K3,Carry,Shot,0
+filtered8,hmm_spatial_K3,Ball Recovery,Shot,0
+filtered8,hmm_spatial_K3,Clearance,Shot,0
+filtered8,hmm_spatial_K3,Dribble,Shot,0
+filtered8,hmm_spatial_K3,Shot,Shot,0
+filtered8,hmm_spatial_K3,Miscontrol,Shot,0
+filtered8,hmm_spatial_K3,Dispossessed,Shot,0
+filtered8,hmm_spatial_K3,Pass,Miscontrol,0
+filtered8,hmm_spatial_K3,Carry,Miscontrol,0
+filtered8,hmm_spatial_K3,Ball Recovery,Miscontrol,0
+filtered8,hmm_spatial_K3,Clearance,Miscontrol,0
+filtered8,hmm_spatial_K3,Dribble,Miscontrol,0
+filtered8,hmm_spatial_K3,Shot,Miscontrol,0
+filtered8,hmm_spatial_K3,Miscontrol,Miscontrol,0
+filtered8,hmm_spatial_K3,Dispossessed,Miscontrol,0
+filtered8,hmm_spatial_K3,Pass,Dispossessed,0
+filtered8,hmm_spatial_K3,Carry,Dispossessed,0
+filtered8,hmm_spatial_K3,Ball Recovery,Dispossessed,0
+filtered8,hmm_spatial_K3,Clearance,Dispossessed,0
+filtered8,hmm_spatial_K3,Dribble,Dispossessed,0
+filtered8,hmm_spatial_K3,Shot,Dispossessed,0
+filtered8,hmm_spatial_K3,Miscontrol,Dispossessed,0
+filtered8,hmm_spatial_K3,Dispossessed,Dispossessed,0
+filtered8,hmm_spatial_K4,Pass,Pass,29091
+filtered8,hmm_spatial_K4,Carry,Pass,24003
+filtered8,hmm_spatial_K4,Ball Recovery,Pass,2627
+filtered8,hmm_spatial_K4,Clearance,Pass,1058
+filtered8,hmm_spatial_K4,Dribble,Pass,811
+filtered8,hmm_spatial_K4,Shot,Pass,732
+filtered8,hmm_spatial_K4,Miscontrol,Pass,725
+filtered8,hmm_spatial_K4,Dispossessed,Pass,608
+filtered8,hmm_spatial_K4,Pass,Carry,0
+filtered8,hmm_spatial_K4,Carry,Carry,0
+filtered8,hmm_spatial_K4,Ball Recovery,Carry,0
+filtered8,hmm_spatial_K4,Clearance,Carry,0
+filtered8,hmm_spatial_K4,Dribble,Carry,0
+filtered8,hmm_spatial_K4,Shot,Carry,0
+filtered8,hmm_spatial_K4,Miscontrol,Carry,0
+filtered8,hmm_spatial_K4,Dispossessed,Carry,0
+filtered8,hmm_spatial_K4,Pass,Ball Recovery,0
+filtered8,hmm_spatial_K4,Carry,Ball Recovery,0
+filtered8,hmm_spatial_K4,Ball Recovery,Ball Recovery,0
+filtered8,hmm_spatial_K4,Clearance,Ball Recovery,0
+filtered8,hmm_spatial_K4,Dribble,Ball Recovery,0
+filtered8,hmm_spatial_K4,Shot,Ball Recovery,0
+filtered8,hmm_spatial_K4,Miscontrol,Ball Recovery,0
+filtered8,hmm_spatial_K4,Dispossessed,Ball Recovery,0
+filtered8,hmm_spatial_K4,Pass,Clearance,0
+filtered8,hmm_spatial_K4,Carry,Clearance,0
+filtered8,hmm_spatial_K4,Ball Recovery,Clearance,0
+filtered8,hmm_spatial_K4,Clearance,Clearance,0
+filtered8,hmm_spatial_K4,Dribble,Clearance,0
+filtered8,hmm_spatial_K4,Shot,Clearance,0
+filtered8,hmm_spatial_K4,Miscontrol,Clearance,0
+filtered8,hmm_spatial_K4,Dispossessed,Clearance,0
+filtered8,hmm_spatial_K4,Pass,Dribble,0
+filtered8,hmm_spatial_K4,Carry,Dribble,0
+filtered8,hmm_spatial_K4,Ball Recovery,Dribble,0
+filtered8,hmm_spatial_K4,Clearance,Dribble,0
+filtered8,hmm_spatial_K4,Dribble,Dribble,0
+filtered8,hmm_spatial_K4,Shot,Dribble,0
+filtered8,hmm_spatial_K4,Miscontrol,Dribble,0
+filtered8,hmm_spatial_K4,Dispossessed,Dribble,0
+filtered8,hmm_spatial_K4,Pass,Shot,0
+filtered8,hmm_spatial_K4,Carry,Shot,0
+filtered8,hmm_spatial_K4,Ball Recovery,Shot,0
+filtered8,hmm_spatial_K4,Clearance,Shot,0
+filtered8,hmm_spatial_K4,Dribble,Shot,0
+filtered8,hmm_spatial_K4,Shot,Shot,0
+filtered8,hmm_spatial_K4,Miscontrol,Shot,0
+filtered8,hmm_spatial_K4,Dispossessed,Shot,0
+filtered8,hmm_spatial_K4,Pass,Miscontrol,0
+filtered8,hmm_spatial_K4,Carry,Miscontrol,0
+filtered8,hmm_spatial_K4,Ball Recovery,Miscontrol,0
+filtered8,hmm_spatial_K4,Clearance,Miscontrol,0
+filtered8,hmm_spatial_K4,Dribble,Miscontrol,0
+filtered8,hmm_spatial_K4,Shot,Miscontrol,0
+filtered8,hmm_spatial_K4,Miscontrol,Miscontrol,0
+filtered8,hmm_spatial_K4,Dispossessed,Miscontrol,0
+filtered8,hmm_spatial_K4,Pass,Dispossessed,0
+filtered8,hmm_spatial_K4,Carry,Dispossessed,0
+filtered8,hmm_spatial_K4,Ball Recovery,Dispossessed,0
+filtered8,hmm_spatial_K4,Clearance,Dispossessed,0
+filtered8,hmm_spatial_K4,Dribble,Dispossessed,0
+filtered8,hmm_spatial_K4,Shot,Dispossessed,0
+filtered8,hmm_spatial_K4,Miscontrol,Dispossessed,0
+filtered8,hmm_spatial_K4,Dispossessed,Dispossessed,0
+filtered8,hmm_spatial_K5,Pass,Pass,29091
+filtered8,hmm_spatial_K5,Carry,Pass,24003
+filtered8,hmm_spatial_K5,Ball Recovery,Pass,2627
+filtered8,hmm_spatial_K5,Clearance,Pass,1058
+filtered8,hmm_spatial_K5,Dribble,Pass,811
+filtered8,hmm_spatial_K5,Shot,Pass,732
+filtered8,hmm_spatial_K5,Miscontrol,Pass,725
+filtered8,hmm_spatial_K5,Dispossessed,Pass,608
+filtered8,hmm_spatial_K5,Pass,Carry,0
+filtered8,hmm_spatial_K5,Carry,Carry,0
+filtered8,hmm_spatial_K5,Ball Recovery,Carry,0
+filtered8,hmm_spatial_K5,Clearance,Carry,0
+filtered8,hmm_spatial_K5,Dribble,Carry,0
+filtered8,hmm_spatial_K5,Shot,Carry,0
+filtered8,hmm_spatial_K5,Miscontrol,Carry,0
+filtered8,hmm_spatial_K5,Dispossessed,Carry,0
+filtered8,hmm_spatial_K5,Pass,Ball Recovery,0
+filtered8,hmm_spatial_K5,Carry,Ball Recovery,0
+filtered8,hmm_spatial_K5,Ball Recovery,Ball Recovery,0
+filtered8,hmm_spatial_K5,Clearance,Ball Recovery,0
+filtered8,hmm_spatial_K5,Dribble,Ball Recovery,0
+filtered8,hmm_spatial_K5,Shot,Ball Recovery,0
+filtered8,hmm_spatial_K5,Miscontrol,Ball Recovery,0
+filtered8,hmm_spatial_K5,Dispossessed,Ball Recovery,0
+filtered8,hmm_spatial_K5,Pass,Clearance,0
+filtered8,hmm_spatial_K5,Carry,Clearance,0
+filtered8,hmm_spatial_K5,Ball Recovery,Clearance,0
+filtered8,hmm_spatial_K5,Clearance,Clearance,0
+filtered8,hmm_spatial_K5,Dribble,Clearance,0
+filtered8,hmm_spatial_K5,Shot,Clearance,0
+filtered8,hmm_spatial_K5,Miscontrol,Clearance,0
+filtered8,hmm_spatial_K5,Dispossessed,Clearance,0
+filtered8,hmm_spatial_K5,Pass,Dribble,0
+filtered8,hmm_spatial_K5,Carry,Dribble,0
+filtered8,hmm_spatial_K5,Ball Recovery,Dribble,0
+filtered8,hmm_spatial_K5,Clearance,Dribble,0
+filtered8,hmm_spatial_K5,Dribble,Dribble,0
+filtered8,hmm_spatial_K5,Shot,Dribble,0
+filtered8,hmm_spatial_K5,Miscontrol,Dribble,0
+filtered8,hmm_spatial_K5,Dispossessed,Dribble,0
+filtered8,hmm_spatial_K5,Pass,Shot,0
+filtered8,hmm_spatial_K5,Carry,Shot,0
+filtered8,hmm_spatial_K5,Ball Recovery,Shot,0
+filtered8,hmm_spatial_K5,Clearance,Shot,0
+filtered8,hmm_spatial_K5,Dribble,Shot,0
+filtered8,hmm_spatial_K5,Shot,Shot,0
+filtered8,hmm_spatial_K5,Miscontrol,Shot,0
+filtered8,hmm_spatial_K5,Dispossessed,Shot,0
+filtered8,hmm_spatial_K5,Pass,Miscontrol,0
+filtered8,hmm_spatial_K5,Carry,Miscontrol,0
+filtered8,hmm_spatial_K5,Ball Recovery,Miscontrol,0
+filtered8,hmm_spatial_K5,Clearance,Miscontrol,0
+filtered8,hmm_spatial_K5,Dribble,Miscontrol,0
+filtered8,hmm_spatial_K5,Shot,Miscontrol,0
+filtered8,hmm_spatial_K5,Miscontrol,Miscontrol,0
+filtered8,hmm_spatial_K5,Dispossessed,Miscontrol,0
+filtered8,hmm_spatial_K5,Pass,Dispossessed,0
+filtered8,hmm_spatial_K5,Carry,Dispossessed,0
+filtered8,hmm_spatial_K5,Ball Recovery,Dispossessed,0
+filtered8,hmm_spatial_K5,Clearance,Dispossessed,0
+filtered8,hmm_spatial_K5,Dribble,Dispossessed,0
+filtered8,hmm_spatial_K5,Shot,Dispossessed,0
+filtered8,hmm_spatial_K5,Miscontrol,Dispossessed,0
+filtered8,hmm_spatial_K5,Dispossessed,Dispossessed,0
+fullstream9,frequency_baseline,Pass,Pass,0
+fullstream9,frequency_baseline,Carry,Pass,0
+fullstream9,frequency_baseline,Ball Recovery,Pass,0
+fullstream9,frequency_baseline,Clearance,Pass,0
+fullstream9,frequency_baseline,Dribble,Pass,0
+fullstream9,frequency_baseline,Shot,Pass,0
+fullstream9,frequency_baseline,Miscontrol,Pass,0
+fullstream9,frequency_baseline,Dispossessed,Pass,0
+fullstream9,frequency_baseline,Other,Pass,0
+fullstream9,frequency_baseline,Pass,Carry,0
+fullstream9,frequency_baseline,Carry,Carry,0
+fullstream9,frequency_baseline,Ball Recovery,Carry,0
+fullstream9,frequency_baseline,Clearance,Carry,0
+fullstream9,frequency_baseline,Dribble,Carry,0
+fullstream9,frequency_baseline,Shot,Carry,0
+fullstream9,frequency_baseline,Miscontrol,Carry,0
+fullstream9,frequency_baseline,Dispossessed,Carry,0
+fullstream9,frequency_baseline,Other,Carry,0
+fullstream9,frequency_baseline,Pass,Ball Recovery,0
+fullstream9,frequency_baseline,Carry,Ball Recovery,0
+fullstream9,frequency_baseline,Ball Recovery,Ball Recovery,0
+fullstream9,frequency_baseline,Clearance,Ball Recovery,0
+fullstream9,frequency_baseline,Dribble,Ball Recovery,0
+fullstream9,frequency_baseline,Shot,Ball Recovery,0
+fullstream9,frequency_baseline,Miscontrol,Ball Recovery,0
+fullstream9,frequency_baseline,Dispossessed,Ball Recovery,0
+fullstream9,frequency_baseline,Other,Ball Recovery,0
+fullstream9,frequency_baseline,Pass,Clearance,0
+fullstream9,frequency_baseline,Carry,Clearance,0
+fullstream9,frequency_baseline,Ball Recovery,Clearance,0
+fullstream9,frequency_baseline,Clearance,Clearance,0
+fullstream9,frequency_baseline,Dribble,Clearance,0
+fullstream9,frequency_baseline,Shot,Clearance,0
+fullstream9,frequency_baseline,Miscontrol,Clearance,0
+fullstream9,frequency_baseline,Dispossessed,Clearance,0
+fullstream9,frequency_baseline,Other,Clearance,0
+fullstream9,frequency_baseline,Pass,Dribble,0
+fullstream9,frequency_baseline,Carry,Dribble,0
+fullstream9,frequency_baseline,Ball Recovery,Dribble,0
+fullstream9,frequency_baseline,Clearance,Dribble,0
+fullstream9,frequency_baseline,Dribble,Dribble,0
+fullstream9,frequency_baseline,Shot,Dribble,0
+fullstream9,frequency_baseline,Miscontrol,Dribble,0
+fullstream9,frequency_baseline,Dispossessed,Dribble,0
+fullstream9,frequency_baseline,Other,Dribble,0
+fullstream9,frequency_baseline,Pass,Shot,0
+fullstream9,frequency_baseline,Carry,Shot,0
+fullstream9,frequency_baseline,Ball Recovery,Shot,0
+fullstream9,frequency_baseline,Clearance,Shot,0
+fullstream9,frequency_baseline,Dribble,Shot,0
+fullstream9,frequency_baseline,Shot,Shot,0
+fullstream9,frequency_baseline,Miscontrol,Shot,0
+fullstream9,frequency_baseline,Dispossessed,Shot,0
+fullstream9,frequency_baseline,Other,Shot,0
+fullstream9,frequency_baseline,Pass,Miscontrol,0
+fullstream9,frequency_baseline,Carry,Miscontrol,0
+fullstream9,frequency_baseline,Ball Recovery,Miscontrol,0
+fullstream9,frequency_baseline,Clearance,Miscontrol,0
+fullstream9,frequency_baseline,Dribble,Miscontrol,0
+fullstream9,frequency_baseline,Shot,Miscontrol,0
+fullstream9,frequency_baseline,Miscontrol,Miscontrol,0
+fullstream9,frequency_baseline,Dispossessed,Miscontrol,0
+fullstream9,frequency_baseline,Other,Miscontrol,0
+fullstream9,frequency_baseline,Pass,Dispossessed,0
+fullstream9,frequency_baseline,Carry,Dispossessed,0
+fullstream9,frequency_baseline,Ball Recovery,Dispossessed,0
+fullstream9,frequency_baseline,Clearance,Dispossessed,0
+fullstream9,frequency_baseline,Dribble,Dispossessed,0
+fullstream9,frequency_baseline,Shot,Dispossessed,0
+fullstream9,frequency_baseline,Miscontrol,Dispossessed,0
+fullstream9,frequency_baseline,Dispossessed,Dispossessed,0
+fullstream9,frequency_baseline,Other,Dispossessed,0
+fullstream9,frequency_baseline,Pass,Other,19379
+fullstream9,frequency_baseline,Carry,Other,2683
+fullstream9,frequency_baseline,Ball Recovery,Other,841
+fullstream9,frequency_baseline,Clearance,Other,306
+fullstream9,frequency_baseline,Dribble,Other,139
+fullstream9,frequency_baseline,Shot,Other,297
+fullstream9,frequency_baseline,Miscontrol,Other,469
+fullstream9,frequency_baseline,Dispossessed,Other,192
+fullstream9,frequency_baseline,Other,Other,35407
+fullstream9,markov_order1,Pass,Pass,18749
+fullstream9,markov_order1,Carry,Pass,0
+fullstream9,markov_order1,Ball Recovery,Pass,405
+fullstream9,markov_order1,Clearance,Pass,71
+fullstream9,markov_order1,Dribble,Pass,138
+fullstream9,markov_order1,Shot,Pass,212
+fullstream9,markov_order1,Miscontrol,Pass,469
+fullstream9,markov_order1,Dispossessed,Pass,191
+fullstream9,markov_order1,Other,Pass,5803
+fullstream9,markov_order1,Pass,Carry,135
+fullstream9,markov_order1,Carry,Carry,2683
+fullstream9,markov_order1,Ball Recovery,Carry,69
+fullstream9,markov_order1,Clearance,Carry,11
+fullstream9,markov_order1,Dribble,Carry,1
+fullstream9,markov_order1,Shot,Carry,85
+fullstream9,markov_order1,Miscontrol,Carry,0
+fullstream9,markov_order1,Dispossessed,Carry,0
+fullstream9,markov_order1,Other,Carry,453
+fullstream9,markov_order1,Pass,Ball Recovery,0
+fullstream9,markov_order1,Carry,Ball Recovery,0
+fullstream9,markov_order1,Ball Recovery,Ball Recovery,0
+fullstream9,markov_order1,Clearance,Ball Recovery,0
+fullstream9,markov_order1,Dribble,Ball Recovery,0
+fullstream9,markov_order1,Shot,Ball Recovery,0
+fullstream9,markov_order1,Miscontrol,Ball Recovery,0
+fullstream9,markov_order1,Dispossessed,Ball Recovery,0
+fullstream9,markov_order1,Other,Ball Recovery,0
+fullstream9,markov_order1,Pass,Clearance,0
+fullstream9,markov_order1,Carry,Clearance,0
+fullstream9,markov_order1,Ball Recovery,Clearance,0
+fullstream9,markov_order1,Clearance,Clearance,0
+fullstream9,markov_order1,Dribble,Clearance,0
+fullstream9,markov_order1,Shot,Clearance,0
+fullstream9,markov_order1,Miscontrol,Clearance,0
+fullstream9,markov_order1,Dispossessed,Clearance,0
+fullstream9,markov_order1,Other,Clearance,0
+fullstream9,markov_order1,Pass,Dribble,0
+fullstream9,markov_order1,Carry,Dribble,0
+fullstream9,markov_order1,Ball Recovery,Dribble,0
+fullstream9,markov_order1,Clearance,Dribble,0
+fullstream9,markov_order1,Dribble,Dribble,0
+fullstream9,markov_order1,Shot,Dribble,0
+fullstream9,markov_order1,Miscontrol,Dribble,0
+fullstream9,markov_order1,Dispossessed,Dribble,0
+fullstream9,markov_order1,Other,Dribble,0
+fullstream9,markov_order1,Pass,Shot,0
+fullstream9,markov_order1,Carry,Shot,0
+fullstream9,markov_order1,Ball Recovery,Shot,0
+fullstream9,markov_order1,Clearance,Shot,0
+fullstream9,markov_order1,Dribble,Shot,0
+fullstream9,markov_order1,Shot,Shot,0
+fullstream9,markov_order1,Miscontrol,Shot,0
+fullstream9,markov_order1,Dispossessed,Shot,0
+fullstream9,markov_order1,Other,Shot,0
+fullstream9,markov_order1,Pass,Miscontrol,0
+fullstream9,markov_order1,Carry,Miscontrol,0
+fullstream9,markov_order1,Ball Recovery,Miscontrol,0
+fullstream9,markov_order1,Clearance,Miscontrol,0
+fullstream9,markov_order1,Dribble,Miscontrol,0
+fullstream9,markov_order1,Shot,Miscontrol,0
+fullstream9,markov_order1,Miscontrol,Miscontrol,0
+fullstream9,markov_order1,Dispossessed,Miscontrol,0
+fullstream9,markov_order1,Other,Miscontrol,0
+fullstream9,markov_order1,Pass,Dispossessed,0
+fullstream9,markov_order1,Carry,Dispossessed,0
+fullstream9,markov_order1,Ball Recovery,Dispossessed,0
+fullstream9,markov_order1,Clearance,Dispossessed,0
+fullstream9,markov_order1,Dribble,Dispossessed,0
+fullstream9,markov_order1,Shot,Dispossessed,0
+fullstream9,markov_order1,Miscontrol,Dispossessed,0
+fullstream9,markov_order1,Dispossessed,Dispossessed,0
+fullstream9,markov_order1,Other,Dispossessed,0
+fullstream9,markov_order1,Pass,Other,495
+fullstream9,markov_order1,Carry,Other,0
+fullstream9,markov_order1,Ball Recovery,Other,367
+fullstream9,markov_order1,Clearance,Other,224
+fullstream9,markov_order1,Dribble,Other,0
+fullstream9,markov_order1,Shot,Other,0
+fullstream9,markov_order1,Miscontrol,Other,0
+fullstream9,markov_order1,Dispossessed,Other,1
+fullstream9,markov_order1,Other,Other,29151
+fullstream9,markov_order2,Pass,Pass,18682
+fullstream9,markov_order2,Carry,Pass,0
+fullstream9,markov_order2,Ball Recovery,Pass,367
+fullstream9,markov_order2,Clearance,Pass,63
+fullstream9,markov_order2,Dribble,Pass,138
+fullstream9,markov_order2,Shot,Pass,212
+fullstream9,markov_order2,Miscontrol,Pass,469
+fullstream9,markov_order2,Dispossessed,Pass,191
+fullstream9,markov_order2,Other,Pass,5739
+fullstream9,markov_order2,Pass,Carry,134
+fullstream9,markov_order2,Carry,Carry,2683
+fullstream9,markov_order2,Ball Recovery,Carry,69
+fullstream9,markov_order2,Clearance,Carry,11
+fullstream9,markov_order2,Dribble,Carry,1
+fullstream9,markov_order2,Shot,Carry,85
+fullstream9,markov_order2,Miscontrol,Carry,0
+fullstream9,markov_order2,Dispossessed,Carry,0
+fullstream9,markov_order2,Other,Carry,318
+fullstream9,markov_order2,Pass,Ball Recovery,24
+fullstream9,markov_order2,Carry,Ball Recovery,0
+fullstream9,markov_order2,Ball Recovery,Ball Recovery,11
+fullstream9,markov_order2,Clearance,Ball Recovery,2
+fullstream9,markov_order2,Dribble,Ball Recovery,0
+fullstream9,markov_order2,Shot,Ball Recovery,0
+fullstream9,markov_order2,Miscontrol,Ball Recovery,0
+fullstream9,markov_order2,Dispossessed,Ball Recovery,0
+fullstream9,markov_order2,Other,Ball Recovery,4
+fullstream9,markov_order2,Pass,Clearance,0
+fullstream9,markov_order2,Carry,Clearance,0
+fullstream9,markov_order2,Ball Recovery,Clearance,0
+fullstream9,markov_order2,Clearance,Clearance,0
+fullstream9,markov_order2,Dribble,Clearance,0
+fullstream9,markov_order2,Shot,Clearance,0
+fullstream9,markov_order2,Miscontrol,Clearance,0
+fullstream9,markov_order2,Dispossessed,Clearance,0
+fullstream9,markov_order2,Other,Clearance,0
+fullstream9,markov_order2,Pass,Dribble,0
+fullstream9,markov_order2,Carry,Dribble,0
+fullstream9,markov_order2,Ball Recovery,Dribble,0
+fullstream9,markov_order2,Clearance,Dribble,0
+fullstream9,markov_order2,Dribble,Dribble,0
+fullstream9,markov_order2,Shot,Dribble,0
+fullstream9,markov_order2,Miscontrol,Dribble,0
+fullstream9,markov_order2,Dispossessed,Dribble,0
+fullstream9,markov_order2,Other,Dribble,0
+fullstream9,markov_order2,Pass,Shot,0
+fullstream9,markov_order2,Carry,Shot,0
+fullstream9,markov_order2,Ball Recovery,Shot,0
+fullstream9,markov_order2,Clearance,Shot,0
+fullstream9,markov_order2,Dribble,Shot,0
+fullstream9,markov_order2,Shot,Shot,0
+fullstream9,markov_order2,Miscontrol,Shot,0
+fullstream9,markov_order2,Dispossessed,Shot,0
+fullstream9,markov_order2,Other,Shot,0
+fullstream9,markov_order2,Pass,Miscontrol,0
+fullstream9,markov_order2,Carry,Miscontrol,0
+fullstream9,markov_order2,Ball Recovery,Miscontrol,0
+fullstream9,markov_order2,Clearance,Miscontrol,0
+fullstream9,markov_order2,Dribble,Miscontrol,0
+fullstream9,markov_order2,Shot,Miscontrol,0
+fullstream9,markov_order2,Miscontrol,Miscontrol,0
+fullstream9,markov_order2,Dispossessed,Miscontrol,0
+fullstream9,markov_order2,Other,Miscontrol,0
+fullstream9,markov_order2,Pass,Dispossessed,0
+fullstream9,markov_order2,Carry,Dispossessed,0
+fullstream9,markov_order2,Ball Recovery,Dispossessed,0
+fullstream9,markov_order2,Clearance,Dispossessed,0
+fullstream9,markov_order2,Dribble,Dispossessed,0
+fullstream9,markov_order2,Shot,Dispossessed,0
+fullstream9,markov_order2,Miscontrol,Dispossessed,0
+fullstream9,markov_order2,Dispossessed,Dispossessed,0
+fullstream9,markov_order2,Other,Dispossessed,0
+fullstream9,markov_order2,Pass,Other,539
+fullstream9,markov_order2,Carry,Other,0
+fullstream9,markov_order2,Ball Recovery,Other,394
+fullstream9,markov_order2,Clearance,Other,230
+fullstream9,markov_order2,Dribble,Other,0
+fullstream9,markov_order2,Shot,Other,0
+fullstream9,markov_order2,Miscontrol,Other,0
+fullstream9,markov_order2,Dispossessed,Other,1
+fullstream9,markov_order2,Other,Other,29346
+fullstream9,hmm_event_K2,Pass,Pass,0
+fullstream9,hmm_event_K2,Carry,Pass,0
+fullstream9,hmm_event_K2,Ball Recovery,Pass,0
+fullstream9,hmm_event_K2,Clearance,Pass,0
+fullstream9,hmm_event_K2,Dribble,Pass,0
+fullstream9,hmm_event_K2,Shot,Pass,0
+fullstream9,hmm_event_K2,Miscontrol,Pass,0
+fullstream9,hmm_event_K2,Dispossessed,Pass,0
+fullstream9,hmm_event_K2,Other,Pass,0
+fullstream9,hmm_event_K2,Pass,Carry,0
+fullstream9,hmm_event_K2,Carry,Carry,0
+fullstream9,hmm_event_K2,Ball Recovery,Carry,0
+fullstream9,hmm_event_K2,Clearance,Carry,0
+fullstream9,hmm_event_K2,Dribble,Carry,0
+fullstream9,hmm_event_K2,Shot,Carry,0
+fullstream9,hmm_event_K2,Miscontrol,Carry,0
+fullstream9,hmm_event_K2,Dispossessed,Carry,0
+fullstream9,hmm_event_K2,Other,Carry,0
+fullstream9,hmm_event_K2,Pass,Ball Recovery,0
+fullstream9,hmm_event_K2,Carry,Ball Recovery,0
+fullstream9,hmm_event_K2,Ball Recovery,Ball Recovery,0
+fullstream9,hmm_event_K2,Clearance,Ball Recovery,0
+fullstream9,hmm_event_K2,Dribble,Ball Recovery,0
+fullstream9,hmm_event_K2,Shot,Ball Recovery,0
+fullstream9,hmm_event_K2,Miscontrol,Ball Recovery,0
+fullstream9,hmm_event_K2,Dispossessed,Ball Recovery,0
+fullstream9,hmm_event_K2,Other,Ball Recovery,0
+fullstream9,hmm_event_K2,Pass,Clearance,0
+fullstream9,hmm_event_K2,Carry,Clearance,0
+fullstream9,hmm_event_K2,Ball Recovery,Clearance,0
+fullstream9,hmm_event_K2,Clearance,Clearance,0
+fullstream9,hmm_event_K2,Dribble,Clearance,0
+fullstream9,hmm_event_K2,Shot,Clearance,0
+fullstream9,hmm_event_K2,Miscontrol,Clearance,0
+fullstream9,hmm_event_K2,Dispossessed,Clearance,0
+fullstream9,hmm_event_K2,Other,Clearance,0
+fullstream9,hmm_event_K2,Pass,Dribble,0
+fullstream9,hmm_event_K2,Carry,Dribble,0
+fullstream9,hmm_event_K2,Ball Recovery,Dribble,0
+fullstream9,hmm_event_K2,Clearance,Dribble,0
+fullstream9,hmm_event_K2,Dribble,Dribble,0
+fullstream9,hmm_event_K2,Shot,Dribble,0
+fullstream9,hmm_event_K2,Miscontrol,Dribble,0
+fullstream9,hmm_event_K2,Dispossessed,Dribble,0
+fullstream9,hmm_event_K2,Other,Dribble,0
+fullstream9,hmm_event_K2,Pass,Shot,0
+fullstream9,hmm_event_K2,Carry,Shot,0
+fullstream9,hmm_event_K2,Ball Recovery,Shot,0
+fullstream9,hmm_event_K2,Clearance,Shot,0
+fullstream9,hmm_event_K2,Dribble,Shot,0
+fullstream9,hmm_event_K2,Shot,Shot,0
+fullstream9,hmm_event_K2,Miscontrol,Shot,0
+fullstream9,hmm_event_K2,Dispossessed,Shot,0
+fullstream9,hmm_event_K2,Other,Shot,0
+fullstream9,hmm_event_K2,Pass,Miscontrol,0
+fullstream9,hmm_event_K2,Carry,Miscontrol,0
+fullstream9,hmm_event_K2,Ball Recovery,Miscontrol,0
+fullstream9,hmm_event_K2,Clearance,Miscontrol,0
+fullstream9,hmm_event_K2,Dribble,Miscontrol,0
+fullstream9,hmm_event_K2,Shot,Miscontrol,0
+fullstream9,hmm_event_K2,Miscontrol,Miscontrol,0
+fullstream9,hmm_event_K2,Dispossessed,Miscontrol,0
+fullstream9,hmm_event_K2,Other,Miscontrol,0
+fullstream9,hmm_event_K2,Pass,Dispossessed,0
+fullstream9,hmm_event_K2,Carry,Dispossessed,0
+fullstream9,hmm_event_K2,Ball Recovery,Dispossessed,0
+fullstream9,hmm_event_K2,Clearance,Dispossessed,0
+fullstream9,hmm_event_K2,Dribble,Dispossessed,0
+fullstream9,hmm_event_K2,Shot,Dispossessed,0
+fullstream9,hmm_event_K2,Miscontrol,Dispossessed,0
+fullstream9,hmm_event_K2,Dispossessed,Dispossessed,0
+fullstream9,hmm_event_K2,Other,Dispossessed,0
+fullstream9,hmm_event_K2,Pass,Other,19379
+fullstream9,hmm_event_K2,Carry,Other,2683
+fullstream9,hmm_event_K2,Ball Recovery,Other,841
+fullstream9,hmm_event_K2,Clearance,Other,306
+fullstream9,hmm_event_K2,Dribble,Other,139
+fullstream9,hmm_event_K2,Shot,Other,297
+fullstream9,hmm_event_K2,Miscontrol,Other,469
+fullstream9,hmm_event_K2,Dispossessed,Other,192
+fullstream9,hmm_event_K2,Other,Other,35407
+fullstream9,hmm_event_K3,Pass,Pass,18548
+fullstream9,hmm_event_K3,Carry,Pass,0
+fullstream9,hmm_event_K3,Ball Recovery,Pass,241
+fullstream9,hmm_event_K3,Clearance,Pass,50
+fullstream9,hmm_event_K3,Dribble,Pass,138
+fullstream9,hmm_event_K3,Shot,Pass,212
+fullstream9,hmm_event_K3,Miscontrol,Pass,468
+fullstream9,hmm_event_K3,Dispossessed,Pass,191
+fullstream9,hmm_event_K3,Other,Pass,5609
+fullstream9,hmm_event_K3,Pass,Carry,228
+fullstream9,hmm_event_K3,Carry,Carry,2254
+fullstream9,hmm_event_K3,Ball Recovery,Carry,149
+fullstream9,hmm_event_K3,Clearance,Carry,18
+fullstream9,hmm_event_K3,Dribble,Carry,1
+fullstream9,hmm_event_K3,Shot,Carry,85
+fullstream9,hmm_event_K3,Miscontrol,Carry,0
+fullstream9,hmm_event_K3,Dispossessed,Carry,0
+fullstream9,hmm_event_K3,Other,Carry,160
+fullstream9,hmm_event_K3,Pass,Ball Recovery,0
+fullstream9,hmm_event_K3,Carry,Ball Recovery,0
+fullstream9,hmm_event_K3,Ball Recovery,Ball Recovery,0
+fullstream9,hmm_event_K3,Clearance,Ball Recovery,0
+fullstream9,hmm_event_K3,Dribble,Ball Recovery,0
+fullstream9,hmm_event_K3,Shot,Ball Recovery,0
+fullstream9,hmm_event_K3,Miscontrol,Ball Recovery,0
+fullstream9,hmm_event_K3,Dispossessed,Ball Recovery,0
+fullstream9,hmm_event_K3,Other,Ball Recovery,0
+fullstream9,hmm_event_K3,Pass,Clearance,0
+fullstream9,hmm_event_K3,Carry,Clearance,0
+fullstream9,hmm_event_K3,Ball Recovery,Clearance,0
+fullstream9,hmm_event_K3,Clearance,Clearance,0
+fullstream9,hmm_event_K3,Dribble,Clearance,0
+fullstream9,hmm_event_K3,Shot,Clearance,0
+fullstream9,hmm_event_K3,Miscontrol,Clearance,0
+fullstream9,hmm_event_K3,Dispossessed,Clearance,0
+fullstream9,hmm_event_K3,Other,Clearance,0
+fullstream9,hmm_event_K3,Pass,Dribble,0
+fullstream9,hmm_event_K3,Carry,Dribble,0
+fullstream9,hmm_event_K3,Ball Recovery,Dribble,0
+fullstream9,hmm_event_K3,Clearance,Dribble,0
+fullstream9,hmm_event_K3,Dribble,Dribble,0
+fullstream9,hmm_event_K3,Shot,Dribble,0
+fullstream9,hmm_event_K3,Miscontrol,Dribble,0
+fullstream9,hmm_event_K3,Dispossessed,Dribble,0
+fullstream9,hmm_event_K3,Other,Dribble,0
+fullstream9,hmm_event_K3,Pass,Shot,0
+fullstream9,hmm_event_K3,Carry,Shot,0
+fullstream9,hmm_event_K3,Ball Recovery,Shot,0
+fullstream9,hmm_event_K3,Clearance,Shot,0
+fullstream9,hmm_event_K3,Dribble,Shot,0
+fullstream9,hmm_event_K3,Shot,Shot,0
+fullstream9,hmm_event_K3,Miscontrol,Shot,0
+fullstream9,hmm_event_K3,Dispossessed,Shot,0
+fullstream9,hmm_event_K3,Other,Shot,0
+fullstream9,hmm_event_K3,Pass,Miscontrol,0
+fullstream9,hmm_event_K3,Carry,Miscontrol,0
+fullstream9,hmm_event_K3,Ball Recovery,Miscontrol,0
+fullstream9,hmm_event_K3,Clearance,Miscontrol,0
+fullstream9,hmm_event_K3,Dribble,Miscontrol,0
+fullstream9,hmm_event_K3,Shot,Miscontrol,0
+fullstream9,hmm_event_K3,Miscontrol,Miscontrol,0
+fullstream9,hmm_event_K3,Dispossessed,Miscontrol,0
+fullstream9,hmm_event_K3,Other,Miscontrol,0
+fullstream9,hmm_event_K3,Pass,Dispossessed,0
+fullstream9,hmm_event_K3,Carry,Dispossessed,0
+fullstream9,hmm_event_K3,Ball Recovery,Dispossessed,0
+fullstream9,hmm_event_K3,Clearance,Dispossessed,0
+fullstream9,hmm_event_K3,Dribble,Dispossessed,0
+fullstream9,hmm_event_K3,Shot,Dispossessed,0
+fullstream9,hmm_event_K3,Miscontrol,Dispossessed,0
+fullstream9,hmm_event_K3,Dispossessed,Dispossessed,0
+fullstream9,hmm_event_K3,Other,Dispossessed,0
+fullstream9,hmm_event_K3,Pass,Other,603
+fullstream9,hmm_event_K3,Carry,Other,429
+fullstream9,hmm_event_K3,Ball Recovery,Other,451
+fullstream9,hmm_event_K3,Clearance,Other,238
+fullstream9,hmm_event_K3,Dribble,Other,0
+fullstream9,hmm_event_K3,Shot,Other,0
+fullstream9,hmm_event_K3,Miscontrol,Other,1
+fullstream9,hmm_event_K3,Dispossessed,Other,1
+fullstream9,hmm_event_K3,Other,Other,29638
+fullstream9,hmm_event_K4,Pass,Pass,18623
+fullstream9,hmm_event_K4,Carry,Pass,5
+fullstream9,hmm_event_K4,Ball Recovery,Pass,310
+fullstream9,hmm_event_K4,Clearance,Pass,59
+fullstream9,hmm_event_K4,Dribble,Pass,138
+fullstream9,hmm_event_K4,Shot,Pass,212
+fullstream9,hmm_event_K4,Miscontrol,Pass,468
+fullstream9,hmm_event_K4,Dispossessed,Pass,191
+fullstream9,hmm_event_K4,Other,Pass,5722
+fullstream9,hmm_event_K4,Pass,Carry,129
+fullstream9,hmm_event_K4,Carry,Carry,2245
+fullstream9,hmm_event_K4,Ball Recovery,Carry,61
+fullstream9,hmm_event_K4,Clearance,Carry,8
+fullstream9,hmm_event_K4,Dribble,Carry,1
+fullstream9,hmm_event_K4,Shot,Carry,85
+fullstream9,hmm_event_K4,Miscontrol,Carry,0
+fullstream9,hmm_event_K4,Dispossessed,Carry,0
+fullstream9,hmm_event_K4,Other,Carry,101
+fullstream9,hmm_event_K4,Pass,Ball Recovery,0
+fullstream9,hmm_event_K4,Carry,Ball Recovery,0
+fullstream9,hmm_event_K4,Ball Recovery,Ball Recovery,0
+fullstream9,hmm_event_K4,Clearance,Ball Recovery,0
+fullstream9,hmm_event_K4,Dribble,Ball Recovery,0
+fullstream9,hmm_event_K4,Shot,Ball Recovery,0
+fullstream9,hmm_event_K4,Miscontrol,Ball Recovery,0
+fullstream9,hmm_event_K4,Dispossessed,Ball Recovery,0
+fullstream9,hmm_event_K4,Other,Ball Recovery,0
+fullstream9,hmm_event_K4,Pass,Clearance,0
+fullstream9,hmm_event_K4,Carry,Clearance,0
+fullstream9,hmm_event_K4,Ball Recovery,Clearance,0
+fullstream9,hmm_event_K4,Clearance,Clearance,0
+fullstream9,hmm_event_K4,Dribble,Clearance,0
+fullstream9,hmm_event_K4,Shot,Clearance,0
+fullstream9,hmm_event_K4,Miscontrol,Clearance,0
+fullstream9,hmm_event_K4,Dispossessed,Clearance,0
+fullstream9,hmm_event_K4,Other,Clearance,0
+fullstream9,hmm_event_K4,Pass,Dribble,0
+fullstream9,hmm_event_K4,Carry,Dribble,0
+fullstream9,hmm_event_K4,Ball Recovery,Dribble,0
+fullstream9,hmm_event_K4,Clearance,Dribble,0
+fullstream9,hmm_event_K4,Dribble,Dribble,0
+fullstream9,hmm_event_K4,Shot,Dribble,0
+fullstream9,hmm_event_K4,Miscontrol,Dribble,0
+fullstream9,hmm_event_K4,Dispossessed,Dribble,0
+fullstream9,hmm_event_K4,Other,Dribble,0
+fullstream9,hmm_event_K4,Pass,Shot,0
+fullstream9,hmm_event_K4,Carry,Shot,0
+fullstream9,hmm_event_K4,Ball Recovery,Shot,0
+fullstream9,hmm_event_K4,Clearance,Shot,0
+fullstream9,hmm_event_K4,Dribble,Shot,0
+fullstream9,hmm_event_K4,Shot,Shot,0
+fullstream9,hmm_event_K4,Miscontrol,Shot,0
+fullstream9,hmm_event_K4,Dispossessed,Shot,0
+fullstream9,hmm_event_K4,Other,Shot,0
+fullstream9,hmm_event_K4,Pass,Miscontrol,0
+fullstream9,hmm_event_K4,Carry,Miscontrol,0
+fullstream9,hmm_event_K4,Ball Recovery,Miscontrol,0
+fullstream9,hmm_event_K4,Clearance,Miscontrol,0
+fullstream9,hmm_event_K4,Dribble,Miscontrol,0
+fullstream9,hmm_event_K4,Shot,Miscontrol,0
+fullstream9,hmm_event_K4,Miscontrol,Miscontrol,0
+fullstream9,hmm_event_K4,Dispossessed,Miscontrol,0
+fullstream9,hmm_event_K4,Other,Miscontrol,0
+fullstream9,hmm_event_K4,Pass,Dispossessed,0
+fullstream9,hmm_event_K4,Carry,Dispossessed,0
+fullstream9,hmm_event_K4,Ball Recovery,Dispossessed,0
+fullstream9,hmm_event_K4,Clearance,Dispossessed,0
+fullstream9,hmm_event_K4,Dribble,Dispossessed,0
+fullstream9,hmm_event_K4,Shot,Dispossessed,0
+fullstream9,hmm_event_K4,Miscontrol,Dispossessed,0
+fullstream9,hmm_event_K4,Dispossessed,Dispossessed,0
+fullstream9,hmm_event_K4,Other,Dispossessed,0
+fullstream9,hmm_event_K4,Pass,Other,627
+fullstream9,hmm_event_K4,Carry,Other,433
+fullstream9,hmm_event_K4,Ball Recovery,Other,470
+fullstream9,hmm_event_K4,Clearance,Other,239
+fullstream9,hmm_event_K4,Dribble,Other,0
+fullstream9,hmm_event_K4,Shot,Other,0
+fullstream9,hmm_event_K4,Miscontrol,Other,1
+fullstream9,hmm_event_K4,Dispossessed,Other,1
+fullstream9,hmm_event_K4,Other,Other,29584
+fullstream9,hmm_event_K5,Pass,Pass,18722
+fullstream9,hmm_event_K5,Carry,Pass,4
+fullstream9,hmm_event_K5,Ball Recovery,Pass,389
+fullstream9,hmm_event_K5,Clearance,Pass,68
+fullstream9,hmm_event_K5,Dribble,Pass,138
+fullstream9,hmm_event_K5,Shot,Pass,212
+fullstream9,hmm_event_K5,Miscontrol,Pass,469
+fullstream9,hmm_event_K5,Dispossessed,Pass,191
+fullstream9,hmm_event_K5,Other,Pass,5871
+fullstream9,hmm_event_K5,Pass,Carry,132
+fullstream9,hmm_event_K5,Carry,Carry,2447
+fullstream9,hmm_event_K5,Ball Recovery,Carry,63
+fullstream9,hmm_event_K5,Clearance,Carry,8
+fullstream9,hmm_event_K5,Dribble,Carry,1
+fullstream9,hmm_event_K5,Shot,Carry,85
+fullstream9,hmm_event_K5,Miscontrol,Carry,0
+fullstream9,hmm_event_K5,Dispossessed,Carry,0
+fullstream9,hmm_event_K5,Other,Carry,199
+fullstream9,hmm_event_K5,Pass,Ball Recovery,0
+fullstream9,hmm_event_K5,Carry,Ball Recovery,0
+fullstream9,hmm_event_K5,Ball Recovery,Ball Recovery,0
+fullstream9,hmm_event_K5,Clearance,Ball Recovery,0
+fullstream9,hmm_event_K5,Dribble,Ball Recovery,0
+fullstream9,hmm_event_K5,Shot,Ball Recovery,0
+fullstream9,hmm_event_K5,Miscontrol,Ball Recovery,0
+fullstream9,hmm_event_K5,Dispossessed,Ball Recovery,0
+fullstream9,hmm_event_K5,Other,Ball Recovery,0
+fullstream9,hmm_event_K5,Pass,Clearance,0
+fullstream9,hmm_event_K5,Carry,Clearance,0
+fullstream9,hmm_event_K5,Ball Recovery,Clearance,0
+fullstream9,hmm_event_K5,Clearance,Clearance,0
+fullstream9,hmm_event_K5,Dribble,Clearance,0
+fullstream9,hmm_event_K5,Shot,Clearance,0
+fullstream9,hmm_event_K5,Miscontrol,Clearance,0
+fullstream9,hmm_event_K5,Dispossessed,Clearance,0
+fullstream9,hmm_event_K5,Other,Clearance,0
+fullstream9,hmm_event_K5,Pass,Dribble,0
+fullstream9,hmm_event_K5,Carry,Dribble,0
+fullstream9,hmm_event_K5,Ball Recovery,Dribble,0
+fullstream9,hmm_event_K5,Clearance,Dribble,0
+fullstream9,hmm_event_K5,Dribble,Dribble,0
+fullstream9,hmm_event_K5,Shot,Dribble,0
+fullstream9,hmm_event_K5,Miscontrol,Dribble,0
+fullstream9,hmm_event_K5,Dispossessed,Dribble,0
+fullstream9,hmm_event_K5,Other,Dribble,0
+fullstream9,hmm_event_K5,Pass,Shot,0
+fullstream9,hmm_event_K5,Carry,Shot,0
+fullstream9,hmm_event_K5,Ball Recovery,Shot,0
+fullstream9,hmm_event_K5,Clearance,Shot,0
+fullstream9,hmm_event_K5,Dribble,Shot,0
+fullstream9,hmm_event_K5,Shot,Shot,0
+fullstream9,hmm_event_K5,Miscontrol,Shot,0
+fullstream9,hmm_event_K5,Dispossessed,Shot,0
+fullstream9,hmm_event_K5,Other,Shot,0
+fullstream9,hmm_event_K5,Pass,Miscontrol,0
+fullstream9,hmm_event_K5,Carry,Miscontrol,0
+fullstream9,hmm_event_K5,Ball Recovery,Miscontrol,0
+fullstream9,hmm_event_K5,Clearance,Miscontrol,0
+fullstream9,hmm_event_K5,Dribble,Miscontrol,0
+fullstream9,hmm_event_K5,Shot,Miscontrol,0
+fullstream9,hmm_event_K5,Miscontrol,Miscontrol,0
+fullstream9,hmm_event_K5,Dispossessed,Miscontrol,0
+fullstream9,hmm_event_K5,Other,Miscontrol,0
+fullstream9,hmm_event_K5,Pass,Dispossessed,0
+fullstream9,hmm_event_K5,Carry,Dispossessed,0
+fullstream9,hmm_event_K5,Ball Recovery,Dispossessed,0
+fullstream9,hmm_event_K5,Clearance,Dispossessed,0
+fullstream9,hmm_event_K5,Dribble,Dispossessed,0
+fullstream9,hmm_event_K5,Shot,Dispossessed,0
+fullstream9,hmm_event_K5,Miscontrol,Dispossessed,0
+fullstream9,hmm_event_K5,Dispossessed,Dispossessed,0
+fullstream9,hmm_event_K5,Other,Dispossessed,0
+fullstream9,hmm_event_K5,Pass,Other,525
+fullstream9,hmm_event_K5,Carry,Other,232
+fullstream9,hmm_event_K5,Ball Recovery,Other,389
+fullstream9,hmm_event_K5,Clearance,Other,230
+fullstream9,hmm_event_K5,Dribble,Other,0
+fullstream9,hmm_event_K5,Shot,Other,0
+fullstream9,hmm_event_K5,Miscontrol,Other,0
+fullstream9,hmm_event_K5,Dispossessed,Other,1
+fullstream9,hmm_event_K5,Other,Other,29337

@@ -1,0 +1,79 @@
+{
+ "primary_targets_reproduce_production_dataset": {
+  "rows_ours": 59655,
+  "rows_production": 59655,
+  "only_ours": 0,
+  "only_production": 0,
+  "target_type_mismatches": 0,
+  "target_event_mismatches": 0,
+  "passed": true
+ },
+ "final_test_untouched": {
+  "pilot_and_final_test_overlap": [],
+  "matches_in_loaded_production_rows_also_in_final_test": [],
+  "passed": true
+ },
+ "match_grouping": {
+  "train_validation_overlap_per_fold": [
+   [],
+   [],
+   [],
+   [],
+   []
+  ],
+  "every_pilot_match_validated_exactly_once": true,
+  "passed": true
+ },
+ "duplicate_sequences": {
+  "duplicate_event_ids": 0,
+  "sequences_spanning_two_matches": 0,
+  "passed": true
+ },
+ "probabilities_valid_filtered8": {
+  "per_model": {
+   "frequency_baseline": true,
+   "markov_order1": true,
+   "markov_order2": true,
+   "hmm_event_K2": true,
+   "hmm_event_K3": true,
+   "hmm_event_K4": true,
+   "hmm_event_K5": true,
+   "hmm_spatial_K2": true,
+   "hmm_spatial_K3": true,
+   "hmm_spatial_K4": true,
+   "hmm_spatial_K5": true
+  },
+  "passed": true
+ },
+ "every_evaluation_row_predicted_once_filtered8": true,
+ "probabilities_valid_fullstream9": {
+  "per_model": {
+   "frequency_baseline": true,
+   "markov_order1": true,
+   "markov_order2": true,
+   "hmm_event_K2": true,
+   "hmm_event_K3": true,
+   "hmm_event_K4": true,
+   "hmm_event_K5": true
+  },
+  "passed": true
+ },
+ "every_evaluation_row_predicted_once_fullstream9": true,
+ "preprocessing_fitted_on_training_fold_only": {
+  "fold0_scaler_refit_from_training_sequences_equals_stored": true,
+  "validation_matches_in_fold0_training_sequences": []
+ },
+ "reproducibility_refit_fold0_spatial_hmm": {
+  "max_abs_parameter_difference": 0.0,
+  "passed": true
+ },
+ "future_invariance_real_sequence": {
+  "sequence_id": "3773586_P1",
+  "cut_position": 544,
+  "max_abs_change_at_or_before_cut": 0.0,
+  "max_abs_change_after_cut": 0.07881023748288829,
+  "passed": true
+ },
+ "target_never_an_input": "inputs are the symbols (and spatial features) of observations 1..t; the target is observation t+1; verified by the future-invariance checks above and tests/test_sequence_tasks_pipeline.py::test_cross_validation_has_no_target_or_future_leakage",
+ "model_selection": "seed chosen by training objective within each fold; K chosen by mean validation log loss over pilot folds (development data only); the final test set was not loaded"
+}

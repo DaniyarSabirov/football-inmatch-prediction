@@ -1,0 +1,88 @@
+# Markov chain / hidden Markov model pilot experiment (2026-10-27).
+# Read by src/sequence_models/config.py; copied verbatim into the result
+# directory as experiment_config.yaml. Paths are relative to the project root.
+
+experiment_name: markov_hmm_pilot
+output_dir: results/markov_hmm_pilot
+event_table_cache: data/interim/sequence_models/event_table.pkl
+
+# The 8 production event types (src/build_statsbomb_360_dataset.py
+# MEANINGFUL_EVENT_TYPES), in a fixed order that defines class indices. The
+# loader asserts set equality with the production constant: this experiment
+# does not change the taxonomy.
+production_event_types:
+  - Pass
+  - Carry
+  - Ball Recovery
+  - Clearance
+  - Dribble
+  - Shot
+  - Miscontrol
+  - Dispossessed
+
+# StatsBomb period 5 is the penalty shootout (verified: only Penalty shots,
+# Goal Keeper, Half Start/End, Bad Behaviour, Tactical Shift). Extra time
+# (periods 3, 4) is kept, as separate sequences.
+excluded_periods: [5]
+
+tasks:
+  primary: filtered8
+  secondary: fullstream9
+  definitions:
+    filtered8:
+      description: >-
+        Next event among the 8 production types in the same period, in raw
+        event order (index); raw events of other types are skipped by
+        definition (filtered-event task, identical to the production target).
+      sequence_events: vocabulary_only
+      out_of_vocabulary_label: null
+    fullstream9:
+      description: >-
+        Immediate next raw event in the same period, in raw event order; its
+        type if it is one of the 8 production types, else the explicit class
+        "Other" (every remaining raw type, including administrative events).
+      sequence_events: all_events
+      out_of_vocabulary_label: Other
+
+splits:
+  seed: 20261027
+  final_test_fraction: 0.20
+  # strata for the match-level hold-out and pilot sampling
+  stratify_by: [competition, season]
+  pilot_matches: 30
+  pilot_extra_time_matches: 2
+  n_folds: 5
+
+markov:
+  smoothing_alpha: 1.0          # additive (Laplace) pseudo-count per transition cell
+  second_order_min_context_count: 20   # back off to first order below this many training contexts
+
+baseline:
+  smoothing_alpha: 1.0
+
+hmm:
+  n_states: [2, 3, 4, 5]
+  seeds: [0, 1, 2, 3, 4]
+  init_method: dirichlet_around_marginal
+  init_concentration: 20.0       # Dirichlet concentration of emission rows around the training marginal
+  init_self_transition: 0.5      # weight of the identity in the initial transition matrix
+  # 300 was too tight: a pre-run timing check (training data only, no validation
+  # metrics) showed EM plateaus followed by large jumps (K=5 unconverged at 300,
+  # converged at 342).
+  max_iter: 1000
+  tol: 1.0e-6                    # stop when the penalised log-likelihood per observation improves by less
+  pseudo_count: 1.0              # Dirichlet MAP pseudo-count for start, transition and emission rows
+  variance_floor: 1.0e-3         # on standardised spatial features
+  workers: 8
+
+spatial:
+  # Derived from approved causal columns actor_x / actor_y; the METADATA
+  # column team_normalization is used only as a coordinate transform into
+  # the acting team's attacking frame (validated against raw event
+  # locations, see data_audit). Pending allowlist approval.
+  features: [x_attacking, lateral_distance_from_centre]
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7
+  probability_tolerance: 1.0e-9

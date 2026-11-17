@@ -1,0 +1,59 @@
+taxonomy,skipped_type,category,skipped_as_companion_rule,n
+filtered8,Ball Receipt*,derived_companion,,331619
+filtered8,Pressure,defensive_action,,106480
+filtered8,Block,defensive_action,,13107
+filtered8,Duel,defensive_action,K2,12199
+filtered8,Duel,defensive_action,,9473
+filtered8,Foul Committed,foul_or_discipline,,8100
+filtered8,Interception,defensive_action,,7763
+filtered8,Foul Won,derived_companion,,7686
+filtered8,Goal Keeper,goalkeeper_action,K1,6365
+filtered8,Dribbled Past,derived_companion,,6061
+filtered8,Goal Keeper,goalkeeper_action,,3770
+filtered8,Substitution,administrative,,2608
+filtered8,Injury Stoppage,restart_or_stoppage,,1842
+filtered8,Tactical Shift,administrative,,960
+filtered8,Referee Ball-Drop,restart_or_stoppage,,814
+filtered8,50/50,on_ball_action,,667
+filtered8,50/50,on_ball_action,K3,658
+filtered8,Shield,on_ball_action,,438
+filtered8,Player Off,administrative,,403
+filtered8,Player On,administrative,,399
+filtered8,Bad Behaviour,foul_or_discipline,,203
+filtered8,Error,retrospective_annotation,,189
+filtered8,Offside,foul_or_discipline,,115
+filtered8,Own Goal For,derived_companion,,41
+filtered8,Own Goal Against,retrospective_annotation,,41
+scenarioD15,Ball Receipt*,derived_companion,,331650
+scenarioD15,Foul Won,derived_companion,,7686
+scenarioD15,Dribbled Past,derived_companion,,6061
+scenarioD15,Substitution,administrative,,2608
+scenarioD15,Injury Stoppage,restart_or_stoppage,,1842
+scenarioD15,Tactical Shift,administrative,,960
+scenarioD15,Referee Ball-Drop,restart_or_stoppage,,814
+scenarioD15,Shield,on_ball_action,,438
+scenarioD15,Player Off,administrative,,403
+scenarioD15,Player On,administrative,,399
+scenarioD15,Bad Behaviour,foul_or_discipline,,203
+scenarioD15,Error,retrospective_annotation,,189
+scenarioD15,Offside,foul_or_discipline,,115
+scenarioD15,Own Goal For,derived_companion,,41
+scenarioD15,Own Goal Against,retrospective_annotation,,41
+actions15,Ball Receipt*,derived_companion,,331650
+actions15,Duel,defensive_action,K2,12202
+actions15,Foul Won,derived_companion,,7686
+actions15,Goal Keeper,goalkeeper_action,K1,6366
+actions15,Dribbled Past,derived_companion,,6061
+actions15,Substitution,administrative,,2608
+actions15,Injury Stoppage,restart_or_stoppage,,1842
+actions15,Tactical Shift,administrative,,960
+actions15,Referee Ball-Drop,restart_or_stoppage,,814
+actions15,50/50,on_ball_action,K3,658
+actions15,Shield,on_ball_action,,438
+actions15,Player Off,administrative,,403
+actions15,Player On,administrative,,399
+actions15,Bad Behaviour,foul_or_discipline,,203
+actions15,Error,retrospective_annotation,,189
+actions15,Offside,foul_or_discipline,,115
+actions15,Own Goal For,derived_companion,,41
+actions15,Own Goal Against,retrospective_annotation,,41

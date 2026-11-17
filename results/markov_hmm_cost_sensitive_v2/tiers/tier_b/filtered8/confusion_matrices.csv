@@ -1,0 +1,2177 @@
+tier,task,model,cost_scheme,true_class,predicted_class,count
+tier_b,filtered8,frequency_baseline,uniform,Pass,Pass,276765.0
+tier_b,filtered8,frequency_baseline,uniform,Carry,Pass,226636.0
+tier_b,filtered8,frequency_baseline,uniform,Ball Recovery,Pass,26490.0
+tier_b,filtered8,frequency_baseline,uniform,Clearance,Pass,10021.0
+tier_b,filtered8,frequency_baseline,uniform,Dribble,Pass,8371.0
+tier_b,filtered8,frequency_baseline,uniform,Shot,Pass,7036.0
+tier_b,filtered8,frequency_baseline,uniform,Miscontrol,Pass,7190.0
+tier_b,filtered8,frequency_baseline,uniform,Dispossessed,Pass,6399.0
+tier_b,filtered8,frequency_baseline,uniform,Pass,Carry,0.0
+tier_b,filtered8,frequency_baseline,uniform,Carry,Carry,0.0
+tier_b,filtered8,frequency_baseline,uniform,Ball Recovery,Carry,0.0
+tier_b,filtered8,frequency_baseline,uniform,Clearance,Carry,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dribble,Carry,0.0
+tier_b,filtered8,frequency_baseline,uniform,Shot,Carry,0.0
+tier_b,filtered8,frequency_baseline,uniform,Miscontrol,Carry,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dispossessed,Carry,0.0
+tier_b,filtered8,frequency_baseline,uniform,Pass,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,uniform,Carry,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,uniform,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,uniform,Clearance,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,uniform,Pass,Clearance,0.0
+tier_b,filtered8,frequency_baseline,uniform,Carry,Clearance,0.0
+tier_b,filtered8,frequency_baseline,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,frequency_baseline,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,frequency_baseline,uniform,Shot,Clearance,0.0
+tier_b,filtered8,frequency_baseline,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,frequency_baseline,uniform,Pass,Dribble,0.0
+tier_b,filtered8,frequency_baseline,uniform,Carry,Dribble,0.0
+tier_b,filtered8,frequency_baseline,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,frequency_baseline,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,frequency_baseline,uniform,Shot,Dribble,0.0
+tier_b,filtered8,frequency_baseline,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,frequency_baseline,uniform,Pass,Shot,0.0
+tier_b,filtered8,frequency_baseline,uniform,Carry,Shot,0.0
+tier_b,filtered8,frequency_baseline,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,frequency_baseline,uniform,Clearance,Shot,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dribble,Shot,0.0
+tier_b,filtered8,frequency_baseline,uniform,Shot,Shot,0.0
+tier_b,filtered8,frequency_baseline,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,frequency_baseline,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,moderate,Pass,Pass,276765.0
+tier_b,filtered8,frequency_baseline,moderate,Carry,Pass,226636.0
+tier_b,filtered8,frequency_baseline,moderate,Ball Recovery,Pass,26490.0
+tier_b,filtered8,frequency_baseline,moderate,Clearance,Pass,10021.0
+tier_b,filtered8,frequency_baseline,moderate,Dribble,Pass,8371.0
+tier_b,filtered8,frequency_baseline,moderate,Shot,Pass,7036.0
+tier_b,filtered8,frequency_baseline,moderate,Miscontrol,Pass,7190.0
+tier_b,filtered8,frequency_baseline,moderate,Dispossessed,Pass,6399.0
+tier_b,filtered8,frequency_baseline,moderate,Pass,Carry,0.0
+tier_b,filtered8,frequency_baseline,moderate,Carry,Carry,0.0
+tier_b,filtered8,frequency_baseline,moderate,Ball Recovery,Carry,0.0
+tier_b,filtered8,frequency_baseline,moderate,Clearance,Carry,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dribble,Carry,0.0
+tier_b,filtered8,frequency_baseline,moderate,Shot,Carry,0.0
+tier_b,filtered8,frequency_baseline,moderate,Miscontrol,Carry,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dispossessed,Carry,0.0
+tier_b,filtered8,frequency_baseline,moderate,Pass,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,moderate,Carry,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,moderate,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,moderate,Clearance,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dribble,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,moderate,Shot,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,moderate,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,moderate,Pass,Clearance,0.0
+tier_b,filtered8,frequency_baseline,moderate,Carry,Clearance,0.0
+tier_b,filtered8,frequency_baseline,moderate,Ball Recovery,Clearance,0.0
+tier_b,filtered8,frequency_baseline,moderate,Clearance,Clearance,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dribble,Clearance,0.0
+tier_b,filtered8,frequency_baseline,moderate,Shot,Clearance,0.0
+tier_b,filtered8,frequency_baseline,moderate,Miscontrol,Clearance,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dispossessed,Clearance,0.0
+tier_b,filtered8,frequency_baseline,moderate,Pass,Dribble,0.0
+tier_b,filtered8,frequency_baseline,moderate,Carry,Dribble,0.0
+tier_b,filtered8,frequency_baseline,moderate,Ball Recovery,Dribble,0.0
+tier_b,filtered8,frequency_baseline,moderate,Clearance,Dribble,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dribble,Dribble,0.0
+tier_b,filtered8,frequency_baseline,moderate,Shot,Dribble,0.0
+tier_b,filtered8,frequency_baseline,moderate,Miscontrol,Dribble,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dispossessed,Dribble,0.0
+tier_b,filtered8,frequency_baseline,moderate,Pass,Shot,0.0
+tier_b,filtered8,frequency_baseline,moderate,Carry,Shot,0.0
+tier_b,filtered8,frequency_baseline,moderate,Ball Recovery,Shot,0.0
+tier_b,filtered8,frequency_baseline,moderate,Clearance,Shot,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dribble,Shot,0.0
+tier_b,filtered8,frequency_baseline,moderate,Shot,Shot,0.0
+tier_b,filtered8,frequency_baseline,moderate,Miscontrol,Shot,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dispossessed,Shot,0.0
+tier_b,filtered8,frequency_baseline,moderate,Pass,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,moderate,Carry,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,moderate,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,moderate,Clearance,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dribble,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,moderate,Shot,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,moderate,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,moderate,Pass,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,moderate,Carry,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,moderate,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,moderate,Clearance,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dribble,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,moderate,Shot,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,moderate,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,moderate,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,strong,Pass,Pass,276765.0
+tier_b,filtered8,frequency_baseline,strong,Carry,Pass,226636.0
+tier_b,filtered8,frequency_baseline,strong,Ball Recovery,Pass,26490.0
+tier_b,filtered8,frequency_baseline,strong,Clearance,Pass,10021.0
+tier_b,filtered8,frequency_baseline,strong,Dribble,Pass,8371.0
+tier_b,filtered8,frequency_baseline,strong,Shot,Pass,7036.0
+tier_b,filtered8,frequency_baseline,strong,Miscontrol,Pass,7190.0
+tier_b,filtered8,frequency_baseline,strong,Dispossessed,Pass,6399.0
+tier_b,filtered8,frequency_baseline,strong,Pass,Carry,0.0
+tier_b,filtered8,frequency_baseline,strong,Carry,Carry,0.0
+tier_b,filtered8,frequency_baseline,strong,Ball Recovery,Carry,0.0
+tier_b,filtered8,frequency_baseline,strong,Clearance,Carry,0.0
+tier_b,filtered8,frequency_baseline,strong,Dribble,Carry,0.0
+tier_b,filtered8,frequency_baseline,strong,Shot,Carry,0.0
+tier_b,filtered8,frequency_baseline,strong,Miscontrol,Carry,0.0
+tier_b,filtered8,frequency_baseline,strong,Dispossessed,Carry,0.0
+tier_b,filtered8,frequency_baseline,strong,Pass,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,strong,Carry,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,strong,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,strong,Clearance,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,strong,Dribble,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,strong,Shot,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,strong,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,strong,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,strong,Pass,Clearance,0.0
+tier_b,filtered8,frequency_baseline,strong,Carry,Clearance,0.0
+tier_b,filtered8,frequency_baseline,strong,Ball Recovery,Clearance,0.0
+tier_b,filtered8,frequency_baseline,strong,Clearance,Clearance,0.0
+tier_b,filtered8,frequency_baseline,strong,Dribble,Clearance,0.0
+tier_b,filtered8,frequency_baseline,strong,Shot,Clearance,0.0
+tier_b,filtered8,frequency_baseline,strong,Miscontrol,Clearance,0.0
+tier_b,filtered8,frequency_baseline,strong,Dispossessed,Clearance,0.0
+tier_b,filtered8,frequency_baseline,strong,Pass,Dribble,0.0
+tier_b,filtered8,frequency_baseline,strong,Carry,Dribble,0.0
+tier_b,filtered8,frequency_baseline,strong,Ball Recovery,Dribble,0.0
+tier_b,filtered8,frequency_baseline,strong,Clearance,Dribble,0.0
+tier_b,filtered8,frequency_baseline,strong,Dribble,Dribble,0.0
+tier_b,filtered8,frequency_baseline,strong,Shot,Dribble,0.0
+tier_b,filtered8,frequency_baseline,strong,Miscontrol,Dribble,0.0
+tier_b,filtered8,frequency_baseline,strong,Dispossessed,Dribble,0.0
+tier_b,filtered8,frequency_baseline,strong,Pass,Shot,0.0
+tier_b,filtered8,frequency_baseline,strong,Carry,Shot,0.0
+tier_b,filtered8,frequency_baseline,strong,Ball Recovery,Shot,0.0
+tier_b,filtered8,frequency_baseline,strong,Clearance,Shot,0.0
+tier_b,filtered8,frequency_baseline,strong,Dribble,Shot,0.0
+tier_b,filtered8,frequency_baseline,strong,Shot,Shot,0.0
+tier_b,filtered8,frequency_baseline,strong,Miscontrol,Shot,0.0
+tier_b,filtered8,frequency_baseline,strong,Dispossessed,Shot,0.0
+tier_b,filtered8,frequency_baseline,strong,Pass,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,strong,Carry,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,strong,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,strong,Clearance,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,strong,Dribble,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,strong,Shot,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,strong,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,strong,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,strong,Pass,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,strong,Carry,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,strong,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,strong,Clearance,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,strong,Dribble,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,strong,Shot,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,strong,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,strong,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,tuned,Pass,Pass,276765.0
+tier_b,filtered8,frequency_baseline,tuned,Carry,Pass,226636.0
+tier_b,filtered8,frequency_baseline,tuned,Ball Recovery,Pass,26490.0
+tier_b,filtered8,frequency_baseline,tuned,Clearance,Pass,10021.0
+tier_b,filtered8,frequency_baseline,tuned,Dribble,Pass,8371.0
+tier_b,filtered8,frequency_baseline,tuned,Shot,Pass,7036.0
+tier_b,filtered8,frequency_baseline,tuned,Miscontrol,Pass,7190.0
+tier_b,filtered8,frequency_baseline,tuned,Dispossessed,Pass,6399.0
+tier_b,filtered8,frequency_baseline,tuned,Pass,Carry,0.0
+tier_b,filtered8,frequency_baseline,tuned,Carry,Carry,0.0
+tier_b,filtered8,frequency_baseline,tuned,Ball Recovery,Carry,0.0
+tier_b,filtered8,frequency_baseline,tuned,Clearance,Carry,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dribble,Carry,0.0
+tier_b,filtered8,frequency_baseline,tuned,Shot,Carry,0.0
+tier_b,filtered8,frequency_baseline,tuned,Miscontrol,Carry,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dispossessed,Carry,0.0
+tier_b,filtered8,frequency_baseline,tuned,Pass,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,tuned,Carry,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,tuned,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,tuned,Clearance,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dribble,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,tuned,Shot,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,tuned,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,frequency_baseline,tuned,Pass,Clearance,0.0
+tier_b,filtered8,frequency_baseline,tuned,Carry,Clearance,0.0
+tier_b,filtered8,frequency_baseline,tuned,Ball Recovery,Clearance,0.0
+tier_b,filtered8,frequency_baseline,tuned,Clearance,Clearance,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dribble,Clearance,0.0
+tier_b,filtered8,frequency_baseline,tuned,Shot,Clearance,0.0
+tier_b,filtered8,frequency_baseline,tuned,Miscontrol,Clearance,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dispossessed,Clearance,0.0
+tier_b,filtered8,frequency_baseline,tuned,Pass,Dribble,0.0
+tier_b,filtered8,frequency_baseline,tuned,Carry,Dribble,0.0
+tier_b,filtered8,frequency_baseline,tuned,Ball Recovery,Dribble,0.0
+tier_b,filtered8,frequency_baseline,tuned,Clearance,Dribble,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dribble,Dribble,0.0
+tier_b,filtered8,frequency_baseline,tuned,Shot,Dribble,0.0
+tier_b,filtered8,frequency_baseline,tuned,Miscontrol,Dribble,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dispossessed,Dribble,0.0
+tier_b,filtered8,frequency_baseline,tuned,Pass,Shot,0.0
+tier_b,filtered8,frequency_baseline,tuned,Carry,Shot,0.0
+tier_b,filtered8,frequency_baseline,tuned,Ball Recovery,Shot,0.0
+tier_b,filtered8,frequency_baseline,tuned,Clearance,Shot,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dribble,Shot,0.0
+tier_b,filtered8,frequency_baseline,tuned,Shot,Shot,0.0
+tier_b,filtered8,frequency_baseline,tuned,Miscontrol,Shot,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dispossessed,Shot,0.0
+tier_b,filtered8,frequency_baseline,tuned,Pass,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,tuned,Carry,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,tuned,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,tuned,Clearance,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dribble,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,tuned,Shot,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,tuned,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,frequency_baseline,tuned,Pass,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,tuned,Carry,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,tuned,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,tuned,Clearance,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dribble,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,tuned,Shot,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,tuned,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,frequency_baseline,tuned,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Pass,Pass,225441.0
+tier_b,filtered8,exp1_markov_order1,uniform,Carry,Pass,2106.0
+tier_b,filtered8,exp1_markov_order1,uniform,Ball Recovery,Pass,11037.0
+tier_b,filtered8,exp1_markov_order1,uniform,Clearance,Pass,2234.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dribble,Pass,8301.0
+tier_b,filtered8,exp1_markov_order1,uniform,Shot,Pass,3562.0
+tier_b,filtered8,exp1_markov_order1,uniform,Miscontrol,Pass,5856.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dispossessed,Pass,6332.0
+tier_b,filtered8,exp1_markov_order1,uniform,Pass,Carry,51324.0
+tier_b,filtered8,exp1_markov_order1,uniform,Carry,Carry,224530.0
+tier_b,filtered8,exp1_markov_order1,uniform,Ball Recovery,Carry,15453.0
+tier_b,filtered8,exp1_markov_order1,uniform,Clearance,Carry,7787.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dribble,Carry,70.0
+tier_b,filtered8,exp1_markov_order1,uniform,Shot,Carry,3474.0
+tier_b,filtered8,exp1_markov_order1,uniform,Miscontrol,Carry,1334.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dispossessed,Carry,67.0
+tier_b,filtered8,exp1_markov_order1,uniform,Pass,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Carry,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Clearance,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Pass,Clearance,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Carry,Clearance,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Shot,Clearance,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Pass,Dribble,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Carry,Dribble,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Shot,Dribble,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Pass,Shot,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Carry,Shot,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Clearance,Shot,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dribble,Shot,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Shot,Shot,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order1,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Pass,Pass,226308.0
+tier_b,filtered8,exp1_markov_order2,uniform,Carry,Pass,3705.0
+tier_b,filtered8,exp1_markov_order2,uniform,Ball Recovery,Pass,11229.0
+tier_b,filtered8,exp1_markov_order2,uniform,Clearance,Pass,2608.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dribble,Pass,8300.0
+tier_b,filtered8,exp1_markov_order2,uniform,Shot,Pass,3691.0
+tier_b,filtered8,exp1_markov_order2,uniform,Miscontrol,Pass,5861.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dispossessed,Pass,6332.0
+tier_b,filtered8,exp1_markov_order2,uniform,Pass,Carry,50440.0
+tier_b,filtered8,exp1_markov_order2,uniform,Carry,Carry,222931.0
+tier_b,filtered8,exp1_markov_order2,uniform,Ball Recovery,Carry,15259.0
+tier_b,filtered8,exp1_markov_order2,uniform,Clearance,Carry,7413.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dribble,Carry,68.0
+tier_b,filtered8,exp1_markov_order2,uniform,Shot,Carry,3343.0
+tier_b,filtered8,exp1_markov_order2,uniform,Miscontrol,Carry,1305.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dispossessed,Carry,67.0
+tier_b,filtered8,exp1_markov_order2,uniform,Pass,Ball Recovery,4.0
+tier_b,filtered8,exp1_markov_order2,uniform,Carry,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Ball Recovery,Ball Recovery,1.0
+tier_b,filtered8,exp1_markov_order2,uniform,Clearance,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Pass,Clearance,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Carry,Clearance,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Shot,Clearance,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Pass,Dribble,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Carry,Dribble,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Shot,Dribble,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Pass,Shot,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Carry,Shot,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Clearance,Shot,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dribble,Shot,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Shot,Shot,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Pass,Miscontrol,13.0
+tier_b,filtered8,exp1_markov_order2,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Ball Recovery,Miscontrol,1.0
+tier_b,filtered8,exp1_markov_order2,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dribble,Miscontrol,3.0
+tier_b,filtered8,exp1_markov_order2,uniform,Shot,Miscontrol,2.0
+tier_b,filtered8,exp1_markov_order2,uniform,Miscontrol,Miscontrol,24.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,exp1_markov_order2,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc1,uniform,Pass,Pass,225441.0
+tier_b,filtered8,mc1,uniform,Carry,Pass,2106.0
+tier_b,filtered8,mc1,uniform,Ball Recovery,Pass,11037.0
+tier_b,filtered8,mc1,uniform,Clearance,Pass,2234.0
+tier_b,filtered8,mc1,uniform,Dribble,Pass,8301.0
+tier_b,filtered8,mc1,uniform,Shot,Pass,3562.0
+tier_b,filtered8,mc1,uniform,Miscontrol,Pass,5856.0
+tier_b,filtered8,mc1,uniform,Dispossessed,Pass,6332.0
+tier_b,filtered8,mc1,uniform,Pass,Carry,51324.0
+tier_b,filtered8,mc1,uniform,Carry,Carry,224530.0
+tier_b,filtered8,mc1,uniform,Ball Recovery,Carry,15453.0
+tier_b,filtered8,mc1,uniform,Clearance,Carry,7787.0
+tier_b,filtered8,mc1,uniform,Dribble,Carry,70.0
+tier_b,filtered8,mc1,uniform,Shot,Carry,3474.0
+tier_b,filtered8,mc1,uniform,Miscontrol,Carry,1334.0
+tier_b,filtered8,mc1,uniform,Dispossessed,Carry,67.0
+tier_b,filtered8,mc1,uniform,Pass,Ball Recovery,0.0
+tier_b,filtered8,mc1,uniform,Carry,Ball Recovery,0.0
+tier_b,filtered8,mc1,uniform,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,mc1,uniform,Clearance,Ball Recovery,0.0
+tier_b,filtered8,mc1,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,mc1,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,mc1,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,mc1,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,mc1,uniform,Pass,Clearance,0.0
+tier_b,filtered8,mc1,uniform,Carry,Clearance,0.0
+tier_b,filtered8,mc1,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc1,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,mc1,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,mc1,uniform,Shot,Clearance,0.0
+tier_b,filtered8,mc1,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc1,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc1,uniform,Pass,Dribble,0.0
+tier_b,filtered8,mc1,uniform,Carry,Dribble,0.0
+tier_b,filtered8,mc1,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc1,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,mc1,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,mc1,uniform,Shot,Dribble,0.0
+tier_b,filtered8,mc1,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc1,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc1,uniform,Pass,Shot,0.0
+tier_b,filtered8,mc1,uniform,Carry,Shot,0.0
+tier_b,filtered8,mc1,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,mc1,uniform,Clearance,Shot,0.0
+tier_b,filtered8,mc1,uniform,Dribble,Shot,0.0
+tier_b,filtered8,mc1,uniform,Shot,Shot,0.0
+tier_b,filtered8,mc1,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,mc1,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,mc1,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,mc1,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,mc1,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc1,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc1,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc1,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,mc1,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc1,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc1,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,mc1,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,mc1,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc1,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc1,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc1,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,mc1,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc1,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc1,moderate,Pass,Pass,214152.0
+tier_b,filtered8,mc1,moderate,Carry,Pass,481.0
+tier_b,filtered8,mc1,moderate,Ball Recovery,Pass,1504.0
+tier_b,filtered8,mc1,moderate,Clearance,Pass,517.0
+tier_b,filtered8,mc1,moderate,Dribble,Pass,8294.0
+tier_b,filtered8,mc1,moderate,Shot,Pass,3538.0
+tier_b,filtered8,mc1,moderate,Miscontrol,Pass,5831.0
+tier_b,filtered8,mc1,moderate,Dispossessed,Pass,6329.0
+tier_b,filtered8,mc1,moderate,Pass,Carry,51324.0
+tier_b,filtered8,mc1,moderate,Carry,Carry,224530.0
+tier_b,filtered8,mc1,moderate,Ball Recovery,Carry,15453.0
+tier_b,filtered8,mc1,moderate,Clearance,Carry,7787.0
+tier_b,filtered8,mc1,moderate,Dribble,Carry,70.0
+tier_b,filtered8,mc1,moderate,Shot,Carry,3474.0
+tier_b,filtered8,mc1,moderate,Miscontrol,Carry,1334.0
+tier_b,filtered8,mc1,moderate,Dispossessed,Carry,67.0
+tier_b,filtered8,mc1,moderate,Pass,Ball Recovery,11289.0
+tier_b,filtered8,mc1,moderate,Carry,Ball Recovery,1625.0
+tier_b,filtered8,mc1,moderate,Ball Recovery,Ball Recovery,9533.0
+tier_b,filtered8,mc1,moderate,Clearance,Ball Recovery,1717.0
+tier_b,filtered8,mc1,moderate,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc1,moderate,Shot,Ball Recovery,24.0
+tier_b,filtered8,mc1,moderate,Miscontrol,Ball Recovery,25.0
+tier_b,filtered8,mc1,moderate,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc1,moderate,Pass,Clearance,0.0
+tier_b,filtered8,mc1,moderate,Carry,Clearance,0.0
+tier_b,filtered8,mc1,moderate,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc1,moderate,Clearance,Clearance,0.0
+tier_b,filtered8,mc1,moderate,Dribble,Clearance,0.0
+tier_b,filtered8,mc1,moderate,Shot,Clearance,0.0
+tier_b,filtered8,mc1,moderate,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc1,moderate,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc1,moderate,Pass,Dribble,0.0
+tier_b,filtered8,mc1,moderate,Carry,Dribble,0.0
+tier_b,filtered8,mc1,moderate,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc1,moderate,Clearance,Dribble,0.0
+tier_b,filtered8,mc1,moderate,Dribble,Dribble,0.0
+tier_b,filtered8,mc1,moderate,Shot,Dribble,0.0
+tier_b,filtered8,mc1,moderate,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc1,moderate,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc1,moderate,Pass,Shot,0.0
+tier_b,filtered8,mc1,moderate,Carry,Shot,0.0
+tier_b,filtered8,mc1,moderate,Ball Recovery,Shot,0.0
+tier_b,filtered8,mc1,moderate,Clearance,Shot,0.0
+tier_b,filtered8,mc1,moderate,Dribble,Shot,0.0
+tier_b,filtered8,mc1,moderate,Shot,Shot,0.0
+tier_b,filtered8,mc1,moderate,Miscontrol,Shot,0.0
+tier_b,filtered8,mc1,moderate,Dispossessed,Shot,0.0
+tier_b,filtered8,mc1,moderate,Pass,Miscontrol,0.0
+tier_b,filtered8,mc1,moderate,Carry,Miscontrol,0.0
+tier_b,filtered8,mc1,moderate,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc1,moderate,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc1,moderate,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc1,moderate,Shot,Miscontrol,0.0
+tier_b,filtered8,mc1,moderate,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc1,moderate,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc1,moderate,Pass,Dispossessed,0.0
+tier_b,filtered8,mc1,moderate,Carry,Dispossessed,0.0
+tier_b,filtered8,mc1,moderate,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc1,moderate,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc1,moderate,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc1,moderate,Shot,Dispossessed,0.0
+tier_b,filtered8,mc1,moderate,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc1,moderate,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc1,strong,Pass,Pass,208661.0
+tier_b,filtered8,mc1,strong,Carry,Pass,469.0
+tier_b,filtered8,mc1,strong,Ball Recovery,Pass,130.0
+tier_b,filtered8,mc1,strong,Clearance,Pass,39.0
+tier_b,filtered8,mc1,strong,Dribble,Pass,8294.0
+tier_b,filtered8,mc1,strong,Shot,Pass,3508.0
+tier_b,filtered8,mc1,strong,Miscontrol,Pass,5831.0
+tier_b,filtered8,mc1,strong,Dispossessed,Pass,6329.0
+tier_b,filtered8,mc1,strong,Pass,Carry,49857.0
+tier_b,filtered8,mc1,strong,Carry,Carry,219265.0
+tier_b,filtered8,mc1,strong,Ball Recovery,Carry,14260.0
+tier_b,filtered8,mc1,strong,Clearance,Carry,7653.0
+tier_b,filtered8,mc1,strong,Dribble,Carry,70.0
+tier_b,filtered8,mc1,strong,Shot,Carry,3468.0
+tier_b,filtered8,mc1,strong,Miscontrol,Carry,1333.0
+tier_b,filtered8,mc1,strong,Dispossessed,Carry,67.0
+tier_b,filtered8,mc1,strong,Pass,Ball Recovery,18247.0
+tier_b,filtered8,mc1,strong,Carry,Ball Recovery,6902.0
+tier_b,filtered8,mc1,strong,Ball Recovery,Ball Recovery,12100.0
+tier_b,filtered8,mc1,strong,Clearance,Ball Recovery,2329.0
+tier_b,filtered8,mc1,strong,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc1,strong,Shot,Ball Recovery,60.0
+tier_b,filtered8,mc1,strong,Miscontrol,Ball Recovery,26.0
+tier_b,filtered8,mc1,strong,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc1,strong,Pass,Clearance,0.0
+tier_b,filtered8,mc1,strong,Carry,Clearance,0.0
+tier_b,filtered8,mc1,strong,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc1,strong,Clearance,Clearance,0.0
+tier_b,filtered8,mc1,strong,Dribble,Clearance,0.0
+tier_b,filtered8,mc1,strong,Shot,Clearance,0.0
+tier_b,filtered8,mc1,strong,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc1,strong,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc1,strong,Pass,Dribble,0.0
+tier_b,filtered8,mc1,strong,Carry,Dribble,0.0
+tier_b,filtered8,mc1,strong,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc1,strong,Clearance,Dribble,0.0
+tier_b,filtered8,mc1,strong,Dribble,Dribble,0.0
+tier_b,filtered8,mc1,strong,Shot,Dribble,0.0
+tier_b,filtered8,mc1,strong,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc1,strong,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc1,strong,Pass,Shot,0.0
+tier_b,filtered8,mc1,strong,Carry,Shot,0.0
+tier_b,filtered8,mc1,strong,Ball Recovery,Shot,0.0
+tier_b,filtered8,mc1,strong,Clearance,Shot,0.0
+tier_b,filtered8,mc1,strong,Dribble,Shot,0.0
+tier_b,filtered8,mc1,strong,Shot,Shot,0.0
+tier_b,filtered8,mc1,strong,Miscontrol,Shot,0.0
+tier_b,filtered8,mc1,strong,Dispossessed,Shot,0.0
+tier_b,filtered8,mc1,strong,Pass,Miscontrol,0.0
+tier_b,filtered8,mc1,strong,Carry,Miscontrol,0.0
+tier_b,filtered8,mc1,strong,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc1,strong,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc1,strong,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc1,strong,Shot,Miscontrol,0.0
+tier_b,filtered8,mc1,strong,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc1,strong,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc1,strong,Pass,Dispossessed,0.0
+tier_b,filtered8,mc1,strong,Carry,Dispossessed,0.0
+tier_b,filtered8,mc1,strong,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc1,strong,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc1,strong,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc1,strong,Shot,Dispossessed,0.0
+tier_b,filtered8,mc1,strong,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc1,strong,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc1,tuned,Pass,Pass,214152.0
+tier_b,filtered8,mc1,tuned,Carry,Pass,481.0
+tier_b,filtered8,mc1,tuned,Ball Recovery,Pass,1504.0
+tier_b,filtered8,mc1,tuned,Clearance,Pass,517.0
+tier_b,filtered8,mc1,tuned,Dribble,Pass,8294.0
+tier_b,filtered8,mc1,tuned,Shot,Pass,3538.0
+tier_b,filtered8,mc1,tuned,Miscontrol,Pass,5831.0
+tier_b,filtered8,mc1,tuned,Dispossessed,Pass,6329.0
+tier_b,filtered8,mc1,tuned,Pass,Carry,51324.0
+tier_b,filtered8,mc1,tuned,Carry,Carry,224530.0
+tier_b,filtered8,mc1,tuned,Ball Recovery,Carry,15453.0
+tier_b,filtered8,mc1,tuned,Clearance,Carry,7787.0
+tier_b,filtered8,mc1,tuned,Dribble,Carry,70.0
+tier_b,filtered8,mc1,tuned,Shot,Carry,3474.0
+tier_b,filtered8,mc1,tuned,Miscontrol,Carry,1334.0
+tier_b,filtered8,mc1,tuned,Dispossessed,Carry,67.0
+tier_b,filtered8,mc1,tuned,Pass,Ball Recovery,11289.0
+tier_b,filtered8,mc1,tuned,Carry,Ball Recovery,1625.0
+tier_b,filtered8,mc1,tuned,Ball Recovery,Ball Recovery,9533.0
+tier_b,filtered8,mc1,tuned,Clearance,Ball Recovery,1717.0
+tier_b,filtered8,mc1,tuned,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc1,tuned,Shot,Ball Recovery,24.0
+tier_b,filtered8,mc1,tuned,Miscontrol,Ball Recovery,25.0
+tier_b,filtered8,mc1,tuned,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc1,tuned,Pass,Clearance,0.0
+tier_b,filtered8,mc1,tuned,Carry,Clearance,0.0
+tier_b,filtered8,mc1,tuned,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc1,tuned,Clearance,Clearance,0.0
+tier_b,filtered8,mc1,tuned,Dribble,Clearance,0.0
+tier_b,filtered8,mc1,tuned,Shot,Clearance,0.0
+tier_b,filtered8,mc1,tuned,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc1,tuned,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc1,tuned,Pass,Dribble,0.0
+tier_b,filtered8,mc1,tuned,Carry,Dribble,0.0
+tier_b,filtered8,mc1,tuned,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc1,tuned,Clearance,Dribble,0.0
+tier_b,filtered8,mc1,tuned,Dribble,Dribble,0.0
+tier_b,filtered8,mc1,tuned,Shot,Dribble,0.0
+tier_b,filtered8,mc1,tuned,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc1,tuned,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc1,tuned,Pass,Shot,0.0
+tier_b,filtered8,mc1,tuned,Carry,Shot,0.0
+tier_b,filtered8,mc1,tuned,Ball Recovery,Shot,0.0
+tier_b,filtered8,mc1,tuned,Clearance,Shot,0.0
+tier_b,filtered8,mc1,tuned,Dribble,Shot,0.0
+tier_b,filtered8,mc1,tuned,Shot,Shot,0.0
+tier_b,filtered8,mc1,tuned,Miscontrol,Shot,0.0
+tier_b,filtered8,mc1,tuned,Dispossessed,Shot,0.0
+tier_b,filtered8,mc1,tuned,Pass,Miscontrol,0.0
+tier_b,filtered8,mc1,tuned,Carry,Miscontrol,0.0
+tier_b,filtered8,mc1,tuned,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc1,tuned,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc1,tuned,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc1,tuned,Shot,Miscontrol,0.0
+tier_b,filtered8,mc1,tuned,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc1,tuned,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc1,tuned,Pass,Dispossessed,0.0
+tier_b,filtered8,mc1,tuned,Carry,Dispossessed,0.0
+tier_b,filtered8,mc1,tuned,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc1,tuned,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc1,tuned,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc1,tuned,Shot,Dispossessed,0.0
+tier_b,filtered8,mc1,tuned,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc1,tuned,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc2,uniform,Pass,Pass,226251.0
+tier_b,filtered8,mc2,uniform,Carry,Pass,3558.0
+tier_b,filtered8,mc2,uniform,Ball Recovery,Pass,11212.0
+tier_b,filtered8,mc2,uniform,Clearance,Pass,2600.0
+tier_b,filtered8,mc2,uniform,Dribble,Pass,8303.0
+tier_b,filtered8,mc2,uniform,Shot,Pass,3692.0
+tier_b,filtered8,mc2,uniform,Miscontrol,Pass,5882.0
+tier_b,filtered8,mc2,uniform,Dispossessed,Pass,6332.0
+tier_b,filtered8,mc2,uniform,Pass,Carry,50514.0
+tier_b,filtered8,mc2,uniform,Carry,Carry,223078.0
+tier_b,filtered8,mc2,uniform,Ball Recovery,Carry,15278.0
+tier_b,filtered8,mc2,uniform,Clearance,Carry,7421.0
+tier_b,filtered8,mc2,uniform,Dribble,Carry,68.0
+tier_b,filtered8,mc2,uniform,Shot,Carry,3344.0
+tier_b,filtered8,mc2,uniform,Miscontrol,Carry,1308.0
+tier_b,filtered8,mc2,uniform,Dispossessed,Carry,67.0
+tier_b,filtered8,mc2,uniform,Pass,Ball Recovery,0.0
+tier_b,filtered8,mc2,uniform,Carry,Ball Recovery,0.0
+tier_b,filtered8,mc2,uniform,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,mc2,uniform,Clearance,Ball Recovery,0.0
+tier_b,filtered8,mc2,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,mc2,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,mc2,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,mc2,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,mc2,uniform,Pass,Clearance,0.0
+tier_b,filtered8,mc2,uniform,Carry,Clearance,0.0
+tier_b,filtered8,mc2,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc2,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,mc2,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,mc2,uniform,Shot,Clearance,0.0
+tier_b,filtered8,mc2,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc2,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc2,uniform,Pass,Dribble,0.0
+tier_b,filtered8,mc2,uniform,Carry,Dribble,0.0
+tier_b,filtered8,mc2,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc2,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,mc2,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,mc2,uniform,Shot,Dribble,0.0
+tier_b,filtered8,mc2,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc2,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc2,uniform,Pass,Shot,0.0
+tier_b,filtered8,mc2,uniform,Carry,Shot,0.0
+tier_b,filtered8,mc2,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,mc2,uniform,Clearance,Shot,0.0
+tier_b,filtered8,mc2,uniform,Dribble,Shot,0.0
+tier_b,filtered8,mc2,uniform,Shot,Shot,0.0
+tier_b,filtered8,mc2,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,mc2,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,mc2,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,mc2,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,mc2,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc2,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc2,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc2,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,mc2,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc2,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc2,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,mc2,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,mc2,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc2,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc2,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc2,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,mc2,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc2,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc2,moderate,Pass,Pass,214701.0
+tier_b,filtered8,mc2,moderate,Carry,Pass,1282.0
+tier_b,filtered8,mc2,moderate,Ball Recovery,Pass,1599.0
+tier_b,filtered8,mc2,moderate,Clearance,Pass,840.0
+tier_b,filtered8,mc2,moderate,Dribble,Pass,8295.0
+tier_b,filtered8,mc2,moderate,Shot,Pass,3654.0
+tier_b,filtered8,mc2,moderate,Miscontrol,Pass,5853.0
+tier_b,filtered8,mc2,moderate,Dispossessed,Pass,6329.0
+tier_b,filtered8,mc2,moderate,Pass,Carry,50671.0
+tier_b,filtered8,mc2,moderate,Carry,Carry,222891.0
+tier_b,filtered8,mc2,moderate,Ball Recovery,Carry,15303.0
+tier_b,filtered8,mc2,moderate,Clearance,Carry,7453.0
+tier_b,filtered8,mc2,moderate,Dribble,Carry,69.0
+tier_b,filtered8,mc2,moderate,Shot,Carry,3089.0
+tier_b,filtered8,mc2,moderate,Miscontrol,Carry,1312.0
+tier_b,filtered8,mc2,moderate,Dispossessed,Carry,67.0
+tier_b,filtered8,mc2,moderate,Pass,Ball Recovery,11289.0
+tier_b,filtered8,mc2,moderate,Carry,Ball Recovery,1625.0
+tier_b,filtered8,mc2,moderate,Ball Recovery,Ball Recovery,9533.0
+tier_b,filtered8,mc2,moderate,Clearance,Ball Recovery,1717.0
+tier_b,filtered8,mc2,moderate,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc2,moderate,Shot,Ball Recovery,24.0
+tier_b,filtered8,mc2,moderate,Miscontrol,Ball Recovery,25.0
+tier_b,filtered8,mc2,moderate,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc2,moderate,Pass,Clearance,0.0
+tier_b,filtered8,mc2,moderate,Carry,Clearance,0.0
+tier_b,filtered8,mc2,moderate,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc2,moderate,Clearance,Clearance,0.0
+tier_b,filtered8,mc2,moderate,Dribble,Clearance,0.0
+tier_b,filtered8,mc2,moderate,Shot,Clearance,0.0
+tier_b,filtered8,mc2,moderate,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc2,moderate,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc2,moderate,Pass,Dribble,0.0
+tier_b,filtered8,mc2,moderate,Carry,Dribble,0.0
+tier_b,filtered8,mc2,moderate,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc2,moderate,Clearance,Dribble,0.0
+tier_b,filtered8,mc2,moderate,Dribble,Dribble,0.0
+tier_b,filtered8,mc2,moderate,Shot,Dribble,0.0
+tier_b,filtered8,mc2,moderate,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc2,moderate,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc2,moderate,Pass,Shot,104.0
+tier_b,filtered8,mc2,moderate,Carry,Shot,838.0
+tier_b,filtered8,mc2,moderate,Ball Recovery,Shot,55.0
+tier_b,filtered8,mc2,moderate,Clearance,Shot,11.0
+tier_b,filtered8,mc2,moderate,Dribble,Shot,0.0
+tier_b,filtered8,mc2,moderate,Shot,Shot,269.0
+tier_b,filtered8,mc2,moderate,Miscontrol,Shot,0.0
+tier_b,filtered8,mc2,moderate,Dispossessed,Shot,0.0
+tier_b,filtered8,mc2,moderate,Pass,Miscontrol,0.0
+tier_b,filtered8,mc2,moderate,Carry,Miscontrol,0.0
+tier_b,filtered8,mc2,moderate,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc2,moderate,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc2,moderate,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc2,moderate,Shot,Miscontrol,0.0
+tier_b,filtered8,mc2,moderate,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc2,moderate,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc2,moderate,Pass,Dispossessed,0.0
+tier_b,filtered8,mc2,moderate,Carry,Dispossessed,0.0
+tier_b,filtered8,mc2,moderate,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc2,moderate,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc2,moderate,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc2,moderate,Shot,Dispossessed,0.0
+tier_b,filtered8,mc2,moderate,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc2,moderate,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc2,strong,Pass,Pass,184960.0
+tier_b,filtered8,mc2,strong,Carry,Pass,279.0
+tier_b,filtered8,mc2,strong,Ball Recovery,Pass,46.0
+tier_b,filtered8,mc2,strong,Clearance,Pass,36.0
+tier_b,filtered8,mc2,strong,Dribble,Pass,5949.0
+tier_b,filtered8,mc2,strong,Shot,Pass,2444.0
+tier_b,filtered8,mc2,strong,Miscontrol,Pass,5184.0
+tier_b,filtered8,mc2,strong,Dispossessed,Pass,4637.0
+tier_b,filtered8,mc2,strong,Pass,Carry,31972.0
+tier_b,filtered8,mc2,strong,Carry,Carry,175510.0
+tier_b,filtered8,mc2,strong,Ball Recovery,Carry,8958.0
+tier_b,filtered8,mc2,strong,Clearance,Carry,4847.0
+tier_b,filtered8,mc2,strong,Dribble,Carry,46.0
+tier_b,filtered8,mc2,strong,Shot,Carry,2067.0
+tier_b,filtered8,mc2,strong,Miscontrol,Carry,839.0
+tier_b,filtered8,mc2,strong,Dispossessed,Carry,54.0
+tier_b,filtered8,mc2,strong,Pass,Ball Recovery,33052.0
+tier_b,filtered8,mc2,strong,Carry,Ball Recovery,40702.0
+tier_b,filtered8,mc2,strong,Ball Recovery,Ball Recovery,16404.0
+tier_b,filtered8,mc2,strong,Clearance,Ball Recovery,4200.0
+tier_b,filtered8,mc2,strong,Dribble,Ball Recovery,25.0
+tier_b,filtered8,mc2,strong,Shot,Ball Recovery,513.0
+tier_b,filtered8,mc2,strong,Miscontrol,Ball Recovery,417.0
+tier_b,filtered8,mc2,strong,Dispossessed,Ball Recovery,15.0
+tier_b,filtered8,mc2,strong,Pass,Clearance,2740.0
+tier_b,filtered8,mc2,strong,Carry,Clearance,5761.0
+tier_b,filtered8,mc2,strong,Ball Recovery,Clearance,737.0
+tier_b,filtered8,mc2,strong,Clearance,Clearance,878.0
+tier_b,filtered8,mc2,strong,Dribble,Clearance,5.0
+tier_b,filtered8,mc2,strong,Shot,Clearance,310.0
+tier_b,filtered8,mc2,strong,Miscontrol,Clearance,103.0
+tier_b,filtered8,mc2,strong,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc2,strong,Pass,Dribble,22521.0
+tier_b,filtered8,mc2,strong,Carry,Dribble,173.0
+tier_b,filtered8,mc2,strong,Ball Recovery,Dribble,83.0
+tier_b,filtered8,mc2,strong,Clearance,Dribble,3.0
+tier_b,filtered8,mc2,strong,Dribble,Dribble,2264.0
+tier_b,filtered8,mc2,strong,Shot,Dribble,1038.0
+tier_b,filtered8,mc2,strong,Miscontrol,Dribble,591.0
+tier_b,filtered8,mc2,strong,Dispossessed,Dribble,1595.0
+tier_b,filtered8,mc2,strong,Pass,Shot,340.0
+tier_b,filtered8,mc2,strong,Carry,Shot,4194.0
+tier_b,filtered8,mc2,strong,Ball Recovery,Shot,261.0
+tier_b,filtered8,mc2,strong,Clearance,Shot,57.0
+tier_b,filtered8,mc2,strong,Dribble,Shot,1.0
+tier_b,filtered8,mc2,strong,Shot,Shot,638.0
+tier_b,filtered8,mc2,strong,Miscontrol,Shot,0.0
+tier_b,filtered8,mc2,strong,Dispossessed,Shot,1.0
+tier_b,filtered8,mc2,strong,Pass,Miscontrol,0.0
+tier_b,filtered8,mc2,strong,Carry,Miscontrol,0.0
+tier_b,filtered8,mc2,strong,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc2,strong,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc2,strong,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc2,strong,Shot,Miscontrol,0.0
+tier_b,filtered8,mc2,strong,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc2,strong,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc2,strong,Pass,Dispossessed,1180.0
+tier_b,filtered8,mc2,strong,Carry,Dispossessed,17.0
+tier_b,filtered8,mc2,strong,Ball Recovery,Dispossessed,1.0
+tier_b,filtered8,mc2,strong,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc2,strong,Dribble,Dispossessed,81.0
+tier_b,filtered8,mc2,strong,Shot,Dispossessed,26.0
+tier_b,filtered8,mc2,strong,Miscontrol,Dispossessed,56.0
+tier_b,filtered8,mc2,strong,Dispossessed,Dispossessed,97.0
+tier_b,filtered8,mc2,tuned,Pass,Pass,185026.0
+tier_b,filtered8,mc2,tuned,Carry,Pass,281.0
+tier_b,filtered8,mc2,tuned,Ball Recovery,Pass,47.0
+tier_b,filtered8,mc2,tuned,Clearance,Pass,36.0
+tier_b,filtered8,mc2,tuned,Dribble,Pass,5950.0
+tier_b,filtered8,mc2,tuned,Shot,Pass,2444.0
+tier_b,filtered8,mc2,tuned,Miscontrol,Pass,5186.0
+tier_b,filtered8,mc2,tuned,Dispossessed,Pass,4638.0
+tier_b,filtered8,mc2,tuned,Pass,Carry,47710.0
+tier_b,filtered8,mc2,tuned,Carry,Carry,211816.0
+tier_b,filtered8,mc2,tuned,Ball Recovery,Carry,13520.0
+tier_b,filtered8,mc2,tuned,Clearance,Carry,6899.0
+tier_b,filtered8,mc2,tuned,Dribble,Carry,66.0
+tier_b,filtered8,mc2,tuned,Shot,Carry,2585.0
+tier_b,filtered8,mc2,tuned,Miscontrol,Carry,1254.0
+tier_b,filtered8,mc2,tuned,Dispossessed,Carry,66.0
+tier_b,filtered8,mc2,tuned,Pass,Ball Recovery,18247.0
+tier_b,filtered8,mc2,tuned,Carry,Ball Recovery,6902.0
+tier_b,filtered8,mc2,tuned,Ball Recovery,Ball Recovery,12100.0
+tier_b,filtered8,mc2,tuned,Clearance,Ball Recovery,2329.0
+tier_b,filtered8,mc2,tuned,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc2,tuned,Shot,Ball Recovery,60.0
+tier_b,filtered8,mc2,tuned,Miscontrol,Ball Recovery,26.0
+tier_b,filtered8,mc2,tuned,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc2,tuned,Pass,Clearance,1807.0
+tier_b,filtered8,mc2,tuned,Carry,Clearance,3255.0
+tier_b,filtered8,mc2,tuned,Ball Recovery,Clearance,479.0
+tier_b,filtered8,mc2,tuned,Clearance,Clearance,697.0
+tier_b,filtered8,mc2,tuned,Dribble,Clearance,3.0
+tier_b,filtered8,mc2,tuned,Shot,Clearance,245.0
+tier_b,filtered8,mc2,tuned,Miscontrol,Clearance,79.0
+tier_b,filtered8,mc2,tuned,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc2,tuned,Pass,Dribble,22455.0
+tier_b,filtered8,mc2,tuned,Carry,Dribble,171.0
+tier_b,filtered8,mc2,tuned,Ball Recovery,Dribble,82.0
+tier_b,filtered8,mc2,tuned,Clearance,Dribble,3.0
+tier_b,filtered8,mc2,tuned,Dribble,Dribble,2263.0
+tier_b,filtered8,mc2,tuned,Shot,Dribble,1038.0
+tier_b,filtered8,mc2,tuned,Miscontrol,Dribble,589.0
+tier_b,filtered8,mc2,tuned,Dispossessed,Dribble,1594.0
+tier_b,filtered8,mc2,tuned,Pass,Shot,340.0
+tier_b,filtered8,mc2,tuned,Carry,Shot,4194.0
+tier_b,filtered8,mc2,tuned,Ball Recovery,Shot,261.0
+tier_b,filtered8,mc2,tuned,Clearance,Shot,57.0
+tier_b,filtered8,mc2,tuned,Dribble,Shot,1.0
+tier_b,filtered8,mc2,tuned,Shot,Shot,638.0
+tier_b,filtered8,mc2,tuned,Miscontrol,Shot,0.0
+tier_b,filtered8,mc2,tuned,Dispossessed,Shot,1.0
+tier_b,filtered8,mc2,tuned,Pass,Miscontrol,0.0
+tier_b,filtered8,mc2,tuned,Carry,Miscontrol,0.0
+tier_b,filtered8,mc2,tuned,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc2,tuned,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc2,tuned,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc2,tuned,Shot,Miscontrol,0.0
+tier_b,filtered8,mc2,tuned,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc2,tuned,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc2,tuned,Pass,Dispossessed,1180.0
+tier_b,filtered8,mc2,tuned,Carry,Dispossessed,17.0
+tier_b,filtered8,mc2,tuned,Ball Recovery,Dispossessed,1.0
+tier_b,filtered8,mc2,tuned,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc2,tuned,Dribble,Dispossessed,81.0
+tier_b,filtered8,mc2,tuned,Shot,Dispossessed,26.0
+tier_b,filtered8,mc2,tuned,Miscontrol,Dispossessed,56.0
+tier_b,filtered8,mc2,tuned,Dispossessed,Dispossessed,97.0
+tier_b,filtered8,mc1_zone,uniform,Pass,Pass,225233.0
+tier_b,filtered8,mc1_zone,uniform,Carry,Pass,1988.0
+tier_b,filtered8,mc1_zone,uniform,Ball Recovery,Pass,10877.0
+tier_b,filtered8,mc1_zone,uniform,Clearance,Pass,2233.0
+tier_b,filtered8,mc1_zone,uniform,Dribble,Pass,8301.0
+tier_b,filtered8,mc1_zone,uniform,Shot,Pass,3562.0
+tier_b,filtered8,mc1_zone,uniform,Miscontrol,Pass,5856.0
+tier_b,filtered8,mc1_zone,uniform,Dispossessed,Pass,6332.0
+tier_b,filtered8,mc1_zone,uniform,Pass,Carry,51324.0
+tier_b,filtered8,mc1_zone,uniform,Carry,Carry,224530.0
+tier_b,filtered8,mc1_zone,uniform,Ball Recovery,Carry,15453.0
+tier_b,filtered8,mc1_zone,uniform,Clearance,Carry,7787.0
+tier_b,filtered8,mc1_zone,uniform,Dribble,Carry,70.0
+tier_b,filtered8,mc1_zone,uniform,Shot,Carry,3474.0
+tier_b,filtered8,mc1_zone,uniform,Miscontrol,Carry,1334.0
+tier_b,filtered8,mc1_zone,uniform,Dispossessed,Carry,67.0
+tier_b,filtered8,mc1_zone,uniform,Pass,Ball Recovery,208.0
+tier_b,filtered8,mc1_zone,uniform,Carry,Ball Recovery,118.0
+tier_b,filtered8,mc1_zone,uniform,Ball Recovery,Ball Recovery,160.0
+tier_b,filtered8,mc1_zone,uniform,Clearance,Ball Recovery,1.0
+tier_b,filtered8,mc1_zone,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,mc1_zone,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,mc1_zone,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,mc1_zone,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,mc1_zone,uniform,Pass,Clearance,0.0
+tier_b,filtered8,mc1_zone,uniform,Carry,Clearance,0.0
+tier_b,filtered8,mc1_zone,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc1_zone,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,mc1_zone,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,mc1_zone,uniform,Shot,Clearance,0.0
+tier_b,filtered8,mc1_zone,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc1_zone,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc1_zone,uniform,Pass,Dribble,0.0
+tier_b,filtered8,mc1_zone,uniform,Carry,Dribble,0.0
+tier_b,filtered8,mc1_zone,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc1_zone,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,mc1_zone,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,mc1_zone,uniform,Shot,Dribble,0.0
+tier_b,filtered8,mc1_zone,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc1_zone,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc1_zone,uniform,Pass,Shot,0.0
+tier_b,filtered8,mc1_zone,uniform,Carry,Shot,0.0
+tier_b,filtered8,mc1_zone,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,mc1_zone,uniform,Clearance,Shot,0.0
+tier_b,filtered8,mc1_zone,uniform,Dribble,Shot,0.0
+tier_b,filtered8,mc1_zone,uniform,Shot,Shot,0.0
+tier_b,filtered8,mc1_zone,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,mc1_zone,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,mc1_zone,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,moderate,Pass,Pass,214152.0
+tier_b,filtered8,mc1_zone,moderate,Carry,Pass,481.0
+tier_b,filtered8,mc1_zone,moderate,Ball Recovery,Pass,1504.0
+tier_b,filtered8,mc1_zone,moderate,Clearance,Pass,517.0
+tier_b,filtered8,mc1_zone,moderate,Dribble,Pass,8294.0
+tier_b,filtered8,mc1_zone,moderate,Shot,Pass,3538.0
+tier_b,filtered8,mc1_zone,moderate,Miscontrol,Pass,5831.0
+tier_b,filtered8,mc1_zone,moderate,Dispossessed,Pass,6329.0
+tier_b,filtered8,mc1_zone,moderate,Pass,Carry,51324.0
+tier_b,filtered8,mc1_zone,moderate,Carry,Carry,224530.0
+tier_b,filtered8,mc1_zone,moderate,Ball Recovery,Carry,15453.0
+tier_b,filtered8,mc1_zone,moderate,Clearance,Carry,7787.0
+tier_b,filtered8,mc1_zone,moderate,Dribble,Carry,70.0
+tier_b,filtered8,mc1_zone,moderate,Shot,Carry,3474.0
+tier_b,filtered8,mc1_zone,moderate,Miscontrol,Carry,1334.0
+tier_b,filtered8,mc1_zone,moderate,Dispossessed,Carry,67.0
+tier_b,filtered8,mc1_zone,moderate,Pass,Ball Recovery,11289.0
+tier_b,filtered8,mc1_zone,moderate,Carry,Ball Recovery,1625.0
+tier_b,filtered8,mc1_zone,moderate,Ball Recovery,Ball Recovery,9533.0
+tier_b,filtered8,mc1_zone,moderate,Clearance,Ball Recovery,1717.0
+tier_b,filtered8,mc1_zone,moderate,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc1_zone,moderate,Shot,Ball Recovery,24.0
+tier_b,filtered8,mc1_zone,moderate,Miscontrol,Ball Recovery,25.0
+tier_b,filtered8,mc1_zone,moderate,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc1_zone,moderate,Pass,Clearance,0.0
+tier_b,filtered8,mc1_zone,moderate,Carry,Clearance,0.0
+tier_b,filtered8,mc1_zone,moderate,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc1_zone,moderate,Clearance,Clearance,0.0
+tier_b,filtered8,mc1_zone,moderate,Dribble,Clearance,0.0
+tier_b,filtered8,mc1_zone,moderate,Shot,Clearance,0.0
+tier_b,filtered8,mc1_zone,moderate,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc1_zone,moderate,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc1_zone,moderate,Pass,Dribble,0.0
+tier_b,filtered8,mc1_zone,moderate,Carry,Dribble,0.0
+tier_b,filtered8,mc1_zone,moderate,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc1_zone,moderate,Clearance,Dribble,0.0
+tier_b,filtered8,mc1_zone,moderate,Dribble,Dribble,0.0
+tier_b,filtered8,mc1_zone,moderate,Shot,Dribble,0.0
+tier_b,filtered8,mc1_zone,moderate,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc1_zone,moderate,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc1_zone,moderate,Pass,Shot,0.0
+tier_b,filtered8,mc1_zone,moderate,Carry,Shot,0.0
+tier_b,filtered8,mc1_zone,moderate,Ball Recovery,Shot,0.0
+tier_b,filtered8,mc1_zone,moderate,Clearance,Shot,0.0
+tier_b,filtered8,mc1_zone,moderate,Dribble,Shot,0.0
+tier_b,filtered8,mc1_zone,moderate,Shot,Shot,0.0
+tier_b,filtered8,mc1_zone,moderate,Miscontrol,Shot,0.0
+tier_b,filtered8,mc1_zone,moderate,Dispossessed,Shot,0.0
+tier_b,filtered8,mc1_zone,moderate,Pass,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,moderate,Carry,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,moderate,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,moderate,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,moderate,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,moderate,Shot,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,moderate,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,moderate,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,moderate,Pass,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,moderate,Carry,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,moderate,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,moderate,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,moderate,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,moderate,Shot,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,moderate,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,moderate,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,strong,Pass,Pass,165189.0
+tier_b,filtered8,mc1_zone,strong,Carry,Pass,396.0
+tier_b,filtered8,mc1_zone,strong,Ball Recovery,Pass,90.0
+tier_b,filtered8,mc1_zone,strong,Clearance,Pass,8.0
+tier_b,filtered8,mc1_zone,strong,Dribble,Pass,4786.0
+tier_b,filtered8,mc1_zone,strong,Shot,Pass,311.0
+tier_b,filtered8,mc1_zone,strong,Miscontrol,Pass,3236.0
+tier_b,filtered8,mc1_zone,strong,Dispossessed,Pass,3689.0
+tier_b,filtered8,mc1_zone,strong,Pass,Carry,38690.0
+tier_b,filtered8,mc1_zone,strong,Carry,Carry,173846.0
+tier_b,filtered8,mc1_zone,strong,Ball Recovery,Carry,10038.0
+tier_b,filtered8,mc1_zone,strong,Clearance,Carry,2350.0
+tier_b,filtered8,mc1_zone,strong,Dribble,Carry,55.0
+tier_b,filtered8,mc1_zone,strong,Shot,Carry,150.0
+tier_b,filtered8,mc1_zone,strong,Miscontrol,Carry,925.0
+tier_b,filtered8,mc1_zone,strong,Dispossessed,Carry,36.0
+tier_b,filtered8,mc1_zone,strong,Pass,Ball Recovery,18247.0
+tier_b,filtered8,mc1_zone,strong,Carry,Ball Recovery,6902.0
+tier_b,filtered8,mc1_zone,strong,Ball Recovery,Ball Recovery,12100.0
+tier_b,filtered8,mc1_zone,strong,Clearance,Ball Recovery,2329.0
+tier_b,filtered8,mc1_zone,strong,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc1_zone,strong,Shot,Ball Recovery,60.0
+tier_b,filtered8,mc1_zone,strong,Miscontrol,Ball Recovery,26.0
+tier_b,filtered8,mc1_zone,strong,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc1_zone,strong,Pass,Clearance,10897.0
+tier_b,filtered8,mc1_zone,strong,Carry,Clearance,39957.0
+tier_b,filtered8,mc1_zone,strong,Ball Recovery,Clearance,3964.0
+tier_b,filtered8,mc1_zone,strong,Clearance,Clearance,5199.0
+tier_b,filtered8,mc1_zone,strong,Dribble,Clearance,14.0
+tier_b,filtered8,mc1_zone,strong,Shot,Clearance,2404.0
+tier_b,filtered8,mc1_zone,strong,Miscontrol,Clearance,405.0
+tier_b,filtered8,mc1_zone,strong,Dispossessed,Clearance,26.0
+tier_b,filtered8,mc1_zone,strong,Pass,Dribble,43472.0
+tier_b,filtered8,mc1_zone,strong,Carry,Dribble,73.0
+tier_b,filtered8,mc1_zone,strong,Ball Recovery,Dribble,40.0
+tier_b,filtered8,mc1_zone,strong,Clearance,Dribble,31.0
+tier_b,filtered8,mc1_zone,strong,Dribble,Dribble,3508.0
+tier_b,filtered8,mc1_zone,strong,Shot,Dribble,3197.0
+tier_b,filtered8,mc1_zone,strong,Miscontrol,Dribble,2595.0
+tier_b,filtered8,mc1_zone,strong,Dispossessed,Dribble,2640.0
+tier_b,filtered8,mc1_zone,strong,Pass,Shot,270.0
+tier_b,filtered8,mc1_zone,strong,Carry,Shot,5462.0
+tier_b,filtered8,mc1_zone,strong,Ball Recovery,Shot,258.0
+tier_b,filtered8,mc1_zone,strong,Clearance,Shot,104.0
+tier_b,filtered8,mc1_zone,strong,Dribble,Shot,1.0
+tier_b,filtered8,mc1_zone,strong,Shot,Shot,914.0
+tier_b,filtered8,mc1_zone,strong,Miscontrol,Shot,3.0
+tier_b,filtered8,mc1_zone,strong,Dispossessed,Shot,5.0
+tier_b,filtered8,mc1_zone,strong,Pass,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,strong,Carry,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,strong,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,strong,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,strong,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,strong,Shot,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,strong,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,strong,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,strong,Pass,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,strong,Carry,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,strong,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,strong,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,strong,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,strong,Shot,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,strong,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,strong,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,tuned,Pass,Pass,165189.0
+tier_b,filtered8,mc1_zone,tuned,Carry,Pass,396.0
+tier_b,filtered8,mc1_zone,tuned,Ball Recovery,Pass,90.0
+tier_b,filtered8,mc1_zone,tuned,Clearance,Pass,8.0
+tier_b,filtered8,mc1_zone,tuned,Dribble,Pass,4786.0
+tier_b,filtered8,mc1_zone,tuned,Shot,Pass,311.0
+tier_b,filtered8,mc1_zone,tuned,Miscontrol,Pass,3236.0
+tier_b,filtered8,mc1_zone,tuned,Dispossessed,Pass,3689.0
+tier_b,filtered8,mc1_zone,tuned,Pass,Carry,38719.0
+tier_b,filtered8,mc1_zone,tuned,Carry,Carry,173998.0
+tier_b,filtered8,mc1_zone,tuned,Ball Recovery,Carry,10078.0
+tier_b,filtered8,mc1_zone,tuned,Clearance,Carry,2352.0
+tier_b,filtered8,mc1_zone,tuned,Dribble,Carry,55.0
+tier_b,filtered8,mc1_zone,tuned,Shot,Carry,150.0
+tier_b,filtered8,mc1_zone,tuned,Miscontrol,Carry,925.0
+tier_b,filtered8,mc1_zone,tuned,Dispossessed,Carry,36.0
+tier_b,filtered8,mc1_zone,tuned,Pass,Ball Recovery,18218.0
+tier_b,filtered8,mc1_zone,tuned,Carry,Ball Recovery,6750.0
+tier_b,filtered8,mc1_zone,tuned,Ball Recovery,Ball Recovery,12060.0
+tier_b,filtered8,mc1_zone,tuned,Clearance,Ball Recovery,2327.0
+tier_b,filtered8,mc1_zone,tuned,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc1_zone,tuned,Shot,Ball Recovery,60.0
+tier_b,filtered8,mc1_zone,tuned,Miscontrol,Ball Recovery,26.0
+tier_b,filtered8,mc1_zone,tuned,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc1_zone,tuned,Pass,Clearance,10897.0
+tier_b,filtered8,mc1_zone,tuned,Carry,Clearance,39957.0
+tier_b,filtered8,mc1_zone,tuned,Ball Recovery,Clearance,3964.0
+tier_b,filtered8,mc1_zone,tuned,Clearance,Clearance,5199.0
+tier_b,filtered8,mc1_zone,tuned,Dribble,Clearance,14.0
+tier_b,filtered8,mc1_zone,tuned,Shot,Clearance,2404.0
+tier_b,filtered8,mc1_zone,tuned,Miscontrol,Clearance,405.0
+tier_b,filtered8,mc1_zone,tuned,Dispossessed,Clearance,26.0
+tier_b,filtered8,mc1_zone,tuned,Pass,Dribble,43472.0
+tier_b,filtered8,mc1_zone,tuned,Carry,Dribble,73.0
+tier_b,filtered8,mc1_zone,tuned,Ball Recovery,Dribble,40.0
+tier_b,filtered8,mc1_zone,tuned,Clearance,Dribble,31.0
+tier_b,filtered8,mc1_zone,tuned,Dribble,Dribble,3508.0
+tier_b,filtered8,mc1_zone,tuned,Shot,Dribble,3197.0
+tier_b,filtered8,mc1_zone,tuned,Miscontrol,Dribble,2595.0
+tier_b,filtered8,mc1_zone,tuned,Dispossessed,Dribble,2640.0
+tier_b,filtered8,mc1_zone,tuned,Pass,Shot,270.0
+tier_b,filtered8,mc1_zone,tuned,Carry,Shot,5462.0
+tier_b,filtered8,mc1_zone,tuned,Ball Recovery,Shot,258.0
+tier_b,filtered8,mc1_zone,tuned,Clearance,Shot,104.0
+tier_b,filtered8,mc1_zone,tuned,Dribble,Shot,1.0
+tier_b,filtered8,mc1_zone,tuned,Shot,Shot,914.0
+tier_b,filtered8,mc1_zone,tuned,Miscontrol,Shot,3.0
+tier_b,filtered8,mc1_zone,tuned,Dispossessed,Shot,5.0
+tier_b,filtered8,mc1_zone,tuned,Pass,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,tuned,Carry,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,tuned,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,tuned,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,tuned,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,tuned,Shot,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,tuned,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,tuned,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc1_zone,tuned,Pass,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,tuned,Carry,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,tuned,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,tuned,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,tuned,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,tuned,Shot,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,tuned,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc1_zone,tuned,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,uniform,Pass,Pass,225840.0
+tier_b,filtered8,mc2_zone,uniform,Carry,Pass,2860.0
+tier_b,filtered8,mc2_zone,uniform,Ball Recovery,Pass,10967.0
+tier_b,filtered8,mc2_zone,uniform,Clearance,Pass,2315.0
+tier_b,filtered8,mc2_zone,uniform,Dribble,Pass,8302.0
+tier_b,filtered8,mc2_zone,uniform,Shot,Pass,3562.0
+tier_b,filtered8,mc2_zone,uniform,Miscontrol,Pass,5870.0
+tier_b,filtered8,mc2_zone,uniform,Dispossessed,Pass,6332.0
+tier_b,filtered8,mc2_zone,uniform,Pass,Carry,50720.0
+tier_b,filtered8,mc2_zone,uniform,Carry,Carry,223659.0
+tier_b,filtered8,mc2_zone,uniform,Ball Recovery,Carry,15367.0
+tier_b,filtered8,mc2_zone,uniform,Clearance,Carry,7705.0
+tier_b,filtered8,mc2_zone,uniform,Dribble,Carry,69.0
+tier_b,filtered8,mc2_zone,uniform,Shot,Carry,3474.0
+tier_b,filtered8,mc2_zone,uniform,Miscontrol,Carry,1320.0
+tier_b,filtered8,mc2_zone,uniform,Dispossessed,Carry,67.0
+tier_b,filtered8,mc2_zone,uniform,Pass,Ball Recovery,205.0
+tier_b,filtered8,mc2_zone,uniform,Carry,Ball Recovery,117.0
+tier_b,filtered8,mc2_zone,uniform,Ball Recovery,Ball Recovery,156.0
+tier_b,filtered8,mc2_zone,uniform,Clearance,Ball Recovery,1.0
+tier_b,filtered8,mc2_zone,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,mc2_zone,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,mc2_zone,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,mc2_zone,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,mc2_zone,uniform,Pass,Clearance,0.0
+tier_b,filtered8,mc2_zone,uniform,Carry,Clearance,0.0
+tier_b,filtered8,mc2_zone,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,mc2_zone,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,mc2_zone,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,mc2_zone,uniform,Shot,Clearance,0.0
+tier_b,filtered8,mc2_zone,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,mc2_zone,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc2_zone,uniform,Pass,Dribble,0.0
+tier_b,filtered8,mc2_zone,uniform,Carry,Dribble,0.0
+tier_b,filtered8,mc2_zone,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc2_zone,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,mc2_zone,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,mc2_zone,uniform,Shot,Dribble,0.0
+tier_b,filtered8,mc2_zone,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc2_zone,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc2_zone,uniform,Pass,Shot,0.0
+tier_b,filtered8,mc2_zone,uniform,Carry,Shot,0.0
+tier_b,filtered8,mc2_zone,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,mc2_zone,uniform,Clearance,Shot,0.0
+tier_b,filtered8,mc2_zone,uniform,Dribble,Shot,0.0
+tier_b,filtered8,mc2_zone,uniform,Shot,Shot,0.0
+tier_b,filtered8,mc2_zone,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,mc2_zone,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,mc2_zone,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,moderate,Pass,Pass,213489.0
+tier_b,filtered8,mc2_zone,moderate,Carry,Pass,1336.0
+tier_b,filtered8,mc2_zone,moderate,Ball Recovery,Pass,1568.0
+tier_b,filtered8,mc2_zone,moderate,Clearance,Pass,598.0
+tier_b,filtered8,mc2_zone,moderate,Dribble,Pass,8043.0
+tier_b,filtered8,mc2_zone,moderate,Shot,Pass,3201.0
+tier_b,filtered8,mc2_zone,moderate,Miscontrol,Pass,5773.0
+tier_b,filtered8,mc2_zone,moderate,Dispossessed,Pass,6179.0
+tier_b,filtered8,mc2_zone,moderate,Pass,Carry,50114.0
+tier_b,filtered8,mc2_zone,moderate,Carry,Carry,221943.0
+tier_b,filtered8,mc2_zone,moderate,Ball Recovery,Carry,15165.0
+tier_b,filtered8,mc2_zone,moderate,Clearance,Carry,7124.0
+tier_b,filtered8,mc2_zone,moderate,Dribble,Carry,68.0
+tier_b,filtered8,mc2_zone,moderate,Shot,Carry,2968.0
+tier_b,filtered8,mc2_zone,moderate,Miscontrol,Carry,1281.0
+tier_b,filtered8,mc2_zone,moderate,Dispossessed,Carry,67.0
+tier_b,filtered8,mc2_zone,moderate,Pass,Ball Recovery,11289.0
+tier_b,filtered8,mc2_zone,moderate,Carry,Ball Recovery,1625.0
+tier_b,filtered8,mc2_zone,moderate,Ball Recovery,Ball Recovery,9533.0
+tier_b,filtered8,mc2_zone,moderate,Clearance,Ball Recovery,1717.0
+tier_b,filtered8,mc2_zone,moderate,Dribble,Ball Recovery,7.0
+tier_b,filtered8,mc2_zone,moderate,Shot,Ball Recovery,24.0
+tier_b,filtered8,mc2_zone,moderate,Miscontrol,Ball Recovery,25.0
+tier_b,filtered8,mc2_zone,moderate,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc2_zone,moderate,Pass,Clearance,589.0
+tier_b,filtered8,mc2_zone,moderate,Carry,Clearance,1310.0
+tier_b,filtered8,mc2_zone,moderate,Ball Recovery,Clearance,174.0
+tier_b,filtered8,mc2_zone,moderate,Clearance,Clearance,570.0
+tier_b,filtered8,mc2_zone,moderate,Dribble,Clearance,1.0
+tier_b,filtered8,mc2_zone,moderate,Shot,Clearance,238.0
+tier_b,filtered8,mc2_zone,moderate,Miscontrol,Clearance,39.0
+tier_b,filtered8,mc2_zone,moderate,Dispossessed,Clearance,0.0
+tier_b,filtered8,mc2_zone,moderate,Pass,Dribble,0.0
+tier_b,filtered8,mc2_zone,moderate,Carry,Dribble,0.0
+tier_b,filtered8,mc2_zone,moderate,Ball Recovery,Dribble,0.0
+tier_b,filtered8,mc2_zone,moderate,Clearance,Dribble,0.0
+tier_b,filtered8,mc2_zone,moderate,Dribble,Dribble,0.0
+tier_b,filtered8,mc2_zone,moderate,Shot,Dribble,0.0
+tier_b,filtered8,mc2_zone,moderate,Miscontrol,Dribble,0.0
+tier_b,filtered8,mc2_zone,moderate,Dispossessed,Dribble,0.0
+tier_b,filtered8,mc2_zone,moderate,Pass,Shot,1284.0
+tier_b,filtered8,mc2_zone,moderate,Carry,Shot,422.0
+tier_b,filtered8,mc2_zone,moderate,Ball Recovery,Shot,50.0
+tier_b,filtered8,mc2_zone,moderate,Clearance,Shot,12.0
+tier_b,filtered8,mc2_zone,moderate,Dribble,Shot,252.0
+tier_b,filtered8,mc2_zone,moderate,Shot,Shot,605.0
+tier_b,filtered8,mc2_zone,moderate,Miscontrol,Shot,72.0
+tier_b,filtered8,mc2_zone,moderate,Dispossessed,Shot,150.0
+tier_b,filtered8,mc2_zone,moderate,Pass,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,moderate,Carry,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,moderate,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,moderate,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,moderate,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,moderate,Shot,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,moderate,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,moderate,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,moderate,Pass,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,moderate,Carry,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,moderate,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,moderate,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,moderate,Dribble,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,moderate,Shot,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,moderate,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,moderate,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,strong,Pass,Pass,147133.0
+tier_b,filtered8,mc2_zone,strong,Carry,Pass,479.0
+tier_b,filtered8,mc2_zone,strong,Ball Recovery,Pass,48.0
+tier_b,filtered8,mc2_zone,strong,Clearance,Pass,14.0
+tier_b,filtered8,mc2_zone,strong,Dribble,Pass,3341.0
+tier_b,filtered8,mc2_zone,strong,Shot,Pass,221.0
+tier_b,filtered8,mc2_zone,strong,Miscontrol,Pass,2827.0
+tier_b,filtered8,mc2_zone,strong,Dispossessed,Pass,2583.0
+tier_b,filtered8,mc2_zone,strong,Pass,Carry,24928.0
+tier_b,filtered8,mc2_zone,strong,Carry,Carry,143978.0
+tier_b,filtered8,mc2_zone,strong,Ball Recovery,Carry,6203.0
+tier_b,filtered8,mc2_zone,strong,Clearance,Carry,1500.0
+tier_b,filtered8,mc2_zone,strong,Dribble,Carry,38.0
+tier_b,filtered8,mc2_zone,strong,Shot,Carry,122.0
+tier_b,filtered8,mc2_zone,strong,Miscontrol,Carry,579.0
+tier_b,filtered8,mc2_zone,strong,Dispossessed,Carry,28.0
+tier_b,filtered8,mc2_zone,strong,Pass,Ball Recovery,31509.0
+tier_b,filtered8,mc2_zone,strong,Carry,Ball Recovery,36050.0
+tier_b,filtered8,mc2_zone,strong,Ball Recovery,Ball Recovery,15873.0
+tier_b,filtered8,mc2_zone,strong,Clearance,Ball Recovery,3103.0
+tier_b,filtered8,mc2_zone,strong,Dribble,Ball Recovery,23.0
+tier_b,filtered8,mc2_zone,strong,Shot,Ball Recovery,88.0
+tier_b,filtered8,mc2_zone,strong,Miscontrol,Ball Recovery,362.0
+tier_b,filtered8,mc2_zone,strong,Dispossessed,Ball Recovery,11.0
+tier_b,filtered8,mc2_zone,strong,Pass,Clearance,11323.0
+tier_b,filtered8,mc2_zone,strong,Carry,Clearance,40416.0
+tier_b,filtered8,mc2_zone,strong,Ball Recovery,Clearance,4011.0
+tier_b,filtered8,mc2_zone,strong,Clearance,Clearance,5269.0
+tier_b,filtered8,mc2_zone,strong,Dribble,Clearance,14.0
+tier_b,filtered8,mc2_zone,strong,Shot,Clearance,2404.0
+tier_b,filtered8,mc2_zone,strong,Miscontrol,Clearance,414.0
+tier_b,filtered8,mc2_zone,strong,Dispossessed,Clearance,26.0
+tier_b,filtered8,mc2_zone,strong,Pass,Dribble,59493.0
+tier_b,filtered8,mc2_zone,strong,Carry,Dribble,200.0
+tier_b,filtered8,mc2_zone,strong,Ball Recovery,Dribble,69.0
+tier_b,filtered8,mc2_zone,strong,Clearance,Dribble,30.0
+tier_b,filtered8,mc2_zone,strong,Dribble,Dribble,4635.0
+tier_b,filtered8,mc2_zone,strong,Shot,Dribble,2925.0
+tier_b,filtered8,mc2_zone,strong,Miscontrol,Dribble,2897.0
+tier_b,filtered8,mc2_zone,strong,Dispossessed,Dribble,3524.0
+tier_b,filtered8,mc2_zone,strong,Pass,Shot,1579.0
+tier_b,filtered8,mc2_zone,strong,Carry,Shot,5479.0
+tier_b,filtered8,mc2_zone,strong,Ball Recovery,Shot,280.0
+tier_b,filtered8,mc2_zone,strong,Clearance,Shot,105.0
+tier_b,filtered8,mc2_zone,strong,Dribble,Shot,256.0
+tier_b,filtered8,mc2_zone,strong,Shot,Shot,1253.0
+tier_b,filtered8,mc2_zone,strong,Miscontrol,Shot,78.0
+tier_b,filtered8,mc2_zone,strong,Dispossessed,Shot,162.0
+tier_b,filtered8,mc2_zone,strong,Pass,Miscontrol,5.0
+tier_b,filtered8,mc2_zone,strong,Carry,Miscontrol,21.0
+tier_b,filtered8,mc2_zone,strong,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,strong,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,strong,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,strong,Shot,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,strong,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,strong,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,strong,Pass,Dispossessed,795.0
+tier_b,filtered8,mc2_zone,strong,Carry,Dispossessed,13.0
+tier_b,filtered8,mc2_zone,strong,Ball Recovery,Dispossessed,6.0
+tier_b,filtered8,mc2_zone,strong,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,strong,Dribble,Dispossessed,64.0
+tier_b,filtered8,mc2_zone,strong,Shot,Dispossessed,23.0
+tier_b,filtered8,mc2_zone,strong,Miscontrol,Dispossessed,33.0
+tier_b,filtered8,mc2_zone,strong,Dispossessed,Dispossessed,65.0
+tier_b,filtered8,mc2_zone,tuned,Pass,Pass,194392.0
+tier_b,filtered8,mc2_zone,tuned,Carry,Pass,734.0
+tier_b,filtered8,mc2_zone,tuned,Ball Recovery,Pass,109.0
+tier_b,filtered8,mc2_zone,tuned,Clearance,Pass,48.0
+tier_b,filtered8,mc2_zone,tuned,Dribble,Pass,6573.0
+tier_b,filtered8,mc2_zone,tuned,Shot,Pass,2450.0
+tier_b,filtered8,mc2_zone,tuned,Miscontrol,Pass,5394.0
+tier_b,filtered8,mc2_zone,tuned,Dispossessed,Pass,5098.0
+tier_b,filtered8,mc2_zone,tuned,Pass,Carry,37871.0
+tier_b,filtered8,mc2_zone,tuned,Carry,Carry,172871.0
+tier_b,filtered8,mc2_zone,tuned,Ball Recovery,Carry,9918.0
+tier_b,filtered8,mc2_zone,tuned,Clearance,Carry,2266.0
+tier_b,filtered8,mc2_zone,tuned,Dribble,Carry,53.0
+tier_b,filtered8,mc2_zone,tuned,Shot,Carry,149.0
+tier_b,filtered8,mc2_zone,tuned,Miscontrol,Carry,902.0
+tier_b,filtered8,mc2_zone,tuned,Dispossessed,Carry,36.0
+tier_b,filtered8,mc2_zone,tuned,Pass,Ball Recovery,18462.0
+tier_b,filtered8,mc2_zone,tuned,Carry,Ball Recovery,7006.0
+tier_b,filtered8,mc2_zone,tuned,Ball Recovery,Ball Recovery,12134.0
+tier_b,filtered8,mc2_zone,tuned,Clearance,Ball Recovery,2331.0
+tier_b,filtered8,mc2_zone,tuned,Dribble,Ball Recovery,8.0
+tier_b,filtered8,mc2_zone,tuned,Shot,Ball Recovery,61.0
+tier_b,filtered8,mc2_zone,tuned,Miscontrol,Ball Recovery,35.0
+tier_b,filtered8,mc2_zone,tuned,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,mc2_zone,tuned,Pass,Clearance,11323.0
+tier_b,filtered8,mc2_zone,tuned,Carry,Clearance,40416.0
+tier_b,filtered8,mc2_zone,tuned,Ball Recovery,Clearance,4011.0
+tier_b,filtered8,mc2_zone,tuned,Clearance,Clearance,5269.0
+tier_b,filtered8,mc2_zone,tuned,Dribble,Clearance,14.0
+tier_b,filtered8,mc2_zone,tuned,Shot,Clearance,2404.0
+tier_b,filtered8,mc2_zone,tuned,Miscontrol,Clearance,414.0
+tier_b,filtered8,mc2_zone,tuned,Dispossessed,Clearance,26.0
+tier_b,filtered8,mc2_zone,tuned,Pass,Dribble,8752.0
+tier_b,filtered8,mc2_zone,tuned,Carry,Dribble,108.0
+tier_b,filtered8,mc2_zone,tuned,Ball Recovery,Dribble,35.0
+tier_b,filtered8,mc2_zone,tuned,Clearance,Dribble,0.0
+tier_b,filtered8,mc2_zone,tuned,Dribble,Dribble,815.0
+tier_b,filtered8,mc2_zone,tuned,Shot,Dribble,82.0
+tier_b,filtered8,mc2_zone,tuned,Miscontrol,Dribble,208.0
+tier_b,filtered8,mc2_zone,tuned,Dispossessed,Dribble,619.0
+tier_b,filtered8,mc2_zone,tuned,Pass,Shot,5255.0
+tier_b,filtered8,mc2_zone,tuned,Carry,Shot,5487.0
+tier_b,filtered8,mc2_zone,tuned,Ball Recovery,Shot,283.0
+tier_b,filtered8,mc2_zone,tuned,Clearance,Shot,107.0
+tier_b,filtered8,mc2_zone,tuned,Dribble,Shot,855.0
+tier_b,filtered8,mc2_zone,tuned,Shot,Shot,1861.0
+tier_b,filtered8,mc2_zone,tuned,Miscontrol,Shot,204.0
+tier_b,filtered8,mc2_zone,tuned,Dispossessed,Shot,544.0
+tier_b,filtered8,mc2_zone,tuned,Pass,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,tuned,Carry,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,tuned,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,tuned,Clearance,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,tuned,Dribble,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,tuned,Shot,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,tuned,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,tuned,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,mc2_zone,tuned,Pass,Dispossessed,710.0
+tier_b,filtered8,mc2_zone,tuned,Carry,Dispossessed,14.0
+tier_b,filtered8,mc2_zone,tuned,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,tuned,Clearance,Dispossessed,0.0
+tier_b,filtered8,mc2_zone,tuned,Dribble,Dispossessed,53.0
+tier_b,filtered8,mc2_zone,tuned,Shot,Dispossessed,29.0
+tier_b,filtered8,mc2_zone,tuned,Miscontrol,Dispossessed,33.0
+tier_b,filtered8,mc2_zone,tuned,Dispossessed,Dispossessed,73.0
+tier_b,filtered8,hmm_event,uniform,Pass,Pass,226177.0
+tier_b,filtered8,hmm_event,uniform,Carry,Pass,3339.0
+tier_b,filtered8,hmm_event,uniform,Ball Recovery,Pass,11177.0
+tier_b,filtered8,hmm_event,uniform,Clearance,Pass,2587.0
+tier_b,filtered8,hmm_event,uniform,Dribble,Pass,8303.0
+tier_b,filtered8,hmm_event,uniform,Shot,Pass,3686.0
+tier_b,filtered8,hmm_event,uniform,Miscontrol,Pass,5881.0
+tier_b,filtered8,hmm_event,uniform,Dispossessed,Pass,6333.0
+tier_b,filtered8,hmm_event,uniform,Pass,Carry,50588.0
+tier_b,filtered8,hmm_event,uniform,Carry,Carry,223297.0
+tier_b,filtered8,hmm_event,uniform,Ball Recovery,Carry,15313.0
+tier_b,filtered8,hmm_event,uniform,Clearance,Carry,7434.0
+tier_b,filtered8,hmm_event,uniform,Dribble,Carry,68.0
+tier_b,filtered8,hmm_event,uniform,Shot,Carry,3350.0
+tier_b,filtered8,hmm_event,uniform,Miscontrol,Carry,1309.0
+tier_b,filtered8,hmm_event,uniform,Dispossessed,Carry,66.0
+tier_b,filtered8,hmm_event,uniform,Pass,Ball Recovery,0.0
+tier_b,filtered8,hmm_event,uniform,Carry,Ball Recovery,0.0
+tier_b,filtered8,hmm_event,uniform,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,hmm_event,uniform,Clearance,Ball Recovery,0.0
+tier_b,filtered8,hmm_event,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,hmm_event,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,hmm_event,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,hmm_event,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,hmm_event,uniform,Pass,Clearance,0.0
+tier_b,filtered8,hmm_event,uniform,Carry,Clearance,0.0
+tier_b,filtered8,hmm_event,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,hmm_event,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,hmm_event,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,hmm_event,uniform,Shot,Clearance,0.0
+tier_b,filtered8,hmm_event,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,hmm_event,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,hmm_event,uniform,Pass,Dribble,0.0
+tier_b,filtered8,hmm_event,uniform,Carry,Dribble,0.0
+tier_b,filtered8,hmm_event,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,hmm_event,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,hmm_event,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,hmm_event,uniform,Shot,Dribble,0.0
+tier_b,filtered8,hmm_event,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,hmm_event,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,hmm_event,uniform,Pass,Shot,0.0
+tier_b,filtered8,hmm_event,uniform,Carry,Shot,0.0
+tier_b,filtered8,hmm_event,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,hmm_event,uniform,Clearance,Shot,0.0
+tier_b,filtered8,hmm_event,uniform,Dribble,Shot,0.0
+tier_b,filtered8,hmm_event,uniform,Shot,Shot,0.0
+tier_b,filtered8,hmm_event,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,hmm_event,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,hmm_event,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_event,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_event,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_event,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_event,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_event,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_event,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_event,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_event,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_event,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_event,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_event,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_event,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_event,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_event,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_event,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_event,moderate,Pass,Pass,214516.0
+tier_b,filtered8,hmm_event,moderate,Carry,Pass,1143.0
+tier_b,filtered8,hmm_event,moderate,Ball Recovery,Pass,1596.0
+tier_b,filtered8,hmm_event,moderate,Clearance,Pass,678.0
+tier_b,filtered8,hmm_event,moderate,Dribble,Pass,8296.0
+tier_b,filtered8,hmm_event,moderate,Shot,Pass,3597.0
+tier_b,filtered8,hmm_event,moderate,Miscontrol,Pass,5843.0
+tier_b,filtered8,hmm_event,moderate,Dispossessed,Pass,6329.0
+tier_b,filtered8,hmm_event,moderate,Pass,Carry,50628.0
+tier_b,filtered8,hmm_event,moderate,Carry,Carry,223324.0
+tier_b,filtered8,hmm_event,moderate,Ball Recovery,Carry,15303.0
+tier_b,filtered8,hmm_event,moderate,Clearance,Carry,7440.0
+tier_b,filtered8,hmm_event,moderate,Dribble,Carry,68.0
+tier_b,filtered8,hmm_event,moderate,Shot,Carry,3315.0
+tier_b,filtered8,hmm_event,moderate,Miscontrol,Carry,1310.0
+tier_b,filtered8,hmm_event,moderate,Dispossessed,Carry,67.0
+tier_b,filtered8,hmm_event,moderate,Pass,Ball Recovery,11276.0
+tier_b,filtered8,hmm_event,moderate,Carry,Ball Recovery,1627.0
+tier_b,filtered8,hmm_event,moderate,Ball Recovery,Ball Recovery,9532.0
+tier_b,filtered8,hmm_event,moderate,Clearance,Ball Recovery,1717.0
+tier_b,filtered8,hmm_event,moderate,Dribble,Ball Recovery,4.0
+tier_b,filtered8,hmm_event,moderate,Shot,Ball Recovery,22.0
+tier_b,filtered8,hmm_event,moderate,Miscontrol,Ball Recovery,1.0
+tier_b,filtered8,hmm_event,moderate,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,hmm_event,moderate,Pass,Clearance,339.0
+tier_b,filtered8,hmm_event,moderate,Carry,Clearance,466.0
+tier_b,filtered8,hmm_event,moderate,Ball Recovery,Clearance,52.0
+tier_b,filtered8,hmm_event,moderate,Clearance,Clearance,186.0
+tier_b,filtered8,hmm_event,moderate,Dribble,Clearance,3.0
+tier_b,filtered8,hmm_event,moderate,Shot,Clearance,67.0
+tier_b,filtered8,hmm_event,moderate,Miscontrol,Clearance,36.0
+tier_b,filtered8,hmm_event,moderate,Dispossessed,Clearance,0.0
+tier_b,filtered8,hmm_event,moderate,Pass,Dribble,0.0
+tier_b,filtered8,hmm_event,moderate,Carry,Dribble,0.0
+tier_b,filtered8,hmm_event,moderate,Ball Recovery,Dribble,0.0
+tier_b,filtered8,hmm_event,moderate,Clearance,Dribble,0.0
+tier_b,filtered8,hmm_event,moderate,Dribble,Dribble,0.0
+tier_b,filtered8,hmm_event,moderate,Shot,Dribble,0.0
+tier_b,filtered8,hmm_event,moderate,Miscontrol,Dribble,0.0
+tier_b,filtered8,hmm_event,moderate,Dispossessed,Dribble,0.0
+tier_b,filtered8,hmm_event,moderate,Pass,Shot,6.0
+tier_b,filtered8,hmm_event,moderate,Carry,Shot,76.0
+tier_b,filtered8,hmm_event,moderate,Ball Recovery,Shot,7.0
+tier_b,filtered8,hmm_event,moderate,Clearance,Shot,0.0
+tier_b,filtered8,hmm_event,moderate,Dribble,Shot,0.0
+tier_b,filtered8,hmm_event,moderate,Shot,Shot,35.0
+tier_b,filtered8,hmm_event,moderate,Miscontrol,Shot,0.0
+tier_b,filtered8,hmm_event,moderate,Dispossessed,Shot,0.0
+tier_b,filtered8,hmm_event,moderate,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_event,moderate,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_event,moderate,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_event,moderate,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_event,moderate,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_event,moderate,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_event,moderate,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_event,moderate,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_event,moderate,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_event,moderate,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_event,moderate,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_event,moderate,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_event,moderate,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_event,moderate,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_event,moderate,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_event,moderate,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_event,strong,Pass,Pass,164731.0
+tier_b,filtered8,hmm_event,strong,Carry,Pass,225.0
+tier_b,filtered8,hmm_event,strong,Ball Recovery,Pass,34.0
+tier_b,filtered8,hmm_event,strong,Clearance,Pass,26.0
+tier_b,filtered8,hmm_event,strong,Dribble,Pass,4951.0
+tier_b,filtered8,hmm_event,strong,Shot,Pass,2030.0
+tier_b,filtered8,hmm_event,strong,Miscontrol,Pass,4232.0
+tier_b,filtered8,hmm_event,strong,Dispossessed,Pass,3779.0
+tier_b,filtered8,hmm_event,strong,Pass,Carry,32402.0
+tier_b,filtered8,hmm_event,strong,Carry,Carry,176880.0
+tier_b,filtered8,hmm_event,strong,Ball Recovery,Carry,8892.0
+tier_b,filtered8,hmm_event,strong,Clearance,Carry,4772.0
+tier_b,filtered8,hmm_event,strong,Dribble,Carry,48.0
+tier_b,filtered8,hmm_event,strong,Shot,Carry,2216.0
+tier_b,filtered8,hmm_event,strong,Miscontrol,Carry,848.0
+tier_b,filtered8,hmm_event,strong,Dispossessed,Carry,47.0
+tier_b,filtered8,hmm_event,strong,Pass,Ball Recovery,26778.0
+tier_b,filtered8,hmm_event,strong,Carry,Ball Recovery,25147.0
+tier_b,filtered8,hmm_event,strong,Ball Recovery,Ball Recovery,14718.0
+tier_b,filtered8,hmm_event,strong,Clearance,Ball Recovery,3338.0
+tier_b,filtered8,hmm_event,strong,Dribble,Ball Recovery,12.0
+tier_b,filtered8,hmm_event,strong,Shot,Ball Recovery,293.0
+tier_b,filtered8,hmm_event,strong,Miscontrol,Ball Recovery,230.0
+tier_b,filtered8,hmm_event,strong,Dispossessed,Ball Recovery,15.0
+tier_b,filtered8,hmm_event,strong,Pass,Clearance,8675.0
+tier_b,filtered8,hmm_event,strong,Carry,Clearance,21162.0
+tier_b,filtered8,hmm_event,strong,Ball Recovery,Clearance,2564.0
+tier_b,filtered8,hmm_event,strong,Clearance,Clearance,1831.0
+tier_b,filtered8,hmm_event,strong,Dribble,Clearance,14.0
+tier_b,filtered8,hmm_event,strong,Shot,Clearance,618.0
+tier_b,filtered8,hmm_event,strong,Miscontrol,Clearance,281.0
+tier_b,filtered8,hmm_event,strong,Dispossessed,Clearance,5.0
+tier_b,filtered8,hmm_event,strong,Pass,Dribble,43930.0
+tier_b,filtered8,hmm_event,strong,Carry,Dribble,244.0
+tier_b,filtered8,hmm_event,strong,Ball Recovery,Dribble,96.0
+tier_b,filtered8,hmm_event,strong,Clearance,Dribble,13.0
+tier_b,filtered8,hmm_event,strong,Dribble,Dribble,3343.0
+tier_b,filtered8,hmm_event,strong,Shot,Dribble,1478.0
+tier_b,filtered8,hmm_event,strong,Miscontrol,Dribble,1599.0
+tier_b,filtered8,hmm_event,strong,Dispossessed,Dribble,2550.0
+tier_b,filtered8,hmm_event,strong,Pass,Shot,249.0
+tier_b,filtered8,hmm_event,strong,Carry,Shot,2978.0
+tier_b,filtered8,hmm_event,strong,Ball Recovery,Shot,186.0
+tier_b,filtered8,hmm_event,strong,Clearance,Shot,41.0
+tier_b,filtered8,hmm_event,strong,Dribble,Shot,3.0
+tier_b,filtered8,hmm_event,strong,Shot,Shot,401.0
+tier_b,filtered8,hmm_event,strong,Miscontrol,Shot,0.0
+tier_b,filtered8,hmm_event,strong,Dispossessed,Shot,3.0
+tier_b,filtered8,hmm_event,strong,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_event,strong,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_event,strong,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_event,strong,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_event,strong,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_event,strong,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_event,strong,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_event,strong,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_event,strong,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_event,strong,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_event,strong,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_event,strong,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_event,strong,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_event,strong,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_event,strong,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_event,strong,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_event,tuned,Pass,Pass,183757.0
+tier_b,filtered8,hmm_event,tuned,Carry,Pass,437.0
+tier_b,filtered8,hmm_event,tuned,Ball Recovery,Pass,69.0
+tier_b,filtered8,hmm_event,tuned,Clearance,Pass,43.0
+tier_b,filtered8,hmm_event,tuned,Dribble,Pass,5912.0
+tier_b,filtered8,hmm_event,tuned,Shot,Pass,2405.0
+tier_b,filtered8,hmm_event,tuned,Miscontrol,Pass,5051.0
+tier_b,filtered8,hmm_event,tuned,Dispossessed,Pass,4587.0
+tier_b,filtered8,hmm_event,tuned,Pass,Carry,47478.0
+tier_b,filtered8,hmm_event,tuned,Carry,Carry,213085.0
+tier_b,filtered8,hmm_event,tuned,Ball Recovery,Carry,13580.0
+tier_b,filtered8,hmm_event,tuned,Clearance,Carry,6856.0
+tier_b,filtered8,hmm_event,tuned,Dribble,Carry,66.0
+tier_b,filtered8,hmm_event,tuned,Shot,Carry,2871.0
+tier_b,filtered8,hmm_event,tuned,Miscontrol,Carry,1244.0
+tier_b,filtered8,hmm_event,tuned,Dispossessed,Carry,66.0
+tier_b,filtered8,hmm_event,tuned,Pass,Ball Recovery,18198.0
+tier_b,filtered8,hmm_event,tuned,Carry,Ball Recovery,6665.0
+tier_b,filtered8,hmm_event,tuned,Ball Recovery,Ball Recovery,12045.0
+tier_b,filtered8,hmm_event,tuned,Clearance,Ball Recovery,2324.0
+tier_b,filtered8,hmm_event,tuned,Dribble,Ball Recovery,4.0
+tier_b,filtered8,hmm_event,tuned,Shot,Ball Recovery,58.0
+tier_b,filtered8,hmm_event,tuned,Miscontrol,Ball Recovery,3.0
+tier_b,filtered8,hmm_event,tuned,Dispossessed,Ball Recovery,4.0
+tier_b,filtered8,hmm_event,tuned,Pass,Clearance,2175.0
+tier_b,filtered8,hmm_event,tuned,Carry,Clearance,4187.0
+tier_b,filtered8,hmm_event,tuned,Ball Recovery,Clearance,589.0
+tier_b,filtered8,hmm_event,tuned,Clearance,Clearance,768.0
+tier_b,filtered8,hmm_event,tuned,Dribble,Clearance,6.0
+tier_b,filtered8,hmm_event,tuned,Shot,Clearance,267.0
+tier_b,filtered8,hmm_event,tuned,Miscontrol,Clearance,112.0
+tier_b,filtered8,hmm_event,tuned,Dispossessed,Clearance,0.0
+tier_b,filtered8,hmm_event,tuned,Pass,Dribble,24899.0
+tier_b,filtered8,hmm_event,tuned,Carry,Dribble,189.0
+tier_b,filtered8,hmm_event,tuned,Ball Recovery,Dribble,85.0
+tier_b,filtered8,hmm_event,tuned,Clearance,Dribble,3.0
+tier_b,filtered8,hmm_event,tuned,Dribble,Dribble,2373.0
+tier_b,filtered8,hmm_event,tuned,Shot,Dribble,1096.0
+tier_b,filtered8,hmm_event,tuned,Miscontrol,Dribble,778.0
+tier_b,filtered8,hmm_event,tuned,Dispossessed,Dribble,1732.0
+tier_b,filtered8,hmm_event,tuned,Pass,Shot,258.0
+tier_b,filtered8,hmm_event,tuned,Carry,Shot,2073.0
+tier_b,filtered8,hmm_event,tuned,Ball Recovery,Shot,122.0
+tier_b,filtered8,hmm_event,tuned,Clearance,Shot,27.0
+tier_b,filtered8,hmm_event,tuned,Dribble,Shot,10.0
+tier_b,filtered8,hmm_event,tuned,Shot,Shot,339.0
+tier_b,filtered8,hmm_event,tuned,Miscontrol,Shot,2.0
+tier_b,filtered8,hmm_event,tuned,Dispossessed,Shot,10.0
+tier_b,filtered8,hmm_event,tuned,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_event,tuned,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_event,tuned,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_event,tuned,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_event,tuned,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_event,tuned,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_event,tuned,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_event,tuned,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_event,tuned,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_event,tuned,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_event,tuned,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_event,tuned,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_event,tuned,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_event,tuned,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_event,tuned,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_event,tuned,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,uniform,Pass,Pass,221349.0
+tier_b,filtered8,hmm_factorized,uniform,Carry,Pass,3772.0
+tier_b,filtered8,hmm_factorized,uniform,Ball Recovery,Pass,6787.0
+tier_b,filtered8,hmm_factorized,uniform,Clearance,Pass,1452.0
+tier_b,filtered8,hmm_factorized,uniform,Dribble,Pass,8298.0
+tier_b,filtered8,hmm_factorized,uniform,Shot,Pass,3545.0
+tier_b,filtered8,hmm_factorized,uniform,Miscontrol,Pass,5868.0
+tier_b,filtered8,hmm_factorized,uniform,Dispossessed,Pass,6333.0
+tier_b,filtered8,hmm_factorized,uniform,Pass,Carry,55416.0
+tier_b,filtered8,hmm_factorized,uniform,Carry,Carry,222864.0
+tier_b,filtered8,hmm_factorized,uniform,Ball Recovery,Carry,19703.0
+tier_b,filtered8,hmm_factorized,uniform,Clearance,Carry,8569.0
+tier_b,filtered8,hmm_factorized,uniform,Dribble,Carry,73.0
+tier_b,filtered8,hmm_factorized,uniform,Shot,Carry,3491.0
+tier_b,filtered8,hmm_factorized,uniform,Miscontrol,Carry,1322.0
+tier_b,filtered8,hmm_factorized,uniform,Dispossessed,Carry,66.0
+tier_b,filtered8,hmm_factorized,uniform,Pass,Ball Recovery,0.0
+tier_b,filtered8,hmm_factorized,uniform,Carry,Ball Recovery,0.0
+tier_b,filtered8,hmm_factorized,uniform,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,hmm_factorized,uniform,Clearance,Ball Recovery,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,hmm_factorized,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,hmm_factorized,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,hmm_factorized,uniform,Pass,Clearance,0.0
+tier_b,filtered8,hmm_factorized,uniform,Carry,Clearance,0.0
+tier_b,filtered8,hmm_factorized,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,hmm_factorized,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,hmm_factorized,uniform,Shot,Clearance,0.0
+tier_b,filtered8,hmm_factorized,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,hmm_factorized,uniform,Pass,Dribble,0.0
+tier_b,filtered8,hmm_factorized,uniform,Carry,Dribble,0.0
+tier_b,filtered8,hmm_factorized,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,hmm_factorized,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,hmm_factorized,uniform,Shot,Dribble,0.0
+tier_b,filtered8,hmm_factorized,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,hmm_factorized,uniform,Pass,Shot,0.0
+tier_b,filtered8,hmm_factorized,uniform,Carry,Shot,0.0
+tier_b,filtered8,hmm_factorized,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,hmm_factorized,uniform,Clearance,Shot,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dribble,Shot,0.0
+tier_b,filtered8,hmm_factorized,uniform,Shot,Shot,0.0
+tier_b,filtered8,hmm_factorized,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,hmm_factorized,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,moderate,Pass,Pass,210038.0
+tier_b,filtered8,hmm_factorized,moderate,Carry,Pass,1619.0
+tier_b,filtered8,hmm_factorized,moderate,Ball Recovery,Pass,698.0
+tier_b,filtered8,hmm_factorized,moderate,Clearance,Pass,133.0
+tier_b,filtered8,hmm_factorized,moderate,Dribble,Pass,8294.0
+tier_b,filtered8,hmm_factorized,moderate,Shot,Pass,3511.0
+tier_b,filtered8,hmm_factorized,moderate,Miscontrol,Pass,5846.0
+tier_b,filtered8,hmm_factorized,moderate,Dispossessed,Pass,6331.0
+tier_b,filtered8,hmm_factorized,moderate,Pass,Carry,50400.0
+tier_b,filtered8,hmm_factorized,moderate,Carry,Carry,215107.0
+tier_b,filtered8,hmm_factorized,moderate,Ball Recovery,Carry,15541.0
+tier_b,filtered8,hmm_factorized,moderate,Clearance,Carry,7734.0
+tier_b,filtered8,hmm_factorized,moderate,Dribble,Carry,66.0
+tier_b,filtered8,hmm_factorized,moderate,Shot,Carry,3470.0
+tier_b,filtered8,hmm_factorized,moderate,Miscontrol,Carry,1315.0
+tier_b,filtered8,hmm_factorized,moderate,Dispossessed,Carry,65.0
+tier_b,filtered8,hmm_factorized,moderate,Pass,Ball Recovery,16327.0
+tier_b,filtered8,hmm_factorized,moderate,Carry,Ball Recovery,9910.0
+tier_b,filtered8,hmm_factorized,moderate,Ball Recovery,Ball Recovery,10251.0
+tier_b,filtered8,hmm_factorized,moderate,Clearance,Ball Recovery,2154.0
+tier_b,filtered8,hmm_factorized,moderate,Dribble,Ball Recovery,11.0
+tier_b,filtered8,hmm_factorized,moderate,Shot,Ball Recovery,55.0
+tier_b,filtered8,hmm_factorized,moderate,Miscontrol,Ball Recovery,29.0
+tier_b,filtered8,hmm_factorized,moderate,Dispossessed,Ball Recovery,3.0
+tier_b,filtered8,hmm_factorized,moderate,Pass,Clearance,0.0
+tier_b,filtered8,hmm_factorized,moderate,Carry,Clearance,0.0
+tier_b,filtered8,hmm_factorized,moderate,Ball Recovery,Clearance,0.0
+tier_b,filtered8,hmm_factorized,moderate,Clearance,Clearance,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dribble,Clearance,0.0
+tier_b,filtered8,hmm_factorized,moderate,Shot,Clearance,0.0
+tier_b,filtered8,hmm_factorized,moderate,Miscontrol,Clearance,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dispossessed,Clearance,0.0
+tier_b,filtered8,hmm_factorized,moderate,Pass,Dribble,0.0
+tier_b,filtered8,hmm_factorized,moderate,Carry,Dribble,0.0
+tier_b,filtered8,hmm_factorized,moderate,Ball Recovery,Dribble,0.0
+tier_b,filtered8,hmm_factorized,moderate,Clearance,Dribble,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dribble,Dribble,0.0
+tier_b,filtered8,hmm_factorized,moderate,Shot,Dribble,0.0
+tier_b,filtered8,hmm_factorized,moderate,Miscontrol,Dribble,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dispossessed,Dribble,0.0
+tier_b,filtered8,hmm_factorized,moderate,Pass,Shot,0.0
+tier_b,filtered8,hmm_factorized,moderate,Carry,Shot,0.0
+tier_b,filtered8,hmm_factorized,moderate,Ball Recovery,Shot,0.0
+tier_b,filtered8,hmm_factorized,moderate,Clearance,Shot,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dribble,Shot,0.0
+tier_b,filtered8,hmm_factorized,moderate,Shot,Shot,0.0
+tier_b,filtered8,hmm_factorized,moderate,Miscontrol,Shot,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dispossessed,Shot,0.0
+tier_b,filtered8,hmm_factorized,moderate,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,moderate,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,moderate,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,moderate,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,moderate,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,moderate,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,moderate,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,moderate,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,moderate,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,moderate,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,moderate,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,moderate,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,moderate,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,strong,Pass,Pass,165211.0
+tier_b,filtered8,hmm_factorized,strong,Carry,Pass,500.0
+tier_b,filtered8,hmm_factorized,strong,Ball Recovery,Pass,95.0
+tier_b,filtered8,hmm_factorized,strong,Clearance,Pass,10.0
+tier_b,filtered8,hmm_factorized,strong,Dribble,Pass,4786.0
+tier_b,filtered8,hmm_factorized,strong,Shot,Pass,311.0
+tier_b,filtered8,hmm_factorized,strong,Miscontrol,Pass,3236.0
+tier_b,filtered8,hmm_factorized,strong,Dispossessed,Pass,3689.0
+tier_b,filtered8,hmm_factorized,strong,Pass,Carry,29490.0
+tier_b,filtered8,hmm_factorized,strong,Carry,Carry,150232.0
+tier_b,filtered8,hmm_factorized,strong,Ball Recovery,Carry,7917.0
+tier_b,filtered8,hmm_factorized,strong,Clearance,Carry,1797.0
+tier_b,filtered8,hmm_factorized,strong,Dribble,Carry,41.0
+tier_b,filtered8,hmm_factorized,strong,Shot,Carry,133.0
+tier_b,filtered8,hmm_factorized,strong,Miscontrol,Carry,702.0
+tier_b,filtered8,hmm_factorized,strong,Dispossessed,Carry,30.0
+tier_b,filtered8,hmm_factorized,strong,Pass,Ball Recovery,23666.0
+tier_b,filtered8,hmm_factorized,strong,Carry,Ball Recovery,27666.0
+tier_b,filtered8,hmm_factorized,strong,Ball Recovery,Ball Recovery,12173.0
+tier_b,filtered8,hmm_factorized,strong,Clearance,Ball Recovery,2368.0
+tier_b,filtered8,hmm_factorized,strong,Dribble,Ball Recovery,21.0
+tier_b,filtered8,hmm_factorized,strong,Shot,Ball Recovery,61.0
+tier_b,filtered8,hmm_factorized,strong,Miscontrol,Ball Recovery,248.0
+tier_b,filtered8,hmm_factorized,strong,Dispossessed,Ball Recovery,9.0
+tier_b,filtered8,hmm_factorized,strong,Pass,Clearance,14656.0
+tier_b,filtered8,hmm_factorized,strong,Carry,Clearance,42703.0
+tier_b,filtered8,hmm_factorized,strong,Ball Recovery,Clearance,6007.0
+tier_b,filtered8,hmm_factorized,strong,Clearance,Clearance,5711.0
+tier_b,filtered8,hmm_factorized,strong,Dribble,Clearance,15.0
+tier_b,filtered8,hmm_factorized,strong,Shot,Clearance,2420.0
+tier_b,filtered8,hmm_factorized,strong,Miscontrol,Clearance,406.0
+tier_b,filtered8,hmm_factorized,strong,Dispossessed,Clearance,26.0
+tier_b,filtered8,hmm_factorized,strong,Pass,Dribble,0.0
+tier_b,filtered8,hmm_factorized,strong,Carry,Dribble,0.0
+tier_b,filtered8,hmm_factorized,strong,Ball Recovery,Dribble,0.0
+tier_b,filtered8,hmm_factorized,strong,Clearance,Dribble,0.0
+tier_b,filtered8,hmm_factorized,strong,Dribble,Dribble,0.0
+tier_b,filtered8,hmm_factorized,strong,Shot,Dribble,0.0
+tier_b,filtered8,hmm_factorized,strong,Miscontrol,Dribble,0.0
+tier_b,filtered8,hmm_factorized,strong,Dispossessed,Dribble,0.0
+tier_b,filtered8,hmm_factorized,strong,Pass,Shot,43742.0
+tier_b,filtered8,hmm_factorized,strong,Carry,Shot,5535.0
+tier_b,filtered8,hmm_factorized,strong,Ball Recovery,Shot,298.0
+tier_b,filtered8,hmm_factorized,strong,Clearance,Shot,135.0
+tier_b,filtered8,hmm_factorized,strong,Dribble,Shot,3508.0
+tier_b,filtered8,hmm_factorized,strong,Shot,Shot,4111.0
+tier_b,filtered8,hmm_factorized,strong,Miscontrol,Shot,2598.0
+tier_b,filtered8,hmm_factorized,strong,Dispossessed,Shot,2645.0
+tier_b,filtered8,hmm_factorized,strong,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,strong,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,strong,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,strong,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,strong,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,strong,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,strong,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,strong,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,strong,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,strong,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,strong,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,strong,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,strong,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,strong,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,strong,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,strong,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,tuned,Pass,Pass,165736.0
+tier_b,filtered8,hmm_factorized,tuned,Carry,Pass,1246.0
+tier_b,filtered8,hmm_factorized,tuned,Ball Recovery,Pass,225.0
+tier_b,filtered8,hmm_factorized,tuned,Clearance,Pass,51.0
+tier_b,filtered8,hmm_factorized,tuned,Dribble,Pass,4787.0
+tier_b,filtered8,hmm_factorized,tuned,Shot,Pass,313.0
+tier_b,filtered8,hmm_factorized,tuned,Miscontrol,Pass,3248.0
+tier_b,filtered8,hmm_factorized,tuned,Dispossessed,Pass,3689.0
+tier_b,filtered8,hmm_factorized,tuned,Pass,Carry,46777.0
+tier_b,filtered8,hmm_factorized,tuned,Carry,Carry,201886.0
+tier_b,filtered8,hmm_factorized,tuned,Ball Recovery,Carry,13711.0
+tier_b,filtered8,hmm_factorized,tuned,Clearance,Carry,7304.0
+tier_b,filtered8,hmm_factorized,tuned,Dribble,Carry,63.0
+tier_b,filtered8,hmm_factorized,tuned,Shot,Carry,2519.0
+tier_b,filtered8,hmm_factorized,tuned,Miscontrol,Carry,1234.0
+tier_b,filtered8,hmm_factorized,tuned,Dispossessed,Carry,59.0
+tier_b,filtered8,hmm_factorized,tuned,Pass,Ball Recovery,11563.0
+tier_b,filtered8,hmm_factorized,tuned,Carry,Ball Recovery,13984.0
+tier_b,filtered8,hmm_factorized,tuned,Ball Recovery,Ball Recovery,7935.0
+tier_b,filtered8,hmm_factorized,tuned,Clearance,Ball Recovery,1196.0
+tier_b,filtered8,hmm_factorized,tuned,Dribble,Ball Recovery,12.0
+tier_b,filtered8,hmm_factorized,tuned,Shot,Ball Recovery,26.0
+tier_b,filtered8,hmm_factorized,tuned,Miscontrol,Ball Recovery,87.0
+tier_b,filtered8,hmm_factorized,tuned,Dispossessed,Ball Recovery,5.0
+tier_b,filtered8,hmm_factorized,tuned,Pass,Clearance,8942.0
+tier_b,filtered8,hmm_factorized,tuned,Carry,Clearance,3977.0
+tier_b,filtered8,hmm_factorized,tuned,Ball Recovery,Clearance,4316.0
+tier_b,filtered8,hmm_factorized,tuned,Clearance,Clearance,1330.0
+tier_b,filtered8,hmm_factorized,tuned,Dribble,Clearance,1.0
+tier_b,filtered8,hmm_factorized,tuned,Shot,Clearance,69.0
+tier_b,filtered8,hmm_factorized,tuned,Miscontrol,Clearance,23.0
+tier_b,filtered8,hmm_factorized,tuned,Dispossessed,Clearance,1.0
+tier_b,filtered8,hmm_factorized,tuned,Pass,Dribble,0.0
+tier_b,filtered8,hmm_factorized,tuned,Carry,Dribble,0.0
+tier_b,filtered8,hmm_factorized,tuned,Ball Recovery,Dribble,0.0
+tier_b,filtered8,hmm_factorized,tuned,Clearance,Dribble,0.0
+tier_b,filtered8,hmm_factorized,tuned,Dribble,Dribble,0.0
+tier_b,filtered8,hmm_factorized,tuned,Shot,Dribble,0.0
+tier_b,filtered8,hmm_factorized,tuned,Miscontrol,Dribble,0.0
+tier_b,filtered8,hmm_factorized,tuned,Dispossessed,Dribble,0.0
+tier_b,filtered8,hmm_factorized,tuned,Pass,Shot,43747.0
+tier_b,filtered8,hmm_factorized,tuned,Carry,Shot,5543.0
+tier_b,filtered8,hmm_factorized,tuned,Ball Recovery,Shot,303.0
+tier_b,filtered8,hmm_factorized,tuned,Clearance,Shot,140.0
+tier_b,filtered8,hmm_factorized,tuned,Dribble,Shot,3508.0
+tier_b,filtered8,hmm_factorized,tuned,Shot,Shot,4109.0
+tier_b,filtered8,hmm_factorized,tuned,Miscontrol,Shot,2598.0
+tier_b,filtered8,hmm_factorized,tuned,Dispossessed,Shot,2645.0
+tier_b,filtered8,hmm_factorized,tuned,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,tuned,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,tuned,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,tuned,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,tuned,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,tuned,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,tuned,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,tuned,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_factorized,tuned,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,tuned,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,tuned,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,tuned,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,tuned,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,tuned,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,tuned,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_factorized,tuned,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,uniform,Pass,Pass,225266.0
+tier_b,filtered8,hmm_joint,uniform,Carry,Pass,3147.0
+tier_b,filtered8,hmm_joint,uniform,Ball Recovery,Pass,10531.0
+tier_b,filtered8,hmm_joint,uniform,Clearance,Pass,2222.0
+tier_b,filtered8,hmm_joint,uniform,Dribble,Pass,8301.0
+tier_b,filtered8,hmm_joint,uniform,Shot,Pass,3559.0
+tier_b,filtered8,hmm_joint,uniform,Miscontrol,Pass,5868.0
+tier_b,filtered8,hmm_joint,uniform,Dispossessed,Pass,6332.0
+tier_b,filtered8,hmm_joint,uniform,Pass,Carry,51499.0
+tier_b,filtered8,hmm_joint,uniform,Carry,Carry,223489.0
+tier_b,filtered8,hmm_joint,uniform,Ball Recovery,Carry,15959.0
+tier_b,filtered8,hmm_joint,uniform,Clearance,Carry,7799.0
+tier_b,filtered8,hmm_joint,uniform,Dribble,Carry,70.0
+tier_b,filtered8,hmm_joint,uniform,Shot,Carry,3477.0
+tier_b,filtered8,hmm_joint,uniform,Miscontrol,Carry,1322.0
+tier_b,filtered8,hmm_joint,uniform,Dispossessed,Carry,67.0
+tier_b,filtered8,hmm_joint,uniform,Pass,Ball Recovery,0.0
+tier_b,filtered8,hmm_joint,uniform,Carry,Ball Recovery,0.0
+tier_b,filtered8,hmm_joint,uniform,Ball Recovery,Ball Recovery,0.0
+tier_b,filtered8,hmm_joint,uniform,Clearance,Ball Recovery,0.0
+tier_b,filtered8,hmm_joint,uniform,Dribble,Ball Recovery,0.0
+tier_b,filtered8,hmm_joint,uniform,Shot,Ball Recovery,0.0
+tier_b,filtered8,hmm_joint,uniform,Miscontrol,Ball Recovery,0.0
+tier_b,filtered8,hmm_joint,uniform,Dispossessed,Ball Recovery,0.0
+tier_b,filtered8,hmm_joint,uniform,Pass,Clearance,0.0
+tier_b,filtered8,hmm_joint,uniform,Carry,Clearance,0.0
+tier_b,filtered8,hmm_joint,uniform,Ball Recovery,Clearance,0.0
+tier_b,filtered8,hmm_joint,uniform,Clearance,Clearance,0.0
+tier_b,filtered8,hmm_joint,uniform,Dribble,Clearance,0.0
+tier_b,filtered8,hmm_joint,uniform,Shot,Clearance,0.0
+tier_b,filtered8,hmm_joint,uniform,Miscontrol,Clearance,0.0
+tier_b,filtered8,hmm_joint,uniform,Dispossessed,Clearance,0.0
+tier_b,filtered8,hmm_joint,uniform,Pass,Dribble,0.0
+tier_b,filtered8,hmm_joint,uniform,Carry,Dribble,0.0
+tier_b,filtered8,hmm_joint,uniform,Ball Recovery,Dribble,0.0
+tier_b,filtered8,hmm_joint,uniform,Clearance,Dribble,0.0
+tier_b,filtered8,hmm_joint,uniform,Dribble,Dribble,0.0
+tier_b,filtered8,hmm_joint,uniform,Shot,Dribble,0.0
+tier_b,filtered8,hmm_joint,uniform,Miscontrol,Dribble,0.0
+tier_b,filtered8,hmm_joint,uniform,Dispossessed,Dribble,0.0
+tier_b,filtered8,hmm_joint,uniform,Pass,Shot,0.0
+tier_b,filtered8,hmm_joint,uniform,Carry,Shot,0.0
+tier_b,filtered8,hmm_joint,uniform,Ball Recovery,Shot,0.0
+tier_b,filtered8,hmm_joint,uniform,Clearance,Shot,0.0
+tier_b,filtered8,hmm_joint,uniform,Dribble,Shot,0.0
+tier_b,filtered8,hmm_joint,uniform,Shot,Shot,0.0
+tier_b,filtered8,hmm_joint,uniform,Miscontrol,Shot,0.0
+tier_b,filtered8,hmm_joint,uniform,Dispossessed,Shot,0.0
+tier_b,filtered8,hmm_joint,uniform,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,uniform,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,uniform,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,uniform,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,uniform,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,uniform,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,uniform,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,uniform,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,uniform,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,uniform,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,uniform,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,uniform,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,uniform,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,uniform,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,uniform,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,uniform,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,moderate,Pass,Pass,213669.0
+tier_b,filtered8,hmm_joint,moderate,Carry,Pass,1109.0
+tier_b,filtered8,hmm_joint,moderate,Ball Recovery,Pass,3971.0
+tier_b,filtered8,hmm_joint,moderate,Clearance,Pass,816.0
+tier_b,filtered8,hmm_joint,moderate,Dribble,Pass,8295.0
+tier_b,filtered8,hmm_joint,moderate,Shot,Pass,3521.0
+tier_b,filtered8,hmm_joint,moderate,Miscontrol,Pass,5836.0
+tier_b,filtered8,hmm_joint,moderate,Dispossessed,Pass,6330.0
+tier_b,filtered8,hmm_joint,moderate,Pass,Carry,51448.0
+tier_b,filtered8,hmm_joint,moderate,Carry,Carry,223425.0
+tier_b,filtered8,hmm_joint,moderate,Ball Recovery,Carry,15872.0
+tier_b,filtered8,hmm_joint,moderate,Clearance,Carry,7790.0
+tier_b,filtered8,hmm_joint,moderate,Dribble,Carry,70.0
+tier_b,filtered8,hmm_joint,moderate,Shot,Carry,3477.0
+tier_b,filtered8,hmm_joint,moderate,Miscontrol,Carry,1322.0
+tier_b,filtered8,hmm_joint,moderate,Dispossessed,Carry,67.0
+tier_b,filtered8,hmm_joint,moderate,Pass,Ball Recovery,11648.0
+tier_b,filtered8,hmm_joint,moderate,Carry,Ball Recovery,2102.0
+tier_b,filtered8,hmm_joint,moderate,Ball Recovery,Ball Recovery,6647.0
+tier_b,filtered8,hmm_joint,moderate,Clearance,Ball Recovery,1415.0
+tier_b,filtered8,hmm_joint,moderate,Dribble,Ball Recovery,6.0
+tier_b,filtered8,hmm_joint,moderate,Shot,Ball Recovery,38.0
+tier_b,filtered8,hmm_joint,moderate,Miscontrol,Ball Recovery,32.0
+tier_b,filtered8,hmm_joint,moderate,Dispossessed,Ball Recovery,2.0
+tier_b,filtered8,hmm_joint,moderate,Pass,Clearance,0.0
+tier_b,filtered8,hmm_joint,moderate,Carry,Clearance,0.0
+tier_b,filtered8,hmm_joint,moderate,Ball Recovery,Clearance,0.0
+tier_b,filtered8,hmm_joint,moderate,Clearance,Clearance,0.0
+tier_b,filtered8,hmm_joint,moderate,Dribble,Clearance,0.0
+tier_b,filtered8,hmm_joint,moderate,Shot,Clearance,0.0
+tier_b,filtered8,hmm_joint,moderate,Miscontrol,Clearance,0.0
+tier_b,filtered8,hmm_joint,moderate,Dispossessed,Clearance,0.0
+tier_b,filtered8,hmm_joint,moderate,Pass,Dribble,0.0
+tier_b,filtered8,hmm_joint,moderate,Carry,Dribble,0.0
+tier_b,filtered8,hmm_joint,moderate,Ball Recovery,Dribble,0.0
+tier_b,filtered8,hmm_joint,moderate,Clearance,Dribble,0.0
+tier_b,filtered8,hmm_joint,moderate,Dribble,Dribble,0.0
+tier_b,filtered8,hmm_joint,moderate,Shot,Dribble,0.0
+tier_b,filtered8,hmm_joint,moderate,Miscontrol,Dribble,0.0
+tier_b,filtered8,hmm_joint,moderate,Dispossessed,Dribble,0.0
+tier_b,filtered8,hmm_joint,moderate,Pass,Shot,0.0
+tier_b,filtered8,hmm_joint,moderate,Carry,Shot,0.0
+tier_b,filtered8,hmm_joint,moderate,Ball Recovery,Shot,0.0
+tier_b,filtered8,hmm_joint,moderate,Clearance,Shot,0.0
+tier_b,filtered8,hmm_joint,moderate,Dribble,Shot,0.0
+tier_b,filtered8,hmm_joint,moderate,Shot,Shot,0.0
+tier_b,filtered8,hmm_joint,moderate,Miscontrol,Shot,0.0
+tier_b,filtered8,hmm_joint,moderate,Dispossessed,Shot,0.0
+tier_b,filtered8,hmm_joint,moderate,Pass,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,moderate,Carry,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,moderate,Ball Recovery,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,moderate,Clearance,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,moderate,Dribble,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,moderate,Shot,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,moderate,Miscontrol,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,moderate,Dispossessed,Miscontrol,0.0
+tier_b,filtered8,hmm_joint,moderate,Pass,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,moderate,Carry,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,moderate,Ball Recovery,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,moderate,Clearance,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,moderate,Dribble,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,moderate,Shot,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,moderate,Miscontrol,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,moderate,Dispossessed,Dispossessed,0.0
+tier_b,filtered8,hmm_joint,strong,Pass,Pass,161432.0
+tier_b,filtered8,hmm_joint,strong,Carry,Pass,492.0
+tier_b,filtered8,hmm_joint,strong,Ball Recovery,Pass,101.0
+tier_b,filtered8,hmm_joint,strong,Clearance,Pass,14.0
+tier_b,filtered8,hmm_joint,strong,Dribble,Pass,4512.0
+tier_b,filtered8,hmm_joint,strong,Shot,Pass,291.0
+tier_b,filtered8,hmm_joint,strong,Miscontrol,Pass,3052.0
+tier_b,filtered8,hmm_joint,strong,Dispossessed,Pass,3462.0
+tier_b,filtered8,hmm_joint,strong,Pass,Carry,32479.0
+tier_b,filtered8,hmm_joint,strong,Carry,Carry,162327.0
+tier_b,filtered8,hmm_joint,strong,Ball Recovery,Carry,8829.0
+tier_b,filtered8,hmm_joint,strong,Clearance,Carry,1916.0
+tier_b,filtered8,hmm_joint,strong,Dribble,Carry,46.0
+tier_b,filtered8,hmm_joint,strong,Shot,Carry,140.0
+tier_b,filtered8,hmm_joint,strong,Miscontrol,Carry,748.0
+tier_b,filtered8,hmm_joint,strong,Dispossessed,Carry,32.0
+tier_b,filtered8,hmm_joint,strong,Pass,Ball Recovery,23294.0
+tier_b,filtered8,hmm_joint,strong,Carry,Ball Recovery,16819.0
+tier_b,filtered8,hmm_joint,strong,Ball Recovery,Ball Recovery,12632.0
+tier_b,filtered8,hmm_joint,strong,Clearance,Ball Recovery,2659.0
+tier_b,filtered8,hmm_joint,strong,Dribble,Ball Recovery,16.0
+tier_b,filtered8,hmm_joint,strong,Shot,Ball Recovery,65.0
+tier_b,filtered8,hmm_joint,strong,Miscontrol,Ball Recovery,201.0
+tier_b,filtered8,hmm_joint,strong,Dispossessed,Ball Recovery,6.0
+tier_b,filtered8,hmm_joint,strong,Pass,Clearance,11475.0
+tier_b,filtered8,hmm_joint,strong,Carry,Clearance,46595.0
+tier_b,filtered8,hmm_joint,strong,Ball Recovery,Clearance,4502.0
+tier_b,filtered8,hmm_joint,strong,Clearance,Clearance,5349.0
+tier_b,filtered8,hmm_joint,strong,Dribble,Clearance,16.0
+tier_b,filtered8,hmm_joint,strong,Shot,Clearance,3322.0
+tier_b,filtered8,hmm_joint,strong,Miscontrol,Clearance,408.0
+tier_b,filtered8,hmm_joint,strong,Dispossessed,Clearance,32.0
+tier_b,filtered8,hmm_joint,strong,Pass,Dribble,27854.0
+tier_b,filtered8,hmm_joint,strong,Carry,Dribble,46.0
+tier_b,filtered8,hmm_joint,strong,Ball Recovery,Dribble,27.0
+tier_b,filtered8,hmm_joint,strong,Clearance,Dribble,18.0
+tier_b,filtered8,hmm_joint,strong,Dribble,Dribble,2241.0
+tier_b,filtered8,hmm_joint,strong,Shot,Dribble,2026.0
+tier_b,filtered8,hmm_joint,strong,Miscontrol,Dribble,1739.0
+tier_b,filtered8,hmm_joint,strong,Dispossessed,Dribble,1714.0
+tier_b,filtered8,hmm_joint,strong,Pass,Shot,15698.0
+tier_b,filtered8,hmm_joint,strong,Carry,Shot,28.0
+tier_b,filtered8,hmm_joint,strong,Ball Recovery,Shot,80.0
+tier_b,filtered8,hmm_joint,strong,Clearance,Shot,24.0
+tier_b,filtered8,hmm_joint,strong,Dribble,Shot,1266.0
+tier_b,filtered8,hmm_joint,strong,Shot,Shot,1171.0
+tier_b,filtered8,hmm_joint,strong,Miscontrol,Shot,856.0
+tier_b,filtered8,hmm_joint,strong,Dispossessed,Shot,926.0
+tier_b,filtered8,hmm_joint,strong,Pass,Miscontrol,791.0
+tier_b,filtered8,hmm_joint,strong,Carry,Miscontrol,313.0
+tier_b,filtered8,hmm_joint,strong,Ball Recovery,Miscontrol,307.0
+tier_b,filtered8,hmm_joint,strong,Clearance,Miscontrol,40.0
+tier_b,filtered8,hmm_joint,strong,Dribble,Miscontrol,7.0
+tier_b,filtered8,hmm_joint,strong,Shot,Miscontrol,2.0
+tier_b,filtered8,hmm_joint,strong,Miscontrol,Miscontrol,4.0
+tier_b,filtered8,hmm_joint,strong,Dispossessed,Miscontrol,9.0
+tier_b,filtered8,hmm_joint,strong,Pass,Dispossessed,3742.0
+tier_b,filtered8,hmm_joint,strong,Carry,Dispossessed,16.0
+tier_b,filtered8,hmm_joint,strong,Ball Recovery,Dispossessed,12.0
+tier_b,filtered8,hmm_joint,strong,Clearance,Dispossessed,1.0
+tier_b,filtered8,hmm_joint,strong,Dribble,Dispossessed,267.0
+tier_b,filtered8,hmm_joint,strong,Shot,Dispossessed,19.0
+tier_b,filtered8,hmm_joint,strong,Miscontrol,Dispossessed,182.0
+tier_b,filtered8,hmm_joint,strong,Dispossessed,Dispossessed,218.0
+tier_b,filtered8,hmm_joint,tuned,Pass,Pass,161432.0
+tier_b,filtered8,hmm_joint,tuned,Carry,Pass,492.0
+tier_b,filtered8,hmm_joint,tuned,Ball Recovery,Pass,101.0
+tier_b,filtered8,hmm_joint,tuned,Clearance,Pass,14.0
+tier_b,filtered8,hmm_joint,tuned,Dribble,Pass,4512.0
+tier_b,filtered8,hmm_joint,tuned,Shot,Pass,291.0
+tier_b,filtered8,hmm_joint,tuned,Miscontrol,Pass,3052.0
+tier_b,filtered8,hmm_joint,tuned,Dispossessed,Pass,3462.0
+tier_b,filtered8,hmm_joint,tuned,Pass,Carry,32479.0
+tier_b,filtered8,hmm_joint,tuned,Carry,Carry,162327.0
+tier_b,filtered8,hmm_joint,tuned,Ball Recovery,Carry,8829.0
+tier_b,filtered8,hmm_joint,tuned,Clearance,Carry,1916.0
+tier_b,filtered8,hmm_joint,tuned,Dribble,Carry,46.0
+tier_b,filtered8,hmm_joint,tuned,Shot,Carry,140.0
+tier_b,filtered8,hmm_joint,tuned,Miscontrol,Carry,748.0
+tier_b,filtered8,hmm_joint,tuned,Dispossessed,Carry,32.0
+tier_b,filtered8,hmm_joint,tuned,Pass,Ball Recovery,23294.0
+tier_b,filtered8,hmm_joint,tuned,Carry,Ball Recovery,16819.0
+tier_b,filtered8,hmm_joint,tuned,Ball Recovery,Ball Recovery,12632.0
+tier_b,filtered8,hmm_joint,tuned,Clearance,Ball Recovery,2659.0
+tier_b,filtered8,hmm_joint,tuned,Dribble,Ball Recovery,16.0
+tier_b,filtered8,hmm_joint,tuned,Shot,Ball Recovery,65.0
+tier_b,filtered8,hmm_joint,tuned,Miscontrol,Ball Recovery,201.0
+tier_b,filtered8,hmm_joint,tuned,Dispossessed,Ball Recovery,6.0
+tier_b,filtered8,hmm_joint,tuned,Pass,Clearance,11475.0
+tier_b,filtered8,hmm_joint,tuned,Carry,Clearance,46595.0
+tier_b,filtered8,hmm_joint,tuned,Ball Recovery,Clearance,4502.0
+tier_b,filtered8,hmm_joint,tuned,Clearance,Clearance,5349.0
+tier_b,filtered8,hmm_joint,tuned,Dribble,Clearance,16.0
+tier_b,filtered8,hmm_joint,tuned,Shot,Clearance,3322.0
+tier_b,filtered8,hmm_joint,tuned,Miscontrol,Clearance,408.0
+tier_b,filtered8,hmm_joint,tuned,Dispossessed,Clearance,32.0
+tier_b,filtered8,hmm_joint,tuned,Pass,Dribble,27854.0
+tier_b,filtered8,hmm_joint,tuned,Carry,Dribble,46.0
+tier_b,filtered8,hmm_joint,tuned,Ball Recovery,Dribble,27.0
+tier_b,filtered8,hmm_joint,tuned,Clearance,Dribble,18.0
+tier_b,filtered8,hmm_joint,tuned,Dribble,Dribble,2241.0
+tier_b,filtered8,hmm_joint,tuned,Shot,Dribble,2026.0
+tier_b,filtered8,hmm_joint,tuned,Miscontrol,Dribble,1739.0
+tier_b,filtered8,hmm_joint,tuned,Dispossessed,Dribble,1714.0
+tier_b,filtered8,hmm_joint,tuned,Pass,Shot,15698.0
+tier_b,filtered8,hmm_joint,tuned,Carry,Shot,28.0
+tier_b,filtered8,hmm_joint,tuned,Ball Recovery,Shot,80.0
+tier_b,filtered8,hmm_joint,tuned,Clearance,Shot,24.0
+tier_b,filtered8,hmm_joint,tuned,Dribble,Shot,1266.0
+tier_b,filtered8,hmm_joint,tuned,Shot,Shot,1171.0
+tier_b,filtered8,hmm_joint,tuned,Miscontrol,Shot,856.0
+tier_b,filtered8,hmm_joint,tuned,Dispossessed,Shot,926.0
+tier_b,filtered8,hmm_joint,tuned,Pass,Miscontrol,791.0
+tier_b,filtered8,hmm_joint,tuned,Carry,Miscontrol,313.0
+tier_b,filtered8,hmm_joint,tuned,Ball Recovery,Miscontrol,307.0
+tier_b,filtered8,hmm_joint,tuned,Clearance,Miscontrol,40.0
+tier_b,filtered8,hmm_joint,tuned,Dribble,Miscontrol,7.0
+tier_b,filtered8,hmm_joint,tuned,Shot,Miscontrol,2.0
+tier_b,filtered8,hmm_joint,tuned,Miscontrol,Miscontrol,4.0
+tier_b,filtered8,hmm_joint,tuned,Dispossessed,Miscontrol,9.0
+tier_b,filtered8,hmm_joint,tuned,Pass,Dispossessed,3742.0
+tier_b,filtered8,hmm_joint,tuned,Carry,Dispossessed,16.0
+tier_b,filtered8,hmm_joint,tuned,Ball Recovery,Dispossessed,12.0
+tier_b,filtered8,hmm_joint,tuned,Clearance,Dispossessed,1.0
+tier_b,filtered8,hmm_joint,tuned,Dribble,Dispossessed,267.0
+tier_b,filtered8,hmm_joint,tuned,Shot,Dispossessed,19.0
+tier_b,filtered8,hmm_joint,tuned,Miscontrol,Dispossessed,182.0
+tier_b,filtered8,hmm_joint,tuned,Dispossessed,Dispossessed,218.0

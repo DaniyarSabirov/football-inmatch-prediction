@@ -1,0 +1,506 @@
+current,next,count,same_timestamp
+Pass,Ball Receipt*,376284,2
+Ball Receipt*,Carry,302530,302530
+Carry,Pass,256905,10
+Carry,Pressure,73121,32
+Ball Receipt*,Pass,64745,44897
+Pressure,Pass,58714,15
+Pass,Pressure,37818,7
+Pressure,Ball Receipt*,36864,21
+Ball Recovery,Carry,34124,34124
+Duel,Pass,10383,5602
+Dispossessed,Duel,9848,9848
+Foul Committed,Foul Won,9787,9779
+Ball Receipt*,Ball Recovery,9047,9032
+Ball Receipt*,Interception,8779,8771
+Ball Receipt*,Duel,8106,6639
+Shot,Goal Keeper,7789,0
+Dribbled Past,Dribble,7587,7587
+Goal Keeper,Pass,7381,0
+Foul Won,Pass,7321,0
+Pressure,Pressure,7118,5
+Dribble,Carry,6916,6916
+Carry,Miscontrol,6809,21
+Clearance,Pass,6418,1
+Pass,Pass,6304,0
+Pressure,Dispossessed,6267,0
+Ball Receipt*,Block,6007,5995
+Pressure,Ball Recovery,5881,14
+Block,Pass,5541,1
+Dribble,Duel,5418,5415
+Ball Receipt*,Clearance,5049,5037
+Clearance,Ball Recovery,5040,0
+Pressure,Foul Committed,4541,0
+Pressure,Dribbled Past,4532,0
+Pass,Block,4392,0
+Pass,Ball Recovery,4381,0
+Duel,Ball Recovery,4103,0
+Duel,Carry,3776,3776
+Interception,Carry,3745,3745
+Miscontrol,Pass,3724,0
+Pass,Clearance,3600,0
+Block,Ball Recovery,3490,0
+Carry,Dispossessed,3458,0
+Duel,Clearance,3391,3166
+Carry,Shot,3271,0
+Miscontrol,Pressure,3138,0
+Pressure,Dribble,3072,0
+Block,Goal Keeper,3023,1
+Miscontrol,Ball Recovery,3004,1
+Carry,Dribbled Past,2993,0
+Carry,Foul Committed,2992,1
+Shot,Block,2982,0
+Ball Receipt*,Shot,2855,996
+Ball Recovery,Pass,2466,0
+Interception,Pass,2442,0
+Block,Pressure,2359,0
+Pass,Duel,2345,1631
+Carry,Dribble,2295,5
+Duel,Pressure,2227,1
+Ball Receipt*,Miscontrol,2046,1783
+Pressure,Miscontrol,1958,1
+Ball Receipt*,Pressure,1867,1
+Goal Keeper,Ball Recovery,1852,0
+Interception,Ball Recovery,1809,0
+Clearance,Pressure,1805,0
+Pressure,Shot,1735,0
+Substitution,Pass,1720,0
+Ball Receipt*,Foul Committed,1492,713
+Pressure,Clearance,1385,1
+Ball Recovery,Shot,1228,3
+Ball Recovery,Pressure,1185,0
+Substitution,Substitution,1178,108
+Ball Receipt*,Goal Keeper,1100,1097
+Interception,Pressure,1022,0
+Tactical Shift,Pass,998,0
+Duel,Shot,989,986
+Goal Keeper,Carry,918,918
+Ball Recovery,Ball Recovery,916,1
+Half Start,Half Start,912,912
+Half End,Half End,912,912
+Duel,Ball Receipt*,849,1
+50/50,50/50,847,835
+Foul Won,Carry,823,823
+Pass,Goal Keeper,812,0
+Clearance,Clearance,784,0
+Clearance,Block,781,1
+Clearance,Duel,725,0
+Injury Stoppage,Injury Stoppage,706,11
+Goal Keeper,Pressure,664,0
+Half Start,Pass,641,0
+Injury Stoppage,Pass,590,0
+Goal Keeper,Clearance,587,0
+Carry,Block,560,491
+Block,Block,556,0
+Miscontrol,Clearance,541,0
+Pass,Interception,541,0
+Block,Clearance,536,0
+Substitution,Tactical Shift,500,83
+Pass,Foul Committed,484,0
+Pass,Half End,424,0
+Referee Ball-Drop,Referee Ball-Drop,421,21
+Foul Won,Injury Stoppage,418,0
+Starting XI,Starting XI,417,417
+Starting XI,Half Start,417,417
+Foul Won,Substitution,413,0
+Foul Committed,Pass,410,0
+Goal Keeper,Substitution,394,0
+Referee Ball-Drop,Ball Recovery,386,0
+Injury Stoppage,Player Off,384,0
+Pressure,Shield,372,1
+Foul Won,Shot,365,0
+Ball Receipt*,Injury Stoppage,335,4
+Duel,Miscontrol,332,332
+Dribble,Pressure,313,0
+Player Off,Pass,312,0
+50/50,Carry,300,300
+Injury Stoppage,Referee Ball-Drop,287,0
+Ball Receipt*,Substitution,281,0
+Player On,Pass,279,0
+Duel,Block,267,0
+Goal Keeper,Block,264,0
+Pass,Substitution,259,0
+Pass,Tactical Shift,250,0
+Shield,Pass,246,0
+Shield,Ball Receipt*,229,0
+Block,Foul Committed,225,2
+Injury Stoppage,Substitution,225,0
+50/50,Ball Recovery,213,0
+Miscontrol,50/50,211,0
+Pass,Injury Stoppage,210,0
+Tactical Shift,Ball Receipt*,209,0
+Half Start,Substitution,205,203
+Interception,Block,203,1
+Goal Keeper,Injury Stoppage,191,0
+Carry,Ball Recovery,191,32
+Miscontrol,Block,190,0
+Duel,50/50,188,0
+Bad Behaviour,Pass,185,0
+Goal Keeper,Shot,179,0
+50/50,Pass,173,0
+Dribble,Pass,171,0
+Referee Ball-Drop,Pass,167,0
+Clearance,Foul Committed,151,0
+Carry,Interception,149,117
+Block,50/50,144,0
+Pass,Player On,144,0
+Duel,Foul Committed,144,0
+Goal Keeper,Half End,139,0
+Pressure,Block,131,0
+Player Off,Referee Ball-Drop,131,0
+Carry,Player On,130,5
+Block,Duel,129,0
+Duel,Substitution,128,0
+Ball Recovery,Clearance,126,0
+Interception,Clearance,122,0
+Ball Recovery,Injury Stoppage,122,0
+Carry,Tactical Shift,119,4
+Block,Substitution,119,0
+Pressure,Interception,119,0
+Dribble,Ball Recovery,117,0
+Ball Receipt*,Dispossessed,111,94
+Foul Won,Bad Behaviour,110,0
+50/50,Pressure,109,0
+Offside,Pass,109,0
+Clearance,Substitution,109,0
+Pressure,Goal Keeper,103,0
+Player On,Ball Receipt*,102,0
+Miscontrol,Duel,96,0
+Goal Keeper,Duel,96,0
+Foul Won,Tactical Shift,96,0
+Pass,Shield,91,0
+Substitution,Ball Receipt*,91,0
+Miscontrol,Foul Committed,88,0
+Ball Recovery,50/50,81,0
+Ball Receipt*,Half End,80,0
+Foul Won,Ball Recovery,80,0
+Ball Receipt*,Tactical Shift,79,0
+Error,Ball Recovery,79,0
+Goal Keeper,Tactical Shift,76,0
+Miscontrol,Substitution,75,0
+Ball Recovery,Duel,72,0
+Clearance,Half End,70,0
+Ball Recovery,Block,70,0
+Clearance,Injury Stoppage,66,0
+Goal Keeper,Foul Committed,64,1
+Pressure,50/50,64,0
+Clearance,Goal Keeper,64,0
+Foul Won,Pressure,63,0
+Block,Injury Stoppage,63,0
+Substitution,Referee Ball-Drop,61,0
+Goal Keeper,Offside,58,0
+Interception,Duel,58,0
+Duel,Injury Stoppage,57,0
+Carry,Clearance,54,36
+Ball Recovery,Foul Committed,54,0
+Shield,Pressure,53,0
+Interception,50/50,51,0
+Player On,Substitution,51,0
+Ball Receipt*,Dribble,50,31
+Ball Receipt*,Dribbled Past,49,35
+Goal Keeper,Goal Keeper,49,0
+Half Start,Tactical Shift,49,44
+Dribble,Clearance,46,0
+Block,Miscontrol,45,1
+Interception,Foul Committed,45,0
+Carry,Error,44,1
+Miscontrol,Interception,44,0
+Ball Receipt*,Player On,44,0
+Error,Pass,43,0
+Tactical Shift,Pressure,43,0
+Interception,Substitution,43,0
+Foul Committed,Shot,42,0
+Goal Keeper,Bad Behaviour,41,0
+Pass,Error,41,0
+Block,Tactical Shift,41,0
+Clearance,50/50,40,0
+Foul Won,Half End,38,0
+Error,Ball Receipt*,37,0
+Interception,Miscontrol,36,0
+Injury Stoppage,Shot,35,0
+Ball Recovery,Half End,34,0
+Pressure,Injury Stoppage,34,0
+Clearance,Error,34,0
+Pressure,Duel,34,0
+Tactical Shift,Substitution,33,9
+Duel,Duel,32,0
+Foul Won,Player On,32,0
+Own Goal Against,Own Goal For,32,32
+Miscontrol,Goal Keeper,32,0
+Block,Shot,31,0
+Clearance,Miscontrol,31,1
+Ball Recovery,Referee Ball-Drop,31,0
+Clearance,Tactical Shift,31,0
+Error,Pressure,31,0
+Miscontrol,Tactical Shift,30,0
+Ball Recovery,Error,29,0
+Goal Keeper,Player On,29,0
+Block,Offside,28,0
+Tactical Shift,Tactical Shift,27,9
+Own Goal For,Pass,27,0
+Interception,Injury Stoppage,26,0
+Player On,Pressure,26,0
+Injury Stoppage,Ball Receipt*,25,0
+Duel,Tactical Shift,25,0
+Miscontrol,Injury Stoppage,25,0
+Clearance,Interception,25,0
+Pressure,Half End,24,0
+Interception,Tactical Shift,24,0
+Pressure,Error,24,0
+Own Goal For,Own Goal Against,23,23
+Bad Behaviour,Bad Behaviour,23,1
+Duel,Half End,23,0
+Miscontrol,Shield,23,0
+Goal Keeper,50/50,23,0
+Block,Half End,22,0
+Foul Committed,Substitution,22,0
+Tactical Shift,Ball Recovery,22,0
+Injury Stoppage,Bad Behaviour,22,0
+Ball Recovery,Miscontrol,21,0
+Miscontrol,Half End,20,0
+Shot,Pressure,20,0
+Goal Keeper,Error,20,0
+50/50,Block,20,0
+Own Goal Against,Pass,19,0
+Ball Receipt*,Referee Ball-Drop,19,0
+Bad Behaviour,Substitution,18,0
+Carry,Goal Keeper,17,2
+Tactical Shift,Referee Ball-Drop,17,0
+Half Start,Shot,17,0
+Foul Won,Player Off,17,0
+Clearance,Player On,17,0
+Injury Stoppage,Tactical Shift,16,0
+Foul Committed,Injury Stoppage,16,0
+Error,Shot,16,0
+Miscontrol,Player On,16,0
+Miscontrol,Error,16,1
+Bad Behaviour,Shot,16,0
+Ball Recovery,Player On,16,0
+Pass,Player Off,16,0
+Substitution,Shot,16,0
+Interception,Interception,15,0
+Goal Keeper,Player Off,15,0
+Clearance,Offside,15,0
+Player Off,Player Off,15,0
+Pass,Referee Ball-Drop,15,0
+Ball Recovery,Goal Keeper,15,0
+Tactical Shift,Shot,14,0
+Substitution,Player Off,14,0
+Block,Player On,14,0
+Player Off,Ball Receipt*,14,0
+Pass,Bad Behaviour,13,0
+Dribble,Goal Keeper,13,9
+Ball Receipt*,Bad Behaviour,13,0
+Ball Recovery,Substitution,13,0
+Block,Interception,12,0
+Player On,Ball Recovery,12,0
+Carry,Duel,12,0
+Goal Keeper,Dribble,12,12
+Interception,Half End,12,0
+Block,Own Goal Against,12,0
+Dribble,50/50,12,0
+Ball Receipt*,50/50,12,12
+Duel,Player On,12,0
+Interception,Goal Keeper,12,0
+Tactical Shift,Player Off,11,1
+Duel,Goal Keeper,11,0
+Duel,Shield,11,0
+Clearance,Shield,11,0
+Bad Behaviour,Injury Stoppage,10,0
+Block,Shield,10,0
+Shot,Ball Recovery,10,0
+Pressure,Player On,10,0
+Block,Own Goal For,10,0
+Offside,Substitution,10,0
+Referee Ball-Drop,Ball Receipt*,9,0
+Clearance,Shot,9,0
+Error,Goal Keeper,9,0
+Interception,Player On,9,0
+Clearance,Own Goal Against,9,0
+Bad Behaviour,Half End,9,0
+Clearance,Own Goal For,9,0
+Offside,Goal Keeper,9,0
+Interception,Error,9,0
+Duel,Offside,8,0
+Ball Recovery,Interception,8,0
+Substitution,Injury Stoppage,8,0
+Pressure,Substitution,8,0
+Miscontrol,Bad Behaviour,8,0
+Duel,Bad Behaviour,8,0
+Substitution,Bad Behaviour,8,0
+50/50,Clearance,8,0
+Dribble,Foul Committed,8,0
+Ball Recovery,Tactical Shift,8,0
+Shot,Offside,8,0
+Pass,50/50,7,0
+50/50,Foul Committed,7,0
+Offside,Injury Stoppage,7,0
+Block,Error,7,0
+Shot,Error,7,0
+Player Off,Substitution,7,0
+Foul Committed,Tactical Shift,7,0
+Tactical Shift,Clearance,7,0
+Goal Keeper,Shield,7,0
+Foul Won,Foul Committed,7,0
+Referee Ball-Drop,Pressure,7,0
+Foul Committed,Ball Recovery,7,0
+Pressure,Tactical Shift,6,0
+Ball Recovery,Shield,6,0
+Ball Receipt*,Player Off,6,0
+Ball Recovery,Offside,6,0
+Injury Stoppage,Half End,6,0
+Ball Receipt*,Shield,6,0
+Duel,Player Off,6,0
+Tactical Shift,Duel,6,0
+Foul Committed,Goal Keeper,6,0
+Shield,Substitution,6,0
+Ball Recovery,Dribbled Past,5,0
+Duel,Interception,5,0
+Ball Recovery,Dispossessed,5,0
+Interception,Shield,5,0
+Referee Ball-Drop,Tactical Shift,5,0
+Clearance,Bad Behaviour,5,0
+Injury Stoppage,Ball Recovery,5,0
+Bad Behaviour,Referee Ball-Drop,5,0
+Tactical Shift,Injury Stoppage,5,0
+Shot,Clearance,5,0
+Player On,Player On,5,0
+Injury Stoppage,Pressure,5,0
+Block,Bad Behaviour,5,0
+Miscontrol,Offside,5,0
+Duel,Error,5,0
+Shot,Pass,5,0
+Player Off,Shot,4,0
+Error,Block,4,0
+Pressure,Offside,4,0
+Player On,Tactical Shift,4,0
+Substitution,Ball Recovery,4,0
+Dribble,Substitution,4,0
+Error,Miscontrol,4,0
+Error,Clearance,4,0
+Goal Keeper,Own Goal Against,4,0
+Foul Committed,Bad Behaviour,4,0
+Injury Stoppage,Player On,4,0
+Dispossessed,Goal Keeper,4,4
+Carry,Substitution,4,0
+Foul Committed,Pressure,4,0
+Foul Won,Clearance,4,0
+Player Off,Player On,3,0
+Miscontrol,Dispossessed,3,0
+Carry,Referee Ball-Drop,3,0
+Ball Receipt*,Offside,3,1
+Interception,Offside,3,0
+Ball Recovery,Dribble,3,0
+Substitution,Pressure,3,0
+50/50,Substitution,3,0
+Bad Behaviour,Player Off,3,0
+Pass,Miscontrol,3,0
+Dribble,Injury Stoppage,3,0
+Block,Dribbled Past,3,0
+Substitution,Foul Committed,3,0
+Block,Dribble,3,0
+Error,Interception,3,0
+Player Off,Clearance,3,0
+Interception,Shot,3,0
+Offside,Half End,2,0
+Block,Player Off,2,0
+Goal Keeper,Ball Receipt*,2,0
+Own Goal Against,Bad Behaviour,2,0
+Pass,Own Goal Against,2,0
+Clearance,Dispossessed,2,0
+Dribble,Block,2,0
+Foul Committed,Half End,2,0
+Offside,Player On,2,0
+Player On,Half End,2,0
+Player On,Shot,2,0
+Substitution,Clearance,2,0
+Shield,Player Off,2,0
+Own Goal Against,Injury Stoppage,2,0
+Own Goal For,Substitution,2,0
+Foul Won,Miscontrol,2,0
+Ball Recovery,Bad Behaviour,2,0
+Shield,Injury Stoppage,2,0
+Dribble,Half End,2,0
+Shot,Shot,2,0
+Goal Keeper,Own Goal For,2,0
+Player Off,Pressure,2,0
+Player Off,Tactical Shift,2,0
+Goal Keeper,Miscontrol,2,0
+Player On,Referee Ball-Drop,2,0
+Error,Dribble,2,0
+Error,Own Goal Against,2,0
+Shield,Half End,2,0
+Carry,50/50,2,0
+Foul Won,Dribbled Past,2,0
+Tactical Shift,Block,2,0
+Substitution,Player On,2,0
+Error,50/50,2,0
+Pass,Foul Won,2,0
+Pressure,Bad Behaviour,2,0
+Ball Receipt*,Own Goal Against,2,0
+Interception,Dribble,2,0
+Player On,Injury Stoppage,2,0
+Ball Receipt*,Foul Won,2,2
+Interception,Dispossessed,2,0
+Dribble,Offside,1,0
+Tactical Shift,Miscontrol,1,0
+Foul Won,Goal Keeper,1,0
+Ball Recovery,Own Goal For,1,0
+Tactical Shift,50/50,1,0
+Player On,Bad Behaviour,1,0
+50/50,Offside,1,0
+Own Goal For,Tactical Shift,1,0
+Player On,Duel,1,0
+Carry,Shield,1,0
+Dribble,Tactical Shift,1,0
+Shield,Miscontrol,1,0
+Own Goal For,Injury Stoppage,1,0
+Ball Receipt*,Error,1,0
+Ball Recovery,Player Off,1,0
+Interception,Bad Behaviour,1,0
+50/50,Shot,1,0
+Own Goal For,Ball Receipt*,1,0
+50/50,Injury Stoppage,1,0
+Player On,Dribbled Past,1,0
+Goal Keeper,Referee Ball-Drop,1,0
+Shield,Foul Committed,1,0
+Error,Dispossessed,1,0
+Player Off,Foul Committed,1,0
+Bad Behaviour,Duel,1,0
+50/50,Bad Behaviour,1,0
+50/50,Half End,1,0
+Shot,Bad Behaviour,1,0
+Injury Stoppage,Foul Committed,1,0
+Carry,Foul Won,1,0
+Clearance,Referee Ball-Drop,1,0
+Foul Committed,Foul Committed,1,0
+Shot,Foul Committed,1,0
+Ball Receipt*,Own Goal For,1,0
+Foul Won,Interception,1,0
+Foul Committed,Duel,1,0
+Clearance,Foul Won,1,0
+Clearance,Player Off,1,0
+Tactical Shift,Bad Behaviour,1,0
+Miscontrol,Dribbled Past,1,0
+Referee Ball-Drop,Injury Stoppage,1,0
+Pressure,Foul Won,1,0
+Bad Behaviour,Goal Keeper,1,0
+Carry,Player Off,1,0
+Block,Dispossessed,1,0
+Goal Keeper,Dispossessed,1,0
+Foul Won,Dispossessed,1,0
+Player On,Goal Keeper,1,0
+Shot,Player On,1,0
+Miscontrol,Dribble,1,0
+Dribble,Shot,1,0
+Tactical Shift,Player On,1,0
+Tactical Shift,Dribble,1,0
+Foul Committed,Block,1,0
+Shield,Tactical Shift,1,0
+Block,Referee Ball-Drop,1,0
+Ball Recovery,Own Goal Against,1,0
+Interception,Dribbled Past,1,0
+Offside,Ball Receipt*,1,0
+Pass,Offside,1,0
+Offside,Tactical Shift,1,0
+Interception,Referee Ball-Drop,1,0

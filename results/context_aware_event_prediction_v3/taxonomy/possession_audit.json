@@ -1,0 +1,20 @@
+{
+ "events_compared": 1238419,
+ "statsbomb_possession_team_equals_causal_controlling_team": 0.9216549487693584,
+ "statsbomb_possessions": 58645,
+ "statsbomb_possessions_first_record_not_own_control": 4366,
+ "share_first_record_not_own_control": 0.07444794952681388,
+ "first_record_types_when_not_own_control": {
+  "Duel": 3126,
+  "Referee Ball-Drop": 814,
+  "Starting XI": 334,
+  "50/50": 49,
+  "Block": 40,
+  "Pressure": 2,
+  "Goal Keeper": 1
+ },
+ "statsbomb_boundaries": 59039,
+ "causal_boundaries": 91160,
+ "statsbomb_boundaries_also_causal_boundary_same_record": 0.6312945679974254,
+ "verdict": "StatsBomb possession ids are not used as features: they are annotator-assigned with the whole match available; possession features are rebuilt causally from earlier records"
+}

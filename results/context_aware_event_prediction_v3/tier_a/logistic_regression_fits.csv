@@ -1,0 +1,11 @@
+tier,task,model,fold_id,C,n_iter,converged,n_features,seconds
+tier_a,scenarioD15,logistic_C0.1,0,0.1,160,True,117,5.074600083986297
+tier_a,scenarioD15,logistic_C0.1,1,0.1,176,True,117,5.532596207980532
+tier_a,scenarioD15,logistic_C0.1,2,0.1,176,True,117,5.489875832980033
+tier_a,scenarioD15,logistic_C0.1,3,0.1,173,True,117,5.242196667008102
+tier_a,scenarioD15,logistic_C0.1,4,0.1,177,True,117,5.467827999964356
+tier_a,scenarioD15,logistic_C1.0,0,1.0,212,True,117,6.572645083011594
+tier_a,scenarioD15,logistic_C1.0,1,1.0,230,True,117,7.065792667039204
+tier_a,scenarioD15,logistic_C1.0,2,1.0,234,True,117,7.164975167019293
+tier_a,scenarioD15,logistic_C1.0,3,1.0,214,True,117,6.5565350410179235
+tier_a,scenarioD15,logistic_C1.0,4,1.0,236,True,117,7.2529192920192145

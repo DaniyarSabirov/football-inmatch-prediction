@@ -71,3 +71,20 @@ results/data_quality_inspections/*_recovered_three_sixty.json
 # Local snapshot exports of the repository (contain raw StatsBomb files)
 thesis_code_review/
 football_orientation_review.zip
+
+# Local thesis review archive
+thesis_code_review.zip
+
+# Rebuildable HMM training cache
+**/_hmm_fit_cache/
+
+# Large prediction outputs from historical experiments
+results/markov_hmm_cost_sensitive_v2/predictions.parquet
+results/markov_hmm_cost_sensitive_v2/tiers/tier_b/filtered8/predictions_filtered8.parquet
+results/markov_hmm_cost_sensitive_v2/tiers/tier_b/scenarioD15/predictions_scenarioD15.parquet
+results/markov_hmm_pilot/predictions.csv
+results/markov_hmm_pilot/predictions_fullstream9.csv
+
+# Generated per-event prediction tables
+results/**/predictions*.parquet
+results/**/predictions*.csv

@@ -1,0 +1,74 @@
+scenario,target,rows,pct
+A_current_8,Pass,382948,48.6388
+A_current_8,Carry,314169,39.903
+A_current_8,Ball Recovery,36321,4.6132
+A_current_8,Clearance,13829,1.7564
+A_current_8,Dribble,11608,1.4743
+A_current_8,Shot,9905,1.258
+A_current_8,Miscontrol,9829,1.2484
+A_current_8,Dispossessed,8722,1.1078
+B_all_raw_types,Pass,381096,28.0708
+B_all_raw_types,Ball Receipt*,355658,26.1971
+B_all_raw_types,Carry,323004,23.7918
+B_all_raw_types,Pressure,118545,8.7318
+B_all_raw_types,Ball Recovery,35086,2.5844
+B_all_raw_types,Duel,23484,1.7298
+B_all_raw_types,Block,14513,1.069
+B_all_raw_types,Clearance,14203,1.0462
+B_all_raw_types,Goal Keeper,12439,0.9162
+B_all_raw_types,Dribble,11300,0.8323
+B_all_raw_types,Shot,10125,0.7458
+B_all_raw_types,Miscontrol,10045,0.7399
+B_all_raw_types,Foul Committed,8939,0.6584
+B_all_raw_types,Interception,8883,0.6543
+B_all_raw_types,Dispossessed,8560,0.6305
+B_all_raw_types,Foul Won,8490,0.6254
+B_all_raw_types,Dribbled Past,6684,0.4923
+B_all_raw_types,50/50,1494,0.11
+B_all_raw_types,Injury Stoppage,1217,0.0896
+B_all_raw_types,Substitution,1210,0.0891
+B_all_raw_types,Half End,658,0.0485
+B_all_raw_types,Tactical Shift,564,0.0415
+B_all_raw_types,Shield,418,0.0308
+B_all_raw_types,Player On,359,0.0264
+B_all_raw_types,Error,219,0.0161
+B_all_raw_types,Bad Behaviour,179,0.0132
+B_all_raw_types,Offside,96,0.0071
+B_all_raw_types,Own Goal For,48,0.0035
+B_all_raw_types,Own Goal Against,48,0.0035
+B_all_raw_types,Referee Ball-Drop,31,0.0023
+B_all_raw_types,Player Off,31,0.0023
+C_all_football_actions,Pass,383805,28.2937
+C_all_football_actions,Ball Receipt*,355962,26.2411
+C_all_football_actions,Carry,323004,23.8115
+C_all_football_actions,Pressure,118617,8.7443
+C_all_football_actions,Ball Recovery,35436,2.6123
+C_all_football_actions,Duel,23489,1.7316
+C_all_football_actions,Block,14513,1.0699
+C_all_football_actions,Clearance,14209,1.0475
+C_all_football_actions,Goal Keeper,12440,0.9171
+C_all_football_actions,Dribble,11301,0.8331
+C_all_football_actions,Shot,10209,0.7526
+C_all_football_actions,Miscontrol,10046,0.7406
+C_all_football_actions,Foul Committed,8943,0.6593
+C_all_football_actions,Interception,8883,0.6548
+C_all_football_actions,Dispossessed,8560,0.631
+C_all_football_actions,Foul Won,8490,0.6259
+C_all_football_actions,Dribbled Past,6685,0.4928
+C_all_football_actions,50/50,1495,0.1102
+C_all_football_actions,Shield,418,0.0308
+D_expanded_selected,Pass,379439,39.1215
+D_expanded_selected,Carry,315591,32.5385
+D_expanded_selected,Pressure,117672,12.1324
+D_expanded_selected,Ball Recovery,35262,3.6356
+D_expanded_selected,Duel,22280,2.2971
+D_expanded_selected,Block,14541,1.4992
+D_expanded_selected,Clearance,13891,1.4322
+D_expanded_selected,Goal Keeper,12366,1.275
+D_expanded_selected,Dribble,11363,1.1716
+D_expanded_selected,Shot,10015,1.0326
+D_expanded_selected,Miscontrol,9916,1.0224
+D_expanded_selected,Foul Committed,8894,0.917
+D_expanded_selected,Interception,8609,0.8876
+D_expanded_selected,Dispossessed,8556,0.8822
+D_expanded_selected,50/50,1504,0.1551

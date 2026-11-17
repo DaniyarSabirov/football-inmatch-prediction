@@ -1,0 +1,203 @@
+task,model,class,predicted_as,share_of_true
+scenarioD15,mc2_zone,Shot,Pass,0.5646617585775802
+scenarioD15,mc2_zone,Shot,Carry,0.37685789693012917
+scenarioD15,mc2_zone,Shot,Shot,0.04042228087234338
+scenarioD15,mc2_zone,Shot,Ball Recovery,0.007639949993054591
+scenarioD15,mc2_zone,Shot,Clearance,0.0072232254479788855
+scenarioD15,mc2_zone,Shot,Pressure,0.0026392554521461314
+scenarioD15,mc2_zone,Shot,Goal Keeper,0.00041672454507570494
+scenarioD15,mc2_zone,Shot,Duel,0.00013890818169190166
+scenarioD15,mc2_zone,Interception,Carry,0.9592592592592593
+scenarioD15,mc2_zone,Interception,Pass,0.03413848631239936
+scenarioD15,mc2_zone,Interception,Ball Recovery,0.00499194847020934
+scenarioD15,mc2_zone,Interception,Pressure,0.0008051529790660225
+scenarioD15,mc2_zone,Interception,Clearance,0.0008051529790660225
+scenarioD15,mc2_zone,Miscontrol,Pass,0.8199254864081689
+scenarioD15,mc2_zone,Miscontrol,Carry,0.16268800883124052
+scenarioD15,mc2_zone,Miscontrol,Pressure,0.007175382917069132
+scenarioD15,mc2_zone,Miscontrol,Shot,0.006485442251966331
+scenarioD15,mc2_zone,Miscontrol,Clearance,0.0022078101283289635
+scenarioD15,mc2_zone,Miscontrol,Ball Recovery,0.0012418931971850422
+scenarioD15,mc2_zone,Miscontrol,Miscontrol,0.00027597626604112044
+scenarioD15,mc2_zone,Foul Committed,Pass,0.766374177373864
+scenarioD15,mc2_zone,Foul Committed,Carry,0.19586336571607646
+scenarioD15,mc2_zone,Foul Committed,Ball Recovery,0.02130993418990912
+scenarioD15,mc2_zone,Foul Committed,Pressure,0.011125039172673143
+scenarioD15,mc2_zone,Foul Committed,Clearance,0.004544030084612974
+scenarioD15,mc2_zone,Foul Committed,Goal Keeper,0.0007834534628643058
+scenarioD15,mc2_zone,Dispossessed,Pass,0.9767478897913681
+scenarioD15,mc2_zone,Dispossessed,Carry,0.017040930084408344
+scenarioD15,mc2_zone,Dispossessed,Pressure,0.0031852205765249245
+scenarioD15,mc2_zone,Dispossessed,Ball Recovery,0.003025959547698678
+scenarioD15,mc2_zone,Clearance,Carry,0.5169609204522913
+scenarioD15,mc2_zone,Clearance,Pass,0.21731799246181313
+scenarioD15,mc2_zone,Clearance,Clearance,0.1775441380678437
+scenarioD15,mc2_zone,Clearance,Ball Recovery,0.06724856179329498
+scenarioD15,mc2_zone,Clearance,Pressure,0.017952787145407656
+scenarioD15,mc2_zone,Clearance,Shot,0.0018845467169212459
+scenarioD15,mc2_zone,Clearance,Goal Keeper,0.0005951200158698671
+scenarioD15,mc2_zone,Clearance,Duel,0.0004959333465582226
+scenarioD15,mc2_zone,Dribble,Pass,0.9805258033106135
+scenarioD15,mc2_zone,Dribble,Carry,0.01375365141187926
+scenarioD15,mc2_zone,Dribble,Pressure,0.0035296981499513143
+scenarioD15,mc2_zone,Dribble,Ball Recovery,0.0021908471275559884
+scenarioD15,mc2_zone,Block,Carry,0.6354943583859246
+scenarioD15,mc2_zone,Block,Goal Keeper,0.2018550392044368
+scenarioD15,mc2_zone,Block,Pass,0.14352648689998088
+scenarioD15,mc2_zone,Block,Ball Recovery,0.013291260279212087
+scenarioD15,mc2_zone,Block,Pressure,0.003251099636641805
+scenarioD15,mc2_zone,Block,Clearance,0.0019124115509657677
+scenarioD15,mc2_zone,Block,Shot,0.0006693440428380187
+scenarioD15,mc2_zone,Ball Recovery,Pass,0.43403411961294835
+scenarioD15,mc2_zone,Ball Recovery,Carry,0.42190961022811174
+scenarioD15,mc2_zone,Ball Recovery,Ball Recovery,0.12159483931139005
+scenarioD15,mc2_zone,Ball Recovery,Pressure,0.016360315548128862
+scenarioD15,mc2_zone,Ball Recovery,Clearance,0.0043912485913029965
+scenarioD15,mc2_zone,Ball Recovery,Shot,0.0010103757820697158
+scenarioD15,mc2_zone,Ball Recovery,Goal Keeper,0.0005829091050402207
+scenarioD15,mc2_zone,Ball Recovery,Duel,0.00011658182100804414
+scenarioD15,mc2_zone,Duel,Carry,0.5282402269083735
+scenarioD15,mc2_zone,Duel,Duel,0.3957947959057837
+scenarioD15,mc2_zone,Duel,Pass,0.057343692193858674
+scenarioD15,mc2_zone,Duel,Clearance,0.009988901220865706
+scenarioD15,mc2_zone,Duel,Ball Recovery,0.007522505857688987
+scenarioD15,mc2_zone,Duel,Pressure,0.0008632383771118511
+scenarioD15,mc2_zone,Duel,Shot,0.00024663953631767175
+scenarioD15,mc2_zone,Goal Keeper,Goal Keeper,0.8388490844990333
+scenarioD15,mc2_zone,Goal Keeper,Carry,0.12885249630387807
+scenarioD15,mc2_zone,Goal Keeper,Pass,0.018651199818037076
+scenarioD15,mc2_zone,Goal Keeper,Clearance,0.006709882861366996
+scenarioD15,mc2_zone,Goal Keeper,Ball Recovery,0.004549073126350506
+scenarioD15,mc2_zone,Goal Keeper,Pressure,0.0014784487660639144
+scenarioD15,mc2_zone,Goal Keeper,Duel,0.000682360968952576
+scenarioD15,mc2_zone,Goal Keeper,Shot,0.0002274536563175253
+scenarioD15,mc2_zone,50/50,50/50,0.49587534372135655
+scenarioD15,mc2_zone,50/50,Pass,0.3318056828597617
+scenarioD15,mc2_zone,50/50,Carry,0.11732355637030248
+scenarioD15,mc2_zone,50/50,Ball Recovery,0.03391384051329056
+scenarioD15,mc2_zone,50/50,Pressure,0.021081576535288724
+scenarioD15,mc1,Shot,Pass,0.6757883039311016
+scenarioD15,mc1,Shot,Carry,0.32379497152382275
+scenarioD15,mc1,Shot,Goal Keeper,0.0002778163633838033
+scenarioD15,mc1,Shot,50/50,0.00013890818169190166
+scenarioD15,mc1,Interception,Carry,0.8689210950080515
+scenarioD15,mc1,Interception,Pass,0.13107890499194846
+scenarioD15,mc1,Miscontrol,Pass,0.8814681937353388
+scenarioD15,mc1,Miscontrol,Carry,0.11853180626466124
+scenarioD15,mc1,Foul Committed,Pass,0.8462864305860232
+scenarioD15,mc1,Foul Committed,Carry,0.1529301159511125
+scenarioD15,mc1,Foul Committed,50/50,0.0006267627702914447
+scenarioD15,mc1,Foul Committed,Goal Keeper,0.00015669069257286117
+scenarioD15,mc1,Dispossessed,Pass,0.9977703455964325
+scenarioD15,mc1,Dispossessed,Carry,0.002229654403567447
+scenarioD15,mc1,Clearance,Carry,0.5033723467565959
+scenarioD15,mc1,Clearance,Pass,0.49583415988891094
+scenarioD15,mc1,Clearance,50/50,0.0004959333465582226
+scenarioD15,mc1,Clearance,Goal Keeper,0.00029756000793493357
+scenarioD15,mc1,Dribble,Pass,0.998539435248296
+scenarioD15,mc1,Dribble,Carry,0.0014605647517039922
+scenarioD15,mc1,Block,Carry,0.6273666092943201
+scenarioD15,mc1,Block,Goal Keeper,0.1994645247657296
+scenarioD15,mc1,Block,Pass,0.17183017785427424
+scenarioD15,mc1,Block,50/50,0.0013386880856760374
+scenarioD15,mc1,Ball Recovery,Pass,0.615318851280457
+scenarioD15,mc1,Ball Recovery,Carry,0.37912408191815955
+scenarioD15,mc1,Ball Recovery,50/50,0.005285042552364668
+scenarioD15,mc1,Ball Recovery,Goal Keeper,0.0002720242490187697
+scenarioD15,mc1,Duel,Carry,0.5729436428659515
+scenarioD15,mc1,Duel,Duel,0.3779134295227525
+scenarioD15,mc1,Duel,Pass,0.04914292761129609
+scenarioD15,mc1,Goal Keeper,Goal Keeper,0.6078698965085864
+scenarioD15,mc1,Goal Keeper,Pass,0.26464232912544067
+scenarioD15,mc1,Goal Keeper,Carry,0.12714659388149666
+scenarioD15,mc1,Goal Keeper,Duel,0.000341180484476288
+scenarioD15,mc1,50/50,50/50,0.5077910174152154
+scenarioD15,mc1,50/50,Pass,0.38863428047662696
+scenarioD15,mc1,50/50,Carry,0.10357470210815765
+scenarioD15,hmm_event,Shot,Pass,0.6220308376163356
+scenarioD15,hmm_event,Shot,Carry,0.37685789693012917
+scenarioD15,hmm_event,Shot,Ball Recovery,0.0006945409084595083
+scenarioD15,hmm_event,Shot,Goal Keeper,0.0002778163633838033
+scenarioD15,hmm_event,Shot,Duel,0.00013890818169190166
+scenarioD15,hmm_event,Interception,Carry,0.9587761674718196
+scenarioD15,hmm_event,Interception,Pass,0.03510466988727858
+scenarioD15,hmm_event,Interception,Ball Recovery,0.006119162640901771
+scenarioD15,hmm_event,Miscontrol,Pass,0.8380019318338623
+scenarioD15,hmm_event,Miscontrol,Carry,0.16186008003311717
+scenarioD15,hmm_event,Miscontrol,Ball Recovery,0.00013798813302056022
+scenarioD15,hmm_event,Foul Committed,Pass,0.770918207458477
+scenarioD15,hmm_event,Foul Committed,Carry,0.19758696333437795
+scenarioD15,hmm_event,Foul Committed,Ball Recovery,0.030554685051707928
+scenarioD15,hmm_event,Foul Committed,Duel,0.0007834534628643058
+scenarioD15,hmm_event,Foul Committed,Goal Keeper,0.00015669069257286117
+scenarioD15,hmm_event,Dispossessed,Pass,0.9842331581462016
+scenarioD15,hmm_event,Dispossessed,Carry,0.01560758082497213
+scenarioD15,hmm_event,Dispossessed,Ball Recovery,0.00015926102882624622
+scenarioD15,hmm_event,Clearance,Carry,0.5218210672485618
+scenarioD15,hmm_event,Clearance,Pass,0.39119222376512597
+scenarioD15,hmm_event,Clearance,Ball Recovery,0.08381273556833961
+scenarioD15,hmm_event,Clearance,Duel,0.002876413410037691
+scenarioD15,hmm_event,Clearance,Goal Keeper,0.00029756000793493357
+scenarioD15,hmm_event,Dribble,Pass,0.9868549172346641
+scenarioD15,hmm_event,Dribble,Carry,0.01314508276533593
+scenarioD15,hmm_event,Block,Carry,0.6341556703002487
+scenarioD15,hmm_event,Block,Goal Keeper,0.1994645247657296
+scenarioD15,hmm_event,Block,Pass,0.11225855804169058
+scenarioD15,hmm_event,Block,Ball Recovery,0.05393000573723465
+scenarioD15,hmm_event,Block,Duel,0.00019124115509657678
+scenarioD15,hmm_event,Ball Recovery,Carry,0.41981113744996695
+scenarioD15,hmm_event,Ball Recovery,Pass,0.383826215365484
+scenarioD15,hmm_event,Ball Recovery,Ball Recovery,0.19383670772937472
+scenarioD15,hmm_event,Ball Recovery,Duel,0.00225391520615552
+scenarioD15,hmm_event,Ball Recovery,Goal Keeper,0.0002720242490187697
+scenarioD15,hmm_event,Duel,Duel,0.560796645702306
+scenarioD15,hmm_event,Duel,Carry,0.3731656184486373
+scenarioD15,hmm_event,Duel,Pass,0.0350844740411888
+scenarioD15,hmm_event,Duel,Ball Recovery,0.0309532618078678
+scenarioD15,hmm_event,Goal Keeper,Goal Keeper,0.6078698965085864
+scenarioD15,hmm_event,Goal Keeper,Pass,0.2566814511543273
+scenarioD15,hmm_event,Goal Keeper,Carry,0.12828386216308427
+scenarioD15,hmm_event,Goal Keeper,Ball Recovery,0.00602752189241442
+scenarioD15,hmm_event,Goal Keeper,Duel,0.0011372682815876266
+scenarioD15,hmm_event,50/50,Pass,0.40146654445462876
+scenarioD15,hmm_event,50/50,Carry,0.30980751604032997
+scenarioD15,hmm_event,50/50,Ball Recovery,0.28139321723189736
+scenarioD15,hmm_event,50/50,Duel,0.007332722273143905
+filtered8,mc2_zone,Shot,Pass,0.5062535531552018
+filtered8,mc2_zone,Shot,Carry,0.4937464468447982
+filtered8,mc2_zone,Miscontrol,Pass,0.8164116828929068
+filtered8,mc2_zone,Miscontrol,Carry,0.1835883171070932
+filtered8,mc2_zone,Dispossessed,Pass,0.9895296140021879
+filtered8,mc2_zone,Dispossessed,Carry,0.010470385997812158
+filtered8,mc2_zone,Clearance,Carry,0.7688853407843529
+filtered8,mc2_zone,Clearance,Pass,0.2310148687755713
+filtered8,mc2_zone,Clearance,Ball Recovery,9.979044007584074e-05
+filtered8,mc2_zone,Dribble,Pass,0.9917572571974674
+filtered8,mc2_zone,Dribble,Carry,0.008242742802532553
+filtered8,mc2_zone,Ball Recovery,Carry,0.5801057002642507
+filtered8,mc2_zone,Ball Recovery,Pass,0.41400528501321254
+filtered8,mc2_zone,Ball Recovery,Ball Recovery,0.005889014722536806
+filtered8,mc1,Shot,Pass,0.5062535531552018
+filtered8,mc1,Shot,Carry,0.4937464468447982
+filtered8,mc1,Miscontrol,Pass,0.8144645340751043
+filtered8,mc1,Miscontrol,Carry,0.1855354659248957
+filtered8,mc1,Dispossessed,Pass,0.9895296140021879
+filtered8,mc1,Dispossessed,Carry,0.010470385997812158
+filtered8,mc1,Clearance,Carry,0.7770681568705718
+filtered8,mc1,Clearance,Pass,0.2229318431294282
+filtered8,mc1,Dribble,Pass,0.9916377971568511
+filtered8,mc1,Dribble,Carry,0.008362202843148966
+filtered8,mc1,Ball Recovery,Carry,0.5833522083805209
+filtered8,mc1,Ball Recovery,Pass,0.41664779161947907
+filtered8,hmm_event,Shot,Pass,0.5238772029562251
+filtered8,hmm_event,Shot,Carry,0.47612279704377486
+filtered8,hmm_event,Miscontrol,Pass,0.8179415855354659
+filtered8,hmm_event,Miscontrol,Carry,0.18205841446453408
+filtered8,hmm_event,Dispossessed,Pass,0.9896858884200657
+filtered8,hmm_event,Dispossessed,Carry,0.010314111579934365
+filtered8,hmm_event,Clearance,Carry,0.7418421315238001
+filtered8,hmm_event,Clearance,Pass,0.2581578684762
+filtered8,hmm_event,Dribble,Pass,0.9918767172380839
+filtered8,hmm_event,Dribble,Carry,0.008123282761916139
+filtered8,hmm_event,Ball Recovery,Carry,0.5780671951679879
+filtered8,hmm_event,Ball Recovery,Pass,0.42193280483201206

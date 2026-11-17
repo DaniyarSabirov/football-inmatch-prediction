@@ -1,0 +1,2 @@
+tier,task,model,cost_scheme,decision_agreement_A_vs_B,log_loss_A_unchanged_probabilities,log_loss_B_weighted_training,brier_A,brier_B,max_abs_calibration_in_the_large_A,max_abs_calibration_in_the_large_B
+tier_b,scenarioD15,exp1_markov_order1,strong,1.0,1.151972941501348,1.7806854069211977,0.5190483432525537,0.7571800195043041,0.012433495640008785,0.26409925068009077

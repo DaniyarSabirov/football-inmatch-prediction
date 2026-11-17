@@ -1,0 +1,11 @@
+first,next_raw,n_first,p_next_is_b,same_timestamp_given_pair,linked_in_related_events_given_pair,subtypes_of_b
+Dispossessed,Duel,7944,0.9996223564954683,1.0,1.0,Tackle 1.000
+Dribble,Duel,10364,0.41325742956387496,0.999299556385711,0.999299556385711,Tackle 0.999; Aerial Lost 0.001
+Shot,Goal Keeper,8472,0.7141170915958451,0.0,0.9988429752066116,Shot Faced 0.531; Shot Saved 0.303; Goal Conceded 0.138; Penalty Conceded 0.013; Shot Saved to Post 0.006; Shot Saved Off Target 0.005
+Shot,Block,8472,0.28033522190745985,0.0,0.9831578947368421,
+Foul Committed,Foul Won,8135,0.9480024585125999,0.9994813278008299,1.0,
+Dribbled Past,Dribble,6061,1.0,1.0,1.0,
+Pass,Ball Receipt*,350665,0.8579555986482825,6.64772066277775e-06,1.0,
+50/50,50/50,1327,0.5041446872645065,0.9850523168908819,0.9850523168908819,
+Miscontrol,Ball Recovery,9097,0.2663515444652083,0.0004127115146512588,0.0,
+Interception,Ball Recovery,7775,0.1864951768488746,0.0,0.0,

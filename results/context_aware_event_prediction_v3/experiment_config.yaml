@@ -1,0 +1,65 @@
+# Experiment 3 (2026-10-28): context-aware Markov models, taxonomy audit, rare-event diagnostics.
+# PREREGISTERED: candidates and selection rules were written before any Tier A screening result.
+# Experiments 1-2 are read only (split manifests, folds, stored predictions, models).
+
+experiment_name: context_aware_event_prediction_v3
+output_dir: results/context_aware_event_prediction_v3
+experiment2_dir: results/markov_hmm_cost_sensitive_v2
+feature_cache_dir: data/interim/sequence_models/v3
+main_taxonomy: scenarioD15            # established in experiment 2 (controlled comparison)
+separate_taxonomy: actions15          # proposed by this experiment's audit; reported as its own task
+
+markov:
+  base_alpha: 1.0
+  concentration_grid: [1, 4, 16, 64, 256]     # identical to experiment 2 (reference reproduces exactly)
+
+# Tier A screening candidates (Scenario D). Feature lists are backoff priority lists: the
+# backoff drops features from the end. "reference" = experiment 2's mc2_zone.
+candidates:
+  reference:      {group: reference,  features: [cur, z3, prev1]}
+  spatial_b6:     {group: spatial,    features: [cur, b6, prev1]}
+  spatial_g12:    {group: spatial,    features: [cur, g12, prev1]}
+  spatial_d7:     {group: spatial,    features: [cur, d7, prev1]}
+  spatial_z3d:    {group: spatial,    features: [cur, z3d, prev1]}
+  # added AFTER the Tier A diagnostics and BEFORE any screening result (diagnostics: 38% of Shots
+  # follow a defender's record whose acting-team location is far from the attacked goal)
+  spatial_d7_possession:  {group: spatial, features: [cur, pf_d7, prev1]}
+  spatial_z3d_possession: {group: spatial, features: [cur, pf_z3d, prev1]}
+  history_o3:     {group: history,    features: [cur, z3, prev1, prev2]}
+  history_o4:     {group: history,    features: [cur, z3, prev1, prev2, prev3]}
+  history_o3_reset: {group: history,  features: [cur, z3, prev1, prev2], reset: true}
+  history_o4_reset: {group: history,  features: [cur, z3, prev1, prev2, prev3], reset: true}
+  poss_duration:  {group: possession, features: [cur, z3, prev1, poss_dur4]}
+  poss_events:    {group: possession, features: [cur, z3, prev1, poss_n4]}
+  poss_progress:  {group: possession, features: [cur, z3, prev1, poss_prog4]}
+  poss_dur_x_progress: {group: possession, features: [cur, z3, prev1, poss_dur_prog16]}
+  poss_same_team: {group: possession, features: [cur, z3, prev1, same_team2]}
+  poss_recent_change: {group: possession, features: [cur, z3, prev1, recent_change2]}
+  time_since_prev: {group: temporal,  features: [cur, z3, prev1, dt4]}
+  time_tempo:     {group: temporal,   features: [cur, z3, prev1, rate3]}
+  time_minute:    {group: temporal,   features: [cur, z3, prev1, minute7]}
+
+logistic_regression:
+  C_grid: [0.1, 1.0]
+
+selection_rules:   # applied mechanically by the 'freeze' stage to Tier A out-of-fold results
+  primary_metric: log_loss
+  best_in_group: "lowest Tier A pooled out-of-fold log loss within each group (spatial includes the reference's z3; history includes order 2)"
+  include_in_combination: "a group's best candidate enters the combination only if its paired Tier A log-loss difference vs the reference has a 95% match-bootstrap upper bound < 0"
+  combination_order: "cur, best spatial, prev1, then the included groups' extra features ordered by Tier A gain (largest first); deeper history (prev2, prev3) as in the best history candidate"
+  tier_b_models: "reference, best spatial, best history, best possession, best temporal, combination, logistic regression (C chosen on Tier A), experiment-2 mc1 baseline"
+  shot_cost: "moderate scheme (gamma 0.5, cap 5) with the Shot miss cost multiplied by lambda in shot_cost.multipliers; all reported on Tier B; lambda* = highest Tier A Shot F1 (ties -> smaller lambda)"
+  shot_threshold: "one-vs-rest rule 'predict Shot iff p(Shot) >= tau'; tau chosen on Tier A for each false-positive budget"
+  separate_taxonomy: "actions15 on Tier B: reference and combination only"
+  amendment_after_tier_a_screening: "ADDED 2026-10-28 after the Tier A screen, before any Tier B run: secondary Shot-ranking hypothesis - the spatial candidate with the highest Tier A Shot average precision is also evaluated on Tier B (the log-loss rule picks one spatial model; the Shot question concerns ranking). Reported as secondary."
+
+shot_cost:
+  base: {gamma: 0.5, cap: 5.0}
+  multipliers: [1.0, 1.25, 1.5, 2.0]
+shot_threshold:
+  fp_per_1000_budgets: [5, 10, 20]
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7
+  rare_classes: [Shot, Interception, Miscontrol, Foul Committed, Dispossessed, Clearance, Dribble, Block, Ball Recovery, Duel, Goal Keeper, 50/50]

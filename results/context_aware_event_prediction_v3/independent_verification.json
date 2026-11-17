@@ -1,0 +1,49 @@
+{
+ "final_test_matches_in_feature_tables": [],
+ "targets_rederived_from_raw_json": {
+  "matches": [
+   "3764440",
+   "3764661",
+   "3773377",
+   "3773386",
+   "3773387"
+  ],
+  "mismatches": 0
+ },
+ "geometry_max_abs_dev": 1.4210854715202004e-14,
+ "sklearn_clipped_log_loss_minus_reported": {
+  "reference": 0.0,
+  "mc1": 0.0,
+  "history_o3": 0.0,
+  "poss_same_team": 0.0,
+  "spatial_b6": 2.220446049250313e-16,
+  "spatial_g12": 0.0,
+  "time_since_prev": 0.0,
+  "combination": -1.5851466200755837e-06,
+  "logistic_C0.1": 0.0
+ },
+ "min_true_class_probability": {
+  "reference": 6.414568075141166e-12,
+  "mc1": 2.9259049413704136e-08,
+  "history_o3": 3.5692757934583507e-12,
+  "poss_same_team": 5.502304212409262e-13,
+  "spatial_b6": 7.679965045507204e-12,
+  "spatial_g12": 3.104704363750705e-11,
+  "time_since_prev": 5.502304212409262e-13,
+  "combination": 7.30732412609158e-17,
+  "logistic_C0.1": 6.176789999872026e-16
+ },
+ "metric_recomputation_max_abs_dev_by_model": {
+  "reference": 5.551115123125783e-17,
+  "mc1": 8.673617379884035e-17,
+  "history_o3": 5.551115123125783e-17,
+  "poss_same_team": 8.326672684688674e-17,
+  "spatial_b6": 2.220446049250313e-16,
+  "spatial_g12": 5.551115123125783e-17,
+  "time_since_prev": 8.326672684688674e-17,
+  "combination": 8.326672684688674e-17,
+  "logistic_C0.1": 5.551115123125783e-17
+ },
+ "shot_threshold_rule_max_abs_dev": 3.552713678800501e-15,
+ "passed": true
+}

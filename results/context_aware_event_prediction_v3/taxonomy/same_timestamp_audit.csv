@@ -1,0 +1,123 @@
+first,next,n,same_timestamp_share
+Pass,Ball Receipt*,300855,6.64772066277775e-06
+Ball Receipt*,Carry,241793,1.0
+Carry,Pass,205481,4.379967004248568e-05
+Carry,Pressure,58470,0.0004788780571233111
+Ball Receipt*,Pass,51824,0.6959709786971288
+Pressure,Pass,46944,0.00021301976823449216
+Pass,Pressure,30314,0.0002309164082602098
+Pressure,Ball Receipt*,29584,0.0005746349378042185
+Ball Recovery,Carry,27391,1.0
+Duel,Pass,8342,0.5388396068089187
+Dispossessed,Duel,7941,1.0
+Foul Committed,Foul Won,7712,0.9994813278008299
+Ball Receipt*,Ball Recovery,7236,0.9983416252072969
+Ball Receipt*,Interception,7075,0.9991519434628975
+Ball Receipt*,Duel,6567,0.8162022232373991
+Dribbled Past,Dribble,6061,1.0
+Shot,Goal Keeper,6050,0.0
+Goal Keeper,Pass,5882,0.0
+Foul Won,Pass,5792,0.0
+Pressure,Pressure,5777,0.0006924009001211701
+Dribble,Carry,5517,1.0
+Carry,Miscontrol,5476,0.00310445580715851
+Clearance,Pass,5165,0.0001936108422071636
+Pressure,Dispossessed,5061,0.0
+Pass,Pass,5007,0.0
+Ball Receipt*,Block,4774,0.9976958525345622
+Pressure,Ball Recovery,4729,0.002114611968703743
+Block,Pass,4442,0.00022512381809995497
+Dribble,Duel,4283,0.999299556385711
+Ball Receipt*,Clearance,4070,0.9975429975429976
+Clearance,Ball Recovery,4062,0.0
+Pressure,Dribbled Past,3629,0.0
+Pressure,Foul Committed,3559,0.0
+Pass,Block,3556,0.0
+Pass,Ball Recovery,3528,0.0
+Duel,Ball Recovery,3270,0.0
+Duel,Carry,3033,1.0
+Interception,Carry,3022,1.0
+Miscontrol,Pass,3013,0.0
+Pass,Clearance,2911,0.0
+Block,Ball Recovery,2813,0.0
+Carry,Dispossessed,2789,0.0
+Duel,Clearance,2756,0.9383164005805515
+Carry,Shot,2571,0.0
+Miscontrol,Pressure,2523,0.0
+Pressure,Dribble,2432,0.0
+Miscontrol,Ball Recovery,2423,0.0004127115146512588
+Block,Goal Keeper,2406,0.00041562759767248546
+Carry,Dribbled Past,2381,0.0
+Shot,Block,2375,0.0
+Carry,Foul Committed,2366,0.00042265426880811494
+Ball Receipt*,Shot,2300,0.36
+Ball Recovery,Pass,1997,0.0
+Interception,Pass,1946,0.0
+Pass,Duel,1892,0.7003171247357294
+Block,Pressure,1868,0.0
+Carry,Dribble,1813,0.0027578599007170436
+Duel,Pressure,1795,0.0005571030640668524
+Ball Receipt*,Miscontrol,1625,0.8787692307692307
+Pressure,Miscontrol,1618,0.0006180469715698393
+Ball Receipt*,Pressure,1508,0.000663129973474801
+Goal Keeper,Ball Recovery,1485,0.0
+Interception,Ball Recovery,1450,0.0
+Clearance,Pressure,1446,0.0
+Pressure,Shot,1367,0.0
+Substitution,Pass,1354,0.0
+Ball Receipt*,Foul Committed,1183,0.4818258664412511
+Pressure,Clearance,1081,0.0009250693802035153
+Ball Recovery,Pressure,969,0.0
+Ball Recovery,Shot,967,0.0031023784901758012
+Substitution,Substitution,959,0.09801876955161627
+Ball Receipt*,Goal Keeper,886,0.9966139954853274
+Interception,Pressure,819,0.0
+Duel,Shot,812,0.9963054187192119
+Tactical Shift,Pass,763,0.0
+Ball Recovery,Ball Recovery,732,0.001366120218579235
+Goal Keeper,Carry,717,1.0
+Half End,Half End,712,1.0
+Half Start,Half Start,712,1.0
+Duel,Ball Receipt*,692,0.001445086705202312
+50/50,50/50,669,0.9850523168908819
+Foul Won,Carry,646,1.0
+Clearance,Clearance,631,0.0
+Pass,Goal Keeper,630,0.0
+Clearance,Block,621,0.001610305958132045
+Clearance,Duel,587,0.0
+Injury Stoppage,Injury Stoppage,572,0.019230769230769232
+Goal Keeper,Pressure,515,0.0
+Half Start,Pass,514,0.0
+Injury Stoppage,Pass,467,0.0
+Goal Keeper,Clearance,458,0.0
+Carry,Block,456,0.8728070175438597
+Block,Block,446,0.0
+Miscontrol,Clearance,438,0.0
+Block,Clearance,411,0.0
+Pass,Interception,399,0.0
+Substitution,Tactical Shift,388,0.17268041237113402
+Pass,Foul Committed,379,0.0
+Referee Ball-Drop,Referee Ball-Drop,345,0.057971014492753624
+Pass,Half End,344,0.0
+Foul Committed,Pass,337,0.0
+Starting XI,Half Start,334,1.0
+Starting XI,Starting XI,334,1.0
+Foul Won,Substitution,325,0.0
+Referee Ball-Drop,Ball Recovery,320,0.0
+Goal Keeper,Substitution,318,0.0
+Foul Won,Injury Stoppage,317,0.0
+Injury Stoppage,Player Off,311,0.0
+Pressure,Shield,300,0.0
+Foul Won,Shot,285,0.0
+Ball Receipt*,Injury Stoppage,266,0.007518796992481203
+Duel,Miscontrol,259,1.0
+Player Off,Pass,251,0.0
+50/50,Carry,249,1.0
+Dribble,Pressure,248,0.0
+Player On,Pass,232,0.0
+Injury Stoppage,Referee Ball-Drop,229,0.0
+Ball Receipt*,Substitution,227,0.0
+Pass,Substitution,211,0.0
+Duel,Block,209,0.0
+Goal Keeper,Block,203,0.0
+Shield,Pass,201,0.0

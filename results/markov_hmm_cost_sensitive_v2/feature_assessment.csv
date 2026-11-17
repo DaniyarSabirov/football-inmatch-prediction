@@ -1,0 +1,8 @@
+feature,availability_share,source,leakage_risk,model_compatibility,decision
+distance_to_attacking_goal,0.9999880207958983,event location (acting frame),none (own attribute of event t),continuous: needs a density (the experiment-1 failure mode) or discretisation; pitch thirds are the discretised form,covered by pitch thirds; finer zones next
+time_since_previous_event,0.9991614557128824,"zero gap 0.069, negative gap 0 rows",none if previous event only,heavy-tailed continuous; ties and corrupted timestamps (experiment 1 audit),defer; bin if used
+possession_change_indicator,1.0,team of event t vs event t-1 in the sequence,none,binary context: compatible with Markov contexts and as a categorical HMM emission,mechanical in D (defensive actions by the other team): changed in 0.349 of observations
+current_possession_duration,1.0,StatsBomb possession id,MODERATE: possession ids are assigned by the annotator and are not monotone (9 decreases),continuous,not used
+previous_event_types,1.0,sequence,none,native to second-order chains / HMM state,"used (mc2, HMM)"
+visible_teammates_opponents,0.8767100313855147,360 visible counts (8 production types only),none (causal identity),count depends on camera framing; unobserved != absent,not used: not available for the 7 added Scenario D types in the production dataset
+nearest_visible_opponent_distance,0.8767100313855147,360 freeze frame + visible_area,none if causal orientation/identity,censored by the visible area (unobserved players),not built: needs a new causal feature build with visible-area censoring

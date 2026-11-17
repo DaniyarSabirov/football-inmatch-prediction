@@ -1,0 +1,17 @@
+{
+ "no_final_test_match_in_predictions": true,
+ "predictions_only_pilot_matches": true,
+ "fold_ids_match_split_manifest": true,
+ "evaluation_rows_equal_production_rows_minus_shootout": true,
+ "targets_equal_production_targets": true,
+ "markov_order1_probabilities_recounted_from_raw_json_max_abs_dev": 1.1102230246251565e-16,
+ "probability_rows_sum_to_one_max_dev": 1.1102230246251565e-15,
+ "metric_recomputation_max_abs_dev_per_model": {
+  "frequency_baseline": 4.440892098500626e-16,
+  "hmm_event_K5": 3.3306690738754696e-16,
+  "hmm_spatial_K5": 2.220446049250313e-16,
+  "markov_order1": 2.220446049250313e-16,
+  "markov_order2": 2.220446049250313e-16
+ },
+ "passed": true
+}

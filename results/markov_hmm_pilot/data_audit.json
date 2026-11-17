@@ -1,0 +1,286 @@
+{
+ "matches": {
+  "three_sixty_files": 426,
+  "excluded_by_registry": {
+   "3837706": "three_sixty_event_uuid_mismatch",
+   "3845506": "corrupted_three_sixty_json",
+   "3877115": "three_sixty_event_uuid_mismatch",
+   "3877170": "three_sixty_event_uuid_mismatch",
+   "3877194": "three_sixty_event_uuid_mismatch",
+   "3895158": "three_sixty_event_uuid_mismatch",
+   "3895266": "three_sixty_event_uuid_mismatch",
+   "3895309": "three_sixty_event_uuid_mismatch",
+   "3923880": "insufficient_three_sixty_coverage_for_team_reference_resolution"
+  },
+  "eligible": 417,
+  "by_competition_season": {
+   "1. Bundesliga 2023/2024": 31,
+   "FIFA World Cup 2022": 64,
+   "La Liga 2020/2021": 35,
+   "Ligue 1 2021/2022": 26,
+   "Ligue 1 2022/2023": 31,
+   "Major League Soccer 2023": 3,
+   "UEFA Euro 2020": 51,
+   "UEFA Euro 2024": 51,
+   "UEFA Women's Euro 2022": 30,
+   "UEFA Women's Euro 2025": 31,
+   "Women's World Cup 2023": 64
+  },
+  "max_period_per_match": {
+   "2": 387,
+   "4": 12,
+   "5": 18
+  }
+ },
+ "event_stream": {
+  "raw_events": 1551841,
+  "event_types": 33,
+  "events_by_period": {
+   "1": 773904,
+   "2": 744707,
+   "3": 16744,
+   "4": 16043,
+   "5": 443
+  },
+  "index_equals_raw_array_order": true,
+  "duplicate_event_ids": 0,
+  "period_decreases_along_stream": 0,
+  "adjacent_pairs_with_zero_timestamp_gap": 487523,
+  "adjacent_pairs_with_negative_timestamp_gap": 43,
+  "negative_gap_event_types": {
+   "Ball Receipt*": 41,
+   "Half End": 2
+  },
+  "negative_gap_below_minus_60s": 41,
+  "possession_id_decreases_along_stream": 9,
+  "first_event_type_of_period": {
+   "Half Start": 495,
+   "Starting XI": 417
+  },
+  "last_event_type_of_period": {
+   "Half End": 912
+  },
+  "duplicate_match_content_hashes": 0,
+  "duplicate_date_home_away": 0
+ },
+ "penalties": {
+  "period_5_matches": 18,
+  "period_5_event_types": {
+   "Shot": 183,
+   "Goal Keeper": 183,
+   "Half Start": 36,
+   "Half End": 36,
+   "Bad Behaviour": 4,
+   "Tactical Shift": 1
+  },
+  "period_5_shot_types": {
+   "Penalty": 183
+  },
+  "period_5_is_shootout": true,
+  "ordinary_penalty_shots_periods_1_to_4": 142,
+  "production_rows_in_period_5": 104
+ },
+ "production_event_types": {
+  "types": [
+   "Pass",
+   "Carry",
+   "Ball Recovery",
+   "Clearance",
+   "Dribble",
+   "Shot",
+   "Miscontrol",
+   "Dispossessed"
+  ],
+  "raw_events_of_these_types": 893476,
+  "share_of_raw_events": 0.5757522839002192,
+  "with_360_record": 788087,
+  "with_location": 1.0,
+  "raw_events_of_other_types": {
+   "Ball Receipt*": 414717,
+   "Pressure": 133003,
+   "Duel": 26980,
+   "Block": 16432,
+   "Goal Keeper": 13071,
+   "Foul Committed": 10310,
+   "Foul Won": 9794,
+   "Interception": 9701,
+   "Dribbled Past": 7587,
+   "Substitution": 3610,
+   "Injury Stoppage": 2311,
+   "Half Start": 1824,
+   "Half End": 1824,
+   "50/50": 1685,
+   "Tactical Shift": 1399,
+   "Referee Ball-Drop": 996,
+   "Starting XI": 834,
+   "Shield": 543,
+   "Player Off": 494,
+   "Player On": 491,
+   "Bad Behaviour": 271,
+   "Error": 237,
+   "Offside": 141,
+   "Own Goal For": 55,
+   "Own Goal Against": 55
+  }
+ },
+ "production_dataset": {
+  "sha256": "8f6ff11895265888be27b6befdf64bb673e8dbbd177d72e8e260e03b8cbe259c",
+  "rows": 787331,
+  "columns": 42,
+  "matches": 417,
+  "independent_rederivation": {
+   "rows_derived": 787331,
+   "only_derived": 0,
+   "only_production": 0,
+   "target_type_mismatches": 0,
+   "target_event_id_mismatches": 0,
+   "production_ids_unique": true
+  },
+  "actor_x_missing": 43,
+  "orientation_unavailable": 41,
+  "visible_players_summary": {
+   "count": 787331.0,
+   "mean": 15.636,
+   "std": 3.466,
+   "min": 1.0,
+   "25%": 13.0,
+   "50%": 16.0,
+   "75%": 18.0,
+   "max": 22.0
+  },
+  "visible_ambiguous_rows": 2150,
+  "identity_quality": {
+   "clean": 783391,
+   "uncertain": 2150,
+   "corrected": 1790
+  },
+  "visible_area_polygon_in_dataset": false
+ },
+ "spatial_transform_validation": {
+  "description": "distance between the acting-frame actor point (from actor_x/actor_y + team_normalization) and the raw event location (StatsBomb: acting team's attacking frame)",
+  "rows_compared": 787288,
+  "share_within_1_unit": 0.9899172856692849,
+  "share_within_5_units": 0.9997802583044578,
+  "median_distance": 1.537753630681902e-06,
+  "max_distance": 53.11610055571316,
+  "share_within_5_units_without_transform": 0.5241029966162319
+ },
+ "tasks": {
+  "filtered8": {
+   "description": "Next event among the 8 production types in the same period, in raw event order (index); raw events of other types are skipped by definition (filtered-event task, identical to the production target).",
+   "evaluation_rows": 787227,
+   "matches": 417,
+   "sequences": 894,
+   "observations_in_sequences": 893293,
+   "target_distribution": {
+    "Pass": 382948,
+    "Carry": 314169,
+    "Ball Recovery": 36321,
+    "Clearance": 13829,
+    "Dribble": 11608,
+    "Shot": 9801,
+    "Miscontrol": 9829,
+    "Dispossessed": 8722
+   },
+   "target_share": {
+    "Pass": 0.48645181123106807,
+    "Carry": 0.39908311071647695,
+    "Ball Recovery": 0.04613789923363909,
+    "Clearance": 0.017566724718537347,
+    "Dribble": 0.014745429209109952,
+    "Shot": 0.012450030296216974,
+    "Miscontrol": 0.012485598181972925,
+    "Dispossessed": 0.01107939641297872
+   },
+   "majority_class_share": 0.48645181123106807,
+   "imbalance_ratio_max_over_min": 43.90598486585645,
+   "target_entropy_bits": 1.6612088437057633,
+   "conditional_entropy_given_current_bits": 1.0107071841442847,
+   "largest_transition_cell": {
+    "from": "Carry",
+    "to": "Pass",
+    "share_of_rows": 0.3670961488871698
+   },
+   "rows_skipping_at_least_one_raw_event": 0.5934959039768707,
+   "mean_skipped_raw_events": 0.7171921186646292,
+   "rows_by_period": {
+    "1": 393949,
+    "2": 376690,
+    "3": 8597,
+    "4": 7991
+   }
+  },
+  "fullstream9": {
+   "description": "Immediate next raw event in the same period, in raw event order; its type if it is one of the 8 production types, else the explicit class \"Other\" (every remaining raw type, including administrative events).",
+   "evaluation_rows": 787971,
+   "matches": 417,
+   "sequences": 894,
+   "observations_in_sequences": 1551398,
+   "target_distribution": {
+    "Pass": 251089,
+    "Carry": 36904,
+    "Ball Recovery": 12122,
+    "Clearance": 4273,
+    "Dribble": 2027,
+    "Shot": 4298,
+    "Miscontrol": 6245,
+    "Dispossessed": 3053,
+    "Other": 467960
+   },
+   "target_share": {
+    "Pass": 0.318652590006485,
+    "Carry": 0.04683421090370077,
+    "Ball Recovery": 0.015383814886588465,
+    "Clearance": 0.005422788402111245,
+    "Dribble": 0.0025724296960167314,
+    "Shot": 0.005454515458056197,
+    "Miscontrol": 0.007925418575049081,
+    "Dispossessed": 0.0038745080719975733,
+    "Other": 0.5938797239999949
+   },
+   "majority_class_share": 0.5938797239999949,
+   "imbalance_ratio_max_over_min": 230.86334484459792,
+   "target_entropy_bits": 1.4620041050799613,
+   "conditional_entropy_given_current_bits": 0.6881400288321569,
+   "largest_transition_cell": {
+    "from": "Pass",
+    "to": "Other",
+    "share_of_rows": 0.45965777928375534
+   },
+   "rows_skipping_at_least_one_raw_event": 0.0,
+   "mean_skipped_raw_events": 0.0,
+   "rows_by_period": {
+    "1": 394299,
+    "2": 377036,
+    "3": 8617,
+    "4": 8019
+   }
+  }
+ },
+ "filtered_task_skips": {
+  "skipped_types_between_current_and_target": {
+   "Ball Receipt*": 354383,
+   "Pressure": 118017,
+   "Duel": 22295,
+   "Block": 14696,
+   "Goal Keeper": 12159,
+   "Foul Committed": 8966,
+   "Interception": 8586,
+   "Foul Won": 8514,
+   "Dribbled Past": 6831,
+   "Substitution": 2817,
+   "Injury Stoppage": 1986,
+   "50/50": 1515,
+   "Tactical Shift": 1011,
+   "Referee Ball-Drop": 855,
+   "Shield": 463,
+   "Player Off": 419,
+   "Player On": 408,
+   "Bad Behaviour": 219,
+   "Error": 217,
+   "Offside": 132,
+   "Own Goal For": 52,
+   "Own Goal Against": 52
+  }
+ }
+}

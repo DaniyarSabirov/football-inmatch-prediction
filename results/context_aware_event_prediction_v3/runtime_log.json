@@ -1,0 +1,53 @@
+[
+ {
+  "stage": "taxonomy",
+  "seconds": 25.7,
+  "finished": "2026-10-28 23:19:16"
+ },
+ {
+  "stage": "features",
+  "seconds": 27.6,
+  "finished": "2026-10-28 23:19:53"
+ },
+ {
+  "stage": "diagnose_tier_a",
+  "seconds": 2.7,
+  "finished": "2026-10-28 23:21:13"
+ },
+ {
+  "stage": "features",
+  "seconds": 28.5,
+  "finished": "2026-10-28 23:22:22"
+ },
+ {
+  "stage": "diagnose_tier_a",
+  "seconds": 2.7,
+  "finished": "2026-10-28 23:22:35"
+ },
+ {
+  "stage": "screen",
+  "seconds": 153.9,
+  "finished": "2026-10-28 23:28:15",
+  "models": 23
+ },
+ {
+  "stage": "freeze",
+  "seconds": 0.0,
+  "finished": "2026-10-28 23:28:49"
+ },
+ {
+  "stage": "confirm",
+  "seconds": 965.9,
+  "finished": "2026-10-28 23:45:15"
+ },
+ {
+  "stage": "diagnose_tier_b",
+  "seconds": 25.6,
+  "finished": "2026-10-28 23:46:09"
+ },
+ {
+  "stage": "report",
+  "seconds": 56.0,
+  "finished": "2026-10-28 23:47:07"
+ }
+]

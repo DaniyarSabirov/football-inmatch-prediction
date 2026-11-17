@@ -1,0 +1,68 @@
+{
+ "filtered8": {
+  "classes": [
+   "Pass",
+   "Carry",
+   "Ball Recovery",
+   "Clearance",
+   "Dribble",
+   "Shot",
+   "Miscontrol",
+   "Dispossessed"
+  ],
+  "class_index": {
+   "Pass": 0,
+   "Carry": 1,
+   "Ball Recovery": 2,
+   "Clearance": 3,
+   "Dribble": 4,
+   "Shot": 5,
+   "Miscontrol": 6,
+   "Dispossessed": 7
+  },
+  "prediction_point_types": [
+   "Pass",
+   "Carry",
+   "Ball Recovery",
+   "Clearance",
+   "Dribble",
+   "Shot",
+   "Miscontrol",
+   "Dispossessed"
+  ]
+ },
+ "fullstream9": {
+  "classes": [
+   "Pass",
+   "Carry",
+   "Ball Recovery",
+   "Clearance",
+   "Dribble",
+   "Shot",
+   "Miscontrol",
+   "Dispossessed",
+   "Other"
+  ],
+  "class_index": {
+   "Pass": 0,
+   "Carry": 1,
+   "Ball Recovery": 2,
+   "Clearance": 3,
+   "Dribble": 4,
+   "Shot": 5,
+   "Miscontrol": 6,
+   "Dispossessed": 7,
+   "Other": 8
+  },
+  "prediction_point_types": [
+   "Pass",
+   "Carry",
+   "Ball Recovery",
+   "Clearance",
+   "Dribble",
+   "Shot",
+   "Miscontrol",
+   "Dispossessed"
+  ]
+ }
+}

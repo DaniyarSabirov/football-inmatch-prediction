@@ -1,0 +1,292 @@
+{
+ "frozen_at": "2026-10-28 23:28:49",
+ "source": "results/context_aware_event_prediction_v3/tier_a (out-of-fold, experiment 1 pilot folds)",
+ "rules": {
+  "primary_metric": "log_loss",
+  "best_in_group": "lowest Tier A pooled out-of-fold log loss within each group (spatial includes the reference's z3; history includes order 2)",
+  "include_in_combination": "a group's best candidate enters the combination only if its paired Tier A log-loss difference vs the reference has a 95% match-bootstrap upper bound < 0",
+  "combination_order": "cur, best spatial, prev1, then the included groups' extra features ordered by Tier A gain (largest first); deeper history (prev2, prev3) as in the best history candidate",
+  "tier_b_models": "reference, best spatial, best history, best possession, best temporal, combination, logistic regression (C chosen on Tier A), experiment-2 mc1 baseline",
+  "shot_cost": "moderate scheme (gamma 0.5, cap 5) with the Shot miss cost multiplied by lambda in shot_cost.multipliers; all reported on Tier B; lambda* = highest Tier A Shot F1 (ties -> smaller lambda)",
+  "shot_threshold": "one-vs-rest rule 'predict Shot iff p(Shot) >= tau'; tau chosen on Tier A for each false-positive budget",
+  "separate_taxonomy": "actions15 on Tier B: reference and combination only",
+  "amendment_after_tier_a_screening": "ADDED 2026-10-28 after the Tier A screen, before any Tier B run: secondary Shot-ranking hypothesis - the spatial candidate with the highest Tier A Shot average precision is also evaluated on Tier B (the log-loss rule picks one spatial model; the Shot question concerns ranking). Reported as secondary."
+ },
+ "group_selection": [
+  {
+   "group": "spatial",
+   "best": "spatial_b6",
+   "tier_a_log_loss": 1.002506818392254,
+   "delta_vs_reference": -0.0067270496535785,
+   "ci_high": -0.0048471193206998,
+   "included_in_combination": true
+  },
+  {
+   "group": "history",
+   "best": "history_o3",
+   "tier_a_log_loss": 1.0020389631860172,
+   "delta_vs_reference": -0.0071949048598154,
+   "ci_high": -0.00591081307862,
+   "included_in_combination": true
+  },
+  {
+   "group": "possession",
+   "best": "poss_same_team",
+   "tier_a_log_loss": 1.0000858640096095,
+   "delta_vs_reference": -0.009148004036223,
+   "ci_high": -0.0080893960858527,
+   "included_in_combination": true
+  },
+  {
+   "group": "temporal",
+   "best": "time_since_prev",
+   "tier_a_log_loss": 1.0035219629732,
+   "delta_vs_reference": -0.0057119050726326,
+   "ci_high": -0.0045280237829443,
+   "included_in_combination": true
+  },
+  {
+   "group": "secondary_shot_ranking",
+   "best": "spatial_g12",
+   "tier_a_shot_average_precision": 0.2683436366557053,
+   "reference_shot_average_precision": 0.1453210474216682,
+   "included_in_combination": false
+  }
+ ],
+ "tier_b_markov_models": {
+  "reference": {
+   "name": "reference",
+   "features": [
+    "cur",
+    "z3",
+    "prev1"
+   ],
+   "reset": false,
+   "group": "reference"
+  },
+  "mc1": {
+   "name": "mc1",
+   "features": [
+    "cur"
+   ],
+   "reset": false,
+   "group": "baseline"
+  },
+  "history_o3": {
+   "name": "history_o3",
+   "features": [
+    "cur",
+    "z3",
+    "prev1",
+    "prev2"
+   ],
+   "reset": false,
+   "group": "history"
+  },
+  "poss_same_team": {
+   "name": "poss_same_team",
+   "features": [
+    "cur",
+    "z3",
+    "prev1",
+    "same_team2"
+   ],
+   "reset": false,
+   "group": "possession"
+  },
+  "spatial_b6": {
+   "name": "spatial_b6",
+   "features": [
+    "cur",
+    "b6",
+    "prev1"
+   ],
+   "reset": false,
+   "group": "spatial"
+  },
+  "spatial_g12": {
+   "name": "spatial_g12",
+   "features": [
+    "cur",
+    "g12",
+    "prev1"
+   ],
+   "reset": false,
+   "group": "spatial"
+  },
+  "time_since_prev": {
+   "name": "time_since_prev",
+   "features": [
+    "cur",
+    "z3",
+    "prev1",
+    "dt4"
+   ],
+   "reset": false,
+   "group": "temporal"
+  }
+ },
+ "combination": {
+  "name": "combination",
+  "features": [
+   "cur",
+   "b6",
+   "prev1",
+   "same_team2",
+   "prev2",
+   "dt4"
+  ],
+  "reset": false,
+  "group": "combination"
+ },
+ "logistic_regression_C": 0.1,
+ "shot_lambda_star_by_model": {
+  "history_o3": 1.5,
+  "history_o3_reset": 1.25,
+  "history_o4": 1.25,
+  "history_o4_reset": 1.25,
+  "logistic_C0.1": 1.0,
+  "logistic_C1.0": 1.0,
+  "mc1": 1.0,
+  "poss_dur_x_progress": 1.25,
+  "poss_duration": 1.25,
+  "poss_events": 1.25,
+  "poss_progress": 1.25,
+  "poss_recent_change": 1.5,
+  "poss_same_team": 1.5,
+  "reference": 1.5,
+  "spatial_b6": 1.5,
+  "spatial_d7": 1.0,
+  "spatial_d7_possession": 1.0,
+  "spatial_g12": 1.0,
+  "spatial_z3d": 1.0,
+  "spatial_z3d_possession": 1.25,
+  "time_minute": 1.25,
+  "time_since_prev": 1.25,
+  "time_tempo": 1.25
+ },
+ "shot_thresholds_from_tier_a": {
+  "reference": {
+   "5": 0.15285892457050174,
+   "10": 0.08597840938186589,
+   "20": 0.06645285403867597
+  },
+  "spatial_b6": {
+   "5": 0.13931944410409497,
+   "10": 0.12600079867021755,
+   "20": 0.07839991048704129
+  },
+  "spatial_g12": {
+   "5": 0.25085790827585314,
+   "10": 0.15882282484829502,
+   "20": 0.10179539048709153
+  },
+  "spatial_d7": {
+   "5": 0.19943531745643617,
+   "10": 0.12910302833581624,
+   "20": 0.07707557592263135
+  },
+  "spatial_z3d": {
+   "5": 0.1562327019786572,
+   "10": 0.09085445066585765,
+   "20": 0.07951010119400717
+  },
+  "spatial_d7_possession": {
+   "5": 0.19891181072622244,
+   "10": 0.16098241566417212,
+   "20": 0.09403568702089889
+  },
+  "spatial_z3d_possession": {
+   "5": 0.21000928249016257,
+   "10": 0.1666505740146604,
+   "20": 0.08769079300847257
+  },
+  "history_o3": {
+   "5": 0.1384383525273933,
+   "10": 0.09076142527662827,
+   "20": 0.07249446228795381
+  },
+  "history_o4": {
+   "5": 0.1388780852726291,
+   "10": 0.09582275211762661,
+   "20": 0.07108420212923605
+  },
+  "history_o3_reset": {
+   "5": 0.13272420412203548,
+   "10": 0.1048361284817882,
+   "20": 0.07249446228795381
+  },
+  "history_o4_reset": {
+   "5": 0.13294170241775063,
+   "10": 0.10496519600636954,
+   "20": 0.07130707394671534
+  },
+  "poss_duration": {
+   "5": 0.14995315462932238,
+   "10": 0.09590031821440172,
+   "20": 0.07572134603804097
+  },
+  "poss_events": {
+   "5": 0.14995315462932238,
+   "10": 0.08563911444760716,
+   "20": 0.07162756060164095
+  },
+  "poss_progress": {
+   "5": 0.15291681026971232,
+   "10": 0.09020590831025588,
+   "20": 0.07556778153705858
+  },
+  "poss_dur_x_progress": {
+   "5": 0.14995315462932238,
+   "10": 0.09972790711286621,
+   "20": 0.07124330966387105
+  },
+  "poss_same_team": {
+   "5": 0.1507637122219133,
+   "10": 0.08428880847540911,
+   "20": 0.06796722031430806
+  },
+  "poss_recent_change": {
+   "5": 0.14915126610189283,
+   "10": 0.08428880847540911,
+   "20": 0.069797874781539
+  },
+  "time_since_prev": {
+   "5": 0.1526085784070264,
+   "10": 0.08639708759708259,
+   "20": 0.06966208196386531
+  },
+  "time_tempo": {
+   "5": 0.14118295963326327,
+   "10": 0.0861787157066306,
+   "20": 0.07277850502272946
+  },
+  "time_minute": {
+   "5": 0.1393460811615932,
+   "10": 0.09064159824700693,
+   "20": 0.07153474893819559
+  },
+  "mc1": {
+   "5": 0.04637771162926464,
+   "10": 0.043994316178104884,
+   "20": 0.04202640041258312
+  },
+  "logistic_C0.1": {
+   "5": 0.2155384421334015,
+   "10": 0.13823058383230533,
+   "20": 0.08256948553138335
+  },
+  "logistic_C1.0": {
+   "5": 0.21814465531638305,
+   "10": 0.13945766021660186,
+   "20": 0.08341174336477243
+  }
+ },
+ "separate_taxonomy": {
+  "name": "actions15",
+  "models": [
+   "reference",
+   "combination"
+  ]
+ }
+}

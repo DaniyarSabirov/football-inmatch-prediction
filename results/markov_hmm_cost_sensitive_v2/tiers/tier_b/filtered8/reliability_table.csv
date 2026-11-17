@@ -1,0 +1,801 @@
+tier,task,model,class,bin,bin_low,bin_high,n,mean_predicted,observed_frequency
+tier_b,filtered8,frequency_baseline,Pass,0,0.0,0.1,0,,
+tier_b,filtered8,frequency_baseline,Pass,1,0.1,0.2,0,,
+tier_b,filtered8,frequency_baseline,Pass,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,frequency_baseline,Pass,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,frequency_baseline,Pass,4,0.4,0.5,568908,0.49003794862932143,0.486484633719336
+tier_b,filtered8,frequency_baseline,Pass,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Pass,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Pass,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,frequency_baseline,Pass,8,0.8,0.9,0,,
+tier_b,filtered8,frequency_baseline,Pass,9,0.9,1.0,0,,
+tier_b,filtered8,frequency_baseline,Carry,0,0.0,0.1,0,,
+tier_b,filtered8,frequency_baseline,Carry,1,0.1,0.2,0,,
+tier_b,filtered8,frequency_baseline,Carry,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,frequency_baseline,Carry,3,0.30000000000000004,0.4,568908,0.3952311849767608,0.3983702110007242
+tier_b,filtered8,frequency_baseline,Carry,4,0.4,0.5,0,,
+tier_b,filtered8,frequency_baseline,Carry,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Carry,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Carry,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,frequency_baseline,Carry,8,0.8,0.9,0,,
+tier_b,filtered8,frequency_baseline,Carry,9,0.9,1.0,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,0,0.0,0.1,568908,0.045954478273605916,0.04656288890295092
+tier_b,filtered8,frequency_baseline,Ball Recovery,1,0.1,0.2,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,4,0.4,0.5,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,frequency_baseline,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,frequency_baseline,Clearance,0,0.0,0.1,568908,0.01828365152863023,0.017614447327160103
+tier_b,filtered8,frequency_baseline,Clearance,1,0.1,0.2,0,,
+tier_b,filtered8,frequency_baseline,Clearance,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,frequency_baseline,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,frequency_baseline,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,frequency_baseline,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,frequency_baseline,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,frequency_baseline,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,frequency_baseline,Dribble,0,0.0,0.1,568908,0.014619542265695487,0.014714154133884565
+tier_b,filtered8,frequency_baseline,Dribble,1,0.1,0.2,0,,
+tier_b,filtered8,frequency_baseline,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,frequency_baseline,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,frequency_baseline,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,frequency_baseline,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,frequency_baseline,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,frequency_baseline,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,frequency_baseline,Shot,0,0.0,0.1,568908,0.011857385921205445,0.012367553277507083
+tier_b,filtered8,frequency_baseline,Shot,1,0.1,0.2,0,,
+tier_b,filtered8,frequency_baseline,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,frequency_baseline,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,frequency_baseline,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,frequency_baseline,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,frequency_baseline,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,frequency_baseline,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,0,0.0,0.1,568908,0.012805749447733487,0.012638247308879467
+tier_b,filtered8,frequency_baseline,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,frequency_baseline,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,0,0.0,0.1,568908,0.011210058957300345,0.01124786432955768
+tier_b,filtered8,frequency_baseline,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,frequency_baseline,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order1,Pass,0,0.0,0.1,26543,0.08005645483897308,0.06943450250536864
+tier_b,filtered8,exp1_markov_order1,Pass,1,0.1,0.2,8066,0.1889825032227713,0.18187453508554427
+tier_b,filtered8,exp1_markov_order1,Pass,2,0.2,0.30000000000000004,269430,0.20738259474460702,0.17820584196266193
+tier_b,filtered8,exp1_markov_order1,Pass,3,0.30000000000000004,0.4,6125,0.3918963734605348,0.3797551020408163
+tier_b,filtered8,exp1_markov_order1,Pass,4,0.4,0.5,7222,0.4897663038736901,0.48075325394627527
+tier_b,filtered8,exp1_markov_order1,Pass,5,0.5,0.6000000000000001,10876,0.5149308494587013,0.5048731151158514
+tier_b,filtered8,exp1_markov_order1,Pass,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Pass,7,0.7000000000000001,0.8,7385,0.743129904967918,0.7435341909275559
+tier_b,filtered8,exp1_markov_order1,Pass,8,0.8,0.9,233261,0.8935230515229485,0.8945387355794582
+tier_b,filtered8,exp1_markov_order1,Pass,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order1,Carry,0,0.0,0.1,258744,0.0025077092170175215,0.002500541075348607
+tier_b,filtered8,exp1_markov_order1,Carry,1,0.1,0.2,0,,
+tier_b,filtered8,exp1_markov_order1,Carry,2,0.2,0.30000000000000004,6125,0.240173353040892,0.23820408163265305
+tier_b,filtered8,exp1_markov_order1,Carry,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order1,Carry,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order1,Carry,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Carry,6,0.6000000000000001,0.7000000000000001,169174,0.6974246472041407,0.7269852341376335
+tier_b,filtered8,exp1_markov_order1,Carry,7,0.7000000000000001,0.8,108322,0.7007118922736252,0.7297501892505678
+tier_b,filtered8,exp1_markov_order1,Carry,8,0.8,0.9,26543,0.8405889676719877,0.8474927476170742
+tier_b,filtered8,exp1_markov_order1,Carry,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,0,0.0,0.1,529234,0.02653489277310316,0.02719024098980791
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,1,0.1,0.2,15451,0.16470190073692317,0.16613811403792636
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,3,0.30000000000000004,0.4,21293,0.3821294451929893,0.3941670971680834
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,4,0.4,0.5,2930,0.40364917044167065,0.3890784982935154
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order1,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,0,0.0,0.1,568908,0.017946086059310543,0.017614447327160103
+tier_b,filtered8,exp1_markov_order1,Clearance,1,0.1,0.2,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order1,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,0,0.0,0.1,568908,0.01515966410730797,0.014714154133884565
+tier_b,filtered8,exp1_markov_order1,Dribble,1,0.1,0.2,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order1,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,0,0.0,0.1,568908,0.011962107991495018,0.012367553277507083
+tier_b,filtered8,exp1_markov_order1,Shot,1,0.1,0.2,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order1,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,0,0.0,0.1,568908,0.013101288831808045,0.012638247308879467
+tier_b,filtered8,exp1_markov_order1,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order1,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,0,0.0,0.1,568908,0.011624289975433277,0.01124786432955768
+tier_b,filtered8,exp1_markov_order1,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order1,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order2,Pass,0,0.0,0.1,26408,0.07983540021369626,0.06891850954256286
+tier_b,filtered8,exp1_markov_order2,Pass,1,0.1,0.2,209663,0.15668659390918263,0.1509756132460186
+tier_b,filtered8,exp1_markov_order2,Pass,2,0.2,0.30000000000000004,2638,0.2659024521964896,0.1853677028051554
+tier_b,filtered8,exp1_markov_order2,Pass,3,0.30000000000000004,0.4,68195,0.32887484706849646,0.27541608622333014
+tier_b,filtered8,exp1_markov_order2,Pass,4,0.4,0.5,8780,0.4823234692589095,0.4452164009111617
+tier_b,filtered8,exp1_markov_order2,Pass,5,0.5,0.6000000000000001,12448,0.525664876039573,0.47180269922879176
+tier_b,filtered8,exp1_markov_order2,Pass,6,0.6000000000000001,0.7000000000000001,689,0.6791954621850885,0.714078374455733
+tier_b,filtered8,exp1_markov_order2,Pass,7,0.7000000000000001,0.8,12945,0.7392306919455527,0.7425260718424102
+tier_b,filtered8,exp1_markov_order2,Pass,8,0.8,0.9,23719,0.8122406544266635,0.8123023736245204
+tier_b,filtered8,exp1_markov_order2,Pass,9,0.9,1.0,203423,0.9081895593938158,0.9087812095977348
+tier_b,filtered8,exp1_markov_order2,Carry,0,0.0,0.1,258744,0.002551717106741103,0.002500541075348607
+tier_b,filtered8,exp1_markov_order2,Carry,1,0.1,0.2,87,0.18896633577775393,0.25287356321839083
+tier_b,filtered8,exp1_markov_order2,Carry,2,0.2,0.30000000000000004,7945,0.23588960536018191,0.281686595342983
+tier_b,filtered8,exp1_markov_order2,Carry,3,0.30000000000000004,0.4,804,0.3921934269459489,0.6293532338308457
+tier_b,filtered8,exp1_markov_order2,Carry,4,0.4,0.5,4924,0.4774794291004087,0.5264012997562957
+tier_b,filtered8,exp1_markov_order2,Carry,5,0.5,0.6000000000000001,59708,0.5530147660834636,0.6093320828029745
+tier_b,filtered8,exp1_markov_order2,Carry,6,0.6000000000000001,0.7000000000000001,9758,0.6515485546183205,0.6643779463004714
+tier_b,filtered8,exp1_markov_order2,Carry,7,0.7000000000000001,0.8,205178,0.7685249785967253,0.7744348809326536
+tier_b,filtered8,exp1_markov_order2,Carry,8,0.8,0.9,18341,0.8469137409429371,0.8591134616433128
+tier_b,filtered8,exp1_markov_order2,Carry,9,0.9,1.0,3419,0.9067515971235575,0.9102076630593741
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,0,0.0,0.1,529277,0.026358745291081204,0.027189921345533625
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,1,0.1,0.2,14717,0.16259012911862783,0.16477542977509002
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,2,0.2,0.30000000000000004,895,0.21836788964150208,0.21452513966480447
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,3,0.30000000000000004,0.4,16316,0.37480723859253173,0.3880853150281932
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,4,0.4,0.5,7703,0.40815139906877,0.40893158509671557
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order2,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order2,Clearance,0,0.0,0.1,566979,0.0171395557288766,0.017097635009409518
+tier_b,filtered8,exp1_markov_order2,Clearance,1,0.1,0.2,1924,0.1057293279021848,0.16995841995841995
+tier_b,filtered8,exp1_markov_order2,Clearance,2,0.2,0.30000000000000004,5,0.21428571428571427,0.0
+tier_b,filtered8,exp1_markov_order2,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order2,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order2,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order2,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order2,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order2,Dribble,0,0.0,0.1,568727,0.01509711834503615,0.014703012165766704
+tier_b,filtered8,exp1_markov_order2,Dribble,1,0.1,0.2,181,0.1097394174026427,0.049723756906077346
+tier_b,filtered8,exp1_markov_order2,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order2,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order2,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order2,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order2,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order2,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order2,Shot,0,0.0,0.1,567631,0.011434037015218673,0.011921477156814903
+tier_b,filtered8,exp1_markov_order2,Shot,1,0.1,0.2,1277,0.19333166996179074,0.21064996084573218
+tier_b,filtered8,exp1_markov_order2,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order2,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order2,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order2,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order2,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order2,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order2,Miscontrol,0,0.0,0.1,568865,0.012999557284087573,0.012597013351146581
+tier_b,filtered8,exp1_markov_order2,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,exp1_markov_order2,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order2,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order2,Miscontrol,4,0.4,0.5,37,0.47054065417650215,0.5945945945945946
+tier_b,filtered8,exp1_markov_order2,Miscontrol,5,0.5,0.6000000000000001,6,0.5111111111111111,0.3333333333333333
+tier_b,filtered8,exp1_markov_order2,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order2,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order2,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,0,0.0,0.1,568908,0.011600358572976867,0.01124786432955768
+tier_b,filtered8,exp1_markov_order2,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,exp1_markov_order2,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,mc1,Pass,0,0.0,0.1,26543,0.08011040687453214,0.06943450250536864
+tier_b,filtered8,mc1,Pass,1,0.1,0.2,8066,0.18920973173371175,0.18187453508554427
+tier_b,filtered8,mc1,Pass,2,0.2,0.30000000000000004,269430,0.2073896553659159,0.17820584196266193
+tier_b,filtered8,mc1,Pass,3,0.30000000000000004,0.4,6125,0.39233315195917706,0.3797551020408163
+tier_b,filtered8,mc1,Pass,4,0.4,0.5,7222,0.49020819113833786,0.48075325394627527
+tier_b,filtered8,mc1,Pass,5,0.5,0.6000000000000001,10876,0.5152516987731206,0.5048731151158514
+tier_b,filtered8,mc1,Pass,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1,Pass,7,0.7000000000000001,0.8,7385,0.7437779999882922,0.7435341909275559
+tier_b,filtered8,mc1,Pass,8,0.8,0.9,233261,0.8935452468082413,0.8945387355794582
+tier_b,filtered8,mc1,Pass,9,0.9,1.0,0,,
+tier_b,filtered8,mc1,Carry,0,0.0,0.1,258744,0.002518467978886724,0.002500541075348607
+tier_b,filtered8,mc1,Carry,1,0.1,0.2,0,,
+tier_b,filtered8,mc1,Carry,2,0.2,0.30000000000000004,6125,0.24043972634098282,0.23820408163265305
+tier_b,filtered8,mc1,Carry,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1,Carry,4,0.4,0.5,0,,
+tier_b,filtered8,mc1,Carry,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1,Carry,6,0.6000000000000001,0.7000000000000001,169174,0.6974573766901501,0.7269852341376335
+tier_b,filtered8,mc1,Carry,7,0.7000000000000001,0.8,108322,0.7007252534999445,0.7297501892505678
+tier_b,filtered8,mc1,Carry,8,0.8,0.9,26543,0.8407551273532236,0.8474927476170742
+tier_b,filtered8,mc1,Carry,9,0.9,1.0,0,,
+tier_b,filtered8,mc1,Ball Recovery,0,0.0,0.1,529234,0.026530487874393004,0.02719024098980791
+tier_b,filtered8,mc1,Ball Recovery,1,0.1,0.2,15451,0.16467994287885518,0.16613811403792636
+tier_b,filtered8,mc1,Ball Recovery,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1,Ball Recovery,3,0.30000000000000004,0.4,21293,0.3822229479230569,0.3941670971680834
+tier_b,filtered8,mc1,Ball Recovery,4,0.4,0.5,2930,0.4037706507613726,0.3890784982935154
+tier_b,filtered8,mc1,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,mc1,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,mc1,Clearance,0,0.0,0.1,568908,0.017934005372545185,0.017614447327160103
+tier_b,filtered8,mc1,Clearance,1,0.1,0.2,0,,
+tier_b,filtered8,mc1,Clearance,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,mc1,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,mc1,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,mc1,Dribble,0,0.0,0.1,568908,0.015145220554955131,0.014714154133884565
+tier_b,filtered8,mc1,Dribble,1,0.1,0.2,0,,
+tier_b,filtered8,mc1,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,mc1,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,mc1,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,mc1,Shot,0,0.0,0.1,568908,0.011947685783063117,0.012367553277507083
+tier_b,filtered8,mc1,Shot,1,0.1,0.2,0,,
+tier_b,filtered8,mc1,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,mc1,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,mc1,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,mc1,Miscontrol,0,0.0,0.1,568908,0.013086702041977588,0.012638247308879467
+tier_b,filtered8,mc1,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,mc1,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,mc1,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,mc1,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,mc1,Dispossessed,0,0.0,0.1,568908,0.011609560186287083,0.01124786432955768
+tier_b,filtered8,mc1,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,mc1,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,mc1,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,mc1,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,mc2,Pass,0,0.0,0.1,26408,0.08062466071810542,0.06891850954256286
+tier_b,filtered8,mc2,Pass,1,0.1,0.2,210226,0.15663648384253287,0.1507092367261899
+tier_b,filtered8,mc2,Pass,2,0.2,0.30000000000000004,3235,0.2821004322320768,0.22256568778979907
+tier_b,filtered8,mc2,Pass,3,0.30000000000000004,0.4,66929,0.32806431834551775,0.2760387873716924
+tier_b,filtered8,mc2,Pass,4,0.4,0.5,8720,0.4798400702296478,0.4442660550458716
+tier_b,filtered8,mc2,Pass,5,0.5,0.6000000000000001,12744,0.52254746130521,0.4740269930947897
+tier_b,filtered8,mc2,Pass,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2,Pass,7,0.7000000000000001,0.8,12648,0.7386768124502969,0.735056925996205
+tier_b,filtered8,mc2,Pass,8,0.8,0.9,24575,0.8152293395091681,0.8133468972533062
+tier_b,filtered8,mc2,Pass,9,0.9,1.0,203423,0.9082030021813818,0.9087812095977348
+tier_b,filtered8,mc2,Carry,0,0.0,0.1,258744,0.0025638581347922325,0.002500541075348607
+tier_b,filtered8,mc2,Carry,1,0.1,0.2,0,,
+tier_b,filtered8,mc2,Carry,2,0.2,0.30000000000000004,8032,0.24244968136865958,0.2813745019920319
+tier_b,filtered8,mc2,Carry,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2,Carry,4,0.4,0.5,4933,0.4795635955197719,0.5479424285424691
+tier_b,filtered8,mc2,Carry,5,0.5,0.6000000000000001,60503,0.5545787469711646,0.6078541559922649
+tier_b,filtered8,mc2,Carry,6,0.6000000000000001,0.7000000000000001,9071,0.653172701063577,0.6551648109359497
+tier_b,filtered8,mc2,Carry,7,0.7000000000000001,0.8,202698,0.7681260253239572,0.7737964854117949
+tier_b,filtered8,mc2,Carry,8,0.8,0.9,22659,0.8449111984874526,0.8564808685290612
+tier_b,filtered8,mc2,Carry,9,0.9,1.0,2268,0.9020071092111593,0.9047619047619048
+tier_b,filtered8,mc2,Ball Recovery,0,0.0,0.1,529234,0.026262329849346046,0.02719024098980791
+tier_b,filtered8,mc2,Ball Recovery,1,0.1,0.2,14909,0.16304523895728365,0.16526930042256355
+tier_b,filtered8,mc2,Ball Recovery,2,0.2,0.30000000000000004,542,0.20163549225456676,0.1900369003690037
+tier_b,filtered8,mc2,Ball Recovery,3,0.30000000000000004,0.4,16522,0.3753534924125213,0.3863938990436993
+tier_b,filtered8,mc2,Ball Recovery,4,0.4,0.5,7701,0.4061265427837409,0.40890793403454095
+tier_b,filtered8,mc2,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,mc2,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,mc2,Clearance,0,0.0,0.1,567768,0.017157613674268046,0.017332783813106763
+tier_b,filtered8,mc2,Clearance,1,0.1,0.2,1140,0.10250875804353549,0.15789473684210525
+tier_b,filtered8,mc2,Clearance,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc2,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,mc2,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,mc2,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,mc2,Dribble,0,0.0,0.1,568908,0.014979769218964946,0.014714154133884565
+tier_b,filtered8,mc2,Dribble,1,0.1,0.2,0,,
+tier_b,filtered8,mc2,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc2,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,mc2,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,mc2,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,mc2,Shot,0,0.0,0.1,567631,0.011337839497966956,0.011921477156814903
+tier_b,filtered8,mc2,Shot,1,0.1,0.2,1277,0.16385173506263595,0.21064996084573218
+tier_b,filtered8,mc2,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc2,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,mc2,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,mc2,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,mc2,Miscontrol,0,0.0,0.1,568908,0.012907527937840908,0.012638247308879467
+tier_b,filtered8,mc2,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,mc2,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc2,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,mc2,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,mc2,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,mc2,Dispossessed,0,0.0,0.1,568908,0.011478311878392529,0.01124786432955768
+tier_b,filtered8,mc2,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,mc2,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc2,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,mc2,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,mc2,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,mc1_zone,Pass,0,0.0,0.1,16524,0.05821917358581979,0.04841442749939482
+tier_b,filtered8,mc1_zone,Pass,1,0.1,0.2,216644,0.17766425139286113,0.1620815716105685
+tier_b,filtered8,mc1_zone,Pass,2,0.2,0.30000000000000004,70871,0.27711360302576094,0.21743731568624683
+tier_b,filtered8,mc1_zone,Pass,3,0.30000000000000004,0.4,3286,0.37824014957384705,0.3703590992087645
+tier_b,filtered8,mc1_zone,Pass,4,0.4,0.5,15825,0.4646695309363622,0.45390205371248027
+tier_b,filtered8,mc1_zone,Pass,5,0.5,0.6000000000000001,3770,0.5374814562225235,0.5352785145888594
+tier_b,filtered8,mc1_zone,Pass,6,0.6000000000000001,0.7000000000000001,1342,0.6526442188782288,0.6490312965722802
+tier_b,filtered8,mc1_zone,Pass,7,0.7000000000000001,0.8,62941,0.7782328106380332,0.7779190035112248
+tier_b,filtered8,mc1_zone,Pass,8,0.8,0.9,0,,
+tier_b,filtered8,mc1_zone,Pass,9,0.9,1.0,177705,0.9288118775197933,0.929568667173124
+tier_b,filtered8,mc1_zone,Carry,0,0.0,0.1,258744,0.0025046200530702274,0.002500541075348607
+tier_b,filtered8,mc1_zone,Carry,1,0.1,0.2,0,,
+tier_b,filtered8,mc1_zone,Carry,2,0.2,0.30000000000000004,6125,0.24014168426963822,0.23820408163265305
+tier_b,filtered8,mc1_zone,Carry,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1_zone,Carry,4,0.4,0.5,0,,
+tier_b,filtered8,mc1_zone,Carry,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1_zone,Carry,6,0.6000000000000001,0.7000000000000001,140606,0.6380105712041039,0.6735843420622164
+tier_b,filtered8,mc1_zone,Carry,7,0.7000000000000001,0.8,143907,0.7651064942098217,0.783749226931282
+tier_b,filtered8,mc1_zone,Carry,8,0.8,0.9,19526,0.8608912911009184,0.8723240807128956
+tier_b,filtered8,mc1_zone,Carry,9,0.9,1.0,0,,
+tier_b,filtered8,mc1_zone,Ball Recovery,0,0.0,0.1,529234,0.02647300987643752,0.02719024098980791
+tier_b,filtered8,mc1_zone,Ball Recovery,1,0.1,0.2,15443,0.16471667819598007,0.16622417923978502
+tier_b,filtered8,mc1_zone,Ball Recovery,2,0.2,0.30000000000000004,1046,0.2953879765624112,0.30975143403441685
+tier_b,filtered8,mc1_zone,Ball Recovery,3,0.30000000000000004,0.4,10444,0.3615997741763224,0.3719839142091153
+tier_b,filtered8,mc1_zone,Ball Recovery,4,0.4,0.5,12741,0.4138382947009592,0.4178635899850875
+tier_b,filtered8,mc1_zone,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1_zone,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1_zone,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1_zone,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,mc1_zone,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,mc1_zone,Clearance,0,0.0,0.1,565456,0.017168722776735194,0.016689185365439573
+tier_b,filtered8,mc1_zone,Clearance,1,0.1,0.2,3452,0.15869510620820415,0.16917728852838934
+tier_b,filtered8,mc1_zone,Clearance,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1_zone,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1_zone,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,mc1_zone,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1_zone,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1_zone,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1_zone,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,mc1_zone,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,mc1_zone,Dribble,0,0.0,0.1,568908,0.015090082248717317,0.014714154133884565
+tier_b,filtered8,mc1_zone,Dribble,1,0.1,0.2,0,,
+tier_b,filtered8,mc1_zone,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1_zone,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1_zone,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,mc1_zone,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1_zone,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1_zone,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1_zone,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,mc1_zone,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,mc1_zone,Shot,0,0.0,0.1,561891,0.010584980869428641,0.010895351589543167
+tier_b,filtered8,mc1_zone,Shot,1,0.1,0.2,7017,0.12010767421465857,0.13025509476984468
+tier_b,filtered8,mc1_zone,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1_zone,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1_zone,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,mc1_zone,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1_zone,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1_zone,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1_zone,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,mc1_zone,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,0,0.0,0.1,568908,0.013030764363193588,0.012638247308879467
+tier_b,filtered8,mc1_zone,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,mc1_zone,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,0,0.0,0.1,568908,0.011571569045520556,0.01124786432955768
+tier_b,filtered8,mc1_zone,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,mc1_zone,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,mc2_zone,Pass,0,0.0,0.1,18151,0.06077515781034286,0.0500247920224781
+tier_b,filtered8,mc2_zone,Pass,1,0.1,0.2,218401,0.15527265227758086,0.14908814520080035
+tier_b,filtered8,mc2_zone,Pass,2,0.2,0.30000000000000004,18306,0.24280698599387773,0.2164317710040424
+tier_b,filtered8,mc2_zone,Pass,3,0.30000000000000004,0.4,49776,0.3404403411782147,0.2855191256830601
+tier_b,filtered8,mc2_zone,Pass,4,0.4,0.5,16040,0.45465889777726165,0.43659600997506237
+tier_b,filtered8,mc2_zone,Pass,5,0.5,0.6000000000000001,5281,0.5438086708246922,0.5125923120621094
+tier_b,filtered8,mc2_zone,Pass,6,0.6000000000000001,0.7000000000000001,9886,0.6678713721556955,0.6317013959134129
+tier_b,filtered8,mc2_zone,Pass,7,0.7000000000000001,0.8,9332,0.7528789536117844,0.7516073724817831
+tier_b,filtered8,mc2_zone,Pass,8,0.8,0.9,67722,0.8184808085493089,0.8171495230501167
+tier_b,filtered8,mc2_zone,Pass,9,0.9,1.0,156013,0.9410064149511524,0.9410369648683122
+tier_b,filtered8,mc2_zone,Carry,0,0.0,0.1,258744,0.0024136889403907377,0.002500541075348607
+tier_b,filtered8,mc2_zone,Carry,1,0.1,0.2,0,,
+tier_b,filtered8,mc2_zone,Carry,2,0.2,0.30000000000000004,7136,0.24125075738365154,0.2687780269058296
+tier_b,filtered8,mc2_zone,Carry,3,0.30000000000000004,0.4,1376,0.339129304004369,0.436046511627907
+tier_b,filtered8,mc2_zone,Carry,4,0.4,0.5,1942,0.48424672239350763,0.5345005149330587
+tier_b,filtered8,mc2_zone,Carry,5,0.5,0.6000000000000001,59697,0.5553784392077312,0.6021073085749703
+tier_b,filtered8,mc2_zone,Carry,6,0.6000000000000001,0.7000000000000001,59984,0.6643246530774833,0.6653440917578021
+tier_b,filtered8,mc2_zone,Carry,7,0.7000000000000001,0.8,52008,0.7478535763062402,0.7584410090755268
+tier_b,filtered8,mc2_zone,Carry,8,0.8,0.9,126252,0.8280689914747041,0.8355907233152742
+tier_b,filtered8,mc2_zone,Carry,9,0.9,1.0,1769,0.9119566356301991,0.9265121537591859
+tier_b,filtered8,mc2_zone,Ball Recovery,0,0.0,0.1,528757,0.026202970772606207,0.0271088609701621
+tier_b,filtered8,mc2_zone,Ball Recovery,1,0.1,0.2,15210,0.16113962595909795,0.16318211702827087
+tier_b,filtered8,mc2_zone,Ball Recovery,2,0.2,0.30000000000000004,1823,0.2569371805486766,0.2616566099835436
+tier_b,filtered8,mc2_zone,Ball Recovery,3,0.30000000000000004,0.4,11199,0.36227898976435646,0.3667291722475221
+tier_b,filtered8,mc2_zone,Ball Recovery,4,0.4,0.5,11919,0.4200449259235332,0.4270492490980787
+tier_b,filtered8,mc2_zone,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2_zone,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2_zone,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2_zone,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,mc2_zone,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,mc2_zone,Clearance,0,0.0,0.1,550837,0.013956691740307501,0.01376995372496764
+tier_b,filtered8,mc2_zone,Clearance,1,0.1,0.2,17342,0.1193598000150463,0.12587936800830354
+tier_b,filtered8,mc2_zone,Clearance,2,0.2,0.30000000000000004,729,0.2732353637501078,0.34705075445816186
+tier_b,filtered8,mc2_zone,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2_zone,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,mc2_zone,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2_zone,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2_zone,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2_zone,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,mc2_zone,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,mc2_zone,Dribble,0,0.0,0.1,561329,0.013565788939559514,0.01339143354432071
+tier_b,filtered8,mc2_zone,Dribble,1,0.1,0.2,7579,0.10904770386675718,0.11267977305713155
+tier_b,filtered8,mc2_zone,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc2_zone,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2_zone,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,mc2_zone,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2_zone,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2_zone,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2_zone,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,mc2_zone,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,mc2_zone,Shot,0,0.0,0.1,558457,0.009412502606292216,0.009766195069629354
+tier_b,filtered8,mc2_zone,Shot,1,0.1,0.2,9721,0.12413445670889679,0.13517127867503342
+tier_b,filtered8,mc2_zone,Shot,2,0.2,0.30000000000000004,730,0.27680969872164163,0.36712328767123287
+tier_b,filtered8,mc2_zone,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2_zone,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,mc2_zone,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2_zone,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2_zone,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2_zone,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,mc2_zone,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,0,0.0,0.1,568908,0.012824967115473908,0.012638247308879467
+tier_b,filtered8,mc2_zone,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,mc2_zone,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,0,0.0,0.1,568908,0.011361999965507937,0.01124786432955768
+tier_b,filtered8,mc2_zone,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,mc2_zone,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_event,Pass,0,0.0,0.1,24958,0.07698322482597379,0.06683227822742206
+tier_b,filtered8,hmm_event,Pass,1,0.1,0.2,189944,0.14911842678634796,0.14606410310407278
+tier_b,filtered8,hmm_event,Pass,2,0.2,0.30000000000000004,37188,0.24796577212911688,0.20834677853070882
+tier_b,filtered8,hmm_event,Pass,3,0.30000000000000004,0.4,54365,0.33977011013418906,0.28299457371470615
+tier_b,filtered8,hmm_event,Pass,4,0.4,0.5,3938,0.46589008471587107,0.4047739969527679
+tier_b,filtered8,hmm_event,Pass,5,0.5,0.6000000000000001,17860,0.5139259177497782,0.4743001119820829
+tier_b,filtered8,hmm_event,Pass,6,0.6000000000000001,0.7000000000000001,92,0.6876451856674316,0.6847826086956522
+tier_b,filtered8,hmm_event,Pass,7,0.7000000000000001,0.8,18025,0.7506101910325964,0.7496809986130375
+tier_b,filtered8,hmm_event,Pass,8,0.8,0.9,84902,0.8622964150571033,0.862924312737038
+tier_b,filtered8,hmm_event,Pass,9,0.9,1.0,137636,0.9241742521548961,0.9250123514196867
+tier_b,filtered8,hmm_event,Carry,0,0.0,0.1,258722,0.0026733606404891514,0.0025007537047487265
+tier_b,filtered8,hmm_event,Carry,1,0.1,0.2,161,0.13686377217859824,0.18012422360248448
+tier_b,filtered8,hmm_event,Carry,2,0.2,0.30000000000000004,7422,0.24147679205817138,0.28631096739423334
+tier_b,filtered8,hmm_event,Carry,3,0.30000000000000004,0.4,869,0.3489289074235857,0.3993095512082854
+tier_b,filtered8,hmm_event,Carry,4,0.4,0.5,9468,0.4787410350740241,0.5523869877482045
+tier_b,filtered8,hmm_event,Carry,5,0.5,0.6000000000000001,57041,0.5585051003074882,0.6129801370943707
+tier_b,filtered8,hmm_event,Carry,6,0.6000000000000001,0.7000000000000001,30203,0.6648452993102391,0.681091282322948
+tier_b,filtered8,hmm_event,Carry,7,0.7000000000000001,0.8,128358,0.7738140362465918,0.7733760264260895
+tier_b,filtered8,hmm_event,Carry,8,0.8,0.9,76552,0.8169312631502333,0.8274767478315393
+tier_b,filtered8,hmm_event,Carry,9,0.9,1.0,112,0.9043725792484449,0.9642857142857143
+tier_b,filtered8,hmm_event,Ball Recovery,0,0.0,0.1,529236,0.02636285221011393,0.027192027753214068
+tier_b,filtered8,hmm_event,Ball Recovery,1,0.1,0.2,15056,0.16205505141768733,0.16524973432518597
+tier_b,filtered8,hmm_event,Ball Recovery,2,0.2,0.30000000000000004,1140,0.2513928891676052,0.31491228070175437
+tier_b,filtered8,hmm_event,Ball Recovery,3,0.30000000000000004,0.4,8075,0.33654385509341805,0.36582043343653253
+tier_b,filtered8,hmm_event,Ball Recovery,4,0.4,0.5,15401,0.4078442467879436,0.40893448477371597
+tier_b,filtered8,hmm_event,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_event,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_event,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_event,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_event,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_event,Clearance,0,0.0,0.1,567012,0.016938705965574577,0.0171125126099624
+tier_b,filtered8,hmm_event,Clearance,1,0.1,0.2,1893,0.11428147950146934,0.16798732171156894
+tier_b,filtered8,hmm_event,Clearance,2,0.2,0.30000000000000004,3,0.20801178785846666,0.0
+tier_b,filtered8,hmm_event,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_event,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_event,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_event,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_event,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_event,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_event,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_event,Dribble,0,0.0,0.1,568484,0.014995747404118352,0.014661802267082275
+tier_b,filtered8,hmm_event,Dribble,1,0.1,0.2,424,0.10427873040789132,0.08490566037735849
+tier_b,filtered8,hmm_event,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_event,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_event,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_event,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_event,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_event,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_event,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_event,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_event,Shot,0,0.0,0.1,568391,0.011611159189905974,0.012171199051357252
+tier_b,filtered8,hmm_event,Shot,1,0.1,0.2,517,0.13769352241321478,0.22823984526112184
+tier_b,filtered8,hmm_event,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_event,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_event,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_event,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_event,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_event,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_event,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_event,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_event,Miscontrol,0,0.0,0.1,568908,0.013004818745137424,0.012638247308879467
+tier_b,filtered8,hmm_event,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_event,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_event,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_event,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_event,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_event,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_event,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_event,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_event,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_event,Dispossessed,0,0.0,0.1,568908,0.011550817749901056,0.01124786432955768
+tier_b,filtered8,hmm_event,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_event,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_event,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_event,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_event,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_event,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_event,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_event,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_event,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_factorized,Pass,0,0.0,0.1,16714,0.06085912146461319,0.04840253679550078
+tier_b,filtered8,hmm_factorized,Pass,1,0.1,0.2,183805,0.1499263193699368,0.14899485868175513
+tier_b,filtered8,hmm_factorized,Pass,2,0.2,0.30000000000000004,81963,0.24794720030319542,0.22012371435891806
+tier_b,filtered8,hmm_factorized,Pass,3,0.30000000000000004,0.4,22694,0.35784666190676284,0.32783995769806995
+tier_b,filtered8,hmm_factorized,Pass,4,0.4,0.5,12177,0.4271296686174909,0.3401494621006816
+tier_b,filtered8,hmm_factorized,Pass,5,0.5,0.6000000000000001,16493,0.5481053717236043,0.5571454556478506
+tier_b,filtered8,hmm_factorized,Pass,6,0.6000000000000001,0.7000000000000001,1736,0.6670795616246419,0.6054147465437788
+tier_b,filtered8,hmm_factorized,Pass,7,0.7000000000000001,0.8,54903,0.7944432421286924,0.7843651530881737
+tier_b,filtered8,hmm_factorized,Pass,8,0.8,0.9,1110,0.8302740488253432,0.7
+tier_b,filtered8,hmm_factorized,Pass,9,0.9,1.0,177313,0.9375190983887685,0.9297964616243591
+tier_b,filtered8,hmm_factorized,Carry,0,0.0,0.1,251061,0.006324722364567907,0.004867342996323603
+tier_b,filtered8,hmm_factorized,Carry,1,0.1,0.2,107,0.13582155430634138,0.037383177570093455
+tier_b,filtered8,hmm_factorized,Carry,2,0.2,0.30000000000000004,2090,0.23110660084766568,0.3473684210526316
+tier_b,filtered8,hmm_factorized,Carry,3,0.30000000000000004,0.4,3007,0.33176567980440913,0.33754572663784504
+tier_b,filtered8,hmm_factorized,Carry,4,0.4,0.5,32477,0.4604694894386909,0.5027250053884287
+tier_b,filtered8,hmm_factorized,Carry,5,0.5,0.6000000000000001,27383,0.5453149418189975,0.590475842676113
+tier_b,filtered8,hmm_factorized,Carry,6,0.6000000000000001,0.7000000000000001,106757,0.6550046023858653,0.6757777007596691
+tier_b,filtered8,hmm_factorized,Carry,7,0.7000000000000001,0.8,34176,0.744392931034367,0.745874297752809
+tier_b,filtered8,hmm_factorized,Carry,8,0.8,0.9,111850,0.8253590192390449,0.8362807331247206
+tier_b,filtered8,hmm_factorized,Carry,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_factorized,Ball Recovery,0,0.0,0.1,518550,0.029160010554667434,0.027985729437855558
+tier_b,filtered8,hmm_factorized,Ball Recovery,1,0.1,0.2,13414,0.13377593221565862,0.1728790815565827
+tier_b,filtered8,hmm_factorized,Ball Recovery,2,0.2,0.30000000000000004,33025,0.2212556444991133,0.24575321725965177
+tier_b,filtered8,hmm_factorized,Ball Recovery,3,0.30000000000000004,0.4,2559,0.3263695827680457,0.38647909339585773
+tier_b,filtered8,hmm_factorized,Ball Recovery,4,0.4,0.5,1360,0.4306227570813116,0.4073529411764706
+tier_b,filtered8,hmm_factorized,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_factorized,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_factorized,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_factorized,Clearance,0,0.0,0.1,555289,0.01541472264458298,0.015977265892175064
+tier_b,filtered8,hmm_factorized,Clearance,1,0.1,0.2,13619,0.12250496969432603,0.08436742785813936
+tier_b,filtered8,hmm_factorized,Clearance,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_factorized,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_factorized,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_factorized,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_factorized,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_factorized,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_factorized,Dribble,0,0.0,0.1,568908,0.014906820085983246,0.014714154133884565
+tier_b,filtered8,hmm_factorized,Dribble,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_factorized,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_factorized,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_factorized,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_factorized,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_factorized,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_factorized,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_factorized,Shot,0,0.0,0.1,568908,0.012041521368240302,0.012367553277507083
+tier_b,filtered8,hmm_factorized,Shot,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_factorized,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_factorized,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_factorized,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_factorized,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_factorized,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_factorized,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,0,0.0,0.1,568908,0.01295643547401024,0.012638247308879467
+tier_b,filtered8,hmm_factorized,Miscontrol,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_factorized,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,0,0.0,0.1,568908,0.011409973351425901,0.01124786432955768
+tier_b,filtered8,hmm_factorized,Dispossessed,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_factorized,Dispossessed,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_joint,Pass,0,0.0,0.1,2273,0.08711872508946719,0.055433347998240214
+tier_b,filtered8,hmm_joint,Pass,1,0.1,0.2,182810,0.1424502239767658,0.1341502106011706
+tier_b,filtered8,hmm_joint,Pass,2,0.2,0.30000000000000004,89561,0.2465515827153568,0.20391688346490103
+tier_b,filtered8,hmm_joint,Pass,3,0.30000000000000004,0.4,25577,0.3425794352893094,0.2953434726512101
+tier_b,filtered8,hmm_joint,Pass,4,0.4,0.5,8112,0.42884561726690396,0.33259368836291914
+tier_b,filtered8,hmm_joint,Pass,5,0.5,0.6000000000000001,10155,0.5407851862627333,0.5299852289512555
+tier_b,filtered8,hmm_joint,Pass,6,0.6000000000000001,0.7000000000000001,14999,0.6430921922189401,0.560170678045203
+tier_b,filtered8,hmm_joint,Pass,7,0.7000000000000001,0.8,57997,0.7285908826611557,0.7734882838767523
+tier_b,filtered8,hmm_joint,Pass,8,0.8,0.9,15588,0.8697690100451568,0.850782653323069
+tier_b,filtered8,hmm_joint,Pass,9,0.9,1.0,161836,0.9438621745599067,0.9373316196643515
+tier_b,filtered8,hmm_joint,Carry,0,0.0,0.1,250427,0.0034759799288857298,0.002567614514409389
+tier_b,filtered8,hmm_joint,Carry,1,0.1,0.2,10171,0.11942821868838811,0.07118277455510766
+tier_b,filtered8,hmm_joint,Carry,2,0.2,0.30000000000000004,1948,0.24980552922319538,0.2166324435318275
+tier_b,filtered8,hmm_joint,Carry,3,0.30000000000000004,0.4,1832,0.3508965801414454,0.42903930131004364
+tier_b,filtered8,hmm_joint,Carry,4,0.4,0.5,7239,0.4443707509742739,0.6166597596353087
+tier_b,filtered8,hmm_joint,Carry,5,0.5,0.6000000000000001,33997,0.5464407274270606,0.5753448833720622
+tier_b,filtered8,hmm_joint,Carry,6,0.6000000000000001,0.7000000000000001,117475,0.6580219147169338,0.687014258352841
+tier_b,filtered8,hmm_joint,Carry,7,0.7000000000000001,0.8,45588,0.7344603618419746,0.7487935421602177
+tier_b,filtered8,hmm_joint,Carry,8,0.8,0.9,100231,0.8335068336477469,0.8499765541598907
+tier_b,filtered8,hmm_joint,Carry,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_joint,Ball Recovery,0,0.0,0.1,530904,0.034599489069711616,0.029095655711767098
+tier_b,filtered8,hmm_joint,Ball Recovery,1,0.1,0.2,16761,0.14644080065992177,0.26149991050653304
+tier_b,filtered8,hmm_joint,Ball Recovery,2,0.2,0.30000000000000004,19790,0.23228782294430247,0.3062152602324406
+tier_b,filtered8,hmm_joint,Ball Recovery,3,0.30000000000000004,0.4,1453,0.30682985568307375,0.41293874741913283
+tier_b,filtered8,hmm_joint,Ball Recovery,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_joint,Ball Recovery,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_joint,Ball Recovery,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_joint,Ball Recovery,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_joint,Ball Recovery,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_joint,Ball Recovery,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_joint,Clearance,0,0.0,0.1,568908,0.017923361889051817,0.017614447327160103
+tier_b,filtered8,hmm_joint,Clearance,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_joint,Clearance,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_joint,Clearance,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_joint,Clearance,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_joint,Clearance,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_joint,Clearance,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_joint,Clearance,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_joint,Clearance,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_joint,Clearance,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_joint,Dribble,0,0.0,0.1,568908,0.014957441717047054,0.014714154133884565
+tier_b,filtered8,hmm_joint,Dribble,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_joint,Dribble,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_joint,Dribble,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_joint,Dribble,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_joint,Dribble,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_joint,Dribble,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_joint,Dribble,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_joint,Dribble,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_joint,Dribble,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_joint,Shot,0,0.0,0.1,568908,0.012017706345952535,0.012367553277507083
+tier_b,filtered8,hmm_joint,Shot,1,0.1,0.2,0,,
+tier_b,filtered8,hmm_joint,Shot,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_joint,Shot,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_joint,Shot,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_joint,Shot,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_joint,Shot,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_joint,Shot,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_joint,Shot,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_joint,Shot,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_joint,Miscontrol,0,0.0,0.1,568907,0.012990985431998477,0.01263826952384133
+tier_b,filtered8,hmm_joint,Miscontrol,1,0.1,0.2,1,0.10410772025721457,0.0
+tier_b,filtered8,hmm_joint,Miscontrol,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_joint,Miscontrol,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_joint,Miscontrol,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_joint,Miscontrol,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_joint,Miscontrol,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_joint,Miscontrol,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_joint,Miscontrol,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_joint,Miscontrol,9,0.9,1.0,0,,
+tier_b,filtered8,hmm_joint,Dispossessed,0,0.0,0.1,568907,0.011439384740879912,0.011247884100564768
+tier_b,filtered8,hmm_joint,Dispossessed,1,0.1,0.2,1,0.10565605013366718,0.0
+tier_b,filtered8,hmm_joint,Dispossessed,2,0.2,0.30000000000000004,0,,
+tier_b,filtered8,hmm_joint,Dispossessed,3,0.30000000000000004,0.4,0,,
+tier_b,filtered8,hmm_joint,Dispossessed,4,0.4,0.5,0,,
+tier_b,filtered8,hmm_joint,Dispossessed,5,0.5,0.6000000000000001,0,,
+tier_b,filtered8,hmm_joint,Dispossessed,6,0.6000000000000001,0.7000000000000001,0,,
+tier_b,filtered8,hmm_joint,Dispossessed,7,0.7000000000000001,0.8,0,,
+tier_b,filtered8,hmm_joint,Dispossessed,8,0.8,0.9,0,,
+tier_b,filtered8,hmm_joint,Dispossessed,9,0.9,1.0,0,,

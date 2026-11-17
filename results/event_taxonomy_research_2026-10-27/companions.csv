@@ -1,0 +1,34 @@
+event_type,count,same_timestamp_predecessor,pct_same_timestamp_predecessor,top_same_timestamp_predecessor,pct_with_top_predecessor
+Pass,438439,50526,11.52,Ball Receipt*,10.24
+Ball Receipt*,414717,24,0.01,Pressure,0.01
+Carry,353132,353132,100.0,Ball Receipt*,85.67
+Pressure,133003,46,0.03,Carry,0.02
+Ball Recovery,40649,9080,22.34,Ball Receipt*,22.22
+Duel,26980,23533,87.22,Dispossessed,36.5
+Block,16432,6488,39.48,Ball Receipt*,36.48
+Clearance,16254,8240,50.7,Ball Receipt*,30.99
+Goal Keeper,13071,1113,8.52,Ball Receipt*,8.39
+Dribble,13028,7635,58.6,Dribbled Past,58.24
+Miscontrol,11291,2139,18.94,Ball Receipt*,15.79
+Shot,10831,1985,18.33,Ball Receipt*,9.2
+Foul Committed,10310,717,6.95,Ball Receipt*,6.92
+Dispossessed,9852,94,0.95,Ball Receipt*,0.95
+Foul Won,9794,9781,99.87,Foul Committed,99.85
+Interception,9701,8888,91.62,Ball Receipt*,90.41
+Dribbled Past,7587,35,0.46,Ball Receipt*,0.46
+Substitution,3610,320,8.86,Half Start,5.62
+Injury Stoppage,2311,15,0.65,Injury Stoppage,0.48
+Half Start,1824,1329,72.86,Half Start,50.0
+Half End,1824,912,50.0,Half End,50.0
+50/50,1685,847,50.27,50/50,49.55
+Tactical Shift,1399,140,10.01,Substitution,5.93
+Referee Ball-Drop,996,21,2.11,Referee Ball-Drop,2.11
+Starting XI,834,417,50.0,Starting XI,50.0
+Shield,543,1,0.18,Pressure,0.18
+Player Off,494,1,0.2,Tactical Shift,0.2
+Player On,491,5,1.02,Carry,1.02
+Bad Behaviour,271,1,0.37,Bad Behaviour,0.37
+Error,237,2,0.84,Miscontrol,0.42
+Offside,141,1,0.71,Ball Receipt*,0.71
+Own Goal For,55,32,58.18,Own Goal Against,58.18
+Own Goal Against,55,23,41.82,Own Goal For,41.82

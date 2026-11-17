@@ -1,0 +1,120 @@
+{
+ "pilot_matches": [
+  3773369,
+  3773586,
+  3773695,
+  3788755,
+  3788767,
+  3788774,
+  3794686,
+  3795108,
+  3802690,
+  3802795,
+  3835321,
+  3837885,
+  3837938,
+  3844387,
+  3857255,
+  3857257,
+  3857290,
+  3857301,
+  3877060,
+  3893788,
+  3893811,
+  3893815,
+  3893832,
+  3895074,
+  3895095,
+  3930167,
+  3930171,
+  3942349,
+  3998853,
+  4018355
+ ],
+ "raw_events_loaded": 117548,
+ "production_rows_loaded": 59675,
+ "production_source": "per-match CSVs in data/processed (statsbomb_360_match_<id>_next_events.csv)",
+ "production_combined_sha256": "8f6ff11895265888be27b6befdf64bb673e8dbbd177d72e8e260e03b8cbe259c",
+ "tasks": {
+  "filtered8": {
+   "description": "Next event among the 8 production types in the same period, in raw event order (index); raw events of other types are skipped by definition (filtered-event task, identical to the production target).",
+   "vocabulary": [
+    "Pass",
+    "Carry",
+    "Ball Recovery",
+    "Clearance",
+    "Dribble",
+    "Shot",
+    "Miscontrol",
+    "Dispossessed"
+   ],
+   "sequences": 70,
+   "observations": 67845,
+   "prediction_points": 67775,
+   "evaluation_rows": 59655,
+   "exclusion_reasons_at_observations": {
+    "evaluated": 59655,
+    "current_event_without_360_record": 8120,
+    "no_target_in_period": 70
+   },
+   "target_distribution_evaluation_rows": {
+    "Pass": 29091,
+    "Carry": 24003,
+    "Ball Recovery": 2627,
+    "Clearance": 1058,
+    "Dribble": 811,
+    "Shot": 732,
+    "Miscontrol": 725,
+    "Dispossessed": 608
+   },
+   "spatial_available_share_evaluation_rows": 0.999966473891543,
+   "spatial_available_share_all_observations": 0.8792541823273639
+  },
+  "fullstream9": {
+   "description": "Immediate next raw event in the same period, in raw event order; its type if it is one of the 8 production types, else the explicit class \"Other\" (every remaining raw type, including administrative events).",
+   "vocabulary": [
+    "Pass",
+    "Carry",
+    "Ball Recovery",
+    "Clearance",
+    "Dribble",
+    "Shot",
+    "Miscontrol",
+    "Dispossessed",
+    "Other"
+   ],
+   "sequences": 70,
+   "observations": 117472,
+   "prediction_points": 67845,
+   "evaluation_rows": 59713,
+   "exclusion_reasons_at_observations": {
+    "evaluated": 59713,
+    "current_event_type_not_a_prediction_point": 49557,
+    "current_event_without_360_record": 8132,
+    "no_target_in_period": 70
+   },
+   "target_distribution_evaluation_rows": {
+    "Other": 35407,
+    "Pass": 19379,
+    "Carry": 2683,
+    "Ball Recovery": 841,
+    "Miscontrol": 469,
+    "Clearance": 306,
+    "Shot": 297,
+    "Dispossessed": 192,
+    "Dribble": 139
+   },
+   "spatial_available_share_evaluation_rows": 0.9989951936764189,
+   "spatial_available_share_all_observations": 0.5078061154998638
+  }
+ },
+ "primary_target_reproduces_production": {
+  "rows_ours": 59655,
+  "rows_production": 59655,
+  "only_ours": 0,
+  "only_production": 0,
+  "target_type_mismatches": 0,
+  "target_event_mismatches": 0,
+  "passed": true
+ }
+}

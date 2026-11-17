@@ -1,0 +1,612 @@
+{
+ "A_current_8": {
+  "input_types": [
+   "Ball Recovery",
+   "Carry",
+   "Clearance",
+   "Dispossessed",
+   "Dribble",
+   "Miscontrol",
+   "Pass",
+   "Shot"
+  ],
+  "target_types": [
+   "Ball Recovery",
+   "Carry",
+   "Clearance",
+   "Dispossessed",
+   "Dribble",
+   "Miscontrol",
+   "Pass",
+   "Shot"
+  ],
+  "n_input_types": 8,
+  "n_target_types_defined": 8,
+  "n_target_classes_observed": 8,
+  "input_rows": 787331,
+  "inputs_without_successor": 756,
+  "matches_represented": 417,
+  "rows_vs_A": "+0 (+0.0%)",
+  "pct_raw_events_in_target_set": 57.58,
+  "pct_raw_events_in_input_set": 57.58,
+  "pct_raw_transitions_between_selected_types_upper_bound": 22.76,
+  "pct_rows_with_no_skipped_event": 40.65,
+  "pct_targets_without_own_360": 8.17,
+  "pct_zero_gap_rows": 5.1,
+  "pct_rows_skipping_intermediate_events": 59.35,
+  "mean_skipped_events_per_row": 0.717,
+  "top_skipped_types": {
+   "Ball Receipt*": 354383,
+   "Pressure": 118017,
+   "Duel": 22295,
+   "Block": 14696,
+   "Goal Keeper": 12263,
+   "Foul Committed": 8966,
+   "Interception": 8586,
+   "Foul Won": 8514
+  },
+  "majority_class": "Pass",
+  "majority_share_pct": 48.64,
+  "smallest_class": "Dispossessed",
+  "smallest_class_count": 8722,
+  "imbalance_ratio": 43.9,
+  "classes_below_1pct": 0,
+  "classes_below_0_1pct": 0,
+  "classes_below_1000_rows": 0,
+  "target_entropy_bits": 1.662,
+  "log2_classes": 3.0,
+  "conditional_entropy_given_current_type_bits": 1.011,
+  "pct_rows_near_deterministic_given_current_type": 0.0,
+  "mutual_information_current_type_target_bits": 0.65,
+  "share_of_target_entropy_explained_by_current_type_pct": 39.1,
+  "pct_rows_in_cells_with_p_ge_0_7": 76.28,
+  "largest_cells": [
+   [
+    "Carry",
+    "Pass",
+    288988,
+    36.7,
+    0.895
+   ],
+   [
+    "Pass",
+    "Carry",
+    273093,
+    34.69,
+    0.732
+   ],
+   [
+    "Pass",
+    "Pass",
+    66156,
+    8.4,
+    0.177
+   ],
+   [
+    "Ball Recovery",
+    "Carry",
+    30899,
+    3.92,
+    0.848
+   ],
+   [
+    "Pass",
+    "Ball Recovery",
+    18142,
+    2.3,
+    0.049
+   ],
+   [
+    "Carry",
+    "Dribble",
+    11509,
+    1.46,
+    0.036
+   ],
+   [
+    "Pass",
+    "Clearance",
+    10326,
+    1.31,
+    0.028
+   ],
+   [
+    "Carry",
+    "Dispossessed",
+    8620,
+    1.09,
+    0.027
+   ]
+  ],
+  "near_deterministic_cells": [],
+  "estimated_csv_size_mb": 276
+ },
+ "B_all_raw_types": {
+  "input_types": [
+   "50/50",
+   "Bad Behaviour",
+   "Ball Receipt*",
+   "Ball Recovery",
+   "Block",
+   "Carry",
+   "Clearance",
+   "Dispossessed",
+   "Dribble",
+   "Dribbled Past",
+   "Duel",
+   "Error",
+   "Foul Committed",
+   "Foul Won",
+   "Goal Keeper",
+   "Half End",
+   "Half Start",
+   "Injury Stoppage",
+   "Interception",
+   "Miscontrol",
+   "Offside",
+   "Own Goal Against",
+   "Own Goal For",
+   "Pass",
+   "Player Off",
+   "Player On",
+   "Pressure",
+   "Referee Ball-Drop",
+   "Shield",
+   "Shot",
+   "Starting XI",
+   "Substitution",
+   "Tactical Shift"
+  ],
+  "target_types": [
+   "50/50",
+   "Bad Behaviour",
+   "Ball Receipt*",
+   "Ball Recovery",
+   "Block",
+   "Carry",
+   "Clearance",
+   "Dispossessed",
+   "Dribble",
+   "Dribbled Past",
+   "Duel",
+   "Error",
+   "Foul Committed",
+   "Foul Won",
+   "Goal Keeper",
+   "Half End",
+   "Half Start",
+   "Injury Stoppage",
+   "Interception",
+   "Miscontrol",
+   "Offside",
+   "Own Goal Against",
+   "Own Goal For",
+   "Pass",
+   "Player Off",
+   "Player On",
+   "Pressure",
+   "Referee Ball-Drop",
+   "Shield",
+   "Shot",
+   "Starting XI",
+   "Substitution",
+   "Tactical Shift"
+  ],
+  "n_input_types": 33,
+  "n_target_types_defined": 33,
+  "n_target_classes_observed": 31,
+  "input_rows": 1357626,
+  "inputs_without_successor": 0,
+  "matches_represented": 417,
+  "rows_vs_A": "+570,295 (+72.4%)",
+  "pct_raw_events_in_target_set": 100.0,
+  "pct_raw_events_in_input_set": 100.0,
+  "pct_raw_transitions_between_selected_types_upper_bound": 100.0,
+  "pct_rows_with_no_skipped_event": 100.0,
+  "pct_targets_without_own_360": 6.02,
+  "pct_zero_gap_rows": 32.59,
+  "pct_rows_skipping_intermediate_events": 0.0,
+  "mean_skipped_events_per_row": 0.0,
+  "top_skipped_types": {},
+  "majority_class": "Pass",
+  "majority_share_pct": 28.07,
+  "smallest_class": "Player Off",
+  "smallest_class_count": 31,
+  "imbalance_ratio": 12293.4,
+  "classes_below_1pct": 23,
+  "classes_below_0_1pct": 13,
+  "classes_below_1000_rows": 11,
+  "target_entropy_bits": 2.699,
+  "log2_classes": 4.954,
+  "conditional_entropy_given_current_type_bits": 1.34,
+  "pct_rows_near_deterministic_given_current_type": 1.73,
+  "mutual_information_current_type_target_bits": 1.359,
+  "share_of_target_entropy_explained_by_current_type_pct": 50.4,
+  "pct_rows_in_cells_with_p_ge_0_7": 66.44,
+  "largest_cells": [
+   [
+    "Pass",
+    "Ball Receipt*",
+    321253,
+    23.66,
+    0.86
+   ],
+   [
+    "Ball Receipt*",
+    "Carry",
+    277593,
+    20.45,
+    0.748
+   ],
+   [
+    "Carry",
+    "Pass",
+    234963,
+    17.31,
+    0.728
+   ],
+   [
+    "Carry",
+    "Pressure",
+    67041,
+    4.94,
+    0.208
+   ],
+   [
+    "Pressure",
+    "Pass",
+    52313,
+    3.85,
+    0.441
+   ],
+   [
+    "Ball Receipt*",
+    "Pass",
+    51191,
+    3.77,
+    0.138
+   ],
+   [
+    "Pressure",
+    "Ball Receipt*",
+    33435,
+    2.46,
+    0.282
+   ],
+   [
+    "Pass",
+    "Pressure",
+    32704,
+    2.41,
+    0.088
+   ]
+  ],
+  "near_deterministic_cells": [
+   [
+    "Foul Committed",
+    "Foul Won",
+    8486,
+    0.948
+   ],
+   [
+    "Dispossessed",
+    "Duel",
+    8356,
+    1.0
+   ],
+   [
+    "Dribbled Past",
+    "Dribble",
+    6600,
+    1.0
+   ]
+  ],
+  "estimated_csv_size_mb": 477
+ },
+ "C_all_football_actions": {
+  "input_types": [
+   "50/50",
+   "Ball Receipt*",
+   "Ball Recovery",
+   "Block",
+   "Carry",
+   "Clearance",
+   "Dispossessed",
+   "Dribble",
+   "Dribbled Past",
+   "Duel",
+   "Foul Committed",
+   "Foul Won",
+   "Goal Keeper",
+   "Interception",
+   "Miscontrol",
+   "Pass",
+   "Pressure",
+   "Shield",
+   "Shot"
+  ],
+  "target_types": [
+   "50/50",
+   "Ball Receipt*",
+   "Ball Recovery",
+   "Block",
+   "Carry",
+   "Clearance",
+   "Dispossessed",
+   "Dribble",
+   "Dribbled Past",
+   "Duel",
+   "Foul Committed",
+   "Foul Won",
+   "Goal Keeper",
+   "Interception",
+   "Miscontrol",
+   "Pass",
+   "Pressure",
+   "Shield",
+   "Shot"
+  ],
+  "n_input_types": 19,
+  "n_target_types_defined": 19,
+  "n_target_classes_observed": 19,
+  "input_rows": 1356505,
+  "inputs_without_successor": 669,
+  "matches_represented": 417,
+  "rows_vs_A": "+569,174 (+72.3%)",
+  "pct_raw_events_in_target_set": 99.06,
+  "pct_raw_events_in_input_set": 99.06,
+  "pct_raw_transitions_between_selected_types_upper_bound": 98.71,
+  "pct_rows_with_no_skipped_event": 99.71,
+  "pct_targets_without_own_360": 5.83,
+  "pct_zero_gap_rows": 32.61,
+  "pct_rows_skipping_intermediate_events": 0.29,
+  "mean_skipped_events_per_row": 0.005,
+  "top_skipped_types": {
+   "Substitution": 2173,
+   "Injury Stoppage": 1810,
+   "Tactical Shift": 884,
+   "Referee Ball-Drop": 799,
+   "Player On": 368,
+   "Player Off": 362,
+   "Error": 219,
+   "Bad Behaviour": 215
+  },
+  "majority_class": "Pass",
+  "majority_share_pct": 28.29,
+  "smallest_class": "Shield",
+  "smallest_class_count": 418,
+  "imbalance_ratio": 918.2,
+  "classes_below_1pct": 11,
+  "classes_below_0_1pct": 1,
+  "classes_below_1000_rows": 1,
+  "target_entropy_bits": 2.664,
+  "log2_classes": 4.248,
+  "conditional_entropy_given_current_type_bits": 1.311,
+  "pct_rows_near_deterministic_given_current_type": 1.73,
+  "mutual_information_current_type_target_bits": 1.353,
+  "share_of_target_entropy_explained_by_current_type_pct": 50.8,
+  "pct_rows_in_cells_with_p_ge_0_7": 66.59,
+  "largest_cells": [
+   [
+    "Pass",
+    "Ball Receipt*",
+    321583,
+    23.71,
+    0.861
+   ],
+   [
+    "Ball Receipt*",
+    "Carry",
+    277593,
+    20.46,
+    0.748
+   ],
+   [
+    "Carry",
+    "Pass",
+    235185,
+    17.34,
+    0.728
+   ],
+   [
+    "Carry",
+    "Pressure",
+    67081,
+    4.95,
+    0.208
+   ],
+   [
+    "Pressure",
+    "Pass",
+    52358,
+    3.86,
+    0.442
+   ],
+   [
+    "Ball Receipt*",
+    "Pass",
+    51423,
+    3.79,
+    0.139
+   ],
+   [
+    "Pressure",
+    "Ball Receipt*",
+    33440,
+    2.47,
+    0.282
+   ],
+   [
+    "Pass",
+    "Pressure",
+    32733,
+    2.41,
+    0.088
+   ]
+  ],
+  "near_deterministic_cells": [
+   [
+    "Foul Committed",
+    "Foul Won",
+    8486,
+    0.949
+   ],
+   [
+    "Dispossessed",
+    "Duel",
+    8356,
+    1.0
+   ],
+   [
+    "Dribbled Past",
+    "Dribble",
+    6600,
+    1.0
+   ]
+  ],
+  "estimated_csv_size_mb": 476
+ },
+ "D_expanded_selected": {
+  "input_types": [
+   "50/50",
+   "Ball Recovery",
+   "Block",
+   "Carry",
+   "Clearance",
+   "Dispossessed",
+   "Dribble",
+   "Duel",
+   "Foul Committed",
+   "Goal Keeper",
+   "Interception",
+   "Miscontrol",
+   "Pass",
+   "Pressure",
+   "Shot"
+  ],
+  "target_types": [
+   "50/50",
+   "Ball Recovery",
+   "Block",
+   "Carry",
+   "Clearance",
+   "Dispossessed",
+   "Dribble",
+   "Duel",
+   "Foul Committed",
+   "Goal Keeper",
+   "Interception",
+   "Miscontrol",
+   "Pass",
+   "Pressure",
+   "Shot"
+  ],
+  "n_input_types": 15,
+  "n_target_types_defined": 15,
+  "n_target_classes_observed": 15,
+  "input_rows": 969899,
+  "inputs_without_successor": 673,
+  "matches_represented": 417,
+  "rows_vs_A": "+182,568 (+23.2%)",
+  "pct_raw_events_in_target_set": 71.18,
+  "pct_raw_events_in_input_set": 71.18,
+  "pct_raw_transitions_between_selected_types_upper_bound": 43.1,
+  "pct_rows_with_no_skipped_event": 61.49,
+  "pct_targets_without_own_360": 7.84,
+  "pct_zero_gap_rows": 7.28,
+  "pct_rows_skipping_intermediate_events": 38.51,
+  "mean_skipped_events_per_row": 0.391,
+  "top_skipped_types": {
+   "Ball Receipt*": 355914,
+   "Foul Won": 8458,
+   "Dribbled Past": 6673,
+   "Substitution": 2451,
+   "Injury Stoppage": 1898,
+   "Tactical Shift": 941,
+   "Referee Ball-Drop": 840,
+   "Shield": 420
+  },
+  "majority_class": "Pass",
+  "majority_share_pct": 39.12,
+  "smallest_class": "50/50",
+  "smallest_class_count": 1504,
+  "imbalance_ratio": 252.3,
+  "classes_below_1pct": 4,
+  "classes_below_0_1pct": 0,
+  "classes_below_1000_rows": 0,
+  "target_entropy_bits": 2.392,
+  "log2_classes": 3.907,
+  "conditional_entropy_given_current_type_bits": 1.656,
+  "pct_rows_near_deterministic_given_current_type": 0.86,
+  "mutual_information_current_type_target_bits": 0.736,
+  "share_of_target_entropy_explained_by_current_type_pct": 30.8,
+  "pct_rows_in_cells_with_p_ge_0_7": 29.85,
+  "largest_cells": [
+   [
+    "Pass",
+    "Carry",
+    247469,
+    25.51,
+    0.663
+   ],
+   [
+    "Carry",
+    "Pass",
+    235185,
+    24.25,
+    0.728
+   ],
+   [
+    "Carry",
+    "Pressure",
+    67081,
+    6.92,
+    0.208
+   ],
+   [
+    "Pressure",
+    "Pass",
+    59562,
+    6.14,
+    0.502
+   ],
+   [
+    "Pass",
+    "Pass",
+    44965,
+    4.64,
+    0.12
+   ],
+   [
+    "Pass",
+    "Pressure",
+    32942,
+    3.4,
+    0.088
+   ],
+   [
+    "Ball Recovery",
+    "Carry",
+    30856,
+    3.18,
+    0.847
+   ],
+   [
+    "Pressure",
+    "Carry",
+    22710,
+    2.34,
+    0.192
+   ]
+  ],
+  "near_deterministic_cells": [
+   [
+    "Dispossessed",
+    "Duel",
+    8356,
+    1.0
+   ]
+  ],
+  "estimated_csv_size_mb": 340
+ }
+}

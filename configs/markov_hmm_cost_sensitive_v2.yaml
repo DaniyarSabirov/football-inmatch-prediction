@@ -1,0 +1,80 @@
+# Experiment 2 (2026-10-28): cost-sensitive decisions, Scenario D taxonomy,
+# pitch-third Markov chains and a redesigned (categorical) spatial HMM.
+# Read by src/sequence_models/config_v2.py; copied into the result directory.
+# Experiment 1 (configs/markov_hmm_pilot.yaml, results/markov_hmm_pilot/) is
+# not modified: its split manifest is READ to reuse the final-test hold-out,
+# the development pool, the pilot subset and the pilot folds.
+
+experiment_name: markov_hmm_cost_sensitive_v2
+output_dir: results/markov_hmm_cost_sensitive_v2
+experiment1_split_manifest: results/markov_hmm_pilot/split_manifest.json
+# Development-only raw event table (never contains a final-test match).
+event_table_cache: data/interim/sequence_models/event_table_development_v2.pkl
+excluded_periods: [5]   # penalty shootout (verified in experiment 1); ordinary penalties kept
+
+taxonomies:
+  filtered8:
+    description: >-
+      Production taxonomy (8 types). Filtered-event task: next event of one of
+      these types in the same period, raw event order; other raw events are
+      skipped by definition. Identical to the production target (minus period 5).
+    event_types: [Pass, Carry, Ball Recovery, Clearance, Dribble, Shot, Miscontrol, Dispossessed]
+  scenarioD15:
+    description: >-
+      Scenario D of results/event_taxonomy_research_2026-10-27 (15 types, input
+      set = target set): all football actions minus the derived companions
+      (Ball Receipt*, Foul Won, Dribbled Past) minus types with < 1,000
+      eligible occurrences (Shield). Filtered-event task with the same rules as
+      filtered8. Open options of the research are kept at their measured
+      defaults: Dispossessed -> Duel is NOT skipped (option a), Goal Keeper is
+      an input and a target, 50/50 is its own class.
+    event_types: [Pass, Carry, Ball Recovery, Clearance, Dribble, Shot, Miscontrol, Dispossessed,
+                  Pressure, Duel, Interception, Block, Goal Keeper, Foul Committed, 50/50]
+
+# Tier A = experiment 1's 30 pilot matches and its 5 folds: exploration and
+# TUNING (HMM K, cost exponent). Tier B = the other 304 development matches:
+# held-out development evaluation with every tuned choice frozen from Tier A.
+tiers:
+  tier_b_n_folds: 5
+  tier_b_fold_seed: 20261027
+
+rare_class_threshold: 0.05     # a class is "rare" if its Tier A training share is below 5%
+
+markov:
+  models: [mc1, mc2, mc1_zone, mc2_zone]
+  base_alpha: 1.0
+  concentration_grid: [1, 4, 16, 64, 256]   # chosen per outer fold by inner CV log loss (nested)
+
+hmm:
+  emissions: [event, factorized, joint]
+  tier_a_n_states: [2, 3, 4, 5, 6, 8, 10, 12]
+  seeds: [0, 1, 2]
+  init_self_transition: [0.5, 0.0]      # persistence-biased (experiment 1) and unbiased
+  init_concentration: 20.0
+  pseudo_count: 1.0
+  max_iter: 1000
+  tol: 1.0e-6
+  # Tier B uses only the initialisation type that most often had the best
+  # TRAINING objective on Tier A (no validation labels), all seeds: a full
+  # init grid would need > 3 h at ~1.5 GB per worker on this 8 GB machine.
+  tier_b_init: most_frequent_training_winner_on_tier_a
+  workers_tier_a: 6                      # ~0.7 GB per worker
+  workers_tier_b: 3                      # ~1.5 GB per worker
+
+cost:
+  # C(a,k) = m_k + f_a (a != k), m_k = min(cap, (pi_max / pi_k)^gamma) from
+  # training-fold priors. Unit: cost of missing the most frequent class.
+  schemes:
+    uniform:  {gamma: 0.0, cap: 1.0,  false_alarm: 0.0, description: "0-1 loss (argmax); reference"}
+    moderate: {gamma: 0.5, cap: 5.0,  false_alarm: 0.0, description: "square-root inverse frequency, at most 5x"}
+    strong:   {gamma: 1.0, cap: 20.0, false_alarm: 0.0, description: "inverse frequency, at most 20x"}
+  tuned:
+    gamma_grid: [0.0, 0.25, 0.5, 0.75, 1.0]
+    cap: 20.0
+    objective: macro_f1        # chosen on Tier A out-of-fold predictions, applied unchanged to Tier B
+  tie_tolerance: 1.0e-12
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7
+  probability_tolerance: 1.0e-9

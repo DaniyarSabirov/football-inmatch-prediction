@@ -1,0 +1,77 @@
+{
+ "scope": "Tier B: Markov models of both taxonomies re-run from raw data; fold-0 selected HMMs re-fitted from scratch with the stored seed and init",
+ "filtered8": {
+  "markov_log_loss_abs_diff_vs_stored": {
+   "frequency_baseline": 0.0,
+   "mc1": 0.0,
+   "mc2": 0.0,
+   "mc1_zone": 0.0,
+   "mc2_zone": 0.0,
+   "exp1_markov_order1": 0.0
+  },
+  "hmm_fold0_refit": {
+   "hmm_event|fold0|K12": {
+    "max_abs_transmat_diff": 0.0,
+    "max_abs_emission_diff": 0.0,
+    "n_iter_stored_vs_refit": [
+     580,
+     580
+    ]
+   },
+   "hmm_factorized|fold0|K12": {
+    "max_abs_transmat_diff": 0.0,
+    "max_abs_emission_diff": 0.0,
+    "n_iter_stored_vs_refit": [
+     160,
+     160
+    ]
+   },
+   "hmm_joint|fold0|K12": {
+    "max_abs_transmat_diff": 0.0,
+    "max_abs_emission_diff": 0.0,
+    "n_iter_stored_vs_refit": [
+     843,
+     843
+    ]
+   }
+  },
+  "passed": true
+ },
+ "scenarioD15": {
+  "markov_log_loss_abs_diff_vs_stored": {
+   "frequency_baseline": 2.220446049250313e-16,
+   "mc1": 0.0,
+   "mc2": 2.220446049250313e-16,
+   "mc1_zone": 0.0,
+   "mc2_zone": 0.0,
+   "exp1_markov_order1": 0.0
+  },
+  "hmm_fold0_refit": {
+   "hmm_event|fold0|K12": {
+    "max_abs_transmat_diff": 0.0,
+    "max_abs_emission_diff": 0.0,
+    "n_iter_stored_vs_refit": [
+     209,
+     209
+    ]
+   },
+   "hmm_factorized|fold0|K12": {
+    "max_abs_transmat_diff": 0.0,
+    "max_abs_emission_diff": 0.0,
+    "n_iter_stored_vs_refit": [
+     179,
+     179
+    ]
+   },
+   "hmm_joint|fold0|K12": {
+    "max_abs_transmat_diff": 0.0,
+    "max_abs_emission_diff": 0.0,
+    "n_iter_stored_vs_refit": [
+     265,
+     265
+    ]
+   }
+  },
+  "passed": true
+ }
+}

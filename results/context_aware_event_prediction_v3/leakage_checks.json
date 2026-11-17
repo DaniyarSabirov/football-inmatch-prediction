@@ -1,0 +1,14 @@
+{
+ "final_test_matches_in_any_feature_table": [],
+ "tier_a_tier_b_overlap": [],
+ "folds_match_grouped": true,
+ "plan_frozen_before_tier_b": "frozen_plan.json + sha256 written by 'freeze'; 'confirm' refuses a modified plan",
+ "plan_sha256": "b6d57a62f8b1baa042ded26f55902e63f3e3a2e362df470936b8f84f79f4bbff",
+ "plan_sha256_matches_file": true,
+ "tier_b_already_inspected_in_experiment_2": true,
+ "causal_features": "forward scans over earlier records only (tests/test_v3_features_taxonomy.py truncation test)",
+ "statsbomb_possession_ids": "not used as features (look-ahead evidence in taxonomy/possession_audit.json)",
+ "event_outcomes": "never inputs: only type, location and earlier records; subtype/outcome used only by the taxonomy rules for the CURRENT record's own annotation companions",
+ "scalers_and_smoothing": "LR standardisation and Markov concentration fitted on training folds only (tests)",
+ "shot_thresholds": "fixed on Tier A out-of-fold predictions, applied unchanged to Tier B"
+}

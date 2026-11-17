@@ -1,0 +1,9 @@
+current_event,Pass,Carry,Ball Recovery,Clearance,Dribble,Shot,Miscontrol,Dispossessed
+Pass,6653,23683,1543,974,7,327,154,15
+Carry,24288,44,18,1,908,387,666,685
+Ball Recovery,232,2493,103,14,4,93,2,1
+Clearance,673,2,452,106,0,1,2,0
+Dribble,162,607,134,14,0,1,0,0
+Shot,601,0,142,59,0,2,0,0
+Miscontrol,411,13,328,69,0,1,0,1
+Dispossessed,306,157,226,10,0,0,0,0

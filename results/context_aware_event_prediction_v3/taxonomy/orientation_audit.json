@@ -1,0 +1,110 @@
+{
+ "shots": 8472,
+ "shots_x_ge_60_share": 0.9984655335221907,
+ "shots_x_ge_60_share_by_period": {
+  "1": 0.9983978638184245,
+  "2": 0.998671096345515,
+  "3": 1.0,
+  "4": 0.9913793103448276
+ },
+ "shots_x_lt_60_cases": [
+  {
+   "match_id": 3773665,
+   "period": 1,
+   "index": 116,
+   "location_x": 40.0,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3802837,
+   "period": 1,
+   "index": 1412,
+   "location_x": 57.2,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3837876,
+   "period": 2,
+   "index": 3286,
+   "location_x": 56.1,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3837963,
+   "period": 1,
+   "index": 520,
+   "location_x": 50.5,
+   "subtype": "Free Kick"
+  },
+  {
+   "match_id": 3857293,
+   "period": 2,
+   "index": 2830,
+   "location_x": 59.0,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3869220,
+   "period": 4,
+   "index": 4155,
+   "location_x": 59.6,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3895121,
+   "period": 2,
+   "index": 2581,
+   "location_x": 57.7,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3938637,
+   "period": 1,
+   "index": 310,
+   "location_x": 54.2,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3938639,
+   "period": 2,
+   "index": 3133,
+   "location_x": 52.0,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3940983,
+   "period": 2,
+   "index": 3003,
+   "location_x": 48.1,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3941018,
+   "period": 1,
+   "index": 1708,
+   "location_x": 53.8,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3941018,
+   "period": 2,
+   "index": 2135,
+   "location_x": 57.4,
+   "subtype": "Open Play"
+  },
+  {
+   "match_id": 3941022,
+   "period": 1,
+   "index": 726,
+   "location_x": 59.0,
+   "subtype": "Open Play"
+  }
+ ],
+ "goalkeeper_actions": 3794,
+ "goalkeeper_actions_x_le_30_share": 0.992619926199262,
+ "kick_offs": 1699,
+ "kick_offs_x_in_55_65_share": 1.0,
+ "clearances": 13059,
+ "clearances_x_le_50_share": 0.9214334941419711,
+ "missing_location_share": 0.008335885244580546
+}

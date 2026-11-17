@@ -1,0 +1,6 @@
+{
+ "reference_refit_max_abs_diff": 0.0,
+ "combination_refit_max_abs_diff": 0.0,
+ "reference_vs_experiment2_mc2_zone_max_abs_diff_float32": 2.9767632914179387e-08,
+ "passed": true
+}

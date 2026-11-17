@@ -1,0 +1,35 @@
+{
+ "python": "3.11.1 (v3.11.1:a7a450f84a, Dec  6 2022, 15:24:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+ "platform": "macOS-26.6.2-arm64-arm-64bit",
+ "git_commit": "ae7b6add69031e41292c124574664d54714f33aa",
+ "uncommitted_changes": [
+  " M pyproject.toml",
+  "?? configs/markov_hmm_cost_sensitive_v2.yaml",
+  "?? configs/markov_hmm_pilot.yaml",
+  "?? results/event_taxonomy_research_2026-10-27/",
+  "?? results/markov_hmm_cost_sensitive_v2/",
+  "?? results/markov_hmm_pilot/",
+  "?? scripts/run_markov_hmm_cost_sensitive_v2.py",
+  "?? scripts/run_markov_hmm_pilot.py",
+  "?? scripts/verify_markov_hmm_cost_sensitive_v2.py",
+  "?? scripts/verify_markov_hmm_pilot.py",
+  "?? src/sequence_models/",
+  "?? tests/test_sequence_hmm.py",
+  "?? tests/test_sequence_markov_metrics.py",
+  "?? tests/test_sequence_tasks_pipeline.py",
+  "?? tests/test_v2_cost_sensitive.py",
+  "?? tests/test_v2_pipeline.py",
+  "?? tests/test_v2_spatial_models.py"
+ ],
+ "packages": {
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "pyyaml": "6.0.3"
+ },
+ "parquet_engine": "pyarrow",
+ "production_dataset_sha256": "8f6ff11895265888be27b6befdf64bb673e8dbbd177d72e8e260e03b8cbe259c",
+ "development_event_table_cache_sha256": "d6d6493ce37e80a57a7f8023514eb795a17bb2dfb59ed6a9aaf07d3d3a849721"
+}

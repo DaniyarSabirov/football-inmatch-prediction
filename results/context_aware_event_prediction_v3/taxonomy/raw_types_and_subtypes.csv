@@ -1,0 +1,62 @@
+type,subtype,n
+50/50,,1327
+Bad Behaviour,,214
+Ball Receipt*,,331711
+Ball Recovery,,32637
+Block,,13134
+Carry,,282368
+Clearance,,13059
+Dispossessed,,7944
+Dribble,,10364
+Dribbled Past,,6061
+Duel,Aerial Lost,9474
+Duel,Tackle,12221
+Error,,189
+Foul Committed,6 Seconds,1
+Foul Committed,Dangerous Play,52
+Foul Committed,Dive,12
+Foul Committed,Foul Out,33
+Foul Committed,Handball,367
+Foul Committed,,7670
+Foul Won,,7719
+Goal Keeper,Collected,554
+Goal Keeper,Goal Conceded,883
+Goal Keeper,Keeper Sweeper,690
+Goal Keeper,Penalty Conceded,78
+Goal Keeper,Penalty Saved,22
+Goal Keeper,Penalty Saved to Post,2
+Goal Keeper,Punch,473
+Goal Keeper,Save,20
+Goal Keeper,Shot Faced,5480
+Goal Keeper,Shot Saved,1935
+Goal Keeper,Shot Saved Off Target,32
+Goal Keeper,Shot Saved to Post,40
+Goal Keeper,Smother,26
+Half End,,1424
+Half Start,,1424
+Injury Stoppage,,1848
+Interception,,7775
+Miscontrol,,9097
+Offside,,116
+Own Goal Against,,41
+Own Goal For,,41
+Pass,Corner,3157
+Pass,Free Kick,7916
+Pass,Goal Kick,5199
+Pass,Interception,2617
+Pass,Kick Off,1699
+Pass,Recovery,25908
+Pass,Throw-in,13349
+Pass,,290820
+Player Off,,403
+Player On,,401
+Pressure,,106522
+Referee Ball-Drop,,814
+Shield,,440
+Shot,Corner,6
+Shot,Free Kick,275
+Shot,Open Play,8081
+Shot,Penalty,110
+Starting XI,,668
+Substitution,,2879
+Tactical Shift,,1078

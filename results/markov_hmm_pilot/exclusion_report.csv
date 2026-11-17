@@ -1,0 +1,104 @@
+task,reason,raw_type,n_events,n_matches
+filtered8,current_event_without_360_record,Pass,64676,417
+filtered8,current_event_without_360_record,Carry,30174,417
+filtered8,current_event_without_360_record,Ball Recovery,4179,417
+filtered8,current_event_without_360_record,Dribble,1830,398
+filtered8,current_event_without_360_record,Dispossessed,1486,386
+filtered8,current_event_without_360_record,Miscontrol,1364,385
+filtered8,current_event_without_360_record,Clearance,1185,367
+filtered8,current_event_without_360_record,Shot,278,185
+filtered8,evaluated,Pass,373177,417
+filtered8,evaluated,Carry,322940,417
+filtered8,evaluated,Ball Recovery,36427,417
+filtered8,evaluated,Clearance,14988,417
+filtered8,evaluated,Dribble,11185,417
+filtered8,evaluated,Shot,10257,417
+filtered8,evaluated,Miscontrol,9904,417
+filtered8,evaluated,Dispossessed,8349,417
+filtered8,excluded_period_penalty_shootout,Goal Keeper,183,18
+filtered8,excluded_period_penalty_shootout,Shot,183,18
+filtered8,excluded_period_penalty_shootout,Half End,36,18
+filtered8,excluded_period_penalty_shootout,Half Start,36,18
+filtered8,excluded_period_penalty_shootout,Bad Behaviour,4,2
+filtered8,excluded_period_penalty_shootout,Tactical Shift,1,1
+filtered8,no_target_in_period,Pass,586,364
+filtered8,no_target_in_period,Shot,113,104
+filtered8,no_target_in_period,Clearance,81,78
+filtered8,no_target_in_period,Ball Recovery,43,42
+filtered8,no_target_in_period,Miscontrol,23,21
+filtered8,no_target_in_period,Carry,18,18
+filtered8,no_target_in_period,Dispossessed,17,17
+filtered8,no_target_in_period,Dribble,13,13
+filtered8,skipped_by_filtered_task_definition,Ball Receipt*,414717,417
+filtered8,skipped_by_filtered_task_definition,Pressure,133003,417
+filtered8,skipped_by_filtered_task_definition,Duel,26980,417
+filtered8,skipped_by_filtered_task_definition,Block,16432,417
+filtered8,skipped_by_filtered_task_definition,Goal Keeper,12888,417
+filtered8,skipped_by_filtered_task_definition,Foul Committed,10310,417
+filtered8,skipped_by_filtered_task_definition,Foul Won,9794,417
+filtered8,skipped_by_filtered_task_definition,Interception,9701,417
+filtered8,skipped_by_filtered_task_definition,Dribbled Past,7587,417
+filtered8,skipped_by_filtered_task_definition,Substitution,3610,417
+filtered8,skipped_by_filtered_task_definition,Injury Stoppage,2311,403
+filtered8,skipped_by_filtered_task_definition,Half End,1788,417
+filtered8,skipped_by_filtered_task_definition,Half Start,1788,417
+filtered8,skipped_by_filtered_task_definition,50/50,1685,301
+filtered8,skipped_by_filtered_task_definition,Tactical Shift,1398,409
+filtered8,skipped_by_filtered_task_definition,Referee Ball-Drop,996,300
+filtered8,skipped_by_filtered_task_definition,Starting XI,834,417
+filtered8,skipped_by_filtered_task_definition,Shield,543,299
+filtered8,skipped_by_filtered_task_definition,Player Off,494,253
+filtered8,skipped_by_filtered_task_definition,Player On,491,252
+filtered8,skipped_by_filtered_task_definition,Bad Behaviour,267,157
+filtered8,skipped_by_filtered_task_definition,Error,237,181
+filtered8,skipped_by_filtered_task_definition,Offside,141,119
+filtered8,skipped_by_filtered_task_definition,Own Goal Against,55,51
+filtered8,skipped_by_filtered_task_definition,Own Goal For,55,51
+fullstream9,current_event_type_not_a_prediction_point,Ball Receipt*,414717,417
+fullstream9,current_event_type_not_a_prediction_point,Pressure,133003,417
+fullstream9,current_event_type_not_a_prediction_point,Duel,26980,417
+fullstream9,current_event_type_not_a_prediction_point,Block,16432,417
+fullstream9,current_event_type_not_a_prediction_point,Goal Keeper,12888,417
+fullstream9,current_event_type_not_a_prediction_point,Foul Committed,10310,417
+fullstream9,current_event_type_not_a_prediction_point,Foul Won,9794,417
+fullstream9,current_event_type_not_a_prediction_point,Interception,9701,417
+fullstream9,current_event_type_not_a_prediction_point,Dribbled Past,7587,417
+fullstream9,current_event_type_not_a_prediction_point,Substitution,3610,417
+fullstream9,current_event_type_not_a_prediction_point,Injury Stoppage,2311,403
+fullstream9,current_event_type_not_a_prediction_point,Half Start,1788,417
+fullstream9,current_event_type_not_a_prediction_point,50/50,1685,301
+fullstream9,current_event_type_not_a_prediction_point,Tactical Shift,1398,409
+fullstream9,current_event_type_not_a_prediction_point,Referee Ball-Drop,996,300
+fullstream9,current_event_type_not_a_prediction_point,Half End,894,417
+fullstream9,current_event_type_not_a_prediction_point,Starting XI,834,417
+fullstream9,current_event_type_not_a_prediction_point,Shield,543,299
+fullstream9,current_event_type_not_a_prediction_point,Player Off,494,253
+fullstream9,current_event_type_not_a_prediction_point,Player On,491,252
+fullstream9,current_event_type_not_a_prediction_point,Bad Behaviour,267,157
+fullstream9,current_event_type_not_a_prediction_point,Error,237,181
+fullstream9,current_event_type_not_a_prediction_point,Offside,141,119
+fullstream9,current_event_type_not_a_prediction_point,Own Goal Against,55,51
+fullstream9,current_event_type_not_a_prediction_point,Own Goal For,55,51
+fullstream9,current_event_without_360_record,Pass,64800,417
+fullstream9,current_event_without_360_record,Carry,30178,417
+fullstream9,current_event_without_360_record,Ball Recovery,4185,417
+fullstream9,current_event_without_360_record,Dribble,1830,398
+fullstream9,current_event_without_360_record,Dispossessed,1492,386
+fullstream9,current_event_without_360_record,Miscontrol,1366,385
+fullstream9,current_event_without_360_record,Clearance,1190,367
+fullstream9,current_event_without_360_record,Shot,281,187
+fullstream9,evaluated,Pass,373639,417
+fullstream9,evaluated,Carry,322954,417
+fullstream9,evaluated,Ball Recovery,36464,417
+fullstream9,evaluated,Clearance,15064,417
+fullstream9,evaluated,Dribble,11198,417
+fullstream9,evaluated,Shot,10367,417
+fullstream9,evaluated,Miscontrol,9925,417
+fullstream9,evaluated,Dispossessed,8360,417
+fullstream9,excluded_period_penalty_shootout,Goal Keeper,183,18
+fullstream9,excluded_period_penalty_shootout,Shot,183,18
+fullstream9,excluded_period_penalty_shootout,Half End,36,18
+fullstream9,excluded_period_penalty_shootout,Half Start,36,18
+fullstream9,excluded_period_penalty_shootout,Bad Behaviour,4,2
+fullstream9,excluded_period_penalty_shootout,Tactical Shift,1,1
+fullstream9,no_target_in_period,Half End,894,417

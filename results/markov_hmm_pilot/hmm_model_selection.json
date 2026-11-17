@@ -1,0 +1,15 @@
+{
+ "filtered8": {
+  "chosen_n_states": {
+   "hmm_event": 5,
+   "hmm_spatial": 5
+  },
+  "rule": "lowest mean validation log loss over folds, seed per fold chosen by highest training penalised log-likelihood"
+ },
+ "fullstream9": {
+  "chosen_n_states": {
+   "hmm_event": 5
+  },
+  "rule": "lowest mean validation log loss over folds, seed per fold chosen by highest training penalised log-likelihood"
+ }
+}

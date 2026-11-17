@@ -1,0 +1,42 @@
+{
+ "scope": "334 development matches (no final-test match read)",
+ "scenario_d_implementation_vs_research_script_tier_a": {
+  "filtered8": {
+   "matches": 30,
+   "rows_ours": 59675,
+   "rows_research_script": 59675,
+   "target_counts_equal": true,
+   "passed": true
+  },
+  "scenarioD15": {
+   "matches": 30,
+   "rows_ours": 73152,
+   "rows_research_script": 73152,
+   "target_counts_equal": true,
+   "passed": true
+  }
+ },
+ "zone_source_validation_development_production_rows": {
+  "rows_compared": 628526,
+  "zone_agreement": 0.9997199797621737,
+  "disagreements": 176,
+  "confusion_event_zone_rows_vs_actor_zone_cols": {
+   "Defensive third": {
+    "Defensive third": 167532,
+    "Middle third": 22,
+    "Attacking third": 0
+   },
+   "Middle third": {
+    "Defensive third": 42,
+    "Middle third": 301974,
+    "Attacking third": 23
+   },
+   "Attacking third": {
+    "Defensive third": 0,
+    "Middle third": 89,
+    "Attacking third": 158844
+   }
+  },
+  "actor_point_missing": 37
+ }
+}
