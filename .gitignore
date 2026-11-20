@@ -88,3 +88,10 @@ results/markov_hmm_pilot/predictions_fullstream9.csv
 # Generated per-event prediction tables
 results/**/predictions*.parquet
 results/**/predictions*.csv
+
+# Local AI-assistant tooling: personal configuration, instructions and session data.
+# The scientific methodology lives in docs/canonical_prediction_protocol.md and needs no AI tool.
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+*.claude-session*
