@@ -1,0 +1,26 @@
+# Canonical baseline experiment on task actions15_360current_v1 (2026-11-19).
+# Read by scripts/run_canonical_baselines.py; copied into the result directory.
+# Hyperparameter grids are fixed here BEFORE the run; they are never chosen from outer-fold results.
+
+experiment_name: canonical_baselines_v1
+task_config: configs/actions15_360current_v1.yaml
+output_dir: results/canonical_baselines_actions15_360current_v1_2026-11-19
+
+markov1:
+  alpha_grid: [0.01, 0.03, 0.1, 0.3, 1.0, 3.0, 10.0]     # additive smoothing, nested CV
+markov2:
+  alpha_grid: [0.01, 0.03, 0.1, 0.3, 1.0, 3.0, 10.0]
+  min_context_count: 20                                  # as in experiments 1-4 (not tuned)
+logistic:
+  solver: lbfgs
+  l1_ratio: 0.0
+  # Extended upward after the experiment-4 audit (C = 10 was at the grid edge there).
+  C_grid: [1.0e-4, 1.0e-3, 1.0e-2, 1.0e-1, 1.0, 10.0, 100.0, 1000.0]
+  max_iter: 10000
+  tol: 1.0e-8
+  absent_class_floor: 1.0e-9
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7
+  probability_tolerance: 1.0e-9

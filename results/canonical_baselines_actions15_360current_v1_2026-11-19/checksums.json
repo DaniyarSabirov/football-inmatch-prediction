@@ -1,0 +1,17 @@
+{
+ "confusion_matrices.csv": "3556e6f6c8ba0d75a02eadb58abcce8fb79ae4b9b8c3b5053c35ed56e9c27ad2",
+ "environment.json": "5d7eb548d78e22fe26147dbdb28091fc50cb5ba8083c53d8bcda66e7534547f8",
+ "experiment_config.yaml": "577567b279980be350588f7d70612a7db380e5fffb28d5346d5224f86f0db3fd",
+ "fold_counts.csv": "da25becd3be666ca0387467d56f2de952c83cfbaf88377394ec612d96e6c48c5",
+ "hyperparameter_choices.csv": "3277d1ea7df8cb07acbdcbdb224f8e046da68cf3ce6713a7e181e4e323a419d0",
+ "logistic_fits.csv": "f14ff12f6ad293f9d623afd7ba4ef0cd5aee3643456b003d9329702611251122",
+ "metrics_by_fold.csv": "f21d1e9de097a3de4431450fdfed50cbbae4af93dd9d9fa625348ee203a8c183",
+ "model_comparison.csv": "fde6a80836940c1a6634e444dba76f7f037b9809195fa683073bbe8cf3a61441",
+ "paired_differences.csv": "e43c629fb46b32402fe61706f35599cd7a4eda7d9121e10a7bac9fdba8e9103f",
+ "per_class_metrics.csv": "d42c72b9d3704dd1a029053eccf5545b775c4b557309d15e4460bb517357e6d9",
+ "raw_source_hashes.csv": "94ca15be7825ec143c736b601a2a59c9d7b5630f1ecf9bcf9307e80d545294a3",
+ "split_manifest.json": "585faefde298d248b17bf433a69850a36fc7a6077a3e0f8306f0f4f9e98f84fe",
+ "task_config.yaml": "dfe6cadf1451cba1bcd33cfa5357f78e7a087679ca6fe9c08d2dcce832b9d8b0",
+ "task_manifest.json": "ceeaf88e155927a2a7789fd5705815b4f7c001beae266706ed611a867d15aef3",
+ "timings.csv": "55292e1e681b69371f28ea435c5bc094635dc3ea39ade236fc36eed3481cd4a3"
+}

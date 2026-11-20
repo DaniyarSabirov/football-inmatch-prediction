@@ -1,0 +1,82 @@
+{
+ "aerial_lost_records_periods_1_4": 8549,
+ "a_linked_aerial_won": {
+  "n": 8549,
+  "pct": 100.0
+ },
+ "b_same_timestamp": {
+  "n": 8549,
+  "pct": 100.0
+ },
+ "c_opposite_team": {
+  "n": 8549,
+  "pct": 100.0
+ },
+ "d_adjacent_raw": {
+  "n": 8549,
+  "pct": 100.0
+ },
+ "e_winner_is_canonical_action": {
+  "n": 8549,
+  "pct": 100.0
+ },
+ "back_link": {
+  "n": 8549,
+  "pct": 100.0
+ },
+ "winner_first": {
+  "n": 1185,
+  "pct": 13.861270324014505
+ },
+ "k4_all_criteria": {
+  "n": 8549,
+  "pct": 100.0
+ },
+ "related_types_distribution": {
+  "Pass": 5249,
+  "Clearance": 2334,
+  "Shot": 720,
+  "Miscontrol": 235,
+  "Carry,Pass": 9,
+  "Pass,Pressure": 1,
+  "Clearance,Pressure": 1
+ },
+ "winner_types": {
+  "Pass": 5259,
+  "Clearance": 2335,
+  "Shot": 720,
+  "Miscontrol": 235
+ },
+ "aerial_lost_with_usable_360": 7842,
+ "winner_with_usable_360_when_loser_has_360": 0.9994899260392757,
+ "same_player_both_records": 0,
+ "canonical_v1_duel_subtypes": {
+  "Aerial Lost": 8549
+ },
+ "v1_aerial_lost_next_is_its_winner": 7364,
+ "v1_winner_next_is_its_aerial_lost": 1185,
+ "v1_next_after_aerial_lost": {
+  "Pass": 0.5243,
+  "Clearance": 0.2833,
+  "Shot": 0.0842,
+  "Ball Recovery": 0.0404,
+  "Miscontrol": 0.0275,
+  "Pressure": 0.0165
+ },
+ "v1_previous_before_aerial_lost": {
+  "Pass": 0.8826,
+  "Clearance": 0.0627,
+  "Block": 0.014,
+  "Miscontrol": 0.0083,
+  "Duel": 0.0081,
+  "Pressure": 0.0062
+ },
+ "k4_effect": {
+  "records_removed": 8549,
+  "v1_eligible_rows_removed_as_current": 7842,
+  "v1_eligible_rows_target_event_changed": 6791,
+  "v1_eligible_rows_target_class_changed": 6791,
+  "eligible_rows_v1": 690147,
+  "eligible_rows_k4": 682305
+ }
+}

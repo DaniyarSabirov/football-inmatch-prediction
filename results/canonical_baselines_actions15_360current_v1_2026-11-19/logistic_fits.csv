@@ -1,0 +1,6 @@
+fold_id,model,C,n_iter,converged,fit_seconds,absent_classes,n_train_rows
+0,logistic_F0,10.0,3564,True,0.46348954199493164,[],552724
+1,logistic_F0,10.0,3130,True,0.34217000000353437,[],552322
+2,logistic_F0,10.0,3584,True,0.3632227909984067,[],551095
+3,logistic_F0,10.0,3465,True,0.3541344580007717,[],552457
+4,logistic_F0,10.0,3596,True,0.41995958299958147,[],551990

@@ -1,0 +1,64 @@
+{
+ "task_version": "actions15_360current_v1",
+ "classes": [
+  "Pass",
+  "Carry",
+  "Ball Recovery",
+  "Clearance",
+  "Dribble",
+  "Shot",
+  "Miscontrol",
+  "Dispossessed",
+  "Pressure",
+  "Duel",
+  "Interception",
+  "Block",
+  "Goal Keeper",
+  "Foul Committed",
+  "50/50"
+ ],
+ "config": "configs/actions15_360current_v1.yaml",
+ "matches": {
+  "development": 334,
+  "tier_a": 30,
+  "tier_b": 304,
+  "final_test_loaded": 0
+ },
+ "companion_records_removed_periods_1_4": {
+  "K2": 12221,
+  "K1": 6441,
+  "K3": 659
+ },
+ "counts_development": {
+  "observations": 864108,
+  "transitions": 863396,
+  "eligible_rows": 762177
+ },
+ "counts_tier_b": {
+  "observations": 782377,
+  "transitions": 781735,
+  "eligible_rows": 690147,
+  "eligible_rows_whose_target_lacks_360": 52956
+ },
+ "dataset_sha256_development": "98facdb9feabe896509d649a89c9f9ff3d402f86603e1c0aa76023e26055df59",
+ "dataset_sha256_tier_b": "c4a71d1f32157d916182d0ccefcd3ab164b62fcd8b1dc2f2b83cac430053b1ef",
+ "raw_source_digest_development": "79821dfe4129ead844a256f750f4ceb81ff91e5e02e272ddbd0737cacff86c70",
+ "raw_source_files": 668,
+ "class_ids": {
+  "Pass": 0,
+  "Carry": 1,
+  "Ball Recovery": 2,
+  "Clearance": 3,
+  "Dribble": 4,
+  "Shot": 5,
+  "Miscontrol": 6,
+  "Dispossessed": 7,
+  "Pressure": 8,
+  "Duel": 9,
+  "Interception": 10,
+  "Block": 11,
+  "Goal Keeper": 12,
+  "Foul Committed": 13,
+  "50/50": 14
+ }
+}

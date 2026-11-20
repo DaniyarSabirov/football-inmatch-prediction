@@ -1,0 +1,47 @@
+{
+ "python": "3.11.1 (v3.11.1:a7a450f84a, Dec  6 2022, 15:24:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+ "git_commit": "7df070abcc4a3fe25f337d98d4e402483a663848",
+ "uncommitted_changes": [
+  " M .gitignore",
+  "D  CLAUDE.md",
+  " M README.md",
+  "?? configs/actions15_360current_v1.yaml",
+  "?? configs/canonical_baselines_v1.yaml",
+  "?? configs/logistic_regression_f0.yaml",
+  "?? docs/canonical_prediction_protocol.md",
+  "?? docs/thesis/",
+  "?? results/aerial_lost_k4_investigation_2026-11-19/",
+  "?? results/canonical_baselines_actions15_360current_v1_2026-11-19/",
+  "?? results/investigation_360_taxonomy_2026-11-18/",
+  "?? results/logistic_regression_f0_2026-11-17/",
+  "?? scripts/build_canonical_task.py",
+  "?? scripts/run_canonical_baselines.py",
+  "?? scripts/run_logistic_f0.py",
+  "?? src/sequence_models/canonical_baselines.py",
+  "?? src/sequence_models/canonical_task.py",
+  "?? src/sequence_models/event_classes.py",
+  "?? src/sequence_models/f0_experiment.py",
+  "?? src/sequence_models/feature_sets.py",
+  "?? src/sequence_models/logistic.py",
+  "?? tests/test_canonical_task.py",
+  "?? tests/test_logistic_f0.py"
+ ],
+ "packages": {
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "pyyaml": "6.0.3"
+ },
+ "runtime_seconds": 82.45562314987183,
+ "random_seeds": {
+  "folds": 20261027,
+  "bootstrap": 7,
+  "models": "none (count models and lbfgs are deterministic)"
+ },
+ "commands": [
+  "python scripts/build_canonical_task.py",
+  "python scripts/run_canonical_baselines.py --overwrite"
+ ]
+}

@@ -5,7 +5,28 @@ events during football matches.
 
 The repository contains the data pipeline for StatsBomb event and 360 data
 (validation, orientation and team-identity correction, a next-event dataset
-with causal features). No prediction model has been trained yet.
+with causal features) and the next-event prediction experiments.
+
+## Canonical prediction protocol
+
+Since 2026-11-19, every new experiment uses the versioned task
+**`actions15_360current_v1`**, specified in
+[`docs/canonical_prediction_protocol.md`](docs/canonical_prediction_protocol.md).
+- **Taxonomy:** 15 action classes; StatsBomb companion records are removed.
+- **Rows:** training and evaluation rows require a 360 snapshot of the current event.
+- **Target:** the next retained event, whether or not it has a 360 snapshot.
+- **Splits:** match-grouped cross-validation on development matches only.
+
+Reproduce:
+
+```bash
+python scripts/build_canonical_task.py
+python scripts/run_canonical_baselines.py
+python -m pytest tests/test_canonical_task.py
+```
+
+Experiments 1–4 under `results/` are historical: they use earlier task definitions and are
+kept unchanged. The section below describes the original 8-class production dataset.
 
 ## Research scope
 
