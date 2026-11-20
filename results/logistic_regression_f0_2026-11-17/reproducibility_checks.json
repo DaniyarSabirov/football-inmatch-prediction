@@ -1,0 +1,39 @@
+{
+ "aggregated_vs_row_level_max_abs_probability_difference": {
+  "fold0_logistic_F0": 1.5409352583928282e-06,
+  "fold1_logistic_F0": 1.1006083086573248e-06,
+  "fold2_logistic_F0": 3.6768303428580396e-06,
+  "fold3_logistic_F0": 2.974170254077535e-06,
+  "fold4_logistic_F0": 2.437689704759549e-06
+ },
+ "determinism_fold0_max_abs_difference": 0.0,
+ "intercept_marginal_identity_max_abs": {
+  "fold0": 7.824232532704922e-09,
+  "fold1": 6.605358593425592e-09,
+  "fold2": 1.0598899424785202e-08,
+  "fold3": 1.695882120844594e-07,
+  "fold4": 9.07925584367475e-09
+ },
+ "experiment2_reproduction": {
+  "n_eval_rows": {
+   "expected": 701144,
+   "got": 701144
+  },
+  "frequency_baseline": {
+   "expected_log_loss": 1.6592461673936363,
+   "got": 1.6592461673936363,
+   "abs_difference": 0.0
+  },
+  "markov_order1": {
+   "expected_log_loss": 1.151972941501348,
+   "got": 1.151972941501348,
+   "abs_difference": 0.0
+  },
+  "markov_order2": {
+   "expected_log_loss": 1.049693324374873,
+   "got": 1.049693324374873,
+   "abs_difference": 0.0
+  },
+  "all_match": true
+ }
+}

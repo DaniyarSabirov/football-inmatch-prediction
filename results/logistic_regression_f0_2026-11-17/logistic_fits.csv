@@ -1,0 +1,11 @@
+fold_id,model,C,solver,penalty,tol,max_iter,n_iter,converged,convergence_warning,n_train_rows,n_unique_train_rows,n_features,fit_seconds,fitted_on,absent_classes
+0,logistic_F0,10.0,lbfgs,l2 (l1_ratio=0),1e-08,5000,3592,True,False,640043.0,640043,15,547.3517165409976,rows,
+0,logistic_F0_unpenalised,inf,lbfgs,none (C=inf),1e-08,5000,5000,False,True,640043.0,178,15,0.4600362920027692,"count-weighted (current, next) cells",
+1,logistic_F0,10.0,lbfgs,l2 (l1_ratio=0),1e-08,5000,3566,True,False,640224.0,640224,15,506.27807262499846,rows,
+1,logistic_F0_unpenalised,inf,lbfgs,none (C=inf),1e-08,5000,5000,False,True,640224.0,178,15,0.46438225000019884,"count-weighted (current, next) cells",
+2,logistic_F0,10.0,lbfgs,l2 (l1_ratio=0),1e-08,5000,3581,True,False,638387.0,638387,15,503.69451208300234,rows,
+2,logistic_F0_unpenalised,inf,lbfgs,none (C=inf),1e-08,5000,5000,False,True,638387.0,181,15,0.465560042001016,"count-weighted (current, next) cells",
+3,logistic_F0,10.0,lbfgs,l2 (l1_ratio=0),1e-08,5000,3597,True,False,639313.0,639313,15,507.5986807500012,rows,
+3,logistic_F0_unpenalised,inf,lbfgs,none (C=inf),1e-08,5000,5000,False,True,639313.0,178,15,0.46646058300029836,"count-weighted (current, next) cells",
+4,logistic_F0,10.0,lbfgs,l2 (l1_ratio=0),1e-08,5000,3324,True,False,639269.0,639269,15,473.16330670800016,rows,
+4,logistic_F0_unpenalised,inf,lbfgs,none (C=inf),1e-08,5000,5000,False,True,639269.0,178,15,0.4611553329996241,"count-weighted (current, next) cells",

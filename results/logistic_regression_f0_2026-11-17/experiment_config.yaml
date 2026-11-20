@@ -1,0 +1,52 @@
+# Experiment 4 (2026-11-17): multinomial logistic regression with the current event only
+# (feature set F0) versus count-based baselines, K = 15 classes (scenarioD15).
+# Read by src/sequence_models/f0_experiment.py; copied into the result directory.
+#
+# Data, partition and folds are REUSED, not rebuilt:
+#   - taxonomy, event cache and final-test hold-out: configs/markov_hmm_cost_sensitive_v2.yaml
+#   - Tier B (304 development matches) and its 5 match-grouped folds: experiment 2's
+#     results/markov_hmm_cost_sensitive_v2/tiers/tier_b/scenarioD15/folds.json
+# The 83 final-test matches are never read. No earlier result is modified.
+
+experiment_name: logistic_regression_f0
+output_dir: results/logistic_regression_f0_2026-11-17
+v2_config: configs/markov_hmm_cost_sensitive_v2.yaml
+taxonomy: scenarioD15
+tier: tier_b
+folds_file: results/markov_hmm_cost_sensitive_v2/tiers/tier_b/scenarioD15/folds.json
+feature_set: F0
+
+# Experiment 2's published Tier B scenarioD15 values for the same rows and folds
+# (results/markov_hmm_cost_sensitive_v2/tiers/tier_b/scenarioD15/model_comparison.csv).
+# The runner recomputes them and refuses to continue on a mismatch: this proves that the
+# evaluation rows, targets and folds are exactly experiment 2's.
+reproduce_experiment2:
+  n_eval_rows: 701144
+  frequency_baseline_log_loss: 1.6592461673936363
+  exp1_markov_order1_log_loss: 1.151972941501348
+  exp1_markov_order2_log_loss: 1.049693324374873
+  tolerance: 1.0e-9
+
+logistic:
+  solver: lbfgs            # deterministic; multinomial softmax for K > 2
+  l1_ratio: 0.0            # L2 penalty (scikit-learn >= 1.8 spelling; `penalty` is deprecated)
+  # Inverse penalty strength. scikit-learn scales the penalty as ||W||^2 / (2 C N); with
+  # N ~ 6e5 training transitions, C >= 1e-2 is already almost unpenalised.
+  C_grid: [1.0e-6, 1.0e-5, 1.0e-4, 1.0e-3, 1.0e-2, 1.0e-1, 1.0, 10.0]
+  selection: nested_inner_cv_log_loss   # per outer fold, leave-one-inner-fold-out on its training folds
+  tie_break: smaller_C                  # among equal inner log loss, prefer stronger regularisation
+  unpenalised_reference: true           # also fit C = inf (theory check: Markov MLE equivalence)
+  max_iter: 5000
+  tol: 1.0e-8
+  absent_class_floor: 1.0e-9
+
+markov:
+  alpha: 1.0                            # experiment 1/2 Laplace chain (primary Markov reference)
+  nested_alpha_grid: [0.01, 0.1, 1.0, 10.0, 100.0]   # supplementary: alpha tuned like C (fairness check)
+  second_order_min_context_count: 20    # supplementary reference only
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7
+  probability_tolerance: 1.0e-9
+  shot_class: Shot

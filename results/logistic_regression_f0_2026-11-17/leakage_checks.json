@@ -1,0 +1,31 @@
+{
+ "matches_loaded": 304,
+ "final_test_matches_loaded": 0,
+ "matches_equal_tier_b": true,
+ "folds_partition_tier_b_exactly_once": true,
+ "train_validation_overlap_per_fold": {
+  "0": 0,
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0
+ },
+ "target_equals_next_observation_symbol": true,
+ "target_strictly_later_in_raw_stream": true,
+ "raw_stream_next_vocabulary_record_is_target": true,
+ "raw_type_of_target_event_matches_target_class": true,
+ "sequences_cross_period_or_match": 0,
+ "penalty_shootout_rows": 0,
+ "eval_rows": 701144,
+ "eval_rows_without_360": 0,
+ "eval_rows_without_target": 0,
+ "training_transitions_total": 799309,
+ "training_transitions_without_360_current_event": 98165,
+ "eval_rows_skipping_at_least_one_raw_record_share": 0.38464851728033045,
+ "eval_rows_mean_skipped_raw_records": 0.390400545394384,
+ "f0_input_columns": [
+  "symbol_id"
+ ],
+ "f0_input_columns_forbidden": [],
+ "all_classes_observed_as_current_event": true
+}

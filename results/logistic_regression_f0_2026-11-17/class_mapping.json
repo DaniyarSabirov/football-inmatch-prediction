@@ -1,0 +1,39 @@
+{
+ "taxonomy": "scenarioD15",
+ "K": 15,
+ "class_to_id": {
+  "Pass": 0,
+  "Carry": 1,
+  "Ball Recovery": 2,
+  "Clearance": 3,
+  "Dribble": 4,
+  "Shot": 5,
+  "Miscontrol": 6,
+  "Dispossessed": 7,
+  "Pressure": 8,
+  "Duel": 9,
+  "Interception": 10,
+  "Block": 11,
+  "Goal Keeper": 12,
+  "Foul Committed": 13,
+  "50/50": 14
+ },
+ "order": [
+  "Pass",
+  "Carry",
+  "Ball Recovery",
+  "Clearance",
+  "Dribble",
+  "Shot",
+  "Miscontrol",
+  "Dispossessed",
+  "Pressure",
+  "Duel",
+  "Interception",
+  "Block",
+  "Goal Keeper",
+  "Foul Committed",
+  "50/50"
+ ],
+ "source": "src/sequence_models/event_classes.py"
+}

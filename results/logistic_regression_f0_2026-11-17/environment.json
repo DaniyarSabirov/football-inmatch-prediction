@@ -1,0 +1,25 @@
+{
+ "python": "3.11.1 (v3.11.1:a7a450f84a, Dec  6 2022, 15:24:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+ "platform": "macOS-27.2.1-arm64-arm-64bit",
+ "git_commit": "7df070abcc4a3fe25f337d98d4e402483a663848",
+ "uncommitted_changes": [
+  "?? configs/logistic_regression_f0.yaml",
+  "?? docs/thesis/",
+  "?? results/logistic_regression_f0_2026-11-17/",
+  "?? scripts/run_logistic_f0.py",
+  "?? src/sequence_models/event_classes.py",
+  "?? src/sequence_models/f0_experiment.py",
+  "?? src/sequence_models/feature_sets.py",
+  "?? src/sequence_models/logistic.py",
+  "?? tests/test_logistic_f0.py"
+ ],
+ "packages": {
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "pyyaml": "6.0.3"
+ },
+ "runtime_seconds": 3079.8311779499054
+}

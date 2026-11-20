@@ -1,0 +1,23 @@
+{
+ "class_distribution.csv": "40b4dee964b3cfdcc44a8f7f32a927cdbd87a6f9e59fd9d0b8d0e929a5aae0ff",
+ "class_mapping.json": "96f9a0cebd4a180b5608b3e2f1699681279d67d3c7c9cdb050629e52974e4322",
+ "confusion_matrices.csv": "a7386fb16804af092a343152dd25a1778313dcfe73b226cea23201bc0c22f0cf",
+ "environment.json": "711f55dd7b09d61d2698bba2265052a1a06794e9ed572191dca9b2a3d770c870",
+ "experiment_config.yaml": "26da28af7b25476ff1e1bdaab522c966789d73721a52d8b7fe12882d659e365e",
+ "figures/coefficients_fold0.png": "d6bd8f1007c9a675a3e078ec21092d7ee2ec3422ea1941d08990da8b598f3ea8",
+ "figures/regularisation_path.png": "8e1ad3ac4c376c91946f395de8298e14fc3f4a7531b9293892585c99f6dabf69",
+ "hyperparameter_choices.csv": "9b768c9a38214d127db324f1b2efa36f037fb71ed6c5c4e0608ece62ecaef885",
+ "leakage_checks.json": "b8a5c415b6569d8da83d1c65eb6ce5e89ee0d278bcb64bff6f6cf470805d22ff",
+ "logistic_coefficients.csv": "fb025099240a32cfaa0dbfeab3983b6c9b3fbd2f351390d70d2e96130126973c",
+ "logistic_fits.csv": "97a56c19793f6424da213c67ca5490d824a08df94fe3a585c2e7d449fd5e3b9b",
+ "metrics_by_fold.csv": "b0438a28a518539516000216741d0389ae372adf9da1cb3288e157045e72e91d",
+ "model_comparison.csv": "d283d58ede0dbed0d306f7d169fd6d8f08728e587aca888d29b987e1f6e2fbbe",
+ "paired_differences.csv": "ac7e8ca66865e8bb82166cecabe2538b588a262ab1fba6f0ab735cbc0401c45b",
+ "per_class_metrics.csv": "8f5063b848ace0fa86611104e6958446a2ca8db92233083d642c033a040394f2",
+ "predictions_f0.parquet": "30d0d16abd64897536d7bad5f9de7ded5d5ed52c6ef211affa4c0b4d8a77b43f",
+ "regularisation_path.csv": "ed27f5373c5bb82da95701536b939b048e7475a0a6a74d128735f3b5dd6266d1",
+ "reproducibility_checks.json": "edceb26d06bca3bb8b145141e6d42ce138fe301dd18e68c35c8d8e82a87be3c8",
+ "summary.md": "2730c29ed9a1b48a870584c83a60a599629eaf536db683a09cfb2628e644c18c",
+ "theory_markov_equivalence.csv": "923d78f93375993e0397322c393f6ba6ad804364e351e2c3a90077126f201064",
+ "timings.csv": "d64a7aed9f4550bf3a89e8d3f6b7df8228c9313244084b354ac9e8ba244d7810"
+}
