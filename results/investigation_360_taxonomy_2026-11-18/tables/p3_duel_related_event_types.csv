@@ -1,0 +1,12 @@
+subtype,related_types,n
+Tackle,Dispossessed,7232
+Aerial Lost,Pass(aerial_won),5249
+Tackle,Dribble,3894
+Aerial Lost,Clearance(aerial_won),2334
+Aerial Lost,Shot(aerial_won),720
+Aerial Lost,Miscontrol(aerial_won),235
+Aerial Lost,"Carry,Pass(aerial_won)",9
+Tackle,"Dispossessed,Pressure",7
+Tackle,"Dribble,Pressure",2
+Aerial Lost,"Clearance(aerial_won),Pressure",1
+Aerial Lost,"Pass(aerial_won),Pressure",1

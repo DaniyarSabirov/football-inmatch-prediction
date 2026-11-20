@@ -1,0 +1,6 @@
+pattern,n_first,n_pairs,P(second|first),next_types_top,same_timestamp,linked,opposite_team,dt_median_s
+Aerial Lost -> linked aerial winner record,8549,8549,1.0,"{'Pass': 0.524, 'Clearance': 0.283, 'Shot': 0.084, 'Ball Recovery': 0.04}",0.8615042695052053,0.8613872967598549,0.885951573283425,0.0
+Shot -> keeper save,1736,1736,1.0,{'Goal Keeper': 1.0},0.0,1.0,1.0,0.70699999999988
+Blocked shot -> Block,2016,2002,0.9930555555555556,"{'Block': 0.993, 'Pressure': 0.003, 'Ball Recovery': 0.001, 'Clearance': 0.001}",0.0,0.9995004995004995,0.968031968031968,0.1530000000000058
+Incomplete Dribble -> next,4406,4406,1.0,"{'Pass': 0.304, 'Carry': 0.244, 'Ball Recovery': 0.229, 'Pressure': 0.164}",0.24489332728098048,0.0013617793917385383,0.5964593735814798,1.1105000000000018
+Incomplete pass -> Interception,48939,6119,0.12503320460164694,"{'Pass': 0.225, 'Ball Recovery': 0.177, 'Block': 0.15, 'Interception': 0.125}",0.0,0.9998365746036935,0.9998365746036935,0.9659999999998945

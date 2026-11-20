@@ -1,0 +1,266 @@
+{
+ "tier_b_matches": 304,
+ "raw_events": 1123707,
+ "three_sixty_records": 981431,
+ "three_sixty_records_without_matching_event": 0,
+ "index_equals_array_position_plus_1": true,
+ "scenarioD15_observations": 799951,
+ "scenarioD15_transitions": 799309,
+ "scenarioD15_eval_rows_has_360": 701144,
+ "scenarioD15_eval_rows_usable_360": 701144,
+ "p1_events_with_360_pct": 87.33869238155498,
+ "p1_360_records_with_empty_freeze_frame": 0,
+ "p1_360_records_without_actor": 1,
+ "p1_360_records_with_more_than_one_actor": 24,
+ "p1_no360_d15_events_in_runs": {
+  "runs": 55628,
+  "events": 98338,
+  "share_events_in_runs_len_ge_5": 0.1473184323455836,
+  "share_events_isolated_len_1": 0.32222538591388883,
+  "median_run_length": 1.0
+ },
+ "p1_per_match_360_share": {
+  "min": 0.7475409836065574,
+  "median": 0.8729804529396709,
+  "max": 0.9534383954154728
+ },
+ "p1_ball_receipt": {
+  "n": 299981,
+  "with_360": 0.8943433084095326,
+  "linked_to_a_pass": 1.0,
+  "complete_receipts": 260399,
+  "incomplete_receipts": 39582,
+  "share_passes_next_raw_receipt": 0.8572126492030422,
+  "receiver_is_pass_recipient_given_complete": 1.0,
+  "median_dt_receipt_minus_pass_s": 1.3120000000000118,
+  "median_dist_receipt_location_to_pass_end_location": 0.0,
+  "share_dist_le_1": 0.8802190805417677,
+  "next_retained_after_receipt": {
+   "Carry": 0.7282494557988672,
+   "Pass": 0.15676659521769712,
+   "Ball Recovery": 0.02185138392098166,
+   "Interception": 0.021408022508092178,
+   "Duel": 0.019774585723762506,
+   "Block": 0.014280904457282294
+  }
+ },
+ "p2_definitions": {
+  "A_matches_with_360_coverage": 304,
+  "B_events_with_usable_360_all_types": 981431,
+  "B_d15_events_with_usable_360_periods_1_4": 701613,
+  "C_rows_current_360_any_target_360": 701144,
+  "C_rows_whose_target_also_has_360": 645590
+ },
+ "p2_C_vs_A": {
+  "A_eval_rows": 701144,
+  "rows_also_in_C": 700971,
+  "rows_target_event_changed": 55554,
+  "rows_target_class_changed": 40195,
+  "share_target_class_changed": 0.057327738667092634
+ },
+ "p2_markov1_alpha1_log_loss": {
+  "A_all_transitions": 1.1519729415013478,
+  "B_360_only": 1.150457175961792,
+  "B_minus_A": -0.0015157655395556142,
+  "per_fold": [
+   {
+    "fold": 0,
+    "log_loss_A": 1.1546786324672194,
+    "log_loss_B": 1.1527576975927862
+   },
+   {
+    "fold": 1,
+    "log_loss_A": 1.1476736704448978,
+    "log_loss_B": 1.146763529454529
+   },
+   {
+    "fold": 2,
+    "log_loss_A": 1.155686601836436,
+    "log_loss_B": 1.1542546847694426
+   },
+   {
+    "fold": 3,
+    "log_loss_A": 1.1512672245871176,
+    "log_loss_B": 1.1496289148010952
+   },
+   {
+    "fold": 4,
+    "log_loss_A": 1.150535936241892,
+    "log_loss_B": 1.1488565426778554
+   }
+  ],
+  "note": "count-based re-estimation for reproduction of audit R1; same rows and folds as experiment 4"
+ },
+ "p3": {
+  "Goal Keeper": {
+   "occurrences": 9268,
+   "with_360": 4285,
+   "without_360": 4983,
+   "prev_retained_top": {
+    "Shot": 0.5927,
+    "Block": 0.2336,
+    "Pass": 0.1409,
+    "Pressure": 0.0155,
+    "Clearance": 0.0046,
+    "Goal Keeper": 0.0038
+   },
+   "next_retained_top": {
+    "Pass": 0.6395,
+    "Ball Recovery": 0.1527,
+    "Carry": 0.0703,
+    "Pressure": 0.0519,
+    "Clearance": 0.0441,
+    "Block": 0.0205
+   },
+   "share_prev_same_timestamp": 0.0011868795856711265,
+   "share_prev_within_0_5s": 0.3364264134656884,
+   "share_next_same_timestamp": 0.07078118256365991,
+   "share_next_within_0_5s": 0.1226801899007337,
+   "share_prev_same_team": 0.23705222270176954,
+   "share_next_same_team": 0.7153646957272335,
+   "share_prev_same_type": 0.0037764350453172208,
+   "share_next_same_type": 0.0037764350453172208,
+   "prev_dt_quantiles_s": [
+    0.088,
+    0.747,
+    1.975
+   ],
+   "next_dt_quantiles_s": [
+    0.229,
+    13.05,
+    57.663
+   ],
+   "share_linked_to_prev_retained": 0.7422313336210618,
+   "share_linked_to_next_retained": 0.0014026758739749676,
+   "P(next=GK | current=Shot)": 0.7171018276762402,
+   "P(previous=Shot | current=GK)": 0.5926845058264998
+  },
+  "Duel": {
+   "occurrences": 19684,
+   "with_360": 17250,
+   "without_360": 2434,
+   "prev_retained_top": {
+    "Pass": 0.3833,
+    "Dispossessed": 0.3678,
+    "Dribble": 0.1981,
+    "Clearance": 0.0272,
+    "Block": 0.0047,
+    "Duel": 0.0043
+   },
+   "next_retained_top": {
+    "Pass": 0.4059,
+    "Ball Recovery": 0.1619,
+    "Carry": 0.1409,
+    "Clearance": 0.1295,
+    "Pressure": 0.0834,
+    "Shot": 0.0367
+   },
+   "share_prev_same_timestamp": 0.6258890469416786,
+   "share_prev_within_0_5s": 0.6295976427555375,
+   "share_next_same_timestamp": 0.5149867913025807,
+   "share_next_within_0_5s": 0.5548160942897785,
+   "share_prev_same_team": 0.2208392603129445,
+   "share_next_same_team": 0.3970229628124365,
+   "share_prev_same_type": 0.004267425320056899,
+   "share_next_same_type": 0.004267425320056899,
+   "prev_dt_quantiles_s": [
+    0.0,
+    0.0,
+    2.963
+   ],
+   "next_dt_quantiles_s": [
+    0.0,
+    0.0,
+    6.442
+   ],
+   "share_linked_to_prev_retained": 0.6264478764478765,
+   "share_linked_to_next_retained": 0.3741109530583215,
+   "P(next=Duel | current=Duel)": 0.004270896888346553,
+   "consecutive_duel_pairs": 84,
+   "duel_pairs_same_timestamp": 0.0,
+   "duel_pairs_opposite_teams": 0.8928571428571429,
+   "P(next=Duel | current=Dispossessed)": 0.9995857497928748,
+   "P(previous=Dispossessed | current=Duel)": 0.36776061776061775,
+   "subtype_counts": {
+    "Tackle": 11135,
+    "Aerial Lost": 8549
+   }
+  },
+  "50/50": {
+   "occurrences": 1223,
+   "with_360": 1094,
+   "without_360": 129,
+   "prev_retained_top": {
+    "50/50": 0.5037,
+    "Miscontrol": 0.121,
+    "Duel": 0.1071,
+    "Block": 0.0883,
+    "Ball Recovery": 0.0482,
+    "Pressure": 0.0433
+   },
+   "next_retained_top": {
+    "50/50": 0.5041,
+    "Carry": 0.1866,
+    "Ball Recovery": 0.1268,
+    "Pass": 0.1031,
+    "Pressure": 0.0581,
+    "Block": 0.0123
+   },
+   "share_prev_same_timestamp": 0.4963205233033524,
+   "share_prev_within_0_5s": 0.5437448896156991,
+   "share_next_same_timestamp": 0.6827473426001636,
+   "share_next_within_0_5s": 0.7130008176614882,
+   "share_prev_same_team": 0.24775143090760426,
+   "share_next_same_team": 0.40228945216680295,
+   "share_prev_same_type": 0.5036794766966476,
+   "share_next_same_type": 0.5036794766966476,
+   "prev_dt_quantiles_s": [
+    0.0,
+    0.029,
+    1.821
+   ],
+   "next_dt_quantiles_s": [
+    0.0,
+    0.0,
+    1.752
+   ],
+   "share_linked_to_prev_retained": 0.509403107113655,
+   "share_linked_to_next_retained": 0.4963205233033524,
+   "P(next=50/50 | current=50/50)": 0.5040916530278232,
+   "consecutive_pairs": 616,
+   "pairs_same_timestamp": 0.9853896103896104,
+   "pairs_opposite_teams": 0.9951298701298701,
+   "pairs_linked_related_events": 0.9853896103896104,
+   "pairs_one_contest(same_ts & opposite & linked)": 0.9853896103896104,
+   "outcome_pairs": {
+    "Lost | Success To Team": 239,
+    "Lost | Won": 230,
+    "Lost | Success To Opposition": 72,
+    "Success To Opposition | Lost": 66,
+    "Success To Team | Lost": 7,
+    "Lost | Lost": 1
+   },
+   "singletons(not in a consecutive pair)": 9
+  }
+ },
+ "p4_independent_rules_equal_project_rules": true,
+ "p4_rule_counts_all_periods": {
+  "K2": 11135,
+  "K1": 5919,
+  "K3": 607
+ },
+ "p4_rule_counts_periods_1_4": {
+  "K2": 11135,
+  "K1": 5832,
+  "K3": 607
+ },
+ "p5": {
+  "macro_f1_15": 0.214483162693164,
+  "macro_f1_12_other_classes": 0.12531843794378514,
+  "share_of_f1_sum_from_3": 0.5325751956648884,
+  "share_of_correct_predictions_from_3": 0.02627623691431168,
+  "total_correct": 457752,
+  "correct_from_3": 12028,
+  "accuracy_check": 0.6528644615086202
+ }
+}

@@ -1,0 +1,9 @@
+outcome,Goal Keeper:Goal Conceded,Goal Keeper:Penalty Conceded,Goal Keeper:Penalty Saved,Goal Keeper:Penalty Saved to Post,Goal Keeper:Shot Faced,Goal Keeper:Shot Saved,Goal Keeper:Shot Saved Off Target,Goal Keeper:Shot Saved to Post,other:
+Blocked,0,0,0,0,30,0,0,0,1986
+Goal,770,72,0,0,1,0,0,0,38
+Off T,0,0,0,0,2329,0,0,0,7
+Post,0,0,0,0,158,0,0,0,5
+Saved,0,0,21,0,2,1646,0,2,90
+Saved Off Target,0,0,0,0,0,0,28,0,1
+Saved to Post,0,0,0,2,0,0,0,35,1
+Wayward,0,0,0,0,397,0,0,0,39

@@ -1,0 +1,568 @@
+set,type,next_type,n,p_next_given_current
+A_training,50/50,50/50,616,0.5040916530278232
+A_training,50/50,Ball Recovery,155,0.12684124386252046
+A_training,50/50,Block,15,0.012274959083469721
+A_training,50/50,Carry,228,0.18657937806873978
+A_training,50/50,Clearance,6,0.004909983633387889
+A_training,50/50,Foul Committed,4,0.0032733224222585926
+A_training,50/50,Pass,126,0.10310965630114566
+A_training,50/50,Pressure,71,0.05810147299509002
+A_training,50/50,Shot,1,0.0008183306055646482
+A_training,Ball Recovery,50/50,59,0.0019888757795381764
+A_training,Ball Recovery,Ball Recovery,746,0.025147480195516603
+A_training,Ball Recovery,Block,47,0.0015843586718354964
+A_training,Ball Recovery,Carry,24909,0.8396763863138379
+A_training,Ball Recovery,Clearance,94,0.003168717343670993
+A_training,Ball Recovery,Dispossessed,4,0.0001348390359008933
+A_training,Ball Recovery,Dribble,4,0.0001348390359008933
+A_training,Ball Recovery,Duel,51,0.0017191977077363897
+A_training,Ball Recovery,Foul Committed,36,0.0012135513231080399
+A_training,Ball Recovery,Goal Keeper,9,0.00030338783077700997
+A_training,Ball Recovery,Interception,2,6.741951795044665e-05
+A_training,Ball Recovery,Miscontrol,19,0.0006404854205292433
+A_training,Ball Recovery,Pass,1899,0.0640148322939491
+A_training,Ball Recovery,Pressure,900,0.030338783077700996
+A_training,Ball Recovery,Shot,886,0.029866846452047867
+A_training,Block,50/50,108,0.009111617312072893
+A_training,Block,Ball Recovery,2546,0.21479794144942208
+A_training,Block,Block,410,0.034590399055091536
+A_training,Block,Clearance,378,0.03189066059225513
+A_training,Block,Dribble,5,0.0004218341348181895
+A_training,Block,Duel,92,0.007761748080654687
+A_training,Block,Foul Committed,168,0.014173626929891167
+A_training,Block,Goal Keeper,2165,0.18265418037627604
+A_training,Block,Interception,9,0.0007593014426727411
+A_training,Block,Miscontrol,32,0.0026997384628364126
+A_training,Block,Pass,4224,0.35636547709440647
+A_training,Block,Pressure,1694,0.1429174048764026
+A_training,Block,Shot,22,0.0018560701932000337
+A_training,Carry,50/50,1,3.915902086784222e-06
+A_training,Carry,Ball Recovery,136,0.0005325626838026542
+A_training,Carry,Block,420,0.0016446788764493733
+A_training,Carry,Clearance,41,0.00016055198555815312
+A_training,Carry,Dispossessed,2571,0.010067784265122235
+A_training,Carry,Dribble,3823,0.014970493677776081
+A_training,Carry,Duel,10,3.915902086784222e-05
+A_training,Carry,Foul Committed,2166,0.008481843919974625
+A_training,Carry,Goal Keeper,14,5.482262921497911e-05
+A_training,Carry,Interception,113,0.0004424969358066171
+A_training,Carry,Miscontrol,4968,0.019454201567144017
+A_training,Carry,Pass,185755,0.7273983921306032
+A_training,Carry,Pressure,53000,0.20754281059956378
+A_training,Carry,Shot,2351,0.009206285806029706
+A_training,Clearance,50/50,28,0.002379535990481856
+A_training,Clearance,Ball Recovery,3734,0.3173281210164018
+A_training,Clearance,Block,575,0.048865471233109546
+A_training,Clearance,Clearance,565,0.048015636950794596
+A_training,Clearance,Duel,536,0.04555111753208124
+A_training,Clearance,Foul Committed,122,0.010367978244242373
+A_training,Clearance,Goal Keeper,43,0.003654287413954279
+A_training,Clearance,Interception,18,0.0015297017081669076
+A_training,Clearance,Miscontrol,26,0.0022095691340188665
+A_training,Clearance,Pass,4807,0.40851533950879576
+A_training,Clearance,Pressure,1308,0.11115832412679527
+A_training,Clearance,Shot,5,0.0004249171411574743
+A_training,Dispossessed,Duel,7239,0.9995857497928748
+A_training,Dispossessed,Goal Keeper,3,0.00041425020712510354
+A_training,Dribble,50/50,10,0.001058985491898761
+A_training,Dribble,Ball Recovery,91,0.009636767976278725
+A_training,Dribble,Block,2,0.00021179709837975219
+A_training,Dribble,Carry,5020,0.531610716933178
+A_training,Dribble,Clearance,38,0.004024144869215292
+A_training,Dribble,Duel,3899,0.4128984432913269
+A_training,Dribble,Foul Committed,6,0.0006353912951392566
+A_training,Dribble,Goal Keeper,9,0.0009530869427088849
+A_training,Dribble,Pass,138,0.014613999788202901
+A_training,Dribble,Pressure,229,0.024250767764481627
+A_training,Dribble,Shot,1,0.00010589854918987609
+A_training,Duel,50/50,131,0.0066605653853976
+A_training,Duel,Ball Recovery,3185,0.16193817368314012
+A_training,Duel,Block,225,0.011439902379499696
+A_training,Duel,Carry,2771,0.1408887533048607
+A_training,Duel,Clearance,2547,0.12949969493593655
+A_training,Duel,Duel,84,0.004270896888346553
+A_training,Duel,Foul Committed,107,0.005440309131584299
+A_training,Duel,Goal Keeper,9,0.0004575960951799878
+A_training,Duel,Interception,28,0.0014236322961155175
+A_training,Duel,Miscontrol,235,0.011948342485255238
+A_training,Duel,Pass,7984,0.40593858043522474
+A_training,Duel,Pressure,1640,0.08338417734390889
+A_training,Duel,Shot,722,0.03670937563555013
+A_training,Foul Committed,Ball Recovery,58,0.007856949336223246
+A_training,Foul Committed,Block,1,0.000135464643727987
+A_training,Foul Committed,Carry,593,0.08033053373069629
+A_training,Foul Committed,Clearance,2,0.000270929287455974
+A_training,Foul Committed,Dispossessed,1,0.000135464643727987
+A_training,Foul Committed,Dribble,1,0.000135464643727987
+A_training,Foul Committed,Duel,1,0.000135464643727987
+A_training,Foul Committed,Foul Committed,1,0.000135464643727987
+A_training,Foul Committed,Goal Keeper,5,0.000677323218639935
+A_training,Foul Committed,Interception,1,0.000135464643727987
+A_training,Foul Committed,Miscontrol,2,0.000270929287455974
+A_training,Foul Committed,Pass,6314,0.8553237604985099
+A_training,Foul Committed,Pressure,40,0.00541858574911948
+A_training,Foul Committed,Shot,362,0.04903820102953129
+A_training,Goal Keeper,50/50,19,0.002069942259505393
+A_training,Goal Keeper,Ball Recovery,1402,0.15273994988560846
+A_training,Goal Keeper,Block,188,0.020481533936158623
+A_training,Goal Keeper,Carry,645,0.0702690924937357
+A_training,Goal Keeper,Clearance,405,0.04412245342629916
+A_training,Goal Keeper,Dispossessed,1,0.00010894432944765226
+A_training,Goal Keeper,Dribble,10,0.0010894432944765224
+A_training,Goal Keeper,Duel,62,0.0067545484257544395
+A_training,Goal Keeper,Foul Committed,49,0.0053382721429349606
+A_training,Goal Keeper,Goal Keeper,35,0.0038130515306678287
+A_training,Goal Keeper,Miscontrol,2,0.0002178886588953045
+A_training,Goal Keeper,Pass,5870,0.6395032138577187
+A_training,Goal Keeper,Pressure,476,0.05185750081708247
+A_training,Goal Keeper,Shot,15,0.0016341649417147836
+A_training,Interception,50/50,40,0.005666525003541578
+A_training,Interception,Ball Recovery,1324,0.18756197761722623
+A_training,Interception,Block,145,0.02054115313783822
+A_training,Interception,Carry,2742,0.38844028899277516
+A_training,Interception,Clearance,86,0.012183028757614393
+A_training,Interception,Dispossessed,1,0.00014166312508853945
+A_training,Interception,Dribble,1,0.00014166312508853945
+A_training,Interception,Duel,42,0.005949851253718657
+A_training,Interception,Foul Committed,33,0.004674883127921802
+A_training,Interception,Goal Keeper,10,0.0014166312508853945
+A_training,Interception,Interception,10,0.0014166312508853945
+A_training,Interception,Miscontrol,25,0.0035415781272134864
+A_training,Interception,Pass,1848,0.2617934551636209
+A_training,Interception,Pressure,750,0.10624734381640459
+A_training,Interception,Shot,2,0.0002833262501770789
+A_training,Miscontrol,50/50,148,0.017924185539542208
+A_training,Miscontrol,Ball Recovery,2222,0.26910500181664043
+A_training,Miscontrol,Block,137,0.01659198256025191
+A_training,Miscontrol,Clearance,410,0.04965483831900206
+A_training,Miscontrol,Dispossessed,1,0.00012110936175366356
+A_training,Miscontrol,Dribble,1,0.00012110936175366356
+A_training,Miscontrol,Duel,71,0.008598764684510112
+A_training,Miscontrol,Foul Committed,64,0.007750999152234468
+A_training,Miscontrol,Goal Keeper,23,0.002785515320334262
+A_training,Miscontrol,Interception,30,0.0036332808526099067
+A_training,Miscontrol,Pass,2853,0.3455250090832021
+A_training,Miscontrol,Pressure,2297,0.2781882039481652
+A_training,Pass,50/50,10,3.155629327156715e-05
+A_training,Pass,Ball Recovery,8976,0.028324928840558674
+A_training,Pass,Block,7395,0.023335878874323906
+A_training,Pass,Carry,200230,0.631851660176589
+A_training,Pass,Clearance,5901,0.018621368659551774
+A_training,Pass,Dispossessed,27,8.52019918332313e-05
+A_training,Pass,Dribble,30,9.466887981470145e-05
+A_training,Pass,Duel,7544,0.023806067644070256
+A_training,Pass,Foul Committed,1169,0.0036889306834462
+A_training,Pass,Goal Keeper,1306,0.004121251901266669
+A_training,Pass,Interception,6133,0.019353474663452132
+A_training,Pass,Miscontrol,1128,0.0035595498810327745
+A_training,Pass,Pass,46433,0.14652533654786773
+A_training,Pass,Pressure,28972,0.09142489286638435
+A_training,Pass,Shot,1640,0.005175232096537012
+A_training,Pressure,50/50,53,0.0005483760825254271
+A_training,Pressure,Ball Recovery,5109,0.05286138501174353
+A_training,Pressure,Block,172,0.001779635588573084
+A_training,Pressure,Carry,18231,0.1886310256702087
+A_training,Pressure,Clearance,1336,0.013823215967056048
+A_training,Pressure,Dispossessed,4636,0.04796738714316755
+A_training,Pressure,Dribble,5570,0.057631222257860916
+A_training,Pressure,Duel,53,0.0005483760825254271
+A_training,Pressure,Foul Committed,3486,0.0360686608242196
+A_training,Pressure,Goal Keeper,144,0.0014899274695030472
+A_training,Pressure,Interception,726,0.007511717658744529
+A_training,Pressure,Miscontrol,1836,0.01899657523616385
+A_training,Pressure,Pass,48372,0.5004914691305652
+A_training,Pressure,Pressure,5274,0.0545685935705491
+A_training,Pressure,Shot,1651,0.017082432306593964
+A_training,Shot,Ball Recovery,7,0.0009138381201044386
+A_training,Shot,Block,2136,0.27885117493472583
+A_training,Shot,Clearance,3,0.000391644908616188
+A_training,Shot,Foul Committed,1,0.00013054830287206266
+A_training,Shot,Goal Keeper,5493,0.7171018276762402
+A_training,Shot,Pass,4,0.0005221932114882506
+A_training,Shot,Pressure,14,0.0018276762402088772
+A_training,Shot,Shot,2,0.0002610966057441253
+A_B_evaluation,50/50,50/50,554,0.5068618481244281
+A_B_evaluation,50/50,Ball Recovery,136,0.12442817932296432
+A_B_evaluation,50/50,Block,14,0.012808783165599268
+A_B_evaluation,50/50,Carry,205,0.18755718206770358
+A_B_evaluation,50/50,Clearance,5,0.004574565416285453
+A_B_evaluation,50/50,Foul Committed,4,0.0036596523330283625
+A_B_evaluation,50/50,Pass,109,0.09972552607502287
+A_B_evaluation,50/50,Pressure,65,0.059469350411710885
+A_B_evaluation,50/50,Shot,1,0.0009149130832570906
+A_B_evaluation,Ball Recovery,50/50,56,0.0021093867711315353
+A_B_evaluation,Ball Recovery,Ball Recovery,700,0.02636733463914419
+A_B_evaluation,Ball Recovery,Block,43,0.0016197076992617147
+A_B_evaluation,Ball Recovery,Carry,22469,0.8463537742956155
+A_B_evaluation,Ball Recovery,Clearance,91,0.003427753503088745
+A_B_evaluation,Ball Recovery,Dispossessed,2,7.533524182612626e-05
+A_B_evaluation,Ball Recovery,Dribble,3,0.00011300286273918939
+A_B_evaluation,Ball Recovery,Duel,48,0.0018080458038270302
+A_B_evaluation,Ball Recovery,Foul Committed,31,0.001167696248304957
+A_B_evaluation,Ball Recovery,Goal Keeper,8,0.00030134096730450503
+A_B_evaluation,Ball Recovery,Interception,2,7.533524182612626e-05
+A_B_evaluation,Ball Recovery,Miscontrol,6,0.00022600572547837878
+A_B_evaluation,Ball Recovery,Pass,1450,0.05461805032394154
+A_B_evaluation,Ball Recovery,Pressure,781,0.029418411933102306
+A_B_evaluation,Ball Recovery,Shot,858,0.03231881874340817
+A_B_evaluation,Block,50/50,101,0.009517527327553713
+A_B_evaluation,Block,Ball Recovery,2289,0.21569920844327176
+A_B_evaluation,Block,Block,359,0.033829626837542405
+A_B_evaluation,Block,Clearance,342,0.032227666792310594
+A_B_evaluation,Block,Dribble,4,0.0003769317753486619
+A_B_evaluation,Block,Duel,86,0.00810403316999623
+A_B_evaluation,Block,Foul Committed,150,0.01413494157557482
+A_B_evaluation,Block,Goal Keeper,2099,0.19779494911421033
+A_B_evaluation,Block,Interception,8,0.0007538635506973238
+A_B_evaluation,Block,Miscontrol,29,0.0027327553712777988
+A_B_evaluation,Block,Pass,3611,0.3402751601960045
+A_B_evaluation,Block,Pressure,1513,0.14257444402563135
+A_B_evaluation,Block,Shot,21,0.001978891820580475
+A_B_evaluation,Carry,50/50,1,4.2868778668495736e-06
+A_B_evaluation,Carry,Ball Recovery,113,0.0004844171989540018
+A_B_evaluation,Carry,Block,385,0.0016504479787370857
+A_B_evaluation,Carry,Clearance,37,0.00015861448107343422
+A_B_evaluation,Carry,Dispossessed,2277,0.009761220902816479
+A_B_evaluation,Carry,Dribble,3403,0.014588245380889098
+A_B_evaluation,Carry,Duel,8,3.429502293479659e-05
+A_B_evaluation,Carry,Foul Committed,1954,0.008376559351824067
+A_B_evaluation,Carry,Goal Keeper,12,5.144253440219488e-05
+A_B_evaluation,Carry,Interception,102,0.00043726154241865647
+A_B_evaluation,Carry,Miscontrol,4515,0.019355253568825823
+A_B_evaluation,Carry,Pass,169750,0.7276975178977151
+A_B_evaluation,Carry,Pressure,48492,0.20787928151926952
+A_B_evaluation,Carry,Shot,2221,0.009521155742272903
+A_B_evaluation,Clearance,50/50,27,0.0024813895781637717
+A_B_evaluation,Clearance,Ball Recovery,3532,0.32460251815090524
+A_B_evaluation,Clearance,Block,526,0.048341145115338664
+A_B_evaluation,Clearance,Clearance,540,0.04962779156327544
+A_B_evaluation,Clearance,Duel,490,0.045032625677786965
+A_B_evaluation,Clearance,Foul Committed,110,0.010109364948074625
+A_B_evaluation,Clearance,Goal Keeper,41,0.003768036026100542
+A_B_evaluation,Clearance,Interception,16,0.001470453083356309
+A_B_evaluation,Clearance,Miscontrol,23,0.0021137763073246943
+A_B_evaluation,Clearance,Pass,4358,0.40051465857917473
+A_B_evaluation,Clearance,Pressure,1213,0.1114787243819502
+A_B_evaluation,Clearance,Shot,5,0.00045951658854884663
+A_B_evaluation,Dispossessed,Duel,6129,0.9995107632093934
+A_B_evaluation,Dispossessed,Goal Keeper,3,0.0004892367906066536
+A_B_evaluation,Dribble,50/50,10,0.0012386968908708038
+A_B_evaluation,Dribble,Ball Recovery,70,0.008670878236095627
+A_B_evaluation,Dribble,Block,2,0.0002477393781741608
+A_B_evaluation,Dribble,Carry,4371,0.5414344109996284
+A_B_evaluation,Dribble,Clearance,34,0.004211569428960733
+A_B_evaluation,Dribble,Duel,3277,0.40592097113836245
+A_B_evaluation,Dribble,Foul Committed,5,0.0006193484454354019
+A_B_evaluation,Dribble,Goal Keeper,9,0.0011148272017837235
+A_B_evaluation,Dribble,Pass,104,0.01288244766505636
+A_B_evaluation,Dribble,Pressure,190,0.023535240926545273
+A_B_evaluation,Dribble,Shot,1,0.0001238696890870804
+A_B_evaluation,Duel,50/50,106,0.006148848541098671
+A_B_evaluation,Duel,Ball Recovery,2807,0.16282847032890538
+A_B_evaluation,Duel,Block,201,0.011659609026045594
+A_B_evaluation,Duel,Carry,2297,0.13324438772550612
+A_B_evaluation,Duel,Clearance,2328,0.13504263588375195
+A_B_evaluation,Duel,Duel,74,0.004292592377748129
+A_B_evaluation,Duel,Foul Committed,95,0.005510760484946923
+A_B_evaluation,Duel,Goal Keeper,8,0.0004640640408376356
+A_B_evaluation,Duel,Interception,27,0.00156621613782702
+A_B_evaluation,Duel,Miscontrol,210,0.012181681071987934
+A_B_evaluation,Duel,Pass,6927,0.40182145136028774
+A_B_evaluation,Duel,Pressure,1449,0.08405359939671675
+A_B_evaluation,Duel,Shot,710,0.04118568362434016
+A_B_evaluation,Foul Committed,Ball Recovery,54,0.008438818565400843
+A_B_evaluation,Foul Committed,Block,1,0.0001562744178777934
+A_B_evaluation,Foul Committed,Carry,523,0.08173152055008595
+A_B_evaluation,Foul Committed,Clearance,2,0.0003125488357555868
+A_B_evaluation,Foul Committed,Dispossessed,1,0.0001562744178777934
+A_B_evaluation,Foul Committed,Dribble,1,0.0001562744178777934
+A_B_evaluation,Foul Committed,Duel,1,0.0001562744178777934
+A_B_evaluation,Foul Committed,Foul Committed,1,0.0001562744178777934
+A_B_evaluation,Foul Committed,Goal Keeper,5,0.000781372089388967
+A_B_evaluation,Foul Committed,Interception,1,0.0001562744178777934
+A_B_evaluation,Foul Committed,Miscontrol,2,0.0003125488357555868
+A_B_evaluation,Foul Committed,Pass,5428,0.8482575402406626
+A_B_evaluation,Foul Committed,Pressure,36,0.005625879043600563
+A_B_evaluation,Foul Committed,Shot,343,0.05360212533208314
+A_B_evaluation,Goal Keeper,50/50,3,0.0007052186177715092
+A_B_evaluation,Goal Keeper,Ball Recovery,522,0.1227080394922426
+A_B_evaluation,Goal Keeper,Block,57,0.013399153737658674
+A_B_evaluation,Goal Keeper,Carry,608,0.14292430653502586
+A_B_evaluation,Goal Keeper,Clearance,183,0.04301833568406206
+A_B_evaluation,Goal Keeper,Dribble,9,0.0021156558533145277
+A_B_evaluation,Goal Keeper,Duel,23,0.0054066760695815706
+A_B_evaluation,Goal Keeper,Foul Committed,23,0.0054066760695815706
+A_B_evaluation,Goal Keeper,Goal Keeper,4,0.0009402914903620122
+A_B_evaluation,Goal Keeper,Miscontrol,2,0.0004701457451810061
+A_B_evaluation,Goal Keeper,Pass,2606,0.612599905970851
+A_B_evaluation,Goal Keeper,Pressure,213,0.05007052186177715
+A_B_evaluation,Goal Keeper,Shot,1,0.00023507287259050304
+A_B_evaluation,Interception,50/50,37,0.0056792018419033
+A_B_evaluation,Interception,Ball Recovery,1236,0.18971603990790484
+A_B_evaluation,Interception,Block,124,0.019033000767459708
+A_B_evaluation,Interception,Carry,2536,0.38925556408288564
+A_B_evaluation,Interception,Clearance,75,0.011511895625479662
+A_B_evaluation,Interception,Dispossessed,1,0.00015349194167306216
+A_B_evaluation,Interception,Dribble,1,0.00015349194167306216
+A_B_evaluation,Interception,Duel,40,0.0061396776669224865
+A_B_evaluation,Interception,Foul Committed,30,0.004604758250191865
+A_B_evaluation,Interception,Goal Keeper,10,0.0015349194167306216
+A_B_evaluation,Interception,Interception,9,0.0013814274750575594
+A_B_evaluation,Interception,Miscontrol,25,0.003837298541826554
+A_B_evaluation,Interception,Pass,1686,0.2587874136607828
+A_B_evaluation,Interception,Pressure,704,0.10805832693783576
+A_B_evaluation,Interception,Shot,1,0.00015349194167306216
+A_B_evaluation,Miscontrol,50/50,139,0.019238754325259514
+A_B_evaluation,Miscontrol,Ball Recovery,1964,0.27183391003460206
+A_B_evaluation,Miscontrol,Block,114,0.01577854671280277
+A_B_evaluation,Miscontrol,Clearance,373,0.05162629757785467
+A_B_evaluation,Miscontrol,Dispossessed,1,0.0001384083044982699
+A_B_evaluation,Miscontrol,Dribble,1,0.0001384083044982699
+A_B_evaluation,Miscontrol,Duel,66,0.009134948096885814
+A_B_evaluation,Miscontrol,Foul Committed,56,0.007750865051903114
+A_B_evaluation,Miscontrol,Goal Keeper,22,0.0030449826989619377
+A_B_evaluation,Miscontrol,Interception,25,0.0034602076124567475
+A_B_evaluation,Miscontrol,Pass,2415,0.3342560553633218
+A_B_evaluation,Miscontrol,Pressure,2049,0.283598615916955
+A_B_evaluation,Pass,50/50,10,3.710905609404919e-05
+A_B_evaluation,Pass,Ball Recovery,7750,0.028759518472888122
+A_B_evaluation,Pass,Block,6392,0.023720108655316242
+A_B_evaluation,Pass,Carry,178185,0.6612277160118155
+A_B_evaluation,Pass,Clearance,4875,0.01809066484584898
+A_B_evaluation,Pass,Dispossessed,11,4.081996170345411e-05
+A_B_evaluation,Pass,Dribble,8,2.9687244875239354e-05
+A_B_evaluation,Pass,Duel,5927,0.021994537546942954
+A_B_evaluation,Pass,Foul Committed,910,0.0033769241045584764
+A_B_evaluation,Pass,Goal Keeper,1091,0.004048598019860767
+A_B_evaluation,Pass,Interception,5385,0.01998322670664549
+A_B_evaluation,Pass,Miscontrol,828,0.0030726298445872733
+A_B_evaluation,Pass,Pass,32729,0.1214542296902136
+A_B_evaluation,Pass,Pressure,23904,0.08870548768721519
+A_B_evaluation,Pass,Shot,1471,0.0054587421514346365
+A_B_evaluation,Pressure,50/50,47,0.0005467341359855756
+A_B_evaluation,Pressure,Ball Recovery,4553,0.05296341534345373
+A_B_evaluation,Pressure,Block,154,0.0017914267434420985
+A_B_evaluation,Pressure,Carry,16535,0.19234572209620193
+A_B_evaluation,Pressure,Clearance,1194,0.013889373582271854
+A_B_evaluation,Pressure,Dispossessed,3986,0.046367707788053276
+A_B_evaluation,Pressure,Dribble,4786,0.05567382074099925
+A_B_evaluation,Pressure,Duel,49,0.0005699994183679404
+A_B_evaluation,Pressure,Foul Committed,3012,0.03503751526784157
+A_B_evaluation,Pressure,Goal Keeper,136,0.0015820392020008142
+A_B_evaluation,Pressure,Interception,635,0.007386727156400861
+A_B_evaluation,Pressure,Miscontrol,1607,0.01869365439423021
+A_B_evaluation,Pressure,Pass,43068,0.500994590821846
+A_B_evaluation,Pressure,Pressure,4639,0.05396382248589542
+A_B_evaluation,Pressure,Shot,1564,0.018193450823009365
+A_B_evaluation,Shot,Ball Recovery,7,0.0009380863039399625
+A_B_evaluation,Shot,Block,2086,0.2795497185741088
+A_B_evaluation,Shot,Clearance,3,0.00040203698740284106
+A_B_evaluation,Shot,Foul Committed,1,0.00013401232913428035
+A_B_evaluation,Shot,Goal Keeper,5345,0.7162958992227285
+A_B_evaluation,Shot,Pass,4,0.0005360493165371214
+A_B_evaluation,Shot,Pressure,14,0.001876172607879925
+A_B_evaluation,Shot,Shot,2,0.0002680246582685607
+C,50/50,50/50,553,0.505946935041171
+C,50/50,Ball Recovery,127,0.1161939615736505
+C,50/50,Block,13,0.011893870082342177
+C,50/50,Carry,216,0.19762122598353157
+C,50/50,Clearance,7,0.006404391582799634
+C,50/50,Dribble,1,0.0009149130832570906
+C,50/50,Duel,3,0.0027447392497712718
+C,50/50,Foul Committed,4,0.0036596523330283625
+C,50/50,Pass,98,0.08966148215919488
+C,50/50,Pressure,69,0.06312900274473925
+C,50/50,Shot,2,0.0018298261665141812
+C,Ball Recovery,50/50,54,0.002034434690878951
+C,Ball Recovery,Ball Recovery,638,0.02403646912556983
+C,Ball Recovery,Block,47,0.0017707116753946427
+C,Ball Recovery,Carry,22537,0.84907508570998
+C,Ball Recovery,Clearance,93,0.003503748634291527
+C,Ball Recovery,Dispossessed,3,0.00011302414949327507
+C,Ball Recovery,Dribble,5,0.00018837358248879177
+C,Ball Recovery,Duel,66,0.0024865312888520514
+C,Ball Recovery,Foul Committed,40,0.0015069886599103342
+C,Ball Recovery,Goal Keeper,14,0.000527446030968617
+C,Ball Recovery,Interception,10,0.00037674716497758355
+C,Ball Recovery,Miscontrol,11,0.0004144218814753419
+C,Ball Recovery,Pass,1281,0.04826131183362845
+C,Ball Recovery,Pressure,901,0.03394491956448028
+C,Ball Recovery,Shot,843,0.03175978600761029
+C,Block,50/50,106,0.00999811356347859
+C,Block,Ball Recovery,2810,0.26504433125825316
+C,Block,Block,425,0.040086776079984905
+C,Block,Carry,331,0.031220524429352952
+C,Block,Clearance,560,0.052820222599509525
+C,Block,Dispossessed,8,0.0007545746085644218
+C,Block,Dribble,9,0.0008488964346349745
+C,Block,Duel,251,0.023674778343708736
+C,Block,Foul Committed,179,0.016883606866628938
+C,Block,Goal Keeper,237,0.022354272778720995
+C,Block,Interception,28,0.0026410111299754765
+C,Block,Miscontrol,38,0.0035842293906810036
+C,Block,Pass,3687,0.3477645727221279
+C,Block,Pressure,1875,0.17685342388228636
+C,Block,Shot,58,0.005470665912092058
+C,Carry,50/50,10,4.287447639545702e-05
+C,Carry,Ball Recovery,620,0.0026582175365183354
+C,Carry,Block,498,0.0021351489244937597
+C,Carry,Carry,7042,0.030192206277680832
+C,Carry,Clearance,298,0.0012776593965846193
+C,Carry,Dispossessed,2271,0.00973679358940829
+C,Carry,Dribble,3327,0.01426433829676855
+C,Carry,Duel,225,0.000964675718897783
+C,Carry,Foul Committed,1954,0.008377672687672302
+C,Carry,Goal Keeper,92,0.0003944451828382046
+C,Carry,Interception,351,0.0015048941214805414
+C,Carry,Miscontrol,4428,0.01898481814790837
+C,Carry,Pass,163112,0.6993341593815785
+C,Carry,Pressure,46724,0.20032670351013337
+C,Carry,Shot,2287,0.00980539275164102
+C,Clearance,50/50,27,0.0024834437086092716
+C,Clearance,Ball Recovery,3273,0.3010485651214128
+C,Clearance,Block,516,0.04746136865342163
+C,Clearance,Carry,378,0.0347682119205298
+C,Clearance,Clearance,601,0.05527961736571008
+C,Clearance,Dispossessed,4,0.0003679175864606328
+C,Clearance,Dribble,7,0.0006438557763061074
+C,Clearance,Duel,542,0.04985283296541575
+C,Clearance,Foul Committed,118,0.010853568800588667
+C,Clearance,Goal Keeper,60,0.005518763796909493
+C,Clearance,Interception,44,0.004047093451066961
+C,Clearance,Miscontrol,28,0.0025754231052244297
+C,Clearance,Pass,3849,0.35402869757174393
+C,Clearance,Pressure,1386,0.12748344370860928
+C,Clearance,Shot,39,0.00358719646799117
+C,Dispossessed,Ball Recovery,1,0.00016307893020221786
+C,Dispossessed,Duel,6128,0.9993476842791911
+C,Dispossessed,Goal Keeper,3,0.0004892367906066536
+C,Dribble,50/50,8,0.0009909575126966432
+C,Dribble,Ball Recovery,66,0.008175399479747306
+C,Dribble,Block,3,0.0003716090672612412
+C,Dribble,Carry,4381,0.5426731078904992
+C,Dribble,Clearance,34,0.004211569428960733
+C,Dribble,Duel,3280,0.4062925802056237
+C,Dribble,Foul Committed,5,0.0006193484454354019
+C,Dribble,Goal Keeper,9,0.0011148272017837235
+C,Dribble,Pass,101,0.012510838597795119
+C,Dribble,Pressure,184,0.022792022792022793
+C,Dribble,Shot,2,0.0002477393781741608
+C,Duel,50/50,102,0.005918533132180573
+C,Duel,Ball Recovery,2695,0.15637692932575142
+C,Duel,Block,196,0.011372867587327376
+C,Duel,Carry,2554,0.14819542764303123
+C,Duel,Clearance,2353,0.13653243588255773
+C,Duel,Dispossessed,6,0.0003481490077753278
+C,Duel,Dribble,6,0.0003481490077753278
+C,Duel,Duel,122,0.007079029824764999
+C,Duel,Foul Committed,98,0.005686433793663688
+C,Duel,Goal Keeper,14,0.0008123476848090983
+C,Duel,Interception,46,0.00266914239294418
+C,Duel,Miscontrol,216,0.012533364279911802
+C,Duel,Pass,6506,0.3775095740977138
+C,Duel,Pressure,1598,0.09272368573749565
+C,Duel,Shot,722,0.041893930602297784
+C,Foul Committed,Ball Recovery,97,0.015184721352536006
+C,Foul Committed,Block,10,0.0015654351909830933
+C,Foul Committed,Carry,904,0.14151534126487164
+C,Foul Committed,Clearance,50,0.007827175954915467
+C,Foul Committed,Dispossessed,5,0.0007827175954915466
+C,Foul Committed,Dribble,7,0.0010958046336881652
+C,Foul Committed,Duel,103,0.01612398246712586
+C,Foul Committed,Foul Committed,14,0.0021916092673763305
+C,Foul Committed,Goal Keeper,19,0.002974326862867877
+C,Foul Committed,Interception,11,0.0017219787100814026
+C,Foul Committed,Miscontrol,13,0.002035065748278021
+C,Foul Committed,Pass,4503,0.704915466499687
+C,Foul Committed,Pressure,311,0.0486850344395742
+C,Foul Committed,Shot,341,0.05338134001252348
+C,Goal Keeper,50/50,2,0.0004714757190004715
+C,Goal Keeper,Ball Recovery,542,0.12776991984912778
+C,Goal Keeper,Block,56,0.013201320132013201
+C,Goal Keeper,Carry,828,0.19519094766619519
+C,Goal Keeper,Clearance,246,0.05799151343705799
+C,Goal Keeper,Dispossessed,5,0.0011786892975011788
+C,Goal Keeper,Dribble,11,0.002593116454502593
+C,Goal Keeper,Duel,123,0.028995756718528994
+C,Goal Keeper,Foul Committed,36,0.008486562942008486
+C,Goal Keeper,Goal Keeper,19,0.004479019330504479
+C,Goal Keeper,Interception,11,0.002593116454502593
+C,Goal Keeper,Miscontrol,18,0.004243281471004243
+C,Goal Keeper,Pass,1863,0.4391796322489392
+C,Goal Keeper,Pressure,466,0.10985384252710985
+C,Goal Keeper,Shot,16,0.003771805752003772
+C,Interception,50/50,36,0.00552655818237642
+C,Interception,Ball Recovery,1175,0.1803807184525637
+C,Interception,Block,124,0.01903592262818545
+C,Interception,Carry,2669,0.40973288302118516
+C,Interception,Clearance,93,0.014276941971139085
+C,Interception,Dispossessed,1,0.00015351550506601167
+C,Interception,Dribble,6,0.00092109303039607
+C,Interception,Duel,66,0.01013202333435677
+C,Interception,Foul Committed,33,0.005066011667178385
+C,Interception,Goal Keeper,12,0.00184218606079214
+C,Interception,Interception,22,0.0033773411114522566
+C,Interception,Miscontrol,24,0.00368437212158428
+C,Interception,Pass,1436,0.22044826527479275
+C,Interception,Pressure,807,0.12388701258827141
+C,Interception,Shot,10,0.0015351550506601166
+C,Miscontrol,50/50,136,0.018828741520143983
+C,Miscontrol,Ball Recovery,1906,0.263879274539665
+C,Miscontrol,Block,116,0.01605980894365222
+C,Miscontrol,Carry,194,0.026858645991970097
+C,Miscontrol,Clearance,370,0.05122525266509761
+C,Miscontrol,Dispossessed,3,0.0004153398864737644
+C,Miscontrol,Dribble,5,0.0006922331441229406
+C,Miscontrol,Duel,101,0.0139831095112834
+C,Miscontrol,Foul Committed,63,0.008722137615949052
+C,Miscontrol,Goal Keeper,26,0.003599612349439291
+C,Miscontrol,Interception,38,0.005260971895334349
+C,Miscontrol,Miscontrol,13,0.0017998061747196456
+C,Miscontrol,Pass,2172,0.3007060778070054
+C,Miscontrol,Pressure,2077,0.2875536480686695
+C,Miscontrol,Shot,3,0.0004153398864737644
+C,Pass,50/50,8,2.96897789224837e-05
+C,Pass,Ball Recovery,7784,0.028888154891576638
+C,Pass,Block,6284,0.023321321343610944
+C,Pass,Carry,174224,0.64658400537385
+C,Pass,Clearance,4906,0.018207256924213128
+C,Pass,Dispossessed,59,0.0002189621195533173
+C,Pass,Dribble,110,0.00040823446018415087
+C,Pass,Duel,5943,0.022055794517040078
+C,Pass,Foul Committed,960,0.003562773470698044
+C,Pass,Goal Keeper,1091,0.0040489436005537146
+C,Pass,Interception,5272,0.019565564309916756
+C,Pass,Miscontrol,889,0.003299276682761001
+C,Pass,Pass,36122,0.13405677427974452
+C,Pass,Pressure,24243,0.08997116380222153
+C,Pass,Shot,1558,0.0057820844451537
+C,Pressure,50/50,49,0.0005700524680945124
+C,Pressure,Ball Recovery,4575,0.053224286561885596
+C,Pressure,Block,251,0.002920064683504543
+C,Pressure,Carry,16805,0.19550472910874042
+C,Pressure,Clearance,1203,0.013995369777912213
+C,Pressure,Dispossessed,3765,0.04380097025256814
+C,Pressure,Dribble,4578,0.05325918773340158
+C,Pressure,Duel,109,0.0012680758984143234
+C,Pressure,Foul Committed,2893,0.033656363065253554
+C,Pressure,Goal Keeper,143,0.001663622508928883
+C,Pressure,Interception,683,0.007945833381807182
+C,Pressure,Miscontrol,1555,0.01809044056912177
+C,Pressure,Pass,42757,0.49742313016973605
+C,Pressure,Pressure,5019,0.0583896599462522
+C,Pressure,Shot,1572,0.01828821387437905
+C,Shot,50/50,3,0.0004050769646232784
+C,Shot,Ball Recovery,259,0.03497164461247637
+C,Shot,Block,2085,0.2815284904131785
+C,Shot,Carry,164,0.022144207399405886
+C,Shot,Clearance,109,0.014717796381312449
+C,Shot,Dispossessed,2,0.00027005130974885227
+C,Shot,Dribble,3,0.0004050769646232784
+C,Shot,Duel,188,0.025384823116392115
+C,Shot,Foul Committed,27,0.0036456926816095057
+C,Shot,Goal Keeper,2546,0.34377531731028893
+C,Shot,Interception,7,0.000945179584120983
+C,Shot,Miscontrol,6,0.0008101539292465569
+C,Shot,Pass,1682,0.22711315149878478
+C,Shot,Pressure,316,0.04266810694031866
+C,Shot,Shot,9,0.0012152308938698352

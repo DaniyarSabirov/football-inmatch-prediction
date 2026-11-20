@@ -1,0 +1,4 @@
+taxonomy,n_classes,retained_events,removed_vs_scenarioD15,pct_removed_vs_scenarioD15,transitions,eval_rows_current_360,d15_eval_rows_dropped_as_current,d15_eval_rows_with_changed_target_event,d15_eval_rows_with_changed_target_class,pct_sequences_affected,eval_share_skipping_ge1_raw,eval_share_zero_time_gap,rows_in_cells_P_ge_0_9,near_deterministic_cells,H_target_bits,H_target_given_current_bits
+scenarioD15,15,799951,0,0.0,799309,701144,0,0,0,0.0,0.38464851728033045,0.07327168170875027,0.009056572614595857,Dispossessed->Duel 1.000,2.3934119887012506,1.65911247785425
+actions15,15,782377,17574,2.19688455917925,781735,690147,10997,15538,15491,100.0,0.41282364481769823,0.06001764841403353,0.0,,2.3026930938381307,1.670774792071874
+alt12_no_GK_Duel_5050,12,769776,30175,3.7721060414950416,769134,678458,22686,25230,25230,100.0,0.42557387487508436,0.048271226811387,0.0,,2.2027968692219226,1.6160434433590816

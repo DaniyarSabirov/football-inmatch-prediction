@@ -1,0 +1,41 @@
+first,second,identical_snapshot,n,share_of_pair
+Ball Receipt*,Carry,True,200190,0.9163649347023038
+Ball Recovery,Carry,True,22396,0.8991127704845638
+Ball Receipt*,Pass,True,19783,0.4206732302719714
+Dispossessed,Duel,True,6044,0.8349219505456554
+Ball Receipt*,Ball Recovery,True,5849,0.8922959572845156
+Foul Committed,Foul Won,True,5837,0.8313630536960547
+Ball Receipt*,Interception,True,5728,0.8919339769542198
+Carry,Pass,True,5056,0.02724299392744182
+Dribbled Past,Dribble,True,4767,0.8621812262615302
+Ball Receipt*,Duel,True,4470,0.75354012137559
+Dribble,Carry,True,4360,0.8685258964143426
+Ball Receipt*,Block,True,3757,0.876984126984127
+Duel,Pass,True,3480,0.4608050847457627
+Ball Receipt*,Clearance,True,3298,0.9035616438356164
+Dribble,Duel,True,3169,0.8127725057707105
+Interception,Carry,True,2494,0.9095550692924872
+Duel,Carry,True,2280,0.8228076506676291
+Duel,Clearance,True,2095,0.8406902086677368
+Pass,Duel,True,993,0.5844614479105356
+Ball Receipt*,Shot,True,899,0.4334619093539055
+Ball Receipt*,Goal Keeper,True,733,0.9139650872817955
+Goal Keeper,Carry,True,606,0.9395348837209302
+Duel,Shot,True,592,0.8199445983379502
+50/50,50/50,True,523,0.849025974025974
+Foul Won,Carry,True,522,0.8802698145025295
+Ball Receipt*,Miscontrol,True,492,0.32843791722296395
+Carry,Miscontrol,True,467,0.09407735697018534
+50/50,Carry,True,204,0.8947368421052632
+Duel,Miscontrol,True,176,0.7489361702127659
+Ball Receipt*,Foul Committed,True,121,0.11203703703703703
+Carry,Block,True,74,0.1761904761904762
+Ball Receipt*,Dispossessed,True,40,0.5128205128205128
+Ball Receipt*,Dribble,True,21,0.5526315789473685
+Carry,Interception,True,18,0.1592920353982301
+Own Goal Against,Own Goal For,True,18,0.8181818181818182
+Ball Receipt*,Dribbled Past,True,15,0.39473684210526316
+Own Goal For,Own Goal Against,True,13,0.8666666666666667
+Carry,Pressure,True,12,0.00022653904966868664
+Goal Keeper,Dribble,True,9,0.9
+Carry,Shot,True,8,0.003411513859275053

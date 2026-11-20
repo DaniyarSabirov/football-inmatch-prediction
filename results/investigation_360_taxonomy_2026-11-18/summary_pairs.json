@@ -1,0 +1,19 @@
+{
+ "actions15_transitions": 781735,
+ "same_timestamp_transitions": 46091,
+ "same_timestamp_share": 0.058959877707918926,
+ "same_timestamp_linked_share": 0.9377101820311992,
+ "aerial_lost_with_linked_winner": {
+  "n_aerial_lost": 8549,
+  "with_linked_aerial_won_record": 8549,
+  "winner_record_before_loser": 0.13861270324014505,
+  "same_timestamp": 1.0,
+  "adjacent_raw_records": 1.0,
+  "winner_types": {
+   "Pass": 5259,
+   "Clearance": 2335,
+   "Shot": 720,
+   "Miscontrol": 235
+  }
+ }
+}

@@ -1,0 +1,41 @@
+type,next_type,link_next,same_team,n
+Ball Recovery,Carry,True,True,24909
+Dribble,Carry,True,True,5020
+Duel,Pass,True,False,4074
+Interception,Carry,True,True,2742
+Duel,Clearance,True,False,2335
+Dispossessed,Carry,False,False,1698
+Pass,Duel,True,False,1185
+Dribble,Carry,False,False,1073
+Duel,Shot,True,False,720
+Goal Keeper,Carry,True,True,645
+Foul Committed,Carry,True,False,593
+Carry,Block,True,False,364
+Duel,Miscontrol,True,False,235
+50/50,Carry,True,False,228
+Carry,Interception,True,False,89
+Carry,Clearance,False,False,29
+Carry,Pressure,True,False,26
+Carry,Ball Recovery,False,False,22
+Carry,Miscontrol,False,False,16
+Pressure,Carry,True,False,12
+Goal Keeper,Dribble,True,False,10
+Pressure,Ball Recovery,True,False,9
+Pressure,Pass,True,False,9
+Carry,Pass,False,False,6
+Pass,Pressure,False,False,6
+Dribble,Goal Keeper,True,False,6
+Carry,Dribble,False,False,4
+Pressure,Pressure,False,True,3
+Dispossessed,Goal Keeper,True,False,3
+Ball Recovery,Shot,False,True,3
+Block,Foul Committed,False,True,2
+Carry,Pass,True,False,2
+Duel,Block,False,True,1
+Carry,Foul Committed,True,False,1
+Pressure,Miscontrol,True,False,1
+Pressure,Clearance,False,True,1
+Block,Pass,True,False,1
+Pass,Carry,False,True,1
+Carry,Goal Keeper,False,False,1
+Ball Recovery,Ball Recovery,False,True,1

@@ -1,0 +1,6 @@
+{
+ "360_events_with_actor_and_location": 981430,
+ "share_actor_point_equals_event_location_lt_0_05": 0.9381341511875528,
+ "share_actor_point_equals_mirrored_location": 0.00034745218711472036,
+ "consecutive_raw_pairs_with_identical_snapshot": 311689
+}
