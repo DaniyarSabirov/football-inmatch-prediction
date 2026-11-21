@@ -1,0 +1,59 @@
+# Experiment 5: gradient-boosted trees (XGBoost) on the canonical task actions15_360current_v1.
+# Read by scripts/run_xgboost_experiment5.py; copied into the result directory.
+# Everything below is fixed BEFORE the run. Nothing is chosen from outer-validation results.
+
+experiment_name: xgboost_experiment5_v1
+task_config: configs/actions15_360current_v1.yaml       # used unchanged (loader refuses drift)
+baseline_config: configs/canonical_baselines_v1.yaml     # baselines are recomputed in memory for paired comparison
+baseline_results_dir: results/canonical_baselines_actions15_360current_v1_2026-11-19   # read-only reference
+output_dir: results/xgboost_experiment5_actions15_360current_v1_2026-11-20
+
+# Feature configurations (canonical event classes only; see src/sequence_models/event_history.py).
+#   XGB-F0: x_t = (E_t)                               -> one-hot, 15 columns
+#   XGB-H5: x_t = (E_{t-4}, E_{t-3}, E_{t-2}, E_{t-1}, E_t)
+#           -> E_t one-hot (15) + 4 history blocks of 16 (15 classes + <START> padding) = 79 columns
+# Names XGB-F0 / XGB-H5 deliberately avoid the planned feature-set names F1-F6 of feature_sets.py.
+feature_sets:
+  XGB-F0: {n_previous: 0}
+  XGB-H5: {n_previous: 4}
+
+xgboost:
+  version: "3.1.3"               # asserted at run time
+  objective: multi:softprob
+  num_class: 15
+  tree_method: hist
+  eval_metric: mlogloss
+  nthread: 8                     # fixed: CPU hist is deterministic for a fixed thread count
+  seed: 20261120
+  # Training on count-weighted unique (features, target) cells gives the same objective as the
+  # row-level fit (gradient and hessian sums are weighted sums). Row subsampling would sample
+  # CELLS, not rows, and is therefore NOT equivalent: subsample is fixed to 1.0.
+  fixed_params: {subsample: 1.0, gamma: 0.0, reg_alpha: 0.0, max_bin: 256}
+
+search:
+  # Bounded random search: n_candidates configurations drawn once (seeded) from the space below;
+  # the SAME candidate list is used for both feature sets and all outer folds.
+  n_candidates: 20
+  candidate_seed: 20261120
+  space:
+    max_depth: [2, 3, 4, 6, 8]
+    learning_rate: [0.05, 0.1, 0.2]
+    min_child_weight: [1, 5, 20, 100]
+    reg_lambda: [0.1, 1.0, 10.0, 100.0]
+    colsample_bytree: [0.5, 0.75, 1.0]
+  # Number of boosting rounds (n_estimators) is tuned by inner CV: the 4 inner boosters of a
+  # candidate are trained in lockstep; after every round the POOLED inner-validation log loss
+  # (sum over the 4 inner-validation sets / their row count, as in the canonical baselines) is
+  # recorded. Training stops when it has not improved for `patience` rounds (or at max_rounds).
+  # The selected (candidate, rounds) minimises that pooled curve. The final model is refitted on
+  # ALL outer-training rows with exactly the selected number of rounds (no rescaling).
+  max_rounds: 2000
+  patience: 50
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7              # identical to the canonical baselines (same resampled matches)
+  probability_tolerance: 1.0e-9
+  permutation_repeats: 10
+  permutation_seed: 11
+  row_level_check_fold: 0        # one outer refit is repeated on individual rows to verify the cell fit

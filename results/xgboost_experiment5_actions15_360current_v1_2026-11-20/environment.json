@@ -1,0 +1,55 @@
+{
+ "python": "3.11.1 (v3.11.1:a7a450f84a, Dec  6 2022, 15:24:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+ "git_commit": "c61939d250388484951028e203f81068bd3a9903",
+ "uncommitted_changes": [
+  " M pyproject.toml",
+  "?? configs/xgboost_experiment5_v1.yaml",
+  "?? docs/thesis/05_xgboost_gradient_boosting.md",
+  "?? results/xgboost_experiment5_actions15_360current_v1_2026-11-20/",
+  "?? scripts/run_xgboost_experiment5.py",
+  "?? src/sequence_models/event_history.py",
+  "?? src/sequence_models/raw_history_check.py",
+  "?? src/sequence_models/xgboost_experiment.py",
+  "?? tests/test_xgboost_experiment5.py"
+ ],
+ "packages": {
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "pyyaml": "6.0.3",
+  "xgboost": "3.1.3"
+ },
+ "xgboost_build": {
+  "USE_OPENMP": true,
+  "BUILD_WITH_SHARED_PTHREAD_LIB": null
+ },
+ "runtime_seconds": 53982.11358809471,
+ "workload": {
+  "XGB-F0": {
+   "n_candidates": 20,
+   "n_fits": 405,
+   "n_boosting_rounds": 685115
+  },
+  "XGB-H5": {
+   "n_candidates": 20,
+   "n_fits": 405,
+   "n_boosting_rounds": 496783
+  }
+ },
+ "random_seeds": {
+  "folds": 20261027,
+  "bootstrap": 7,
+  "xgboost": 20261120,
+  "candidates": 20261120,
+  "permutation": 11,
+  "raw_verification_sample": 5
+ },
+ "determinism": "CPU hist, nthread=8: refits are bit-identical (fit_verification.csv)",
+ "commands": [
+  "python scripts/build_canonical_task.py   # only if data/interim/canonical_task is missing",
+  "python scripts/run_xgboost_experiment5.py --smoke",
+  "python scripts/run_xgboost_experiment5.py --overwrite"
+ ]
+}
