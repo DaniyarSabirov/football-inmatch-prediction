@@ -203,3 +203,19 @@ fold means [min–max over folds]:
 **Not committed** (`data/interim/xgboost_experiment5/`, git-ignored): the 10 fitted
 boosters (`.ubj`) and the out-of-fold probabilities of all 6 models
 (`oof_predictions.parquet`).
+
+## Addendum (2026-11-22)
+
+**XGB-H2 ablation.** The ablation mentioned in §4 item 3 was run as experiment 5B
+(`results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21/`). Its results:
+- with identical information, XGB-H2 − Markov 2 = −0.00047 log loss;
+- XGB-H5 − XGB-H2 = −0.01576.
+
+Nothing in this directory's results changed.
+
+**Documentation change after the run.** The module docstring of
+`src/sequence_models/xgboost_experiment.py` was corrected four minutes after this run
+finished, on the size of the cell/row difference (`fit_verification.csv`). The executable
+code was not changed. This run recorded no per-file source hashes, so this statement rests
+on the file timestamps and the authoring record. It cannot be checked by hash.
+

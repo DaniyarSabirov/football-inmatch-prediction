@@ -1,0 +1,57 @@
+# Experiment 5B: XGB-H2, the controlled comparison with the canonical second-order Markov chain.
+# Read by scripts/run_xgboost_experiment5b.py; copied into the result directory.
+# Everything is fixed BEFORE the run. The `xgboost` and `search` sections are copied verbatim
+# from configs/xgboost_experiment5_v1.yaml; the runner refuses to start if they differ.
+
+experiment_name: xgboost_experiment5b_h2_v1
+task_config: configs/actions15_360current_v1.yaml        # used unchanged
+baseline_config: configs/canonical_baselines_v1.yaml
+baseline_results_dir: results/canonical_baselines_actions15_360current_v1_2026-11-19   # read-only
+experiment5_config: configs/xgboost_experiment5_v1.yaml                                # read-only
+experiment5_results_dir: results/xgboost_experiment5_actions15_360current_v1_2026-11-20 # read-only
+experiment5_predictions: data/interim/xgboost_experiment5/oof_predictions.parquet      # read-only
+output_dir: results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21
+checkpoint_dir: data/interim/xgboost_experiment5b/checkpoints                          # git-ignored
+
+# XGB-H2: x_t = (E_{t-1}, E_t). E_{t-1} one-hot over 16 (15 classes + <START>), E_t one-hot
+# over 15 -> 31 columns. Same encoding as experiment 5 (src/sequence_models/event_history.py).
+feature_set: {name: XGB-H2, n_previous: 1}
+
+xgboost:
+  version: "3.1.3"
+  objective: multi:softprob
+  num_class: 15
+  tree_method: hist
+  eval_metric: mlogloss
+  nthread: 8
+  seed: 20261120
+  fixed_params: {subsample: 1.0, gamma: 0.0, reg_alpha: 0.0, max_bin: 256}
+
+search:
+  n_candidates: 20
+  candidate_seed: 20261120
+  space:
+    max_depth: [2, 3, 4, 6, 8]
+    learning_rate: [0.05, 0.1, 0.2]
+    min_child_weight: [1, 5, 20, 100]
+    reg_lambda: [0.1, 1.0, 10.0, 100.0]
+    colsample_bytree: [0.5, 0.75, 1.0]
+  max_rounds: 2000
+  patience: 50
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7              # identical to the baselines and experiment 5 (same resampled matches)
+  probability_tolerance: 1.0e-9
+  permutation_repeats: 10
+  permutation_seed: 11
+  raw_verification: {n_random: 300, n_period_start: 150, n_period_end: 150, seed: 51}
+
+# Weighted-cell audit (before training): data of outer fold 0's INNER split only
+# (train = inner folds of fold 0 except the held one, validate = the held inner fold);
+# outer-validation rows are never used. The audit does not choose the training representation.
+weighted_cell_audit:
+  outer_fold: 0
+  held_inner_fold: 1
+  candidates: [0, 2]             # predeclared candidate indices of the shared candidate list
+  rounds: [1, 10, 50, 200, 500, 1000, 2000]

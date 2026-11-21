@@ -1,0 +1,6 @@
+feature_set,fold_id,candidate,max_depth,learning_rate,min_child_weight,reg_lambda,colsample_bytree,n_estimators,inner_log_loss,rounds_at_max,train_rows,validation_rows
+XGB-H2,0,8,8,0.2,5,100.0,0.5,1798,1.06752573143,False,552724,137423
+XGB-H2,1,5,8,0.2,1,100.0,1.0,621,1.068513237774,False,552322,137825
+XGB-H2,2,8,8,0.2,5,100.0,0.5,1991,1.067248842905,False,551095,139052
+XGB-H2,3,8,8,0.2,5,100.0,0.5,1984,1.067824967099,False,552457,137690
+XGB-H2,4,5,8,0.2,1,100.0,1.0,737,1.068438247416,False,551990,138157

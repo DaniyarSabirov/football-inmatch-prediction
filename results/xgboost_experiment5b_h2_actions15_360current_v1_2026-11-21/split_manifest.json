@@ -1,0 +1,41 @@
+{
+ "source_split_manifest": "results/markov_hmm_pilot/split_manifest.json",
+ "source_split_manifest_sha256": "f4e194c58a31ef2b573a9fa05352a0cd36da2fa1d288da9756bcf247258fd0b3",
+ "folds_file": "results/markov_hmm_cost_sensitive_v2/tiers/tier_b/scenarioD15/folds.json",
+ "folds_file_sha256": "4cddce19100715581a6308a526c2a2db3c1fd0343fb882515bda428839c07010",
+ "folds_identical_to_canonical_baselines_and_experiment5": true,
+ "final_test_matches": 83,
+ "final_test_loaded": 0,
+ "folds": [
+  {
+   "fold_id": 0,
+   "n_train_matches": 244,
+   "n_validation_matches": 60,
+   "validation_rows": 137423
+  },
+  {
+   "fold_id": 1,
+   "n_train_matches": 243,
+   "n_validation_matches": 61,
+   "validation_rows": 137825
+  },
+  {
+   "fold_id": 2,
+   "n_train_matches": 243,
+   "n_validation_matches": 61,
+   "validation_rows": 139052
+  },
+  {
+   "fold_id": 3,
+   "n_train_matches": 243,
+   "n_validation_matches": 61,
+   "validation_rows": 137690
+  },
+  {
+   "fold_id": 4,
+   "n_train_matches": 243,
+   "n_validation_matches": 61,
+   "validation_rows": 138157
+  }
+ ]
+}

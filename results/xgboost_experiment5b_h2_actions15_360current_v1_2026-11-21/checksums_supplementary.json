@@ -1,0 +1,11 @@
+{
+ "description": "sha256 of files created AFTER the 5B run; checksums.json is the run's original manifest and is not rewritten",
+ "files": {
+  "h2_vs_markov2_decomposition.csv": "e7f3819966fe209d7edb68a02120a7f1f31a9cb54eab0fcc8b4cec88a4c33c63",
+  "post_run_verification.json": "8a6112eef79981499cb7a67a881d943c665e0006f579001c0516d1fa1a35d505"
+ },
+ "generated_by": {
+  "h2_vs_markov2_decomposition.csv": "scripts/analyze_xgboost_experiment5b.py",
+  "post_run_verification.json": "scripts/verify_xgboost_experiments5.py"
+ }
+}

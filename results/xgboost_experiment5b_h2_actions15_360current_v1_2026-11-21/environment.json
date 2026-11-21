@@ -1,0 +1,95 @@
+{
+ "python": "3.11.1 (v3.11.1:a7a450f84a, Dec  6 2022, 15:24:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+ "git_commit": "c61939d250388484951028e203f81068bd3a9903",
+ "uncommitted_changes": [
+  " M pyproject.toml",
+  "?? configs/xgboost_experiment5_v1.yaml",
+  "?? configs/xgboost_experiment5b_h2_v1.yaml",
+  "?? docs/thesis/05_xgboost_gradient_boosting.md",
+  "?? docs/thesis/06_xgboost_h2_controlled_comparison.md",
+  "?? results/xgboost_experiment5_actions15_360current_v1_2026-11-20/",
+  "?? results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21/",
+  "?? scripts/run_xgboost_experiment5.py",
+  "?? scripts/run_xgboost_experiment5b.py",
+  "?? src/sequence_models/event_history.py",
+  "?? src/sequence_models/raw_history_check.py",
+  "?? src/sequence_models/xgboost_experiment.py",
+  "?? src/sequence_models/xgboost_h2_experiment.py",
+  "?? tests/test_xgboost_experiment5.py",
+  "?? tests/test_xgboost_experiment5b.py"
+ ],
+ "packages": {
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "pyyaml": "6.0.3",
+  "xgboost": "3.1.3"
+ },
+ "runtime_seconds": 9384.03613781929,
+ "checkpoint_identifiers": {
+  "experiment": "xgboost_experiment5b_h2_v1",
+  "task_version": "actions15_360current_v1",
+  "config_sha256": "ed74421e2e84b3291d5a1015171a904a13c2cf2fc127ca7754fc82c50f63591e",
+  "search_and_xgboost_sha256": "59127ca06bf2aad51fa2f7f6f436b32bd2d85e5cb23f54e8b4f6e614f15f7699",
+  "dataset_sha256_tier_b": "c4a71d1f32157d916182d0ccefcd3ab164b62fcd8b1dc2f2b83cac430053b1ef",
+  "folds_file_sha256": "4cddce19100715581a6308a526c2a2db3c1fd0343fb882515bda428839c07010",
+  "split_manifest_sha256": "f4e194c58a31ef2b573a9fa05352a0cd36da2fa1d288da9756bcf247258fd0b3",
+  "row_event_id_sha256": "50689e74bbdb0b6fb37f271ed8d5263d136982efd8b94de8f78b793a4d4bc41f",
+  "feature_matrix_sha256": "eef442287ce02ae61a9de2e1830dab4971c3e9bb8478dddb7e019c865a1dbcca",
+  "source_digest": "b0f274a124763031f1943d2566406f5ad35a3dd7b93fc4f0b2a7a7cb53b6c72f",
+  "xgboost_version": "3.1.3"
+ },
+ "source_files_sha256": {
+  "xgboost_h2_experiment.py": "aa1ff1ac3becffdca1778e1d908f97b34fe3ffef157fd251070204e9a6d3022d",
+  "xgboost_experiment.py": "c6c6029428b4285e1e4a83f71e9248c1e0d35d2ed34c48fb268dbc2fccb89115",
+  "event_history.py": "5f2e28a471b36894a7e86508f81a5490ee8ce7fbab1f981ce6710c6cd7adf1ec",
+  "canonical_task.py": "931e8811210508e125b32a989cb74a93ff0994857fc6aab9b829f2965efb1ad9",
+  "evaluation_v2.py": "3ee2502576be6948b6fe3d1f99af638c790b06ac3838091b06c34aae9275e8ff",
+  "run_xgboost_experiment5b.py": "4fa789b23a4d06826542873a9d5d8057009c785713d4c1ef4f9a355b7d9fc6e4",
+  "run_xgboost_experiment5.py": "502c4f03312fe7b8cb1a81450c765cae32bd7d8140314820ac746cb3cfd9cd80"
+ },
+ "run_status": {
+  "completed": true,
+  "resumed_folds": [],
+  "computed_folds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "workload": {
+  "n_candidates": 20,
+  "n_fits": 405,
+  "n_boosting_rounds": 681415
+ },
+ "experiment5_verification": {
+  "before": {
+   "files_checked": 23,
+   "mismatches": [],
+   "checksums_json_sha256": "cf098b2900b51a14ae8f57f64d90ff5ac2de56486c86200fb3429505415fba7e",
+   "readme_sha256": "9a8dcb9782564f0810b30e11f6068498f8d48ca8afb72e46d83635d188f4184c"
+  },
+  "after": {
+   "files_checked": 23,
+   "mismatches": [],
+   "checksums_json_sha256": "cf098b2900b51a14ae8f57f64d90ff5ac2de56486c86200fb3429505415fba7e",
+   "readme_sha256": "9a8dcb9782564f0810b30e11f6068498f8d48ca8afb72e46d83635d188f4184c"
+  }
+ },
+ "random_seeds": {
+  "folds": 20261027,
+  "bootstrap": 7,
+  "xgboost": 20261120,
+  "candidates": 20261120,
+  "permutation": 11,
+  "raw_verification_sample": 51
+ },
+ "commands": [
+  "python scripts/run_xgboost_experiment5b.py --smoke",
+  "caffeinate -i python scripts/run_xgboost_experiment5b.py"
+ ]
+}

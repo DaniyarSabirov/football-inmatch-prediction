@@ -1,0 +1,33 @@
+check,result,value
+exp5 predictions: event_id order,PASS,
+exp5 predictions: targets,PASS,
+exp5 predictions: fold of row,PASS,
+exp5 predictions: unique row ids,PASS,
+exp5 predictions reproduce stored frequency log loss,PASS,0.0
+exp5 predictions reproduce stored markov1 log loss,PASS,2.220446049250313e-16
+exp5 predictions reproduce stored markov2 log loss,PASS,0.0
+exp5 predictions reproduce stored logistic_F0 log loss,PASS,0.0
+exp5 predictions reproduce stored XGB-F0 log loss,PASS,0.0
+exp5 predictions reproduce stored XGB-H5 log loss,PASS,0.0
+row ids identical to experiment 5 (same order),PASS,
+targets identical to experiment 5,PASS,
+fold of every row identical to experiment 5,PASS,
+"690,147 rows and 304 matches",PASS,690147
+every outer fold completed,PASS,
+every row predicted exactly once (one validation fold per row),PASS,
+no duplicate row ids,PASS,
+"probabilities finite, positive, 15 columns, rows sum to 1 (tol 1e-9)",PASS,6.661338147750939e-16
+fold 0 log loss reproduces from saved predictions,PASS,0.0
+fold 1 log loss reproduces from saved predictions,PASS,0.0
+fold 2 log loss reproduces from saved predictions,PASS,0.0
+fold 3 log loss reproduces from saved predictions,PASS,0.0
+fold 4 log loss reproduces from saved predictions,PASS,0.0
+no outer-validation match in any inner-train / inner-validation / outer-train set,PASS,45 data sets audited
+"no final-test match in the data, folds or any data set handed to XGBoost",PASS,83 final-test ids checked
+refit of fold 0 reproduces the saved predictions bit-identically,PASS,0.0
+"row-level refit of fold 0 vs weighted cells (limitation, see weighted_cell_audit)",LIMITATION,|dLL|=1.27e-10
+"raw-JSON rebuild of 600 rows (random, period start, period end) matches",PASS,600
+pooled accuracy / macro-F1 reproduce from pooled predictions,PASS,
+raw source digest equals the canonical manifest,PASS,79821dfe4129ead844a256f750f4ceb81ff91e5e02e272ddbd0737cacff86c70
+experiment 5 results unchanged (checksums.json + README),PASS,23
+run status,INFO,"resumed folds: none; computed folds: [0, 1, 2, 3, 4]"

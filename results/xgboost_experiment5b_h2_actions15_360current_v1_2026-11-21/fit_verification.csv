@@ -1,0 +1,2 @@
+feature_set,fold_id,n_estimators,log_loss_cells,log_loss_rows,abs_log_loss_difference,max_abs_probability_difference,argmax_agreement,row_level_fit_seconds
+XGB-H2,0,1798,1.069301649929537,1.069301650056106,1.2656897752094665e-10,0.00469276571730437,0.999919955174898,305.5863044160069
