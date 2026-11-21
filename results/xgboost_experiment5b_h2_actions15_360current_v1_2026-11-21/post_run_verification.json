@@ -1,0 +1,181 @@
+{
+ "description": "post-run verification of experiments 5 and 5B (scripts/verify_xgboost_experiments5.py)",
+ "n_checks": 22,
+ "n_fail": 0,
+ "checks": [
+  {
+   "check": "xgboost_experiment5_actions15_360current_v1_2026-11-20: all files in checksums.json unchanged",
+   "result": "PASS",
+   "value": "23 files, mismatches []"
+  },
+  {
+   "check": "xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21: all files in checksums.json unchanged",
+   "result": "PASS",
+   "value": "30 files, mismatches []"
+  },
+  {
+   "check": "dataset contains no final-test match",
+   "result": "PASS",
+   "value": "83 ids"
+  },
+  {
+   "check": "predictions contain no final-test match",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "690,147 rows in 304 matches",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "exp5 / 5B predictions: event ids equal the canonical eligible rows in order",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "targets equal canonical target_id",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "no duplicate row ids",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "fold of every row equals the outer folds file (each row in exactly one validation fold)",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "frequency: probabilities finite, positive, 15 columns, row sums within 1e-9 of 1",
+   "result": "PASS",
+   "value": 3.3306690738754696e-16
+  },
+  {
+   "check": "markov1: probabilities finite, positive, 15 columns, row sums within 1e-9 of 1",
+   "result": "PASS",
+   "value": 4.440892098500626e-16
+  },
+  {
+   "check": "markov2: probabilities finite, positive, 15 columns, row sums within 1e-9 of 1",
+   "result": "PASS",
+   "value": 7.771561172376096e-16
+  },
+  {
+   "check": "logistic_F0: probabilities finite, positive, 15 columns, row sums within 1e-9 of 1",
+   "result": "PASS",
+   "value": 4.440892098500626e-16
+  },
+  {
+   "check": "XGB-F0: probabilities finite, positive, 15 columns, row sums within 1e-9 of 1",
+   "result": "PASS",
+   "value": 4.440892098500626e-16
+  },
+  {
+   "check": "XGB-H5: probabilities finite, positive, 15 columns, row sums within 1e-9 of 1",
+   "result": "PASS",
+   "value": 7.771561172376096e-16
+  },
+  {
+   "check": "XGB-H2: probabilities finite, positive, 15 columns, row sums within 1e-9 of 1",
+   "result": "PASS",
+   "value": 6.661338147750939e-16
+  },
+  {
+   "check": "xgboost_experiment5_actions15_360current_v1_2026-11-20: pooled and per-fold metrics reproduce with scikit-learn (tol 1e-12)",
+   "result": "PASS",
+   "value": 2.220446049250313e-16
+  },
+  {
+   "check": "xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21: pooled and per-fold metrics reproduce with scikit-learn (tol 1e-12)",
+   "result": "PASS",
+   "value": 2.220446049250313e-16
+  },
+  {
+   "check": "xgboost_experiment5_actions15_360current_v1_2026-11-20: outer validation used only for the final predictions",
+   "result": "PASS",
+   "value": "100 data sets"
+  },
+  {
+   "check": "xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21: outer validation used only for the final predictions",
+   "result": "PASS",
+   "value": "50 data sets"
+  },
+  {
+   "check": "raw-JSON re-verification of the stored samples (exp5: 500 H5 rows; 5B: 600 H2 rows)",
+   "result": "PASS",
+   "value": "1100/1100"
+  },
+  {
+   "check": "arithmetic decomposition: (H5 - H2) + (H2 - M2) = H5 - M2",
+   "result": "PASS",
+   "value": {
+    "XGB-H5_minus_markov2": -0.016224249825149695,
+    "XGB-H5_minus_XGB-H2": -0.015755949957285242,
+    "XGB-H2_minus_markov2": -0.0004682998678644523,
+    "share_XGB-H5_minus_XGB-H2": 0.9711358076390979,
+    "share_XGB-H2_minus_markov2": 0.028864192360902055
+   }
+  }
+ ],
+ "recomputed_metrics_sklearn": {
+  "frequency": {
+   "log_loss": 1.596176755792466,
+   "accuracy": 0.4018564160968605,
+   "macro_f1": 0.038221357668544044,
+   "weighted_f1": 0.2303924671655605,
+   "shot_average_precision": 0.01031315517540613,
+   "shot_recall": 0.0
+  },
+  "markov1": {
+   "log_loss": 1.1585019751961265,
+   "accuracy": 0.6504657703358849,
+   "macro_f1": 0.10043473857036804,
+   "weighted_f1": 0.54974180102732,
+   "shot_average_precision": 0.03364419752214743,
+   "shot_recall": 0.0
+  },
+  "markov2": {
+   "log_loss": 1.0680735403493773,
+   "accuracy": 0.6659103060652296,
+   "macro_f1": 0.1204319114121773,
+   "weighted_f1": 0.5731015956473244,
+   "shot_average_precision": 0.05274843466757163,
+   "shot_recall": 0.0
+  },
+  "logistic_F0": {
+   "log_loss": 1.1585044243438112,
+   "accuracy": 0.6504657703358849,
+   "macro_f1": 0.10043473857036804,
+   "weighted_f1": 0.54974180102732,
+   "shot_average_precision": 0.03364416772675997,
+   "shot_recall": 0.0
+  },
+  "XGB-F0": {
+   "log_loss": 1.158501133400133,
+   "accuracy": 0.6504657703358849,
+   "macro_f1": 0.10043473857036804,
+   "weighted_f1": 0.54974180102732,
+   "shot_average_precision": 0.03365923997507281,
+   "shot_recall": 0.0
+  },
+  "XGB-H5": {
+   "log_loss": 1.0518492905242276,
+   "accuracy": 0.6668303999003111,
+   "macro_f1": 0.13253355799102923,
+   "weighted_f1": 0.5778490640003326,
+   "shot_average_precision": 0.0769428337444635,
+   "shot_recall": 0.0016638935108153079
+  },
+  "XGB-H2": {
+   "log_loss": 1.0676052404815128,
+   "accuracy": 0.6659030612318825,
+   "macro_f1": 0.12084787206241782,
+   "weighted_f1": 0.5731111577168206,
+   "shot_average_precision": 0.05289765211991484,
+   "shot_recall": 0.0
+  }
+ }
+}

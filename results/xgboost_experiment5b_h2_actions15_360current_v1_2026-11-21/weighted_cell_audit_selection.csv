@@ -1,0 +1,3 @@
+outer_fold,candidate,max_depth,learning_rate,min_child_weight,reg_lambda,colsample_bytree,selected_rounds_rows,selected_rounds_cells,rounds_trained_rows,rounds_trained_cells,min_inner_log_loss_rows,min_inner_log_loss_cells,max_abs_curve_difference_common_rounds,seconds_rows,seconds_cells
+0,0,6,0.2,5,0.1,0.75,298,531,348,581,1.0675507071125145,1.0675429744086908,1.1465652102193857e-05,185.58213779200742,38.714169041006244
+0,2,4,0.1,1,100.0,0.75,2000,2000,2000,2000,1.0677352775689148,1.0677346376692929,0.00010894038057429611,845.3440529579966,92.7065738329984

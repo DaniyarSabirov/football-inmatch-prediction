@@ -1,0 +1,3 @@
+candidate,base_score_identical,round1_tree_structure_identical,round1_max_abs_leaf_difference,round1_n_trees
+0,True,True,1.199999999368373e-07,15
+2,True,True,1.5000000019860238e-08,15

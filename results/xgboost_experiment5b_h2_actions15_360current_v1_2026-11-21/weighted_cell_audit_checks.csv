@@ -1,0 +1,8 @@
+check,value,expected,pass
+cell weights sum to the number of training rows,414899.0,414899.0,True
+cells with identical features but different targets are kept separate,953,> 0 (such cells exist),True
+"every row maps back to its own (features, target) cell",True,True,True
+"XGBoost does not normalise instance weights (2x weights changes the fit, lambda=10)",0.0860352644268218,> 0,True
+rows: two fits with the same seed are bit-identical (30 rounds),True,True,True
+cells: two fits with the same seed are bit-identical (30 rounds),True,True,True
+rows: a fit on permuted row order is bit-identical (30 rounds),0.0,0.0,True
