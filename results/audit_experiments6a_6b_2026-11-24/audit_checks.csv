@@ -1,0 +1,70 @@
+section,check,result,value
+0,training-input hash in logistic_h5_experiment6a manifest equals HistoryRows of the canonical table,PASS,
+0,training-input hash in mlp_h5_experiment6b_acti manifest equals HistoryRows of the canonical table,PASS,
+0,"full-table history rebuilt with pandas shift within (match, period) equals the training input on all 690,147 rows",PASS,
+1,"40 complete Tier B matches rebuilt from raw JSON: canonical observations (ids, order, period, index, class, usable 360, eligibility) identical to the production table",PASS,90674 eligible rows
+1,independently rebuilt 5-position histories equal the training input (HistoryRows) row by row,PASS,90674
+1,independently rebuilt targets (class and target event id) equal the canonical targets,PASS,90674
+1,reconstruction covers the required edge cases (counts per stratum),PASS,"{""rows"": 90674, ""seq_pos_0"": 79, ""with_<START>"": 320, ""period_end"": 72, ""match_first_row"": 40, ""repeated_timestamp"": 5377, ""companion_in_window"": 6892, ""history_event_without_360"": 23573, ""skipped_raw_before"": 38561, ""current_or_target_Pressure"": 22153, ""current_or_target_Shot"": 1975, ""current_or_target_Goal Keeper"": 950, ""current_or_target_Duel"": 1956, ""current_or_target_50/50"": 103, ""current_or_target_Block"": 2815, ""current_or_target_Foul Committed"": 1791, ""companions_removed_in_sample"": 2160}"
+2,Tier B = development - pilot = 304 matches = dataset matches; 83 final-test ids disjoint,PASS,
+2,"690,147 eligible rows",PASS,690147
+2,outer folds partition the 304 matches; no train/validation overlap; no final-test match,PASS,
+2,"exp5 predictions: event id, match, target, fold identical element-wise to the canonical rows",PASS,
+2,"frequency: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,3.3306690738754696e-16
+2,"markov1: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,4.440892098500626e-16
+2,"markov2: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,7.771561172376096e-16
+2,"logistic_F0: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,4.440892098500626e-16
+2,"XGB-F0: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,4.440892098500626e-16
+2,"XGB-H5: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,7.771561172376096e-16
+2,"exp5b predictions: event id, match, target, fold identical element-wise to the canonical rows",PASS,
+2,"XGB-H2: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,6.661338147750939e-16
+2,"exp6a predictions: event id, match, target, fold identical element-wise to the canonical rows",PASS,
+2,"MLR-H5: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,8.881784197001252e-16
+2,"exp6b predictions: event id, match, target, fold identical element-wise to the canonical rows",PASS,
+2,"MLP-H5: 15 columns p0..p14, finite, >= 0, rows sum to 1 (1e-9)",PASS,7.771561172376096e-16
+2,class order: mean predicted probability of every column matches its class frequency (|diff| < 0.02),PASS,
+2,MLR-H5 manifest row identity hashes equal independently computed hashes of the canonical rows,PASS,
+2,MLP-H5 manifest row identity hashes equal independently computed hashes of the canonical rows,PASS,
+3,"6A probabilities recomputed from stored W, b (own encoding, NumPy softmax) equal stored predictions",PASS,"{""max_abs"": 0.0, ""mean_abs"": 0.0}"
+3,6A stored coefficients are optimal for the ROW-LEVEL objective on each fold's outer-training rows (max |grad| < 1e-7),PASS,"{""0"": 8.714621436684979e-15, ""1"": 2.527707610855813e-14, ""2"": 8.115117806361475e-15, ""3"": 4.4403900979620295e-15, ""4"": 1.04182644265261e-13}"
+3,6A deviation coding: sum over classes = 0 and sum over each position block = 0 (|.| < 1e-4),PASS,
+3,"6A fold 2 nested CV re-run independently (raw sklearn, own cells): same pooled inner scores, same C, same predictions",PASS,"{""C"": 1.0, ""max_score_diff"": 0.0, ""max_prob_diff"": 0.0, ""seconds"": 184}"
+3,6A cell aggregation: cells keep every training row (sum of weights = rows) and only training matches,PASS,"{""rows"": 551095, ""cells"": 36704}"
+3,6A fold 4: unaggregated row-level fit reproduces the stored (weighted-cell) predictions (|dp| < 1e-8),PASS,1.922787797037362e-11
+3,6A solver: lbfgs and newton-cholesky reach the same objective value (|diff| < 1e-8); newton is at least as low,PASS,"{""lbfgs"": 1.1013734136997824, ""newton"": 1.101373413692958, ""lbfgs_iter"": 2135, ""grad_lbfgs"": 6.109319847565586e-08, ""grad_newton"": 8.115117806361475e-15}"
+3,"6A fit log: 105 fits = 5 x (4 inner x 5 C + 1 refit), all converged, no warnings, gradient <= 1e-6",PASS,7.452915218464155e-11
+3,6A selected C per fold = argmin of the stored pooled inner scores; all interior,PASS,"{""0"": 10.0, ""1"": 1.0, ""2"": 1.0, ""3"": 1.0, ""4"": 10.0}"
+4,"6B probabilities: NumPy float64 forward pass of stored weights (own sparse one-hot) equal stored (|dp| < 1e-5), 3 seeds",PASS,5.476865804210362e-07
+4,"6B first layer: embedding-sum forward and ALL gradients equal an explicit dense one-hot network (float64, < 1e-12)",PASS,"{""forward"": 5.551115123125783e-17, ""grad_W1"": 1.734723475976807e-18, ""grad_b1"": 0.0, ""grad_other"": 3.469446951953614e-18}"
+4,"6B finite-difference gradient check on the production module (float64, 48 parameters, |err| < 1e-7)",PASS,7.010768840465254e-10
+4,6B loss: NumPy stable log-sum-exp NLL = F.cross_entropy on logits = stored fold-0 log loss,PASS,"{""numpy"": 1.053779807634445, ""torch"": 1.053779807634445, ""stored"": 1.053779807634445}"
+4,"6B all 175 fits: best epoch = first argmin of the stopping curve (epoch 0 included), stored best loss = curve minimum, epochs = min(best + patience, 60)",PASS,"{""violations"": [], ""epoch0_best"": 0}"
+4,"6B epoch count: 5,363 training epochs in fit log and in the stored curves; 175 = 5 x (4 x 8 + 1 + 2) fits",PASS,5363
+4,6B selection recomputed from per-fit inner scores = stored choice and stored stopping weights' configuration,PASS,"{""0"": ""F"", ""1"": ""F"", ""2"": ""F"", ""3"": ""F"", ""4"": ""E""}"
+4,6B search space in the run = 8 frozen configurations of the configuration file,PASS,
+4,"6B refit stopping subsets: disjoint from fit matches, inside outer-training matches, identical to the access audit",PASS,
+4,6B refit trained on fewer rows than XGB-H5 (documented limitation): share of outer-training rows,PASS,"{""fold0"": 0.9049, ""fold1"": 0.9007, ""fold2"": 0.9007, ""fold3"": 0.8976, ""fold4"": 0.9023}"
+4,"6B fold 3 primary refit reproduced from scratch: identical stopping curve, best epoch, weights (bitwise) and predictions",PASS,"{""best_epoch"": 17, ""max_dp"": 0.0, ""seconds"": 35}"
+4,6B checkpoints: identifiers equal the run's; fold record holds probabilities/states/choices/trace; no in-progress files left,PASS,
+4,"6B supervisor status: state completed, experiment and audit exit codes 0, COMPLETED marker present",PASS,"{""experiment"": 0, ""independent_audit"": 0}"
+4,6B seed-level log losses recomputed; primary = replicate 0 (not the best seed),PASS,"{""0"": 1.0526701242246679, ""1"": 1.052152960360642, ""2"": 1.0525790908845178}"
+5,"pooled metrics, per-class precision/recall/F1/support and confusion matrices of all 9 models recomputed (own NumPy) equal the stored 6B tables (< 1e-9)",PASS,2.220446049250313e-16
+5,per-fold metrics recomputed equal the stored tables (< 1e-9),PASS,2.220446049250313e-16
+5,"own implementations agree with scikit-learn (log loss, macro-F1, average precision; < 1e-9)",PASS,2.7755575615628914e-17
+5,6A stored pooled table agrees with the recomputation for its 8 models (< 1e-9),PASS,
+6,"MLR-H5 - XGB-H5: mean d_i, relative difference, 95% cluster-bootstrap CI and fold signs reproduce the stored values",PASS,"{""diff"": 0.05112, ""ci"": [0.049754, 0.052532], ""folds_better"": 0}"
+6,"MLR-H5 - markov2: mean d_i, relative difference, 95% cluster-bootstrap CI and fold signs reproduce the stored values",PASS,"{""diff"": 0.034896, ""ci"": [0.033797, 0.035945], ""folds_better"": 0}"
+6,"MLR-H5 - logistic_F0: mean d_i, relative difference, 95% cluster-bootstrap CI and fold signs reproduce the stored values",PASS,"{""diff"": -0.055535, ""ci"": [-0.057061, -0.054056], ""folds_better"": 5}"
+6,"MLP-H5 - XGB-H5: mean d_i, relative difference, 95% cluster-bootstrap CI and fold signs reproduce the stored values",PASS,"{""diff"": 0.000821, ""ci"": [0.000518, 0.001145], ""folds_better"": 0}"
+6,"MLP-H5 - MLR-H5: mean d_i, relative difference, 95% cluster-bootstrap CI and fold signs reproduce the stored values",PASS,"{""diff"": -0.050299, ""ci"": [-0.051727, -0.048948], ""folds_better"": 5}"
+6,"MLP-H5 - markov2: mean d_i, relative difference, 95% cluster-bootstrap CI and fold signs reproduce the stored values",PASS,"{""diff"": -0.015403, ""ci"": [-0.016173, -0.014747], ""folds_better"": 5}"
+7,"Pressure share, contribution (row-weighted, sums to the total) and conditional means recomputed = stored strata",PASS,"[{""model"": ""MLR-H5"", ""reference"": ""XGB-H5"", ""pressure_share_of_rows"": 0.12456, ""total_difference"": 0.05112, ""pressure_contribution"": 0.02879, ""pressure_conditional_mean"": 0.23111}, {""model"": ""MLR-H5"", ""reference"": ""markov2"", ""pressure_share_of_rows"": 0.12456, ""total_difference"": 0.0349, ""pressure_contribution"": 0.02574, ""pressure_conditional_mean"": 0.20666}, {""model"": ""MLP-H5"", ""reference"": ""MLR-H5"", ""pressure_share_of_rows"": 0.12456, ""total_difference"": -0.0503, ""pressure_contribution"": -0.02914, ""pressure_conditional_mean"": -0.23398}, {""model"": ""MLP-H5"", ""reference"": ""XGB-H5"", ""pressure_share_of_rows"": 0.12456, ""total_difference"": 0.00082, ""pressure_contribution"": -0.00036, ""pressure_conditional_mean"": -0.00286}]"
+8,checksums of canonical_baselines_actions15_360current_v1_2026-11-19,PASS,15
+8,checksums of xgboost_experiment5_actions15_360current_v1_2026-11-20,PASS,23
+8,checksums of xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21,PASS,32
+8,checksums of logistic_h5_experiment6a_actions15_360current_v1_2026-11-23,PASS,32
+8,checksums of mlp_h5_experiment6b_actions15_360current_v1_2026-11-23,PASS,28
+8,logistic_h5_experiment6a: git-ignored artefacts match the hashes recorded at run time,PASS,2
+8,logistic_h5_experiment6a: every executed source file is byte-identical to the current file (provenance),PASS,9
+8,mlp_h5_experiment6b_acti: git-ignored artefacts match the hashes recorded at run time,PASS,3
+8,mlp_h5_experiment6b_acti: every executed source file is byte-identical to the current file (provenance),PASS,11
