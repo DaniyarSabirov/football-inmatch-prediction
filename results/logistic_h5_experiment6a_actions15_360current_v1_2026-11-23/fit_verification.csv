@@ -1,0 +1,2 @@
+fold_id,C,train_rows,train_cells,log_loss_cells,log_loss_rows,abs_log_loss_difference,max_abs_probability_difference,argmax_agreement,row_fit_n_iter,row_fit_max_abs_gradient,row_level_fit_seconds
+0,10.0,552724,36507,1.1044982918843345,1.1044982918843687,3.419486915845482e-14,2.1150053930441004e-11,1.0,17,6.52749554117e-15,112.99342908299877

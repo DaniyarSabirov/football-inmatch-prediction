@@ -1,0 +1,1801 @@
+model,true_class,predicted_class,count
+frequency,Pass,Pass,277340
+frequency,Carry,Pass,227728
+frequency,Ball Recovery,Pass,26560
+frequency,Clearance,Pass,10294
+frequency,Dribble,Pass,8216
+frequency,Shot,Pass,7212
+frequency,Miscontrol,Pass,7247
+frequency,Dispossessed,Pass,6280
+frequency,Pressure,Pass,85509
+frequency,Duel,Pass,6851
+frequency,Interception,Pass,6210
+frequency,Block,Pass,10585
+frequency,Goal Keeper,Pass,3149
+frequency,Foul Committed,Pass,6407
+frequency,50/50,Pass,559
+frequency,Pass,Carry,0
+frequency,Carry,Carry,0
+frequency,Ball Recovery,Carry,0
+frequency,Clearance,Carry,0
+frequency,Dribble,Carry,0
+frequency,Shot,Carry,0
+frequency,Miscontrol,Carry,0
+frequency,Dispossessed,Carry,0
+frequency,Pressure,Carry,0
+frequency,Duel,Carry,0
+frequency,Interception,Carry,0
+frequency,Block,Carry,0
+frequency,Goal Keeper,Carry,0
+frequency,Foul Committed,Carry,0
+frequency,50/50,Carry,0
+frequency,Pass,Ball Recovery,0
+frequency,Carry,Ball Recovery,0
+frequency,Ball Recovery,Ball Recovery,0
+frequency,Clearance,Ball Recovery,0
+frequency,Dribble,Ball Recovery,0
+frequency,Shot,Ball Recovery,0
+frequency,Miscontrol,Ball Recovery,0
+frequency,Dispossessed,Ball Recovery,0
+frequency,Pressure,Ball Recovery,0
+frequency,Duel,Ball Recovery,0
+frequency,Interception,Ball Recovery,0
+frequency,Block,Ball Recovery,0
+frequency,Goal Keeper,Ball Recovery,0
+frequency,Foul Committed,Ball Recovery,0
+frequency,50/50,Ball Recovery,0
+frequency,Pass,Clearance,0
+frequency,Carry,Clearance,0
+frequency,Ball Recovery,Clearance,0
+frequency,Clearance,Clearance,0
+frequency,Dribble,Clearance,0
+frequency,Shot,Clearance,0
+frequency,Miscontrol,Clearance,0
+frequency,Dispossessed,Clearance,0
+frequency,Pressure,Clearance,0
+frequency,Duel,Clearance,0
+frequency,Interception,Clearance,0
+frequency,Block,Clearance,0
+frequency,Goal Keeper,Clearance,0
+frequency,Foul Committed,Clearance,0
+frequency,50/50,Clearance,0
+frequency,Pass,Dribble,0
+frequency,Carry,Dribble,0
+frequency,Ball Recovery,Dribble,0
+frequency,Clearance,Dribble,0
+frequency,Dribble,Dribble,0
+frequency,Shot,Dribble,0
+frequency,Miscontrol,Dribble,0
+frequency,Dispossessed,Dribble,0
+frequency,Pressure,Dribble,0
+frequency,Duel,Dribble,0
+frequency,Interception,Dribble,0
+frequency,Block,Dribble,0
+frequency,Goal Keeper,Dribble,0
+frequency,Foul Committed,Dribble,0
+frequency,50/50,Dribble,0
+frequency,Pass,Shot,0
+frequency,Carry,Shot,0
+frequency,Ball Recovery,Shot,0
+frequency,Clearance,Shot,0
+frequency,Dribble,Shot,0
+frequency,Shot,Shot,0
+frequency,Miscontrol,Shot,0
+frequency,Dispossessed,Shot,0
+frequency,Pressure,Shot,0
+frequency,Duel,Shot,0
+frequency,Interception,Shot,0
+frequency,Block,Shot,0
+frequency,Goal Keeper,Shot,0
+frequency,Foul Committed,Shot,0
+frequency,50/50,Shot,0
+frequency,Pass,Miscontrol,0
+frequency,Carry,Miscontrol,0
+frequency,Ball Recovery,Miscontrol,0
+frequency,Clearance,Miscontrol,0
+frequency,Dribble,Miscontrol,0
+frequency,Shot,Miscontrol,0
+frequency,Miscontrol,Miscontrol,0
+frequency,Dispossessed,Miscontrol,0
+frequency,Pressure,Miscontrol,0
+frequency,Duel,Miscontrol,0
+frequency,Interception,Miscontrol,0
+frequency,Block,Miscontrol,0
+frequency,Goal Keeper,Miscontrol,0
+frequency,Foul Committed,Miscontrol,0
+frequency,50/50,Miscontrol,0
+frequency,Pass,Dispossessed,0
+frequency,Carry,Dispossessed,0
+frequency,Ball Recovery,Dispossessed,0
+frequency,Clearance,Dispossessed,0
+frequency,Dribble,Dispossessed,0
+frequency,Shot,Dispossessed,0
+frequency,Miscontrol,Dispossessed,0
+frequency,Dispossessed,Dispossessed,0
+frequency,Pressure,Dispossessed,0
+frequency,Duel,Dispossessed,0
+frequency,Interception,Dispossessed,0
+frequency,Block,Dispossessed,0
+frequency,Goal Keeper,Dispossessed,0
+frequency,Foul Committed,Dispossessed,0
+frequency,50/50,Dispossessed,0
+frequency,Pass,Pressure,0
+frequency,Carry,Pressure,0
+frequency,Ball Recovery,Pressure,0
+frequency,Clearance,Pressure,0
+frequency,Dribble,Pressure,0
+frequency,Shot,Pressure,0
+frequency,Miscontrol,Pressure,0
+frequency,Dispossessed,Pressure,0
+frequency,Pressure,Pressure,0
+frequency,Duel,Pressure,0
+frequency,Interception,Pressure,0
+frequency,Block,Pressure,0
+frequency,Goal Keeper,Pressure,0
+frequency,Foul Committed,Pressure,0
+frequency,50/50,Pressure,0
+frequency,Pass,Duel,0
+frequency,Carry,Duel,0
+frequency,Ball Recovery,Duel,0
+frequency,Clearance,Duel,0
+frequency,Dribble,Duel,0
+frequency,Shot,Duel,0
+frequency,Miscontrol,Duel,0
+frequency,Dispossessed,Duel,0
+frequency,Pressure,Duel,0
+frequency,Duel,Duel,0
+frequency,Interception,Duel,0
+frequency,Block,Duel,0
+frequency,Goal Keeper,Duel,0
+frequency,Foul Committed,Duel,0
+frequency,50/50,Duel,0
+frequency,Pass,Interception,0
+frequency,Carry,Interception,0
+frequency,Ball Recovery,Interception,0
+frequency,Clearance,Interception,0
+frequency,Dribble,Interception,0
+frequency,Shot,Interception,0
+frequency,Miscontrol,Interception,0
+frequency,Dispossessed,Interception,0
+frequency,Pressure,Interception,0
+frequency,Duel,Interception,0
+frequency,Interception,Interception,0
+frequency,Block,Interception,0
+frequency,Goal Keeper,Interception,0
+frequency,Foul Committed,Interception,0
+frequency,50/50,Interception,0
+frequency,Pass,Block,0
+frequency,Carry,Block,0
+frequency,Ball Recovery,Block,0
+frequency,Clearance,Block,0
+frequency,Dribble,Block,0
+frequency,Shot,Block,0
+frequency,Miscontrol,Block,0
+frequency,Dispossessed,Block,0
+frequency,Pressure,Block,0
+frequency,Duel,Block,0
+frequency,Interception,Block,0
+frequency,Block,Block,0
+frequency,Goal Keeper,Block,0
+frequency,Foul Committed,Block,0
+frequency,50/50,Block,0
+frequency,Pass,Goal Keeper,0
+frequency,Carry,Goal Keeper,0
+frequency,Ball Recovery,Goal Keeper,0
+frequency,Clearance,Goal Keeper,0
+frequency,Dribble,Goal Keeper,0
+frequency,Shot,Goal Keeper,0
+frequency,Miscontrol,Goal Keeper,0
+frequency,Dispossessed,Goal Keeper,0
+frequency,Pressure,Goal Keeper,0
+frequency,Duel,Goal Keeper,0
+frequency,Interception,Goal Keeper,0
+frequency,Block,Goal Keeper,0
+frequency,Goal Keeper,Goal Keeper,0
+frequency,Foul Committed,Goal Keeper,0
+frequency,50/50,Goal Keeper,0
+frequency,Pass,Foul Committed,0
+frequency,Carry,Foul Committed,0
+frequency,Ball Recovery,Foul Committed,0
+frequency,Clearance,Foul Committed,0
+frequency,Dribble,Foul Committed,0
+frequency,Shot,Foul Committed,0
+frequency,Miscontrol,Foul Committed,0
+frequency,Dispossessed,Foul Committed,0
+frequency,Pressure,Foul Committed,0
+frequency,Duel,Foul Committed,0
+frequency,Interception,Foul Committed,0
+frequency,Block,Foul Committed,0
+frequency,Goal Keeper,Foul Committed,0
+frequency,Foul Committed,Foul Committed,0
+frequency,50/50,Foul Committed,0
+frequency,Pass,50/50,0
+frequency,Carry,50/50,0
+frequency,Ball Recovery,50/50,0
+frequency,Clearance,50/50,0
+frequency,Dribble,50/50,0
+frequency,Shot,50/50,0
+frequency,Miscontrol,50/50,0
+frequency,Dispossessed,50/50,0
+frequency,Pressure,50/50,0
+frequency,Duel,50/50,0
+frequency,Interception,50/50,0
+frequency,Block,50/50,0
+frequency,Goal Keeper,50/50,0
+frequency,Foul Committed,50/50,0
+frequency,50/50,50/50,0
+markov1,Pass,Pass,240282
+markov1,Carry,Pass,19093
+markov1,Ball Recovery,Pass,15858
+markov1,Clearance,Pass,5177
+markov1,Dribble,Pass,8204
+markov1,Shot,Pass,4874
+markov1,Miscontrol,Pass,6388
+markov1,Dispossessed,Pass,6266
+markov1,Pressure,Pass,59430
+markov1,Duel,Pass,825
+markov1,Interception,Pass,814
+markov1,Block,Pass,3966
+markov1,Goal Keeper,Pass,2038
+markov1,Foul Committed,Pass,5379
+markov1,50/50,Pass,400
+markov1,Pass,Carry,37058
+markov1,Carry,Carry,208635
+markov1,Ball Recovery,Carry,10702
+markov1,Clearance,Carry,5117
+markov1,Dribble,Carry,12
+markov1,Shot,Carry,2338
+markov1,Miscontrol,Carry,859
+markov1,Dispossessed,Carry,14
+markov1,Pressure,Carry,26079
+markov1,Duel,Carry,6026
+markov1,Interception,Carry,5396
+markov1,Block,Carry,6619
+markov1,Goal Keeper,Carry,1111
+markov1,Foul Committed,Carry,1028
+markov1,50/50,Carry,159
+markov1,Pass,Ball Recovery,0
+markov1,Carry,Ball Recovery,0
+markov1,Ball Recovery,Ball Recovery,0
+markov1,Clearance,Ball Recovery,0
+markov1,Dribble,Ball Recovery,0
+markov1,Shot,Ball Recovery,0
+markov1,Miscontrol,Ball Recovery,0
+markov1,Dispossessed,Ball Recovery,0
+markov1,Pressure,Ball Recovery,0
+markov1,Duel,Ball Recovery,0
+markov1,Interception,Ball Recovery,0
+markov1,Block,Ball Recovery,0
+markov1,Goal Keeper,Ball Recovery,0
+markov1,Foul Committed,Ball Recovery,0
+markov1,50/50,Ball Recovery,0
+markov1,Pass,Clearance,0
+markov1,Carry,Clearance,0
+markov1,Ball Recovery,Clearance,0
+markov1,Clearance,Clearance,0
+markov1,Dribble,Clearance,0
+markov1,Shot,Clearance,0
+markov1,Miscontrol,Clearance,0
+markov1,Dispossessed,Clearance,0
+markov1,Pressure,Clearance,0
+markov1,Duel,Clearance,0
+markov1,Interception,Clearance,0
+markov1,Block,Clearance,0
+markov1,Goal Keeper,Clearance,0
+markov1,Foul Committed,Clearance,0
+markov1,50/50,Clearance,0
+markov1,Pass,Dribble,0
+markov1,Carry,Dribble,0
+markov1,Ball Recovery,Dribble,0
+markov1,Clearance,Dribble,0
+markov1,Dribble,Dribble,0
+markov1,Shot,Dribble,0
+markov1,Miscontrol,Dribble,0
+markov1,Dispossessed,Dribble,0
+markov1,Pressure,Dribble,0
+markov1,Duel,Dribble,0
+markov1,Interception,Dribble,0
+markov1,Block,Dribble,0
+markov1,Goal Keeper,Dribble,0
+markov1,Foul Committed,Dribble,0
+markov1,50/50,Dribble,0
+markov1,Pass,Shot,0
+markov1,Carry,Shot,0
+markov1,Ball Recovery,Shot,0
+markov1,Clearance,Shot,0
+markov1,Dribble,Shot,0
+markov1,Shot,Shot,0
+markov1,Miscontrol,Shot,0
+markov1,Dispossessed,Shot,0
+markov1,Pressure,Shot,0
+markov1,Duel,Shot,0
+markov1,Interception,Shot,0
+markov1,Block,Shot,0
+markov1,Goal Keeper,Shot,0
+markov1,Foul Committed,Shot,0
+markov1,50/50,Shot,0
+markov1,Pass,Miscontrol,0
+markov1,Carry,Miscontrol,0
+markov1,Ball Recovery,Miscontrol,0
+markov1,Clearance,Miscontrol,0
+markov1,Dribble,Miscontrol,0
+markov1,Shot,Miscontrol,0
+markov1,Miscontrol,Miscontrol,0
+markov1,Dispossessed,Miscontrol,0
+markov1,Pressure,Miscontrol,0
+markov1,Duel,Miscontrol,0
+markov1,Interception,Miscontrol,0
+markov1,Block,Miscontrol,0
+markov1,Goal Keeper,Miscontrol,0
+markov1,Foul Committed,Miscontrol,0
+markov1,50/50,Miscontrol,0
+markov1,Pass,Dispossessed,0
+markov1,Carry,Dispossessed,0
+markov1,Ball Recovery,Dispossessed,0
+markov1,Clearance,Dispossessed,0
+markov1,Dribble,Dispossessed,0
+markov1,Shot,Dispossessed,0
+markov1,Miscontrol,Dispossessed,0
+markov1,Dispossessed,Dispossessed,0
+markov1,Pressure,Dispossessed,0
+markov1,Duel,Dispossessed,0
+markov1,Interception,Dispossessed,0
+markov1,Block,Dispossessed,0
+markov1,Goal Keeper,Dispossessed,0
+markov1,Foul Committed,Dispossessed,0
+markov1,50/50,Dispossessed,0
+markov1,Pass,Pressure,0
+markov1,Carry,Pressure,0
+markov1,Ball Recovery,Pressure,0
+markov1,Clearance,Pressure,0
+markov1,Dribble,Pressure,0
+markov1,Shot,Pressure,0
+markov1,Miscontrol,Pressure,0
+markov1,Dispossessed,Pressure,0
+markov1,Pressure,Pressure,0
+markov1,Duel,Pressure,0
+markov1,Interception,Pressure,0
+markov1,Block,Pressure,0
+markov1,Goal Keeper,Pressure,0
+markov1,Foul Committed,Pressure,0
+markov1,50/50,Pressure,0
+markov1,Pass,Duel,0
+markov1,Carry,Duel,0
+markov1,Ball Recovery,Duel,0
+markov1,Clearance,Duel,0
+markov1,Dribble,Duel,0
+markov1,Shot,Duel,0
+markov1,Miscontrol,Duel,0
+markov1,Dispossessed,Duel,0
+markov1,Pressure,Duel,0
+markov1,Duel,Duel,0
+markov1,Interception,Duel,0
+markov1,Block,Duel,0
+markov1,Goal Keeper,Duel,0
+markov1,Foul Committed,Duel,0
+markov1,50/50,Duel,0
+markov1,Pass,Interception,0
+markov1,Carry,Interception,0
+markov1,Ball Recovery,Interception,0
+markov1,Clearance,Interception,0
+markov1,Dribble,Interception,0
+markov1,Shot,Interception,0
+markov1,Miscontrol,Interception,0
+markov1,Dispossessed,Interception,0
+markov1,Pressure,Interception,0
+markov1,Duel,Interception,0
+markov1,Interception,Interception,0
+markov1,Block,Interception,0
+markov1,Goal Keeper,Interception,0
+markov1,Foul Committed,Interception,0
+markov1,50/50,Interception,0
+markov1,Pass,Block,0
+markov1,Carry,Block,0
+markov1,Ball Recovery,Block,0
+markov1,Clearance,Block,0
+markov1,Dribble,Block,0
+markov1,Shot,Block,0
+markov1,Miscontrol,Block,0
+markov1,Dispossessed,Block,0
+markov1,Pressure,Block,0
+markov1,Duel,Block,0
+markov1,Interception,Block,0
+markov1,Block,Block,0
+markov1,Goal Keeper,Block,0
+markov1,Foul Committed,Block,0
+markov1,50/50,Block,0
+markov1,Pass,Goal Keeper,0
+markov1,Carry,Goal Keeper,0
+markov1,Ball Recovery,Goal Keeper,0
+markov1,Clearance,Goal Keeper,0
+markov1,Dribble,Goal Keeper,0
+markov1,Shot,Goal Keeper,0
+markov1,Miscontrol,Goal Keeper,0
+markov1,Dispossessed,Goal Keeper,0
+markov1,Pressure,Goal Keeper,0
+markov1,Duel,Goal Keeper,0
+markov1,Interception,Goal Keeper,0
+markov1,Block,Goal Keeper,0
+markov1,Goal Keeper,Goal Keeper,0
+markov1,Foul Committed,Goal Keeper,0
+markov1,50/50,Goal Keeper,0
+markov1,Pass,Foul Committed,0
+markov1,Carry,Foul Committed,0
+markov1,Ball Recovery,Foul Committed,0
+markov1,Clearance,Foul Committed,0
+markov1,Dribble,Foul Committed,0
+markov1,Shot,Foul Committed,0
+markov1,Miscontrol,Foul Committed,0
+markov1,Dispossessed,Foul Committed,0
+markov1,Pressure,Foul Committed,0
+markov1,Duel,Foul Committed,0
+markov1,Interception,Foul Committed,0
+markov1,Block,Foul Committed,0
+markov1,Goal Keeper,Foul Committed,0
+markov1,Foul Committed,Foul Committed,0
+markov1,50/50,Foul Committed,0
+markov1,Pass,50/50,0
+markov1,Carry,50/50,0
+markov1,Ball Recovery,50/50,0
+markov1,Clearance,50/50,0
+markov1,Dribble,50/50,0
+markov1,Shot,50/50,0
+markov1,Miscontrol,50/50,0
+markov1,Dispossessed,50/50,0
+markov1,Pressure,50/50,0
+markov1,Duel,50/50,0
+markov1,Interception,50/50,0
+markov1,Block,50/50,0
+markov1,Goal Keeper,50/50,0
+markov1,Foul Committed,50/50,0
+markov1,50/50,50/50,0
+markov2,Pass,Pass,229384
+markov2,Carry,Pass,2215
+markov2,Ball Recovery,Pass,11349
+markov2,Clearance,Pass,3987
+markov2,Dribble,Pass,8035
+markov2,Shot,Pass,4364
+markov2,Miscontrol,Pass,5955
+markov2,Dispossessed,Pass,6125
+markov2,Pressure,Pass,57168
+markov2,Duel,Pass,720
+markov2,Interception,Pass,205
+markov2,Block,Pass,3471
+markov2,Goal Keeper,Pass,1670
+markov2,Foul Committed,Pass,4812
+markov2,50/50,Pass,323
+markov2,Pass,Carry,43485
+markov2,Carry,Carry,225490
+markov2,Ball Recovery,Carry,11767
+markov2,Clearance,Carry,5534
+markov2,Dribble,Carry,117
+markov2,Shot,Carry,2773
+markov2,Miscontrol,Carry,1194
+markov2,Dispossessed,Carry,107
+markov2,Pressure,Carry,26555
+markov2,Duel,Carry,6075
+markov2,Interception,Carry,5980
+markov2,Block,Carry,6723
+markov2,Goal Keeper,Carry,1193
+markov2,Foul Committed,Carry,1342
+markov2,50/50,Carry,160
+markov2,Pass,Ball Recovery,2679
+markov2,Carry,Ball Recovery,21
+markov2,Ball Recovery,Ball Recovery,2966
+markov2,Clearance,Ball Recovery,664
+markov2,Dribble,Ball Recovery,30
+markov2,Shot,Ball Recovery,57
+markov2,Miscontrol,Ball Recovery,20
+markov2,Dispossessed,Ball Recovery,26
+markov2,Pressure,Ball Recovery,372
+markov2,Duel,Ball Recovery,36
+markov2,Interception,Ball Recovery,21
+markov2,Block,Ball Recovery,58
+markov2,Goal Keeper,Ball Recovery,31
+markov2,Foul Committed,Ball Recovery,187
+markov2,50/50,Ball Recovery,40
+markov2,Pass,Clearance,0
+markov2,Carry,Clearance,0
+markov2,Ball Recovery,Clearance,0
+markov2,Clearance,Clearance,0
+markov2,Dribble,Clearance,0
+markov2,Shot,Clearance,0
+markov2,Miscontrol,Clearance,0
+markov2,Dispossessed,Clearance,0
+markov2,Pressure,Clearance,0
+markov2,Duel,Clearance,0
+markov2,Interception,Clearance,0
+markov2,Block,Clearance,0
+markov2,Goal Keeper,Clearance,0
+markov2,Foul Committed,Clearance,0
+markov2,50/50,Clearance,0
+markov2,Pass,Dribble,0
+markov2,Carry,Dribble,0
+markov2,Ball Recovery,Dribble,0
+markov2,Clearance,Dribble,0
+markov2,Dribble,Dribble,0
+markov2,Shot,Dribble,0
+markov2,Miscontrol,Dribble,0
+markov2,Dispossessed,Dribble,0
+markov2,Pressure,Dribble,0
+markov2,Duel,Dribble,0
+markov2,Interception,Dribble,0
+markov2,Block,Dribble,0
+markov2,Goal Keeper,Dribble,0
+markov2,Foul Committed,Dribble,0
+markov2,50/50,Dribble,0
+markov2,Pass,Shot,0
+markov2,Carry,Shot,0
+markov2,Ball Recovery,Shot,0
+markov2,Clearance,Shot,0
+markov2,Dribble,Shot,0
+markov2,Shot,Shot,0
+markov2,Miscontrol,Shot,0
+markov2,Dispossessed,Shot,0
+markov2,Pressure,Shot,0
+markov2,Duel,Shot,0
+markov2,Interception,Shot,0
+markov2,Block,Shot,0
+markov2,Goal Keeper,Shot,0
+markov2,Foul Committed,Shot,0
+markov2,50/50,Shot,0
+markov2,Pass,Miscontrol,13
+markov2,Carry,Miscontrol,0
+markov2,Ball Recovery,Miscontrol,0
+markov2,Clearance,Miscontrol,0
+markov2,Dribble,Miscontrol,0
+markov2,Shot,Miscontrol,1
+markov2,Miscontrol,Miscontrol,22
+markov2,Dispossessed,Miscontrol,0
+markov2,Pressure,Miscontrol,5
+markov2,Duel,Miscontrol,0
+markov2,Interception,Miscontrol,0
+markov2,Block,Miscontrol,0
+markov2,Goal Keeper,Miscontrol,0
+markov2,Foul Committed,Miscontrol,0
+markov2,50/50,Miscontrol,0
+markov2,Pass,Dispossessed,0
+markov2,Carry,Dispossessed,0
+markov2,Ball Recovery,Dispossessed,0
+markov2,Clearance,Dispossessed,0
+markov2,Dribble,Dispossessed,0
+markov2,Shot,Dispossessed,0
+markov2,Miscontrol,Dispossessed,0
+markov2,Dispossessed,Dispossessed,0
+markov2,Pressure,Dispossessed,0
+markov2,Duel,Dispossessed,0
+markov2,Interception,Dispossessed,0
+markov2,Block,Dispossessed,0
+markov2,Goal Keeper,Dispossessed,0
+markov2,Foul Committed,Dispossessed,0
+markov2,50/50,Dispossessed,0
+markov2,Pass,Pressure,1428
+markov2,Carry,Pressure,2
+markov2,Ball Recovery,Pressure,469
+markov2,Clearance,Pressure,105
+markov2,Dribble,Pressure,34
+markov2,Shot,Pressure,17
+markov2,Miscontrol,Pressure,56
+markov2,Dispossessed,Pressure,22
+markov2,Pressure,Pressure,1407
+markov2,Duel,Pressure,20
+markov2,Interception,Pressure,4
+markov2,Block,Pressure,26
+markov2,Goal Keeper,Pressure,6
+markov2,Foul Committed,Pressure,66
+markov2,50/50,Pressure,36
+markov2,Pass,Duel,0
+markov2,Carry,Duel,0
+markov2,Ball Recovery,Duel,0
+markov2,Clearance,Duel,0
+markov2,Dribble,Duel,0
+markov2,Shot,Duel,0
+markov2,Miscontrol,Duel,0
+markov2,Dispossessed,Duel,0
+markov2,Pressure,Duel,0
+markov2,Duel,Duel,0
+markov2,Interception,Duel,0
+markov2,Block,Duel,0
+markov2,Goal Keeper,Duel,0
+markov2,Foul Committed,Duel,0
+markov2,50/50,Duel,0
+markov2,Pass,Interception,0
+markov2,Carry,Interception,0
+markov2,Ball Recovery,Interception,0
+markov2,Clearance,Interception,0
+markov2,Dribble,Interception,0
+markov2,Shot,Interception,0
+markov2,Miscontrol,Interception,0
+markov2,Dispossessed,Interception,0
+markov2,Pressure,Interception,0
+markov2,Duel,Interception,0
+markov2,Interception,Interception,0
+markov2,Block,Interception,0
+markov2,Goal Keeper,Interception,0
+markov2,Foul Committed,Interception,0
+markov2,50/50,Interception,0
+markov2,Pass,Block,351
+markov2,Carry,Block,0
+markov2,Ball Recovery,Block,9
+markov2,Clearance,Block,4
+markov2,Dribble,Block,0
+markov2,Shot,Block,0
+markov2,Miscontrol,Block,0
+markov2,Dispossessed,Block,0
+markov2,Pressure,Block,2
+markov2,Duel,Block,0
+markov2,Interception,Block,0
+markov2,Block,Block,307
+markov2,Goal Keeper,Block,249
+markov2,Foul Committed,Block,0
+markov2,50/50,Block,0
+markov2,Pass,Goal Keeper,0
+markov2,Carry,Goal Keeper,0
+markov2,Ball Recovery,Goal Keeper,0
+markov2,Clearance,Goal Keeper,0
+markov2,Dribble,Goal Keeper,0
+markov2,Shot,Goal Keeper,0
+markov2,Miscontrol,Goal Keeper,0
+markov2,Dispossessed,Goal Keeper,0
+markov2,Pressure,Goal Keeper,0
+markov2,Duel,Goal Keeper,0
+markov2,Interception,Goal Keeper,0
+markov2,Block,Goal Keeper,0
+markov2,Goal Keeper,Goal Keeper,0
+markov2,Foul Committed,Goal Keeper,0
+markov2,50/50,Goal Keeper,0
+markov2,Pass,Foul Committed,0
+markov2,Carry,Foul Committed,0
+markov2,Ball Recovery,Foul Committed,0
+markov2,Clearance,Foul Committed,0
+markov2,Dribble,Foul Committed,0
+markov2,Shot,Foul Committed,0
+markov2,Miscontrol,Foul Committed,0
+markov2,Dispossessed,Foul Committed,0
+markov2,Pressure,Foul Committed,0
+markov2,Duel,Foul Committed,0
+markov2,Interception,Foul Committed,0
+markov2,Block,Foul Committed,0
+markov2,Goal Keeper,Foul Committed,0
+markov2,Foul Committed,Foul Committed,0
+markov2,50/50,Foul Committed,0
+markov2,Pass,50/50,0
+markov2,Carry,50/50,0
+markov2,Ball Recovery,50/50,0
+markov2,Clearance,50/50,0
+markov2,Dribble,50/50,0
+markov2,Shot,50/50,0
+markov2,Miscontrol,50/50,0
+markov2,Dispossessed,50/50,0
+markov2,Pressure,50/50,0
+markov2,Duel,50/50,0
+markov2,Interception,50/50,0
+markov2,Block,50/50,0
+markov2,Goal Keeper,50/50,0
+markov2,Foul Committed,50/50,0
+markov2,50/50,50/50,0
+logistic_F0,Pass,Pass,240282
+logistic_F0,Carry,Pass,19093
+logistic_F0,Ball Recovery,Pass,15858
+logistic_F0,Clearance,Pass,5177
+logistic_F0,Dribble,Pass,8204
+logistic_F0,Shot,Pass,4874
+logistic_F0,Miscontrol,Pass,6388
+logistic_F0,Dispossessed,Pass,6266
+logistic_F0,Pressure,Pass,59430
+logistic_F0,Duel,Pass,825
+logistic_F0,Interception,Pass,814
+logistic_F0,Block,Pass,3966
+logistic_F0,Goal Keeper,Pass,2038
+logistic_F0,Foul Committed,Pass,5379
+logistic_F0,50/50,Pass,400
+logistic_F0,Pass,Carry,37058
+logistic_F0,Carry,Carry,208635
+logistic_F0,Ball Recovery,Carry,10702
+logistic_F0,Clearance,Carry,5117
+logistic_F0,Dribble,Carry,12
+logistic_F0,Shot,Carry,2338
+logistic_F0,Miscontrol,Carry,859
+logistic_F0,Dispossessed,Carry,14
+logistic_F0,Pressure,Carry,26079
+logistic_F0,Duel,Carry,6026
+logistic_F0,Interception,Carry,5396
+logistic_F0,Block,Carry,6619
+logistic_F0,Goal Keeper,Carry,1111
+logistic_F0,Foul Committed,Carry,1028
+logistic_F0,50/50,Carry,159
+logistic_F0,Pass,Ball Recovery,0
+logistic_F0,Carry,Ball Recovery,0
+logistic_F0,Ball Recovery,Ball Recovery,0
+logistic_F0,Clearance,Ball Recovery,0
+logistic_F0,Dribble,Ball Recovery,0
+logistic_F0,Shot,Ball Recovery,0
+logistic_F0,Miscontrol,Ball Recovery,0
+logistic_F0,Dispossessed,Ball Recovery,0
+logistic_F0,Pressure,Ball Recovery,0
+logistic_F0,Duel,Ball Recovery,0
+logistic_F0,Interception,Ball Recovery,0
+logistic_F0,Block,Ball Recovery,0
+logistic_F0,Goal Keeper,Ball Recovery,0
+logistic_F0,Foul Committed,Ball Recovery,0
+logistic_F0,50/50,Ball Recovery,0
+logistic_F0,Pass,Clearance,0
+logistic_F0,Carry,Clearance,0
+logistic_F0,Ball Recovery,Clearance,0
+logistic_F0,Clearance,Clearance,0
+logistic_F0,Dribble,Clearance,0
+logistic_F0,Shot,Clearance,0
+logistic_F0,Miscontrol,Clearance,0
+logistic_F0,Dispossessed,Clearance,0
+logistic_F0,Pressure,Clearance,0
+logistic_F0,Duel,Clearance,0
+logistic_F0,Interception,Clearance,0
+logistic_F0,Block,Clearance,0
+logistic_F0,Goal Keeper,Clearance,0
+logistic_F0,Foul Committed,Clearance,0
+logistic_F0,50/50,Clearance,0
+logistic_F0,Pass,Dribble,0
+logistic_F0,Carry,Dribble,0
+logistic_F0,Ball Recovery,Dribble,0
+logistic_F0,Clearance,Dribble,0
+logistic_F0,Dribble,Dribble,0
+logistic_F0,Shot,Dribble,0
+logistic_F0,Miscontrol,Dribble,0
+logistic_F0,Dispossessed,Dribble,0
+logistic_F0,Pressure,Dribble,0
+logistic_F0,Duel,Dribble,0
+logistic_F0,Interception,Dribble,0
+logistic_F0,Block,Dribble,0
+logistic_F0,Goal Keeper,Dribble,0
+logistic_F0,Foul Committed,Dribble,0
+logistic_F0,50/50,Dribble,0
+logistic_F0,Pass,Shot,0
+logistic_F0,Carry,Shot,0
+logistic_F0,Ball Recovery,Shot,0
+logistic_F0,Clearance,Shot,0
+logistic_F0,Dribble,Shot,0
+logistic_F0,Shot,Shot,0
+logistic_F0,Miscontrol,Shot,0
+logistic_F0,Dispossessed,Shot,0
+logistic_F0,Pressure,Shot,0
+logistic_F0,Duel,Shot,0
+logistic_F0,Interception,Shot,0
+logistic_F0,Block,Shot,0
+logistic_F0,Goal Keeper,Shot,0
+logistic_F0,Foul Committed,Shot,0
+logistic_F0,50/50,Shot,0
+logistic_F0,Pass,Miscontrol,0
+logistic_F0,Carry,Miscontrol,0
+logistic_F0,Ball Recovery,Miscontrol,0
+logistic_F0,Clearance,Miscontrol,0
+logistic_F0,Dribble,Miscontrol,0
+logistic_F0,Shot,Miscontrol,0
+logistic_F0,Miscontrol,Miscontrol,0
+logistic_F0,Dispossessed,Miscontrol,0
+logistic_F0,Pressure,Miscontrol,0
+logistic_F0,Duel,Miscontrol,0
+logistic_F0,Interception,Miscontrol,0
+logistic_F0,Block,Miscontrol,0
+logistic_F0,Goal Keeper,Miscontrol,0
+logistic_F0,Foul Committed,Miscontrol,0
+logistic_F0,50/50,Miscontrol,0
+logistic_F0,Pass,Dispossessed,0
+logistic_F0,Carry,Dispossessed,0
+logistic_F0,Ball Recovery,Dispossessed,0
+logistic_F0,Clearance,Dispossessed,0
+logistic_F0,Dribble,Dispossessed,0
+logistic_F0,Shot,Dispossessed,0
+logistic_F0,Miscontrol,Dispossessed,0
+logistic_F0,Dispossessed,Dispossessed,0
+logistic_F0,Pressure,Dispossessed,0
+logistic_F0,Duel,Dispossessed,0
+logistic_F0,Interception,Dispossessed,0
+logistic_F0,Block,Dispossessed,0
+logistic_F0,Goal Keeper,Dispossessed,0
+logistic_F0,Foul Committed,Dispossessed,0
+logistic_F0,50/50,Dispossessed,0
+logistic_F0,Pass,Pressure,0
+logistic_F0,Carry,Pressure,0
+logistic_F0,Ball Recovery,Pressure,0
+logistic_F0,Clearance,Pressure,0
+logistic_F0,Dribble,Pressure,0
+logistic_F0,Shot,Pressure,0
+logistic_F0,Miscontrol,Pressure,0
+logistic_F0,Dispossessed,Pressure,0
+logistic_F0,Pressure,Pressure,0
+logistic_F0,Duel,Pressure,0
+logistic_F0,Interception,Pressure,0
+logistic_F0,Block,Pressure,0
+logistic_F0,Goal Keeper,Pressure,0
+logistic_F0,Foul Committed,Pressure,0
+logistic_F0,50/50,Pressure,0
+logistic_F0,Pass,Duel,0
+logistic_F0,Carry,Duel,0
+logistic_F0,Ball Recovery,Duel,0
+logistic_F0,Clearance,Duel,0
+logistic_F0,Dribble,Duel,0
+logistic_F0,Shot,Duel,0
+logistic_F0,Miscontrol,Duel,0
+logistic_F0,Dispossessed,Duel,0
+logistic_F0,Pressure,Duel,0
+logistic_F0,Duel,Duel,0
+logistic_F0,Interception,Duel,0
+logistic_F0,Block,Duel,0
+logistic_F0,Goal Keeper,Duel,0
+logistic_F0,Foul Committed,Duel,0
+logistic_F0,50/50,Duel,0
+logistic_F0,Pass,Interception,0
+logistic_F0,Carry,Interception,0
+logistic_F0,Ball Recovery,Interception,0
+logistic_F0,Clearance,Interception,0
+logistic_F0,Dribble,Interception,0
+logistic_F0,Shot,Interception,0
+logistic_F0,Miscontrol,Interception,0
+logistic_F0,Dispossessed,Interception,0
+logistic_F0,Pressure,Interception,0
+logistic_F0,Duel,Interception,0
+logistic_F0,Interception,Interception,0
+logistic_F0,Block,Interception,0
+logistic_F0,Goal Keeper,Interception,0
+logistic_F0,Foul Committed,Interception,0
+logistic_F0,50/50,Interception,0
+logistic_F0,Pass,Block,0
+logistic_F0,Carry,Block,0
+logistic_F0,Ball Recovery,Block,0
+logistic_F0,Clearance,Block,0
+logistic_F0,Dribble,Block,0
+logistic_F0,Shot,Block,0
+logistic_F0,Miscontrol,Block,0
+logistic_F0,Dispossessed,Block,0
+logistic_F0,Pressure,Block,0
+logistic_F0,Duel,Block,0
+logistic_F0,Interception,Block,0
+logistic_F0,Block,Block,0
+logistic_F0,Goal Keeper,Block,0
+logistic_F0,Foul Committed,Block,0
+logistic_F0,50/50,Block,0
+logistic_F0,Pass,Goal Keeper,0
+logistic_F0,Carry,Goal Keeper,0
+logistic_F0,Ball Recovery,Goal Keeper,0
+logistic_F0,Clearance,Goal Keeper,0
+logistic_F0,Dribble,Goal Keeper,0
+logistic_F0,Shot,Goal Keeper,0
+logistic_F0,Miscontrol,Goal Keeper,0
+logistic_F0,Dispossessed,Goal Keeper,0
+logistic_F0,Pressure,Goal Keeper,0
+logistic_F0,Duel,Goal Keeper,0
+logistic_F0,Interception,Goal Keeper,0
+logistic_F0,Block,Goal Keeper,0
+logistic_F0,Goal Keeper,Goal Keeper,0
+logistic_F0,Foul Committed,Goal Keeper,0
+logistic_F0,50/50,Goal Keeper,0
+logistic_F0,Pass,Foul Committed,0
+logistic_F0,Carry,Foul Committed,0
+logistic_F0,Ball Recovery,Foul Committed,0
+logistic_F0,Clearance,Foul Committed,0
+logistic_F0,Dribble,Foul Committed,0
+logistic_F0,Shot,Foul Committed,0
+logistic_F0,Miscontrol,Foul Committed,0
+logistic_F0,Dispossessed,Foul Committed,0
+logistic_F0,Pressure,Foul Committed,0
+logistic_F0,Duel,Foul Committed,0
+logistic_F0,Interception,Foul Committed,0
+logistic_F0,Block,Foul Committed,0
+logistic_F0,Goal Keeper,Foul Committed,0
+logistic_F0,Foul Committed,Foul Committed,0
+logistic_F0,50/50,Foul Committed,0
+logistic_F0,Pass,50/50,0
+logistic_F0,Carry,50/50,0
+logistic_F0,Ball Recovery,50/50,0
+logistic_F0,Clearance,50/50,0
+logistic_F0,Dribble,50/50,0
+logistic_F0,Shot,50/50,0
+logistic_F0,Miscontrol,50/50,0
+logistic_F0,Dispossessed,50/50,0
+logistic_F0,Pressure,50/50,0
+logistic_F0,Duel,50/50,0
+logistic_F0,Interception,50/50,0
+logistic_F0,Block,50/50,0
+logistic_F0,Goal Keeper,50/50,0
+logistic_F0,Foul Committed,50/50,0
+logistic_F0,50/50,50/50,0
+XGB-F0,Pass,Pass,240282
+XGB-F0,Carry,Pass,19093
+XGB-F0,Ball Recovery,Pass,15858
+XGB-F0,Clearance,Pass,5177
+XGB-F0,Dribble,Pass,8204
+XGB-F0,Shot,Pass,4874
+XGB-F0,Miscontrol,Pass,6388
+XGB-F0,Dispossessed,Pass,6266
+XGB-F0,Pressure,Pass,59430
+XGB-F0,Duel,Pass,825
+XGB-F0,Interception,Pass,814
+XGB-F0,Block,Pass,3966
+XGB-F0,Goal Keeper,Pass,2038
+XGB-F0,Foul Committed,Pass,5379
+XGB-F0,50/50,Pass,400
+XGB-F0,Pass,Carry,37058
+XGB-F0,Carry,Carry,208635
+XGB-F0,Ball Recovery,Carry,10702
+XGB-F0,Clearance,Carry,5117
+XGB-F0,Dribble,Carry,12
+XGB-F0,Shot,Carry,2338
+XGB-F0,Miscontrol,Carry,859
+XGB-F0,Dispossessed,Carry,14
+XGB-F0,Pressure,Carry,26079
+XGB-F0,Duel,Carry,6026
+XGB-F0,Interception,Carry,5396
+XGB-F0,Block,Carry,6619
+XGB-F0,Goal Keeper,Carry,1111
+XGB-F0,Foul Committed,Carry,1028
+XGB-F0,50/50,Carry,159
+XGB-F0,Pass,Ball Recovery,0
+XGB-F0,Carry,Ball Recovery,0
+XGB-F0,Ball Recovery,Ball Recovery,0
+XGB-F0,Clearance,Ball Recovery,0
+XGB-F0,Dribble,Ball Recovery,0
+XGB-F0,Shot,Ball Recovery,0
+XGB-F0,Miscontrol,Ball Recovery,0
+XGB-F0,Dispossessed,Ball Recovery,0
+XGB-F0,Pressure,Ball Recovery,0
+XGB-F0,Duel,Ball Recovery,0
+XGB-F0,Interception,Ball Recovery,0
+XGB-F0,Block,Ball Recovery,0
+XGB-F0,Goal Keeper,Ball Recovery,0
+XGB-F0,Foul Committed,Ball Recovery,0
+XGB-F0,50/50,Ball Recovery,0
+XGB-F0,Pass,Clearance,0
+XGB-F0,Carry,Clearance,0
+XGB-F0,Ball Recovery,Clearance,0
+XGB-F0,Clearance,Clearance,0
+XGB-F0,Dribble,Clearance,0
+XGB-F0,Shot,Clearance,0
+XGB-F0,Miscontrol,Clearance,0
+XGB-F0,Dispossessed,Clearance,0
+XGB-F0,Pressure,Clearance,0
+XGB-F0,Duel,Clearance,0
+XGB-F0,Interception,Clearance,0
+XGB-F0,Block,Clearance,0
+XGB-F0,Goal Keeper,Clearance,0
+XGB-F0,Foul Committed,Clearance,0
+XGB-F0,50/50,Clearance,0
+XGB-F0,Pass,Dribble,0
+XGB-F0,Carry,Dribble,0
+XGB-F0,Ball Recovery,Dribble,0
+XGB-F0,Clearance,Dribble,0
+XGB-F0,Dribble,Dribble,0
+XGB-F0,Shot,Dribble,0
+XGB-F0,Miscontrol,Dribble,0
+XGB-F0,Dispossessed,Dribble,0
+XGB-F0,Pressure,Dribble,0
+XGB-F0,Duel,Dribble,0
+XGB-F0,Interception,Dribble,0
+XGB-F0,Block,Dribble,0
+XGB-F0,Goal Keeper,Dribble,0
+XGB-F0,Foul Committed,Dribble,0
+XGB-F0,50/50,Dribble,0
+XGB-F0,Pass,Shot,0
+XGB-F0,Carry,Shot,0
+XGB-F0,Ball Recovery,Shot,0
+XGB-F0,Clearance,Shot,0
+XGB-F0,Dribble,Shot,0
+XGB-F0,Shot,Shot,0
+XGB-F0,Miscontrol,Shot,0
+XGB-F0,Dispossessed,Shot,0
+XGB-F0,Pressure,Shot,0
+XGB-F0,Duel,Shot,0
+XGB-F0,Interception,Shot,0
+XGB-F0,Block,Shot,0
+XGB-F0,Goal Keeper,Shot,0
+XGB-F0,Foul Committed,Shot,0
+XGB-F0,50/50,Shot,0
+XGB-F0,Pass,Miscontrol,0
+XGB-F0,Carry,Miscontrol,0
+XGB-F0,Ball Recovery,Miscontrol,0
+XGB-F0,Clearance,Miscontrol,0
+XGB-F0,Dribble,Miscontrol,0
+XGB-F0,Shot,Miscontrol,0
+XGB-F0,Miscontrol,Miscontrol,0
+XGB-F0,Dispossessed,Miscontrol,0
+XGB-F0,Pressure,Miscontrol,0
+XGB-F0,Duel,Miscontrol,0
+XGB-F0,Interception,Miscontrol,0
+XGB-F0,Block,Miscontrol,0
+XGB-F0,Goal Keeper,Miscontrol,0
+XGB-F0,Foul Committed,Miscontrol,0
+XGB-F0,50/50,Miscontrol,0
+XGB-F0,Pass,Dispossessed,0
+XGB-F0,Carry,Dispossessed,0
+XGB-F0,Ball Recovery,Dispossessed,0
+XGB-F0,Clearance,Dispossessed,0
+XGB-F0,Dribble,Dispossessed,0
+XGB-F0,Shot,Dispossessed,0
+XGB-F0,Miscontrol,Dispossessed,0
+XGB-F0,Dispossessed,Dispossessed,0
+XGB-F0,Pressure,Dispossessed,0
+XGB-F0,Duel,Dispossessed,0
+XGB-F0,Interception,Dispossessed,0
+XGB-F0,Block,Dispossessed,0
+XGB-F0,Goal Keeper,Dispossessed,0
+XGB-F0,Foul Committed,Dispossessed,0
+XGB-F0,50/50,Dispossessed,0
+XGB-F0,Pass,Pressure,0
+XGB-F0,Carry,Pressure,0
+XGB-F0,Ball Recovery,Pressure,0
+XGB-F0,Clearance,Pressure,0
+XGB-F0,Dribble,Pressure,0
+XGB-F0,Shot,Pressure,0
+XGB-F0,Miscontrol,Pressure,0
+XGB-F0,Dispossessed,Pressure,0
+XGB-F0,Pressure,Pressure,0
+XGB-F0,Duel,Pressure,0
+XGB-F0,Interception,Pressure,0
+XGB-F0,Block,Pressure,0
+XGB-F0,Goal Keeper,Pressure,0
+XGB-F0,Foul Committed,Pressure,0
+XGB-F0,50/50,Pressure,0
+XGB-F0,Pass,Duel,0
+XGB-F0,Carry,Duel,0
+XGB-F0,Ball Recovery,Duel,0
+XGB-F0,Clearance,Duel,0
+XGB-F0,Dribble,Duel,0
+XGB-F0,Shot,Duel,0
+XGB-F0,Miscontrol,Duel,0
+XGB-F0,Dispossessed,Duel,0
+XGB-F0,Pressure,Duel,0
+XGB-F0,Duel,Duel,0
+XGB-F0,Interception,Duel,0
+XGB-F0,Block,Duel,0
+XGB-F0,Goal Keeper,Duel,0
+XGB-F0,Foul Committed,Duel,0
+XGB-F0,50/50,Duel,0
+XGB-F0,Pass,Interception,0
+XGB-F0,Carry,Interception,0
+XGB-F0,Ball Recovery,Interception,0
+XGB-F0,Clearance,Interception,0
+XGB-F0,Dribble,Interception,0
+XGB-F0,Shot,Interception,0
+XGB-F0,Miscontrol,Interception,0
+XGB-F0,Dispossessed,Interception,0
+XGB-F0,Pressure,Interception,0
+XGB-F0,Duel,Interception,0
+XGB-F0,Interception,Interception,0
+XGB-F0,Block,Interception,0
+XGB-F0,Goal Keeper,Interception,0
+XGB-F0,Foul Committed,Interception,0
+XGB-F0,50/50,Interception,0
+XGB-F0,Pass,Block,0
+XGB-F0,Carry,Block,0
+XGB-F0,Ball Recovery,Block,0
+XGB-F0,Clearance,Block,0
+XGB-F0,Dribble,Block,0
+XGB-F0,Shot,Block,0
+XGB-F0,Miscontrol,Block,0
+XGB-F0,Dispossessed,Block,0
+XGB-F0,Pressure,Block,0
+XGB-F0,Duel,Block,0
+XGB-F0,Interception,Block,0
+XGB-F0,Block,Block,0
+XGB-F0,Goal Keeper,Block,0
+XGB-F0,Foul Committed,Block,0
+XGB-F0,50/50,Block,0
+XGB-F0,Pass,Goal Keeper,0
+XGB-F0,Carry,Goal Keeper,0
+XGB-F0,Ball Recovery,Goal Keeper,0
+XGB-F0,Clearance,Goal Keeper,0
+XGB-F0,Dribble,Goal Keeper,0
+XGB-F0,Shot,Goal Keeper,0
+XGB-F0,Miscontrol,Goal Keeper,0
+XGB-F0,Dispossessed,Goal Keeper,0
+XGB-F0,Pressure,Goal Keeper,0
+XGB-F0,Duel,Goal Keeper,0
+XGB-F0,Interception,Goal Keeper,0
+XGB-F0,Block,Goal Keeper,0
+XGB-F0,Goal Keeper,Goal Keeper,0
+XGB-F0,Foul Committed,Goal Keeper,0
+XGB-F0,50/50,Goal Keeper,0
+XGB-F0,Pass,Foul Committed,0
+XGB-F0,Carry,Foul Committed,0
+XGB-F0,Ball Recovery,Foul Committed,0
+XGB-F0,Clearance,Foul Committed,0
+XGB-F0,Dribble,Foul Committed,0
+XGB-F0,Shot,Foul Committed,0
+XGB-F0,Miscontrol,Foul Committed,0
+XGB-F0,Dispossessed,Foul Committed,0
+XGB-F0,Pressure,Foul Committed,0
+XGB-F0,Duel,Foul Committed,0
+XGB-F0,Interception,Foul Committed,0
+XGB-F0,Block,Foul Committed,0
+XGB-F0,Goal Keeper,Foul Committed,0
+XGB-F0,Foul Committed,Foul Committed,0
+XGB-F0,50/50,Foul Committed,0
+XGB-F0,Pass,50/50,0
+XGB-F0,Carry,50/50,0
+XGB-F0,Ball Recovery,50/50,0
+XGB-F0,Clearance,50/50,0
+XGB-F0,Dribble,50/50,0
+XGB-F0,Shot,50/50,0
+XGB-F0,Miscontrol,50/50,0
+XGB-F0,Dispossessed,50/50,0
+XGB-F0,Pressure,50/50,0
+XGB-F0,Duel,50/50,0
+XGB-F0,Interception,50/50,0
+XGB-F0,Block,50/50,0
+XGB-F0,Goal Keeper,50/50,0
+XGB-F0,Foul Committed,50/50,0
+XGB-F0,50/50,50/50,0
+XGB-H5,Pass,Pass,228275
+XGB-H5,Carry,Pass,2057
+XGB-H5,Ball Recovery,Pass,10191
+XGB-H5,Clearance,Pass,3355
+XGB-H5,Dribble,Pass,8066
+XGB-H5,Shot,Pass,4097
+XGB-H5,Miscontrol,Pass,5978
+XGB-H5,Dispossessed,Pass,6152
+XGB-H5,Pressure,Pass,56591
+XGB-H5,Duel,Pass,675
+XGB-H5,Interception,Pass,200
+XGB-H5,Block,Pass,3182
+XGB-H5,Goal Keeper,Pass,1566
+XGB-H5,Foul Committed,Pass,4813
+XGB-H5,50/50,Pass,270
+XGB-H5,Pass,Carry,43099
+XGB-H5,Carry,Carry,225268
+XGB-H5,Ball Recovery,Carry,11717
+XGB-H5,Clearance,Carry,5515
+XGB-H5,Dribble,Carry,102
+XGB-H5,Shot,Carry,2757
+XGB-H5,Miscontrol,Carry,1186
+XGB-H5,Dispossessed,Carry,98
+XGB-H5,Pressure,Carry,26489
+XGB-H5,Duel,Carry,6057
+XGB-H5,Interception,Carry,5982
+XGB-H5,Block,Carry,6716
+XGB-H5,Goal Keeper,Carry,1189
+XGB-H5,Foul Committed,Carry,1316
+XGB-H5,50/50,Carry,160
+XGB-H5,Pass,Ball Recovery,3504
+XGB-H5,Carry,Ball Recovery,381
+XGB-H5,Ball Recovery,Ball Recovery,4078
+XGB-H5,Clearance,Ball Recovery,748
+XGB-H5,Dribble,Ball Recovery,4
+XGB-H5,Shot,Ball Recovery,35
+XGB-H5,Miscontrol,Ball Recovery,2
+XGB-H5,Dispossessed,Ball Recovery,2
+XGB-H5,Pressure,Ball Recovery,863
+XGB-H5,Duel,Ball Recovery,87
+XGB-H5,Interception,Ball Recovery,21
+XGB-H5,Block,Ball Recovery,150
+XGB-H5,Goal Keeper,Ball Recovery,46
+XGB-H5,Foul Committed,Ball Recovery,224
+XGB-H5,50/50,Ball Recovery,79
+XGB-H5,Pass,Clearance,363
+XGB-H5,Carry,Clearance,0
+XGB-H5,Ball Recovery,Clearance,30
+XGB-H5,Clearance,Clearance,517
+XGB-H5,Dribble,Clearance,0
+XGB-H5,Shot,Clearance,279
+XGB-H5,Miscontrol,Clearance,30
+XGB-H5,Dispossessed,Clearance,0
+XGB-H5,Pressure,Clearance,12
+XGB-H5,Duel,Clearance,5
+XGB-H5,Interception,Clearance,3
+XGB-H5,Block,Clearance,4
+XGB-H5,Goal Keeper,Clearance,0
+XGB-H5,Foul Committed,Clearance,1
+XGB-H5,50/50,Clearance,0
+XGB-H5,Pass,Dribble,0
+XGB-H5,Carry,Dribble,1
+XGB-H5,Ball Recovery,Dribble,0
+XGB-H5,Clearance,Dribble,0
+XGB-H5,Dribble,Dribble,0
+XGB-H5,Shot,Dribble,0
+XGB-H5,Miscontrol,Dribble,0
+XGB-H5,Dispossessed,Dribble,0
+XGB-H5,Pressure,Dribble,0
+XGB-H5,Duel,Dribble,0
+XGB-H5,Interception,Dribble,0
+XGB-H5,Block,Dribble,0
+XGB-H5,Goal Keeper,Dribble,0
+XGB-H5,Foul Committed,Dribble,0
+XGB-H5,50/50,Dribble,0
+XGB-H5,Pass,Shot,4
+XGB-H5,Carry,Shot,12
+XGB-H5,Ball Recovery,Shot,0
+XGB-H5,Clearance,Shot,1
+XGB-H5,Dribble,Shot,0
+XGB-H5,Shot,Shot,12
+XGB-H5,Miscontrol,Shot,0
+XGB-H5,Dispossessed,Shot,0
+XGB-H5,Pressure,Shot,0
+XGB-H5,Duel,Shot,1
+XGB-H5,Interception,Shot,0
+XGB-H5,Block,Shot,0
+XGB-H5,Goal Keeper,Shot,0
+XGB-H5,Foul Committed,Shot,0
+XGB-H5,50/50,Shot,0
+XGB-H5,Pass,Miscontrol,10
+XGB-H5,Carry,Miscontrol,0
+XGB-H5,Ball Recovery,Miscontrol,0
+XGB-H5,Clearance,Miscontrol,0
+XGB-H5,Dribble,Miscontrol,0
+XGB-H5,Shot,Miscontrol,0
+XGB-H5,Miscontrol,Miscontrol,14
+XGB-H5,Dispossessed,Miscontrol,0
+XGB-H5,Pressure,Miscontrol,5
+XGB-H5,Duel,Miscontrol,0
+XGB-H5,Interception,Miscontrol,0
+XGB-H5,Block,Miscontrol,0
+XGB-H5,Goal Keeper,Miscontrol,0
+XGB-H5,Foul Committed,Miscontrol,0
+XGB-H5,50/50,Miscontrol,0
+XGB-H5,Pass,Dispossessed,0
+XGB-H5,Carry,Dispossessed,0
+XGB-H5,Ball Recovery,Dispossessed,0
+XGB-H5,Clearance,Dispossessed,0
+XGB-H5,Dribble,Dispossessed,0
+XGB-H5,Shot,Dispossessed,0
+XGB-H5,Miscontrol,Dispossessed,0
+XGB-H5,Dispossessed,Dispossessed,0
+XGB-H5,Pressure,Dispossessed,0
+XGB-H5,Duel,Dispossessed,0
+XGB-H5,Interception,Dispossessed,0
+XGB-H5,Block,Dispossessed,0
+XGB-H5,Goal Keeper,Dispossessed,0
+XGB-H5,Foul Committed,Dispossessed,0
+XGB-H5,50/50,Dispossessed,0
+XGB-H5,Pass,Pressure,1546
+XGB-H5,Carry,Pressure,2
+XGB-H5,Ball Recovery,Pressure,529
+XGB-H5,Clearance,Pressure,148
+XGB-H5,Dribble,Pressure,44
+XGB-H5,Shot,Pressure,30
+XGB-H5,Miscontrol,Pressure,37
+XGB-H5,Dispossessed,Pressure,28
+XGB-H5,Pressure,Pressure,1544
+XGB-H5,Duel,Pressure,24
+XGB-H5,Interception,Pressure,4
+XGB-H5,Block,Pressure,27
+XGB-H5,Goal Keeper,Pressure,10
+XGB-H5,Foul Committed,Pressure,53
+XGB-H5,50/50,Pressure,50
+XGB-H5,Pass,Duel,3
+XGB-H5,Carry,Duel,7
+XGB-H5,Ball Recovery,Duel,0
+XGB-H5,Clearance,Duel,0
+XGB-H5,Dribble,Duel,0
+XGB-H5,Shot,Duel,1
+XGB-H5,Miscontrol,Duel,0
+XGB-H5,Dispossessed,Duel,0
+XGB-H5,Pressure,Duel,1
+XGB-H5,Duel,Duel,1
+XGB-H5,Interception,Duel,0
+XGB-H5,Block,Duel,0
+XGB-H5,Goal Keeper,Duel,0
+XGB-H5,Foul Committed,Duel,0
+XGB-H5,50/50,Duel,0
+XGB-H5,Pass,Interception,0
+XGB-H5,Carry,Interception,0
+XGB-H5,Ball Recovery,Interception,0
+XGB-H5,Clearance,Interception,0
+XGB-H5,Dribble,Interception,0
+XGB-H5,Shot,Interception,0
+XGB-H5,Miscontrol,Interception,0
+XGB-H5,Dispossessed,Interception,0
+XGB-H5,Pressure,Interception,0
+XGB-H5,Duel,Interception,0
+XGB-H5,Interception,Interception,0
+XGB-H5,Block,Interception,0
+XGB-H5,Goal Keeper,Interception,0
+XGB-H5,Foul Committed,Interception,0
+XGB-H5,50/50,Interception,0
+XGB-H5,Pass,Block,498
+XGB-H5,Carry,Block,0
+XGB-H5,Ball Recovery,Block,14
+XGB-H5,Clearance,Block,8
+XGB-H5,Dribble,Block,0
+XGB-H5,Shot,Block,1
+XGB-H5,Miscontrol,Block,0
+XGB-H5,Dispossessed,Block,0
+XGB-H5,Pressure,Block,4
+XGB-H5,Duel,Block,0
+XGB-H5,Interception,Block,0
+XGB-H5,Block,Block,483
+XGB-H5,Goal Keeper,Block,319
+XGB-H5,Foul Committed,Block,0
+XGB-H5,50/50,Block,0
+XGB-H5,Pass,Goal Keeper,38
+XGB-H5,Carry,Goal Keeper,0
+XGB-H5,Ball Recovery,Goal Keeper,1
+XGB-H5,Clearance,Goal Keeper,2
+XGB-H5,Dribble,Goal Keeper,0
+XGB-H5,Shot,Goal Keeper,0
+XGB-H5,Miscontrol,Goal Keeper,0
+XGB-H5,Dispossessed,Goal Keeper,0
+XGB-H5,Pressure,Goal Keeper,0
+XGB-H5,Duel,Goal Keeper,1
+XGB-H5,Interception,Goal Keeper,0
+XGB-H5,Block,Goal Keeper,23
+XGB-H5,Goal Keeper,Goal Keeper,19
+XGB-H5,Foul Committed,Goal Keeper,0
+XGB-H5,50/50,Goal Keeper,0
+XGB-H5,Pass,Foul Committed,0
+XGB-H5,Carry,Foul Committed,0
+XGB-H5,Ball Recovery,Foul Committed,0
+XGB-H5,Clearance,Foul Committed,0
+XGB-H5,Dribble,Foul Committed,0
+XGB-H5,Shot,Foul Committed,0
+XGB-H5,Miscontrol,Foul Committed,0
+XGB-H5,Dispossessed,Foul Committed,0
+XGB-H5,Pressure,Foul Committed,0
+XGB-H5,Duel,Foul Committed,0
+XGB-H5,Interception,Foul Committed,0
+XGB-H5,Block,Foul Committed,0
+XGB-H5,Goal Keeper,Foul Committed,0
+XGB-H5,Foul Committed,Foul Committed,0
+XGB-H5,50/50,Foul Committed,0
+XGB-H5,Pass,50/50,0
+XGB-H5,Carry,50/50,0
+XGB-H5,Ball Recovery,50/50,0
+XGB-H5,Clearance,50/50,0
+XGB-H5,Dribble,50/50,0
+XGB-H5,Shot,50/50,0
+XGB-H5,Miscontrol,50/50,0
+XGB-H5,Dispossessed,50/50,0
+XGB-H5,Pressure,50/50,0
+XGB-H5,Duel,50/50,0
+XGB-H5,Interception,50/50,0
+XGB-H5,Block,50/50,0
+XGB-H5,Goal Keeper,50/50,0
+XGB-H5,Foul Committed,50/50,0
+XGB-H5,50/50,50/50,0
+XGB-H2,Pass,Pass,229371
+XGB-H2,Carry,Pass,2197
+XGB-H2,Ball Recovery,Pass,11385
+XGB-H2,Clearance,Pass,3995
+XGB-H2,Dribble,Pass,8033
+XGB-H2,Shot,Pass,4373
+XGB-H2,Miscontrol,Pass,5949
+XGB-H2,Dispossessed,Pass,6126
+XGB-H2,Pressure,Pass,57160
+XGB-H2,Duel,Pass,716
+XGB-H2,Interception,Pass,205
+XGB-H2,Block,Pass,3467
+XGB-H2,Goal Keeper,Pass,1663
+XGB-H2,Foul Committed,Pass,4815
+XGB-H2,50/50,Pass,324
+XGB-H2,Pass,Carry,43486
+XGB-H2,Carry,Carry,225504
+XGB-H2,Ball Recovery,Carry,11764
+XGB-H2,Clearance,Carry,5532
+XGB-H2,Dribble,Carry,117
+XGB-H2,Shot,Carry,2773
+XGB-H2,Miscontrol,Carry,1194
+XGB-H2,Dispossessed,Carry,107
+XGB-H2,Pressure,Carry,26558
+XGB-H2,Duel,Carry,6077
+XGB-H2,Interception,Carry,5980
+XGB-H2,Block,Carry,6722
+XGB-H2,Goal Keeper,Carry,1193
+XGB-H2,Foul Committed,Carry,1341
+XGB-H2,50/50,Carry,160
+XGB-H2,Pass,Ball Recovery,2664
+XGB-H2,Carry,Ball Recovery,23
+XGB-H2,Ball Recovery,Ball Recovery,2934
+XGB-H2,Clearance,Ball Recovery,655
+XGB-H2,Dribble,Ball Recovery,28
+XGB-H2,Shot,Ball Recovery,48
+XGB-H2,Miscontrol,Ball Recovery,20
+XGB-H2,Dispossessed,Ball Recovery,25
+XGB-H2,Pressure,Ball Recovery,368
+XGB-H2,Duel,Ball Recovery,37
+XGB-H2,Interception,Ball Recovery,21
+XGB-H2,Block,Ball Recovery,59
+XGB-H2,Goal Keeper,Ball Recovery,29
+XGB-H2,Foul Committed,Ball Recovery,185
+XGB-H2,50/50,Ball Recovery,39
+XGB-H2,Pass,Clearance,8
+XGB-H2,Carry,Clearance,0
+XGB-H2,Ball Recovery,Clearance,0
+XGB-H2,Clearance,Clearance,4
+XGB-H2,Dribble,Clearance,0
+XGB-H2,Shot,Clearance,0
+XGB-H2,Miscontrol,Clearance,0
+XGB-H2,Dispossessed,Clearance,0
+XGB-H2,Pressure,Clearance,0
+XGB-H2,Duel,Clearance,0
+XGB-H2,Interception,Clearance,0
+XGB-H2,Block,Clearance,0
+XGB-H2,Goal Keeper,Clearance,0
+XGB-H2,Foul Committed,Clearance,0
+XGB-H2,50/50,Clearance,0
+XGB-H2,Pass,Dribble,0
+XGB-H2,Carry,Dribble,1
+XGB-H2,Ball Recovery,Dribble,0
+XGB-H2,Clearance,Dribble,0
+XGB-H2,Dribble,Dribble,4
+XGB-H2,Shot,Dribble,0
+XGB-H2,Miscontrol,Dribble,0
+XGB-H2,Dispossessed,Dribble,0
+XGB-H2,Pressure,Dribble,0
+XGB-H2,Duel,Dribble,0
+XGB-H2,Interception,Dribble,0
+XGB-H2,Block,Dribble,0
+XGB-H2,Goal Keeper,Dribble,0
+XGB-H2,Foul Committed,Dribble,0
+XGB-H2,50/50,Dribble,0
+XGB-H2,Pass,Shot,0
+XGB-H2,Carry,Shot,0
+XGB-H2,Ball Recovery,Shot,0
+XGB-H2,Clearance,Shot,0
+XGB-H2,Dribble,Shot,0
+XGB-H2,Shot,Shot,0
+XGB-H2,Miscontrol,Shot,0
+XGB-H2,Dispossessed,Shot,0
+XGB-H2,Pressure,Shot,0
+XGB-H2,Duel,Shot,0
+XGB-H2,Interception,Shot,0
+XGB-H2,Block,Shot,0
+XGB-H2,Goal Keeper,Shot,0
+XGB-H2,Foul Committed,Shot,0
+XGB-H2,50/50,Shot,0
+XGB-H2,Pass,Miscontrol,13
+XGB-H2,Carry,Miscontrol,0
+XGB-H2,Ball Recovery,Miscontrol,0
+XGB-H2,Clearance,Miscontrol,0
+XGB-H2,Dribble,Miscontrol,0
+XGB-H2,Shot,Miscontrol,1
+XGB-H2,Miscontrol,Miscontrol,22
+XGB-H2,Dispossessed,Miscontrol,0
+XGB-H2,Pressure,Miscontrol,5
+XGB-H2,Duel,Miscontrol,0
+XGB-H2,Interception,Miscontrol,0
+XGB-H2,Block,Miscontrol,0
+XGB-H2,Goal Keeper,Miscontrol,0
+XGB-H2,Foul Committed,Miscontrol,0
+XGB-H2,50/50,Miscontrol,0
+XGB-H2,Pass,Dispossessed,0
+XGB-H2,Carry,Dispossessed,0
+XGB-H2,Ball Recovery,Dispossessed,0
+XGB-H2,Clearance,Dispossessed,0
+XGB-H2,Dribble,Dispossessed,0
+XGB-H2,Shot,Dispossessed,0
+XGB-H2,Miscontrol,Dispossessed,0
+XGB-H2,Dispossessed,Dispossessed,0
+XGB-H2,Pressure,Dispossessed,0
+XGB-H2,Duel,Dispossessed,0
+XGB-H2,Interception,Dispossessed,0
+XGB-H2,Block,Dispossessed,0
+XGB-H2,Goal Keeper,Dispossessed,0
+XGB-H2,Foul Committed,Dispossessed,0
+XGB-H2,50/50,Dispossessed,0
+XGB-H2,Pass,Pressure,1440
+XGB-H2,Carry,Pressure,3
+XGB-H2,Ball Recovery,Pressure,468
+XGB-H2,Clearance,Pressure,104
+XGB-H2,Dribble,Pressure,34
+XGB-H2,Shot,Pressure,17
+XGB-H2,Miscontrol,Pressure,62
+XGB-H2,Dispossessed,Pressure,22
+XGB-H2,Pressure,Pressure,1415
+XGB-H2,Duel,Pressure,20
+XGB-H2,Interception,Pressure,4
+XGB-H2,Block,Pressure,26
+XGB-H2,Goal Keeper,Pressure,6
+XGB-H2,Foul Committed,Pressure,66
+XGB-H2,50/50,Pressure,36
+XGB-H2,Pass,Duel,0
+XGB-H2,Carry,Duel,0
+XGB-H2,Ball Recovery,Duel,0
+XGB-H2,Clearance,Duel,0
+XGB-H2,Dribble,Duel,0
+XGB-H2,Shot,Duel,0
+XGB-H2,Miscontrol,Duel,0
+XGB-H2,Dispossessed,Duel,0
+XGB-H2,Pressure,Duel,0
+XGB-H2,Duel,Duel,0
+XGB-H2,Interception,Duel,0
+XGB-H2,Block,Duel,0
+XGB-H2,Goal Keeper,Duel,0
+XGB-H2,Foul Committed,Duel,0
+XGB-H2,50/50,Duel,0
+XGB-H2,Pass,Interception,0
+XGB-H2,Carry,Interception,0
+XGB-H2,Ball Recovery,Interception,0
+XGB-H2,Clearance,Interception,0
+XGB-H2,Dribble,Interception,0
+XGB-H2,Shot,Interception,0
+XGB-H2,Miscontrol,Interception,0
+XGB-H2,Dispossessed,Interception,0
+XGB-H2,Pressure,Interception,0
+XGB-H2,Duel,Interception,0
+XGB-H2,Interception,Interception,0
+XGB-H2,Block,Interception,0
+XGB-H2,Goal Keeper,Interception,0
+XGB-H2,Foul Committed,Interception,0
+XGB-H2,50/50,Interception,0
+XGB-H2,Pass,Block,352
+XGB-H2,Carry,Block,0
+XGB-H2,Ball Recovery,Block,9
+XGB-H2,Clearance,Block,4
+XGB-H2,Dribble,Block,0
+XGB-H2,Shot,Block,0
+XGB-H2,Miscontrol,Block,0
+XGB-H2,Dispossessed,Block,0
+XGB-H2,Pressure,Block,2
+XGB-H2,Duel,Block,0
+XGB-H2,Interception,Block,0
+XGB-H2,Block,Block,308
+XGB-H2,Goal Keeper,Block,249
+XGB-H2,Foul Committed,Block,0
+XGB-H2,50/50,Block,0
+XGB-H2,Pass,Goal Keeper,6
+XGB-H2,Carry,Goal Keeper,0
+XGB-H2,Ball Recovery,Goal Keeper,0
+XGB-H2,Clearance,Goal Keeper,0
+XGB-H2,Dribble,Goal Keeper,0
+XGB-H2,Shot,Goal Keeper,0
+XGB-H2,Miscontrol,Goal Keeper,0
+XGB-H2,Dispossessed,Goal Keeper,0
+XGB-H2,Pressure,Goal Keeper,1
+XGB-H2,Duel,Goal Keeper,1
+XGB-H2,Interception,Goal Keeper,0
+XGB-H2,Block,Goal Keeper,3
+XGB-H2,Goal Keeper,Goal Keeper,9
+XGB-H2,Foul Committed,Goal Keeper,0
+XGB-H2,50/50,Goal Keeper,0
+XGB-H2,Pass,Foul Committed,0
+XGB-H2,Carry,Foul Committed,0
+XGB-H2,Ball Recovery,Foul Committed,0
+XGB-H2,Clearance,Foul Committed,0
+XGB-H2,Dribble,Foul Committed,0
+XGB-H2,Shot,Foul Committed,0
+XGB-H2,Miscontrol,Foul Committed,0
+XGB-H2,Dispossessed,Foul Committed,0
+XGB-H2,Pressure,Foul Committed,0
+XGB-H2,Duel,Foul Committed,0
+XGB-H2,Interception,Foul Committed,0
+XGB-H2,Block,Foul Committed,0
+XGB-H2,Goal Keeper,Foul Committed,0
+XGB-H2,Foul Committed,Foul Committed,0
+XGB-H2,50/50,Foul Committed,0
+XGB-H2,Pass,50/50,0
+XGB-H2,Carry,50/50,0
+XGB-H2,Ball Recovery,50/50,0
+XGB-H2,Clearance,50/50,0
+XGB-H2,Dribble,50/50,0
+XGB-H2,Shot,50/50,0
+XGB-H2,Miscontrol,50/50,0
+XGB-H2,Dispossessed,50/50,0
+XGB-H2,Pressure,50/50,0
+XGB-H2,Duel,50/50,0
+XGB-H2,Interception,50/50,0
+XGB-H2,Block,50/50,0
+XGB-H2,Goal Keeper,50/50,0
+XGB-H2,Foul Committed,50/50,0
+XGB-H2,50/50,50/50,0
+MLR-H5,Pass,Pass,235882
+MLR-H5,Carry,Pass,18646
+MLR-H5,Ball Recovery,Pass,12983
+MLR-H5,Clearance,Pass,4581
+MLR-H5,Dribble,Pass,8202
+MLR-H5,Shot,Pass,4813
+MLR-H5,Miscontrol,Pass,6399
+MLR-H5,Dispossessed,Pass,6263
+MLR-H5,Pressure,Pass,57906
+MLR-H5,Duel,Pass,651
+MLR-H5,Interception,Pass,796
+MLR-H5,Block,Pass,3146
+MLR-H5,Goal Keeper,Pass,1614
+MLR-H5,Foul Committed,Pass,5283
+MLR-H5,50/50,Pass,300
+MLR-H5,Pass,Carry,36981
+MLR-H5,Carry,Carry,208398
+MLR-H5,Ball Recovery,Carry,10664
+MLR-H5,Clearance,Carry,5117
+MLR-H5,Dribble,Carry,11
+MLR-H5,Shot,Carry,2336
+MLR-H5,Miscontrol,Carry,832
+MLR-H5,Dispossessed,Carry,13
+MLR-H5,Pressure,Carry,25991
+MLR-H5,Duel,Carry,5995
+MLR-H5,Interception,Carry,5392
+MLR-H5,Block,Carry,6588
+MLR-H5,Goal Keeper,Carry,1108
+MLR-H5,Foul Committed,Carry,1015
+MLR-H5,50/50,Carry,157
+MLR-H5,Pass,Ball Recovery,3219
+MLR-H5,Carry,Ball Recovery,618
+MLR-H5,Ball Recovery,Ball Recovery,2769
+MLR-H5,Clearance,Ball Recovery,352
+MLR-H5,Dribble,Ball Recovery,0
+MLR-H5,Shot,Ball Recovery,1
+MLR-H5,Miscontrol,Ball Recovery,1
+MLR-H5,Dispossessed,Ball Recovery,0
+MLR-H5,Pressure,Ball Recovery,1481
+MLR-H5,Duel,Ball Recovery,169
+MLR-H5,Interception,Ball Recovery,21
+MLR-H5,Block,Ball Recovery,259
+MLR-H5,Goal Keeper,Ball Recovery,18
+MLR-H5,Foul Committed,Ball Recovery,95
+MLR-H5,50/50,Ball Recovery,99
+MLR-H5,Pass,Clearance,334
+MLR-H5,Carry,Clearance,0
+MLR-H5,Ball Recovery,Clearance,3
+MLR-H5,Clearance,Clearance,205
+MLR-H5,Dribble,Clearance,0
+MLR-H5,Shot,Clearance,54
+MLR-H5,Miscontrol,Clearance,9
+MLR-H5,Dispossessed,Clearance,0
+MLR-H5,Pressure,Clearance,2
+MLR-H5,Duel,Clearance,0
+MLR-H5,Interception,Clearance,0
+MLR-H5,Block,Clearance,0
+MLR-H5,Goal Keeper,Clearance,1
+MLR-H5,Foul Committed,Clearance,0
+MLR-H5,50/50,Clearance,0
+MLR-H5,Pass,Dribble,0
+MLR-H5,Carry,Dribble,0
+MLR-H5,Ball Recovery,Dribble,0
+MLR-H5,Clearance,Dribble,0
+MLR-H5,Dribble,Dribble,0
+MLR-H5,Shot,Dribble,0
+MLR-H5,Miscontrol,Dribble,0
+MLR-H5,Dispossessed,Dribble,0
+MLR-H5,Pressure,Dribble,0
+MLR-H5,Duel,Dribble,0
+MLR-H5,Interception,Dribble,0
+MLR-H5,Block,Dribble,0
+MLR-H5,Goal Keeper,Dribble,0
+MLR-H5,Foul Committed,Dribble,0
+MLR-H5,50/50,Dribble,0
+MLR-H5,Pass,Shot,2
+MLR-H5,Carry,Shot,2
+MLR-H5,Ball Recovery,Shot,0
+MLR-H5,Clearance,Shot,1
+MLR-H5,Dribble,Shot,0
+MLR-H5,Shot,Shot,1
+MLR-H5,Miscontrol,Shot,0
+MLR-H5,Dispossessed,Shot,0
+MLR-H5,Pressure,Shot,0
+MLR-H5,Duel,Shot,0
+MLR-H5,Interception,Shot,0
+MLR-H5,Block,Shot,0
+MLR-H5,Goal Keeper,Shot,0
+MLR-H5,Foul Committed,Shot,0
+MLR-H5,50/50,Shot,0
+MLR-H5,Pass,Miscontrol,0
+MLR-H5,Carry,Miscontrol,0
+MLR-H5,Ball Recovery,Miscontrol,0
+MLR-H5,Clearance,Miscontrol,0
+MLR-H5,Dribble,Miscontrol,0
+MLR-H5,Shot,Miscontrol,0
+MLR-H5,Miscontrol,Miscontrol,0
+MLR-H5,Dispossessed,Miscontrol,0
+MLR-H5,Pressure,Miscontrol,0
+MLR-H5,Duel,Miscontrol,0
+MLR-H5,Interception,Miscontrol,0
+MLR-H5,Block,Miscontrol,0
+MLR-H5,Goal Keeper,Miscontrol,0
+MLR-H5,Foul Committed,Miscontrol,0
+MLR-H5,50/50,Miscontrol,0
+MLR-H5,Pass,Dispossessed,15
+MLR-H5,Carry,Dispossessed,0
+MLR-H5,Ball Recovery,Dispossessed,4
+MLR-H5,Clearance,Dispossessed,1
+MLR-H5,Dribble,Dispossessed,1
+MLR-H5,Shot,Dispossessed,2
+MLR-H5,Miscontrol,Dispossessed,0
+MLR-H5,Dispossessed,Dispossessed,1
+MLR-H5,Pressure,Dispossessed,3
+MLR-H5,Duel,Dispossessed,0
+MLR-H5,Interception,Dispossessed,0
+MLR-H5,Block,Dispossessed,0
+MLR-H5,Goal Keeper,Dispossessed,0
+MLR-H5,Foul Committed,Dispossessed,5
+MLR-H5,50/50,Dispossessed,0
+MLR-H5,Pass,Pressure,128
+MLR-H5,Carry,Pressure,6
+MLR-H5,Ball Recovery,Pressure,98
+MLR-H5,Clearance,Pressure,18
+MLR-H5,Dribble,Pressure,2
+MLR-H5,Shot,Pressure,0
+MLR-H5,Miscontrol,Pressure,4
+MLR-H5,Dispossessed,Pressure,3
+MLR-H5,Pressure,Pressure,104
+MLR-H5,Duel,Pressure,1
+MLR-H5,Interception,Pressure,0
+MLR-H5,Block,Pressure,6
+MLR-H5,Goal Keeper,Pressure,1
+MLR-H5,Foul Committed,Pressure,6
+MLR-H5,50/50,Pressure,2
+MLR-H5,Pass,Duel,25
+MLR-H5,Carry,Duel,58
+MLR-H5,Ball Recovery,Duel,4
+MLR-H5,Clearance,Duel,8
+MLR-H5,Dribble,Duel,0
+MLR-H5,Shot,Duel,4
+MLR-H5,Miscontrol,Duel,2
+MLR-H5,Dispossessed,Duel,0
+MLR-H5,Pressure,Duel,10
+MLR-H5,Duel,Duel,31
+MLR-H5,Interception,Duel,1
+MLR-H5,Block,Duel,1
+MLR-H5,Goal Keeper,Duel,2
+MLR-H5,Foul Committed,Duel,3
+MLR-H5,50/50,Duel,0
+MLR-H5,Pass,Interception,0
+MLR-H5,Carry,Interception,0
+MLR-H5,Ball Recovery,Interception,0
+MLR-H5,Clearance,Interception,0
+MLR-H5,Dribble,Interception,0
+MLR-H5,Shot,Interception,0
+MLR-H5,Miscontrol,Interception,0
+MLR-H5,Dispossessed,Interception,0
+MLR-H5,Pressure,Interception,0
+MLR-H5,Duel,Interception,0
+MLR-H5,Interception,Interception,0
+MLR-H5,Block,Interception,0
+MLR-H5,Goal Keeper,Interception,0
+MLR-H5,Foul Committed,Interception,0
+MLR-H5,50/50,Interception,0
+MLR-H5,Pass,Block,661
+MLR-H5,Carry,Block,0
+MLR-H5,Ball Recovery,Block,27
+MLR-H5,Clearance,Block,10
+MLR-H5,Dribble,Block,0
+MLR-H5,Shot,Block,1
+MLR-H5,Miscontrol,Block,0
+MLR-H5,Dispossessed,Block,0
+MLR-H5,Pressure,Block,11
+MLR-H5,Duel,Block,3
+MLR-H5,Interception,Block,0
+MLR-H5,Block,Block,511
+MLR-H5,Goal Keeper,Block,349
+MLR-H5,Foul Committed,Block,0
+MLR-H5,50/50,Block,1
+MLR-H5,Pass,Goal Keeper,93
+MLR-H5,Carry,Goal Keeper,0
+MLR-H5,Ball Recovery,Goal Keeper,4
+MLR-H5,Clearance,Goal Keeper,1
+MLR-H5,Dribble,Goal Keeper,0
+MLR-H5,Shot,Goal Keeper,0
+MLR-H5,Miscontrol,Goal Keeper,0
+MLR-H5,Dispossessed,Goal Keeper,0
+MLR-H5,Pressure,Goal Keeper,1
+MLR-H5,Duel,Goal Keeper,1
+MLR-H5,Interception,Goal Keeper,0
+MLR-H5,Block,Goal Keeper,73
+MLR-H5,Goal Keeper,Goal Keeper,56
+MLR-H5,Foul Committed,Goal Keeper,0
+MLR-H5,50/50,Goal Keeper,0
+MLR-H5,Pass,Foul Committed,0
+MLR-H5,Carry,Foul Committed,0
+MLR-H5,Ball Recovery,Foul Committed,4
+MLR-H5,Clearance,Foul Committed,0
+MLR-H5,Dribble,Foul Committed,0
+MLR-H5,Shot,Foul Committed,0
+MLR-H5,Miscontrol,Foul Committed,0
+MLR-H5,Dispossessed,Foul Committed,0
+MLR-H5,Pressure,Foul Committed,0
+MLR-H5,Duel,Foul Committed,0
+MLR-H5,Interception,Foul Committed,0
+MLR-H5,Block,Foul Committed,1
+MLR-H5,Goal Keeper,Foul Committed,0
+MLR-H5,Foul Committed,Foul Committed,0
+MLR-H5,50/50,Foul Committed,0
+MLR-H5,Pass,50/50,0
+MLR-H5,Carry,50/50,0
+MLR-H5,Ball Recovery,50/50,0
+MLR-H5,Clearance,50/50,0
+MLR-H5,Dribble,50/50,0
+MLR-H5,Shot,50/50,0
+MLR-H5,Miscontrol,50/50,0
+MLR-H5,Dispossessed,50/50,0
+MLR-H5,Pressure,50/50,0
+MLR-H5,Duel,50/50,0
+MLR-H5,Interception,50/50,0
+MLR-H5,Block,50/50,0
+MLR-H5,Goal Keeper,50/50,0
+MLR-H5,Foul Committed,50/50,0
+MLR-H5,50/50,50/50,0

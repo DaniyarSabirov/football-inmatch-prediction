@@ -1,0 +1,36 @@
+# Canonical prediction task, approved by the researcher on 2026-11-19.
+# Specification: docs/canonical_prediction_protocol.md
+# Implementation: src/sequence_models/canonical_task.py (the loader refuses any value that
+# differs from the implemented rules, so this file and the code cannot drift apart).
+# A different rule set requires a NEW task_version and a new file; never edit this one.
+
+task_version: actions15_360current_v1
+status: canonical
+approved: 2026-11-19
+
+taxonomy: actions15
+# Canonical class order; class id = position (0-based). Identical to experiments 2-4.
+classes: [Pass, Carry, Ball Recovery, Clearance, Dribble, Shot, Miscontrol, Dispossessed,
+          Pressure, Duel, Interception, Block, Goal Keeper, Foul Committed, 50/50]
+companion_rules: [K1, K2, K3]        # src/sequence_models/v3_taxonomy.py::companion_rules
+k4_aerial_lost_rule: false           # investigated, NOT approved (results/aerial_lost_k4_investigation_2026-11-19/)
+excluded_periods: [5]                # penalty shoot-out
+event_order: statsbomb_index         # raw `index` (verified equal to file order); never timestamps
+
+# Protocol B: training AND evaluation rows require a usable 360 snapshot of the CURRENT event
+# (a three-sixty record with a non-empty freeze_frame). The TARGET event needs no snapshot.
+current_event_requires_usable_360: true
+target_event_requires_360: false
+prediction_time: observation_time_of_current_event
+
+partition:
+  split_manifest: results/markov_hmm_pilot/split_manifest.json   # 83 final-test matches: never loaded
+  dataset_scope: development                                    # 334 matches (Tier A + Tier B)
+  modelling_tier: tier_b                                        # 304 matches
+  # The 5 match-grouped folds of experiment 2 (a partition of match ids, independent of taxonomy).
+  folds_file: results/markov_hmm_cost_sensitive_v2/tiers/tier_b/scenarioD15/folds.json
+
+sources:
+  event_table_cache: data/interim/sequence_models/event_table_development_v2.pkl
+  event_details_cache: data/interim/sequence_models/v3/event_details_development.pkl
+  dataset_dir: data/interim/canonical_task/actions15_360current_v1

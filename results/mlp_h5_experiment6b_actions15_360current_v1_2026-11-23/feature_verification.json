@@ -1,0 +1,18 @@
+{
+ "n_columns": 79,
+ "mlp_columns_equal_6a_sparse_one_hot_on_all_rows": true,
+ "e_t_never_start": true,
+ "start_count_by_lag": {
+  "E_{t-1}": 568,
+  "E_{t-2}": 1174,
+  "E_{t-3}": 1771,
+  "E_{t-4}": 2376
+ },
+ "rows_with_seq_pos_below_lag": {
+  "E_{t-1}": 568,
+  "E_{t-2}": 1174,
+  "E_{t-3}": 1771,
+  "E_{t-4}": 2376
+ },
+ "start_padding_iff_before_sequence_start": true
+}

@@ -1,0 +1,72 @@
+# Experiment 6A: multinomial logistic regression with a five-event history (MLR-H5) on the
+# canonical task actions15_360current_v1. Read by scripts/run_logistic_h5_experiment6a.py and
+# copied into the result directory. Everything below is fixed BEFORE the full run; nothing is
+# chosen from outer-validation results.
+
+experiment_name: logistic_h5_experiment6a_v1
+task_config: configs/actions15_360current_v1.yaml        # used unchanged (loader refuses drift)
+baseline_config: configs/canonical_baselines_v1.yaml     # read only (Markov-2 min_context_count)
+baseline_results_dir: results/canonical_baselines_actions15_360current_v1_2026-11-19   # read only
+experiment5_config: configs/xgboost_experiment5_v1.yaml                                # read only
+experiment5_results_dir: results/xgboost_experiment5_actions15_360current_v1_2026-11-20 # read only
+experiment5_predictions: data/interim/xgboost_experiment5/oof_predictions.parquet      # read only
+experiment5b_results_dir: results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21  # read only
+experiment5b_predictions: data/interim/xgboost_experiment5b/oof_predictions_h2.parquet        # read only
+output_dir: results/logistic_h5_experiment6a_actions15_360current_v1_2026-11-23
+artefact_dir: data/interim/logistic_h5_experiment6a                 # git-ignored: OOF predictions
+checkpoint_dir: data/interim/logistic_h5_experiment6a/checkpoints   # git-ignored: per-fold commits
+
+# MLR-H5: x_t = (E_{t-4}, E_{t-3}, E_{t-2}, E_{t-1}, E_t), the XGB-H5 history of experiment 5
+# (src/sequence_models/event_history.py, unchanged). Position-specific one-hot encoding:
+# E_{t-4}..E_{t-1} one-hot over 16 categories (15 classes + <START>), E_t one-hot over 15
+# -> 4 * 16 + 15 = 79 binary columns, identical column order and names to XGB-H5.
+feature_set: {name: MLR-H5, n_previous: 4, n_columns: 79}
+
+logistic:
+  # Solver: newton-cholesky (sklearn >= 1.6 supports the multinomial loss). Chosen BEFORE the
+  # full run on optimisation evidence only (training data of outer fold 0's inner split, no
+  # predictive metric involved): lbfgs at tol 1e-8 needed 13,205 iterations at C = 100 and
+  # exhausted max_iter = 10,000 in the first probe (ill-conditioning from rare one-hot columns),
+  # while newton-cholesky reached the same optimum (equal or lower objective, independently
+  # computed max |gradient| <= 4e-11) in 17-58 iterations. Both minimise the identical objective
+  # (1/N) sum_i -log p_i + ||W||_F^2 / (2 C N), intercepts unpenalised.
+  solver: newton-cholesky
+  l1_ratio: 0.0                 # pure L2 penalty
+  fit_intercept: true
+  class_weight: null            # primary experiment: no class weighting
+  C_grid: [0.01, 0.1, 1.0, 10.0, 100.0]
+  # Pre-declared edge rule (training data only): if the inner-CV argmin of an outer fold lies at
+  # the upper (lower) end of the grid evaluated so far, the next value of `upper` (`lower`) is
+  # evaluated on the same inner folds, repeatedly, until the argmin is interior or the list is
+  # exhausted. Recorded per fold.
+  C_edge_extension: {upper: [1000.0, 10000.0], lower: [0.001, 0.0001]}
+  max_iter: 500
+  tol: 1.0e-10
+  absent_class_floor: 1.0e-9    # only used if a class is absent from a training set (recorded)
+  # Independent optimality check after EVERY fit: max |gradient| of the scaled objective,
+  # recomputed in NumPy from the fitted coefficients. A larger value fails the run.
+  gradient_check_tolerance: 1.0e-6
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7             # identical to the baselines and experiments 5/5B (same resampled matches)
+  probability_tolerance: 1.0e-9
+  permutation_repeats: 10
+  permutation_seed: 11
+  row_level_check_fold: 0       # one outer refit is repeated on individual rows (unaggregated)
+  # Independent raw-JSON verification of feature vectors and targets BEFORE training.
+  raw_verification:
+    seed: 61
+    n_scan_matches: 40          # seeded random Tier B matches scanned in raw JSON for edge cases
+    strata:                     # stratum -> number of rows (sampled without replacement)
+      random: 300
+      seq_pos_0: 50             # first observation of a period (all history positions <START>)
+      seq_pos_1: 40
+      seq_pos_2_3: 40           # fewer than five history positions
+      period_end: 50            # target = last observation of the period
+      match_first_row: 25
+      match_last_row: 25
+      after_companion: 50       # a K1-K3 companion record lies inside the history window
+      repeated_timestamp: 40    # E_t has the same timestamp as E_{t-1}
+      excluded_raw_between: 40  # raw records outside the 15 classes between E_{t-1} and E_t
+      rare_class: 50            # a rare class (< 1 % of targets) in the history or the target

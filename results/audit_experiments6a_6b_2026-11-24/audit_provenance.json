@@ -1,0 +1,16 @@
+{
+ "audit_script": "scripts/audit_experiments6a_6b.py",
+ "audit_script_sha256": "4333ba8c62f275061a17ae6191770cccd86e5b3b12a05d7e1684f13b36c87a39",
+ "command": "python scripts/audit_experiments6a_6b.py",
+ "git_head_at_audit": "a2343e967beeeabb6c372e1524b94f55af2272af",
+ "python": "3.11.1",
+ "packages": {
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.17.1",
+  "torch": "2.15.0"
+ },
+ "raw_reconstruction_seed": 20261124,
+ "bootstrap_convention": "numpy default_rng(7), 1000 replicates of match multiplicities"
+}

@@ -1,0 +1,68 @@
+# Experiment 6B: multilayer perceptron with a five-event history (MLP-H5) on the canonical task
+# actions15_360current_v1. Read by scripts/run_mlp_h5_experiment6b.py and copied into the result
+# directory. EVERYTHING below is frozen before the full run; nothing is chosen from
+# outer-validation results, and the search space is not expanded after the run.
+
+experiment_name: mlp_h5_experiment6b_v1
+task_config: configs/actions15_360current_v1.yaml        # used unchanged (loader refuses drift)
+baseline_results_dir: results/canonical_baselines_actions15_360current_v1_2026-11-19   # read only
+experiment5_config: configs/xgboost_experiment5_v1.yaml                                # read only
+experiment5_results_dir: results/xgboost_experiment5_actions15_360current_v1_2026-11-20 # read only
+experiment5_predictions: data/interim/xgboost_experiment5/oof_predictions.parquet      # read only
+experiment5b_results_dir: results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21  # read only
+experiment5b_predictions: data/interim/xgboost_experiment5b/oof_predictions_h2.parquet        # read only
+experiment6a_config: configs/logistic_h5_experiment6a_v1.yaml                                # read only (raw-verification strata)
+experiment6a_results_dir: results/logistic_h5_experiment6a_actions15_360current_v1_2026-11-23 # read only
+experiment6a_predictions: data/interim/logistic_h5_experiment6a/oof_predictions_mlr_h5.parquet # read only
+output_dir: results/mlp_h5_experiment6b_actions15_360current_v1_2026-11-23
+artefact_dir: data/interim/mlp_h5_experiment6b              # git-ignored: predictions, models, logs, status
+checkpoint_dir: data/interim/mlp_h5_experiment6b/checkpoints
+
+# MLP-H5 input: x_t = (e_{t-4}, ..., e_t), the XGB-H5 / MLR-H5 history (event_history.py,
+# unchanged), position-specific one-hot phi(x_t) in R^79 (lags 4..1: 16 categories incl. <START>;
+# e_t: 15), identical column layout to experiment 6A. The first layer W_1 phi(x_t) is computed
+# as the sum of the 5 active columns of W_1 (an exact identity for one-hot inputs).
+feature_set: {name: MLP-H5, n_previous: 4, n_columns: 79}
+
+mlp:
+  n_classes: 15
+  activation: relu
+  dropout_placement: after every hidden ReLU (never on the input or the logits)
+  initialisation: PyTorch nn.Linear default (U(-1/sqrt(fan_in), 1/sqrt(fan_in))) for every layer, incl. the first
+  # Prespecified candidate list (8 configurations; a structured subset, not the full Cartesian
+  # product of the proposed grid: architecture sweep without regularisation at lr 1e-3, then
+  # regularised and lower-learning-rate variants of the small and large architectures).
+  candidates:
+    - {name: A, hidden: [32],      weight_decay: 0.0,    dropout: 0.0, lr: 1.0e-3}
+    - {name: B, hidden: [64],      weight_decay: 0.0,    dropout: 0.0, lr: 1.0e-3}
+    - {name: C, hidden: [64, 32],  weight_decay: 0.0,    dropout: 0.0, lr: 1.0e-3}
+    - {name: D, hidden: [128, 64], weight_decay: 0.0,    dropout: 0.0, lr: 1.0e-3}
+    - {name: E, hidden: [64, 32],  weight_decay: 1.0e-4, dropout: 0.1, lr: 1.0e-3}
+    - {name: F, hidden: [128, 64], weight_decay: 1.0e-4, dropout: 0.1, lr: 1.0e-3}
+    - {name: G, hidden: [128, 64], weight_decay: 1.0e-4, dropout: 0.0, lr: 3.0e-4}
+    - {name: H, hidden: [64],      weight_decay: 1.0e-4, dropout: 0.1, lr: 3.0e-4}
+
+training:
+  optimizer: AdamW              # decoupled weight decay: w <- w - lr * wd * w per step, on weight matrices only (biases: 0)
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+  batch_size: 512
+  max_epochs: 60
+  patience: 5                   # stop after 5 epochs without improvement of the stopping-subset log loss
+  min_delta: 0.0                # improvement = strictly smaller stopping-subset log loss
+  stopping_fraction: 0.10       # share of a fit's TRAINING matches held out as its early-stopping subset
+  loss: torch.nn.functional.cross_entropy on logits (mean over rows; log-softmax inside)
+  dtype: float32                # probabilities: softmax of the float32 logits computed in float64
+  device: cpu                   # chosen by benchmark: 0.6 s/epoch (1 thread) vs 1.7-4.3 s on MPS; never switched
+  num_threads: 1
+  deterministic_algorithms: true
+  seed: 20261123                # base of all fit, epoch-permutation, dropout and stopping-subset seeds
+  robustness_seeds: 2           # extra refit seeds (replicates 1..2) of the SELECTED configuration per outer fold;
+                                # replicate 0 is the primary prediction (prespecified, never the best seed)
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7             # identical to the baselines and experiments 5/5B/6A
+  probability_tolerance: 1.0e-9
+  permutation_repeats: 10
+  permutation_seed: 11
