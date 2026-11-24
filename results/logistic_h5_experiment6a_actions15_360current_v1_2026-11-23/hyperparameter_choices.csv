@@ -1,0 +1,6 @@
+fold_id,C,inner_log_loss,grid_evaluated,at_evaluated_grid_edge,edge_extension_used,train_matches,validation_matches,train_rows,validation_rows,absent_training_classes
+0,10.0,1.1029229042012711,"[0.01, 0.1, 1.0, 10.0, 100.0]",False,False,244,60,552724,137423,[]
+1,1.0,1.1038716438995764,"[0.01, 0.1, 1.0, 10.0, 100.0]",False,False,243,61,552322,137825,[]
+2,1.0,1.102711776295867,"[0.01, 0.1, 1.0, 10.0, 100.0]",False,False,243,61,551095,139052,[]
+3,1.0,1.103201107428371,"[0.01, 0.1, 1.0, 10.0, 100.0]",False,False,243,61,552457,137690,[]
+4,10.0,1.1036591157351474,"[0.01, 0.1, 1.0, 10.0, 100.0]",False,False,243,61,551990,138157,[]

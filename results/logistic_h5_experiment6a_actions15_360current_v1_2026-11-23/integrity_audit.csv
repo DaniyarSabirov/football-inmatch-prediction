@@ -1,0 +1,41 @@
+check,result,value
+"experiment 5 row identity hash (event ids, order) equals this run's rows",PASS,690147
+experiment 5 target hash equals this run's targets,PASS,
+experiment 5 fold-of-row hash equals this run's folds,PASS,
+experiment 5 predictions: event_id identical row by row,PASS,690147
+experiment 5 predictions: match_id identical row by row,PASS,
+experiment 5 predictions: target identical row by row,PASS,
+experiment 5 predictions: fold identical row by row,PASS,
+experiment 5 predictions: unique row ids,PASS,
+experiment 5B predictions: event_id identical row by row,PASS,690147
+experiment 5B predictions: match_id identical row by row,PASS,
+experiment 5B predictions: target identical row by row,PASS,
+experiment 5B predictions: fold identical row by row,PASS,
+experiment 5B predictions: unique row ids,PASS,
+"79 position-specific one-hot columns, names identical to XGB-H5",PASS,
+"sparse encoder equals experiment 5 dense encoder (20,000 rows)",PASS,
+exactly 5 active columns per row; E_t never <START>,PASS,
+<START> at lag l exactly when seq_pos < l,PASS,
+"MLR-H5 ids identical to XGB-H5 ids; two construction paths agree; (E_{t-1}, E_t, y) = Markov-2 rows",PASS,
+"raw-JSON rebuild of 707 rows (history, one-hot names, <START>, target, causality)",PASS,"{""random"": 300, ""rare_class"": 50, ""seq_pos_0"": 50, ""after_companion"": 50, ""period_end"": 50, ""excluded_raw_between"": 40, ""seq_pos_1"": 40, ""seq_pos_2_3"": 40, ""repeated_timestamp"": 40, ""match_last_row"": 25, ""match_first_row"": 25}"
+fold of every row identical to experiments 5 / 5B,PASS,
+"690,147 rows and 304 matches",PASS,690147
+every outer fold completed,PASS,
+every row predicted exactly once (one validation fold per row),PASS,
+"probabilities finite, positive, 15 columns, rows sum to 1 (tol 1e-9)",PASS,7.771561172376096e-16
+every fit converged without warnings and passed the independent gradient check,PASS,105 fits; max |gradient| 7.45e-11; max n_iter 39
+no class absent from any training set,PASS,
+fold 0 log loss reproduces from assembled predictions,PASS,0.0
+fold 1 log loss reproduces from assembled predictions,PASS,0.0
+fold 2 log loss reproduces from assembled predictions,PASS,0.0
+fold 3 log loss reproduces from assembled predictions,PASS,0.0
+fold 4 log loss reproduces from assembled predictions,PASS,0.0
+no outer-validation match in any inner-train / inner-validation / outer-train set,PASS,45 data sets audited
+"no final-test match in the data, folds or any data set used",PASS,83 final-test ids checked
+"probabilities recomputed from saved W, b (NumPy softmax) equal scikit-learn's",PASS,0.0
+refit of fold 0 reproduces the saved predictions,PASS,max |dp| = 0 (bit-identical: True)
+unaggregated row-level refit of fold 0 equals the weighted-cell fit (|dp| < 1e-6),PASS,"|dLL| = 3.42e-14, max |dp| = 2.12e-11"
+all prior models' metrics and CIs recomputed from saved predictions equal experiment 5B's tables (1e-12),PASS,3.1069591344135006e-13
+raw source digest equals the canonical manifest,PASS,79821dfe4129ead844a256f750f4ceb81ff91e5e02e272ddbd0737cacff86c70
+"historical results unchanged (canonical baselines, experiments 5 and 5B: checksums, README, predictions, dataset)",PASS,68
+run status,INFO,"resumed folds: none; computed folds: [0, 1, 2, 3, 4]"
