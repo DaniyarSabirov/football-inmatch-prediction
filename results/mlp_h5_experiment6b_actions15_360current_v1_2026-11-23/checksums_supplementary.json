@@ -1,0 +1,9 @@
+{
+ "description": "sha256 of files created AFTER the 6B run; checksums.json is the run's original manifest and is not rewritten",
+ "files": {
+  "post_run_verification.json": "7b12915bce86f9e42cf478e8029b68f7059114747efe8058b503bc6fa0139122"
+ },
+ "generated_by": {
+  "post_run_verification.json": "scripts/verify_mlp_h5_experiment6b.py"
+ }
+}

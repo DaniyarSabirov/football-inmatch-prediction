@@ -1,0 +1,52 @@
+check,result,value
+experiment 5 manifest: event-id hash equals this run's rows (n = 690147),PASS,690147
+experiment 5 manifest: target hash equals this run's targets,PASS,
+experiment 5 manifest: fold-of-row hash equals this run's folds,PASS,
+experiment 6A manifest: event-id hash equals this run's rows (n = 690147),PASS,690147
+experiment 6A manifest: target hash equals this run's targets,PASS,
+experiment 6A manifest: fold-of-row hash equals this run's folds,PASS,
+experiment 6A manifest: history (feature-matrix) hash equals this run's history,PASS,
+experiment 5 predictions: event_id identical row by row,PASS,
+experiment 5 predictions: match_id identical row by row,PASS,
+experiment 5 predictions: y identical row by row,PASS,
+experiment 5 predictions: fold_id identical row by row,PASS,
+experiment 5 predictions: unique row ids,PASS,690147
+experiment 5B predictions: event_id identical row by row,PASS,
+experiment 5B predictions: match_id identical row by row,PASS,
+experiment 5B predictions: y identical row by row,PASS,
+experiment 5B predictions: fold_id identical row by row,PASS,
+experiment 5B predictions: unique row ids,PASS,690147
+experiment 6A predictions: event_id identical row by row,PASS,
+experiment 6A predictions: match_id identical row by row,PASS,
+experiment 6A predictions: y identical row by row,PASS,
+experiment 6A predictions: fold_id identical row by row,PASS,
+experiment 6A predictions: unique row ids,PASS,690147
+"MLP input columns equal experiment 6A's 79-column one-hot on all 690,147 rows",PASS,
+<START> at lag l exactly when seq_pos < l; E_t never <START>,PASS,
+"history identical to XGB-H5 / two construction paths agree; (E_t, y) = canonical baseline rows",PASS,
+"raw-JSON rebuild of 707 rows (history, one-hot names, <START>, target, causality)",PASS,"{""random"": 300, ""rare_class"": 50, ""seq_pos_0"": 50, ""after_companion"": 50, ""period_end"": 50, ""excluded_raw_between"": 40, ""seq_pos_1"": 40, ""seq_pos_2_3"": 40, ""repeated_timestamp"": 40, ""match_last_row"": 25, ""match_first_row"": 25}"
+no warning raised during training / prediction,PASS,[]
+fold of every row identical to experiments 5 / 5B / 6A,PASS,
+"690,147 rows and 304 matches",PASS,690147
+every outer fold completed,PASS,
+every row predicted exactly once (one validation fold per row),PASS,
+"primary probabilities finite, positive, 15 columns, rows sum to 1 (tol 1e-9)",PASS,7.771561172376096e-16
+"replicate 1 probabilities finite, positive, 15 columns, rows sum to 1 (tol 1e-9)",PASS,8.881784197001252e-16
+"replicate 2 probabilities finite, positive, 15 columns, rows sum to 1 (tol 1e-9)",PASS,6.661338147750939e-16
+all fits finished with finite losses (NumericalError otherwise),PASS,175 fits
+fits stopped at max_epochs (early stopping did not trigger),INFO,14 of 175
+fold 0 log loss reproduces from assembled predictions,PASS,0.0
+fold 1 log loss reproduces from assembled predictions,PASS,0.0
+fold 2 log loss reproduces from assembled predictions,PASS,0.0
+fold 3 log loss reproduces from assembled predictions,PASS,0.0
+fold 4 log loss reproduces from assembled predictions,PASS,0.0
+no outer-validation match in any inner-train / stopping / inner-validation / outer-train set,PASS,510 data sets audited
+stopping subsets are disjoint (by match) from the rows the network is trained on,PASS,175 pairs
+"no final-test match in the data, folds or any data set used",PASS,83 final-test ids checked
+probabilities recomputed by a float64 NumPy forward pass of the saved weights equal torch's (|dp| < 1e-5),PASS,4.4143082522651866e-07
+"fresh retraining of fold 0's refit reproduces weights and predictions bit-identically (CPU, 1 thread)",PASS,max |dp| = 0; 35 s
+all prior models' metrics and CIs recomputed from saved predictions equal experiment 6A's tables (1e-12),PASS,2.4713564528155985e-13
+robustness seeds: pooled log-loss range across 3 refit seeds,INFO,1.052153 .. 1.052670
+raw source digest equals the canonical manifest,PASS,79821dfe4129ead844a256f750f4ceb81ff91e5e02e272ddbd0737cacff86c70
+"historical results unchanged (baselines, experiments 5, 5B, 6A: checksums, README, predictions, dataset)",PASS,99
+run status,INFO,"resumed folds: none; computed folds: [0, 1, 2, 3, 4]; fits loaded from checkpoints: 0"
