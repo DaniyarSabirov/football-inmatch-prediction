@@ -1,0 +1,17 @@
+model,candidate,hidden,parameters
+MLP-H5,A,[32],3055
+MLP-H5,B,[64],6095
+MLP-H5,C,"[64, 32]",7695
+MLP-H5,D,"[128, 64]",19471
+MLP-H5,E,"[64, 32]",7695
+MLP-H5,F,"[128, 64]",19471
+MLP-H5,G,"[128, 64]",19471
+MLP-H5,H,[64],6095
+LSTM-H5,A,32 x 1 layer(s),6895
+LSTM-H5,B,64 x 1 layer(s),21967
+LSTM-H5,C,64 x 1 layer(s),21967
+LSTM-H5,D,128 x 1 layer(s),76687
+LSTM-H5,E,32 x 2 layer(s),15343
+LSTM-H5,F,64 x 2 layer(s),55247
+LSTM-H5,G,64 x 1 layer(s),21967
+LSTM-H5,H,128 x 1 layer(s),76687

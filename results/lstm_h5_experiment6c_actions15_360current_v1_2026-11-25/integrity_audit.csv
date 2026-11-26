@@ -1,0 +1,71 @@
+check,result,value
+"history identical to XGB-H5 and to a second construction path; (E_t, y, match) = canonical baseline rows",PASS,
+experiment 5 manifest: event-id hash equals this run's rows (n = 690147),PASS,690147
+experiment 5 manifest: target hash equals this run's targets,PASS,
+experiment 5 manifest: fold-of-row hash equals this run's folds,PASS,
+experiment 6A manifest: event-id hash equals this run's rows (n = 690147),PASS,690147
+experiment 6A manifest: target hash equals this run's targets,PASS,
+experiment 6A manifest: fold-of-row hash equals this run's folds,PASS,
+experiment 6A manifest: history (feature-matrix) hash equals this run's five-event history,PASS,
+experiment 6B manifest: event-id hash equals this run's rows (n = 690147),PASS,690147
+experiment 6B manifest: target hash equals this run's targets,PASS,
+experiment 6B manifest: fold-of-row hash equals this run's folds,PASS,
+experiment 6B manifest: history (feature-matrix) hash equals this run's five-event history,PASS,
+experiment 5 predictions: event_id identical row by row,PASS,
+experiment 5 predictions: match_id identical row by row,PASS,
+experiment 5 predictions: y identical row by row,PASS,
+experiment 5 predictions: fold_id identical row by row,PASS,
+experiment 5 predictions: unique row ids,PASS,690147
+experiment 5B predictions: event_id identical row by row,PASS,
+experiment 5B predictions: match_id identical row by row,PASS,
+experiment 5B predictions: y identical row by row,PASS,
+experiment 5B predictions: fold_id identical row by row,PASS,
+experiment 5B predictions: unique row ids,PASS,690147
+experiment 6A predictions: event_id identical row by row,PASS,
+experiment 6A predictions: match_id identical row by row,PASS,
+experiment 6A predictions: y identical row by row,PASS,
+experiment 6A predictions: fold_id identical row by row,PASS,
+experiment 6A predictions: unique row ids,PASS,690147
+experiment 6B predictions: event_id identical row by row,PASS,
+experiment 6B predictions: match_id identical row by row,PASS,
+experiment 6B predictions: y identical row by row,PASS,
+experiment 6B predictions: fold_id identical row by row,PASS,
+experiment 6B predictions: unique row ids,PASS,690147
+one-hot (5 x 16) input carries exactly the ids of the 79-column 6A / 6B encoding (same information),PASS,
+<START> at lag l exactly when seq_pos < l; E_t (last position) never <START>,PASS,
+"raw-JSON rebuild of 707 stratified rows (6A sample: history, <START>, target, causality)",PASS,"{""random"": 300, ""rare_class"": 50, ""seq_pos_0"": 50, ""after_companion"": 50, ""period_end"": 50, ""excluded_raw_between"": 40, ""seq_pos_1"": 40, ""seq_pos_2_3"": 40, ""repeated_timestamp"": 40, ""match_last_row"": 25, ""match_first_row"": 25}"
+"independent raw-JSON reconstruction of 12 complete matches (27265 eligible rows; audited K1-K3 code): observations, 5-position histories and targets identical",PASS,"{""rows"": 27265, ""matches"": 12, ""seq_pos_0"": 25, ""with_<START>"": 95, ""period_end"": 20, ""repeated_timestamp"": 1541, ""companion_in_window"": 2163, ""history_event_without_360"": 7463, ""current_or_target_Shot"": 585, ""current_or_target_Goal Keeper"": 265, ""current_or_target_Duel"": 500, ""current_or_target_50/50"": 22, ""current_or_target_Block"": 816, ""current_or_target_Foul Committed"": 547}"
+"pre-run: NumPy LSTM reference = nn.LSTM for all 8 architectures on 2,000 real windows (float32 < 1e-5, float64 < 1e-12); parameter counts = 4Hm + 4H^2 + 8H per layer + 15H + 15; finite differences < 1e-7",PASS,"{""worst_float32"": 5.218332772838341e-08, ""worst_float64"": 6.938893903907228e-17, ""finite_difference"": 3.0408241202817266e-10}"
+no warning raised during training / prediction (runner and all workers),PASS,[]
+every outer fold computed by a worker process and committed atomically (assembly resumed all 5 folds),PASS,"{""0"": {""pid"": 48339, ""seconds"": 12232, ""maxrss_mb"": 631}, ""1"": {""pid"": 48340, ""seconds"": 12416, ""maxrss_mb"": 605}, ""2"": {""pid"": 48341, ""seconds"": 13036, ""maxrss_mb"": 616}, ""3"": {""pid"": 48342, ""seconds"": 11856, ""maxrss_mb"": 694}, ""4"": {""pid"": 51919, ""seconds"": 6282, ""maxrss_mb"": 849}}"
+fold of every row identical to experiments 5 / 5B / 6A / 6B,PASS,
+"690,147 rows and 304 matches",PASS,690147
+every outer fold completed,PASS,
+every row predicted exactly once (one validation fold per row),PASS,
+"primary probabilities finite, positive, 15 columns, rows sum to 1 (tol 1e-9)",PASS,8.881784197001252e-16
+"replicate 1 probabilities finite, positive, 15 columns, rows sum to 1 (tol 1e-9)",PASS,7.771561172376096e-16
+"replicate 2 probabilities finite, positive, 15 columns, rows sum to 1 (tol 1e-9)",PASS,6.661338147750939e-16
+"fit log complete: 175 fits = 5 x (4 x 8 + 1 + 2), all with finite stopping losses",PASS,175
+"every fit: best epoch = first argmin of its stopping curve (epoch 0 included), best loss = curve minimum, epochs = min(best + patience, max_epochs)",PASS,0 fits with best epoch 0
+fits stopped at max_epochs (early stopping did not trigger),INFO,13 of 175
+gradient norm: largest per-batch global L2 norm over all fits (no clipping applied),INFO,max 2.588; batches with norm > 1: 718 of 4541996; > 5: 0; > 10: 0
+fold 0 log loss reproduces from assembled predictions,PASS,0.0
+fold 1 log loss reproduces from assembled predictions,PASS,0.0
+fold 2 log loss reproduces from assembled predictions,PASS,0.0
+fold 3 log loss reproduces from assembled predictions,PASS,0.0
+fold 4 log loss reproduces from assembled predictions,PASS,0.0
+no outer-validation match in any inner-train / stopping / inner-validation / outer-train set,PASS,510 data sets audited
+stopping subsets are disjoint (by match) from the rows the network is trained on (one pair per fit),PASS,175 pairs
+"every distinct data set (inner train / stop / validation, outer train / stop / validation) = the SAME matches as MLP-H5 (6B access audit)",PASS,75 distinct data sets compared
+each data set used by the same number of fits as in MLP-H5 (identical multiset of 6B data-access records),PASS,525 vs 525 records
+"no final-test match in the data, folds or any data set used",PASS,83 final-test ids checked
+probabilities recomputed by the float64 NumPy LSTM reference from the saved weights equal torch's on all rows and replicates (|dp| < 1e-5),PASS,5.612153639589224e-07
+"gate-level audit (float64) of every fold's primary model: h_s, c_s (s = 1..5), recovered output gate and logits of nn.LSTM equal the NumPy reference (< 1e-12; o_s < 1e-9)",PASS,5.329070518200751e-15
+"fresh retraining of fold 0's primary refit in the main process reproduces the worker's weights and predictions bit-identically (CPU, 1 thread)",PASS,max |dp| = 0; 183 s
+all prior models' metrics and CIs recomputed from saved predictions equal experiment 6B's tables (1e-12),PASS,1.1515181169707844e-13
+"Shot support = 7,212 rows",PASS,7212
+robustness seeds: pooled log-loss range across 3 refit seeds,INFO,1.051218 .. 1.051465
+"refit stopping subsets: disjoint from fit matches, inside outer training, union = outer training",PASS,
+raw source digest equals the canonical manifest,PASS,79821dfe4129ead844a256f750f4ceb81ff91e5e02e272ddbd0737cacff86c70
+"historical results unchanged (baselines, experiments 5, 5B, 6A, 6B, 6A/6B audit: checksums, README, predictions, models, dataset)",PASS,126
+run status,INFO,"resumed folds: [0, 1, 2, 3, 4]; computed in workers: [0, 1, 2, 3, 4]; fits loaded from checkpoints: 0"

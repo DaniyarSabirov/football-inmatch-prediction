@@ -1,0 +1,103 @@
+{
+ "note": "technical smoke test; inner data of outer fold 0 only; not a result",
+ "fits": [
+  {
+   "candidate": {
+    "name": "A",
+    "hidden": 32,
+    "layers": 1,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "lr": 0.001
+   },
+   "train_rows": 373173,
+   "stop_rows": 41726,
+   "seconds_per_epoch": 2.247532236671153,
+   "stop_log_loss_by_epoch": [
+    2.6755697013084347,
+    1.1372900300029725,
+    1.0768480133995426,
+    1.0646873644383061
+   ],
+   "grad_norm_max_by_epoch": [
+    0.8511289954185486,
+    0.4191320538520813,
+    0.43580570816993713
+   ],
+   "max_rss_mb": 1392.623616,
+   "proba_shape": [
+    137825,
+    15
+   ],
+   "proba_row_sum_max_dev": 6.661338147750939e-16
+  },
+  {
+   "candidate": {
+    "name": "D",
+    "hidden": 128,
+    "layers": 1,
+    "dropout": 0.1,
+    "weight_decay": 0.0001,
+    "lr": 0.001
+   },
+   "train_rows": 373173,
+   "stop_rows": 41726,
+   "seconds_per_epoch": 7.922687528004947,
+   "stop_log_loss_by_epoch": [
+    2.704081049500876,
+    1.083929908910249,
+    1.0592586410975902,
+    1.0517134999432907
+   ],
+   "grad_norm_max_by_epoch": [
+    1.148789644241333,
+    0.6995265483856201,
+    0.4766674041748047
+   ],
+   "max_rss_mb": 1503.936512,
+   "proba_shape": [
+    137825,
+    15
+   ],
+   "proba_row_sum_max_dev": 6.661338147750939e-16
+  },
+  {
+   "candidate": {
+    "name": "F",
+    "hidden": 64,
+    "layers": 2,
+    "dropout": 0.1,
+    "weight_decay": 0.0001,
+    "lr": 0.001
+   },
+   "train_rows": 373173,
+   "stop_rows": 41726,
+   "seconds_per_epoch": 7.692691791666827,
+   "stop_log_loss_by_epoch": [
+    2.725400704378565,
+    1.1043528184742222,
+    1.067033543580367,
+    1.0546623678127967
+   ],
+   "grad_norm_max_by_epoch": [
+    1.0478676557540894,
+    0.6509255170822144,
+    0.46305760741233826
+   ],
+   "max_rss_mb": 1503.936512,
+   "proba_shape": [
+    137825,
+    15
+   ],
+   "proba_row_sum_max_dev": 6.661338147750939e-16
+  }
+ ],
+ "n_fits_full_run": 175,
+ "worker_check_exit_codes": {
+  "0": 0,
+  "1": 0
+ },
+ "worker_wrong_hash_exit_codes": {
+  "2": 11
+ }
+}

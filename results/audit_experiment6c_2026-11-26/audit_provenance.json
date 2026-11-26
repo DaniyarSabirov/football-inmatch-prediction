@@ -1,0 +1,40 @@
+{
+ "script": "scripts/audit_experiment6c.py",
+ "script_sha256": "e27cee733aba0852824d2928749f1d32847208ac03e54038a6f169c1c8200d9f",
+ "command": "python scripts/audit_experiment6c.py",
+ "date": "2026-11-26",
+ "python": "3.11.1",
+ "numpy": "2.4.6",
+ "pandas": "3.0.5",
+ "scikit_learn": "1.9.0",
+ "torch": "2.15.0",
+ "machine": "arm64",
+ "seeds": {
+  "raw_reconstruction_match_sample": 20261126,
+  "bootstrap": 7,
+  "finite_difference_entries": [
+   0,
+   1
+  ]
+ },
+ "process": {
+  "audit_pid": 55853,
+  "caffeinate_pid": 55854,
+  "caffeinate_command": "caffeinate -d -i -w 55853",
+  "exit_code": 0
+ },
+ "first_attempt": "stopped in section 7 by an audit-tool defect (stored strata contain a Markov 2 reference that the script did not recompute); fixed and re-run completely; this directory holds only the complete re-run",
+ "large_artefact_not_committed": {
+  "path": "data/interim/lstm_h5_experiment6c/final_audit/raw_reconstruction_60_matches.csv",
+  "sha256": "fe1793fef169add4d2c995ec9f04d0d6db9638507a5bfbdf056a0c765469e3c5",
+  "rows": 138830
+ },
+ "execution_evidence": {
+  "device_benchmark_2026-11-25.json": "pre-run CPU (1/2/4 threads) vs MPS benchmark, synthetic ids, 120 batches of 512 rows + stop-set inference, inner-fit size 373,000 rows (script not archived: it contained a machine-specific path)",
+  "smoke_test_2026-11-25.json": "pre-run smoke test on fold-0 inner data (runner --smoke)"
+ },
+ "evidence_types": {
+  "independent": "recomputed in the audit script with own code",
+  "inspection": "established by reading the cited source lines"
+ }
+}

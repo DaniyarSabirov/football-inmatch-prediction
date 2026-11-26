@@ -1,0 +1,10 @@
+{
+ "verdict_of_checks": "PASS",
+ "n_checks": 66,
+ "n_fail": 0,
+ "by_evidence": {
+  "independent": 65,
+  "inspection": 1
+ },
+ "runtime_seconds": 116
+}

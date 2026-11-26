@@ -1,0 +1,421 @@
+{
+ "verdict": "PASS",
+ "n_checks": 59,
+ "n_fail": 0,
+ "runtime_seconds": 21,
+ "checks": [
+  {
+   "check": "result directory complete (renamed from staging; no .partial left)",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "result checksums (35 files)",
+   "result": "PASS",
+   "value": 35
+  },
+  {
+   "check": "artefact hash data/interim/lstm_h5_experiment6c/oof_predictions_lstm_h5.parquet",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "artefact hash data/interim/lstm_h5_experiment6c/fold_models_lstm_h5.npz",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "artefact hash data/interim/lstm_h5_experiment6c/fold_models_lstm_h5.pt",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "run's own integrity audit has no FAIL",
+   "result": "PASS",
+   "value": 66
+  },
+  {
+   "check": "canonical dataset contains no final-test match; 83 final-test ids",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "690,147 rows, 304 matches, unique row ids",
+   "result": "PASS",
+   "value": 690147
+  },
+  {
+   "check": "row ids, order, matches and targets equal the canonical eligible rows",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "fold of every row = outer folds file; no train/validation match overlap; no final-test match in folds",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "paired with experiment 5: identical event_id / match / fold / target row by row",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "paired with experiment 5B: identical event_id / match / fold / target row by row",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "paired with experiment 6A: identical event_id / match / fold / target row by row",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "paired with experiment 6B: identical event_id / match / fold / target row by row",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "<START> at lag l exactly when seq_pos < l (no cross-period history); current event never <START> and last",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "history hash in the run manifest equals the independently built history",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "checkpoint provenance: stored configuration per fold = selected configuration",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "stored weights have the selected architecture (16 inputs, H, layers, 4 gate blocks, 15 logits)",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "stored parameter counts = 4Hm + 4H^2 + 8H per layer + 15H + 15",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "probabilities recomputed by an own NumPy LSTM of the stored weights on an independently built history equal the stored ones on all rows (|dp| < 1e-5; 3 replicates)",
+   "result": "PASS",
+   "value": 5.612153639589224e-07
+  },
+  {
+   "check": "15 probability columns in canonical order; finite, positive; rows sum to 1 (1e-9)",
+   "result": "PASS",
+   "value": 8.881784197001252e-16
+  },
+  {
+   "check": "all 175 fits: best epoch = first argmin of the stopping curve (epoch 0 included), stored best loss = curve minimum, epochs = min(best + patience, max), batches per epoch = ceil(rows / 512)",
+   "result": "PASS",
+   "value": {
+    "violations": [],
+    "epoch0_best": 0,
+    "total_epochs": 6085
+   }
+  },
+  {
+   "check": "selection recomputed from per-fit inner scores = stored choice = stored weights' configuration",
+   "result": "PASS",
+   "value": {
+    "0": "E",
+    "1": "F",
+    "2": "F",
+    "3": "F",
+    "4": "E"
+   }
+  },
+  {
+   "check": "search space in the run = the 8 frozen configurations",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "gradient-norm statistics recorded for every fit (no clipping)",
+   "result": "PASS",
+   "value": {
+    "max": 2.587660789489746,
+    "batches_above_1": 718,
+    "batches": 4541996
+   }
+  },
+  {
+   "check": "all inner/outer training, stopping and validation match sets are identical to experiment 6B (MLP-H5)",
+   "result": "PASS",
+   "value": 525
+  },
+  {
+   "check": "refits update parameters on ~90 % of the outer-training rows (as MLP-H5; documented limitation vs XGB-H5)",
+   "result": "PASS",
+   "value": [
+    0.9049,
+    0.9007,
+    0.9007,
+    0.8976,
+    0.9023
+   ]
+  },
+  {
+   "check": "pooled LSTM-H5 metrics recomputed with scikit-learn equal the stored table (1e-9)",
+   "result": "PASS",
+   "value": {
+    "log_loss": 2.220446049250313e-16,
+    "brier": 0.0,
+    "accuracy": 0.0,
+    "macro_f1": 5.551115123125783e-17,
+    "weighted_f1": 0.0,
+    "shot_average_precision": 0.0,
+    "shot_recall": 8.500145032286355e-17,
+    "shot_precision": 5.551115123125783e-17
+   }
+  },
+  {
+   "check": "MLP-H5: stored pooled log loss in this run's table = scikit-learn on its saved predictions (1e-9)",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "XGB-H5: stored pooled log loss in this run's table = scikit-learn on its saved predictions (1e-9)",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "MLR-H5: stored pooled log loss in this run's table = scikit-learn on its saved predictions (1e-9)",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "markov2: stored pooled log loss in this run's table = scikit-learn on its saved predictions (1e-9)",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "per-fold log loss and macro-F1 recomputed equal the stored table (1e-9)",
+   "result": "PASS",
+   "value": 8.326672684688674e-17
+  },
+  {
+   "check": "per-class support equals the target counts; Shot support 7,212",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "robustness-seed log losses recompute from stored predictions (1e-12)",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "LSTM-H5 - MLP-H5: mean d_i, relative difference, seed-7 CI and fold signs reproduce the stored values (1e-12)",
+   "result": "PASS",
+   "value": {
+    "difference": -0.001204655695283755,
+    "ci": [
+     -0.0015309273063417496,
+     -0.0008955953391589072
+    ],
+    "folds_better": 5
+   }
+  },
+  {
+   "check": "independent match bootstrap vs MLP-H5 (2,000 reps, seed 20261125): CI excludes zero iff the stored CI does",
+   "result": "PASS",
+   "value": {
+    "independent_ci": [
+     -0.001502418510448262,
+     -0.0008704841022748249
+    ]
+   }
+  },
+  {
+   "check": "LSTM-H5 - XGB-H5: mean d_i, relative difference, seed-7 CI and fold signs reproduce the stored values (1e-12)",
+   "result": "PASS",
+   "value": {
+    "difference": -0.0003838219948434084,
+    "ci": [
+     -0.0006901340405445005,
+     -8.847097082838391e-05
+    ],
+    "folds_better": 4
+   }
+  },
+  {
+   "check": "independent match bootstrap vs XGB-H5 (2,000 reps, seed 20261125): CI excludes zero iff the stored CI does",
+   "result": "PASS",
+   "value": {
+    "independent_ci": [
+     -0.0006772743733623988,
+     -9.223092828322572e-05
+    ]
+   }
+  },
+  {
+   "check": "LSTM-H5 - MLR-H5: mean d_i, relative difference, seed-7 CI and fold signs reproduce the stored values (1e-12)",
+   "result": "PASS",
+   "value": {
+    "difference": -0.051504058100655524,
+    "ci": [
+     -0.05300367639472097,
+     -0.05011018309438985
+    ],
+    "folds_better": 5
+   }
+  },
+  {
+   "check": "independent match bootstrap vs MLR-H5 (2,000 reps, seed 20261125): CI excludes zero iff the stored CI does",
+   "result": "PASS",
+   "value": {
+    "independent_ci": [
+     -0.0529858392649322,
+     -0.05011935515391999
+    ]
+   }
+  },
+  {
+   "check": "LSTM-H5 - markov2: mean d_i, relative difference, seed-7 CI and fold signs reproduce the stored values (1e-12)",
+   "result": "PASS",
+   "value": {
+    "difference": -0.01660807181999303,
+    "ci": [
+     -0.017401822437402167,
+     -0.01588959569748299
+    ],
+    "folds_better": 5
+   }
+  },
+  {
+   "check": "independent match bootstrap vs markov2 (2,000 reps, seed 20261125): CI excludes zero iff the stored CI does",
+   "result": "PASS",
+   "value": {
+    "independent_ci": [
+     -0.01730329441561641,
+     -0.015883219986604528
+    ]
+   }
+  },
+  {
+   "check": "LSTM-H5 - XGB-H2: mean d_i, relative difference, seed-7 CI and fold signs reproduce the stored values (1e-12)",
+   "result": "PASS",
+   "value": {
+    "difference": -0.01613977195212853,
+    "ci": [
+     -0.016931986950321627,
+     -0.015433740988527173
+    ],
+    "folds_better": 5
+   }
+  },
+  {
+   "check": "independent match bootstrap vs XGB-H2 (2,000 reps, seed 20261125): CI excludes zero iff the stored CI does",
+   "result": "PASS",
+   "value": {
+    "independent_ci": [
+     -0.01682566683145187,
+     -0.015429470704472394
+    ]
+   }
+  },
+  {
+   "check": "LSTM-H5 - logistic_F0: mean d_i, relative difference, seed-7 CI and fold signs reproduce the stored values (1e-12)",
+   "result": "PASS",
+   "value": {
+    "difference": -0.10703895581442692,
+    "ci": [
+     -0.10968837031805495,
+     -0.10470334113734288
+    ],
+    "folds_better": 5
+   }
+  },
+  {
+   "check": "independent match bootstrap vs logistic_F0 (2,000 reps, seed 20261125): CI excludes zero iff the stored CI does",
+   "result": "PASS",
+   "value": {
+    "independent_ci": [
+     -0.10967861974958869,
+     -0.10452258053622307
+    ]
+   }
+  },
+  {
+   "check": "Pressure contribution (row-weighted) to the differences vs MLP-H5 / XGB-H5 / MLR-H5 recomputed = stored strata",
+   "result": "PASS",
+   "value": null
+  },
+  {
+   "check": "data-access audit: outer validation only predicted; stopping/training sets never touch it; final test never touched",
+   "result": "PASS",
+   "value": 525
+  },
+  {
+   "check": "historical results unchanged: results/canonical_baselines_actions15_360current_v1_2026-11-19",
+   "result": "PASS",
+   "value": 15
+  },
+  {
+   "check": "historical results unchanged: results/xgboost_experiment5_actions15_360current_v1_2026-11-20",
+   "result": "PASS",
+   "value": 23
+  },
+  {
+   "check": "historical results unchanged: results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21",
+   "result": "PASS",
+   "value": 32
+  },
+  {
+   "check": "historical results unchanged: results/logistic_h5_experiment6a_actions15_360current_v1_2026-11-23",
+   "result": "PASS",
+   "value": 32
+  },
+  {
+   "check": "historical results unchanged: results/mlp_h5_experiment6b_actions15_360current_v1_2026-11-23",
+   "result": "PASS",
+   "value": 28
+  },
+  {
+   "check": "6A/6B final audit results unchanged",
+   "result": "PASS",
+   "value": 7
+  },
+  {
+   "check": "stored predictions / models of experiments 5-6B and the canonical dataset unchanged since the run",
+   "result": "PASS",
+   "value": 10
+  },
+  {
+   "check": "raw-JSON rebuild of the 707 stored stratified rows equals the independently built history and target",
+   "result": "PASS",
+   "value": 707
+  },
+  {
+   "check": "independent raw-JSON reconstruction of 12 complete matches (27265 rows; periods starts/ends, <START>, companions, repeated timestamps, missing 360) equals the independently built history and targets",
+   "result": "PASS",
+   "value": {
+    "rows": 27265,
+    "seq_pos_0": 25,
+    "period_end": 20,
+    "companion_in_window": 2163,
+    "repeated_timestamp": 1541,
+    "history_without_360": 7463,
+    "rare_classes": {
+     "50/50": 22,
+     "Goal Keeper": 265,
+     "Duel": 500,
+     "Shot": 585,
+     "Block": 816
+    }
+   }
+  },
+  {
+   "check": "supervisor: the experiment stage exited 0 before this audit started; caffeinate attached to the supervisor",
+   "result": "PASS",
+   "value": {
+    "run_id": "exp6c-20261125T195623-158a9af7",
+    "experiment_exit_code": 0
+   }
+  }
+ ]
+}

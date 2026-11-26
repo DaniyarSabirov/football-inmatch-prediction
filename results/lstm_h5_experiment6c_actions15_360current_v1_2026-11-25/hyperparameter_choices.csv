@@ -1,0 +1,6 @@
+fold_id,candidate,candidate_index,inner_log_loss,hidden,layers,dropout,weight_decay,lr,train_matches,refit_fit_matches,refit_stop_matches,validation_matches,validation_rows
+0,E,4,1.051946974226,32,2,0.1,0.0001,0.001,244,220,24,60,137423
+1,F,5,1.052799440155,64,2,0.1,0.0001,0.001,243,219,24,61,137825
+2,F,5,1.051708330041,64,2,0.1,0.0001,0.001,243,219,24,61,139052
+3,F,5,1.052438607369,64,2,0.1,0.0001,0.001,243,219,24,61,137690
+4,E,4,1.052979402723,32,2,0.1,0.0001,0.001,243,219,24,61,138157

@@ -1,0 +1,15 @@
+{
+ "README.md": "39effca4d617d1bbb59d689aa43841b8016555dd0f489113395522baa6ea2e1e",
+ "audit_checks.csv": "d251b7db329c3f2699f0984b572b38bccebd27cc1418575aeb51b247c66efe71",
+ "audit_provenance.json": "24b4503cdf06b9437549a6388fa28f13ef65e1495f2accaaade91bf3253cbc52",
+ "audit_summary.json": "4da8d844b303c07be40340ba126c76c4b9eadd785d907f7fcb4f7c12a302b63a",
+ "decomposition_by_current_class.csv": "8394f8b98650bfc22b26add3666acb9f708fe9df3b983294f90a59180fc7c6fd",
+ "execution_evidence/device_benchmark_2026-11-25.json": "b288cde0385fc8f87a64205994926a4db1d12689729edf840d39c228ddc2aeaf",
+ "execution_evidence/smoke_test_2026-11-25.json": "5d2ade8c299e6c4ad101305e748af4529cf6f85f3eed5a60581b8b413768c7fd",
+ "fit_rescoring.csv": "223720cfff6e528ea645a584ea77dfd6e3dbd0cfc535cc5bbfde4db1e03b3bb6",
+ "metrics_recomputed.csv": "b6d8d2900e9d68fc6f996a75db0c86a28481f39fd3a5f1d95e44bea0bc121ead",
+ "paired_differences_recomputed.csv": "1350d2309dd7d51e83abcf5c44760a9d711cfb0ac92b0bed54d4b619fd97cd03",
+ "raw_reconstruction_summary_by_match.csv": "ffa7550053c867a7db2d975d0f8bb343e8814d7e3993237903ac36baa7e727d3",
+ "seed_comparisons.csv": "5343a30ccb16268795fd678bff43766f95339b066c3f825ef0c44e8a3ddd9335",
+ "training_population.csv": "a6f58368e6ca23911f03404b213557beb28610548d5e1fecb9b611e63090d4b0"
+}
