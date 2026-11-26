@@ -1,0 +1,9 @@
+{
+ "description": "sha256 of files created AFTER the 6C run; checksums.json is the run's original manifest and is not rewritten",
+ "files": {
+  "post_run_verification.json": "a9fc0eab2b72688725a7804c5c91dc2834f2e51a60757fa9e0c37905bb64156a"
+ },
+ "generated_by": {
+  "post_run_verification.json": "scripts/verify_lstm_h5_experiment6c.py"
+ }
+}

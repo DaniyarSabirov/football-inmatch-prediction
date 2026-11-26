@@ -1,0 +1,325 @@
+{
+ "python": "3.11.1 (v3.11.1:a7a450f84a, Dec  6 2022, 15:24:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+ "git_commit": "46d0e2dba57594343e86c16d2305f617e74d52a5",
+ "uncommitted_changes": [
+  "?? configs/lstm_h5_experiment6c_v1.yaml",
+  "?? docs/thesis/09_lstm_h5.md",
+  "?? results/lstm_h5_experiment6c_actions15_360current_v1_2026-11-25.partial/",
+  "?? scripts/run_lstm_h5_experiment6c.py",
+  "?? scripts/supervise_lstm_h5_experiment6c.py",
+  "?? scripts/verify_lstm_h5_experiment6c.py",
+  "?? src/sequence_models/lstm_h5_experiment.py",
+  "?? tests/test_lstm_h5_experiment6c.py"
+ ],
+ "packages": {
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "pyyaml": "6.0.3",
+  "torch": "2.15.0"
+ },
+ "machine": {
+  "processor": "arm64",
+  "torch_threads_per_process": 1,
+  "parallel_fold_workers": 4,
+  "deterministic_algorithms": true,
+  "device": "cpu",
+  "mps_available_not_used": true
+ },
+ "runtime_seconds": 18599.8686709404,
+ "worker_phase_seconds": 18159.03325510025,
+ "reproduction_check_seconds": 182.72189604199957,
+ "peak_rss_mb": {
+  "runner_before_workers": 1964.949504,
+  "runner_total": 1964.949504,
+  "worker_fold0": 630.70208,
+  "worker_fold1": 604.946432,
+  "worker_fold2": 616.054784,
+  "worker_fold3": 694.484992,
+  "worker_fold4": 849.199104
+ },
+ "worker_status": {
+  "0": {
+   "fold": 0,
+   "pid": 48339,
+   "parent_pid": 48327,
+   "started": "2026-11-25T19:56:56",
+   "state": "completed",
+   "ended": "2026-11-25T23:20:48",
+   "seconds": 12231.847988128662,
+   "computed_folds": [
+    0
+   ],
+   "resumed_folds": [],
+   "resumed_fits": 0,
+   "maxrss_mb": 630.70208,
+   "warnings": [],
+   "torch_threads": 1,
+   "deterministic": true
+  },
+  "1": {
+   "fold": 1,
+   "pid": 48340,
+   "parent_pid": 48327,
+   "started": "2026-11-25T19:56:56",
+   "state": "completed",
+   "ended": "2026-11-25T23:23:52",
+   "seconds": 12416.163858890533,
+   "computed_folds": [
+    1
+   ],
+   "resumed_folds": [],
+   "resumed_fits": 0,
+   "maxrss_mb": 604.946432,
+   "warnings": [],
+   "torch_threads": 1,
+   "deterministic": true
+  },
+  "2": {
+   "fold": 2,
+   "pid": 48341,
+   "parent_pid": 48327,
+   "started": "2026-11-25T19:56:56",
+   "state": "completed",
+   "ended": "2026-11-25T23:34:12",
+   "seconds": 13035.729182243347,
+   "computed_folds": [
+    2
+   ],
+   "resumed_folds": [],
+   "resumed_fits": 0,
+   "maxrss_mb": 616.054784,
+   "warnings": [],
+   "torch_threads": 1,
+   "deterministic": true
+  },
+  "3": {
+   "fold": 3,
+   "pid": 48342,
+   "parent_pid": 48327,
+   "started": "2026-11-25T19:56:56",
+   "state": "completed",
+   "ended": "2026-11-25T23:14:32",
+   "seconds": 11855.679724931717,
+   "computed_folds": [
+    3
+   ],
+   "resumed_folds": [],
+   "resumed_fits": 0,
+   "maxrss_mb": 694.484992,
+   "warnings": [],
+   "torch_threads": 1,
+   "deterministic": true
+  },
+  "4": {
+   "fold": 4,
+   "pid": 51919,
+   "parent_pid": 48327,
+   "started": "2026-11-25T23:14:49",
+   "state": "completed",
+   "ended": "2026-11-26T00:59:30",
+   "seconds": 6281.5177302360535,
+   "computed_folds": [
+    4
+   ],
+   "resumed_folds": [],
+   "resumed_fits": 0,
+   "maxrss_mb": 849.199104,
+   "warnings": [],
+   "torch_threads": 1,
+   "deterministic": true
+  }
+ },
+ "checkpoint_identifiers": {
+  "experiment": "lstm_h5_experiment6c_v1",
+  "task_version": "actions15_360current_v1",
+  "config_sha256": "3741f7398a1f7aef454c1bf15d67182cf3633f31892b464714abc9e8ac63184a",
+  "dataset_sha256_tier_b": "c4a71d1f32157d916182d0ccefcd3ab164b62fcd8b1dc2f2b83cac430053b1ef",
+  "folds_file_sha256": "4cddce19100715581a6308a526c2a2db3c1fd0343fb882515bda428839c07010",
+  "split_manifest_sha256": "f4e194c58a31ef2b573a9fa05352a0cd36da2fa1d288da9756bcf247258fd0b3",
+  "row_event_id_sha256": "50689e74bbdb0b6fb37f271ed8d5263d136982efd8b94de8f78b793a4d4bc41f",
+  "feature_matrix_sha256": "b3f97e9c7e6ed0040b86735a036ecbbb216d5066830c4f338bf2f5ed9c2f0aeb",
+  "target_sha256": "ea39a736b663785aab0bb9e030006e9db0baa1415656f73018a142717c3044fb",
+  "model_source_digest": "f208585d7a94c1b0ebd83b86ac1212840422414ce68cc576d1d574a4c68fa800",
+  "torch": "2.15.0",
+  "numpy": "2.4.6",
+  "python": "3.11.1",
+  "device": "cpu",
+  "num_threads": 1
+ },
+ "source_files_sha256": {
+  "lstm_h5_experiment.py": "e74f783e4e015b237d96fd2015cfb52d951a722a170569db7bcc15a187ef0688",
+  "mlp_h5_experiment.py": "ec64e827699d2a4e8a1abf50cf593f6810d3aa4136b0494d02a70d13068de15e",
+  "event_history.py": "5f2e28a471b36894a7e86508f81a5490ee8ce7fbab1f981ce6710c6cd7adf1ec",
+  "canonical_task.py": "931e8811210508e125b32a989cb74a93ff0994857fc6aab9b829f2965efb1ad9",
+  "xgboost_experiment.py": "c6c6029428b4285e1e4a83f71e9248c1e0d35d2ed34c48fb268dbc2fccb89115",
+  "evaluation_v2.py": "3ee2502576be6948b6fe3d1f99af638c790b06ac3838091b06c34aae9275e8ff",
+  "logistic_h5_experiment.py": "2acd3f05cd1e30ef3e9c75d6bc2c584328593865ab872e71f2d5f6c24a24c84f",
+  "raw_history_check.py": "3b263712c64d4650496addc6b62fcaeecdbb7f6898b95b86b7f0d8a45f9bf6d0",
+  "run_lstm_h5_experiment6c.py": "8f2b30e97f5510fe6704ea0b7b5c2bebba211c9f372dbf2cf97137e4484a321a",
+  "run_logistic_h5_experiment6a.py": "8e6223d892911fb8ab80f6f650b96ff867ed01d35216efff0f51a743e6b32d65",
+  "run_xgboost_experiment5.py": "502c4f03312fe7b8cb1a81450c765cae32bd7d8140314820ac746cb3cfd9cd80",
+  "supervise_lstm_h5_experiment6c.py": "4a5053e617ee69d7634eb218dcbc31047911db75fc40fbf4212694bcff65889e",
+  "verify_lstm_h5_experiment6c.py": "8885b2c1bec061c5cdad439ccd650bfc855d358197ad048a3f8bc01f9ca6348b",
+  "audit_experiments6a_6b.py": "4333ba8c62f275061a17ae6191770cccd86e5b3b12a05d7e1684f13b36c87a39"
+ },
+ "artefacts_sha256": {
+  "data/interim/lstm_h5_experiment6c/oof_predictions_lstm_h5.parquet": "29ed6f566647e12747fb1683f6ea807e6d6ff1192e97a16f0a339db52dc9bbaf",
+  "data/interim/lstm_h5_experiment6c/fold_models_lstm_h5.npz": "1a3158d45949c9f80113dfead23f25c1cb44b0878306c29bdade466521a8dac4",
+  "data/interim/lstm_h5_experiment6c/fold_models_lstm_h5.pt": "03d0b0cd5f1d473e10eadeb4c6b4b16bb6d8dce23f0a21697add307f838773fa"
+ },
+ "run_status": {
+  "resumed_folds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "computed_in_workers": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "resumed_fits": 0
+ },
+ "workload": {
+  "n_fits": 175,
+  "total_fit_seconds": 55782.35097763411,
+  "total_epochs": 6085,
+  "total_batches": 4541996
+ },
+ "historical_verification": {
+  "before": {
+   "directories": {
+    "results/canonical_baselines_actions15_360current_v1_2026-11-19": {
+     "mismatches": [],
+     "checksums.json_sha256": "251fe5769dd1d16444e24302342ae785f9f736afeb9590d272310be4e5c7e1dc",
+     "checksums.json_files": 15,
+     "readme_sha256": "17c5a6269e00d7adc4592eb0365d678437dd0b8ce546d68ea5e483fbe258f726",
+     "n_files": 17
+    },
+    "results/xgboost_experiment5_actions15_360current_v1_2026-11-20": {
+     "mismatches": [],
+     "checksums.json_sha256": "cf098b2900b51a14ae8f57f64d90ff5ac2de56486c86200fb3429505415fba7e",
+     "checksums.json_files": 23,
+     "readme_sha256": "97e6e9b9efedcc9bd17ea345b86c1748d16794a9ed95c3d88e5a9ee30a47d99f",
+     "n_files": 25
+    },
+    "results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21": {
+     "mismatches": [],
+     "checksums.json_sha256": "83382274b39fd5a9c73b6550205a3aa98e99a367d3c1c506055a6c412d5cb6b2",
+     "checksums.json_files": 30,
+     "checksums_supplementary.json_sha256": "0c1aab83d67371b1296ba18bc9ea0ae1d9ccca85276e5838c1e2174938a33541",
+     "checksums_supplementary.json_files": 2,
+     "readme_sha256": "66c3eb0c16d2820415c717e69cf990d990727cb3f34231af27308d690098e8b2",
+     "n_files": 35
+    },
+    "results/logistic_h5_experiment6a_actions15_360current_v1_2026-11-23": {
+     "mismatches": [],
+     "checksums.json_sha256": "7bebb52e43f3ceb9c9bcaee4872bd3a3ae82adbd2709c60fb4f5678a48202693",
+     "checksums.json_files": 31,
+     "checksums_supplementary.json_sha256": "4952bf040aeec6611d5463b312f78d96cb68de66dd1344546136869be7cb22d4",
+     "checksums_supplementary.json_files": 1,
+     "readme_sha256": "d3492b01df5ee355d62bca8c478ad852119ec8be240a6662b6133d896e765d87",
+     "n_files": 35
+    },
+    "results/mlp_h5_experiment6b_actions15_360current_v1_2026-11-23": {
+     "mismatches": [],
+     "checksums.json_sha256": "dd366a29a5e503107fe2886cf20b932376d4f7d0ed5f20692d02a02d604f8e63",
+     "checksums.json_files": 27,
+     "checksums_supplementary.json_sha256": "66e002712aa61e164c3d7a6ff1f2982be01b9ca4ce24f4de67427bba1c2918b5",
+     "checksums_supplementary.json_files": 1,
+     "readme_sha256": "6356d0cc31735a4b1ebfcb379207cb09b9171c57bbca3f91a3cae2cc2cf513e0",
+     "n_files": 31
+    }
+   },
+   "files": {
+    "data/interim/xgboost_experiment5/oof_predictions.parquet": "1e740f229159ba3361388b0c3b223af7f6915a24b6621d0b86afb9e3e5c69b06",
+    "data/interim/xgboost_experiment5b/oof_predictions_h2.parquet": "bc6b601a616618004e40659ae1c508f985b44290ec8dace79f1672253cdb85d2",
+    "data/interim/logistic_h5_experiment6a/oof_predictions_mlr_h5.parquet": "82b6680d5fd10e694f75aeebc829e989728f8e2ac7dcdf3e650448a68d083b3a",
+    "data/interim/mlp_h5_experiment6b/oof_predictions_mlp_h5.parquet": "635a2a08444f3068b97067c0b009bdec0b73db5bc0fb5afae5e5c89f5c138395",
+    "data/interim/canonical_task/actions15_360current_v1/observations.parquet": "8beb786b1cc2b356fd890fb59af3b96b894075d1789bb3134017bfbc32abe383",
+    "data/interim/canonical_task/actions15_360current_v1/manifest.json": "b8eb01016c6a5302623c1bf4471d606c70a346f0304aab84fbf63a37465224af",
+    "data/interim/logistic_h5_experiment6a/fold_models_mlr_h5.npz": "e6a51a15582277d34eeddf74f8297c129443010fc5b6fa8167a909b74b5ba8d1",
+    "data/interim/mlp_h5_experiment6b/fold_models_mlp_h5.npz": "1079b4ea531d386b21489d04987b3385c6a9b074b5cc1ab1e23de2389150983b",
+    "data/interim/mlp_h5_experiment6b/fold_models_mlp_h5.pt": "913d10a279f82b1b1d80a012673a627fe5d70bd62d41f6730a286aaf10787cd7",
+    "results/audit_experiments6a_6b_2026-11-24/checksums.json": "ecb4fde7bfb1f04420992642e51449ee066789f0c74d188ed10c2e4850d0dcf4"
+   }
+  },
+  "after": {
+   "directories": {
+    "results/canonical_baselines_actions15_360current_v1_2026-11-19": {
+     "mismatches": [],
+     "checksums.json_sha256": "251fe5769dd1d16444e24302342ae785f9f736afeb9590d272310be4e5c7e1dc",
+     "checksums.json_files": 15,
+     "readme_sha256": "17c5a6269e00d7adc4592eb0365d678437dd0b8ce546d68ea5e483fbe258f726",
+     "n_files": 17
+    },
+    "results/xgboost_experiment5_actions15_360current_v1_2026-11-20": {
+     "mismatches": [],
+     "checksums.json_sha256": "cf098b2900b51a14ae8f57f64d90ff5ac2de56486c86200fb3429505415fba7e",
+     "checksums.json_files": 23,
+     "readme_sha256": "97e6e9b9efedcc9bd17ea345b86c1748d16794a9ed95c3d88e5a9ee30a47d99f",
+     "n_files": 25
+    },
+    "results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21": {
+     "mismatches": [],
+     "checksums.json_sha256": "83382274b39fd5a9c73b6550205a3aa98e99a367d3c1c506055a6c412d5cb6b2",
+     "checksums.json_files": 30,
+     "checksums_supplementary.json_sha256": "0c1aab83d67371b1296ba18bc9ea0ae1d9ccca85276e5838c1e2174938a33541",
+     "checksums_supplementary.json_files": 2,
+     "readme_sha256": "66c3eb0c16d2820415c717e69cf990d990727cb3f34231af27308d690098e8b2",
+     "n_files": 35
+    },
+    "results/logistic_h5_experiment6a_actions15_360current_v1_2026-11-23": {
+     "mismatches": [],
+     "checksums.json_sha256": "7bebb52e43f3ceb9c9bcaee4872bd3a3ae82adbd2709c60fb4f5678a48202693",
+     "checksums.json_files": 31,
+     "checksums_supplementary.json_sha256": "4952bf040aeec6611d5463b312f78d96cb68de66dd1344546136869be7cb22d4",
+     "checksums_supplementary.json_files": 1,
+     "readme_sha256": "d3492b01df5ee355d62bca8c478ad852119ec8be240a6662b6133d896e765d87",
+     "n_files": 35
+    },
+    "results/mlp_h5_experiment6b_actions15_360current_v1_2026-11-23": {
+     "mismatches": [],
+     "checksums.json_sha256": "dd366a29a5e503107fe2886cf20b932376d4f7d0ed5f20692d02a02d604f8e63",
+     "checksums.json_files": 27,
+     "checksums_supplementary.json_sha256": "66e002712aa61e164c3d7a6ff1f2982be01b9ca4ce24f4de67427bba1c2918b5",
+     "checksums_supplementary.json_files": 1,
+     "readme_sha256": "6356d0cc31735a4b1ebfcb379207cb09b9171c57bbca3f91a3cae2cc2cf513e0",
+     "n_files": 31
+    }
+   },
+   "files": {
+    "data/interim/xgboost_experiment5/oof_predictions.parquet": "1e740f229159ba3361388b0c3b223af7f6915a24b6621d0b86afb9e3e5c69b06",
+    "data/interim/xgboost_experiment5b/oof_predictions_h2.parquet": "bc6b601a616618004e40659ae1c508f985b44290ec8dace79f1672253cdb85d2",
+    "data/interim/logistic_h5_experiment6a/oof_predictions_mlr_h5.parquet": "82b6680d5fd10e694f75aeebc829e989728f8e2ac7dcdf3e650448a68d083b3a",
+    "data/interim/mlp_h5_experiment6b/oof_predictions_mlp_h5.parquet": "635a2a08444f3068b97067c0b009bdec0b73db5bc0fb5afae5e5c89f5c138395",
+    "data/interim/canonical_task/actions15_360current_v1/observations.parquet": "8beb786b1cc2b356fd890fb59af3b96b894075d1789bb3134017bfbc32abe383",
+    "data/interim/canonical_task/actions15_360current_v1/manifest.json": "b8eb01016c6a5302623c1bf4471d606c70a346f0304aab84fbf63a37465224af",
+    "data/interim/logistic_h5_experiment6a/fold_models_mlr_h5.npz": "e6a51a15582277d34eeddf74f8297c129443010fc5b6fa8167a909b74b5ba8d1",
+    "data/interim/mlp_h5_experiment6b/fold_models_mlp_h5.npz": "1079b4ea531d386b21489d04987b3385c6a9b074b5cc1ab1e23de2389150983b",
+    "data/interim/mlp_h5_experiment6b/fold_models_mlp_h5.pt": "913d10a279f82b1b1d80a012673a627fe5d70bd62d41f6730a286aaf10787cd7",
+    "results/audit_experiments6a_6b_2026-11-24/checksums.json": "ecb4fde7bfb1f04420992642e51449ee066789f0c74d188ed10c2e4850d0dcf4"
+   }
+  }
+ },
+ "random_seeds": {
+  "folds": 20261027,
+  "bootstrap": 7,
+  "training_base": 20261123,
+  "derivation": "numpy SeedSequence([base, outer, inner+1 (0 = refit), candidate, replicate]); per epoch SeedSequence([fit, 1|2|3|4, epoch]) for permutation / dropout / numpy / python (= 6B)",
+  "permutation_importance": 11,
+  "raw_reconstruction": 20261125
+ },
+ "commands": [
+  "python scripts/supervise_lstm_h5_experiment6c.py --detach",
+  "python scripts/run_lstm_h5_experiment6c.py",
+  "python scripts/verify_lstm_h5_experiment6c.py"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "candidates": [
+  {
+   "name": "A",
+   "parameters_formula": 6895,
+   "parameters_pytorch": 6895,
+   "max_abs_logit_float32_vs_numpy": 4.549256224506415e-08,
+   "max_abs_logit_float64_vs_numpy": 5.551115123125783e-17,
+   "max_abs_hidden_states_float64": 1.1102230246251565e-16,
+   "max_abs_final_cell_states_float64": 1.6653345369377348e-16,
+   "max_abs_probability_float64": 4.163336342344337e-17
+  },
+  {
+   "name": "B",
+   "parameters_formula": 21967,
+   "parameters_pytorch": 21967,
+   "max_abs_logit_float32_vs_numpy": 3.2605325689383235e-08,
+   "max_abs_logit_float64_vs_numpy": 6.938893903907228e-17,
+   "max_abs_hidden_states_float64": 8.326672684688674e-17,
+   "max_abs_final_cell_states_float64": 1.1102230246251565e-16,
+   "max_abs_probability_float64": 2.7755575615628914e-17
+  },
+  {
+   "name": "C",
+   "parameters_formula": 21967,
+   "parameters_pytorch": 21967,
+   "max_abs_logit_float32_vs_numpy": 3.2605325689383235e-08,
+   "max_abs_logit_float64_vs_numpy": 6.938893903907228e-17,
+   "max_abs_hidden_states_float64": 8.326672684688674e-17,
+   "max_abs_final_cell_states_float64": 1.1102230246251565e-16,
+   "max_abs_probability_float64": 2.7755575615628914e-17
+  },
+  {
+   "name": "D",
+   "parameters_formula": 76687,
+   "parameters_pytorch": 76687,
+   "max_abs_logit_float32_vs_numpy": 3.82007573351828e-08,
+   "max_abs_logit_float64_vs_numpy": 5.551115123125783e-17,
+   "max_abs_hidden_states_float64": 8.326672684688674e-17,
+   "max_abs_final_cell_states_float64": 1.1102230246251565e-16,
+   "max_abs_probability_float64": 2.7755575615628914e-17
+  },
+  {
+   "name": "E",
+   "parameters_formula": 15343,
+   "parameters_pytorch": 15343,
+   "max_abs_logit_float32_vs_numpy": 3.186097399798804e-08,
+   "max_abs_logit_float64_vs_numpy": 5.551115123125783e-17,
+   "max_abs_hidden_states_float64": 8.326672684688674e-17,
+   "max_abs_final_cell_states_float64": 1.6653345369377348e-16,
+   "max_abs_probability_float64": 2.7755575615628914e-17
+  },
+  {
+   "name": "F",
+   "parameters_formula": 55247,
+   "parameters_pytorch": 55247,
+   "max_abs_logit_float32_vs_numpy": 5.218332772838341e-08,
+   "max_abs_logit_float64_vs_numpy": 6.938893903907228e-17,
+   "max_abs_hidden_states_float64": 1.3877787807814457e-16,
+   "max_abs_final_cell_states_float64": 2.220446049250313e-16,
+   "max_abs_probability_float64": 2.7755575615628914e-17
+  },
+  {
+   "name": "G",
+   "parameters_formula": 21967,
+   "parameters_pytorch": 21967,
+   "max_abs_logit_float32_vs_numpy": 3.2605325689383235e-08,
+   "max_abs_logit_float64_vs_numpy": 6.938893903907228e-17,
+   "max_abs_hidden_states_float64": 8.326672684688674e-17,
+   "max_abs_final_cell_states_float64": 1.1102230246251565e-16,
+   "max_abs_probability_float64": 2.7755575615628914e-17
+  },
+  {
+   "name": "H",
+   "parameters_formula": 76687,
+   "parameters_pytorch": 76687,
+   "max_abs_logit_float32_vs_numpy": 3.82007573351828e-08,
+   "max_abs_logit_float64_vs_numpy": 5.551115123125783e-17,
+   "max_abs_hidden_states_float64": 8.326672684688674e-17,
+   "max_abs_final_cell_states_float64": 1.1102230246251565e-16,
+   "max_abs_probability_float64": 2.7755575615628914e-17
+  }
+ ],
+ "tolerances": {
+  "float32_logits": 1e-05,
+  "float64": 1e-12,
+  "finite_difference": 1e-07
+ },
+ "finite_difference": {
+  "architecture": "H=4, 2 layers, float64, 64 real windows",
+  "entries_checked": 100,
+  "max_abs_error": 3.0408241202817266e-10
+ },
+ "pass": true
+}

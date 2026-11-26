@@ -1,0 +1,23 @@
+{
+ "input_shape_per_row": [
+  5,
+  16
+ ],
+ "one_hot_recovers_ids_sample_5000": true,
+ "position_specific_79_column_encoding_is_a_bijection_of_the_same_ids": true,
+ "e_t_never_start": true,
+ "start_count_by_lag": {
+  "E_{t-1}": 568,
+  "E_{t-2}": 1174,
+  "E_{t-3}": 1771,
+  "E_{t-4}": 2376
+ },
+ "rows_with_seq_pos_below_lag": {
+  "E_{t-1}": 568,
+  "E_{t-2}": 1174,
+  "E_{t-3}": 1771,
+  "E_{t-4}": 2376
+ },
+ "n_unique_windows": 17280,
+ "start_padding_iff_before_sequence_start": true
+}

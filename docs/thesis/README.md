@@ -17,6 +17,7 @@
 | `06_xgboost_h2_controlled_comparison.md` | experiment 5B (canonical task): XGB-H2 vs. Markov 2 with identical information, decomposition of the XGB-H5 gain, limitations |
 | `07_logistic_regression_h5.md` | experiment 6A (canonical task): MLR-H5, position-specific one-hot softmax regression on the XGB-H5 history; paired comparison with XGB-H5, Markov 2, logistic F0; coefficient interpretation, limitations |
 | `08_mlp_h5.md` | experiment 6B (canonical task): MLP-H5, ReLU network on the same history; nested CV with training-only early stopping, reproducibility controls, comparison with MLR-H5 and XGB-H5, limitations |
+| `09_lstm_h5.md` | experiment 6C (canonical task): LSTM-H5, stateless recurrent network on the same history; gate equations, BPTT, parameter counts, same stopping subsets and seeds as MLP-H5, independent NumPy reference, comparison with MLP-H5, XGB-H5, MLR-H5, limitations |
 
 **Experiment results:**
 - **Experiment 4 (this phase).** `results/logistic_regression_f0_2026-11-17/README.md`.

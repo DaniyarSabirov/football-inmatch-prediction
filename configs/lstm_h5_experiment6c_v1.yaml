@@ -1,0 +1,76 @@
+# Experiment 6C: long short-term memory network with a five-event history (LSTM-H5) on the canonical
+# task actions15_360current_v1. Read by scripts/run_lstm_h5_experiment6c.py and copied into the result
+# directory. EVERYTHING below is frozen before the full run; nothing is chosen from outer-validation
+# results, and the search space is not changed after the run.
+
+experiment_name: lstm_h5_experiment6c_v1
+task_config: configs/actions15_360current_v1.yaml        # used unchanged (loader refuses drift)
+baseline_results_dir: results/canonical_baselines_actions15_360current_v1_2026-11-19   # read only
+experiment5_config: configs/xgboost_experiment5_v1.yaml                                # read only
+experiment5_results_dir: results/xgboost_experiment5_actions15_360current_v1_2026-11-20 # read only
+experiment5_predictions: data/interim/xgboost_experiment5/oof_predictions.parquet      # read only
+experiment5b_results_dir: results/xgboost_experiment5b_h2_actions15_360current_v1_2026-11-21  # read only
+experiment5b_predictions: data/interim/xgboost_experiment5b/oof_predictions_h2.parquet        # read only
+experiment6a_config: configs/logistic_h5_experiment6a_v1.yaml                                # read only (raw-verification strata)
+experiment6a_results_dir: results/logistic_h5_experiment6a_actions15_360current_v1_2026-11-23 # read only
+experiment6a_predictions: data/interim/logistic_h5_experiment6a/oof_predictions_mlr_h5.parquet # read only
+experiment6b_config: configs/mlp_h5_experiment6b_v1.yaml                                     # read only (training protocol)
+experiment6b_results_dir: results/mlp_h5_experiment6b_actions15_360current_v1_2026-11-23      # read only
+experiment6b_predictions: data/interim/mlp_h5_experiment6b/oof_predictions_mlp_h5.parquet     # read only
+output_dir: results/lstm_h5_experiment6c_actions15_360current_v1_2026-11-25
+artefact_dir: data/interim/lstm_h5_experiment6c              # git-ignored: predictions, models, logs, status
+checkpoint_dir: data/interim/lstm_h5_experiment6c/checkpoints
+
+# LSTM-H5 input: X_t = (E_{t-4}, ..., E_t), the XGB-H5 / MLR-H5 / MLP-H5 history (event_history.py,
+# unchanged), fed oldest -> newest as 5 one-hot vectors over the shared 16-symbol vocabulary
+# (15 classes + <START>); tensor (B, 5, 16). Same information as the 79-column encoding of 6A / 6B;
+# the difference is architectural (shared recurrent parameters applied position by position).
+feature_set: {name: LSTM-H5, n_positions: 5, input_dim: 16, representation: one-hot}
+
+lstm:
+  n_classes: 15
+  implementation: "torch.nn.LSTM (batch_first, unidirectional, bias=True), stateless (h_0 = c_0 = 0 per window)"
+  output: "logits z = W_out drop(h_5 of the last layer) + b_out; softmax only at inference"
+  bidirectional: false
+  builtin_interlayer_dropout: 0.0      # nn.LSTM(dropout=...) disabled; the only dropout is on h_5 before W_out
+  initialisation: "PyTorch defaults (nn.LSTM: U(-1/sqrt(H), 1/sqrt(H)) for all weights and both biases; nn.Linear default)"
+  # Prespecified candidate list (8 configurations; the researcher's proposed table, adopted unchanged).
+  candidates:
+    - {name: A, hidden: 32,  layers: 1, dropout: 0.0, weight_decay: 0.0,    lr: 1.0e-3}
+    - {name: B, hidden: 64,  layers: 1, dropout: 0.0, weight_decay: 0.0,    lr: 1.0e-3}
+    - {name: C, hidden: 64,  layers: 1, dropout: 0.1, weight_decay: 1.0e-4, lr: 1.0e-3}
+    - {name: D, hidden: 128, layers: 1, dropout: 0.1, weight_decay: 1.0e-4, lr: 1.0e-3}
+    - {name: E, hidden: 32,  layers: 2, dropout: 0.1, weight_decay: 1.0e-4, lr: 1.0e-3}
+    - {name: F, hidden: 64,  layers: 2, dropout: 0.1, weight_decay: 1.0e-4, lr: 1.0e-3}
+    - {name: G, hidden: 64,  layers: 1, dropout: 0.1, weight_decay: 1.0e-4, lr: 3.0e-4}
+    - {name: H, hidden: 128, layers: 1, dropout: 0.1, weight_decay: 1.0e-4, lr: 3.0e-4}
+
+training:                       # identical to experiment 6B except where marked
+  optimizer: AdamW              # decoupled weight decay: w <- w - lr * wd * w per step, on weight matrices only (biases: 0)
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+  batch_size: 512
+  max_epochs: 60
+  patience: 5                   # stop after 5 epochs without improvement of the stopping-subset log loss
+  min_delta: 0.0                # improvement = strictly smaller stopping-subset log loss
+  stopping_fraction: 0.10       # share of a fit's TRAINING matches held out as its early-stopping subset (same matches as 6B)
+  gradient_clipping: null       # 6C: none (as 6B); the global gradient L2 norm of every batch is recorded as a diagnostic
+  loss: "torch.nn.functional.cross_entropy on logits (mean over rows; log-softmax inside)"
+  dtype: float32                # probabilities: softmax of the float32 logits computed in float64
+  device: cpu                   # benchmark 2026-11-25 (inner-fit workload): CPU 1 thread 2.1 (A) .. 8.6 (D) s/epoch; 2 / 4 threads slower;
+                                # MPS 0.8-1.4x of CPU time but training determinism unverified -> CPU, never switched
+  num_threads: 1                # per process (fastest per process in the benchmark; bitwise reproducibility verified at 1 thread)
+  deterministic_algorithms: true
+  parallel_fold_workers: 4      # 6C: the 5 outer folds run in separate 1-thread processes, at most 4 at a time (4 performance
+                                # cores; worker peak RSS 0.8 GB, 8 GB machine). Same result as a sequential run (deterministic per fold)
+  seed: 20261123                # base of all fit, epoch-permutation, dropout and stopping-subset seeds (= 6B)
+  robustness_seeds: 2           # extra refit seeds (replicates 1..2) of the SELECTED configuration per outer fold;
+                                # replicate 0 is the primary prediction (prespecified, never the best seed)
+
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 7             # identical to the baselines and experiments 5/5B/6A/6B
+  probability_tolerance: 1.0e-9
+  permutation_repeats: 10
+  permutation_seed: 11
+  raw_reconstruction: {seed: 20261125, n_matches: 12}   # independent raw-JSON rebuild (audited K1-K3 code of the 6A/6B audit)
